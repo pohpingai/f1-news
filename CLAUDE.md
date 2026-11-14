@@ -14,8 +14,10 @@
 ## About the project
 A daily Formula 1 news website.
 - `scripts/fetch_news.py` reads RSS news feeds and saves stories to `data/news.json`.
-- `news.html` is the web page that shows the stories (`index.html` just forwards to it).
-- `.github/workflows/fetch-news.yml` runs the script on GitHub every 2 hours.
+- `scripts/ai_cluster.py` (the "AI brain") groups stories about the same event into cards
+  in `data/cards.json`, using OpenRouter (model: `anthropic/claude-haiku-5.5`).
+- `news.html` is the web page: "Top stories (AI)" cards and "All stories" (`index.html` just forwards to it).
+- `.github/workflows/fetch-news.yml` runs both scripts on GitHub every 2 hours.
 - The site is published with GitHub Pages.
 
 ## Data rules
@@ -24,3 +26,11 @@ A daily Formula 1 news website.
 - Delete stories older than 30 days.
 - Formula1.com gives no dates, so we save the time we first "saw" the story.
 - Times on the page are shown in Malaysia time (UTC+8).
+
+## AI rules
+- The AI uses only headlines and snippets. It must never invent facts.
+- If unsure whether two stories match, keep them separate.
+- Only new stories are sent to the AI; a new story can join a card from the last 48 hours.
+- Every merge saves the AI's reason; close calls it kept apart are saved in `decisions`.
+- The OpenRouter key lives only in GitHub Secrets as `OPENROUTER_API_KEY`. Never put a key in the code.
+- If there is no key or the AI fails, the site must still update with "All stories".

@@ -7,41 +7,65 @@
   <style>
     :root {
       --bg: #f6f6f7; --card: #ffffff; --text: #16161a; --muted: #62626b;
-      --line: #e3e3e8; --accent: #e10600;
+      --line: #e3e3e8; --accent: #e10600; --note-bg: #fff6e0; --note-text: #6b4a00;
     }
     @media (prefers-color-scheme: dark) {
-      :root { --bg: #111114; --card: #1b1b20; --text: #ececf1; --muted: #9a9aa5; --line: #2b2b33; }
+      :root { --bg: #111114; --card: #1b1b20; --text: #ececf1; --muted: #9a9aa5; --line: #2b2b33;
+              --note-bg: #3a2f12; --note-text: #f3d48a; }
     }
     * { box-sizing: border-box; }
     body {
       margin: 0; background: var(--bg); color: var(--text);
       font: 16px/1.45 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
     }
-    header {
-      background: var(--accent); color: #fff; padding: 16px;
-    }
+    header { background: var(--accent); color: #fff; padding: 16px; }
     header h1 { margin: 0; font-size: 1.4rem; }
     header p { margin: 4px 0 0; font-size: 0.85rem; opacity: 0.9; }
     main { max-width: 760px; margin: 0 auto; padding: 8px 12px 40px; }
+
+    .views { display: flex; margin: 14px 0 4px; border: 1px solid var(--line); border-radius: 10px; overflow: hidden; }
+    .views button {
+      flex: 1; border: 0; background: var(--card); color: var(--text); padding: 10px;
+      font-size: 0.95rem; font-weight: 600; cursor: pointer;
+    }
+    .views button.on { background: var(--text); color: var(--bg); }
+
+    .headline-of-day {
+      background: var(--card); border-left: 5px solid var(--accent); border-radius: 8px;
+      padding: 12px 14px; margin: 14px 0 4px; font-size: 1.05rem; font-weight: 600;
+    }
+    .headline-of-day small { display: block; color: var(--muted); font-weight: 400; font-size: 0.75rem;
+      text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 4px; }
+
     .filters { display: flex; flex-wrap: wrap; gap: 6px; margin: 12px 0; }
     .filters button {
       border: 1px solid var(--line); background: var(--card); color: var(--text);
       border-radius: 999px; padding: 6px 12px; font-size: 0.85rem; cursor: pointer;
     }
     .filters button.on { background: var(--text); color: var(--bg); border-color: var(--text); }
-    h2 {
-      font-size: 1rem; margin: 24px 0 8px; padding-bottom: 4px;
-      border-bottom: 2px solid var(--accent);
-    }
+
+    h2 { font-size: 1rem; margin: 24px 0 8px; padding-bottom: 4px; border-bottom: 2px solid var(--accent); }
     article {
       background: var(--card); border: 1px solid var(--line); border-radius: 10px;
       padding: 12px 14px; margin-bottom: 10px;
     }
-    article a { color: var(--text); text-decoration: none; font-weight: 600; font-size: 1.05rem; }
-    article a:hover { text-decoration: underline; }
+    article a.headline { color: var(--text); text-decoration: none; font-weight: 600; font-size: 1.05rem; }
+    article a.headline:hover { text-decoration: underline; }
+    article h3 { margin: 0; font-size: 1.05rem; }
     .meta { color: var(--muted); font-size: 0.8rem; margin-top: 4px; }
     .source { color: var(--accent); font-weight: 600; }
-    .snippet { margin: 6px 0 0; font-size: 0.92rem; color: var(--muted); }
+    .snippet, .summary { margin: 6px 0 0; font-size: 0.92rem; color: var(--muted); }
+    .summary { color: var(--text); }
+    .badge { display: inline-block; background: var(--accent); color: #fff; border-radius: 999px;
+      font-size: 0.72rem; font-weight: 700; padding: 1px 8px; margin-left: 6px; vertical-align: middle; }
+    .note { background: var(--note-bg); color: var(--note-text); border-radius: 6px; padding: 6px 8px;
+      font-size: 0.85rem; margin-top: 8px; }
+    .links { list-style: none; padding: 0; margin: 8px 0 0; font-size: 0.88rem; }
+    .links li { margin: 4px 0; }
+    .links a { color: var(--text); }
+    details { margin-top: 8px; font-size: 0.82rem; color: var(--muted); }
+    details summary { cursor: pointer; }
+    details p { margin: 4px 0 0; }
     .message { text-align: center; color: var(--muted); padding: 40px 0; }
   </style>
 </head>
@@ -51,6 +75,11 @@
     <p id="updated">Loading…</p>
   </header>
   <main>
+    <div class="views">
+      <button id="view-cards" class="on">Top stories (AI)</button>
+      <button id="view-all">All stories</button>
+    </div>
+    <div id="headline"></div>
     <div class="filters" id="filters"></div>
     <div id="news"><p class="message">Loading the latest news…</p></div>
   </main>
@@ -64,6 +93,8 @@
     const timeLabel = new Intl.DateTimeFormat("en-GB", { timeZone: TIME_ZONE, hour: "2-digit", minute: "2-digit" });
 
     let allStories = [];
+    let cardsData = null;      // stays null if the AI has not made any cards yet
+    let view = "cards";        // "cards" or "all"
     let chosenSource = "All";
 
     // Makes text safe to put on the page (stops odd characters breaking it).
@@ -82,64 +113,125 @@
       return dayLabel.format(date);
     }
 
-    function showFilters() {
-      const sources = ["All", ...new Set(allStories.map(s => s.source))].sort((a, b) =>
-        a === "All" ? -1 : b === "All" ? 1 : a.localeCompare(b));
-      const box = document.getElementById("filters");
-      box.innerHTML = "";
-      for (const source of sources) {
-        const button = document.createElement("button");
-        button.textContent = source;
-        button.className = source === chosenSource ? "on" : "";
-        button.onclick = () => { chosenSource = source; showFilters(); showNews(); };
-        box.appendChild(button);
-      }
+    function storyTime(story) {
+      return (story.date_is_seen_time ? "seen at " : "") + timeLabel.format(new Date(story.date));
     }
 
-    function showNews() {
-      const stories = allStories
-        .filter(s => chosenSource === "All" || s.source === chosenSource)
-        .sort((a, b) => b.date.localeCompare(a.date)); // newest first
-
-      if (stories.length === 0) {
-        document.getElementById("news").innerHTML = '<p class="message">No stories yet.</p>';
-        return;
-      }
-
-      let html = "";
-      let currentDay = "";
-      for (const story of stories) {
-        const date = new Date(story.date);
+    // Puts a day heading ("Today · ...") above the first item of each day.
+    function groupByDay(items, getDate, render) {
+      let html = "", currentDay = "";
+      for (const item of items) {
+        const date = new Date(getDate(item));
         const key = dayKey.format(date);
         if (key !== currentDay) {
           currentDay = key;
           html += `<h2>${safe(friendlyDay(date))}</h2>`;
         }
-        const time = (story.date_is_seen_time ? "seen at " : "") + timeLabel.format(date);
-        html += `
-          <article>
-            <a href="${safe(story.link)}" target="_blank" rel="noopener">${safe(story.title)}</a>
-            <div class="meta"><span class="source">${safe(story.source)}</span> · ${time}</div>
-            ${story.snippet ? `<p class="snippet">${safe(story.snippet)}</p>` : ""}
-          </article>`;
+        html += render(item);
       }
-      document.getElementById("news").innerHTML = html;
+      return html;
     }
 
-    fetch("data/news.json", { cache: "no-store" })
-      .then(response => response.json())
-      .then(data => {
-        allStories = data.stories || [];
-        const updated = new Date(data.updated);
-        document.getElementById("updated").textContent =
-          `${allStories.length} stories · updated ${dayLabel.format(updated)}, ${timeLabel.format(updated)} (Malaysia time)`;
-        showFilters();
-        showNews();
-      })
-      .catch(() => {
-        document.getElementById("updated").textContent = "";
-        document.getElementById("news").innerHTML = '<p class="message">Sorry, the news could not be loaded.</p>';
+    // ---------- "All stories" view (the same as before the AI) ----------
+
+    function showFilters() {
+      const box = document.getElementById("filters");
+      box.innerHTML = "";
+      if (view !== "all") return;
+      const sources = ["All", ...[...new Set(allStories.map(s => s.source))].sort()];
+      for (const source of sources) {
+        const button = document.createElement("button");
+        button.textContent = source;
+        button.className = source === chosenSource ? "on" : "";
+        button.onclick = () => { chosenSource = source; show(); };
+        box.appendChild(button);
+      }
+    }
+
+    function showAllStories() {
+      const stories = allStories
+        .filter(s => chosenSource === "All" || s.source === chosenSource)
+        .sort((a, b) => b.date.localeCompare(a.date)); // newest first
+      if (stories.length === 0) return '<p class="message">No stories yet.</p>';
+      return groupByDay(stories, s => s.date, story => `
+        <article>
+          <a class="headline" href="${safe(story.link)}" target="_blank" rel="noopener">${safe(story.title)}</a>
+          <div class="meta"><span class="source">${safe(story.source)}</span> · ${storyTime(story)}</div>
+          ${story.snippet ? `<p class="snippet">${safe(story.snippet)}</p>` : ""}
+        </article>`);
+    }
+
+    // ---------- "Top stories (AI)" view ----------
+
+    function cardDate(card) {
+      return card.stories.map(s => s.date).sort().pop();
+    }
+
+    function showCards() {
+      if (!cardsData || !cardsData.cards.length) {
+        return '<p class="message">The AI has not grouped any stories yet. Try "All stories".</p>';
+      }
+      const cards = [...cardsData.cards].sort((a, b) => cardDate(b).localeCompare(cardDate(a)));
+      return groupByDay(cards, cardDate, card => {
+        const stories = [...card.stories].sort((a, b) => a.date.localeCompare(b.date));
+        const sourceCount = new Set(stories.map(s => s.source)).size;
+        const badge = stories.length > 1 ? `<span class="badge">${sourceCount} sources</span>` : "";
+        const links = stories.map(s => `
+          <li><span class="source">${safe(s.source)}</span> ·
+            <a href="${safe(s.link)}" target="_blank" rel="noopener">${safe(s.title)}</a>
+            <span class="meta">(${storyTime(s)})</span></li>`).join("");
+        const reasons = (card.merge_reasons || []).map(r => `<p>• ${safe(r.reason)}</p>`).join("");
+        return `
+          <article>
+            <h3>${safe(card.title)}${badge}</h3>
+            <p class="summary">${safe(card.summary)}</p>
+            ${card.disagreement ? `<div class="note">⚠️ Sources disagree: ${safe(card.disagreement)}</div>` : ""}
+            <ul class="links">${links}</ul>
+            ${reasons ? `<details><summary>Why did the AI group these?</summary>${reasons}</details>` : ""}
+          </article>`;
       });
+    }
+
+    function showHeadline() {
+      const box = document.getElementById("headline");
+      const h = cardsData && cardsData.headline_of_the_day;
+      box.innerHTML = (view === "cards" && h && h.text)
+        ? `<div class="headline-of-day"><small>Headline of the day · ${safe(h.date)}</small>${safe(h.text)}</div>`
+        : "";
+    }
+
+    // ---------- Switching views ----------
+
+    function show() {
+      document.getElementById("view-cards").className = view === "cards" ? "on" : "";
+      document.getElementById("view-all").className = view === "all" ? "on" : "";
+      showHeadline();
+      showFilters();
+      document.getElementById("news").innerHTML = view === "cards" ? showCards() : showAllStories();
+    }
+    document.getElementById("view-cards").onclick = () => { view = "cards"; show(); };
+    document.getElementById("view-all").onclick = () => { view = "all"; show(); };
+
+    // ---------- Loading the data ----------
+
+    Promise.all([
+      fetch("data/news.json", { cache: "no-store" }).then(r => r.json()),
+      // cards.json may not exist yet (e.g. no AI key) — that's fine, we just show all stories.
+      fetch("data/cards.json", { cache: "no-store" }).then(r => r.ok ? r.json() : null).catch(() => null),
+    ]).then(([news, cards]) => {
+      allStories = news.stories || [];
+      cardsData = cards;
+      if (!cardsData || !cardsData.cards || !cardsData.cards.length) view = "all";
+      const updated = new Date(news.updated);
+      const cardCount = cardsData ? cardsData.cards.length : 0;
+      document.getElementById("updated").textContent =
+        `${allStories.length} stories` + (cardCount ? ` · ${cardCount} AI cards` : "") +
+        ` · updated ${dayLabel.format(updated)}, ${timeLabel.format(updated)} (Malaysia time)`;
+      show();
+    }).catch(() => {
+      document.getElementById("updated").textContent = "";
+      document.getElementById("news").innerHTML = '<p class="message">Sorry, the news could not be loaded.</p>';
+    });
   </script>
 </body>
 </html>
