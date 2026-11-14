@@ -72,3 +72,23 @@
 ### Next ideas
 - Watch a few days of cards and adjust the rules if merges look wrong.
 - Maybe: show the "kept separate" decisions on a small "AI log" page.
+
+## Session 3 — 15 Nov 2026: card polish
+
+### Done
+- Merged cards stand out: a bigger "3 sources" badge and a red stripe down the left side.
+  (If one website has two stories in a card, the badge says "2 stories" instead.)
+- Inside each day, merged cards come first (most sources at the top), then the rest, newest first.
+- The AI's merge reason now sits behind a small "Why grouped?" button on each merged card.
+  Tap to open, tap again to close.
+
+### Tested
+- With the real cards from the live site (60 cards, 6 merged), on a phone-sized screen:
+  merged cards always come before single cards in the same day; 6 badges and 6 "Why grouped?"
+  buttons; the reason is hidden until tapped and hides again on a second tap; no sideways
+  scrolling; "All stories" view unchanged (247 stories); no errors.
+- The live robot run after Step 2 worked: it created `data/cards.json` with the key from GitHub Secrets.
+
+### Next ideas
+- Watch a few days of cards and adjust the AI rules if merges look wrong.
+- Maybe: show the "kept separate" decisions on a small "AI log" page.

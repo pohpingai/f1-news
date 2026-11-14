@@ -56,16 +56,28 @@
     .source { color: var(--accent); font-weight: 600; }
     .snippet, .summary { margin: 6px 0 0; font-size: 0.92rem; color: var(--muted); }
     .summary { color: var(--text); }
+    article.merged { border-left: 5px solid var(--accent); }
     .badge { display: inline-block; background: var(--accent); color: #fff; border-radius: 999px;
-      font-size: 0.72rem; font-weight: 700; padding: 1px 8px; margin-left: 6px; vertical-align: middle; }
+      font-size: 0.8rem; font-weight: 700; padding: 2px 10px; margin-left: 6px; vertical-align: middle;
+      white-space: nowrap; }
     .note { background: var(--note-bg); color: var(--note-text); border-radius: 6px; padding: 6px 8px;
       font-size: 0.85rem; margin-top: 8px; }
     .links { list-style: none; padding: 0; margin: 8px 0 0; font-size: 0.88rem; }
     .links li { margin: 4px 0; }
     .links a { color: var(--text); }
-    details { margin-top: 8px; font-size: 0.82rem; color: var(--muted); }
-    details summary { cursor: pointer; }
-    details p { margin: 4px 0 0; }
+    /* The small "Why grouped?" button. Tapping it opens/closes the AI's reason. */
+    details.why { margin-top: 10px; font-size: 0.85rem; }
+    details.why summary {
+      display: inline-block; list-style: none; cursor: pointer; user-select: none;
+      border: 1px solid var(--line); border-radius: 999px; padding: 3px 12px;
+      color: var(--muted); background: var(--bg); font-weight: 600;
+    }
+    details.why summary::-webkit-details-marker { display: none; }
+    details.why summary::before { content: "▸ "; }
+    details.why[open] summary::before { content: "▾ "; }
+    details.why[open] summary { color: var(--text); border-color: var(--text); }
+    .why-box { margin-top: 6px; padding: 8px 10px; border-radius: 6px; background: var(--bg); color: var(--text); }
+    .why-box p { margin: 2px 0; }
     .message { text-align: center; color: var(--muted); padding: 40px 0; }
   </style>
 </head>
@@ -171,23 +183,32 @@
       if (!cardsData || !cardsData.cards.length) {
         return '<p class="message">The AI has not grouped any stories yet. Try "All stories".</p>';
       }
-      const cards = [...cardsData.cards].sort((a, b) => cardDate(b).localeCompare(cardDate(a)));
+      // Order: newest day first. Inside each day, cards with the most sources come first,
+      // then the newest. (Day headings are added by groupByDay.)
+      const sourceCount = card => new Set(card.stories.map(s => s.source)).size;
+      const cards = [...cardsData.cards].sort((a, b) =>
+        dayKey.format(new Date(cardDate(b))).localeCompare(dayKey.format(new Date(cardDate(a)))) ||
+        sourceCount(b) - sourceCount(a) ||
+        b.stories.length - a.stories.length ||
+        cardDate(b).localeCompare(cardDate(a)));
       return groupByDay(cards, cardDate, card => {
         const stories = [...card.stories].sort((a, b) => a.date.localeCompare(b.date));
         const sourceCount = new Set(stories.map(s => s.source)).size;
-        const badge = stories.length > 1 ? `<span class="badge">${sourceCount} sources</span>` : "";
+        const merged = stories.length > 1;
+        const badgeText = sourceCount > 1 ? `${sourceCount} sources` : `${stories.length} stories`;
+        const badge = merged ? `<span class="badge">${badgeText}</span>` : "";
         const links = stories.map(s => `
           <li><span class="source">${safe(s.source)}</span> ·
             <a href="${safe(s.link)}" target="_blank" rel="noopener">${safe(s.title)}</a>
             <span class="meta">(${storyTime(s)})</span></li>`).join("");
-        const reasons = (card.merge_reasons || []).map(r => `<p>• ${safe(r.reason)}</p>`).join("");
+        const reasons = (card.merge_reasons || []).map(r => `<p>🤖 ${safe(r.reason)}</p>`).join("");
         return `
-          <article>
+          <article class="${merged ? "merged" : ""}">
             <h3>${safe(card.title)}${badge}</h3>
             <p class="summary">${safe(card.summary)}</p>
             ${card.disagreement ? `<div class="note">⚠️ Sources disagree: ${safe(card.disagreement)}</div>` : ""}
             <ul class="links">${links}</ul>
-            ${reasons ? `<details><summary>Why did the AI group these?</summary>${reasons}</details>` : ""}
+            ${reasons ? `<details class="why"><summary>Why grouped?</summary><div class="why-box">${reasons}</div></details>` : ""}
           </article>`;
       });
     }
