@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>F1 News Daily</title>
+  <style>
+    :root {
+      --bg: #f6f6f7; --card: #ffffff; --text: #16161a; --muted: #62626b;
+      --line: #e3e3e8; --accent: #e10600;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root { --bg: #111114; --card: #1b1b20; --text: #ececf1; --muted: #9a9aa5; --line: #2b2b33; }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; background: var(--bg); color: var(--text);
+      font: 16px/1.45 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    }
+    header {
+      background: var(--accent); color: #fff; padding: 16px;
+    }
+    header h1 { margin: 0; font-size: 1.4rem; }
+    header p { margin: 4px 0 0; font-size: 0.85rem; opacity: 0.9; }
+    main { max-width: 760px; margin: 0 auto; padding: 8px 12px 40px; }
+    .filters { display: flex; flex-wrap: wrap; gap: 6px; margin: 12px 0; }
+    .filters button {
+      border: 1px solid var(--line); background: var(--card); color: var(--text);
+      border-radius: 999px; padding: 6px 12px; font-size: 0.85rem; cursor: pointer;
+    }
+    .filters button.on { background: var(--text); color: var(--bg); border-color: var(--text); }
+    h2 {
+      font-size: 1rem; margin: 24px 0 8px; padding-bottom: 4px;
+      border-bottom: 2px solid var(--accent);
+    }
+    article {
+      background: var(--card); border: 1px solid var(--line); border-radius: 10px;
+      padding: 12px 14px; margin-bottom: 10px;
+    }
+    article a { color: var(--text); text-decoration: none; font-weight: 600; font-size: 1.05rem; }
+    article a:hover { text-decoration: underline; }
+    .meta { color: var(--muted); font-size: 0.8rem; margin-top: 4px; }
+    .source { color: var(--accent); font-weight: 600; }
+    .snippet { margin: 6px 0 0; font-size: 0.92rem; color: var(--muted); }
+    .message { text-align: center; color: var(--muted); padding: 40px 0; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🏎️ F1 News Daily</h1>
+    <p id="updated">Loading…</p>
+  </header>
+  <main>
+    <div class="filters" id="filters"></div>
+    <div id="news"><p class="message">Loading the latest news…</p></div>
+  </main>
+
+  <script>
+    // Times are shown in Malaysia time.
+    const TIME_ZONE = "Asia/Kuala_Lumpur";
+
+    const dayKey = new Intl.DateTimeFormat("en-CA", { timeZone: TIME_ZONE, year: "numeric", month: "2-digit", day: "2-digit" });
+    const dayLabel = new Intl.DateTimeFormat("en-GB", { timeZone: TIME_ZONE, weekday: "long", day: "numeric", month: "long", year: "numeric" });
+    const timeLabel = new Intl.DateTimeFormat("en-GB", { timeZone: TIME_ZONE, hour: "2-digit", minute: "2-digit" });
+
+    let allStories = [];
+    let chosenSource = "All";
+
+    // Makes text safe to put on the page (stops odd characters breaking it).
+    function safe(text) {
+      const div = document.createElement("div");
+      div.textContent = text || "";
+      return div.innerHTML;
+    }
+
+    function friendlyDay(date) {
+      const today = dayKey.format(new Date());
+      const yesterday = dayKey.format(new Date(Date.now() - 86400000));
+      const key = dayKey.format(date);
+      if (key === today) return "Today · " + dayLabel.format(date);
+      if (key === yesterday) return "Yesterday · " + dayLabel.format(date);
+      return dayLabel.format(date);
+    }
+
+    function showFilters() {
+      const sources = ["All", ...new Set(allStories.map(s => s.source))].sort((a, b) =>
+        a === "All" ? -1 : b === "All" ? 1 : a.localeCompare(b));
+      const box = document.getElementById("filters");
+      box.innerHTML = "";
+      for (const source of sources) {
+        const button = document.createElement("button");
+        button.textContent = source;
+        button.className = source === chosenSource ? "on" : "";
+        button.onclick = () => { chosenSource = source; showFilters(); showNews(); };
+        box.appendChild(button);
+      }
+    }
+
+    function showNews() {
+      const stories = allStories
+        .filter(s => chosenSource === "All" || s.source === chosenSource)
+        .sort((a, b) => b.date.localeCompare(a.date)); // newest first
+
+      if (stories.length === 0) {
+        document.getElementById("news").innerHTML = '<p class="message">No stories yet.</p>';
+        return;
+      }
+
+      let html = "";
+      let currentDay = "";
+      for (const story of stories) {
+        const date = new Date(story.date);
+        const key = dayKey.format(date);
+        if (key !== currentDay) {
+          currentDay = key;
+          html += `<h2>${safe(friendlyDay(date))}</h2>`;
+        }
+        const time = (story.date_is_seen_time ? "seen at " : "") + timeLabel.format(date);
+        html += `
+          <article>
+            <a href="${safe(story.link)}" target="_blank" rel="noopener">${safe(story.title)}</a>
+            <div class="meta"><span class="source">${safe(story.source)}</span> · ${time}</div>
+            ${story.snippet ? `<p class="snippet">${safe(story.snippet)}</p>` : ""}
+          </article>`;
+      }
+      document.getElementById("news").innerHTML = html;
+    }
+
+    fetch("data/news.json", { cache: "no-store" })
+      .then(response => response.json())
+      .then(data => {
+        allStories = data.stories || [];
+        const updated = new Date(data.updated);
+        document.getElementById("updated").textContent =
+          `${allStories.length} stories · updated ${dayLabel.format(updated)}, ${timeLabel.format(updated)} (Malaysia time)`;
+        showFilters();
+        showNews();
+      })
+      .catch(() => {
+        document.getElementById("updated").textContent = "";
+        document.getElementById("news").innerHTML = '<p class="message">Sorry, the news could not be loaded.</p>';
+      });
+  </script>
+</body>
+</html>

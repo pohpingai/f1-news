@@ -1,0 +1,44 @@
+# The "robot": GitHub runs this every 2 hours.
+# It collects the latest F1 news and saves data/news.json back into the repo.
+name: Fetch F1 news
+
+on:
+  schedule:
+    - cron: "0 */2 * * *"   # every 2 hours (GitHub may start it a few minutes late)
+  workflow_dispatch:        # adds a "Run workflow" button so you can run it by hand
+
+permissions:
+  contents: write           # allows the robot to save the updated news file
+
+concurrency:
+  group: fetch-news
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install the feed reader
+        run: pip install -r requirements.txt
+
+      - name: Collect the news
+        run: python scripts/fetch_news.py
+
+      - name: Save the news (only if something changed)
+        run: |
+          if git diff --quiet -- data/news.json; then
+            echo "No new stories."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add data/news.json
+          git commit -m "Update F1 news"
+          git pull --rebase
+          git push
