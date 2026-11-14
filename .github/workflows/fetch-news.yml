@@ -30,15 +30,20 @@ jobs:
       - name: Collect the news
         run: python scripts/fetch_news.py
 
+      - name: AI groups stories into cards
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}   # from GitHub Secrets, never in the code
+        run: python scripts/ai_cluster.py
+
       - name: Save the news (only if something changed)
         run: |
-          if git diff --quiet -- data/news.json; then
+          if git diff --quiet -- data/ && [ -z "$(git ls-files --others data/)" ]; then
             echo "No new stories."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
-          git add data/news.json
+          git add data/
           git commit -m "Update F1 news"
           git pull --rebase
           git push

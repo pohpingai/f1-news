@@ -32,5 +32,43 @@
 - GitHub can start the 2-hour job a few minutes late. That is normal.
 
 ### Next ideas
-- Turn on GitHub Pages (see README).
-- Step 2: maybe add AI (for example, a daily summary or merging duplicate stories).
+- ~~Turn on GitHub Pages~~ and ~~Step 2: add AI~~ (done in session 2).
+
+## Session 2 — 15 Nov 2026: Step 2, the AI brain
+
+### Done
+- `scripts/ai_cluster.py` sends NEW stories to the AI (OpenRouter, model `anthropic/claude-haiku-5.5`).
+  The AI groups stories about the same event into cards. A new story can join a card from the
+  last 48 hours. On the very first run only the last 48 hours are grouped.
+- Each card has an AI title, a 2-sentence summary, all source links, a "sources disagree" note
+  (only when they do), and the AI's reason for each merge. Close calls it kept apart are saved too.
+- One-sentence "headline of the day" (Malaysia date).
+- Saved in `data/cards.json`. `data/news.json` is unchanged.
+- `news.html` now has two views: "Top stories (AI)" and "All stories" (the old view, with filters).
+  The "Why did the AI group these?" box shows the reasons.
+- The workflow runs the AI step with the key from GitHub Secrets (`OPENROUTER_API_KEY`).
+- Safety: no key → AI skipped; AI error → those stories are retried next run; the news still updates.
+
+### Tested (on 67 stories from the last 48 hours)
+- First try merged two things wrongly: two RaceFans "On This Day" pieces about different Brazil
+  races, and two different people's opinions about Ferrari. Added rules for history pieces,
+  opinions, and stories from the same website. Second try: 6 correct merges, and both wrong
+  ones were kept apart with clear reasons.
+- Re-run with no new stories: no AI call, file unchanged.
+- A "late" story correctly joined an existing card (McLaren Las Vegas upgrade).
+- No key: AI step skipped politely.
+- Headline of the day first mentioned "websites"; fixed the rule so it only talks about F1 news.
+- Page checked on a phone: both views, badges, reasons box, no sideways scroll, no errors.
+  Without `cards.json` the page falls back to "All stories".
+
+### Cost
+- First run (67 stories): $0.009. A normal 2-hour run: about $0.001–0.003.
+  Roughly $0.02–0.04 per day (~$1/month). The OpenRouter key has a $5 limit.
+
+### Things to know
+- The AI can still make mistakes. Check the "Why did the AI group these?" reasons now and then.
+- Test data was not committed; the robot creates `data/cards.json` on its first run after merging.
+
+### Next ideas
+- Watch a few days of cards and adjust the rules if merges look wrong.
+- Maybe: show the "kept separate" decisions on a small "AI log" page.
