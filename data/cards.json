@@ -1,12 +1,30 @@
 {
- "updated": "2026-11-14T23:33:49Z",
+ "updated": "2026-11-15T04:40:15Z",
  "model": "anthropic/claude-haiku-5.5",
  "headline_of_the_day": {
   "date": "2026-11-15",
-  "text": "Kimi Antonelli, the reigning World Champion, is looking ahead to his 2027 title defence, while Mercedes have claimed their ninth Constructors' title in 2026.",
-  "written": "2026-11-14T23:33:49Z"
+  "text": "Kimi Antonelli has won the 2026 Drivers' World Championship and Mercedes claimed their ninth Constructors' title, while Antonelli has already named his main rivals for 2027.",
+  "written": "2026-11-15T04:40:15Z"
  },
  "cards": [
+  {
+   "id": "c2fac4caf",
+   "created": "2026-11-15T04:40:15Z",
+   "stories": [
+    {
+     "title": "Lewis Hamilton ‘causing’ Ferrari No.1 saga as Damon Hill theory rejected",
+     "source": "PlanetF1",
+     "date": "2026-11-15T04:00:30Z",
+     "link": "https://www.planetf1.com/news/lewis-hamilton-causing-ferrari-tension-ralf-schumacher",
+     "snippet": "\"He is the one causing it.\""
+    }
+   ],
+   "merge_reasons": [],
+   "title": "PlanetF1 says Hamilton is causing the Ferrari No.1 saga",
+   "summary": "PlanetF1 reports that a Damon Hill theory about the Ferrari No.1 situation has been rejected. The article quotes the line \"He is the one causing it.\"",
+   "disagreement": "",
+   "updated": "2026-11-15T04:40:15Z"
+  },
   {
    "id": "ccdbc9441",
    "created": "2026-11-14T23:33:49Z",
@@ -1277,6 +1295,21 @@
     }
    ],
    "reason": "S6 is a broader analysis of the whole 2027 driver market, while cd6add4b0 is specifically about Lawson's top-six betting prospects after his Racing Bulls deal, so they are different stories."
+  },
+  {
+   "time": "2026-11-15T04:40:15Z",
+   "items": [
+    {
+     "title": "Lewis Hamilton ‘causing’ Ferrari No.1 saga as Damon Hill theory rejected",
+     "source": "PlanetF1",
+     "link": "https://www.planetf1.com/news/lewis-hamilton-causing-ferrari-tension-ralf-schumacher"
+    },
+    {
+     "card": "c0e1792a0",
+     "title": "Damon Hill says Ferrari has a 'political problem'"
+    }
+   ],
+   "reason": "Both concern Damon Hill's Ferrari and Hamilton comments, but S1 reports a different person rejecting Hill's theory, so it is not the same comment or news."
   }
  ],
  "processed": [
@@ -1490,6 +1523,7 @@
   "https://www.planetf1.com/news/imola-reveals-future-f1-return-plan",
   "https://www.planetf1.com/news/jonathan-mcevoy-fia-ban-ferrari",
   "https://www.planetf1.com/news/kimi-antonelli-in-awe-after-international-football-fans-chant-his-name",
+  "https://www.planetf1.com/news/lewis-hamilton-causing-ferrari-tension-ralf-schumacher",
   "https://www.planetf1.com/news/max-verstappen-named-mercedes-biggest-2027-threat",
   "https://www.planetf1.com/news/mercedes-reveals-brazilian-gp-investigation-findings",
   "https://www.planetf1.com/news/michael-schumacher-jock-clear",
