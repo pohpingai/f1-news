@@ -280,3 +280,40 @@
 ### Next
 - After merging: deploy the new `worker/ask-worker.js` to Cloudflare.
 - Run the report card after every change to the AI parts.
+
+## Session 10 — 15 Nov 2026: Worker deploy + more news sources
+
+### Done
+- Deployed the Session 9 Worker (report-card fixes) to Cloudflare; checked the live code has the
+  fixes, secrets untouched, settings kept (logs on, preview links off, date 2026-11-15).
+- New `scripts/check_feeds.py` (+ manual GitHub button "Check new feeds"): tries possible RSS
+  feeds, reads homepages for advertised RSS links, and reports stories / dates / F1 share / tags.
+- Added 4 new sources (5 feeds) to `scripts/fetch_news.py`:
+  - **GPFans** `gpfans.com/en/rss.xml` — all F1, dated (only the latest 10 items per read).
+  - **Sky Sports** `skysports.com/rss/12433` — all F1; "Video" clips are skipped (new `skip_tags`).
+  - **ESPN** `espn.com/espn/rss/f1/news` — all F1, dated.
+  - **FIA** press releases + news — covers ALL motorsport, so only items whose headline or
+    snippet says F1 / Formula 1 / Formula One are kept (new `f1_only`); "Sport news" prefix trimmed.
+- The collector now also accepts `F1_DATA_DIR` (safe tests on a copy of the data).
+
+### Not added (and why)
+- **Reuters**: no public RSS any more (feeds closed in 2020); the F1 page answers 401 Forbidden.
+- **Team sites** (Mercedes, McLaren, Red Bull, Aston Martin, Williams, Racing Bulls, Cadillac):
+  no RSS feed (404 or a normal web page). **Haas** has a feed, but it lists sponsors, not news.
+- **Ferrari, Alpine**: their sites refuse automated visitors (403). **Audi/Sauber**: site not reachable.
+- FIA `rss.xml`: old (last item March 2026), a list of pages, not news.
+
+### Tested (on a copy of the live data)
+- 55 new stories: GPFans 10, Sky Sports 16, ESPN 23, FIA 6. No Sky videos, no F4/karting/rally FIA items.
+- AI brain: 11 cards now combine a new source with existing ones (e.g. Racing Bulls line-up:
+  ESPN + Formula1.com + Sky Sports). Rumour tracker found a new rumour (Cadillac F1 sale, GPFans).
+- Report card: **18/18** ($0.0039).
+
+### Cost
+- New sources add ~6–20 stories a day to ~33 → about +$0.005–0.015 per day. One-off catch-up of
+  the first 56 stories: ~$0.01.
+- Main key: $0.109 used so far, $4.89 left.
+
+### Problems
+- Claude could not add the new sites to the cloud machine's allowed list (the settings service
+  refused), and running the checks on GitHub was blocked; the user added the sites by hand.
