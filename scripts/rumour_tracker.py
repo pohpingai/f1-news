@@ -6,9 +6,11 @@ What this script does, step by step:
 2. Find cards it has not looked at yet (or that got new stories):
    - "Rumour" cards: the AI decides if each one is the same as a known rumour (update it)
      or a new rumour (add it).
-   - "Confirmed" cards: the AI checks if one officially confirms or denies a known rumour.
+   - "Confirmed" (official) and "Reported" (on-the-record quotes) cards: the AI checks if one
+     confirms or denies a known rumour.
 3. SAFETY LOCK: a rumour only becomes Confirmed or Denied if
-   - the proof card is labelled "Confirmed", AND
+   - Confirmed: the proof card is labelled "Confirmed" (official news only), AND
+   - Denied: the proof card is labelled "Confirmed" or "Reported" (an on-the-record denial), AND
    - the AI copies the exact official words from that card's headline or snippet, AND
    - this script checks those words really are there.
    Otherwise the change is blocked and the reason is saved in the rumour's history.
@@ -44,13 +46,16 @@ FORGET_AFTER_DAYS = 60      # finished rumours (Confirmed / Denied / Faded) are 
 RESOLVED_CONTEXT_DAYS = 14  # recently confirmed/denied rumours are still shown to the AI (avoids duplicates)
 BATCH_SIZE = 40             # cards per AI request
 
-OPEN = ("Active", "Faded")  # statuses that can still change to Confirmed / Denied
+OPEN = ("Active", "Faded")
+PROOF_LABELS = ("Confirmed", "Reported")  # cards that can confirm (Confirmed only) or deny (both)  # statuses that can still change to Confirmed / Denied
 
 # ---------------------------------------------------------------------------
 
 RULES = """You keep a tracker of Formula 1 RUMOURS for a news website.
 
-You get: KNOWN RUMOURS (R-ids), NEW RUMOUR CARDS (N-ids) and NEW CONFIRMED CARDS (P-ids).
+You get: KNOWN RUMOURS (R-ids), NEW RUMOUR CARDS (N-ids) and NEW OFFICIAL / ON-THE-RECORD
+CARDS (P-ids). Each P card shows its label: [Confirmed] = official announcement or result,
+[Reported] = something a person said on the record in an interview or to the media.
 
 TASK 1 - for every NEW RUMOUR CARD decide:
 - "match": the R-id of the known rumour it is about (the SAME specific claim: same people,
@@ -63,11 +68,12 @@ For "new", write:
 - people: the drivers, teams and people involved (names exactly as written in the text).
 Always give a one-sentence reason.
 
-TASK 2 - for every NEW CONFIRMED CARD, check if it officially CONFIRMS or officially DENIES
-one of the known rumours. Only report real matches. Most confirmed cards will match nothing.
-- Confirmed: the text shows an official announcement or on-the-record statement that the
-  rumoured thing has happened or is agreed.
-- Denied: the text shows an official, on-the-record denial of the rumour.
+TASK 2 - for every NEW OFFICIAL / ON-THE-RECORD CARD, check if it CONFIRMS or DENIES one of the
+known rumours. Only report real matches. Most cards will match nothing.
+- Confirmed: ONLY from a [Confirmed] card: the text shows an OFFICIAL announcement that the
+  rumoured thing has happened or is agreed. A [Reported] card can never confirm a rumour.
+- Denied: from a [Confirmed] card (official denial) or a [Reported] card where a person involved
+  clearly denies the rumour on the record.
 For each match give:
 - evidence: words copied EXACTLY (character for character) from that card's headlines or
   snippets that show the official confirmation or denial. Do not paraphrase.
@@ -111,6 +117,11 @@ def simplify(text):
 def card_text(card):
     """The original headlines and snippets of a card (NOT the AI-written summary)."""
     return " ".join(f'{s["title"]} {s.get("snippet", "")}' for s in card["stories"])
+
+
+def card_state(card):
+    """What we remember about a card we have looked at: its story count and label."""
+    return f'{len(card["stories"])}|{card.get("label")}'
 
 
 def story_ref(story):
@@ -179,11 +190,11 @@ def build_prompt(known, rumour_cards, confirmed_cards):
         for story in card["stories"]:
             lines.append(f"   - {describe_story(story)}")
 
-    lines.append("\nNEW CONFIRMED CARDS:")
+    lines.append("\nNEW OFFICIAL / ON-THE-RECORD CARDS:")
     if not confirmed_cards:
         lines.append("(none)")
     for number, card in enumerate(confirmed_cards, start=1):
-        lines.append(f'P{number}: {card["title"]}')
+        lines.append(f'P{number} [{card.get("label")}]: {card["title"]}')
         for story in card["stories"]:
             lines.append(f"   - {describe_story(story)}")
     return "\n".join(lines)
@@ -265,8 +276,10 @@ def apply_reply(reply, known, rumour_cards, confirmed_cards, rumours_by_id, now)
         problem = None
         if card is None:
             problem = "the AI did not point to a valid proof card"
-        elif card.get("label") != "Confirmed":
-            problem = f'the proof card is labelled "{card.get("label")}", not "Confirmed"'
+        elif new_status == "Confirmed" and card.get("label") != "Confirmed":
+            problem = f'the proof card is labelled "{card.get("label")}"; only official "Confirmed" news can confirm'
+        elif new_status == "Denied" and card.get("label") not in PROOF_LABELS:
+            problem = f'the proof card is labelled "{card.get("label")}"; a denial needs official or on-the-record news'
         elif len(evidence) < 15:
             problem = "the AI gave no clear official words as evidence"
         elif simplify(evidence) not in simplify(card_text(card)):
@@ -311,19 +324,20 @@ def main():
     total_cost = 0.0
 
     # 1. Which cards are new (or got new stories) since the last run?
+    # (A card is looked at again if it got new stories or its label changed.)
     fresh = [c for c in cards
-             if c.get("label") in ("Rumour", "Confirmed") and tracked.get(c["id"]) != len(c["stories"])]
+             if c.get("label") in ("Rumour",) + PROOF_LABELS and tracked.get(c["id"]) != card_state(c)]
     fresh.sort(key=lambda c: min(s["date"] for s in c["stories"]))  # oldest first
     rumour_cards_all = [c for c in fresh if c["label"] == "Rumour"]
-    confirmed_all = [c for c in fresh if c["label"] == "Confirmed"]
-    print(f"{len(rumour_cards_all)} new rumour cards, {len(confirmed_all)} new confirmed cards")
+    confirmed_all = [c for c in fresh if c["label"] in PROOF_LABELS]
+    print(f"{len(rumour_cards_all)} new rumour cards, {len(confirmed_all)} new official/on-the-record cards")
 
     # 2. Ask the AI, in batches.
     queue = rumour_cards_all + confirmed_all
     for start in range(0, len(queue), BATCH_SIZE):
         batch = queue[start:start + BATCH_SIZE]
         rumour_cards = [c for c in batch if c["label"] == "Rumour"]
-        confirmed_cards = [c for c in batch if c["label"] == "Confirmed"]
+        confirmed_cards = [c for c in batch if c["label"] in PROOF_LABELS]
         recent_cutoff = now - timedelta(days=RESOLVED_CONTEXT_DAYS)
         known = sorted((r for r in rumours_by_id.values()
                         if r["status"] in OPEN or from_iso(r["last_seen"]) >= recent_cutoff),
@@ -333,7 +347,7 @@ def main():
         if not rumour_cards and not open_now:
             # Nothing to compare the confirmed cards with: no AI call needed.
             for card in batch:
-                tracked[card["id"]] = len(card["stories"])
+                tracked[card["id"]] = card_state(card)
             changed = True
             continue
 
@@ -348,7 +362,7 @@ def main():
         for line in apply_reply(reply, known, rumour_cards, confirmed_cards, rumours_by_id, now):
             print("  " + line)
         for card in batch:
-            tracked[card["id"]] = len(card["stories"])
+            tracked[card["id"]] = card_state(card)
         changed = True
 
     # 3. Plain-code updates: Faded status, trends, and forgetting old finished rumours.

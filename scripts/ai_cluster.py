@@ -43,20 +43,26 @@ KEEP_DAYS = 30                         # delete cards older than this (same as s
 MALAYSIA = timezone(timedelta(hours=8))
 
 API_URL = "https://openrouter.ai/api/v1/chat/completions"
-LABELS = ("Confirmed", "Rumour", "Opinion")
+LABELS = ("Confirmed", "Reported", "Rumour", "Opinion")
+LABELS_VERSION = 2                     # bump this when the label rules change: all cards get re-labelled once
 LABEL_BATCH = 80                       # cards per catch-up labelling request
 
 # ---------------------------------------------------------------------------
 
 # The label rules, shared by the grouping request and the catch-up labelling request.
-LABEL_DEFINITIONS = """- Confirmed: NEWS that officially happened or was said on the record: results, penalties,
-  official team / driver / FIA announcements, signed deals, a person's own quoted words.
+LABEL_DEFINITIONS = """- Confirmed: OFFICIAL news only: official announcements or statements by a team, driver, F1 or
+  the FIA (press releases, signings announced by the team, rule decisions), race and session
+  results, penalties and official decisions.
+- Reported: things people said ON THE RECORD in interviews, press conferences, podcasts or to
+  the media: "X says", "X admits", "X reveals", "X claims", "X explains". The words are real
+  quotes, but they are not an official announcement.
 - Rumour: unconfirmed claims about what might happen: "sources say", "understood", "in talks",
   "set to", "could", "linked with", "expected to", claims nobody has confirmed.
 - Opinion: everything that is not breaking news: columns, analysis, explainers, features, profiles,
   history pieces and look-backs, lists, predictions, roundups, "Why ...", "OPINION".
   These are Opinion even when they contain facts.
-If unsure between Confirmed and Rumour, choose Rumour."""
+If unsure between Confirmed and Reported, choose Reported.
+If unsure between Confirmed/Reported and Rumour, choose Rumour."""
 
 RULES = """You are the editor of a Formula 1 news website. You group news stories about the SAME event
 from different websites into one "card", and write a short card for each group.
@@ -87,7 +93,7 @@ STRICT RULES
    disagreement.
 9. merge_reason: if the card ends up with 2 or more stories, explain in one sentence what shared
    specific event makes them the same story. For a single story, return an empty string.
-10. label: exactly one of "Confirmed", "Rumour" or "Opinion" for the whole card:
+10. label: exactly one of "Confirmed", "Reported", "Rumour" or "Opinion" for the whole card:
     """ + LABEL_DEFINITIONS + """
 11. kept_separate: list the close calls, where stories looked similar but you decided NOT to merge
     them, each with a one-sentence reason. Return an empty list if there were none.
@@ -384,6 +390,14 @@ def main():
     decisions = saved.get("decisions", [])
     first_run = not CARDS_FILE.exists()
 
+    # 0. The label rules changed since these cards were labelled? Clear the labels once,
+    #    so the catch-up step below re-labels every card with the new rules.
+    relabel = not first_run and saved.get("labels_version") != LABELS_VERSION
+    if relabel:
+        for card in cards_by_id.values():
+            card.pop("label", None)
+        print(f"Label rules changed (version {LABELS_VERSION}): re-labelling all {len(cards_by_id)} cards")
+
     # 1. Which stories are new to the AI?
     new = [s for s in stories if s["link"] not in processed]
     if first_run:
@@ -462,6 +476,7 @@ def main():
         "cards": cards,
         "decisions": decisions,
         "processed": sorted(processed),
+        "labels_version": LABELS_VERSION,
     })
     merged = sum(1 for c in cards if len(c["stories"]) > 1)
     counts = {label: sum(1 for c in cards if c.get("label") == label) for label in LABELS}

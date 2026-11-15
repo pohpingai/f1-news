@@ -164,3 +164,40 @@
 ### Things to know
 - `data/costs.json` starts empty: it only counts the robot's runs from now on.
 - Needs Step 3 (PR #4) merged first, because it also counts the rumour tracker.
+
+## Session 6 — 15 Nov 2026: "Reported" label + Ask tab
+
+### Done
+- New label **Reported** (on-the-record quotes and interviews). **Confirmed** now means official
+  team / driver / FIA news, results and penalties only. All cards are re-labelled once
+  (`LABELS_VERSION = 2`).
+- Rumour tracker: only Confirmed (official) news can confirm a rumour; an official statement OR an
+  on-the-record denial (Reported) can deny one. Evidence words are still checked word-for-word.
+- New **Ask** tab: a chat that answers only from the saved cards, rumours and stories, with
+  numbered source links and "Not in my news." when nothing matches. Thinking steps are shown
+  above each answer. Quick buttons: Catch me up (last 7 days), Biggest rumour right now?,
+  What's new on [driver]?
+- New `worker/ask-worker.js` (Cloudflare Worker): holds the chat's OpenRouter key as a secret,
+  checks the passcode, checks today's spending on the key (default limit $0.20/day), then:
+  AI plans the search → code searches the saved news → AI answers only from what was found.
+- `worker/SETUP.md`: step-by-step Cloudflare setup.
+
+### Tested (Worker code run locally with a stand-in for Cloudflare, data = copy of the live site)
+- Labels: 11 Confirmed, 29 Reported, 2 Rumour, 21 Opinion (one miss: a PlanetF1 opinion piece as Reported).
+- Safety lock: 6 cases, including "Reported quote tries to confirm" → blocked, "Reported denial" → allowed.
+- 5 questions: catch-up ($0.0014), biggest rumour ($0.0004), Antonelli ($0.0010), journalist ban
+  ($0.0005), "Who won the Monaco GP this year?" → "Not in my news." ($0.00015). Spot-checked facts
+  against the saved stories (Tsunoda appeal date, Verstappen 21st→2nd) — correct.
+- Fixed during testing: catch-up answer was cut off (more room), "what's new" searched only 1 day
+  (now 7), "ban" matched "Urban" (whole words now), wrong-passcode message was hidden.
+- Wrong passcode → refused (1 s delay); daily limit reached → refused; question too long → refused;
+  other websites not allowed; no secrets → clear message.
+- Browser (phone size): setup box, buttons, answers with clickable [n] links, sources, cost line,
+  chat kept when switching tabs, no sideways scroll, no errors.
+
+### Money
+- $0.063 used on the main key so far ($4.94 left). Ask: about $0.0002–0.0014 per question.
+
+### Next
+- User: follow `worker/SETUP.md` (separate `f1-news-ask` key, Cloudflare Worker, two secrets).
+- The Worker reads the live site, so it only knows what the robot has saved.

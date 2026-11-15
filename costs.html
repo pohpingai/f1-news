@@ -107,7 +107,9 @@
         <p class="note">Collecting the news, the robot (GitHub Actions on a public repository) and the website
           (GitHub Pages) cost $0. Only the AI features above cost money.<br>
           Model: ${safe(log.model || "")}. Costs are the real amounts reported by OpenRouter for the robot's
-          requests. Money spent while building and testing is listed in COSTS.md, not here.</p>`;
+          requests. Money spent while building and testing is listed in COSTS.md, not here.<br>
+          The <b>Ask</b> tab's costs are not in this table: each answer shows its own cost, and the total is on
+          openrouter.ai under the chat's own key.</p>`;
       return html;
     }
 
