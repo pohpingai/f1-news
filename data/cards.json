@@ -1,30 +1,87 @@
 {
- "updated": "2026-11-15T13:23:51Z",
+ "updated": "2026-11-15T19:32:36Z",
  "model": "anthropic/claude-haiku-5.5",
  "headline_of_the_day": {
-  "date": "2026-11-15",
-  "text": "Antonelli is the 2026 world champion, with Las Vegas next as the front of the grid is tighter than at any point this season, while Racing Bulls retain Lawson and Lindblad for 2027.",
-  "written": "2026-11-15T13:23:51Z"
+  "date": "2026-11-16",
+  "text": "Racing Bulls confirmed Liam Lawson and Arvid Lindblad for 2027, while the FIA's removal of a veteran journalist's paddock access over a Charles Leclerc column drew criticism from Bernie Ecclestone.",
+  "written": "2026-11-15T19:32:36Z"
  },
  "cards": [
   {
-   "id": "c537837f9",
-   "created": "2026-11-15T13:23:51Z",
+   "id": "cc775b9e4",
+   "created": "2026-11-15T19:32:36Z",
    "stories": [
     {
-     "title": "Toto Wolff reacts as Ron Dennis and Sir Frank Williams F1 landmarks achieved",
-     "source": "PlanetF1",
-     "date": "2026-11-15T13:20:13Z",
-     "link": "https://www.planetf1.com/news/toto-wolff-ron-dennis-frank-williams-f1-title-record",
-     "snippet": "Is Toto Wolff at the Ron Dennis and Sir Frank Williams level?"
+     "title": "QUIZ: Can you identify these F1 tracks from just one picture?",
+     "source": "Formula1.com",
+     "date": "2026-11-15T19:32:33Z",
+     "link": "https://www.formula1.com/en/latest/article/trivia-guess-the-track-1.1N6Z8MTxyBFjqio8h5hOSW",
+     "snippet": ""
     }
    ],
    "merge_reasons": [],
-   "title": "Toto Wolff reacts as Dennis and Williams milestones are matched",
-   "summary": "PlanetF1 reports Toto Wolff's reaction as the Ron Dennis and Sir Frank Williams F1 landmarks were achieved. The article asks whether Wolff now stands at the same level as those two.",
+   "title": "Quiz: Can you identify these F1 tracks from one picture?",
+   "summary": "Formula1.com has published a quiz asking readers to identify F1 tracks from single pictures. No other details are given in the text provided.",
+   "disagreement": "",
+   "label": "Opinion",
+   "updated": "2026-11-15T19:32:36Z"
+  },
+  {
+   "id": "c25c9fb60",
+   "created": "2026-11-15T19:32:36Z",
+   "stories": [
+    {
+     "title": "Behind the lens with Mark Sutton for Antonelli's F1 title triumph",
+     "source": "Formula1.com",
+     "date": "2026-11-15T19:32:33Z",
+     "link": "https://www.formula1.com/en/latest/article/one-of-the-best-experiences-of-my-life-mark-sutton-on-photographing-antonellis-f1-title.2oqpziZe3WQ5B2xFvPWsnU",
+     "snippet": "F1 photographer Mark Sutton reflects on capturing Kimi Antonelli's 2026 championship, from the emotional celebrations at Monza to his title triumph in Mexico."
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Photographer Mark Sutton reflects on Antonelli's title triumph",
+   "summary": "F1 photographer Mark Sutton reflects on capturing Kimi Antonelli's 2026 championship. His account runs from the emotional celebrations at Monza to the title triumph in Mexico.",
+   "disagreement": "",
+   "label": "Opinion",
+   "updated": "2026-11-15T19:32:36Z"
+  },
+  {
+   "id": "c84bd951d",
+   "created": "2026-11-15T19:32:36Z",
+   "stories": [
+    {
+     "title": "Liam Lawson to McLaren tease as Oscar Piastri warned by Steiner",
+     "source": "PlanetF1",
+     "date": "2026-11-15T19:01:48Z",
+     "link": "https://www.planetf1.com/news/liam-lawson-mclaren-oscar-piastri-guenther-steiner",
+     "snippet": "\"Maybe Liam Lawson is free.\""
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Lawson McLaren tease as Steiner warns Piastri",
+   "summary": "Guenther Steiner has suggested that Liam Lawson may be free for a move, and warned Oscar Piastri. The suggestion of a McLaren link is speculative.",
+   "disagreement": "",
+   "label": "Rumour",
+   "updated": "2026-11-15T19:32:36Z"
+  },
+  {
+   "id": "c0e6edd2f",
+   "created": "2026-11-15T19:32:36Z",
+   "stories": [
+    {
+     "title": "Christian Horner explains why Max Verstappen’s “abnormal” driving style destroys his team-mates",
+     "source": "Motorsport.com",
+     "date": "2026-11-15T19:00:02Z",
+     "link": "https://www.motorsport.com/f1/news/horner-explains-why-max-verstappens-abnormal-driving-style-destroys-his-teammates/10874636/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "snippet": "The narrative surrounding Red Bull Racing over the last half-decade has consistently featured a rotating cast of drivers struggling - and often failing - to survive alongside Max Verstappen. Former…"
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Horner explains why Verstappen's driving style unsettles team-mates",
+   "summary": "Christian Horner has explained why Max Verstappen's driving style is described as abnormal and causes problems for his team-mates. The piece places this within Red Bull's rotating line-up of drivers.",
    "disagreement": "",
    "label": "Reported",
-   "updated": "2026-11-15T13:23:51Z"
+   "updated": "2026-11-15T19:32:36Z"
   },
   {
    "id": "cd6add4b0",
@@ -50,6 +107,20 @@
      "date": "2026-11-15T13:08:22Z",
      "link": "https://www.autosport.com/f1/news/retaining-lawson-isnt-enough-red-bull-must-stop-treating-him-like-a-failure/10874666/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
      "snippet": "Liam Lawson never failed at Red Bull Racing in 2025. It was Red Bull that failed Liam Lawson. Retaining his services for another year isn't just a logical decision, but perhaps the first sign that…"
+    },
+    {
+     "title": "Retaining Liam Lawson isn't enough – Red Bull must stop treating him like a failure",
+     "source": "Motorsport.com",
+     "date": "2026-11-15T18:30:03Z",
+     "link": "https://www.motorsport.com/f1/news/retaining-liam-lawson-isnt-enough-red-bull-must-stop-treating-him-like-a-failure/10874659/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "snippet": "Liam Lawson never failed at Red Bull Racing in 2025. It was Red Bull that failed Liam Lawson. Retaining his services for another year isn't just a logical decision, but perhaps the first sign that…"
+    },
+    {
+     "title": "Liam Lawson's dad makes emotional admission after Kiwi secures F1 future",
+     "source": "GPFans",
+     "date": "2026-11-15T18:45:00Z",
+     "link": "https://www.gpfans.com/en/f1-news/1092931/f1-liam-lawson-father-admission-new-contract-racing-bulls/",
+     "snippet": "Liam Lawson's father has responded with an emotional statement after the news that his son has finally signed a contract to race in F1 again in 2027."
     }
    ],
    "merge_reasons": [
@@ -60,13 +131,271 @@
      ],
      "joined_existing": true,
      "reason": "The Autosport column comments on the same decision to retain Liam Lawson for 2027 that the card reports."
+    },
+    {
+     "time": "2026-11-15T19:32:36Z",
+     "added": [
+      "https://www.motorsport.com/f1/news/retaining-liam-lawson-isnt-enough-red-bull-must-stop-treating-him-like-a-failure/10874659/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+      "https://www.gpfans.com/en/f1-news/1092931/f1-liam-lawson-father-admission-new-contract-racing-bulls/"
+     ],
+     "joined_existing": true,
+     "reason": "The Motorsport.com column repeats an article already in the card, and Lawson's father's reaction responds to the same Racing Bulls 2027 signing."
     }
    ],
-   "title": "Racing Bulls confirm Lawson and Lindblad for 2027 line-up",
-   "summary": "Racing Bulls have confirmed that Liam Lawson and Arvid Lindblad will be retained for the 2027 Formula 1 season. An Autosport column argues that keeping Lawson is not enough and that Red Bull must stop treating him as a failure.",
+   "title": "Racing Bulls confirm Lawson and Lindblad for 2027",
+   "summary": "Racing Bulls have confirmed Liam Lawson and Arvid Lindblad for the 2027 Formula 1 season. Commentary argues Red Bull should stop treating Lawson as a failure, and his father has responded emotionally to the news.",
    "disagreement": "",
-   "updated": "2026-11-15T13:23:51Z",
+   "updated": "2026-11-15T19:32:36Z",
    "label": "Confirmed"
+  },
+  {
+   "id": "c38fc0958",
+   "created": "2026-11-15T19:32:36Z",
+   "stories": [
+    {
+     "title": "Bearman sends Ferrari message as Lewis Hamilton succession talk gathers pace",
+     "source": "GPFans",
+     "date": "2026-11-15T17:59:00Z",
+     "link": "https://www.gpfans.com/en/f1-news/1092932/f1-ollie-bearman-ferrari-message-lewis-hamilton-replacement-haas/",
+     "snippet": "Haas star Ollie Bearman has sent a message to Ferrari as he continues to await an opportunity at a top team."
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Bearman sends Ferrari message amid Hamilton succession talk",
+   "summary": "Haas driver Ollie Bearman has sent a message to Ferrari as he waits for an opportunity at a top team. The message comes as Lewis Hamilton succession talk gathers pace.",
+   "disagreement": "",
+   "label": "Reported",
+   "updated": "2026-11-15T19:32:36Z"
+  },
+  {
+   "id": "cba74864a",
+   "created": "2026-11-15T19:32:36Z",
+   "stories": [
+    {
+     "title": "Hamilton ‘causing’ Ferrari saga; F1 tipped for imminent sale; Russell crossroads – roundup",
+     "source": "PlanetF1",
+     "date": "2026-11-15T17:01:27Z",
+     "link": "https://www.planetf1.com/news/lewis-hamilton-causing-ferrari-saga-formula-1-sale",
+     "snippet": "Lewis Hamilton, George Russell, Michael Schumacher and more feature in the latest F1 news headlines."
+    }
+   ],
+   "merge_reasons": [],
+   "title": "PlanetF1 roundup covers Hamilton, F1 sale and Russell",
+   "summary": "PlanetF1's roundup covers several stories, including Lewis Hamilton's role in the Ferrari saga, talk of an imminent F1 sale and George Russell's crossroads. It groups multiple separate headlines into one feature.",
+   "disagreement": "",
+   "label": "Opinion",
+   "updated": "2026-11-15T19:32:36Z"
+  },
+  {
+   "id": "c9c23c4a4",
+   "created": "2026-11-15T19:32:36Z",
+   "stories": [
+    {
+     "title": "Toto Wolff makes stunning Kimi Antonelli claim that will shock Ferrari",
+     "source": "GPFans",
+     "date": "2026-11-15T16:59:00Z",
+     "link": "https://www.gpfans.com/en/f1-news/1092926/f1-toto-wolff-kimi-antonelli-ferrari-mercedes-future-move-chance/",
+     "snippet": "Mercedes boss Toto Wolff has insisted that he has no fears about young star Kimi Antonelli jumping ship for Ferrari in the future."
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Wolff says he has no fears over Antonelli joining Ferrari",
+   "summary": "Mercedes boss Toto Wolff has said he has no fears about Kimi Antonelli leaving for Ferrari in the future. The comments were reported by GPFans.",
+   "disagreement": "",
+   "label": "Reported",
+   "updated": "2026-11-15T19:32:36Z"
+  },
+  {
+   "id": "c2281dc96",
+   "created": "2026-11-15T19:32:36Z",
+   "stories": [
+    {
+     "title": "Christian Horner blames Red Bull leadership structure for missing F1’s future stars",
+     "source": "Motorsport.com",
+     "date": "2026-11-15T16:01:16Z",
+     "link": "https://www.motorsport.com/f1/news/i-never-had-responsibility-horner-blames-fractured-red-bull-leadership-for-missing-f1s-future-stars/10874624/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "snippet": "For years, Red Bull Racing's dual-leadership structure between team principal Christian Horner and motorsport advisor Dr. Helmut Marko was praised as a ruthless but highly effective system. But…"
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Horner blames Red Bull leadership structure for missed talent",
+   "summary": "Christian Horner has blamed Red Bull Racing's dual-leadership structure with Helmut Marko for missing F1's future stars. The article frames the structure as previously praised but now questioned.",
+   "disagreement": "",
+   "label": "Reported",
+   "updated": "2026-11-15T19:32:36Z"
+  },
+  {
+   "id": "c9f00295d",
+   "created": "2026-11-14T23:33:49Z",
+   "stories": [
+    {
+     "title": "Spotlight: FIA pulls F1 reporter’s pass over column calling Leclerc a ‘sneaky b*****d’ | Brief",
+     "source": "RaceFans",
+     "date": "2026-11-13T09:33:53Z",
+     "link": "https://www.racefans.net/2026/11/13/spotlight-fia-pulls-f1-reporters-pass-over-column-calling-leclerc-a-sneaky-bd/",
+     "snippet": "FIA pulls F1 reporter's pass over Leclerc 'b*****d' column"
+    },
+    {
+     "title": "F1 journalist claims he has been banned from paddock after Charles Leclerc criticism",
+     "source": "Crash.net",
+     "date": "2026-11-13T11:02:41Z",
+     "link": "https://www.crash.net/f1/news/1110107/1/f1-journalist-claims-he-has-been-banned-paddock-after-charles-leclerc-criticism",
+     "snippet": "A British journalist claims he has been banned from the F1 paddock until the end of the season."
+    },
+    {
+     "title": "F1 journalist receives FIA ban in Ferrari dispute as boycott announced",
+     "source": "PlanetF1",
+     "date": "2026-11-14T09:15:49Z",
+     "link": "https://www.planetf1.com/news/jonathan-mcevoy-fia-ban-ferrari",
+     "snippet": "The veteran Formula 1 journalist has been banned from the paddock for the remainder of F1 2026."
+    },
+    {
+     "title": "F1 journalist ban sparks backlash as FIA decision branded 'completely mad'",
+     "source": "GPFans",
+     "date": "2026-11-15T16:01:00Z",
+     "link": "https://www.gpfans.com/en/f1-news/1092927/f1-journalist-ban-backlash-fia-bernie-ecclestone-criticism/",
+     "snippet": "Bernie Ecclestone has spoken out about his friend and Daily Mail F1 journalist Jonathan McEvoy having his media accreditation removed for the last three races of the 2026 season."
+    }
+   ],
+   "merge_reasons": [
+    {
+     "time": "2026-11-14T23:33:49Z",
+     "added": [
+      "https://www.racefans.net/2026/11/13/spotlight-fia-pulls-f1-reporters-pass-over-column-calling-leclerc-a-sneaky-bd/",
+      "https://www.crash.net/f1/news/1110107/1/f1-journalist-claims-he-has-been-banned-paddock-after-charles-leclerc-criticism",
+      "https://www.planetf1.com/news/jonathan-mcevoy-fia-ban-ferrari"
+     ],
+     "joined_existing": false,
+     "reason": "All three stories report the same FIA ban of the same veteran journalist over the same Leclerc-related column."
+    },
+    {
+     "time": "2026-11-15T19:32:36Z",
+     "added": [
+      "https://www.gpfans.com/en/f1-news/1092927/f1-journalist-ban-backlash-fia-bernie-ecclestone-criticism/"
+     ],
+     "joined_existing": true,
+     "reason": "The Daily Mail journalist's accreditation removal described in the GPFans story is the same FIA decision covered in the existing card."
+    }
+   ],
+   "title": "FIA bans journalist from F1 paddock after Leclerc column",
+   "summary": "The FIA has removed a veteran journalist's paddock access for the rest of the 2026 season over a column criticising Charles Leclerc. Bernie Ecclestone has criticised the decision as 'completely mad'.",
+   "disagreement": "",
+   "updated": "2026-11-15T19:32:36Z",
+   "label": "Confirmed"
+  },
+  {
+   "id": "c302c3d85",
+   "created": "2026-11-15T19:32:36Z",
+   "stories": [
+    {
+     "title": "Mercedes explains how Russell made Kimi Antonelli’s F1 success possible",
+     "source": "PlanetF1",
+     "date": "2026-11-15T14:53:26Z",
+     "link": "https://www.planetf1.com/news/mercedes-george-russell-role-kimi-antonelli-f1-success",
+     "snippet": "Mercedes has heralded the role George Russell has had in Kimi Antonelli's title success."
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Mercedes credits Russell for Antonelli's title success",
+   "summary": "Mercedes has highlighted the role George Russell played in making Kimi Antonelli's Formula 1 title success possible. The comments come from the team.",
+   "disagreement": "",
+   "label": "Reported",
+   "updated": "2026-11-15T19:32:36Z"
+  },
+  {
+   "id": "ce03111b5",
+   "created": "2026-11-15T19:32:36Z",
+   "stories": [
+    {
+     "title": "Colton Herta opens up on key advantage as Cadillac F1 rumours swirl",
+     "source": "GPFans",
+     "date": "2026-11-15T14:36:00Z",
+     "link": "https://www.gpfans.com/en/f1-news/1092925/f1-future-colton-herta-cadillac-learning-experience-f2-struggles/",
+     "snippet": "Cadillac F1 hopeful Colton Herta has opened up on the benefits he's found in his first European racing season."
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Herta highlights key advantage in first European season",
+   "summary": "Cadillac F1 hopeful Colton Herta has spoken about the benefits he has found in his first European racing season. The comments come as Cadillac F1 rumours continue.",
+   "disagreement": "",
+   "label": "Reported",
+   "updated": "2026-11-15T19:32:36Z"
+  },
+  {
+   "id": "cf9a1601b",
+   "created": "2026-11-15T19:32:36Z",
+   "stories": [
+    {
+     "title": "Michael Schumacher ‘worse at’ theory in Mercedes F1 comeback presented by Rosberg",
+     "source": "PlanetF1",
+     "date": "2026-11-15T14:00:04Z",
+     "link": "https://www.planetf1.com/news/michael-schumacher-mercedes-f1-worse-at-theory-nico-rosberg",
+     "snippet": "Nico Rosberg revealed the only area where Michael Schumacher showed decline from his peak."
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Rosberg says Schumacher declined only in one area",
+   "summary": "Nico Rosberg has named the only area where Michael Schumacher showed decline from his peak, in his Mercedes comeback. The comments were presented in a PlanetF1 report.",
+   "disagreement": "",
+   "label": "Reported",
+   "updated": "2026-11-15T19:32:36Z"
+  },
+  {
+   "id": "cd070e826",
+   "created": "2026-11-15T19:32:36Z",
+   "stories": [
+    {
+     "title": "Has Ferrari solved its Lewis Hamilton-Charles Leclerc problem? Fred Vasseur shares peace talk details",
+     "source": "Crash.net",
+     "date": "2026-11-15T14:00:00Z",
+     "link": "https://www.crash.net/f1/news/1110117/1/has-ferrari-solved-its-lewis-hamilton-charles-leclerc-problem-fred-vasseur-shares",
+     "snippet": "Fred Vasseur reveals more about the meeting he held with Lewis Hamilton and Charles Leclerc in Brazil."
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Vasseur shares details of Hamilton and Leclerc peace talks",
+   "summary": "Ferrari boss Fred Vasseur has shared more details of his meeting with Lewis Hamilton and Charles Leclerc in Brazil. The talks were aimed at easing tensions between the two drivers.",
+   "disagreement": "",
+   "label": "Reported",
+   "updated": "2026-11-15T19:32:36Z"
+  },
+  {
+   "id": "c63d2b2af",
+   "created": "2026-11-15T19:32:36Z",
+   "stories": [
+    {
+     "title": "Former F1 driver makes comeback with McLaren test",
+     "source": "PlanetF1",
+     "date": "2026-11-15T13:41:40Z",
+     "link": "https://www.planetf1.com/news/former-f1-driver-makes-comeback-with-mclaren-test",
+     "snippet": "Look who's back."
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Former F1 driver makes comeback with McLaren test",
+   "summary": "A former Formula 1 driver has made a comeback with a McLaren test, according to PlanetF1. No further details are available in the text provided.",
+   "disagreement": "",
+   "label": "Reported",
+   "updated": "2026-11-15T19:32:36Z"
+  },
+  {
+   "id": "c537837f9",
+   "created": "2026-11-15T13:23:51Z",
+   "stories": [
+    {
+     "title": "Toto Wolff reacts as Ron Dennis and Sir Frank Williams F1 landmarks achieved",
+     "source": "PlanetF1",
+     "date": "2026-11-15T13:20:13Z",
+     "link": "https://www.planetf1.com/news/toto-wolff-ron-dennis-frank-williams-f1-title-record",
+     "snippet": "Is Toto Wolff at the Ron Dennis and Sir Frank Williams level?"
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Toto Wolff reacts as Dennis and Williams milestones are matched",
+   "summary": "PlanetF1 reports Toto Wolff's reaction as the Ron Dennis and Sir Frank Williams F1 landmarks were achieved. The article asks whether Wolff now stands at the same level as those two.",
+   "disagreement": "",
+   "label": "Reported",
+   "updated": "2026-11-15T13:23:51Z"
   },
   {
    "id": "c996a5204",
@@ -1139,50 +1468,6 @@
    "disagreement": "",
    "updated": "2026-11-14T23:33:49Z",
    "label": "Reported"
-  },
-  {
-   "id": "c9f00295d",
-   "created": "2026-11-14T23:33:49Z",
-   "stories": [
-    {
-     "title": "Spotlight: FIA pulls F1 reporter’s pass over column calling Leclerc a ‘sneaky b*****d’ | Brief",
-     "source": "RaceFans",
-     "date": "2026-11-13T09:33:53Z",
-     "link": "https://www.racefans.net/2026/11/13/spotlight-fia-pulls-f1-reporters-pass-over-column-calling-leclerc-a-sneaky-bd/",
-     "snippet": "FIA pulls F1 reporter's pass over Leclerc 'b*****d' column"
-    },
-    {
-     "title": "F1 journalist claims he has been banned from paddock after Charles Leclerc criticism",
-     "source": "Crash.net",
-     "date": "2026-11-13T11:02:41Z",
-     "link": "https://www.crash.net/f1/news/1110107/1/f1-journalist-claims-he-has-been-banned-paddock-after-charles-leclerc-criticism",
-     "snippet": "A British journalist claims he has been banned from the F1 paddock until the end of the season."
-    },
-    {
-     "title": "F1 journalist receives FIA ban in Ferrari dispute as boycott announced",
-     "source": "PlanetF1",
-     "date": "2026-11-14T09:15:49Z",
-     "link": "https://www.planetf1.com/news/jonathan-mcevoy-fia-ban-ferrari",
-     "snippet": "The veteran Formula 1 journalist has been banned from the paddock for the remainder of F1 2026."
-    }
-   ],
-   "merge_reasons": [
-    {
-     "time": "2026-11-14T23:33:49Z",
-     "added": [
-      "https://www.racefans.net/2026/11/13/spotlight-fia-pulls-f1-reporters-pass-over-column-calling-leclerc-a-sneaky-bd/",
-      "https://www.crash.net/f1/news/1110107/1/f1-journalist-claims-he-has-been-banned-paddock-after-charles-leclerc-criticism",
-      "https://www.planetf1.com/news/jonathan-mcevoy-fia-ban-ferrari"
-     ],
-     "joined_existing": false,
-     "reason": "All three stories report the same FIA ban of the same veteran journalist over the same Leclerc-related column."
-    }
-   ],
-   "title": "Journalist banned from F1 paddock after column criticising Leclerc",
-   "summary": "An FIA press pass was pulled after a column called Charles Leclerc a 'sneaky b*****d', according to RaceFans. Crash.net and PlanetF1 report the journalist was banned from the paddock for the rest of the season, with a boycott announced.",
-   "disagreement": "",
-   "updated": "2026-11-14T23:33:49Z",
-   "label": "Confirmed"
   },
   {
    "id": "cfa961911",
@@ -2513,6 +2798,111 @@
     }
    ],
    "reason": "The Formula1.com piece on Mercedes' history of success covers the team's record, not Wolff's reaction to matching the Dennis and Williams landmarks."
+  },
+  {
+   "time": "2026-11-15T19:32:36Z",
+   "items": [
+    {
+     "title": "Has Ferrari solved its Lewis Hamilton-Charles Leclerc problem? Fred Vasseur shares peace talk details",
+     "source": "Crash.net",
+     "link": "https://www.crash.net/f1/news/1110117/1/has-ferrari-solved-its-lewis-hamilton-charles-leclerc-problem-fred-vasseur-shares"
+    },
+    {
+     "card": "c2fac4caf",
+     "title": "PlanetF1 says Hamilton is causing the Ferrari No.1 saga"
+    }
+   ],
+   "reason": "The Vasseur report is about his meeting with Hamilton and Leclerc, while the PlanetF1 story is about who is causing the Ferrari saga, so they are different angles."
+  },
+  {
+   "time": "2026-11-15T19:32:36Z",
+   "items": [
+    {
+     "title": "Mercedes explains how Russell made Kimi Antonelli’s F1 success possible",
+     "source": "PlanetF1",
+     "link": "https://www.planetf1.com/news/mercedes-george-russell-role-kimi-antonelli-f1-success"
+    },
+    {
+     "card": "c157af946",
+     "title": "Russell 'looking down the barrel' of Antonelli's raw pace"
+    }
+   ],
+   "reason": "Mercedes crediting Russell for Antonelli's success and Allison's comments on Russell facing Antonelli's pace are different statements from different sources."
+  },
+  {
+   "time": "2026-11-15T19:32:36Z",
+   "items": [
+    {
+     "title": "Hamilton ‘causing’ Ferrari saga; F1 tipped for imminent sale; Russell crossroads – roundup",
+     "source": "PlanetF1",
+     "link": "https://www.planetf1.com/news/lewis-hamilton-causing-ferrari-saga-formula-1-sale"
+    },
+    {
+     "card": "c2fac4caf",
+     "title": "PlanetF1 says Hamilton is causing the Ferrari No.1 saga"
+    }
+   ],
+   "reason": "The PlanetF1 roundup covers several headlines, and only one of them overlaps with the Hamilton Ferrari story, so it is not the same event."
+  },
+  {
+   "time": "2026-11-15T19:32:36Z",
+   "items": [
+    {
+     "title": "Hamilton ‘causing’ Ferrari saga; F1 tipped for imminent sale; Russell crossroads – roundup",
+     "source": "PlanetF1",
+     "link": "https://www.planetf1.com/news/lewis-hamilton-causing-ferrari-saga-formula-1-sale"
+    },
+    {
+     "card": "cbc435fa3",
+     "title": "Former Liberty Media boss tips F1 for imminent sale"
+    }
+   ],
+   "reason": "The roundup mentions the F1 sale only as one of several items, so it does not report the same specific event as the sale tip card."
+  },
+  {
+   "time": "2026-11-15T19:32:36Z",
+   "items": [
+    {
+     "title": "Behind the lens with Mark Sutton for Antonelli's F1 title triumph",
+     "source": "Formula1.com",
+     "link": "https://www.formula1.com/en/latest/article/one-of-the-best-experiences-of-my-life-mark-sutton-on-photographing-antonellis-f1-title.2oqpziZe3WQ5B2xFvPWsnU"
+    },
+    {
+     "card": "c107a5382",
+     "title": "Formula1.com writers on Antonelli's title success"
+    }
+   ],
+   "reason": "The Mark Sutton photo feature and the Formula1.com writers' take are different pieces by different people on Antonelli's title."
+  },
+  {
+   "time": "2026-11-15T19:32:36Z",
+   "items": [
+    {
+     "title": "Michael Schumacher ‘worse at’ theory in Mercedes F1 comeback presented by Rosberg",
+     "source": "PlanetF1",
+     "link": "https://www.planetf1.com/news/michael-schumacher-mercedes-f1-worse-at-theory-nico-rosberg"
+    },
+    {
+     "card": "c889a2d29",
+     "title": "Rosberg says Hamilton suspected conspiracy at Mercedes"
+    }
+   ],
+   "reason": "Both are Rosberg interviews about Mercedes, but one covers Schumacher's decline and the other Hamilton's suspicions, so they are different comments."
+  },
+  {
+   "time": "2026-11-15T19:32:36Z",
+   "items": [
+    {
+     "title": "Liam Lawson to McLaren tease as Oscar Piastri warned by Steiner",
+     "source": "PlanetF1",
+     "link": "https://www.planetf1.com/news/liam-lawson-mclaren-oscar-piastri-guenther-steiner"
+    },
+    {
+     "card": "cd6add4b0",
+     "title": "Racing Bulls confirm Lawson and Lindblad for 2027"
+    }
+   ],
+   "reason": "The McLaren speculation about Lawson is a separate rumour from the confirmed Racing Bulls signing, so it stays out of that card."
   }
  ],
  "processed": [
@@ -2657,6 +3047,7 @@
   "https://www.crash.net/f1/news/1110114/1/fia-boss-looking-make-controversial-change-presidency-rule",
   "https://www.crash.net/f1/news/1110115/1/guenther-steiner-makes-max-verstappen-solution-recommendation-ferrari",
   "https://www.crash.net/f1/news/1110116/1/what-time-next-f1-race-las-vegas-gp-dates-and-full-schedule",
+  "https://www.crash.net/f1/news/1110117/1/has-ferrari-solved-its-lewis-hamilton-charles-leclerc-problem-fred-vasseur-shares",
   "https://www.crash.net/f1/results/1110009/1/f1-brazil-grand-prix-full-race-results",
   "https://www.crash.net/motogp/news/1110106/1/watch-dani-pedrosa-race-ktm-motogp-bike-against-red-bull-f1-car-ice",
   "https://www.crash.net/motogp/news/1110108/1/buenos-aires-motogp-circuit-transformation-gathers-pace-f1-dream",
@@ -2673,9 +3064,11 @@
   "https://www.formula1.com/en/latest/article/f1-academy-champion-alisha-palmowski-graduates-to-formula-regional-with-fully-funded-seat.39A1mu7n4LQ3ljJdTyFlhW",
   "https://www.formula1.com/en/latest/article/its-10-years-since-ron-dennis-left-f1-i-miss-him.1HKS8KLe46myFMW6qOzsdY",
   "https://www.formula1.com/en/latest/article/mercedes-incredible-success-through-formula-1-history.7yLliKc36ZI9pd7xzNYFwq",
+  "https://www.formula1.com/en/latest/article/one-of-the-best-experiences-of-my-life-mark-sutton-on-photographing-antonellis-f1-title.2oqpziZe3WQ5B2xFvPWsnU",
   "https://www.formula1.com/en/latest/article/our-writers-on-antonellis-title-success-and-what-it-means.2FAfHA49byUlrrTfVgWKWc",
   "https://www.formula1.com/en/latest/article/the-extra-gear-liam-lawsons-top-six-hopes-examined-after-securing-new-racing-bulls-deal.4FuO5PyKE8vCtfqm1OyxrJ",
   "https://www.formula1.com/en/latest/article/toto-wolffs-journey-from-williams-to-nine-time-champion-with-mercedes.2l85DG3mfUyL5icscw0Gbn",
+  "https://www.formula1.com/en/latest/article/trivia-guess-the-track-1.1N6Z8MTxyBFjqio8h5hOSW",
   "https://www.formula1.com/en/latest/article/why-f1-drivers-love-padel-as-aston-martin-become-the-latest-to-embrace-the-sport.2n2jOtb63TbalovQuHIIUi",
   "https://www.gpfans.com/en/f1-news/1092908/f1-aston-martin-honda-lawrence-stroll-concerns-martin-brundle/",
   "https://www.gpfans.com/en/f1-news/1092910/f1-oscar-piastri-lando-norris-joke-birthday-secret/",
@@ -2688,6 +3081,11 @@
   "https://www.gpfans.com/en/f1-news/1092922/lewis-hamilton-ferrari-f1-outspoken-pushing-charles-leclerc/",
   "https://www.gpfans.com/en/f1-news/1092923/f1-mercedes-boss-james-allison-secret-title-pace-champions/",
   "https://www.gpfans.com/en/f1-news/1092924/f1-insider-max-verstappen-lewis-hamilton-fix-ferrari-leadership/",
+  "https://www.gpfans.com/en/f1-news/1092925/f1-future-colton-herta-cadillac-learning-experience-f2-struggles/",
+  "https://www.gpfans.com/en/f1-news/1092926/f1-toto-wolff-kimi-antonelli-ferrari-mercedes-future-move-chance/",
+  "https://www.gpfans.com/en/f1-news/1092927/f1-journalist-ban-backlash-fia-bernie-ecclestone-criticism/",
+  "https://www.gpfans.com/en/f1-news/1092931/f1-liam-lawson-father-admission-new-contract-racing-bulls/",
+  "https://www.gpfans.com/en/f1-news/1092932/f1-ollie-bearman-ferrari-message-lewis-hamilton-replacement-haas/",
   "https://www.motorsport.com/f1/news/andrea-stella-wants-mclaren-to-finally-make-peace-with-las-vegas/10873819/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/ayrton-sennas-1994-williams-f1-car-heads-to-auction-with-6million-estimate/10874089/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/bruno-senna-reveals-plans-to-put-kimi-antonelli-behind-the-wheel-of-ayrton-sennas-f1-car/10873973/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
@@ -2705,7 +3103,9 @@
   "https://www.motorsport.com/f1/news/guenther-steiner-suggests-mark-webber-became-too-involved-in-oscar-piastris-career/10874383/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/guenther-steiner-suggests-max-verstappen-could-be-better-suited-to-lead-ferrari/10874192/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/guether-steiner-warns-oscar-piastris-mclaren-future-could-be-at-risk-after-2027/10874189/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+  "https://www.motorsport.com/f1/news/horner-explains-why-max-verstappens-abnormal-driving-style-destroys-his-teammates/10874636/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/horribly-painful-williams-2026-car-upgrades-benefit-2027/10874290/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+  "https://www.motorsport.com/f1/news/i-never-had-responsibility-horner-blames-fractured-red-bull-leadership-for-missing-f1s-future-stars/10874624/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/i-was-getting-beat-up-how-daniel-ricciardo-burned-out-on-humiliating-f1-return/10874248/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/inside-turkeys-revamp-for-the-return-of-a-modern-f1-classic/10874598/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/james-allison-admits-flawed-update-18-made-the-mercedes-w17-a-handful/10874437/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
@@ -2735,6 +3135,7 @@
   "https://www.motorsport.com/f1/news/oscar-piastri-youve-got-to-manhandle-mclarens-f1-car-to-find-its-potential/10874559/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/ralf-schumacher-questions-lewis-hamiltons-leadership-as-he-issues-max-verstappen-warning/10874111/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/red-bull-f1-car-takes-on-motogp-bike-rally-car-and-snowmobile-in-extreme-ice-race/10874304/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+  "https://www.motorsport.com/f1/news/retaining-liam-lawson-isnt-enough-red-bull-must-stop-treating-him-like-a-failure/10874659/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/the-impressive-stats-underpinning-liam-lawsons-career-saving-f1-season/10874116/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/the-kimi-antonelli-you-dont-know-inside-the-mercedes-garage-with-f1s-new-world-champion-/10874164/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/topps-celebrates-lewis-hamiltons-400th-f1-start-with-limited-now-card/10874547/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
@@ -2748,18 +3149,23 @@
   "https://www.planetf1.com/news/f1-tipped-for-imminent-sale-by-former-liberty-media-boss",
   "https://www.planetf1.com/news/felipe-massa-ferrari-not-right",
   "https://www.planetf1.com/news/ferrari-f1-2026-mercedes-title-loss-concession",
+  "https://www.planetf1.com/news/former-f1-driver-makes-comeback-with-mclaren-test",
   "https://www.planetf1.com/news/george-russell-lewis-hamilton-recovery-f1-2027",
   "https://www.planetf1.com/news/george-russell-mercedes-future-kimi-antonelli-title-defeat",
   "https://www.planetf1.com/news/imola-reveals-future-f1-return-plan",
   "https://www.planetf1.com/news/jenson-button-fernando-alonso-aston-martin-contract",
   "https://www.planetf1.com/news/jonathan-mcevoy-fia-ban-ferrari",
   "https://www.planetf1.com/news/kimi-antonelli-in-awe-after-international-football-fans-chant-his-name",
+  "https://www.planetf1.com/news/lewis-hamilton-causing-ferrari-saga-formula-1-sale",
   "https://www.planetf1.com/news/lewis-hamilton-causing-ferrari-tension-ralf-schumacher",
+  "https://www.planetf1.com/news/liam-lawson-mclaren-oscar-piastri-guenther-steiner",
   "https://www.planetf1.com/news/martin-brundle-toto-wolff-text-christian-horner-comparison",
   "https://www.planetf1.com/news/max-verstappen-named-mercedes-biggest-2027-threat",
   "https://www.planetf1.com/news/mclaren-highlights-key-lando-norris-trait",
+  "https://www.planetf1.com/news/mercedes-george-russell-role-kimi-antonelli-f1-success",
   "https://www.planetf1.com/news/mercedes-reveals-brazilian-gp-investigation-findings",
   "https://www.planetf1.com/news/michael-schumacher-jock-clear",
+  "https://www.planetf1.com/news/michael-schumacher-mercedes-f1-worse-at-theory-nico-rosberg",
   "https://www.planetf1.com/news/nico-hulkenberg-fia-penalty-audi-f1-2026-brazilian-grand-prix",
   "https://www.planetf1.com/news/red-bull-f1-2026-turnaround-revealed",
   "https://www.planetf1.com/news/toto-wolff-ron-dennis-frank-williams-f1-title-record",

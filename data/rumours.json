@@ -1,7 +1,42 @@
 {
- "updated": "2026-11-15T13:24:06Z",
+ "updated": "2026-11-15T19:33:07Z",
  "model": "anthropic/claude-haiku-5.5",
  "rumours": [
+  {
+   "id": "r4925ce69",
+   "claim": "Liam Lawson could reportedly be available to join McLaren, which could affect Oscar Piastri's position.",
+   "people": [
+    "Liam Lawson",
+    "McLaren",
+    "Oscar Piastri",
+    "Steiner"
+   ],
+   "status": "Active",
+   "trend": "steady",
+   "first_seen": "2026-11-15T19:01:48Z",
+   "last_seen": "2026-11-15T19:01:48Z",
+   "sources": [
+    {
+     "title": "Liam Lawson to McLaren tease as Oscar Piastri warned by Steiner",
+     "source": "PlanetF1",
+     "date": "2026-11-15T19:01:48Z",
+     "link": "https://www.planetf1.com/news/liam-lawson-mclaren-oscar-piastri-guenther-steiner"
+    }
+   ],
+   "cards": [
+    "c84bd951d"
+   ],
+   "proof": null,
+   "history": [
+    {
+     "time": "2026-11-15T19:33:07Z",
+     "event": "created",
+     "detail": "First seen: PlanetF1 (2026-11-15)",
+     "reason": "No known rumour covers a Lawson move to McLaren, so this is a new claim, framed as a tease rather than a confirmed move.",
+     "card": "Lawson McLaren tease as Steiner warns Piastri"
+    }
+   ]
+  },
   {
    "id": "r6b021c8e",
    "claim": "Formula 1 as a whole could reportedly be sold imminently, according to a former Liberty Media boss.",
@@ -145,7 +180,7 @@
   "c07c056d7": "1|Rumour",
   "cff84922c": "1|Reported",
   "c8bb5bfbe": "1|Reported",
-  "c9f00295d": "3|Confirmed",
+  "c9f00295d": "4|Confirmed",
   "cc8fcb7b1": "2|Confirmed",
   "cf814897e": 1,
   "c59a29706": "1|Reported",
@@ -200,7 +235,7 @@
   "cbb70f772": "1|Reported",
   "c747d32af": "1|Reported",
   "ce6897900": "1|Reported",
-  "cd6add4b0": "3|Confirmed",
+  "cd6add4b0": "5|Confirmed",
   "caefcd16d": "1|Confirmed",
   "c126baa80": "1|Reported",
   "c50a579b0": "1|Reported",
@@ -208,6 +243,16 @@
   "c7f22b08a": "1|Reported",
   "c64052817": "1|Reported",
   "c996a5204": "1|Reported",
-  "c537837f9": "1|Reported"
+  "c537837f9": "1|Reported",
+  "c84bd951d": "1|Rumour",
+  "c63d2b2af": "1|Reported",
+  "cd070e826": "1|Reported",
+  "cf9a1601b": "1|Reported",
+  "ce03111b5": "1|Reported",
+  "c302c3d85": "1|Reported",
+  "c2281dc96": "1|Reported",
+  "c9c23c4a4": "1|Reported",
+  "c38fc0958": "1|Reported",
+  "c0e6edd2f": "1|Reported"
  }
 }
