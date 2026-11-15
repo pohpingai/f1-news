@@ -44,7 +44,11 @@ Taken from the OpenRouter key's usage page. This total includes everything paid 
 | 14–15 Nov 2026 | Robot's real runs on GitHub (the rest) | ~$0.008 |
 | 15 Nov 2026 | Step 5 "Reported" label + Ask tab: building and testing (+ robot runs) | ~$0.015 |
 | 15 Nov 2026 | Ask: 30-day search for named topics, testing (old vs new) (+ robot runs) | ~$0.010 |
-| **15 Nov 2026** | **Total used on the main key so far** | **$0.073** |
-| | Left on the $5 limit | $4.93 |
+| 15 Nov 2026 | Step 6 report card: building, 3 full runs + debugging (+ robot runs) | ~$0.019 |
+| **15 Nov 2026** | **Total used on the main key so far** | **$0.092** |
+| | Left on the $5 limit | $4.91 |
+
+**Report card (`tests/report_card.py`):** about **$0.004 per run** (18 tests). It only costs money
+when someone runs it; it is not part of the robot.
 
 *Update this table at the end of each session (check `https://openrouter.ai/settings/keys` or ask Claude).*
