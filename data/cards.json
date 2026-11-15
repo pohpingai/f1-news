@@ -1,12 +1,31 @@
 {
- "updated": "2026-11-15T12:28:09Z",
+ "updated": "2026-11-15T12:54:16Z",
  "model": "anthropic/claude-haiku-5.5",
  "headline_of_the_day": {
   "date": "2026-11-15",
-  "text": "Antonelli is the 2026 world champion, and the day's biggest talk centres on Ferrari's woes, Hamilton's approach, and Verstappen's possible fit there, alongside Alonso and Lawson's 2027 seat confirmations.",
-  "written": "2026-11-15T12:28:09Z"
+  "text": "Kimi Antonelli is the 2026 world champion, with Las Vegas now the next stop, while Alisha Palmowski moves up to Formula Regional European Championship for 2027 with a fully-funded Red Bull-backed seat.",
+  "written": "2026-11-15T12:54:16Z"
  },
  "cards": [
+  {
+   "id": "c64052817",
+   "created": "2026-11-15T12:54:16Z",
+   "stories": [
+    {
+     "title": "James Allison exposes Mercedes advantage that F1 rivals couldn't match",
+     "source": "GPFans",
+     "date": "2026-11-15T12:33:00Z",
+     "link": "https://www.gpfans.com/en/f1-news/1092923/f1-mercedes-boss-james-allison-secret-title-pace-champions/",
+     "snippet": "Mercedes technical director James Allison has revealed a major potential reason for the Silver Arrows' dominant start to the season."
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Allison reveals potential reason for Mercedes' dominant 2026 start",
+   "summary": "Mercedes technical director James Allison has revealed a major potential reason for the team's dominant start to the season. The available snippet does not give details of what that advantage is.",
+   "disagreement": "",
+   "label": "Reported",
+   "updated": "2026-11-15T12:54:16Z"
+  },
   {
    "id": "cbc435fa3",
    "created": "2026-11-15T12:28:09Z",
@@ -2380,6 +2399,21 @@
     }
    ],
    "reason": "Both are Button comments on Alonso, but the existing card covers what keeps Alonso going, which is a different remark from the doubts he described."
+  },
+  {
+   "time": "2026-11-15T12:54:16Z",
+   "items": [
+    {
+     "title": "James Allison exposes Mercedes advantage that F1 rivals couldn't match",
+     "source": "GPFans",
+     "link": "https://www.gpfans.com/en/f1-news/1092923/f1-mercedes-boss-james-allison-secret-title-pace-champions/"
+    },
+    {
+     "card": "ccdbc9441",
+     "title": "Allison admits flawed 'Update 18' made Mercedes W17 a 'handful'"
+    }
+   ],
+   "reason": "The GPFans piece covers Allison's explanation of Mercedes' early-season advantage, while the existing card covers his admission that the flawed Update 18 made the W17 a handful, which is a different topic."
   }
  ],
  "processed": [
@@ -2552,6 +2586,7 @@
   "https://www.gpfans.com/en/f1-news/1092920/f1-aston-martin-fernando-alonso-future-jenson-button-contract-2027/",
   "https://www.gpfans.com/en/f1-news/1092921/f1-news-today-christian-horner-frozen-out-cadillac-sale-blocker/",
   "https://www.gpfans.com/en/f1-news/1092922/lewis-hamilton-ferrari-f1-outspoken-pushing-charles-leclerc/",
+  "https://www.gpfans.com/en/f1-news/1092923/f1-mercedes-boss-james-allison-secret-title-pace-champions/",
   "https://www.gpfans.com/en/f1-news/1092924/f1-insider-max-verstappen-lewis-hamilton-fix-ferrari-leadership/",
   "https://www.motorsport.com/f1/news/andrea-stella-wants-mclaren-to-finally-make-peace-with-las-vegas/10873819/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/ayrton-sennas-1994-williams-f1-car-heads-to-auction-with-6million-estimate/10874089/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
