@@ -1,0 +1,34 @@
+{
+ "currency": "USD",
+ "days": {
+  "2026-11-15": {
+   "AI grouping + labels": {
+    "cost": 0.002206,
+    "requests": 1,
+    "tokens_in": 9477,
+    "tokens_out": 2516
+   },
+   "Label catch-up": {
+    "cost": 0.002288,
+    "requests": 1,
+    "tokens_in": 8483,
+    "tokens_out": 2880
+   },
+   "Headline of the day": {
+    "cost": 0.000264,
+    "requests": 1,
+    "tokens_in": 2338,
+    "tokens_out": 60
+   },
+   "Rumour tracker": {
+    "cost": 0.00108,
+    "requests": 2,
+    "tokens_in": 8371,
+    "tokens_out": 485
+   }
+  }
+ },
+ "total_cost": 0.005838,
+ "updated": "2026-11-15T09:34:47Z",
+ "model": "anthropic/claude-haiku-5.5"
+}
