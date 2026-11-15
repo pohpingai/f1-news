@@ -201,3 +201,26 @@
 ### Next
 - User: follow `worker/SETUP.md` (separate `f1-news-ask` key, Cloudflare Worker, two secrets).
 - The Worker reads the live site, so it only knows what the robot has saved.
+
+## Session 7 — 15 Nov 2026: Worker deployed + simpler Ask box
+
+### Done
+- Deployed `worker/ask-worker.js` to the existing Cloudflare Worker `f1-news-ask` with Wrangler
+  (live at https://f1-news-ask.pohping-ai.workers.dev). The secrets `ASK_PASSCODE` and
+  `OPENROUTER_API_KEY` were checked before and after (names only) and were not changed.
+  - Problem: the first deploy reset three dashboard settings (logs off, preview links on,
+    compatibility date). Fixed with a second deploy using the original settings (logs on,
+    preview links off, date 2026-11-15). The deploy settings file is only in Claude's scratch folder.
+  - Cloudflare refused the first two attempts with "Too Many Requests"; the third worked.
+- Ask tab: now ONE question box. The shortcut buttons (Catch me up, Biggest rumour,
+  What's new on…?) only fill the box; Enter or "Ask" sends it. "What's new on" with no name is
+  not sent, and pressing Enter while an answer is loading keeps your text in the box.
+
+### Tested (pretend middleman with a fixed answer, so no AI cost)
+- Each shortcut fills the box without sending; Enter and the Ask button both send the box text;
+  "What's new on" + typed name sends "What's new on Verstappen"; empty name is not sent;
+  Enter while loading sends nothing extra and keeps the text; phone size, no errors.
+
+### Next
+- User: test the live Ask tab on the phone with the real Worker.
+- Maybe: keep the Wrangler settings file in the project (`worker/wrangler.toml`) for future deploys.
