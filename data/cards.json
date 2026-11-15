@@ -1,12 +1,161 @@
 {
- "updated": "2026-11-15T19:32:36Z",
+ "updated": "2026-11-15T23:44:04Z",
  "model": "anthropic/claude-haiku-5.5",
  "headline_of_the_day": {
   "date": "2026-11-16",
-  "text": "Racing Bulls confirmed Liam Lawson and Arvid Lindblad for 2027, while the FIA's removal of a veteran journalist's paddock access over a Charles Leclerc column drew criticism from Bernie Ecclestone.",
-  "written": "2026-11-15T19:32:36Z"
+  "text": "The biggest story today is the FIA banning veteran journalist from the paddock for the rest of 2026 over a Leclerc column, which Bernie Ecclestone called \"completely mad.",
+  "written": "2026-11-15T23:44:04Z"
  },
  "cards": [
+  {
+   "id": "c5cb32f36",
+   "created": "2026-11-15T23:44:04Z",
+   "stories": [
+    {
+     "title": "Topps reveals Gem Mint 10 Lando Norris card with Coca-Cola suit patch",
+     "source": "Motorsport.com",
+     "date": "2026-11-15T22:47:39Z",
+     "link": "https://www.motorsport.com/f1/news/topps-reveals-gem-mint-10-lando-norris-card-with-coca-cola-suit-patch/10874731/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "snippet": "Topps has shared one of its rarest Lando Norris cards: a signed 2024 Dynasty Formula 1 card with two pieces of race suit, one of them cut from the Coca-Cola logo on the sleeve of his McLaren race…"
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Topps releases Gem Mint Lando Norris card with suit patch",
+   "summary": "Topps has shared a Gem Mint 10 Lando Norris card, a signed 2024 Dynasty Formula 1 card. The card includes two pieces of race suit, one cut from the Coca-Cola logo on the sleeve of his McLaren race suit.",
+   "disagreement": "",
+   "label": "Reported",
+   "updated": "2026-11-15T23:44:04Z"
+  },
+  {
+   "id": "ccb151298",
+   "created": "2026-11-14T23:33:49Z",
+   "stories": [
+    {
+     "title": "Antonelli names his biggest threat for 2027 title defence",
+     "source": "Formula1.com",
+     "date": "2026-11-14T22:42:34Z",
+     "link": "https://www.formula1.com/en/latest/article/antonelli-identifies-which-driver-poses-the-biggest-threat-to-his-title-defence-in-2027.6qjcpNnf8IerbXck8NpB05",
+     "snippet": "Kimi Antonelli has outlined his expectations for the competitive picture in 2027 – his first season as reigning World Champion."
+    },
+    {
+     "title": "Kimi Antonelli names biggest threat to 2027 title defence as he warns Mercedes advantage may fade",
+     "source": "Motorsport.com",
+     "date": "2026-11-15T22:26:14Z",
+     "link": "https://www.motorsport.com/f1/news/kimi-antonelli-names-biggest-threat-to-2027-title-defence-as-he-warns-mercedes-advantage-may-fade/10874729/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "snippet": "2026 Formula 1 champion Kimi Antonelli has chosen Red Bull's Max Verstappen as the driver most likely to stand in the way of his title defence in 2027. In only his second season in the series, the…"
+    }
+   ],
+   "merge_reasons": [
+    {
+     "time": "2026-11-15T23:44:04Z",
+     "added": [
+      "https://www.motorsport.com/f1/news/kimi-antonelli-names-biggest-threat-to-2027-title-defence-as-he-warns-mercedes-advantage-may-fade/10874729/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www"
+     ],
+     "joined_existing": true,
+     "reason": "Both the Formula1.com and Motorsport.com stories report Antonelli naming Verstappen as his biggest threat for 2027."
+    }
+   ],
+   "title": "Antonelli names Verstappen as biggest threat to 2027 title defence",
+   "summary": "Kimi Antonelli has named Red Bull's Max Verstappen as the driver most likely to stand in the way of his 2027 title defence. Formula1.com and Motorsport.com both report his comments, which also warn that Mercedes' advantage may fade.",
+   "disagreement": "",
+   "updated": "2026-11-15T23:44:04Z",
+   "label": "Reported"
+  },
+  {
+   "id": "c7518bd43",
+   "created": "2026-11-15T23:44:04Z",
+   "stories": [
+    {
+     "title": "Lewis Hamilton criticises ex-F1 drivers for \"talking smack\" about young stars",
+     "source": "Motorsport.com",
+     "date": "2026-11-15T22:11:44Z",
+     "link": "https://www.motorsport.com/f1/news/lewis-hamilton-criticises-ex-f1-drivers-for-talking-smack-and-young-stars/10874726/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "snippet": "Seven-time Formula 1 champion Lewis Hamilton has criticised former drivers for \"talking smack\" about the young stars of the series, saying he has always been determined not to become \"that type of…"
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Hamilton criticises former drivers for 'talking smack' about young stars",
+   "summary": "Lewis Hamilton has criticised ex-F1 drivers for 'talking smack' about the sport's young stars. He says he has always been determined not to become that type of driver.",
+   "disagreement": "",
+   "label": "Reported",
+   "updated": "2026-11-15T23:44:04Z"
+  },
+  {
+   "id": "c331c62ce",
+   "created": "2026-11-15T23:44:04Z",
+   "stories": [
+    {
+     "title": "Oscar Piastri sheds light on ‘tougher than expected’ F1 2026 season",
+     "source": "PlanetF1",
+     "date": "2026-11-15T21:00:39Z",
+     "link": "https://www.planetf1.com/news/oscar-piastri-f1-2026-struggles",
+     "snippet": "Oscar Piastri has opened up on his challenging campaign in 2026."
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Piastri says his 2026 F1 season has been tougher than expected",
+   "summary": "PlanetF1 reports that Oscar Piastri has spoken openly about his challenging 2026 campaign. No further details are given in the snippet.",
+   "disagreement": "",
+   "label": "Reported",
+   "updated": "2026-11-15T23:44:04Z"
+  },
+  {
+   "id": "c95c2ab03",
+   "created": "2026-11-15T23:44:04Z",
+   "stories": [
+    {
+     "title": "Oscar Piastri split takes fresh twist as F1 boss makes Mark Webber claim",
+     "source": "GPFans",
+     "date": "2026-11-15T20:45:00Z",
+     "link": "https://www.gpfans.com/en/f1-news/1092930/f1-oscar-piastri-split-mark-webber-claim-guenther-steiner/",
+     "snippet": "The split between Oscar Piastri and manager Mark Webber was one of the biggest stories of the F1 week, and former team principal Guenther Steiner has provided an intriguing take on why it happened."
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Steiner offers take on Piastri and Webber split",
+   "summary": "GPFans reports that former Haas boss Guenther Steiner has given his view on the split between Oscar Piastri and manager Mark Webber. The article presents Steiner's explanation of why the split happened.",
+   "disagreement": "",
+   "label": "Reported",
+   "updated": "2026-11-15T23:44:04Z"
+  },
+  {
+   "id": "ccc658bfd",
+   "created": "2026-11-15T23:44:04Z",
+   "stories": [
+    {
+     "title": "Liam Lawson ‘next Verstappen’ theory presented by Montoya",
+     "source": "PlanetF1",
+     "date": "2026-11-15T20:02:50Z",
+     "link": "https://www.planetf1.com/news/liam-lawson-next-max-verstappen-juan-pablo-montoya",
+     "snippet": "Liam Lawson is showing signs that he could become the successor to Max Verstappen at Red Bull, it has been claimed."
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Montoya says Liam Lawson could succeed Verstappen at Red Bull",
+   "summary": "PlanetF1 reports a theory presented by Juan Pablo Montoya that Liam Lawson is showing signs of being Max Verstappen's successor. The claim is a view on Lawson's potential rather than a confirmed plan.",
+   "disagreement": "",
+   "label": "Opinion",
+   "updated": "2026-11-15T23:44:04Z"
+  },
+  {
+   "id": "cd3a886e4",
+   "created": "2026-11-15T23:44:04Z",
+   "stories": [
+    {
+     "title": "‘Lewis is leaving, it could be you’: How Antonelli found out about Mercedes F1 promotion",
+     "source": "GPFans",
+     "date": "2026-11-15T19:45:00Z",
+     "link": "https://www.gpfans.com/en/f1-news/1092933/lewis-hamilton-mercedes-f1-exit-kimi-antonelli-promotion-bradley-lord/",
+     "snippet": "It was a sliding doors moment in F1 history, and now we know the back story to the moment Kimi Antonelli replaced Lewis Hamilton at Mercedes."
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Antonelli reveals how he learned of his Mercedes promotion",
+   "summary": "A GPFans feature looks back at how Kimi Antonelli found out he would replace Lewis Hamilton at Mercedes. The piece describes the moment as a 'sliding doors' point in F1 history.",
+   "disagreement": "",
+   "label": "Opinion",
+   "updated": "2026-11-15T23:44:04Z"
+  },
   {
    "id": "cc775b9e4",
    "created": "2026-11-15T19:32:36Z",
@@ -914,25 +1063,6 @@
    "merge_reasons": [],
    "title": "Piastri on his tough 2026 and why it could make him stronger",
    "summary": "Oscar Piastri opens up about his difficulties in 2026. He says he hopes these difficulties can make him better for McLaren.",
-   "disagreement": "",
-   "updated": "2026-11-14T23:33:49Z",
-   "label": "Reported"
-  },
-  {
-   "id": "ccb151298",
-   "created": "2026-11-14T23:33:49Z",
-   "stories": [
-    {
-     "title": "Antonelli names his biggest threat for 2027 title defence",
-     "source": "Formula1.com",
-     "date": "2026-11-14T22:42:34Z",
-     "link": "https://www.formula1.com/en/latest/article/antonelli-identifies-which-driver-poses-the-biggest-threat-to-his-title-defence-in-2027.6qjcpNnf8IerbXck8NpB05",
-     "snippet": "Kimi Antonelli has outlined his expectations for the competitive picture in 2027 – his first season as reigning World Champion."
-    }
-   ],
-   "merge_reasons": [],
-   "title": "Antonelli names his biggest threat for 2027 title defence",
-   "summary": "Kimi Antonelli has outlined his expectations for the 2027 season, his first as reigning World Champion. The report centres on the rivals he sees as the main challenge to his title defence.",
    "disagreement": "",
    "updated": "2026-11-14T23:33:49Z",
    "label": "Reported"
@@ -2903,6 +3033,51 @@
     }
    ],
    "reason": "The McLaren speculation about Lawson is a separate rumour from the confirmed Racing Bulls signing, so it stays out of that card."
+  },
+  {
+   "time": "2026-11-15T23:44:04Z",
+   "items": [
+    {
+     "title": "Oscar Piastri sheds light on ‘tougher than expected’ F1 2026 season",
+     "source": "PlanetF1",
+     "link": "https://www.planetf1.com/news/oscar-piastri-f1-2026-struggles"
+    },
+    {
+     "card": "c679d8d18",
+     "title": "Piastri on his tough 2026 and why it could make him stronger"
+    }
+   ],
+   "reason": "Both are about Piastri's tough 2026 season, but the snippets do not show whether they come from the same interview, so they are kept apart."
+  },
+  {
+   "time": "2026-11-15T23:44:04Z",
+   "items": [
+    {
+     "title": "Topps reveals Gem Mint 10 Lando Norris card with Coca-Cola suit patch",
+     "source": "Motorsport.com",
+     "link": "https://www.motorsport.com/f1/news/topps-reveals-gem-mint-10-lando-norris-card-with-coca-cola-suit-patch/10874731/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www"
+    },
+    {
+     "card": "cd9abd5b1",
+     "title": "Topps releases NOW card for Hamilton's 400th F1 start"
+    }
+   ],
+   "reason": "Both are Topps trading card releases, but they feature different drivers and different cards."
+  },
+  {
+   "time": "2026-11-15T23:44:04Z",
+   "items": [
+    {
+     "title": "Liam Lawson ‘next Verstappen’ theory presented by Montoya",
+     "source": "PlanetF1",
+     "link": "https://www.planetf1.com/news/liam-lawson-next-max-verstappen-juan-pablo-montoya"
+    },
+    {
+     "card": "cd6add4b0",
+     "title": "Racing Bulls confirm Lawson and Lindblad for 2027"
+    }
+   ],
+   "reason": "Both mention Liam Lawson, but the Montoya theory about succeeding Verstappen is a separate claim from the confirmed 2027 Racing Bulls line-up."
   }
  ],
  "processed": [
@@ -3084,8 +3259,10 @@
   "https://www.gpfans.com/en/f1-news/1092925/f1-future-colton-herta-cadillac-learning-experience-f2-struggles/",
   "https://www.gpfans.com/en/f1-news/1092926/f1-toto-wolff-kimi-antonelli-ferrari-mercedes-future-move-chance/",
   "https://www.gpfans.com/en/f1-news/1092927/f1-journalist-ban-backlash-fia-bernie-ecclestone-criticism/",
+  "https://www.gpfans.com/en/f1-news/1092930/f1-oscar-piastri-split-mark-webber-claim-guenther-steiner/",
   "https://www.gpfans.com/en/f1-news/1092931/f1-liam-lawson-father-admission-new-contract-racing-bulls/",
   "https://www.gpfans.com/en/f1-news/1092932/f1-ollie-bearman-ferrari-message-lewis-hamilton-replacement-haas/",
+  "https://www.gpfans.com/en/f1-news/1092933/lewis-hamilton-mercedes-f1-exit-kimi-antonelli-promotion-bradley-lord/",
   "https://www.motorsport.com/f1/news/andrea-stella-wants-mclaren-to-finally-make-peace-with-las-vegas/10873819/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/ayrton-sennas-1994-williams-f1-car-heads-to-auction-with-6million-estimate/10874089/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/bruno-senna-reveals-plans-to-put-kimi-antonelli-behind-the-wheel-of-ayrton-sennas-f1-car/10873973/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
@@ -3112,9 +3289,11 @@
   "https://www.motorsport.com/f1/news/james-allison-reveals-the-very-adventurous-trick-behind-kimi-antonellis-f1-title/10874402/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/kimi-antonelli-keeps-f1-title-promise-with-italian-flag-hair-at-mercedes-factory/10873952/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/kimi-antonelli-meets-italian-president-sergio-mattarella/10874471/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+  "https://www.motorsport.com/f1/news/kimi-antonelli-names-biggest-threat-to-2027-title-defence-as-he-warns-mercedes-advantage-may-fade/10874729/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/lando-norris-questions-charles-leclercs-brazilian-gp-penalty-just-racing/10873736/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/las-vegas-gp-reveals-neon-sign-inspired-trophy-design/10874361/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/laurent-mekies-brazil-was-isack-hadjars-best-race-for-red-bull/10874059/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+  "https://www.motorsport.com/f1/news/lewis-hamilton-criticises-ex-f1-drivers-for-talking-smack-and-young-stars/10874726/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/lewis-hamilton-loses-most-marketable-athlete-crown-as-charles-leclerc-moves-ahead/10873959/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/lewis-suspected-a-conspiracy-nico-rosberg-explains-how-hamilton-f1-rivalry-went-awry-at-mercedes/10874271/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/liam-lawson-retained-by-racing-bulls-for-2027-alongside-arvid-lindblad/10874061/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
@@ -3139,6 +3318,7 @@
   "https://www.motorsport.com/f1/news/the-impressive-stats-underpinning-liam-lawsons-career-saving-f1-season/10874116/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/the-kimi-antonelli-you-dont-know-inside-the-mercedes-garage-with-f1s-new-world-champion-/10874164/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/topps-celebrates-lewis-hamiltons-400th-f1-start-with-limited-now-card/10874547/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+  "https://www.motorsport.com/f1/news/topps-reveals-gem-mint-10-lando-norris-card-with-coca-cola-suit-patch/10874731/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/toto-wolff-offered-his-resignation-during-mercedes-struggles-but-the-ceo-refused/10874282/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/toto-wolff-reflects-on-mercedes-non-title-years-we-werent-complete-losers/10873281/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/tsolov-named-red-bull-racing-bulls-reserve-driver-after-missing-out-on-2027-f1-race-seat/10874147/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
@@ -3159,6 +3339,7 @@
   "https://www.planetf1.com/news/lewis-hamilton-causing-ferrari-saga-formula-1-sale",
   "https://www.planetf1.com/news/lewis-hamilton-causing-ferrari-tension-ralf-schumacher",
   "https://www.planetf1.com/news/liam-lawson-mclaren-oscar-piastri-guenther-steiner",
+  "https://www.planetf1.com/news/liam-lawson-next-max-verstappen-juan-pablo-montoya",
   "https://www.planetf1.com/news/martin-brundle-toto-wolff-text-christian-horner-comparison",
   "https://www.planetf1.com/news/max-verstappen-named-mercedes-biggest-2027-threat",
   "https://www.planetf1.com/news/mclaren-highlights-key-lando-norris-trait",
@@ -3167,6 +3348,7 @@
   "https://www.planetf1.com/news/michael-schumacher-jock-clear",
   "https://www.planetf1.com/news/michael-schumacher-mercedes-f1-worse-at-theory-nico-rosberg",
   "https://www.planetf1.com/news/nico-hulkenberg-fia-penalty-audi-f1-2026-brazilian-grand-prix",
+  "https://www.planetf1.com/news/oscar-piastri-f1-2026-struggles",
   "https://www.planetf1.com/news/red-bull-f1-2026-turnaround-revealed",
   "https://www.planetf1.com/news/toto-wolff-ron-dennis-frank-williams-f1-title-record",
   "https://www.racefans.net/2026/11/09/spotlight-fia-president-ben-sulayem-planning-to-remove-age-limits-for-office-holders/",
