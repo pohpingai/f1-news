@@ -1,12 +1,92 @@
 {
- "updated": "2026-11-15T12:54:16Z",
+ "updated": "2026-11-15T13:23:51Z",
  "model": "anthropic/claude-haiku-5.5",
  "headline_of_the_day": {
   "date": "2026-11-15",
-  "text": "Kimi Antonelli is the 2026 world champion, with Las Vegas now the next stop, while Alisha Palmowski moves up to Formula Regional European Championship for 2027 with a fully-funded Red Bull-backed seat.",
-  "written": "2026-11-15T12:54:16Z"
+  "text": "Antonelli is the 2026 world champion, with Las Vegas next as the front of the grid is tighter than at any point this season, while Racing Bulls retain Lawson and Lindblad for 2027.",
+  "written": "2026-11-15T13:23:51Z"
  },
  "cards": [
+  {
+   "id": "c537837f9",
+   "created": "2026-11-15T13:23:51Z",
+   "stories": [
+    {
+     "title": "Toto Wolff reacts as Ron Dennis and Sir Frank Williams F1 landmarks achieved",
+     "source": "PlanetF1",
+     "date": "2026-11-15T13:20:13Z",
+     "link": "https://www.planetf1.com/news/toto-wolff-ron-dennis-frank-williams-f1-title-record",
+     "snippet": "Is Toto Wolff at the Ron Dennis and Sir Frank Williams level?"
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Toto Wolff reacts as Dennis and Williams milestones are matched",
+   "summary": "PlanetF1 reports Toto Wolff's reaction as the Ron Dennis and Sir Frank Williams F1 landmarks were achieved. The article asks whether Wolff now stands at the same level as those two.",
+   "disagreement": "",
+   "label": "Reported",
+   "updated": "2026-11-15T13:23:51Z"
+  },
+  {
+   "id": "cd6add4b0",
+   "created": "2026-11-14T23:33:49Z",
+   "stories": [
+    {
+     "title": "Lawson's top-six hopes after new Racing Bulls deal",
+     "source": "Formula1.com",
+     "date": "2026-11-14T22:42:34Z",
+     "link": "https://www.formula1.com/en/latest/article/the-extra-gear-liam-lawsons-top-six-hopes-examined-after-securing-new-racing-bulls-deal.4FuO5PyKE8vCtfqm1OyxrJ",
+     "snippet": "Liam Lawson's future at Racing Bulls has been decided, but how far is he from breaking into the top-six betting markets?"
+    },
+    {
+     "title": "Racing Bulls confirm 2027 line-up",
+     "source": "Sky Sports",
+     "date": "2026-11-12T11:00:00Z",
+     "link": "https://www.skysports.com/f1/news/12433/13610206/racing-bulls-confirm-liam-lawson-and-arvid-lindblad-as-2027-formula-1-driver-line-up",
+     "snippet": "Racing Bulls have confirmed Liam Lawson and Arvid Lindblad will be retained for the 2027 Formula 1 season."
+    },
+    {
+     "title": "Retaining Lawson isn't enough – Red Bull must stop treating him like a failure",
+     "source": "Autosport",
+     "date": "2026-11-15T13:08:22Z",
+     "link": "https://www.autosport.com/f1/news/retaining-lawson-isnt-enough-red-bull-must-stop-treating-him-like-a-failure/10874666/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+     "snippet": "Liam Lawson never failed at Red Bull Racing in 2025. It was Red Bull that failed Liam Lawson. Retaining his services for another year isn't just a logical decision, but perhaps the first sign that…"
+    }
+   ],
+   "merge_reasons": [
+    {
+     "time": "2026-11-15T13:23:51Z",
+     "added": [
+      "https://www.autosport.com/f1/news/retaining-lawson-isnt-enough-red-bull-must-stop-treating-him-like-a-failure/10874666/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk"
+     ],
+     "joined_existing": true,
+     "reason": "The Autosport column comments on the same decision to retain Liam Lawson for 2027 that the card reports."
+    }
+   ],
+   "title": "Racing Bulls confirm Lawson and Lindblad for 2027 line-up",
+   "summary": "Racing Bulls have confirmed that Liam Lawson and Arvid Lindblad will be retained for the 2027 Formula 1 season. An Autosport column argues that keeping Lawson is not enough and that Red Bull must stop treating him as a failure.",
+   "disagreement": "",
+   "updated": "2026-11-15T13:23:51Z",
+   "label": "Confirmed"
+  },
+  {
+   "id": "c996a5204",
+   "created": "2026-11-15T13:23:51Z",
+   "stories": [
+    {
+     "title": "Mercedes pitwall admits floundering Ferraris relieved title pressure in São Paulo",
+     "source": "Motorsport.com",
+     "date": "2026-11-15T13:00:02Z",
+     "link": "https://www.motorsport.com/f1/news/mercedes-pit-wall-admits-floundering-ferraris-relieved-all-title-pressure-in-sao-paulo/10874440/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "snippet": "When the rain falls at Interlagos, chaos usually follows. For Mercedes, the 2026 São Paulo Grand Prix was a turbulent affair. The Brackley-based squad arrived in Brazil needing to execute a clean…"
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Mercedes pitwall says Ferrari struggles eased title pressure in Brazil",
+   "summary": "Mercedes's pitwall has admitted that the floundering Ferraris relieved its title pressure during the São Paulo Grand Prix. The Motorsport.com report describes a turbulent weekend for the Brackley team in wet conditions.",
+   "disagreement": "",
+   "label": "Reported",
+   "updated": "2026-11-15T13:23:51Z"
+  },
   {
    "id": "c64052817",
    "created": "2026-11-15T12:54:16Z",
@@ -489,32 +569,6 @@
    "disagreement": "",
    "updated": "2026-11-14T23:33:49Z",
    "label": "Opinion"
-  },
-  {
-   "id": "cd6add4b0",
-   "created": "2026-11-14T23:33:49Z",
-   "stories": [
-    {
-     "title": "Lawson's top-six hopes after new Racing Bulls deal",
-     "source": "Formula1.com",
-     "date": "2026-11-14T22:42:34Z",
-     "link": "https://www.formula1.com/en/latest/article/the-extra-gear-liam-lawsons-top-six-hopes-examined-after-securing-new-racing-bulls-deal.4FuO5PyKE8vCtfqm1OyxrJ",
-     "snippet": "Liam Lawson's future at Racing Bulls has been decided, but how far is he from breaking into the top-six betting markets?"
-    },
-    {
-     "title": "Racing Bulls confirm 2027 line-up",
-     "source": "Sky Sports",
-     "date": "2026-11-12T11:00:00Z",
-     "link": "https://www.skysports.com/f1/news/12433/13610206/racing-bulls-confirm-liam-lawson-and-arvid-lindblad-as-2027-formula-1-driver-line-up",
-     "snippet": "Racing Bulls have confirmed Liam Lawson and Arvid Lindblad will be retained for the 2027 Formula 1 season."
-    }
-   ],
-   "merge_reasons": [],
-   "title": "Racing Bulls confirm Lawson and Lindblad for 2027 line-up",
-   "summary": "Racing Bulls have confirmed Liam Lawson and Arvid Lindblad will be retained for the 2027 Formula 1 season. The confirmation settles Lawson's future at the team.",
-   "disagreement": "",
-   "updated": "2026-11-15T12:28:09Z",
-   "label": "Confirmed"
   },
   {
    "id": "c679d8d18",
@@ -2414,6 +2468,51 @@
     }
    ],
    "reason": "The GPFans piece covers Allison's explanation of Mercedes' early-season advantage, while the existing card covers his admission that the flawed Update 18 made the W17 a handful, which is a different topic."
+  },
+  {
+   "time": "2026-11-15T13:23:51Z",
+   "items": [
+    {
+     "title": "Mercedes pitwall admits floundering Ferraris relieved title pressure in São Paulo",
+     "source": "Motorsport.com",
+     "link": "https://www.motorsport.com/f1/news/mercedes-pit-wall-admits-floundering-ferraris-relieved-all-title-pressure-in-sao-paulo/10874440/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www"
+    },
+    {
+     "card": "cd832ad6f",
+     "title": "Mercedes reveals findings into Brazilian GP issues"
+    }
+   ],
+   "reason": "The pitwall admission about Ferrari easing title pressure is a different story from the Mercedes report on the findings of its Brazilian GP investigation."
+  },
+  {
+   "time": "2026-11-15T13:23:51Z",
+   "items": [
+    {
+     "title": "Toto Wolff reacts as Ron Dennis and Sir Frank Williams F1 landmarks achieved",
+     "source": "PlanetF1",
+     "link": "https://www.planetf1.com/news/toto-wolff-ron-dennis-frank-williams-f1-title-record"
+    },
+    {
+     "card": "cb61346b9",
+     "title": "Toto Wolff's journey from Williams to nine F1 titles"
+    }
+   ],
+   "reason": "The Formula1.com profile of Toto Wolff's career is a feature on his journey, while the new story is a reaction to reaching the milestones."
+  },
+  {
+   "time": "2026-11-15T13:23:51Z",
+   "items": [
+    {
+     "title": "Toto Wolff reacts as Ron Dennis and Sir Frank Williams F1 landmarks achieved",
+     "source": "PlanetF1",
+     "link": "https://www.planetf1.com/news/toto-wolff-ron-dennis-frank-williams-f1-title-record"
+    },
+    {
+     "card": "c5f8c1a22",
+     "title": "Mercedes' history of Formula 1 success as they claim ninth constructors' title"
+    }
+   ],
+   "reason": "The Formula1.com piece on Mercedes' history of success covers the team's record, not Wolff's reaction to matching the Dennis and Williams landmarks."
   }
  ],
  "processed": [
@@ -2455,6 +2554,7 @@
   "https://www.autosport.com/f1/news/penalty-drops-oscar-piastri-out-of-f1-mexico-gp-points/10870864/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
   "https://www.autosport.com/f1/news/permane-signs-new-racing-bulls-f1-deal/10871999/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
   "https://www.autosport.com/f1/news/red-bulls-key-strategy-call-behind-verstappens-mexico-win-10871260/10871260/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+  "https://www.autosport.com/f1/news/retaining-lawson-isnt-enough-red-bull-must-stop-treating-him-like-a-failure/10874666/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
   "https://www.autosport.com/f1/news/russell-and-brdc-launch-karting-academy/10874110/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
   "https://www.autosport.com/f1/news/the-antonelli-you-dont-know-inside-the-mercedes-garage-with-f1s-new-world-champion/10874265/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
   "https://www.autosport.com/f1/news/the-reason-behind-hondas-power-unit-lasting-five-laps-in-mexico/10871286/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
@@ -2627,6 +2727,7 @@
   "https://www.motorsport.com/f1/news/mercedes-and-audi-unveil-adidas-collections-for-f1-las-vegas-grand-prix/10874493/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/mercedes-could-only-gamble-on-kimi-antonelli-because-of-george-russell-toto-wolff-told-staff/10874338/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/mercedes-explains-unusual-car-behaviour-behind-kimi-antonellis-costly-brazil-spin/10873891/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+  "https://www.motorsport.com/f1/news/mercedes-pit-wall-admits-floundering-ferraris-relieved-all-title-pressure-in-sao-paulo/10874440/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/mercedes-tech-boss-warns-f1-teams-wont-lie-down-over-massive-2027-downforce-cuts/10874433/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/mercedes-technical-director-details-the-brutal-psychological-toll-of-f1-underperformance/10874429/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/oscar-piastri-admits-he-is-missing-the-stress-of-an-f1-title-fight/10873816/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
@@ -2661,6 +2762,7 @@
   "https://www.planetf1.com/news/michael-schumacher-jock-clear",
   "https://www.planetf1.com/news/nico-hulkenberg-fia-penalty-audi-f1-2026-brazilian-grand-prix",
   "https://www.planetf1.com/news/red-bull-f1-2026-turnaround-revealed",
+  "https://www.planetf1.com/news/toto-wolff-ron-dennis-frank-williams-f1-title-record",
   "https://www.racefans.net/2026/11/09/spotlight-fia-president-ben-sulayem-planning-to-remove-age-limits-for-office-holders/",
   "https://www.racefans.net/2026/11/09/the-car-is-steering-by-itself-dont-you-see-it-how-handling-trouble-baffled-antonelli/",
   "https://www.racefans.net/2026/11/10/f1-scraps-back-up-plan-to-race-at-imola-if-middle-east-gps-are-cancelled-reports/",
