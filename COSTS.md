@@ -21,8 +21,14 @@ Estimates come from real test runs. The robot runs 12 times a day, but most runs
 | **AI grouping + labels** | Groups same-event stories into cards; writes title, 2-sentence summary, "sources disagree" note, merge reason; labels Confirmed / Rumour / Opinion | ~$0.015–0.03 | The "Top stories (AI)" tab, the labels, and (because they need cards) the rumour tracker and headline of the day. "All stories" still works. | Step 2 (+ labels in Step 3) | ☐ |
 | **Headline of the day** | One sentence at the top of the page | ~$0.002–0.003 | Just that sentence | Step 2 | ☐ |
 | **Rumour tracker** | Remembers rumours across days, trend, history, official confirmations | ~$0.005–0.01 | The "Rumours" tab | Step 3 | ☐ |
+| **Ask tab (chat)** | Answers your questions from the saved news, with sources and thinking steps (2 AI steps per question) | ~$0.0002–0.0014 per question; e.g. 20 questions ≈ $0.015 | The Ask tab | Step 5 | ☐ |
 | **Label catch-up** | Labels cards that have no label | One-off ~$0.002, then ~$0 | Some cards might show no label | Step 3 | ☐ |
-| **All AI features together** | | **~$0.02–0.045 per day (~$0.60–1.35 per month)** | | | |
+| **All robot AI features together** | | **~$0.02–0.045 per day (~$0.60–1.35 per month)** | | | |
+| **Ask tab** | Only when you ask; capped by the Worker's daily limit (default $0.20) and the `f1-news-ask` key's own limit | | | | |
+
+**Where to see Ask costs:** each answer shows its cost and today's chat spending; the total is on
+openrouter.ai under the `f1-news-ask` key (the Worker cannot write to `data/costs.json`).
+The Cloudflare Worker itself is free (100,000 requests/day on the free plan).
 
 **How to drop a feature:** delete its step in `.github/workflows/fetch-news.yml`
 (the headline and label catch-up are inside `ai_cluster.py`; ask Claude to switch them off).
@@ -36,7 +42,8 @@ Taken from the OpenRouter key's usage page. This total includes everything paid 
 | 15 Nov 2026 | Step 3 labels + rumour tracker: building and testing | ~$0.015 |
 | 15 Nov 2026 | Cost tracker: testing | ~$0.005 |
 | 14–15 Nov 2026 | Robot's real runs on GitHub (the rest) | ~$0.008 |
-| **15 Nov 2026** | **Total used on the key so far** | **$0.047** |
-| | Left on the $5 limit | $4.95 |
+| 15 Nov 2026 | Step 5 "Reported" label + Ask tab: building and testing (+ robot runs) | ~$0.015 |
+| **15 Nov 2026** | **Total used on the key so far** | **$0.063** |
+| | Left on the $5 limit | $4.94 |
 
 *Update this table at the end of each session (check `https://openrouter.ai/settings/keys` or ask Claude).*

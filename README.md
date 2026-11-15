@@ -6,6 +6,7 @@ A simple website that collects Formula 1 news from 8 sources every 2 hours.
 - **The data:** `data/news.json`
 - **The collector:** `scripts/fetch_news.py`
 - **The AI brain:** `scripts/ai_cluster.py` → `data/cards.json`
+- **The Ask chat's middleman (Cloudflare Worker):** `worker/ask-worker.js` — setup in `worker/SETUP.md`
 - **The rumour tracker:** `scripts/rumour_tracker.py` → `data/rumours.json`
 - **The robot that runs all of them every 2 hours:** `.github/workflows/fetch-news.yml`
 
@@ -14,7 +15,13 @@ A simple website that collects Formula 1 news from 8 sources every 2 hours.
 After collecting, the AI (Claude Haiku 5.5 via OpenRouter) groups stories about the same event
 into one card with a title, a 2-sentence summary, all source links, a note if sources disagree,
 and the reason it merged them. It also writes a "headline of the day".
-Every card is labelled **Confirmed**, **Rumour** or **Opinion**.
+Every card is labelled **Confirmed** (official news), **Reported** (on-the-record quotes),
+**Rumour** or **Opinion**.
+
+The **Ask** tab is a chat that answers only from the saved news and rumours, with links to the
+sources and the thinking steps shown above each answer. It goes through a free Cloudflare Worker
+that keeps the OpenRouter key secret, checks a passcode and stops at a daily spending limit.
+See `worker/SETUP.md`.
 
 The **rumour tracker** remembers rumours across days: the claim, who is involved, first/last seen,
 all sources, status (Active / Confirmed / Denied / Faded) and trend (rising / steady / fading),
