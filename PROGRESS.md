@@ -317,3 +317,32 @@
 ### Problems
 - Claude could not add the new sites to the cloud machine's allowed list (the settings service
   refused), and running the checks on GitHub was blocked; the user added the sites by hand.
+
+## Session 11 — 15 Nov 2026: "Comic strip, more fun" restyle
+
+### Done (look only — every tab, feature and data file is unchanged)
+- `news.html` restyled to the locked design: cream background, navy ink, F1 red, yellow;
+  Fredoka (headings, tabs, labels, buttons) + Nunito (body) from Google Fonts; sentence case.
+- Comic shapes: 3px navy borders, 24–28px rounded corners, 5px solid navy offset shadow.
+  Story cards tilt −0.7° / +0.7° (no tilt on phones). Labels are sticker pills on the card's top
+  edge (Confirmed / Reported / Rumour / Opinion colours as specified); "N sources" = red pill.
+- Header: red rounded panel with faint white dots, "F1 News Daily" on a white sticker ("F1" in red),
+  white F1 car with speed lines, tabs as one white pill bar (active tab yellow).
+- Headline of the day: white speech bubble with a tail and a yellow "Meanwhile, today…" sticker.
+- 3 very faint background cars (navy, red, yellow) fixed behind the content.
+- Ask tab: greeting panel with the avatar ("Hi Poh Ping!" / "Ask me about any story."); my
+  questions = navy bubbles, answers = cream bubbles with a navy border; Ask button = red pill.
+- Removed the automatic dark mode (the design is a fixed light comic style).
+
+### Tested
+- Phone (iPhone size) and desktop: all 4 tabs, source filters, Why grouped / Sources / History
+  buttons, and a real Ask answer (real Worker code + real AI on a copy of the live data).
+  Fonts load, cards tilt only on desktop, labels sit on the card edge, cars stay behind the content,
+  no all-caps, no sideways scrolling, no errors.
+- Report card: **18/18** ($0.0043).
+
+### Money
+- Main key: $0.119 used so far, $4.88 left.
+
+### Next ideas
+- Maybe restyle `costs.html` to match (it still has the old plain look).
