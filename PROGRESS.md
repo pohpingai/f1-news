@@ -224,3 +224,30 @@
 ### Next
 - User: test the live Ask tab on the phone with the real Worker.
 - Maybe: keep the Wrangler settings file in the project (`worker/wrangler.toml`) for future deploys.
+
+## Session 8 — 15 Nov 2026: Ask searches all saved news for named topics
+
+### Done
+- `worker/ask-worker.js`: the search range is now decided by plain code:
+  - the question names a time ("today", "this week") → that time;
+  - the question names a person, team or topic → ALL saved news (up to 30 days);
+  - a general catch-up (no names) → the last 7 days.
+  The AI only reports whether the question named a time; it no longer picks the range.
+- New thinking step "📅 Dates searched: 19 Oct – 15 Nov 2026 (30 days: …)", including a note
+  when the saved news does not go back that far.
+- Answers still come only from the saved news ("Not in my news." otherwise).
+
+### Tested (old vs new Worker, same questions, copy of today's live data)
+- "Tell me about Charles Leclerc's daughter" → nothing about it is saved → "Not in my news." ($0.0005)
+- "What happened between Hamilton and Leclerc at the Mexico GP?" (stories 2–13 Nov, older than
+  7 days) → answer from 7 saved stories ($0.0011); claims checked against the saved previews.
+- "What's new on Verstappen?" → now 30 days instead of 7: $0.00073 → $0.00099.
+- "Catch me up on the last 7 days." → still 7 days (8–15 Nov), same cost (~$0.0012–0.0015).
+
+### Cost difference
+- Only named-topic questions that used to search 7 days change: about +$0.0003 per question
+  (~+35%). The number of items sent to the AI is capped, so it cannot grow much more.
+- Main key: $0.073 used so far, $4.93 left.
+
+### Next
+- After merging: deploy the new Worker to Cloudflare (same Wrangler steps as Session 7).

@@ -53,6 +53,9 @@ A daily Formula 1 news website.
 - The OpenRouter key for the chat lives ONLY in the Cloudflare Worker as a secret (a separate
   key, `f1-news-ask`, with its own small limit). Never put a key in the website or the browser.
 - The Worker checks the passcode (`ASK_PASSCODE` secret) and the daily limit before every question.
+- Search range is decided by code, not the AI: a time named in the question → that time;
+  a named person / team / topic → all saved news (up to 30 days); a general catch-up → 7 days.
+  The thinking steps show the exact dates searched.
 - Answers come ONLY from the saved news, cards and rumours, with numbered sources. If nothing
   matches: "Not in my news." Never answer from the AI's general knowledge.
 - Show the thinking steps (what was searched, what was found) above every answer.

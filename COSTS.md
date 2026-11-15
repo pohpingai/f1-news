@@ -21,7 +21,7 @@ Estimates come from real test runs. The robot runs 12 times a day, but most runs
 | **AI grouping + labels** | Groups same-event stories into cards; writes title, 2-sentence summary, "sources disagree" note, merge reason; labels Confirmed / Rumour / Opinion | ~$0.015–0.03 | The "Top stories (AI)" tab, the labels, and (because they need cards) the rumour tracker and headline of the day. "All stories" still works. | Step 2 (+ labels in Step 3) | ☐ |
 | **Headline of the day** | One sentence at the top of the page | ~$0.002–0.003 | Just that sentence | Step 2 | ☐ |
 | **Rumour tracker** | Remembers rumours across days, trend, history, official confirmations | ~$0.005–0.01 | The "Rumours" tab | Step 3 | ☐ |
-| **Ask tab (chat)** | Answers your questions from the saved news, with sources and thinking steps (2 AI steps per question) | ~$0.0002–0.0014 per question; e.g. 20 questions ≈ $0.015 | The Ask tab | Step 5 | ☐ |
+| **Ask tab (chat)** | Answers your questions from the saved news, with sources and thinking steps (2 AI steps per question) | ~$0.0002–0.0015 per question; e.g. 20 questions ≈ $0.015–0.02 (named-topic questions search 30 days: ~+$0.0003 each) | The Ask tab | Step 5 | ☐ |
 | **Label catch-up** | Labels cards that have no label | One-off ~$0.002, then ~$0 | Some cards might show no label | Step 3 | ☐ |
 | **All robot AI features together** | | **~$0.02–0.045 per day (~$0.60–1.35 per month)** | | | |
 | **Ask tab** | Only when you ask; capped by the Worker's daily limit (default $0.20) and the `f1-news-ask` key's own limit | | | | |
@@ -43,7 +43,8 @@ Taken from the OpenRouter key's usage page. This total includes everything paid 
 | 15 Nov 2026 | Cost tracker: testing | ~$0.005 |
 | 14–15 Nov 2026 | Robot's real runs on GitHub (the rest) | ~$0.008 |
 | 15 Nov 2026 | Step 5 "Reported" label + Ask tab: building and testing (+ robot runs) | ~$0.015 |
-| **15 Nov 2026** | **Total used on the key so far** | **$0.063** |
-| | Left on the $5 limit | $4.94 |
+| 15 Nov 2026 | Ask: 30-day search for named topics, testing (old vs new) (+ robot runs) | ~$0.010 |
+| **15 Nov 2026** | **Total used on the main key so far** | **$0.073** |
+| | Left on the $5 limit | $4.93 |
 
 *Update this table at the end of each session (check `https://openrouter.ai/settings/keys` or ask Claude).*
