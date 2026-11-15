@@ -46,8 +46,9 @@ Taken from the OpenRouter key's usage page. This total includes everything paid 
 | 15 Nov 2026 | Ask: 30-day search for named topics, testing (old vs new) (+ robot runs) | ~$0.010 |
 | 15 Nov 2026 | Step 6 report card: building, 3 full runs + debugging (+ robot runs) | ~$0.019 |
 | 15 Nov 2026 | Session 10 new sources: testing on a data copy + report card (+ robot runs) | ~$0.017 |
-| **15 Nov 2026** | **Total used on the main key so far** | **$0.109** |
-| | Left on the $5 limit | $4.89 |
+| 15 Nov 2026 | Session 11 comic restyle: Ask screenshot test + report card (+ robot runs) | ~$0.010 |
+| **15 Nov 2026** | **Total used on the main key so far** | **$0.119** |
+| | Left on the $5 limit | $4.88 |
 
 **Report card (`tests/report_card.py`):** about **$0.004 per run** (18 tests). It only costs money
 when someone runs it; it is not part of the robot.
