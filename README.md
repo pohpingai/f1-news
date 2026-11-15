@@ -6,14 +6,22 @@ A simple website that collects Formula 1 news from 8 sources every 2 hours.
 - **The data:** `data/news.json`
 - **The collector:** `scripts/fetch_news.py`
 - **The AI brain:** `scripts/ai_cluster.py` → `data/cards.json`
-- **The robot that runs both every 2 hours:** `.github/workflows/fetch-news.yml`
+- **The rumour tracker:** `scripts/rumour_tracker.py` → `data/rumours.json`
+- **The robot that runs all of them every 2 hours:** `.github/workflows/fetch-news.yml`
 
 ## The AI brain
 
 After collecting, the AI (Claude Haiku 5.5 via OpenRouter) groups stories about the same event
 into one card with a title, a 2-sentence summary, all source links, a note if sources disagree,
 and the reason it merged them. It also writes a "headline of the day".
-It costs roughly $0.02–0.04 per day.
+Every card is labelled **Confirmed**, **Rumour** or **Opinion**.
+
+The **rumour tracker** remembers rumours across days: the claim, who is involved, first/last seen,
+all sources, status (Active / Confirmed / Denied / Faded) and trend (rising / steady / fading),
+with a history of every change and the AI's reason. A rumour only becomes Confirmed when an
+official source says so (checked word-for-word by the code).
+
+All the AI steps together cost roughly $0.03–0.05 per day.
 
 The key is stored in GitHub: **Settings → Secrets and variables → Actions → `OPENROUTER_API_KEY`**.
 To run the AI on your own computer, set the key first (never save it in a file in this repo):

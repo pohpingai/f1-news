@@ -92,3 +92,51 @@
 ### Next ideas
 - Watch a few days of cards and adjust the AI rules if merges look wrong.
 - Maybe: show the "kept separate" decisions on a small "AI log" page.
+
+## Session 4 — 15 Nov 2026: labels + rumour tracker
+
+### Done
+- Every card now has a label: **Confirmed**, **Rumour** or **Opinion**, shown as a coloured tag.
+  The label is decided in the same AI request that groups stories. Cards without a label (older
+  cards, or AI slips) get one in a small "catch-up" request.
+- New `scripts/rumour_tracker.py` with its memory in `data/rumours.json`. Each rumour has: claim,
+  people/teams, first seen, last seen, all sources with dates, status, trend, proof, and history.
+- Each run, new Rumour cards are matched to a known rumour (update) or added as new.
+  New Confirmed cards are checked as possible proof that confirms or denies an open rumour.
+- Safety lock: Confirmed / Denied only if the proof card is labelled Confirmed AND the AI's
+  evidence words are found word-for-word in that card. Otherwise the change is "blocked" and logged.
+- Trend (rising / steady / fading) and Faded (14 days quiet) are worked out by plain code.
+- New "Rumours" tab: Active first (rising first), trend arrows, source count, first/last seen,
+  "Sources" and "History" buttons; confirmed rumours show the official proof and link.
+- The robot runs the tracker after the AI brain. Scripts accept `F1_DATA_DIR` for safe tests.
+
+### Tested
+- Labels on today's 63 cards: 34 Confirmed, 2 Rumour, 27 Opinion. First try put some features
+  under Confirmed/Rumour; made the rule clearer ("features, history pieces, explainers, lists are
+  Opinion even when they contain facts") and re-labelled.
+- Real rumours found: the FIA president's planned presidency-rule change, and the "ADUO for teams"
+  cost-cap plan to be discussed at the F1 Commission. No Confirmed card was wrongly used as proof.
+- TEST ONLY (scratch copy, not on the live site): a fake official FIA announcement turned the
+  presidency-rule rumour into Confirmed, with the proof and reason saved. A fake "set to be
+  approved, sources say" report only added a source to the cost-cap rumour (stayed Active).
+- Safety lock: 3 fake cheating attempts were all blocked (invented words, proof card only a Rumour,
+  no evidence); the honest case passed.
+- Plain-code rules: +6 days → trend "fading"; +15 days → Active becomes Faded. Re-run with nothing
+  new: no AI call. No key: skipped.
+- AI reasons first mentioned internal codes like "R1"; told the AI to describe things in words.
+- Page on a phone: labels, Rumours tab, Sources/History buttons, no sideways scroll, no errors;
+  without `rumours.json` the tab says "No rumours tracked yet".
+
+### Cost
+- Rumour tracker: about $0.0005–0.001 per run when there are new rumour/confirmed cards.
+- One-time catch-up labelling of old cards: about $0.002.
+- All AI steps together: roughly $0.03–0.05 per day (~$1–1.50 a month).
+
+### Things to know
+- Labels are AI judgments and can be wrong now and then (e.g. a quote-based feature as Confirmed).
+- It is a quiet news week, so only 2 rumours so far; expect more during driver-market season.
+- The tracker only sees cards from the last 48 hours on its first run.
+
+### Next ideas
+- Watch the labels and rumours for a few days and adjust the rules.
+- Maybe: a link from a Rumour card to its entry in the Rumours tab.
