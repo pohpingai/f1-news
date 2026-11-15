@@ -1,6 +1,22 @@
 {
- "updated": "2026-11-15T11:57:01Z",
+ "updated": "2026-11-15T12:28:06Z",
  "stories": [
+  {
+   "title": "F1 tipped for imminent sale by former Liberty Media boss",
+   "source": "PlanetF1",
+   "date": "2026-11-15T12:23:39Z",
+   "date_is_seen_time": false,
+   "link": "https://www.planetf1.com/news/f1-tipped-for-imminent-sale-by-former-liberty-media-boss",
+   "snippet": "F1 for sale?"
+  },
+  {
+   "title": "What time is the next F1 race? Las Vegas GP dates and full schedule",
+   "source": "Crash.net",
+   "date": "2026-11-15T12:00:00Z",
+   "date_is_seen_time": false,
+   "link": "https://www.crash.net/f1/news/1110116/1/what-time-next-f1-race-las-vegas-gp-dates-and-full-schedule",
+   "snippet": "The next round of the 2026 Formula 1 season takes place at the Las Vegas Grand Prix."
+  },
   {
    "title": "TREMAYNE: It’s 10 years since Ron Dennis left F1 – I miss him",
    "source": "Formula1.com",
@@ -18,12 +34,28 @@
    "snippet": "Red Bull has produced an impressive turnaround after a slow start to 2026."
   },
   {
+   "title": "Max Verstappen can fix Ferrari as F1 insider says Lewis Hamilton is not the man",
+   "source": "GPFans",
+   "date": "2026-11-15T11:27:00Z",
+   "date_is_seen_time": false,
+   "link": "https://www.gpfans.com/en/f1-news/1092924/f1-insider-max-verstappen-lewis-hamilton-fix-ferrari-leadership/",
+   "snippet": "Former Haas F1 boss Guenther Steiner has become the latest person in the sport to question whether Lewis Hamilton is the right person to lead Ferrari."
+  },
+  {
    "title": "Button claims Fernando Alonso ‘little bit of doubt’ ahead of Aston Martin extension",
    "source": "PlanetF1",
    "date": "2026-11-15T10:58:04Z",
    "date_is_seen_time": false,
    "link": "https://www.planetf1.com/news/jenson-button-fernando-alonso-aston-martin-contract",
    "snippet": "\"I've been out of the sport for 10 years, and I retired because I was tired!\""
+  },
+  {
+   "title": "Aston Martin figure admits doubts over Fernando Alonso F1 future",
+   "source": "GPFans",
+   "date": "2026-11-15T09:57:00Z",
+   "date_is_seen_time": false,
+   "link": "https://www.gpfans.com/en/f1-news/1092920/f1-aston-martin-fernando-alonso-future-jenson-button-contract-2027/",
+   "snippet": "Aston Martin ambassador and former F1 champion Jenson Button has admitted that he had some doubts about whether Fernando Alonso would return to the team for 2027."
   },
   {
    "title": "Inside Turkey’s revamp for the return of a modern F1 classic",
@@ -74,6 +106,14 @@
    "snippet": "Guenther Steiner suggests a possible solution to Ferrari's F1 woes."
   },
   {
+   "title": "Did Mercedes 'trick' decide F1 world title? Verstappen scored more points than Antonelli",
+   "source": "GPFans",
+   "date": "2026-11-15T08:45:00Z",
+   "date_is_seen_time": false,
+   "link": "https://www.gpfans.com/en/f1-news/1092913/f1-title-race-2026-mercedes-compression-ratio-ruling/",
+   "snippet": "Kimi Antonelli is the newly-crowned F1 champion for 2026 but maybe things would have been very different but for some early-season controversy surrounding the sport's new regulations."
+  },
+  {
    "title": "Poll: How many F1 drivers could have won the championship in Antonelli’s car? | Debates and Polls",
    "source": "RaceFans",
    "date": "2026-11-15T08:30:30Z",
@@ -82,12 +122,36 @@
    "snippet": "Andrea Kimi Antonelli is the 2026 world champion - but which of his rivals could have won it in his car? Join in this week's poll."
   },
   {
+   "title": "Lewis Hamilton refuses to back down in fight to fix Ferrari: 'I'm very outspoken'",
+   "source": "GPFans",
+   "date": "2026-11-15T07:58:00Z",
+   "date_is_seen_time": false,
+   "link": "https://www.gpfans.com/en/f1-news/1092922/lewis-hamilton-ferrari-f1-outspoken-pushing-charles-leclerc/",
+   "snippet": "Lewis Hamilton says he has no intention of softening his approach as he attempts to turn Ferrari into an F1 title contender once again."
+  },
+  {
    "title": "George Russell faces career-defining 15 months with either Rosberg or Ricciardo outcome",
    "source": "PlanetF1",
    "date": "2026-11-15T07:43:54Z",
    "date_is_seen_time": false,
    "link": "https://www.planetf1.com/news/george-russell-mercedes-future-kimi-antonelli-title-defeat",
    "snippet": "Will George Russell bounce back like Nico Rosberg or walk away like Daniel Ricciardo?"
+  },
+  {
+   "title": "Martin Brundle's worrying Aston Martin verdict raises more questions for Lawrence Stroll",
+   "source": "GPFans",
+   "date": "2026-11-15T07:15:00Z",
+   "date_is_seen_time": false,
+   "link": "https://www.gpfans.com/en/f1-news/1092908/f1-aston-martin-honda-lawrence-stroll-concerns-martin-brundle/",
+   "snippet": "It's not a great time to be the F1 team running Honda power units, as Aston Martin are continuing to learn."
+  },
+  {
+   "title": "Christian Horner frozen out as $3bn Cadillac deal faces unexpected blocker - F1 News Today",
+   "source": "GPFans",
+   "date": "2026-11-15T06:30:00Z",
+   "date_is_seen_time": false,
+   "link": "https://www.gpfans.com/en/f1-news/1092921/f1-news-today-christian-horner-frozen-out-cadillac-sale-blocker/",
+   "snippet": "“I feel like there’s a desire within the sport to see me come back, which is very flattering” - so said Christian Horner just five days ago."
   },
   {
    "title": "Brundle recalls ‘sniffy’ Toto Wolff text after Christian Horner comment",
@@ -192,6 +256,38 @@
    "date_is_seen_time": true,
    "link": "https://www.formula1.com/en/latest/article/analysis-why-the-f1-driver-market-might-produce-one-last-twist-for-2027.6t7AwtqfHWkDqSgQZ3ElQ3",
    "snippet": "Following Racing Bulls’ confirmation of their unchanged driver line-up, Lawrence Barretto dissects everything that’s still left to play for on the 2027 grid."
+  },
+  {
+   "title": "Mercedes boss reveals George Russell mindset after F1 title agony",
+   "source": "GPFans",
+   "date": "2026-11-14T21:57:00Z",
+   "date_is_seen_time": false,
+   "link": "https://www.gpfans.com/en/f1-news/1092914/f1-mercedes-boss-george-russell-mindset-kimi-antonelli-battle-2026/",
+   "snippet": "Mercedes technical director James Allison has praised George Russell for the way he's dealt with a difficult season."
+  },
+  {
+   "title": "Oscar Piastri leaks big Lando Norris 'secret'",
+   "source": "GPFans",
+   "date": "2026-11-14T20:45:00Z",
+   "date_is_seen_time": false,
+   "link": "https://www.gpfans.com/en/f1-news/1092910/f1-oscar-piastri-lando-norris-joke-birthday-secret/",
+   "snippet": "Oscar Piastri has poked some fun at his 'now rather old' McLaren team-mate Lando Norris, jokingly outing a 'secret'."
+  },
+  {
+   "title": "FSG’s $3bn Cadillac F1 move faces unexpected NASCAR blocker",
+   "source": "GPFans",
+   "date": "2026-11-14T19:55:00Z",
+   "date_is_seen_time": false,
+   "link": "https://www.gpfans.com/en/f1-news/1092919/f1-cadillac-sale-blockage-fsg-nascar-brad-keselowski-ownership/",
+   "snippet": "John Henry's Fenway Sports Group (FSG) have been the main name mentioned as a potential buyer for Cadillac's F1 operation, but they could hit one snag in the process."
+  },
+  {
+   "title": "Young Red Bull star handed 2027 promotion after clinching championship",
+   "source": "GPFans",
+   "date": "2026-11-14T18:55:00Z",
+   "date_is_seen_time": false,
+   "link": "https://www.gpfans.com/en/f1-news/1092918/f1-academy-red-bull-alisha-palmowski-promotion-frec-champion/",
+   "snippet": "Newly-crowned F1 Academy champion Alisha Palmowski will race in a new series new year, getting a fully-funded seat in the Formula Regional European Championship in 2027."
   },
   {
    "title": "OPINION: Why Mercedes could be on the horizon for Liam Lawson",
@@ -634,6 +730,14 @@
    "snippet": "Whatever happened to the diamond that went missing after the Formula 1 car it was attached to crashed?"
   },
   {
+   "title": "Las Vegas GP: UK schedule and how to watch on Sky Sports",
+   "source": "Sky Sports",
+   "date": "2026-11-13T06:00:00Z",
+   "date_is_seen_time": false,
+   "link": "https://www.skysports.com/f1/news/12433/13611077/las-vegas-gp-2026-dates-schedule-weather-uk-start-time-and-how-to-watch-or-stream-f1-race-in-united-states-live-on-sky-sports",
+   "snippet": "Formula 1 heads for the bright lights of Las Vegas with both 2026 titles settled, but the competitive picture at the front of the grid tighter than it has been at any other stage of the season."
+  },
+  {
    "title": "On This Day: Verstappen stars as Hamilton wins soaked Brazilian Grand Prix | Brief",
    "source": "RaceFans",
    "date": "2026-11-13T00:01:00Z",
@@ -648,6 +752,14 @@
    "date_is_seen_time": false,
    "link": "https://www.motorsport.com/f1/news/guenther-steiner-suggests-max-verstappen-could-be-better-suited-to-lead-ferrari/10874192/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
    "snippet": "Former Haas Formula 1 team principal Guenther Steiner has questioned whether Lewis Hamilton is the driver to turn Ferrari's fortunes around, suggesting Max Verstappen might be better suited to the…"
+  },
+  {
+   "title": "Hamilton urges Israel to 'let the aid trucks in' to Gaza after Rafah border visit",
+   "source": "Sky Sports",
+   "date": "2026-11-12T20:38:00Z",
+   "date_is_seen_time": false,
+   "link": "https://www.skysports.com/f1/news/12433/13611222/lewis-hamilton-ferraris-seven-time-f1-world-champion-urges-israel-to-let-the-aid-trucks-in-to-gaza-after-visit-to-rafah-border",
+   "snippet": "Lewis Hamilton urged Israel to \"let the aid trucks in\" to Gaza after visiting the Rafah border."
   },
   {
    "title": "Guenther Steiner warns Oscar Piastri's McLaren future could be at risk after 2027",
@@ -712,6 +824,14 @@
    "date_is_seen_time": false,
    "link": "https://www.bbc.co.uk/sport/formula1/articles/cw24epe29566o?at_medium=RSS&at_campaign=rss",
    "snippet": "Arvid Lindblad and Liam Lawson will continue as the drivers for Red Bull's second team Racing Bulls in 2027."
+  },
+  {
+   "title": "INTERNATIONAL COURT OF APPEAL - Hearing November 25, 2026",
+   "source": "FIA",
+   "date": "2026-11-12T15:39:00Z",
+   "date_is_seen_time": false,
+   "link": "https://www.fia.com/news/international-court-appeal-hearing-november-25-2026",
+   "snippet": "The following hearing of the International Court of Appeal will take place in Paris: Hearing Case ICA-2026-14: Appeal lodged by Audi Revolut F1 Team against Decision No. 69 of the Stewards…"
   },
   {
    "title": "Red Bull announces F1 plans for Nikola Tsolov after missing 2027 race seat",
@@ -890,6 +1010,14 @@
    "snippet": "We look back on Kimi Antonelli’s incredible rise to become F1’s youngest ever champion."
   },
   {
+   "title": "Racing Bulls confirm 2027 line-up",
+   "source": "Sky Sports",
+   "date": "2026-11-12T11:00:00Z",
+   "date_is_seen_time": false,
+   "link": "https://www.skysports.com/f1/news/12433/13610206/racing-bulls-confirm-liam-lawson-and-arvid-lindblad-as-2027-formula-1-driver-line-up",
+   "snippet": "Racing Bulls have confirmed Liam Lawson and Arvid Lindblad will be retained for the 2027 Formula 1 season."
+  },
+  {
    "title": "Formula E postpones Jeddah season-opener as F1 pushing on with Middle East races",
    "source": "Crash.net",
    "date": "2026-11-12T10:53:10Z",
@@ -952,6 +1080,14 @@
    "date_is_seen_time": false,
    "link": "https://www.motorsport.com/f1/news/max-verstappen-reacts-to-ferrari-clash-i-would-never-sign-two-number-one-drivers/10873588/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
    "snippet": "Although Ferrari Formula 1 team principal Frederic Vasseur spoke to Lewis Hamilton and Charles Leclerc on Thursday evening in Sao Paulo to clear the air, an extraordinary amount had already been said…"
+  },
+  {
+   "title": "The Fast and the Curious",
+   "source": "Sky Sports",
+   "date": "2026-11-12T09:00:00Z",
+   "date_is_seen_time": false,
+   "link": "https://www.skysports.com/football/news/12433/13611406/the-fast-and-the-curious-an-f1-podcast-with-greg-james-betty-glover-and-christian-hewgill",
+   "snippet": "The Fast and the Curious takes you inside the fascinating world of Formula 1."
   },
   {
    "title": "Freddie Slater's 'surreal' first taste of Formula 1",
@@ -1146,6 +1282,14 @@
    "snippet": "Martin Brundle says one F1 team boss is growing increasingly frustrated about its reliability woes."
   },
   {
+   "title": "Fabiana Ecclestone leads high-impact agenda in Brazil focusing on road safety and female empowerment",
+   "source": "FIA",
+   "date": "2026-11-11T09:55:00Z",
+   "date_is_seen_time": false,
+   "link": "https://www.fia.com/news/fabiana-ecclestone-leads-high-impact-agenda-brazil-focusing-road-safety-and-female-empowerment",
+   "snippet": "During the week of preparations for the Formula 1 São Paulo Grand Prix, the Vice-President of the FIA for Sport in South America, Fabiana Ecclestone, carried out an extensive…"
+  },
+  {
    "title": "Lewis Hamilton has “rebuilt himself” after Abu Dhabi 2021 controversy, says Damon Hill",
    "source": "Crash.net",
    "date": "2026-11-11T09:32:07Z",
@@ -1184,6 +1328,14 @@
    "date_is_seen_time": false,
    "link": "https://www.racefans.net/2026/11/11/lawson-made-sure-red-bull-saw-he-helped-verstappen-at-interlagos/",
    "snippet": "Liam Lawson drew attention to one of the clearest examples of Racing Bulls helping Red Bull in the Brazilian Grand Prix."
+  },
+  {
+   "title": "Vowles: Williams got carried away with success but 2026 only a blip",
+   "source": "Sky Sports",
+   "date": "2026-11-11T07:00:00Z",
+   "date_is_seen_time": false,
+   "link": "https://www.skysports.com/f1/news/12433/13610745/james-vowles-williams-boss-admits-team-got-carried-away-with-success-but-says-2026-f1-season-struggles-are-only-a-blip",
+   "snippet": "Williams team principal James Vowles has admitted his squad \"got carried away\" with their success last season but insists a disappointing 2026 campaign is merely \"a blip\"."
   },
   {
    "title": "Daniel Ricciardo: Max Verstappen will \"go down as one of the best ever\"",
@@ -1226,6 +1378,22 @@
    "snippet": "Hamilton visits Gaza Strip to witness relief efforts"
   },
   {
+   "title": "F1 Academy champion Palmowski lands Red Bull junior team spot",
+   "source": "Sky Sports",
+   "date": "2026-11-10T19:00:00Z",
+   "date_is_seen_time": false,
+   "link": "https://www.skysports.com/f1/live-blog/12433/13518208/f1-academy-2026-reports-calendar-news-results-standings-and-highlights-for-races-this-season",
+   "snippet": ""
+  },
+  {
+   "title": "Hill insists Ferrari should back 'extraordinary' Hamilton over Leclerc",
+   "source": "Sky Sports",
+   "date": "2026-11-10T17:30:00Z",
+   "date_is_seen_time": false,
+   "link": "https://www.skysports.com/f1/news/12433/13610730/ferrari-should-back-extraordinary-lewis-hamilton-over-charles-leclerc-as-number-one-driver-damon-hill-tells-sky-sports-the-f1-show",
+   "snippet": "Former Formula 1 world champion Damon Hill has insisted Ferrari should back the \"extraordinary\" Lewis Hamilton over his team-mate Charles Leclerc if they want to have a chance of winning next year's…"
+  },
+  {
    "title": "David Coulthard’s urgent plea to Lando Norris after taking firework to the face on Brazil GP podium",
    "source": "Crash.net",
    "date": "2026-11-10T17:00:00Z",
@@ -1258,6 +1426,14 @@
    "snippet": "Laurent Mekies has praised Lawson's impressive recent form but insists the decision over his future rests with Racing Bulls"
   },
   {
+   "title": "Brundle's verdict as Mercedes seal title in 'chaotic Interlagos style'",
+   "source": "Sky Sports",
+   "date": "2026-11-10T15:20:00Z",
+   "date_is_seen_time": false,
+   "link": "https://www.skysports.com/f1/news/12433/13610204/sao-paulo-gp-martin-brundles-verdict-as-mercedes-seal-2026-f1-constructors-title-and-lando-norris-wins-wet-race-in-brazil",
+   "snippet": "This year's edition of the Sao Paulo Grand Prix at Interlagos served up its usual fascinating challenges and surprises. The race was great, perhaps only missing a late surprise or crescendo."
+  },
+  {
    "title": "Formula 1 to finish season in Middle East",
    "source": "BBC Sport",
    "date": "2026-11-10T15:04:46Z",
@@ -1282,6 +1458,14 @@
    "snippet": "The Qatar and Abu Dhabi grands prix which will conclude Formula 1’s 2026 season are set to proceed as planned, provided there is no dramatic escalation of the Iran war. The Middle Eastern conflict…"
   },
   {
+   "title": "F1 planning to finish season in Middle East as Imola deadline passes",
+   "source": "Sky Sports",
+   "date": "2026-11-10T14:00:00Z",
+   "date_is_seen_time": false,
+   "link": "https://www.skysports.com/f1/news/12433/13610302/formula-1-proceeding-with-plans-to-finish-2026-season-in-middle-east-as-deadline-to-hold-race-at-imola-passes",
+   "snippet": "Formula 1 chiefs are proceeding with plans to hold the final two rounds of 2026 in the Middle East after a deadline to move one of the season-ending races to Italy passed."
+  },
+  {
    "title": "Esteban Ocon releases fresh statement amid uncertainty over F1 future",
    "source": "Crash.net",
    "date": "2026-11-10T13:45:00Z",
@@ -1304,6 +1488,14 @@
    "date_is_seen_time": false,
    "link": "https://www.crash.net/f1/news/1110058/1/fia-announces-results-final-2026-f1-aduo-engine-review",
    "snippet": "The FIA has concluded its final engine performance assessment of 2026, with manufacturers now looking ahead to next season."
+  },
+  {
+   "title": "No further F1 engine upgrades handed out after final 2026 review period",
+   "source": "Sky Sports",
+   "date": "2026-11-10T12:00:00Z",
+   "date_is_seen_time": false,
+   "link": "https://www.skysports.com/f1/news/12433/13610600/f1-aduo-fia-announces-no-further-engine-upgrades-handed-out-after-final-review-period-of-2026-season",
+   "snippet": "No further engine upgrade opportunities have been granted to Formula 1's power unit manufacturers following the third and final review period of the 2026 season, the FIA has confirmed."
   },
   {
    "title": "FIA reveals ADUO results in final review of 2026 F1 season",
@@ -1338,6 +1530,14 @@
    "snippet": "The FIA's single-seater director Nikolas Tombazis defended F1's ADUO rules but indicated they may be revised in coming seasons."
   },
   {
+   "title": "FIA announces ADUO results following third review periods of 2026",
+   "source": "FIA",
+   "date": "2026-11-10T10:50:00Z",
+   "date_is_seen_time": false,
+   "link": "https://www.fia.com/news/fia-announces-aduo-results-following-third-review-periods-2026",
+   "snippet": "Additional Development and Upgrade Opportunities (ADUO) is a mechanism within the 2026 Formula 1 Technical Regulations (Article C4) allowing Power Unit manufacturers whose Internal…"
+  },
+  {
    "title": "Mercedes to investigate ‘very strange’ car behaviour after Brazil GP",
    "source": "Crash.net",
    "date": "2026-11-10T10:40:00Z",
@@ -1360,6 +1560,14 @@
    "date_is_seen_time": false,
    "link": "https://www.bbc.co.uk/sport/formula1/articles/cmp3g005zyxko?at_medium=RSS&at_campaign=rss",
    "snippet": "BBC F1 correspondent Andrew Benson answers your latest questions after the Sao Paulo Grand Prix."
+  },
+  {
+   "title": "Why a thrilling F1 era beckons after Mercedes' title double",
+   "source": "Sky Sports",
+   "date": "2026-11-10T06:00:00Z",
+   "date_is_seen_time": false,
+   "link": "https://www.skysports.com/f1/news/12433/13610252/why-a-thrilling-era-beckons-for-f1-despite-mercedes-starting-new-era-with-dominant-title-double-for-kimi-antonelli-and-team",
+   "snippet": "Mercedes have begun Formula 1's latest generation of rules with a dominant title double, but all indications suggest the sport could be in for a thrilling era of competition."
   },
   {
    "title": "“The car is steering by itself, don’t you see it?”: How handling trouble baffled Antonelli | Formula 1",
@@ -1418,6 +1626,14 @@
    "snippet": "Lewis Hamilton left \"devastated\" after his race in Brazil unravelled following a positive start."
   },
   {
+   "title": "Norris: McLaren still not at championship level",
+   "source": "Sky Sports",
+   "date": "2026-11-09T12:55:00Z",
+   "date_is_seen_time": false,
+   "link": "https://www.skysports.com/f1/news/12433/13610144/lando-norris-says-mclaren-are-still-not-at-the-level-to-fight-for-world-championship-in-2027-despite-sao-paulo-grand-prix-win",
+   "snippet": "Lando Norris believes McLaren are \"not at the level to fight for a world championship\" despite his dominant win in mixed conditions at the Sao Paulo Grand Prix."
+  },
+  {
    "title": "Ferrari reveals reason for Lewis Hamilton Brazil GP struggles after stunning start",
    "source": "Crash.net",
    "date": "2026-11-09T11:57:53Z",
@@ -1432,6 +1648,14 @@
    "date_is_seen_time": false,
    "link": "https://www.autosport.com/f1/news/how-the-racing-bulls-pendulum-is-swinging-back-towards-lawson/10873320/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
    "snippet": "When job security is in short supply, there's one solution for an Formula 1 driver. Be so good they can't ignore you. That's easier said than done, but it certainly seems to be what Liam Lawson has…"
+  },
+  {
+   "title": "Piastri splits from manager Webber",
+   "source": "Sky Sports",
+   "date": "2026-11-09T11:00:00Z",
+   "date_is_seen_time": false,
+   "link": "https://www.skysports.com/f1/news/12433/13610108/oscar-piastri-mclaren-driver-splits-from-mark-webber-management-after-sao-paulo-grand-prix-in-brazil",
+   "snippet": "Oscar Piastri has split from his management team, led by former Red Bull driver and nine-time Formula 1 winner Mark Webber and his partner Ann Webber."
   },
   {
    "title": "Max Verstappen owns up to rare unseen error at Brazil GP",
@@ -1490,12 +1714,28 @@
    "snippet": "On The Chequered Flag Podcast, BBC F1 correspondent Andrew Benson reflects on Lando Norris's impressive victory for McLaren at the Sao Paulo Grand Prix."
   },
   {
+   "title": "'Not many sports teams have done it' - Wolff 'proud' of Mercedes turnaround",
+   "source": "Sky Sports",
+   "date": "2026-11-08T22:20:00Z",
+   "date_is_seen_time": false,
+   "link": "https://www.skysports.com/f1/news/12433/13609697/toto-wolff-proud-of-mercedes-turnaround-after-winning-f1-2026-constructors-championship-at-sao-paulo-grand-prix",
+   "snippet": "Toto Wolff says he's \"proud\" of Mercedes' turnaround to win the 2026 Formula 1 Constructors' Championship and feels very few sports teams have bounced back so quickly."
+  },
+  {
    "title": "Norris wins gripping race after Antonelli and Russell errors",
    "source": "BBC Sport",
    "date": "2026-11-08T22:11:31Z",
    "date_is_seen_time": false,
    "link": "https://www.bbc.co.uk/sport/formula1/articles/c35yn19r7zkvo?at_medium=RSS&at_campaign=rss",
    "snippet": "McLaren's Lando Norris wins a gripping Sao Paulo Grand Prix in difficult conditions, as Mercedes secure the 2026 constructors' championship."
+  },
+  {
+   "title": "Hamilton says he overrode Ferrari pit call due to 'lack of information'",
+   "source": "Sky Sports",
+   "date": "2026-11-08T22:00:00Z",
+   "date_is_seen_time": false,
+   "link": "https://www.skysports.com/f1/news/12433/13609700/lewis-hamilton-ferrari-driver-says-he-overrode-teams-pit-call-due-to-lack-of-information-provided-as-rain-fell-during-sao-paulo-gp",
+   "snippet": "Lewis Hamilton says a lack of information led to him overriding Ferrari's call for him to come into the pits as rain fell during the closing stages of the Sao Paulo Grand Prix."
   },
   {
    "title": "Leclerc penalised for Lawson clash; Antonelli and Oliver Bearman also punished after F1 Brazilian GP",
@@ -1554,6 +1794,14 @@
    "snippet": "Kimi Antonelli vowed to put aside his Brazilian Grand Prix anger to celebrate Mercedes winning the Formula 1 constructors' title, as he rued the balance issues and the spin that took him out of…"
   },
   {
+   "title": "F1 – Norris triumphs in São Paulo as Mercedes secure 2026 Constructors’ Championship",
+   "source": "FIA",
+   "date": "2026-11-08T20:06:00Z",
+   "date_is_seen_time": false,
+   "link": "https://www.fia.com/news/f1-norris-triumphs-sao-paulo-mercedes-secure-2026-constructors-championship",
+   "snippet": "Lando Norris converted pole position into victory at the 2026 FIA Formula 1 São Paulo Grand Prix, mastering changing conditions at Interlagos to take the chequered flag 14.6 seconds clear…"
+  },
+  {
    "title": "New F1 championship standings after the Brazil Grand Prix",
    "source": "Crash.net",
    "date": "2026-11-08T19:13:33Z",
@@ -1576,6 +1824,14 @@
    "date_is_seen_time": false,
    "link": "https://www.crash.net/f1/results/1110009/1/f1-brazil-grand-prix-full-race-results",
    "snippet": "Full results from the race at the 2026 F1 Sao Paulo Grand Prix in Brazil."
+  },
+  {
+   "title": "F1 - 2026 São Paulo Grand Prix Post-Race Press Conference Transcript",
+   "source": "FIA",
+   "date": "2026-11-08T17:00:00Z",
+   "date_is_seen_time": false,
+   "link": "https://www.fia.com/news/f1-2026-sao-paulo-grand-prix-post-race-press-conference-transcript",
+   "snippet": "DRIVERS 1 – Lando NORRIS (McLaren) 2 – Max VERSTAPPEN (Red Bull Racing) 3 – Isack HADJAR (Red Bull Racing) TRACK INTERVIEWS (Conducted by James Hinchcliffe) Q: And here we are with your…"
   },
   {
    "title": "F1 Brazil Grand Prix as it happened",
@@ -1768,6 +2024,14 @@
    "date_is_seen_time": false,
    "link": "https://www.bbc.co.uk/sport/formula1/articles/cx0544g2n1jdo?at_medium=RSS&at_campaign=rss",
    "snippet": "New world champion Kimi Antonelli says he is treating the final races of the season as the beginnings of his campaign to retain the title next year."
+  },
+  {
+   "title": "Russell launches karting initiative for young drivers",
+   "source": "Sky Sports",
+   "date": "2026-11-05T20:00:00Z",
+   "date_is_seen_time": false,
+   "link": "https://www.skysports.com/f1/live-blog/12433/12466779/f1-news-rumours-and-gossip-formula-1-latest-updates-on-teams-driver-transfer-market-and-contracts",
+   "snippet": ""
   },
   {
    "title": "Russell to have 'deep, deep look in mirror'",
@@ -2072,6 +2336,14 @@
    "date_is_seen_time": false,
    "link": "https://www.bbc.co.uk/sounds/play/p0pjls50?at_medium=RSS&at_campaign=rss",
    "snippet": "Guenther Steiner and Damon Hill join Rosanna to look back at the race in Austin"
+  },
+  {
+   "title": "FIA Opens New Remote Operations Centre at Biggin Hill Ushering in a New Era for F1 Race Management",
+   "source": "FIA",
+   "date": "2026-10-20T15:16:00Z",
+   "date_is_seen_time": false,
+   "link": "https://www.fia.com/news/fia-opens-new-remote-operations-centre-biggin-hill-ushering-new-era-f1-race-management",
+   "snippet": "The Fédération Internationale de l’Automobile (FIA), the global governing body for motor sport and the federation for mobility organisations worldwide, has today officially opened its new…"
   },
   {
    "title": "Best images of F1 in the US through the years",

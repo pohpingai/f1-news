@@ -1,7 +1,79 @@
 {
- "updated": "2026-11-15T11:57:12Z",
+ "updated": "2026-11-15T12:28:51Z",
  "model": "anthropic/claude-haiku-5.5",
  "rumours": [
+  {
+   "id": "r6b021c8e",
+   "claim": "Formula 1 as a whole could reportedly be sold imminently, according to a former Liberty Media boss.",
+   "people": [
+    "Liberty Media"
+   ],
+   "status": "Active",
+   "trend": "steady",
+   "first_seen": "2026-11-15T12:23:39Z",
+   "last_seen": "2026-11-15T12:23:39Z",
+   "sources": [
+    {
+     "title": "F1 tipped for imminent sale by former Liberty Media boss",
+     "source": "PlanetF1",
+     "date": "2026-11-15T12:23:39Z",
+     "link": "https://www.planetf1.com/news/f1-tipped-for-imminent-sale-by-former-liberty-media-boss"
+    }
+   ],
+   "cards": [
+    "cbc435fa3"
+   ],
+   "proof": null,
+   "history": [
+    {
+     "time": "2026-11-15T12:28:51Z",
+     "event": "created",
+     "detail": "First seen: PlanetF1 (2026-11-15)",
+     "reason": "This is a new claim about an imminent sale of F1 itself, which differs from the known rumours about the FIA presidency rule and the cost cap proposal.",
+     "card": "Former Liberty Media boss tips F1 for imminent sale"
+    }
+   ]
+  },
+  {
+   "id": "ra67150ae",
+   "claim": "Fenway Sports Group could reportedly buy Cadillac's F1 operation for about $3bn, though a NASCAR-related obstacle could complicate the deal.",
+   "people": [
+    "Fenway Sports Group (FSG)",
+    "John Henry",
+    "Cadillac"
+   ],
+   "status": "Active",
+   "trend": "rising",
+   "first_seen": "2026-11-14T19:55:00Z",
+   "last_seen": "2026-11-15T06:30:00Z",
+   "sources": [
+    {
+     "title": "FSG’s $3bn Cadillac F1 move faces unexpected NASCAR blocker",
+     "source": "GPFans",
+     "date": "2026-11-14T19:55:00Z",
+     "link": "https://www.gpfans.com/en/f1-news/1092919/f1-cadillac-sale-blockage-fsg-nascar-brad-keselowski-ownership/"
+    },
+    {
+     "title": "Christian Horner frozen out as $3bn Cadillac deal faces unexpected blocker - F1 News Today",
+     "source": "GPFans",
+     "date": "2026-11-15T06:30:00Z",
+     "link": "https://www.gpfans.com/en/f1-news/1092921/f1-news-today-christian-horner-frozen-out-cadillac-sale-blocker/"
+    }
+   ],
+   "cards": [
+    "cb529d5b5"
+   ],
+   "proof": null,
+   "history": [
+    {
+     "time": "2026-11-15T12:28:51Z",
+     "event": "created",
+     "detail": "First seen: GPFans (2026-11-14); GPFans (2026-11-15)",
+     "reason": "This is a new sale story about Cadillac's F1 operation and FSG, which is not covered by the known rumours about the FIA presidency rule or the cost cap proposal.",
+     "card": "Cadillac F1 sale faces NASCAR blocker as FSG linked"
+    }
+   ]
+  },
   {
    "id": "rf51d5acf",
    "claim": "FIA president Mohammed Ben Sulayem is reportedly looking to make a controversial change to a key presidency rule.",
@@ -88,7 +160,7 @@
   "cfa961911": "2|Confirmed",
   "ca6fae114": "1|Reported",
   "cd4afaa4d": "1|Confirmed",
-  "c70ab1528": "1|Reported",
+  "c70ab1528": "2|Reported",
   "cfcf98b82": "1|Confirmed",
   "cf7d299a8": "1|Confirmed",
   "ced7c2287": "1|Reported",
@@ -100,7 +172,7 @@
   "c37161d91": "1|Reported",
   "c679d8d18": "1|Reported",
   "ccb151298": "1|Reported",
-  "c7f3a5f64": "1|Confirmed",
+  "c7f3a5f64": "3|Confirmed",
   "ccdbc9441": "1|Reported",
   "c8569341f": "1|Reported",
   "c0e1792a0": "1|Reported",
@@ -109,10 +181,30 @@
   "c157af946": "1|Reported",
   "cef48b734": "1|Reported",
   "c2fac4caf": "1|Reported",
-  "ce0b8e8da": "1|Reported",
+  "ce0b8e8da": "2|Reported",
   "c61b8b67b": "1|Reported",
   "cf35d4411": "1|Reported",
-  "c187b61fd": "1|Reported",
-  "c7bc6c301": "1|Reported"
+  "c187b61fd": "2|Reported",
+  "c7bc6c301": "1|Reported",
+  "cb529d5b5": "2|Rumour",
+  "cbc435fa3": "1|Rumour",
+  "cdbe4dc5e": "1|Confirmed",
+  "c3e2ee348": "1|Reported",
+  "c418f8eb5": "1|Reported",
+  "ccda12e84": "1|Confirmed",
+  "c2f1b9bd5": "1|Reported",
+  "c9a1dbde2": "1|Reported",
+  "c5c50e95a": "1|Reported",
+  "cf6e82f46": "1|Reported",
+  "ced43928a": "2|Confirmed",
+  "cbb70f772": "1|Reported",
+  "c747d32af": "1|Reported",
+  "ce6897900": "1|Reported",
+  "cd6add4b0": "2|Confirmed",
+  "caefcd16d": "1|Confirmed",
+  "c126baa80": "1|Reported",
+  "c50a579b0": "1|Reported",
+  "c2dd1cf17": "1|Reported",
+  "c7f22b08a": "1|Reported"
  }
 }
