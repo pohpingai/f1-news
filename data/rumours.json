@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T09:34:43Z",
+ "updated": "2026-11-15T11:57:12Z",
  "model": "anthropic/claude-haiku-5.5",
  "rumours": [
   {
@@ -111,6 +111,8 @@
   "c2fac4caf": "1|Reported",
   "ce0b8e8da": "1|Reported",
   "c61b8b67b": "1|Reported",
-  "cf35d4411": "1|Reported"
+  "cf35d4411": "1|Reported",
+  "c187b61fd": "1|Reported",
+  "c7bc6c301": "1|Reported"
  }
 }

@@ -1,12 +1,69 @@
 {
- "updated": "2026-11-15T09:46:06Z",
+ "updated": "2026-11-15T11:57:04Z",
  "model": "anthropic/claude-haiku-5.5",
  "headline_of_the_day": {
   "date": "2026-11-15",
-  "text": "Kimi Antonelli, the reigning 2026 World Champion, is in focus as rivals, Mercedes' ninth Constructors' title, and Ferrari's struggles dominate today's F1 news.",
-  "written": "2026-11-15T09:46:06Z"
+  "text": "Mercedes claimed their ninth Constructors' title in 2026 and Kimi Antonelli is the reigning World Champion, while Red Bull, Ferrari and McLaren face questions over slow starts and car problems.",
+  "written": "2026-11-15T11:57:04Z"
  },
  "cards": [
+  {
+   "id": "c4e93df38",
+   "created": "2026-11-15T11:57:04Z",
+   "stories": [
+    {
+     "title": "TREMAYNE: It’s 10 years since Ron Dennis left F1 – I miss him",
+     "source": "Formula1.com",
+     "date": "2026-11-15T11:57:01Z",
+     "link": "https://www.formula1.com/en/latest/article/its-10-years-since-ron-dennis-left-f1-i-miss-him.1HKS8KLe46myFMW6qOzsdY",
+     "snippet": "F1 Hall of Fame journalist David Tremayne remembers one of the titans of the paddock, a decade after he walked away from the sport in which he'd been so successful."
+    }
+   ],
+   "merge_reasons": [],
+   "title": "David Tremayne remembers Ron Dennis ten years after his F1 exit",
+   "summary": "David Tremayne writes a tribute to Ron Dennis, marking ten years since Dennis left Formula 1. He describes Dennis as one of the titans of the paddock.",
+   "disagreement": "",
+   "label": "Opinion",
+   "updated": "2026-11-15T11:57:04Z"
+  },
+  {
+   "id": "c7bc6c301",
+   "created": "2026-11-15T11:57:04Z",
+   "stories": [
+    {
+     "title": "Red Bull reveals remarkable scale of F1 2026 turnaround",
+     "source": "PlanetF1",
+     "date": "2026-11-15T11:47:08Z",
+     "link": "https://www.planetf1.com/news/red-bull-f1-2026-turnaround-revealed",
+     "snippet": "Red Bull has produced an impressive turnaround after a slow start to 2026."
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Red Bull reveals scale of its F1 2026 turnaround",
+   "summary": "Red Bull has revealed the scale of its turnaround after a slow start to the 2026 season. The article gives no further details in the provided text.",
+   "disagreement": "",
+   "label": "Reported",
+   "updated": "2026-11-15T11:57:04Z"
+  },
+  {
+   "id": "c187b61fd",
+   "created": "2026-11-15T11:57:04Z",
+   "stories": [
+    {
+     "title": "Button claims Fernando Alonso ‘little bit of doubt’ ahead of Aston Martin extension",
+     "source": "PlanetF1",
+     "date": "2026-11-15T10:58:04Z",
+     "link": "https://www.planetf1.com/news/jenson-button-fernando-alonso-aston-martin-contract",
+     "snippet": "\"I've been out of the sport for 10 years, and I retired because I was tired!\""
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Button says Alonso had a 'little bit of doubt' before Aston Martin extension",
+   "summary": "Jenson Button says Fernando Alonso had a little bit of doubt ahead of his Aston Martin extension. Button points to Alonso's earlier retirement and tiredness as part of that context.",
+   "disagreement": "",
+   "label": "Reported",
+   "updated": "2026-11-15T11:57:04Z"
+  },
   {
    "id": "cb79dd0ed",
    "created": "2026-11-15T09:46:06Z",
@@ -1615,6 +1672,21 @@
     }
    ],
    "reason": "Both involve James Allison discussing Mercedes' 2026 struggles, but the Russell-focused remarks are a separate set of comments from the psychological-toll piece."
+  },
+  {
+   "time": "2026-11-15T11:57:04Z",
+   "items": [
+    {
+     "title": "Button claims Fernando Alonso ‘little bit of doubt’ ahead of Aston Martin extension",
+     "source": "PlanetF1",
+     "link": "https://www.planetf1.com/news/jenson-button-fernando-alonso-aston-martin-contract"
+    },
+    {
+     "card": "cef48b734",
+     "title": "Button explains what will keep Alonso going at Aston Martin"
+    }
+   ],
+   "reason": "Both involve Jenson Button commenting on Fernando Alonso's Aston Martin future, but the PlanetF1 piece covers Button's doubt before the extension while the existing Formula1.com card covers what keeps Alonso going after his re-signing, so they are different comments."
   }
  ],
  "processed": [
@@ -1765,6 +1837,7 @@
   "https://www.formula1.com/en/latest/article/exclusive-button-explains-what-will-keep-alonso-going-as-spaniard-prepares-for-another-year-with-aston-martin.7bxjUs5DZSH18UP0SEqFWD",
   "https://www.formula1.com/en/latest/article/exclusive-piastri-on-taming-the-mcl40-redefining-success-and-why-a-tough-2026-could-make-him-stronger.qz9mVgFRNxNey7waRfq83",
   "https://www.formula1.com/en/latest/article/f1-academy-champion-alisha-palmowski-graduates-to-formula-regional-with-fully-funded-seat.39A1mu7n4LQ3ljJdTyFlhW",
+  "https://www.formula1.com/en/latest/article/its-10-years-since-ron-dennis-left-f1-i-miss-him.1HKS8KLe46myFMW6qOzsdY",
   "https://www.formula1.com/en/latest/article/mercedes-incredible-success-through-formula-1-history.7yLliKc36ZI9pd7xzNYFwq",
   "https://www.formula1.com/en/latest/article/our-writers-on-antonellis-title-success-and-what-it-means.2FAfHA49byUlrrTfVgWKWc",
   "https://www.formula1.com/en/latest/article/the-extra-gear-liam-lawsons-top-six-hopes-examined-after-securing-new-racing-bulls-deal.4FuO5PyKE8vCtfqm1OyxrJ",
@@ -1831,6 +1904,7 @@
   "https://www.planetf1.com/news/george-russell-lewis-hamilton-recovery-f1-2027",
   "https://www.planetf1.com/news/george-russell-mercedes-future-kimi-antonelli-title-defeat",
   "https://www.planetf1.com/news/imola-reveals-future-f1-return-plan",
+  "https://www.planetf1.com/news/jenson-button-fernando-alonso-aston-martin-contract",
   "https://www.planetf1.com/news/jonathan-mcevoy-fia-ban-ferrari",
   "https://www.planetf1.com/news/kimi-antonelli-in-awe-after-international-football-fans-chant-his-name",
   "https://www.planetf1.com/news/lewis-hamilton-causing-ferrari-tension-ralf-schumacher",
@@ -1840,6 +1914,7 @@
   "https://www.planetf1.com/news/mercedes-reveals-brazilian-gp-investigation-findings",
   "https://www.planetf1.com/news/michael-schumacher-jock-clear",
   "https://www.planetf1.com/news/nico-hulkenberg-fia-penalty-audi-f1-2026-brazilian-grand-prix",
+  "https://www.planetf1.com/news/red-bull-f1-2026-turnaround-revealed",
   "https://www.racefans.net/2026/11/09/spotlight-fia-president-ben-sulayem-planning-to-remove-age-limits-for-office-holders/",
   "https://www.racefans.net/2026/11/09/the-car-is-steering-by-itself-dont-you-see-it-how-handling-trouble-baffled-antonelli/",
   "https://www.racefans.net/2026/11/10/f1-scraps-back-up-plan-to-race-at-imola-if-middle-east-gps-are-cancelled-reports/",
