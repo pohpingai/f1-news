@@ -1,12 +1,48 @@
 {
- "updated": "2026-11-15T09:34:21Z",
+ "updated": "2026-11-15T09:46:06Z",
  "model": "anthropic/claude-haiku-5.5",
  "headline_of_the_day": {
   "date": "2026-11-15",
-  "text": "Antonelli is the 2026 world champion, Mercedes have claimed their ninth Constructors' title, and Hamilton reached 400 F1 starts at São Paulo.",
-  "written": "2026-11-15T09:34:21Z"
+  "text": "Kimi Antonelli, the reigning 2026 World Champion, is in focus as rivals, Mercedes' ninth Constructors' title, and Ferrari's struggles dominate today's F1 news.",
+  "written": "2026-11-15T09:46:06Z"
  },
  "cards": [
+  {
+   "id": "cb79dd0ed",
+   "created": "2026-11-15T09:46:06Z",
+   "stories": [
+    {
+     "title": "How Istanbul is revamping its F1 circuit to clinch long-term future",
+     "source": "Motorsport.com",
+     "date": "2026-11-15T09:39:16Z",
+     "link": "https://www.motorsport.com/f1/news/inside-turkeys-revamp-for-the-return-of-a-modern-f1-classic/10874598/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "snippet": "Finding the right balance is often a challenge in modern Formula 1. That applies to the technical regulations: striking a balance between satisfying drivers and purists on the one hand, and…"
+    },
+    {
+     "title": "Inside Turkey’s revamp for the return of a modern F1 classic",
+     "source": "Autosport",
+     "date": "2026-11-15T09:39:18Z",
+     "link": "https://www.autosport.com/f1/news/inside-turkeys-revamp-for-the-return-of-a-modern-f1-classic/10874610/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+     "snippet": "Finding the right balance is often a challenge in modern Formula 1. That applies to the technical regulations: striking a balance between satisfying drivers and purists on the one hand, and…"
+    }
+   ],
+   "merge_reasons": [
+    {
+     "time": "2026-11-15T09:46:06Z",
+     "added": [
+      "https://www.motorsport.com/f1/news/inside-turkeys-revamp-for-the-return-of-a-modern-f1-classic/10874598/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+      "https://www.autosport.com/f1/news/inside-turkeys-revamp-for-the-return-of-a-modern-f1-classic/10874610/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk"
+     ],
+     "joined_existing": false,
+     "reason": "The Motorsport.com and Autosport pieces share the same article text about Istanbul's circuit revamp, so they report the same story."
+    }
+   ],
+   "title": "Inside Istanbul's circuit revamp for its F1 return",
+   "summary": "Istanbul is revamping its F1 circuit as part of a plan for its long-term future on the calendar. Motorsport.com and Autosport both published a feature on the changes.",
+   "disagreement": "",
+   "label": "Opinion",
+   "updated": "2026-11-15T09:46:06Z"
+  },
   {
    "id": "cf35d4411",
    "created": "2026-11-15T09:34:21Z",
@@ -1604,6 +1640,7 @@
   "https://www.autosport.com/f1/news/how-rough-diamond-camara-feels-ahead-of-very-surprising-f1-home-debut/10871811/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
   "https://www.autosport.com/f1/news/how-the-racing-bulls-pendulum-is-swinging-back-towards-lawson/10873320/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
   "https://www.autosport.com/f1/news/ill-try-to-win-somehow-can-lewis-hamilton-and-max-verstappen-fight-back-for-f1-brazilian-gp-victory/10872922/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+  "https://www.autosport.com/f1/news/inside-turkeys-revamp-for-the-return-of-a-modern-f1-classic/10874610/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
   "https://www.autosport.com/f1/news/lawson-to-stay-in-f1-as-racing-bulls-announces-2027-driver-pairing/10874063/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
   "https://www.autosport.com/f1/news/leclerc-penalised-for-lawson-clash-antonelli-and-oliver-bearman-also-punished-after-f1-brazilian-gp/10873166/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
   "https://www.autosport.com/f1/news/lewis-hamilton-backs-claims-charles-leclerc-races-him-harder-than-f1-rivals/10871859/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
@@ -1752,6 +1789,7 @@
   "https://www.motorsport.com/f1/news/guether-steiner-warns-oscar-piastris-mclaren-future-could-be-at-risk-after-2027/10874189/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/horribly-painful-williams-2026-car-upgrades-benefit-2027/10874290/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/i-was-getting-beat-up-how-daniel-ricciardo-burned-out-on-humiliating-f1-return/10874248/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+  "https://www.motorsport.com/f1/news/inside-turkeys-revamp-for-the-return-of-a-modern-f1-classic/10874598/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/james-allison-admits-flawed-update-18-made-the-mercedes-w17-a-handful/10874437/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/james-allison-reveals-the-very-adventurous-trick-behind-kimi-antonellis-f1-title/10874402/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/kimi-antonelli-keeps-f1-title-promise-with-italian-flag-hair-at-mercedes-factory/10873952/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",

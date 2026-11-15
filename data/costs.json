@@ -3,10 +3,10 @@
  "days": {
   "2026-11-15": {
    "AI grouping + labels": {
-    "cost": 0.002206,
-    "requests": 1,
-    "tokens_in": 9477,
-    "tokens_out": 2516
+    "cost": 0.003442,
+    "requests": 2,
+    "tokens_in": 19296,
+    "tokens_out": 3025
    },
    "Label catch-up": {
     "cost": 0.002288,
@@ -15,10 +15,10 @@
     "tokens_out": 2880
    },
    "Headline of the day": {
-    "cost": 0.000264,
-    "requests": 1,
-    "tokens_in": 2338,
-    "tokens_out": 60
+    "cost": 0.000541,
+    "requests": 2,
+    "tokens_in": 4762,
+    "tokens_out": 130
    },
    "Rumour tracker": {
     "cost": 0.00108,
@@ -28,7 +28,7 @@
    }
   }
  },
- "total_cost": 0.005838,
- "updated": "2026-11-15T09:34:47Z",
+ "total_cost": 0.007351,
+ "updated": "2026-11-15T09:46:10Z",
  "model": "anthropic/claude-haiku-5.5"
 }
