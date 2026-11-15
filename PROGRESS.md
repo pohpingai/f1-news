@@ -251,3 +251,32 @@
 
 ### Next
 - After merging: deploy the new Worker to Cloudflare (same Wrangler steps as Session 7).
+
+## Session 9 — 15 Nov 2026: Step 6, the report card
+
+### Done
+- `tests/report_card.py`: ONE command runs 18 tests with made-up test news (`tests/fixtures.py`)
+  in a temporary folder, using the real AI code, and prints PASS/FAIL with reasons, a score and
+  the cost of the run. `tests/ask_runner.mjs` runs the real Worker code for the Ask tests.
+- Tests: grouping (3), labels (4), rumour safety (3), Ask (5) and the user's 3
+  (Leclerc's daughter, Verstappen points with source + label, "Ask about the driver").
+- Fixes found BY the report card (both also affected the live site):
+  1. "Who will be Alpine's reserve driver in 2027?" got "Not in my news" because a question about
+     the future made the search look ONLY at rumours. Now "rumours"/"news" focus only changes the
+     order of results and never hides other kinds.
+  2. "Ask about the driver" made the AI guess (it wrote about Verstappen). Now the planning step
+     marks such questions "unclear" and the Worker asks "Which driver (or team) do you mean?".
+     Requests to pretend / make up news are now refused by code too ("I can't pretend…").
+- Ask tab shows ❓ for "which driver?" and 🛑 for refusals.
+
+### Results
+- First run (code before this session): **16/18** — failed A1 (Alpine reserve) and U3 (no name).
+- After the fixes: **18/18**, and 18/18 again on a second run. Cost: about **$0.004 per run**.
+- Saved in `tests/LAST_REPORT.md`.
+
+### Money
+- Main key: $0.092 used so far, $4.91 left.
+
+### Next
+- After merging: deploy the new `worker/ask-worker.js` to Cloudflare.
+- Run the report card after every change to the AI parts.

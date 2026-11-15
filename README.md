@@ -40,6 +40,19 @@ export OPENROUTER_API_KEY=your-key-here
 python scripts/ai_cluster.py
 ```
 
+## Report card (tests)
+
+One command checks that the AI parts behave: grouping, labels, the rumour safety lock and the
+Ask tab (18 tests with made-up test news — your real `data/` is never touched):
+
+```bash
+OPENROUTER_API_KEY=your-key python tests/report_card.py
+```
+
+It prints PASS/FAIL for each test with the reason, a score (e.g. 18/18) and the cost of the run
+(about $0.004). Add `--save` to write the result to `tests/LAST_REPORT.md`.
+It also needs Node.js (for the Ask tests).
+
 ## Run it on your own computer
 
 ```bash

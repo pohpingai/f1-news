@@ -43,6 +43,13 @@ A daily Formula 1 news website.
   history pieces). If unsure: Reported rather than Confirmed, Rumour rather than Confirmed/Reported.
 - When the label rules change, bump `LABELS_VERSION` in `ai_cluster.py` so all cards get re-labelled once.
 
+## Report card rules
+- After changing anything in the AI parts (`scripts/ai_cluster.py`, `scripts/rumour_tracker.py`,
+  `worker/ask-worker.js`), run `python tests/report_card.py` and show the score. Do not lower a
+  test's expectations to make it pass; fix the code instead (or ask the user first).
+- Test news lives in `tests/fixtures.py` (links to example.com/test/...), never in `data/`.
+- After merging a change to `worker/ask-worker.js`, deploy it to Cloudflare (it does not update by itself).
+
 ## Money rules
 - Every AI request goes through `ask_ai(..., feature="...")`, which logs the real cost per feature
   per day in `data/costs.json` (shown on `costs.html`). New AI features must use their own feature name.

@@ -436,7 +436,7 @@
           <div class="chat-q">${safe(question)}</div>
           <ul class="steps">${steps}</ul>
           <article>
-            <div class="answer ${data.found ? "" : "none"}">${data.found ? formatAnswer(data.answer, id) : "🤷 " + safe(data.answer)}</div>
+            <div class="answer ${data.found ? "" : "none"}">${data.found ? formatAnswer(data.answer, id) : (data.clarify ? "❓ " : data.refused ? "🛑 " : "🤷 ") + safe(data.answer)}</div>
             ${sources ? `<ul class="src-list">${sources}</ul>` : ""}
             <div class="ask-cost">Cost of this question: ${money(data.cost)} · spent today: ${money(data.spent_today)} of $${Number(data.daily_limit).toFixed(2)} daily limit</div>
           </article>`;
