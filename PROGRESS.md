@@ -140,3 +140,27 @@
 ### Next ideas
 - Watch the labels and rumours for a few days and adjust the rules.
 - Maybe: a link from a Rumour card to its entry in the Rumours tab.
+
+## Session 5 — 15 Nov 2026: money side tracker
+
+### Done
+- Every AI request now logs its real cost (from OpenRouter) in `data/costs.json`, per Malaysia
+  day and per feature: "AI grouping + labels", "Label catch-up", "Headline of the day",
+  "Rumour tracker". Failed requests are logged too (they still cost money).
+- New page `costs.html` (💰 AI costs link on the news page): total so far, average per day, rough
+  monthly estimate, a table per feature (today / 7 days / all time / per day / per month) and a
+  day-by-day table.
+- New `COSTS.md`: keep-or-drop sheet for each paid feature, what you lose without it, and money
+  spent so far.
+
+### Tested
+- On a scratch copy: all four features were logged with the same costs the scripts printed.
+- Cost page on a phone with the test log (plus two made-up days, test only): numbers add up,
+  no sideways page scroll, no errors; without `costs.json` it says "No AI costs recorded yet".
+
+### Money so far
+- $0.047 used on the OpenRouter key (building + testing + robot), $4.95 left of the $5 limit.
+
+### Things to know
+- `data/costs.json` starts empty: it only counts the robot's runs from now on.
+- Needs Step 3 (PR #4) merged first, because it also counts the rumour tracker.

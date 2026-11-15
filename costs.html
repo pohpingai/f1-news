@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>F1 News Daily · AI costs</title>
+  <style>
+    :root { --bg: #f6f6f7; --card: #ffffff; --text: #16161a; --muted: #62626b; --line: #e3e3e8; --accent: #e10600; }
+    @media (prefers-color-scheme: dark) {
+      :root { --bg: #111114; --card: #1b1b20; --text: #ececf1; --muted: #9a9aa5; --line: #2b2b33; }
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--text);
+      font: 16px/1.45 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+    header { background: var(--accent); color: #fff; padding: 16px; }
+    header h1 { margin: 0; font-size: 1.4rem; }
+    header a { color: #fff; font-size: 0.85rem; }
+    main { max-width: 760px; margin: 0 auto; padding: 8px 12px 40px; }
+    h2 { font-size: 1rem; margin: 24px 0 8px; padding-bottom: 4px; border-bottom: 2px solid var(--accent); }
+    .tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; margin-top: 14px; }
+    .tile { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px; }
+    .tile small { display: block; color: var(--muted); font-size: 0.78rem; }
+    .tile b { font-size: 1.35rem; font-variant-numeric: tabular-nums; }
+    .table-wrap { overflow-x: auto; background: var(--card); border: 1px solid var(--line); border-radius: 10px; }
+    table { border-collapse: collapse; width: 100%; font-size: 0.88rem; }
+    th, td { padding: 8px 10px; text-align: right; border-bottom: 1px solid var(--line); white-space: nowrap;
+      font-variant-numeric: tabular-nums; }
+    th:first-child, td:first-child { text-align: left; white-space: normal; min-width: 10em; }
+    th { color: var(--muted); font-weight: 600; font-size: 0.78rem; }
+    tr:last-child td { border-bottom: 0; }
+    tr.total td { font-weight: 700; }
+    td .what { display: block; color: var(--muted); font-size: 0.78rem; font-weight: 400; }
+    p.note { color: var(--muted); font-size: 0.85rem; }
+    .message { text-align: center; color: var(--muted); padding: 40px 0; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>💰 AI money tracker</h1>
+    <a href="news.html">← Back to the news</a>
+  </header>
+  <main id="main"><p class="message">Loading…</p></main>
+
+  <script>
+    // What each feature does (shown under its name). Keep in sync with COSTS.md.
+    const FEATURES = {
+      "AI grouping + labels": "Groups same-event stories into cards, writes titles & summaries, labels cards",
+      "Label catch-up": "Labels cards that have no label yet (mostly a one-off)",
+      "Headline of the day": "One-sentence headline at the top of the page",
+      "Rumour tracker": "Remembers rumours across days and checks official confirmations",
+    };
+    const TIME_ZONE = "Asia/Kuala_Lumpur";
+    const dayKey = new Intl.DateTimeFormat("en-CA", { timeZone: TIME_ZONE, year: "numeric", month: "2-digit", day: "2-digit" });
+
+    // Money with enough decimals to see tiny amounts.
+    const money = n => "$" + (n >= 1 ? n.toFixed(2) : n >= 0.01 ? n.toFixed(3) : n.toFixed(4));
+    const safe = t => { const d = document.createElement("div"); d.textContent = t ?? ""; return d.innerHTML; };
+
+    function render(log) {
+      const days = Object.keys(log.days || {}).sort();
+      if (!days.length) return '<p class="message">No AI costs recorded yet.</p>';
+
+      const today = dayKey.format(new Date());
+      const weekAgo = dayKey.format(new Date(Date.now() - 6 * 86400000));
+      const names = [...new Set([...Object.keys(FEATURES), ...days.flatMap(d => Object.keys(log.days[d]))])];
+      const sum = (feature, from, to) => days.filter(d => d >= from && d <= to)
+        .reduce((t, d) => t + ((log.days[d][feature] || {}).cost || 0), 0);
+      const all = name => sum(name, "0000", "9999");
+      const total = days.reduce((t, d) => t + Object.values(log.days[d]).reduce((a, f) => a + f.cost, 0), 0);
+      const perDay = total / days.length;
+
+      let html = `
+        <div class="tiles">
+          <div class="tile"><small>Total so far</small><b>${money(total)}</b></div>
+          <div class="tile"><small>Average per day</small><b>${money(perDay)}</b></div>
+          <div class="tile"><small>Rough estimate per month</small><b>${money(perDay * 30)}</b></div>
+          <div class="tile"><small>Days tracked</small><b>${days.length}</b></div>
+        </div>
+
+        <h2>By feature</h2>
+        <div class="table-wrap"><table>
+          <tr><th>Feature</th><th>Today</th><th>Last 7 days</th><th>All time</th><th>Per day</th><th>Per month*</th></tr>`;
+      for (const name of names) {
+        const a = all(name);
+        html += `<tr><td>${safe(name)}<span class="what">${safe(FEATURES[name] || "")}</span></td>
+          <td>${money(sum(name, today, today))}</td><td>${money(sum(name, weekAgo, today))}</td>
+          <td>${money(a)}</td><td>${money(a / days.length)}</td><td>${money(a / days.length * 30)}</td></tr>`;
+      }
+      html += `<tr class="total"><td>All AI features</td><td>${money(names.reduce((t, n) => t + sum(n, today, today), 0))}</td>
+        <td>${money(names.reduce((t, n) => t + sum(n, weekAgo, today), 0))}</td><td>${money(total)}</td>
+        <td>${money(perDay)}</td><td>${money(perDay * 30)}</td></tr></table></div>
+        <p class="note">* Per day / per month = all-time cost ÷ days tracked (× 30). Rough, and one-off
+          costs (like the label catch-up) make the first days look more expensive.</p>
+
+        <h2>Day by day</h2>
+        <div class="table-wrap"><table>
+          <tr><th>Day (Malaysia)</th>${names.map(n => `<th>${safe(n)}</th>`).join("")}<th>Total</th></tr>`;
+      for (const d of [...days].reverse()) {
+        const row = names.map(n => (log.days[d][n] || {}).cost || 0);
+        const requests = Object.values(log.days[d]).reduce((t, f) => t + f.requests, 0);
+        html += `<tr><td>${d}<span class="what">${requests} AI requests</span></td>
+          ${row.map(c => `<td>${c ? money(c) : "–"}</td>`).join("")}<td><b>${money(row.reduce((a, b) => a + b, 0))}</b></td></tr>`;
+      }
+      html += `</table></div>
+
+        <h2>Free parts</h2>
+        <p class="note">Collecting the news, the robot (GitHub Actions on a public repository) and the website
+          (GitHub Pages) cost $0. Only the AI features above cost money.<br>
+          Model: ${safe(log.model || "")}. Costs are the real amounts reported by OpenRouter for the robot's
+          requests. Money spent while building and testing is listed in COSTS.md, not here.</p>`;
+      return html;
+    }
+
+    fetch("data/costs.json", { cache: "no-store" })
+      .then(r => r.ok ? r.json() : { days: {} })
+      .then(log => { document.getElementById("main").innerHTML = render(log); })
+      .catch(() => { document.getElementById("main").innerHTML = '<p class="message">No AI costs recorded yet.</p>'; });
+  </script>
+</body>
+</html>

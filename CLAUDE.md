@@ -39,6 +39,12 @@ A daily Formula 1 news website.
 - Every card gets one label: Confirmed (official / on the record), Rumour, or Opinion
   (columns, analysis, features, history pieces). If unsure between Confirmed and Rumour: Rumour.
 
+## Money rules
+- Every AI request goes through `ask_ai(..., feature="...")`, which logs the real cost per feature
+  per day in `data/costs.json` (shown on `costs.html`). New AI features must use their own feature name.
+- Update `COSTS.md` at the end of every session: money spent so far (from the OpenRouter key)
+  and the estimated cost per day of each feature. The user decides at the end which features to keep.
+
 ## Rumour tracker rules
 - Only new or grown Rumour and Confirmed cards are sent to the AI.
 - A rumour may ONLY become Confirmed or Denied when the proof card is labelled Confirmed AND the

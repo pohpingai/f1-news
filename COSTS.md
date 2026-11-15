@@ -1,0 +1,42 @@
+# Money tracker (side tracker)
+
+Use this at the end of the project to decide which features to keep.
+Live, automatic numbers are on the website: **💰 AI costs** (`costs.html`, data in `data/costs.json`).
+
+## What is free
+| Part | Cost |
+|---|---|
+| Collecting the news (`fetch_news.py`) | $0 |
+| The robot (GitHub Actions, public repo) | $0 |
+| The website (GitHub Pages) | $0 |
+
+Only the AI features below cost money. They all use one OpenRouter key (limit: $5)
+and the model `anthropic/claude-haiku-5.5` ($0.10 read / $0.50 written per million tokens).
+
+## The paid features: keep or drop?
+Estimates come from real test runs. The robot runs 12 times a day, but most runs have only a few new stories.
+
+| Feature | What it does | Est. per day | What you lose if you drop it | Added in | Keep? |
+|---|---|---|---|---|---|
+| **AI grouping + labels** | Groups same-event stories into cards; writes title, 2-sentence summary, "sources disagree" note, merge reason; labels Confirmed / Rumour / Opinion | ~$0.015–0.03 | The "Top stories (AI)" tab, the labels, and (because they need cards) the rumour tracker and headline of the day. "All stories" still works. | Step 2 (+ labels in Step 3) | ☐ |
+| **Headline of the day** | One sentence at the top of the page | ~$0.002–0.003 | Just that sentence | Step 2 | ☐ |
+| **Rumour tracker** | Remembers rumours across days, trend, history, official confirmations | ~$0.005–0.01 | The "Rumours" tab | Step 3 | ☐ |
+| **Label catch-up** | Labels cards that have no label | One-off ~$0.002, then ~$0 | Some cards might show no label | Step 3 | ☐ |
+| **All AI features together** | | **~$0.02–0.045 per day (~$0.60–1.35 per month)** | | | |
+
+**How to drop a feature:** delete its step in `.github/workflows/fetch-news.yml`
+(the headline and label catch-up are inside `ai_cluster.py`; ask Claude to switch them off).
+
+## Money spent so far (building + testing + robot)
+Taken from the OpenRouter key's usage page. This total includes everything paid by the key.
+
+| Date | What | Spent |
+|---|---|---|
+| 14–15 Nov 2026 | Step 2 AI brain: building and testing | ~$0.019 |
+| 15 Nov 2026 | Step 3 labels + rumour tracker: building and testing | ~$0.015 |
+| 15 Nov 2026 | Cost tracker: testing | ~$0.005 |
+| 14–15 Nov 2026 | Robot's real runs on GitHub (the rest) | ~$0.008 |
+| **15 Nov 2026** | **Total used on the key so far** | **$0.047** |
+| | Left on the $5 limit | $4.95 |
+
+*Update this table at the end of each session (check `https://openrouter.ai/settings/keys` or ask Claude).*

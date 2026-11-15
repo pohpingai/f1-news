@@ -21,7 +21,9 @@ all sources, status (Active / Confirmed / Denied / Faded) and trend (rising / st
 with a history of every change and the AI's reason. A rumour only becomes Confirmed when an
 official source says so (checked word-for-word by the code).
 
-All the AI steps together cost roughly $0.03–0.05 per day.
+All the AI steps together cost roughly $0.02–0.05 per day. The real cost of every AI request is
+logged per feature in `data/costs.json` and shown on the **💰 AI costs** page (`costs.html`).
+`COSTS.md` is the keep-or-drop sheet with the money spent so far.
 
 The key is stored in GitHub: **Settings → Secrets and variables → Actions → `OPENROUTER_API_KEY`**.
 To run the AI on your own computer, set the key first (never save it in a file in this repo):
