@@ -1,6 +1,10 @@
 # F1 News Daily
 
-A simple website that collects Formula 1 news from 8 sources every 2 hours.
+A simple website that collects Formula 1 news from 12 sources every 2 hours:
+Formula1.com, Autosport, Motorsport.com, The Race, RaceFans, BBC Sport, PlanetF1, Crash.net,
+GPFans, Sky Sports, ESPN and the FIA (F1 items only).
+
+To test possible new feeds: `python scripts/check_feeds.py` (or on GitHub: Actions → "Check new feeds" → Run workflow).
 
 - **The page:** `news.html` (the home page `index.html` forwards to it)
 - **The data:** `data/news.json`

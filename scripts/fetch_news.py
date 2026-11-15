@@ -13,6 +13,7 @@ If one feed is broken, we print a warning and carry on with the others.
 
 import html
 import json
+import os
 import re
 import sys
 import urllib.request
@@ -23,12 +24,18 @@ import feedparser
 
 # ---- Settings you can change ---------------------------------------------
 
-NEWS_FILE = Path(__file__).resolve().parent.parent / "data" / "news.json"
+# F1_DATA_DIR lets a test use a separate copy of the data (the live site is never touched).
+NEWS_FILE = Path(os.environ.get("F1_DATA_DIR") or Path(__file__).resolve().parent.parent / "data") / "news.json"
 KEEP_DAYS = 30
 SNIPPET_LENGTH = 200
 
 # Each feed: a display name, the feed address, and an optional tag filter.
-# "only_tag" means: keep a story only if it has this tag.
+# Optional filters for a feed:
+#   "only_tag":  keep a story only if it has this tag (The Race mixes in other series).
+#   "skip_tags": drop stories with any of these tags (Sky Sports "Video" clips).
+#   "f1_only":   keep a story only if its headline or snippet says F1 / Formula 1 / Formula One
+#                (the FIA feeds cover all motorsport: rally, karting, F4...).
+#   "trim_snippet_start": remove this text pattern from the start of the snippet.
 FEEDS = [
     {"source": "Formula1.com", "url": "https://www.formula1.com/en/latest/all.xml"},
     {"source": "Autosport", "url": "https://www.autosport.com/rss/f1/news/"},
@@ -38,7 +45,17 @@ FEEDS = [
     {"source": "BBC Sport", "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml"},
     {"source": "PlanetF1", "url": "https://www.planetf1.com/rss"},
     {"source": "Crash.net", "url": "https://www.crash.net/rss/f1"},
+    # Added in Session 10 (checked with scripts/check_feeds.py):
+    {"source": "GPFans", "url": "https://www.gpfans.com/en/rss.xml"},
+    {"source": "Sky Sports", "url": "https://www.skysports.com/rss/12433", "skip_tags": ["Video"]},
+    {"source": "ESPN", "url": "https://www.espn.com/espn/rss/f1/news"},
+    {"source": "FIA", "url": "https://www.fia.com/rss/press-release", "f1_only": True,
+     "trim_snippet_start": r"^(Sport|FIA|Members) news\s+"},
+    {"source": "FIA", "url": "https://www.fia.com/rss/news", "f1_only": True,
+     "trim_snippet_start": r"^(Sport|FIA|Members) news\s+"},
 ]
+
+F1_WORDS = re.compile(r"\b(F1|Formula 1|Formula One)\b", re.I)
 
 USER_AGENT = "Mozilla/5.0 (compatible; F1NewsBot/1.0)"
 
@@ -98,6 +115,13 @@ def read_feed(feed, seen_time):
             continue
         if "only_tag" in feed and not has_tag(entry, feed["only_tag"]):
             continue
+        if any(has_tag(entry, tag) for tag in feed.get("skip_tags", [])):
+            continue
+        snippet = clean_text(entry.get("summary") or entry.get("description"))
+        if feed.get("trim_snippet_start"):
+            snippet = re.sub(feed["trim_snippet_start"], "", snippet)
+        if feed.get("f1_only") and not F1_WORDS.search(f"{title} {snippet}"):
+            continue
         published = story_date(entry)
         stories.append({
             "title": title,
@@ -106,7 +130,7 @@ def read_feed(feed, seen_time):
             "date": to_iso(published or seen_time),
             "date_is_seen_time": published is None,
             "link": link,
-            "snippet": clean_text(entry.get("summary") or entry.get("description")),
+            "snippet": snippet,
         })
     return stories
 
