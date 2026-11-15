@@ -33,6 +33,7 @@ ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = Path(os.environ.get("F1_DATA_DIR") or ROOT / "data")
 NEWS_FILE = DATA_DIR / "news.json"
 CARDS_FILE = DATA_DIR / "cards.json"
+COSTS_FILE = DATA_DIR / "costs.json"   # the money log: real AI cost per feature per day
 
 MODEL = "anthropic/claude-haiku-5.5"   # cheap and good at following rules
 JOIN_WINDOW_HOURS = 48                 # a new story can join a card from the last 48 hours
@@ -145,8 +146,25 @@ class AIError(Exception):
     pass
 
 
-def ask_ai(system, user, api_key, json_reply=True):
-    """Send one request to OpenRouter and return (reply_text, cost_in_usd)."""
+def record_cost(feature, cost, usage):
+    """Add one AI request to the money log (data/costs.json), per Malaysia day and per feature."""
+    day = now_utc().astimezone(MALAYSIA).strftime("%Y-%m-%d")
+    log = load_json(COSTS_FILE, {"currency": "USD", "days": {}})
+    entry = log["days"].setdefault(day, {}).setdefault(
+        feature, {"cost": 0.0, "requests": 0, "tokens_in": 0, "tokens_out": 0})
+    entry["cost"] = round(entry["cost"] + cost, 6)
+    entry["requests"] += 1
+    entry["tokens_in"] += int(usage.get("prompt_tokens") or 0)
+    entry["tokens_out"] += int(usage.get("completion_tokens") or 0)
+    log["total_cost"] = round(sum(f["cost"] for d in log["days"].values() for f in d.values()), 6)
+    log["updated"] = to_iso(now_utc())
+    log["model"] = MODEL
+    save_json(COSTS_FILE, log)
+
+
+def ask_ai(system, user, api_key, json_reply=True, feature="Other"):
+    """Send one request to OpenRouter and return (reply_text, cost_in_usd).
+    The cost is also written to the money log under the given feature name."""
     body = {
         "model": MODEL,
         "max_tokens": 16000,
@@ -175,11 +193,13 @@ def ask_ai(system, user, api_key, json_reply=True):
 
     if "error" in data:
         raise AIError(f"OpenRouter error: {data['error']}")
+    usage = data.get("usage") or {}
+    cost = float(usage.get("cost") or 0)
+    record_cost(feature, cost, usage)  # recorded even if the answer turns out to be unusable
     choice = data["choices"][0]
     text = (choice.get("message") or {}).get("content") or ""
     if choice.get("finish_reason") not in (None, "stop", "end_turn"):
         raise AIError(f"AI stopped early: {choice.get('finish_reason')}")
-    cost = float((data.get("usage") or {}).get("cost") or 0)
     return text.strip(), cost
 
 
@@ -314,7 +334,7 @@ def label_missing(cards, api_key):
             for story in card["stories"]:
                 lines.append(f"   - {describe_story(story)}")
         try:
-            text, cost = ask_ai(LABEL_RULES, "\n".join(lines), api_key)
+            text, cost = ask_ai(LABEL_RULES, "\n".join(lines), api_key, feature="Label catch-up")
             labels = parse_json_reply(text).get("labels", {})
         except AIError as error:
             print(f"  WARNING: labelling failed, will retry next run: {error}")
@@ -342,7 +362,8 @@ def write_headline_of_day(cards, api_key, run_time):
     todays.sort(key=lambda c: len({s["source"] for s in c["stories"]}), reverse=True)
     lines = [f'- ({len({s["source"] for s in c["stories"]})} websites) {c["title"]}: {c["summary"]}'
              for c in todays[:25]]
-    text, cost = ask_ai(HEADLINE_RULES, "TODAY'S CARDS:\n" + "\n".join(lines), api_key, json_reply=False)
+    text, cost = ask_ai(HEADLINE_RULES, "TODAY'S CARDS:\n" + "\n".join(lines), api_key,
+                        json_reply=False, feature="Headline of the day")
     sentence = clean(text).strip('"')
     return {"date": today, "text": sentence, "written": to_iso(run_time)}, cost
 
@@ -384,7 +405,7 @@ def main():
         recent = [c for c in cards_by_id.values() if from_iso(card_date(c)) >= window]
         recent_ids = {c["id"] for c in recent}
         try:
-            text, cost = ask_ai(RULES, build_prompt(batch, recent), api_key)
+            text, cost = ask_ai(RULES, build_prompt(batch, recent), api_key, feature="AI grouping + labels")
             reply = parse_json_reply(text)
         except AIError as error:
             print(f"  WARNING: AI step failed, these {len(batch)} stories will be retried next run: {error}")

@@ -338,7 +338,8 @@ def main():
             continue
 
         try:
-            text, cost = ask_ai(RULES, build_prompt(known, rumour_cards, confirmed_cards), api_key)
+            text, cost = ask_ai(RULES, build_prompt(known, rumour_cards, confirmed_cards), api_key,
+                                feature="Rumour tracker")
             reply = parse_json_reply(text)
         except AIError as error:
             print(f"  WARNING: rumour step failed, these cards will be retried next run: {error}")
