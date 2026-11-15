@@ -94,6 +94,7 @@
     .src-list .n { color: var(--accent); font-weight: 700; }
     .ask-cost { color: var(--muted); font-size: 0.78rem; margin-top: 8px; }
     .ask-error { color: var(--accent); font-weight: 600; }
+    .ask-box p.ask-hint { margin: 10px 0 0; font-size: 0.8rem; }
     .small-link { background: none; border: 0; color: var(--muted); text-decoration: underline; cursor: pointer; font-size: 0.8rem; padding: 0; }
 
     .label-Active { background: #fff1d6; color: #8a5300; }
@@ -168,17 +169,17 @@
       </div>
       <div id="ask-main" hidden>
         <div class="ask-box">
+          <!-- One question box. Enter or "Ask" sends it. -->
           <div class="ask-row" style="margin-top:0">
-            <button class="ask-btn light" data-q="Catch me up on the last 7 days.">Catch me up (last 7 days)</button>
-            <button class="ask-btn light" data-q="What is the biggest rumour right now?">Biggest rumour right now?</button>
-          </div>
-          <div class="ask-row">
-            <input id="ask-driver" placeholder="Driver, e.g. Verstappen" autocomplete="off">
-            <button class="ask-btn light" id="ask-driver-btn">What's new on this driver?</button>
-          </div>
-          <div class="ask-row">
-            <input id="ask-input" placeholder="Ask about the saved F1 news…" maxlength="300" autocomplete="off">
+            <input id="ask-input" placeholder="Ask about the saved F1 news…" maxlength="300" autocomplete="off" enterkeyhint="send">
             <button class="ask-btn" id="ask-go">Ask</button>
+          </div>
+          <!-- Shortcuts only FILL the box above; they never send on their own. -->
+          <p class="ask-hint">Shortcuts fill the box — then press Ask or Enter:</p>
+          <div class="ask-row" style="margin-top:4px">
+            <button class="ask-btn light" data-fill="Catch me up on the last 7 days.">Catch me up (last 7 days)</button>
+            <button class="ask-btn light" data-fill="What is the biggest rumour right now?">Biggest rumour right now?</button>
+            <button class="ask-btn light" data-fill="What's new on " data-type-more="driver name">What's new on…?</button>
           </div>
           <div class="ask-row"><button class="small-link" id="ask-forget">Disconnect this device</button></div>
         </div>
@@ -465,14 +466,31 @@
       document.getElementById("ask-url").value = localStorage.getItem(ASK_URL_KEY) || "";
       localStorage.removeItem(ASK_PASS_KEY); localStorage.removeItem(ASK_URL_KEY); setupAsk();
     };
-    document.querySelectorAll("#ask-main [data-q]").forEach(b => b.onclick = () => ask(b.dataset.q));
-    document.getElementById("ask-driver-btn").onclick = () => {
-      const name = document.getElementById("ask-driver").value.trim();
-      if (name) ask(`What's new on ${name}?`); else document.getElementById("ask-driver").focus();
-    };
-    document.getElementById("ask-go").onclick = () => { ask(document.getElementById("ask-input").value); document.getElementById("ask-input").value = ""; };
-    document.getElementById("ask-input").onkeydown = e => { if (e.key === "Enter") document.getElementById("ask-go").click(); };
-    document.getElementById("ask-driver").onkeydown = e => { if (e.key === "Enter") document.getElementById("ask-driver-btn").click(); };
+    const askInput = document.getElementById("ask-input");
+
+    // Shortcut buttons only put text in the box (they never send). The cursor goes to the end,
+    // so for "What's new on…" you can type the driver's name straight away.
+    document.querySelectorAll("#ask-main [data-fill]").forEach(b => b.onclick = () => {
+      askInput.value = b.dataset.fill;
+      askInput.placeholder = "Ask about the saved F1 news…";
+      askInput.focus();
+      askInput.setSelectionRange(askInput.value.length, askInput.value.length);
+    });
+
+    // Send whatever is in the box (by the "Ask" button or the Enter key).
+    function sendBox() {
+      const q = askInput.value.trim();
+      if (askBusy) return;                                  // still answering: keep the text in the box
+      if (!q || /^what's new on$/i.test(q)) {               // empty, or the driver name is missing
+        askInput.focus();
+        if (q) askInput.placeholder = "Type a driver name after “What's new on”";
+        return;
+      }
+      askInput.value = "";
+      ask(q);
+    }
+    document.getElementById("ask-go").onclick = sendBox;
+    askInput.onkeydown = e => { if (e.key === "Enter") { e.preventDefault(); sendBox(); } };
     setupAsk();
 
     // ---------- Switching views ----------
