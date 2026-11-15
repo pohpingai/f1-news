@@ -1,0 +1,107 @@
+{
+ "updated": "2026-11-15T07:57:32Z",
+ "model": "anthropic/claude-haiku-5.5",
+ "rumours": [
+  {
+   "id": "rf51d5acf",
+   "claim": "FIA president Mohammed Ben Sulayem is reportedly looking to make a controversial change to a key presidency rule.",
+   "people": [
+    "Mohammed Ben Sulayem",
+    "FIA"
+   ],
+   "status": "Active",
+   "trend": "steady",
+   "first_seen": "2026-11-14T12:00:00Z",
+   "last_seen": "2026-11-14T12:00:00Z",
+   "sources": [
+    {
+     "title": "FIA boss looking to make controversial change to presidency rule",
+     "source": "Crash.net",
+     "date": "2026-11-14T12:00:00Z",
+     "link": "https://www.crash.net/f1/news/1110114/1/fia-boss-looking-make-controversial-change-presidency-rule"
+    }
+   ],
+   "cards": [
+    "c07c056d7"
+   ],
+   "proof": null,
+   "history": [
+    {
+     "time": "2026-11-15T07:57:32Z",
+     "event": "created",
+     "detail": "First seen: Crash.net (2026-11-14)",
+     "reason": "No known rumours are on the list yet, so this report about a presidency rule change is recorded as a new rumour.",
+     "card": "FIA boss looks to make controversial presidency rule change"
+    }
+   ]
+  },
+  {
+   "id": "rd12a64b8",
+   "claim": "Sweeping changes to cost cap rules could be discussed at a Formula 1 Commission meeting on Monday, where an 'ADUO for teams' proposal reportedly will be debated.",
+   "people": [
+    "Formula 1 Commission"
+   ],
+   "status": "Active",
+   "trend": "steady",
+   "first_seen": "2026-11-14T08:47:00Z",
+   "last_seen": "2026-11-14T08:47:00Z",
+   "sources": [
+    {
+     "title": "'ADUO for teams' plan to be discussed by F1",
+     "source": "The Race",
+     "date": "2026-11-14T08:47:00Z",
+     "link": "https://www.the-race.com/formula-1/aduo-for-teams-to-be-discussed-by-f1/"
+    }
+   ],
+   "cards": [
+    "c19cd8def"
+   ],
+   "proof": null,
+   "history": [
+    {
+     "time": "2026-11-15T07:57:32Z",
+     "event": "created",
+     "detail": "First seen: The Race (2026-11-14)",
+     "reason": "No known rumours are on the list yet, so this cost cap proposal is recorded as a new rumour.",
+     "card": "'ADUO for teams' cost cap plan to be discussed by F1"
+    }
+   ]
+  }
+ ],
+ "tracked_cards": {
+  "c19cd8def": 1,
+  "c07c056d7": 1,
+  "cff84922c": 1,
+  "c8bb5bfbe": 1,
+  "c9f00295d": 3,
+  "cc8fcb7b1": 2,
+  "cf814897e": 1,
+  "c59a29706": 1,
+  "c42d627b2": 1,
+  "cae6d33f0": 2,
+  "cc8f2a0d6": 2,
+  "c449999e4": 1,
+  "cfc79e07f": 1,
+  "c0671b805": 1,
+  "c35d9b31c": 1,
+  "c99973b55": 1,
+  "cfa961911": 2,
+  "ca6fae114": 1,
+  "cd4afaa4d": 1,
+  "c70ab1528": 1,
+  "cfcf98b82": 1,
+  "cf7d299a8": 1,
+  "ced7c2287": 1,
+  "cbf0828cd": 1,
+  "cfd29317c": 1,
+  "cd832ad6f": 1,
+  "cd9abd5b1": 1,
+  "c889a2d29": 1,
+  "c37161d91": 1,
+  "c679d8d18": 1,
+  "ccb151298": 1,
+  "c7f3a5f64": 1,
+  "ccdbc9441": 1,
+  "c8569341f": 1
+ }
+}

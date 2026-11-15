@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-15T07:56:20Z",
+ "updated": "2026-11-15T07:57:21Z",
  "model": "anthropic/claude-haiku-5.5",
  "headline_of_the_day": {
   "date": "2026-11-15",
-  "text": "Mercedes claimed their ninth Constructors' title in 2026 while Kimi Antonelli's championship success dominated the day's F1 news, with Russell, Piastri and Lawson also in focus.",
-  "written": "2026-11-15T07:56:20Z"
+  "text": "Mercedes claimed their ninth Constructors' title in 2026 while Kimi Antonelli is the reigning champion, and Lewis Hamilton reached 400 F1 starts at São Paulo.",
+  "written": "2026-11-15T07:57:21Z"
  },
  "cards": [
   {
@@ -23,7 +23,8 @@
    "title": "Russell's 2027 bounce-back weighed against Rosberg and Ricciardo examples",
    "summary": "PlanetF1 frames George Russell's next 15 months as career-defining, asking whether he will recover like Nico Rosberg or fade like Daniel Ricciardo. The article is a single feature on his prospects after a tough 2026 season.",
    "disagreement": "",
-   "updated": "2026-11-15T07:56:20Z"
+   "updated": "2026-11-15T07:56:20Z",
+   "label": "Opinion"
   },
   {
    "id": "c8569341f",
@@ -41,7 +42,8 @@
    "title": "Brundle recalls Wolff's 'sniffy' text after Horner comment",
    "summary": "Martin Brundle says Toto Wolff once got \"quite sniffy\" with him over a matter he describes in his remarks. The story is based on Brundle's recollection of that exchange after a comment about Christian Horner.",
    "disagreement": "",
-   "updated": "2026-11-15T07:56:20Z"
+   "updated": "2026-11-15T07:56:20Z",
+   "label": "Confirmed"
   },
   {
    "id": "c2fac4caf",
@@ -59,7 +61,8 @@
    "title": "PlanetF1 says Hamilton is causing the Ferrari No.1 saga",
    "summary": "PlanetF1 reports that a Damon Hill theory about the Ferrari No.1 situation has been rejected. The article quotes the line \"He is the one causing it.\"",
    "disagreement": "",
-   "updated": "2026-11-15T04:40:15Z"
+   "updated": "2026-11-15T04:40:15Z",
+   "label": "Opinion"
   },
   {
    "id": "ccdbc9441",
@@ -77,7 +80,8 @@
    "title": "Allison admits flawed 'Update 18' made Mercedes W17 a 'handful'",
    "summary": "James Allison has admitted that the flawed 'Update 18' made the Mercedes W17 a handful to drive. The comments come as Mercedes' dominant 2026 season nears its end.",
    "disagreement": "",
-   "updated": "2026-11-14T23:33:49Z"
+   "updated": "2026-11-14T23:33:49Z",
+   "label": "Confirmed"
   },
   {
    "id": "cef48b734",
@@ -95,7 +99,8 @@
    "title": "Button explains what will keep Alonso going at Aston Martin",
    "summary": "Jenson Button details what Fernando Alonso's re-signing means for Aston Martin. Button is an Aston Martin ambassador.",
    "disagreement": "",
-   "updated": "2026-11-14T23:33:49Z"
+   "updated": "2026-11-14T23:33:49Z",
+   "label": "Opinion"
   },
   {
    "id": "c107a5382",
@@ -113,7 +118,8 @@
    "title": "Formula1.com writers on Antonelli's title success",
    "summary": "Formula1.com asked its writers for their take on Kimi Antonelli's 2026 Drivers' World Championship. The piece collects their views on what the title means.",
    "disagreement": "",
-   "updated": "2026-11-14T23:33:49Z"
+   "updated": "2026-11-14T23:33:49Z",
+   "label": "Opinion"
   },
   {
    "id": "cd6add4b0",
@@ -131,7 +137,8 @@
    "title": "Lawson's top-six hopes after new Racing Bulls deal",
    "summary": "Liam Lawson's future at Racing Bulls has been decided. Formula1.com asks how far he is from breaking into the top-six betting markets.",
    "disagreement": "",
-   "updated": "2026-11-14T23:33:49Z"
+   "updated": "2026-11-14T23:33:49Z",
+   "label": "Opinion"
   },
   {
    "id": "c679d8d18",
@@ -149,7 +156,8 @@
    "title": "Piastri on his tough 2026 and why it could make him stronger",
    "summary": "Oscar Piastri opens up about his difficulties in 2026. He says he hopes these difficulties can make him better for McLaren.",
    "disagreement": "",
-   "updated": "2026-11-14T23:33:49Z"
+   "updated": "2026-11-14T23:33:49Z",
+   "label": "Confirmed"
   },
   {
    "id": "ccb151298",
@@ -167,7 +175,8 @@
    "title": "Antonelli names his biggest threat for 2027 title defence",
    "summary": "Kimi Antonelli has outlined his expectations for the 2027 season, his first as reigning World Champion. The report centres on the rivals he sees as the main challenge to his title defence.",
    "disagreement": "",
-   "updated": "2026-11-14T23:33:49Z"
+   "updated": "2026-11-14T23:33:49Z",
+   "label": "Confirmed"
   },
   {
    "id": "c6e5b7ecb",
@@ -185,7 +194,8 @@
    "title": "Why F1 drivers have embraced padel, with Aston Martin's racket collection",
    "summary": "Padel has grown increasingly popular among F1 drivers. Aston Martin is the latest team to embrace the sport through a new racket collection.",
    "disagreement": "",
-   "updated": "2026-11-14T23:33:49Z"
+   "updated": "2026-11-14T23:33:49Z",
+   "label": "Opinion"
   },
   {
    "id": "cb61346b9",
@@ -203,7 +213,8 @@
    "title": "Toto Wolff's journey from Williams to nine F1 titles",
    "summary": "Formula1.com looks back at Toto Wolff's path from professional racing driver to Mercedes team boss. It notes he has overseen nine Constructors' Championships, equalling Sir Frank Williams.",
    "disagreement": "",
-   "updated": "2026-11-14T23:33:49Z"
+   "updated": "2026-11-14T23:33:49Z",
+   "label": "Opinion"
   },
   {
    "id": "c7f3a5f64",
@@ -221,7 +232,8 @@
    "title": "F1 ACADEMY champion Palmowski graduates to Formula Regional European Championship",
    "summary": "Alisha Palmowski, the F1 ACADEMY champion, will step up to the Formula Regional European Championship (FREC). F1 ACADEMY and Red Bull Racing announced she will receive a fully-funded seat.",
    "disagreement": "",
-   "updated": "2026-11-14T23:33:49Z"
+   "updated": "2026-11-14T23:33:49Z",
+   "label": "Confirmed"
   },
   {
    "id": "c5f8c1a22",
@@ -239,7 +251,8 @@
    "title": "Mercedes' history of Formula 1 success as they claim ninth constructors' title",
    "summary": "Mercedes have claimed their ninth F1 Constructors' title in 2026. Formula1.com has published a look back at the Silver Arrows' history in the sport.",
    "disagreement": "",
-   "updated": "2026-11-14T23:33:49Z"
+   "updated": "2026-11-14T23:33:49Z",
+   "label": "Opinion"
   },
   {
    "id": "c9f021b9f",
@@ -257,7 +270,8 @@
    "title": "Why the F1 driver market might still produce one last twist",
    "summary": "Racing Bulls have confirmed their driver line-up will stay unchanged. Lawrence Barretto analyses what remains open on the 2027 grid.",
    "disagreement": "",
-   "updated": "2026-11-14T23:33:49Z"
+   "updated": "2026-11-14T23:33:49Z",
+   "label": "Opinion"
   },
   {
    "id": "cd152bd35",
@@ -275,7 +289,8 @@
    "title": "Opinion: Why Mercedes could be on the horizon for Lawson",
    "summary": "A PlanetF1 opinion piece argues Liam Lawson could be on the horizon at Mercedes. The article is a view rather than a news report.",
    "disagreement": "",
-   "updated": "2026-11-14T23:33:49Z"
+   "updated": "2026-11-14T23:33:49Z",
+   "label": "Opinion"
   },
   {
    "id": "c37161d91",
@@ -293,7 +308,8 @@
    "title": "Piastri says McLaren's MCL40 must be 'manhandled' to be quick",
    "summary": "Oscar Piastri says McLaren's 2026 car has to be 'manhandled' to find its potential. He describes the MCL40 as punishing drivers who are not at the limit.",
    "disagreement": "",
-   "updated": "2026-11-14T23:33:49Z"
+   "updated": "2026-11-14T23:33:49Z",
+   "label": "Confirmed"
   },
   {
    "id": "cba84df4b",
@@ -311,7 +327,8 @@
    "title": "PlanetF1 Saturday roundup: Newey, Schumacher and Ferrari",
    "summary": "PlanetF1's Saturday roundup covers the Newey salary demand, a Mercedes insider on Schumacher, and Ferrari's 'not right' comments. It gathers several separate stories.",
    "disagreement": "",
-   "updated": "2026-11-14T23:33:49Z"
+   "updated": "2026-11-14T23:33:49Z",
+   "label": "Opinion"
   },
   {
    "id": "c889a2d29",
@@ -329,7 +346,8 @@
    "title": "Rosberg says Hamilton suspected conspiracy at Mercedes",
    "summary": "Nico Rosberg explains how the Hamilton rivalry went awry at Mercedes after they became team-mates in 2013. He says Lewis suspected a conspiracy.",
    "disagreement": "",
-   "updated": "2026-11-14T23:33:49Z"
+   "updated": "2026-11-14T23:33:49Z",
+   "label": "Confirmed"
   },
   {
    "id": "cd9abd5b1",
@@ -347,7 +365,8 @@
    "title": "Topps releases NOW card for Hamilton's 400th F1 start",
    "summary": "Topps has released a limited NOW trading card marking Lewis Hamilton's 400th Formula 1 start at the São Paulo Grand Prix. Hamilton became only the second driver to reach that mark.",
    "disagreement": "",
-   "updated": "2026-11-14T23:33:49Z"
+   "updated": "2026-11-14T23:33:49Z",
+   "label": "Confirmed"
   },
   {
    "id": "ca1d56ee7",
@@ -365,7 +384,8 @@
    "title": "Ferrari makes big concession over 2026 title loss to Mercedes",
    "summary": "Ferrari is poised to finish as runners-up in the 2026 championship, behind Mercedes. PlanetF1 reports the team's concession.",
    "disagreement": "",
-   "updated": "2026-11-14T23:33:49Z"
+   "updated": "2026-11-14T23:33:49Z",
+   "label": "Opinion"
   },
   {
    "id": "cd832ad6f",
@@ -383,7 +403,8 @@
    "title": "Mercedes reveals findings into Brazilian GP issues",
    "summary": "Mercedes endured a tumultuous Brazilian Grand Prix, with neither driver finishing on the podium for the first time in 2026. The team has published findings from its W17 investigation.",
    "disagreement": "",
-   "updated": "2026-11-14T23:33:49Z"
+   "updated": "2026-11-14T23:33:49Z",
+   "label": "Confirmed"
   },
   {
    "id": "cfd29317c",
@@ -401,7 +422,8 @@
    "title": "Audi explains rationale after Hulkenberg's Brazil penalty",
    "summary": "Audi has explained its rationale after Nico Hulkenberg was penalised at Interlagos. PlanetF1 says the FIA penalty decision is under scrutiny.",
    "disagreement": "",
-   "updated": "2026-11-14T23:33:49Z"
+   "updated": "2026-11-14T23:33:49Z",
+   "label": "Confirmed"
   },
   {
    "id": "cbf0828cd",
@@ -419,7 +441,8 @@
    "title": "Mercedes technical director warns teams won't 'lie down' on 2027",
    "summary": "Mercedes' technical director warns F1 teams will not 'lie down' over 2027 downforce cuts. He says the rulebook is far from finalised.",
    "disagreement": "",
-   "updated": "2026-11-14T23:33:49Z"
+   "updated": "2026-11-14T23:33:49Z",
+   "label": "Confirmed"
   },
   {
    "id": "ced7c2287",
@@ -437,7 +460,8 @@
    "title": "Russell looks to Hamilton for inspiration in 2027 recovery",
    "summary": "George Russell has looked to Lewis Hamilton as a source of inspiration as he tries to bounce back from a tough 2026 season. PlanetF1 reports his comments.",
    "disagreement": "",
-   "updated": "2026-11-14T23:33:49Z"
+   "updated": "2026-11-14T23:33:49Z",
+   "label": "Confirmed"
   },
   {
    "id": "c07c056d7",
@@ -455,7 +479,8 @@
    "title": "FIA boss looks to make controversial presidency rule change",
    "summary": "FIA president Mohammed Ben Sulayem is looking to change a key rule on the presidency, Crash.net reports. The change is described as controversial.",
    "disagreement": "",
-   "updated": "2026-11-14T23:33:49Z"
+   "updated": "2026-11-14T23:33:49Z",
+   "label": "Rumour"
   },
   {
    "id": "cf7d299a8",
@@ -473,7 +498,8 @@
    "title": "Mercedes and Audi unveil adidas collections for Las Vegas",
    "summary": "Mercedes and Audi have unveiled adidas fan collections for the Las Vegas Grand Prix. Mercedes' range is 'Neon Lights' and Audi's is 'After Hours'.",
    "disagreement": "",
-   "updated": "2026-11-14T23:33:49Z"
+   "updated": "2026-11-14T23:33:49Z",
+   "label": "Confirmed"
   },
   {
    "id": "cfcf98b82",
@@ -491,7 +517,8 @@
    "title": "Max Verstappen becomes ambassador for Dutch group VDK",
    "summary": "Max Verstappen has signed as ambassador for the VDK Group, a Dutch installation and technical company expanding across Europe. Motorsport.com reports the deal.",
    "disagreement": "",
-   "updated": "2026-11-14T23:33:49Z"
+   "updated": "2026-11-14T23:33:49Z",
+   "label": "Confirmed"
   },
   {
    "id": "c70ab1528",
@@ -509,7 +536,8 @@
    "title": "Imola reveals future F1 return plan after FIA announcement",
    "summary": "Imola has not hosted an F1 race since being removed from the calendar when its contract expired at the end of 2025. PlanetF1 reports it has revealed a plan for a future return.",
    "disagreement": "",
-   "updated": "2026-11-14T23:33:49Z"
+   "updated": "2026-11-14T23:33:49Z",
+   "label": "Confirmed"
   },
   {
    "id": "cd4afaa4d",
@@ -527,7 +555,8 @@
    "title": "Kimi Antonelli meets Italian president Sergio Mattarella",
    "summary": "Kimi Antonelli met Italian president Sergio Mattarella during a run of meetings and celebrations for his world title. He signed a photo 'with great admiration'.",
    "disagreement": "",
-   "updated": "2026-11-14T23:33:49Z"
+   "updated": "2026-11-14T23:33:49Z",
+   "label": "Confirmed"
   },
   {
    "id": "c157af946",
@@ -545,7 +574,8 @@
    "title": "Russell 'looking down the barrel' of Antonelli's raw pace",
    "summary": "James Allison says George Russell is 'looking down the barrel' of Kimi Antonelli's raw pace after being beaten by his 20-year-old team-mate. Motorsport.com reports the comments.",
    "disagreement": "",
-   "updated": "2026-11-14T23:33:49Z"
+   "updated": "2026-11-14T23:33:49Z",
+   "label": "Opinion"
   },
   {
    "id": "cc8f2a0d6",
@@ -580,7 +610,8 @@
    "title": "Kimi Antonelli moved as football crowd chants his name",
    "summary": "Kimi Antonelli was seen tearing up as a stadium crowd chanted his name during the Italy versus France football match. PlanetF1 reports he was in awe of the international fans' chants.",
    "disagreement": "",
-   "updated": "2026-11-14T23:33:49Z"
+   "updated": "2026-11-14T23:33:49Z",
+   "label": "Confirmed"
   },
   {
    "id": "ca6fae114",
@@ -598,7 +629,8 @@
    "title": "Wolff backs F1's Middle East races but won't force staff",
    "summary": "Toto Wolff says Formula 1 is right to go ahead with its Middle East races. He says he will not force staff to attend.",
    "disagreement": "",
-   "updated": "2026-11-14T23:33:49Z"
+   "updated": "2026-11-14T23:33:49Z",
+   "label": "Confirmed"
   },
   {
    "id": "c9f00295d",
@@ -641,7 +673,8 @@
    "title": "Journalist banned from F1 paddock after column criticising Leclerc",
    "summary": "An FIA press pass was pulled after a column called Charles Leclerc a 'sneaky b*****d', according to RaceFans. Crash.net and PlanetF1 report the journalist was banned from the paddock for the rest of the season, with a boycott announced.",
    "disagreement": "",
-   "updated": "2026-11-14T23:33:49Z"
+   "updated": "2026-11-14T23:33:49Z",
+   "label": "Confirmed"
   },
   {
    "id": "cfa961911",
@@ -676,7 +709,8 @@
    "title": "McLaren to upgrade MCL40 at Las Vegas Grand Prix",
    "summary": "McLaren will introduce upgrades to its MCL40 at the Las Vegas Grand Prix, labelled as the foundation for next year's car. The team also launched its 2027 front wing concept.",
    "disagreement": "",
-   "updated": "2026-11-14T23:33:49Z"
+   "updated": "2026-11-14T23:33:49Z",
+   "label": "Confirmed"
   },
   {
    "id": "cae6d33f0",
@@ -711,7 +745,8 @@
    "title": "Toto Wolff reveals he offered to resign from Mercedes",
    "summary": "Toto Wolff offered his resignation during Mercedes' struggles, but his boss refused, according to Motorsport.com. Crash.net reports Wolff said he offered to resign from Mercedes several times.",
    "disagreement": "",
-   "updated": "2026-11-14T23:33:49Z"
+   "updated": "2026-11-14T23:33:49Z",
+   "label": "Confirmed"
   },
   {
    "id": "c19cd8def",
@@ -729,7 +764,8 @@
    "title": "'ADUO for teams' cost cap plan to be discussed by F1",
    "summary": "Sweeping cost cap changes look set to be discussed when an 'ADUO for teams' proposal is debated at the Formula 1 Commission. The debate is scheduled for Monday.",
    "disagreement": "",
-   "updated": "2026-11-14T23:33:49Z"
+   "updated": "2026-11-14T23:33:49Z",
+   "label": "Rumour"
   },
   {
    "id": "c9f6185ce",
@@ -747,7 +783,8 @@
    "title": "How Michael Schumacher surprised a Mercedes insider",
    "summary": "PlanetF1 reports how Michael Schumacher changed perceptions at Mercedes. The insider says 'How wrong I was'.",
    "disagreement": "",
-   "updated": "2026-11-14T23:33:49Z"
+   "updated": "2026-11-14T23:33:49Z",
+   "label": "Opinion"
   },
   {
    "id": "c99973b55",
@@ -765,7 +802,8 @@
    "title": "Newey's Red Bull salary demand revealed in Horner book",
    "summary": "A claim in a Horner book reveals Adrian Newey's Red Bull salary demand, which Newey reportedly called obscene. PlanetF1 reports the revelation.",
    "disagreement": "",
-   "updated": "2026-11-14T23:33:49Z"
+   "updated": "2026-11-14T23:33:49Z",
+   "label": "Confirmed"
   },
   {
    "id": "c749a82aa",
@@ -783,7 +821,8 @@
    "title": "Verstappen's resurgence puts Mercedes on alert for 2027",
    "summary": "No driver has scored more points than Max Verstappen since the summer break, including champion Kimi Antonelli. PlanetF1 says this puts Mercedes on high alert for F1 2027.",
    "disagreement": "",
-   "updated": "2026-11-14T23:33:49Z"
+   "updated": "2026-11-14T23:33:49Z",
+   "label": "Opinion"
   },
   {
    "id": "c4a18d75e",
@@ -801,7 +840,8 @@
    "title": "Felipe Massa senses something not right at Ferrari",
    "summary": "Felipe Massa believes something is going awry within Ferrari, according to PlanetF1. The report centres on his verdict.",
    "disagreement": "",
-   "updated": "2026-11-14T23:33:49Z"
+   "updated": "2026-11-14T23:33:49Z",
+   "label": "Opinion"
   },
   {
    "id": "cda2294c3",
@@ -819,7 +859,8 @@
    "title": "On This Day: Hamilton passes Verstappen for Brazil win",
    "summary": "RaceFans' On This Day feature recalls Hamilton passing Verstappen to take a Brazilian Grand Prix win. It is a look back at a past race.",
    "disagreement": "",
-   "updated": "2026-11-14T23:33:49Z"
+   "updated": "2026-11-14T23:33:49Z",
+   "label": "Opinion"
   },
   {
    "id": "c35d9b31c",
@@ -837,7 +878,8 @@
    "title": "Allison reveals 'adventurous' trick behind Antonelli's title",
    "summary": "James Allison explained how Kimi Antonelli's bold use of steering wheel tools helped him become F1's youngest world champion. Motorsport.com reports the technical director's comments.",
    "disagreement": "",
-   "updated": "2026-11-14T23:33:49Z"
+   "updated": "2026-11-14T23:33:49Z",
+   "label": "Confirmed"
   },
   {
    "id": "c53de82ed",
@@ -855,7 +897,8 @@
    "title": "Steiner suggests Webber became too involved in Piastri's career",
    "summary": "Guenther Steiner believes Mark Webber may have become too involved in Oscar Piastri's career in the second half of 2025. Piastri later decided he wanted to act on his own.",
    "disagreement": "",
-   "updated": "2026-11-14T23:33:49Z"
+   "updated": "2026-11-14T23:33:49Z",
+   "label": "Opinion"
   },
   {
    "id": "c18b516ec",
@@ -873,7 +916,8 @@
    "title": "Surprising convergence behind F1's competitive 2026 season",
    "summary": "Autosport analyses why the 2026 F1 season has become increasingly competitive. The piece starts from George Russell's pole in Australia, eight tenths clear of Mercedes' nearest rivals.",
    "disagreement": "",
-   "updated": "2026-11-14T23:33:49Z"
+   "updated": "2026-11-14T23:33:49Z",
+   "label": "Opinion"
   },
   {
    "id": "c0671b805",
@@ -891,7 +935,8 @@
    "title": "Ricciardo reflects on burnout during humiliating F1 return",
    "summary": "Daniel Ricciardo spoke on the Beyond The Grid podcast about burning out during his F1 return. He said 'I was getting beat up' and sounded more grounded.",
    "disagreement": "",
-   "updated": "2026-11-14T23:33:49Z"
+   "updated": "2026-11-14T23:33:49Z",
+   "label": "Confirmed"
   },
   {
    "id": "c0e1792a0",
@@ -909,7 +954,8 @@
    "title": "Damon Hill says Ferrari has a 'political problem'",
    "summary": "Damon Hill says Ferrari has a 'political problem' while Lewis Hamilton has 'rebuilt himself'. He responds to Fred Vasseur's claim that Hamilton and Leclerc left a private Brazil meeting joking together.",
    "disagreement": "",
-   "updated": "2026-11-14T23:33:49Z"
+   "updated": "2026-11-14T23:33:49Z",
+   "label": "Opinion"
   },
   {
    "id": "cfc79e07f",
@@ -927,7 +973,8 @@
    "title": "Las Vegas GP unveils neon-inspired trophy design",
    "summary": "The Las Vegas Grand Prix has revealed a new winners' trophy inspired by the city's neon lights. The 3.6kg, 56cm trophy took six months to develop.",
    "disagreement": "",
-   "updated": "2026-11-14T23:33:49Z"
+   "updated": "2026-11-14T23:33:49Z",
+   "label": "Confirmed"
   },
   {
    "id": "c5b8f76d6",
@@ -945,7 +992,8 @@
    "title": "Racing Bulls scrutiny for helping Red Bull, featured comment",
    "summary": "A RaceFans featured comment argues Racing Bulls deserve more scrutiny for helping a 'rival' team. It is an opinion piece.",
    "disagreement": "",
-   "updated": "2026-11-14T23:33:49Z"
+   "updated": "2026-11-14T23:33:49Z",
+   "label": "Opinion"
   },
   {
    "id": "c449999e4",
@@ -963,7 +1011,8 @@
    "title": "Mercedes could only gamble on Antonelli because of Russell",
    "summary": "Toto Wolff told staff in a message that Mercedes could not have taken the risk of promoting Kimi Antonelli without George Russell already in the team. Motorsport.com reports the message was sent to the entire team.",
    "disagreement": "",
-   "updated": "2026-11-14T23:33:49Z"
+   "updated": "2026-11-14T23:33:49Z",
+   "label": "Confirmed"
   },
   {
    "id": "cc8fcb7b1",
@@ -998,7 +1047,8 @@
    "title": "Red Bull F1 car races MotoGP bike and rivals on ice",
    "summary": "Red Bull pitted a Formula 1 car against a MotoGP bike, rally car, Pro 4 truck and snowmobile in an ice race. Dani Pedrosa won the Ultimate Winter race riding a KTM MotoGP bike.",
    "disagreement": "",
-   "updated": "2026-11-14T23:33:49Z"
+   "updated": "2026-11-14T23:33:49Z",
+   "label": "Confirmed"
   },
   {
    "id": "c42d627b2",
@@ -1016,7 +1066,8 @@
    "title": "Williams drops 2026 upgrades to focus resources on 2027",
    "summary": "Williams boss James Vowles says it was 'horribly painful' to forgo 2026 aero upgrades. The team has saved resources for 2027 instead.",
    "disagreement": "",
-   "updated": "2026-11-14T23:33:49Z"
+   "updated": "2026-11-14T23:33:49Z",
+   "label": "Confirmed"
   },
   {
    "id": "c59a29706",
@@ -1034,7 +1085,8 @@
    "title": "Ralf Schumacher says Hamilton 'not fast enough' against Leclerc",
    "summary": "Ralf Schumacher has once again heavily criticised Lewis Hamilton, saying he is not fast enough against Charles Leclerc. Crash.net reports the comments.",
    "disagreement": "",
-   "updated": "2026-11-14T23:33:49Z"
+   "updated": "2026-11-14T23:33:49Z",
+   "label": "Confirmed"
   },
   {
    "id": "ccad1d053",
@@ -1052,7 +1104,8 @@
    "title": "Andrew Benson opens call for questions in weekly Q&A",
    "summary": "BBC Sport's F1 correspondent Andrew Benson is running a weekly Q&A this season. Readers are invited to send in their questions.",
    "disagreement": "",
-   "updated": "2026-11-14T23:33:49Z"
+   "updated": "2026-11-14T23:33:49Z",
+   "label": "Opinion"
   },
   {
    "id": "c69785e1d",
@@ -1070,7 +1123,8 @@
    "title": "Madrid F1 race's economic impact compared with Barcelona",
    "summary": "The Race reports the organiser's figures for the 2026 Madrid Grand Prix: €544 million in economic activity, 10,948 jobs and €95m in tax revenue. The piece asks whether it was an economic upgrade on Barcelona.",
    "disagreement": "",
-   "updated": "2026-11-14T23:33:49Z"
+   "updated": "2026-11-14T23:33:49Z",
+   "label": "Opinion"
   },
   {
    "id": "cf814897e",
@@ -1088,7 +1142,8 @@
    "title": "Buenos Aires MotoGP circuit renovations gather pace",
    "summary": "New asphalt has been laid at the Buenos Aires circuit ahead of its 2027 MotoGP return. Crash.net reports the renovations are continuing.",
    "disagreement": "",
-   "updated": "2026-11-14T23:33:49Z"
+   "updated": "2026-11-14T23:33:49Z",
+   "label": "Confirmed"
   },
   {
    "id": "c654397f5",
@@ -1123,7 +1178,8 @@
    "title": "Inside the Mercedes garage with Kimi Antonelli's unusual habit",
    "summary": "Mercedes mechanics have learned to watch their backs because of Kimi Antonelli's unusual habit, according to Autosport. Motorsport.com published the same feature on the new world champion.",
    "disagreement": "",
-   "updated": "2026-11-14T23:33:49Z"
+   "updated": "2026-11-14T23:33:49Z",
+   "label": "Opinion"
   },
   {
    "id": "c32e283d4",
@@ -1141,7 +1197,8 @@
    "title": "Hamilton overtaken in 'most marketable athlete' ranking",
    "summary": "Lewis Hamilton has slipped down sport's 'most marketable athlete' ranking, Crash.net reports. He has been overtaken by a Formula 1 rival.",
    "disagreement": "",
-   "updated": "2026-11-14T23:33:49Z"
+   "updated": "2026-11-14T23:33:49Z",
+   "label": "Opinion"
   },
   {
    "id": "c3e12f9a3",
@@ -1159,7 +1216,8 @@
    "title": "How long each F1 driver contract is tied down for",
    "summary": "Motorsport.com has compiled how long each Formula 1 driver's contract is believed to run. Contract terms are usually closely guarded.",
    "disagreement": "",
-   "updated": "2026-11-14T23:33:49Z"
+   "updated": "2026-11-14T23:33:49Z",
+   "label": "Opinion"
   },
   {
    "id": "c8bb5bfbe",
@@ -1177,7 +1235,8 @@
    "title": "Lewis Hamilton shares message after visiting Palestinian children",
    "summary": "Lewis Hamilton shared a heartfelt message after meeting Palestinian children evacuated from Gaza. Crash.net reports the visit.",
    "disagreement": "",
-   "updated": "2026-11-14T23:33:49Z"
+   "updated": "2026-11-14T23:33:49Z",
+   "label": "Confirmed"
   },
   {
    "id": "cff84922c",
@@ -1195,7 +1254,8 @@
    "title": "Grosjean admits single-seater career likely over after IndyCar",
    "summary": "Romain Grosjean ended his IndyCar season 19th and is reportedly preparing to end his single-seater racing career. He survived a fireball crash in Bahrain six years ago.",
    "disagreement": "",
-   "updated": "2026-11-14T23:33:49Z"
+   "updated": "2026-11-14T23:33:49Z",
+   "label": "Confirmed"
   },
   {
    "id": "cb8ecc7ed",
@@ -1213,7 +1273,8 @@
    "title": "Ferrari's Leclerc-Hamilton tensions remain unresolved, says The Race",
    "summary": "The Race argues that Charles Leclerc and Lewis Hamilton appearing friendly in Brazil does not mean Ferrari's tensions are solved. The column says the rivalry is still alive.",
    "disagreement": "",
-   "updated": "2026-11-14T23:33:49Z"
+   "updated": "2026-11-14T23:33:49Z",
+   "label": "Opinion"
   },
   {
    "id": "c5ebb2733",
@@ -1231,7 +1292,8 @@
    "title": "What happened to the diamond lost in F1 crash?",
    "summary": "BBC Sport asks what became of a diamond that went missing after the Formula 1 car it was attached to crashed. The piece looks back at the incident.",
    "disagreement": "",
-   "updated": "2026-11-14T23:33:49Z"
+   "updated": "2026-11-14T23:33:49Z",
+   "label": "Opinion"
   },
   {
    "id": "ceeeced78",
@@ -1249,7 +1311,8 @@
    "title": "On This Day: Hamilton wins soaked Brazilian Grand Prix",
    "summary": "RaceFans' On This Day feature recalls Hamilton winning the rain-lashed Brazilian Grand Prix, with Verstappen starring. It is a look back at a past race.",
    "disagreement": "",
-   "updated": "2026-11-14T23:33:49Z"
+   "updated": "2026-11-14T23:33:49Z",
+   "label": "Opinion"
   }
  ],
  "decisions": [
