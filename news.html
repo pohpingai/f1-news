@@ -60,6 +60,35 @@
     .badge { display: inline-block; background: var(--accent); color: #fff; border-radius: 999px;
       font-size: 0.8rem; font-weight: 700; padding: 2px 10px; margin-left: 6px; vertical-align: middle;
       white-space: nowrap; }
+    /* Labels on cards: Confirmed / Rumour / Opinion */
+    .label { display: inline-block; border-radius: 4px; padding: 1px 7px; margin-bottom: 4px;
+      font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em; }
+    .label-Confirmed { background: #e3f5e8; color: #17692f; }
+    .label-Rumour { background: #fff1d6; color: #8a5300; }
+    .label-Opinion { background: #e6eefc; color: #2a4f9a; }
+    .label-Active { background: #fff1d6; color: #8a5300; }
+    .label-Denied { background: #fde4e4; color: #9b1c1c; }
+    .label-Faded { background: var(--line); color: var(--muted); }
+    @media (prefers-color-scheme: dark) {
+      .label-Confirmed { background: #173d24; color: #8ee0a7; }
+      .label-Rumour, .label-Active { background: #3d2e10; color: #f3c46b; }
+      .label-Opinion { background: #1c2b4a; color: #9fbdf5; }
+      .label-Denied { background: #4a1c1c; color: #f5a3a3; }
+    }
+
+    /* Rumours tab */
+    .rumour-intro { color: var(--muted); font-size: 0.85rem; margin: 12px 0 0; }
+    .trend { font-weight: 700; margin-left: 4px; }
+    .trend-rising { color: var(--accent); }
+    .trend-steady { color: var(--muted); }
+    .trend-fading { color: var(--muted); opacity: 0.7; }
+    .people { color: var(--muted); font-size: 0.85rem; margin-top: 4px; }
+    .proof { background: var(--bg); border-radius: 6px; padding: 6px 8px; margin-top: 8px; font-size: 0.85rem; }
+    .buttons { display: flex; gap: 8px; flex-wrap: wrap; align-items: flex-start; }
+    .buttons details[open] { flex-basis: 100%; }
+    .history-item { margin: 6px 0; }
+    .history-item b { text-transform: capitalize; }
+
     .note { background: var(--note-bg); color: var(--note-text); border-radius: 6px; padding: 6px 8px;
       font-size: 0.85rem; margin-top: 8px; }
     .links { list-style: none; padding: 0; margin: 8px 0 0; font-size: 0.88rem; }
@@ -90,6 +119,7 @@
     <div class="views">
       <button id="view-cards" class="on">Top stories (AI)</button>
       <button id="view-all">All stories</button>
+      <button id="view-rumours">Rumours</button>
     </div>
     <div id="headline"></div>
     <div class="filters" id="filters"></div>
@@ -106,7 +136,9 @@
 
     let allStories = [];
     let cardsData = null;      // stays null if the AI has not made any cards yet
-    let view = "cards";        // "cards" or "all"
+    let view = "cards";        // "cards", "all" or "rumours"
+    let rumoursData = null;    // stays null if the rumour tracker has not run yet
+    const shortDate = new Intl.DateTimeFormat("en-GB", { timeZone: TIME_ZONE, day: "numeric", month: "short" });
     let chosenSource = "All";
 
     // Makes text safe to put on the page (stops odd characters breaking it).
@@ -204,6 +236,7 @@
         const reasons = (card.merge_reasons || []).map(r => `<p>🤖 ${safe(r.reason)}</p>`).join("");
         return `
           <article class="${merged ? "merged" : ""}">
+            ${card.label ? `<span class="label label-${safe(card.label)}">${safe(card.label)}</span>` : ""}
             <h3>${safe(card.title)}${badge}</h3>
             <p class="summary">${safe(card.summary)}</p>
             ${card.disagreement ? `<div class="note">⚠️ Sources disagree: ${safe(card.disagreement)}</div>` : ""}
@@ -221,17 +254,80 @@
         : "";
     }
 
+    // ---------- "Rumours" view (the rumour tracker's memory) ----------
+
+    const TREND_ARROW = { rising: "↑ rising", steady: "→ steady", fading: "↓ fading" };
+    const STATUS_ORDER = { Active: 0, Confirmed: 1, Denied: 2, Faded: 3 };
+    const TREND_ORDER = { rising: 0, steady: 1, fading: 2 };
+
+    function showRumours() {
+      if (!rumoursData || !rumoursData.rumours.length) {
+        return '<p class="message">No rumours tracked yet.</p>';
+      }
+      // Active rumours first (rising first, then most sources), then Confirmed, Denied, Faded.
+      const rumours = [...rumoursData.rumours].sort((a, b) =>
+        (STATUS_ORDER[a.status] ?? 9) - (STATUS_ORDER[b.status] ?? 9) ||
+        (TREND_ORDER[a.trend] ?? 9) - (TREND_ORDER[b.trend] ?? 9) ||
+        b.sources.length - a.sources.length ||
+        b.last_seen.localeCompare(a.last_seen));
+
+      let html = `<p class="rumour-intro">The AI keeps track of rumours across days. A rumour only becomes
+        "Confirmed" when an official source says so. Trend arrows compare the last 2 days with the 2 days before.</p>`;
+      let currentStatus = "";
+      for (const r of rumours) {
+        if (r.status !== currentStatus) {
+          currentStatus = r.status;
+          const count = rumours.filter(x => x.status === r.status).length;
+          html += `<h2>${safe(r.status)} (${count})</h2>`;
+        }
+        const sourceCount = r.sources.length;
+        const trend = r.status === "Active"
+          ? `<span class="trend trend-${safe(r.trend)}">${safe(TREND_ARROW[r.trend] || "")}</span>` : "";
+        const people = r.people && r.people.length ? `<div class="people">👥 ${safe(r.people.join(", "))}</div>` : "";
+        const proof = r.proof ? `
+          <div class="proof">${r.status === "Denied" ? "❌ Officially denied" : "✅ Officially confirmed"}:
+            “${safe(r.proof.evidence)}”
+            ${r.proof.links.map(l => `<br><a href="${safe(l.link)}" target="_blank" rel="noopener">${safe(l.source)}: ${safe(l.title)}</a>`).join("")}
+          </div>` : "";
+        const sources = [...r.sources].sort((a, b) => b.date.localeCompare(a.date)).map(s => `
+          <li><span class="source">${safe(s.source)}</span> ·
+            <a href="${safe(s.link)}" target="_blank" rel="noopener">${safe(s.title)}</a>
+            <span class="meta">(${shortDate.format(new Date(s.date))})</span></li>`).join("");
+        const historyItems = [...r.history].reverse().map(h => `
+          <div class="history-item">🕒 ${shortDate.format(new Date(h.time))}, ${timeLabel.format(new Date(h.time))} ·
+            <b>${safe(h.event)}</b>: ${safe(h.detail)}
+            ${h.reason ? `<br>🤖 ${safe(h.reason)}` : ""}</div>`).join("");
+        html += `
+          <article class="${r.status === "Active" ? "merged" : ""}">
+            <span class="label label-${safe(r.status)}">${safe(r.status)}</span>${trend}
+            <h3>${safe(r.claim)}</h3>
+            ${people}
+            <div class="meta">${sourceCount} source${sourceCount === 1 ? "" : "s"} ·
+              first seen ${shortDate.format(new Date(r.first_seen))} · last seen ${shortDate.format(new Date(r.last_seen))}</div>
+            ${proof}
+            <div class="buttons">
+              <details class="why"><summary>Sources (${sourceCount})</summary><div class="why-box"><ul class="links">${sources}</ul></div></details>
+              <details class="why"><summary>History</summary><div class="why-box">${historyItems}</div></details>
+            </div>
+          </article>`;
+      }
+      return html;
+    }
+
     // ---------- Switching views ----------
 
     function show() {
       document.getElementById("view-cards").className = view === "cards" ? "on" : "";
       document.getElementById("view-all").className = view === "all" ? "on" : "";
+      document.getElementById("view-rumours").className = view === "rumours" ? "on" : "";
       showHeadline();
       showFilters();
-      document.getElementById("news").innerHTML = view === "cards" ? showCards() : showAllStories();
+      document.getElementById("news").innerHTML =
+        view === "cards" ? showCards() : view === "rumours" ? showRumours() : showAllStories();
     }
     document.getElementById("view-cards").onclick = () => { view = "cards"; show(); };
     document.getElementById("view-all").onclick = () => { view = "all"; show(); };
+    document.getElementById("view-rumours").onclick = () => { view = "rumours"; show(); };
 
     // ---------- Loading the data ----------
 
@@ -239,9 +335,11 @@
       fetch("data/news.json", { cache: "no-store" }).then(r => r.json()),
       // cards.json may not exist yet (e.g. no AI key) — that's fine, we just show all stories.
       fetch("data/cards.json", { cache: "no-store" }).then(r => r.ok ? r.json() : null).catch(() => null),
-    ]).then(([news, cards]) => {
+      fetch("data/rumours.json", { cache: "no-store" }).then(r => r.ok ? r.json() : null).catch(() => null),
+    ]).then(([news, cards, rumours]) => {
       allStories = news.stories || [];
       cardsData = cards;
+      rumoursData = rumours;
       if (!cardsData || !cardsData.cards || !cardsData.cards.length) view = "all";
       const updated = new Date(news.updated);
       const cardCount = cardsData ? cardsData.cards.length : 0;

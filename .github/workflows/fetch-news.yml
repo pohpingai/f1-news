@@ -35,6 +35,11 @@ jobs:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}   # from GitHub Secrets, never in the code
         run: python scripts/ai_cluster.py
 
+      - name: AI updates the rumour tracker
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+        run: python scripts/rumour_tracker.py
+
       - name: Save the news (only if something changed)
         run: |
           if git diff --quiet -- data/ && [ -z "$(git ls-files --others data/)" ]; then
