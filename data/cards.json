@@ -1,12 +1,48 @@
 {
- "updated": "2026-11-15T04:40:15Z",
+ "updated": "2026-11-15T07:56:20Z",
  "model": "anthropic/claude-haiku-5.5",
  "headline_of_the_day": {
   "date": "2026-11-15",
-  "text": "Kimi Antonelli has won the 2026 Drivers' World Championship and Mercedes claimed their ninth Constructors' title, while Antonelli has already named his main rivals for 2027.",
-  "written": "2026-11-15T04:40:15Z"
+  "text": "Mercedes claimed their ninth Constructors' title in 2026 while Kimi Antonelli's championship success dominated the day's F1 news, with Russell, Piastri and Lawson also in focus.",
+  "written": "2026-11-15T07:56:20Z"
  },
  "cards": [
+  {
+   "id": "c56595422",
+   "created": "2026-11-15T07:56:20Z",
+   "stories": [
+    {
+     "title": "George Russell faces career-defining 15 months with either Rosberg or Ricciardo outcome",
+     "source": "PlanetF1",
+     "date": "2026-11-15T07:43:54Z",
+     "link": "https://www.planetf1.com/news/george-russell-mercedes-future-kimi-antonelli-title-defeat",
+     "snippet": "Will George Russell bounce back like Nico Rosberg or walk away like Daniel Ricciardo?"
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Russell's 2027 bounce-back weighed against Rosberg and Ricciardo examples",
+   "summary": "PlanetF1 frames George Russell's next 15 months as career-defining, asking whether he will recover like Nico Rosberg or fade like Daniel Ricciardo. The article is a single feature on his prospects after a tough 2026 season.",
+   "disagreement": "",
+   "updated": "2026-11-15T07:56:20Z"
+  },
+  {
+   "id": "c8569341f",
+   "created": "2026-11-15T07:56:20Z",
+   "stories": [
+    {
+     "title": "Brundle recalls ‘sniffy’ Toto Wolff text after Christian Horner comment",
+     "source": "PlanetF1",
+     "date": "2026-11-15T06:10:29Z",
+     "link": "https://www.planetf1.com/news/martin-brundle-toto-wolff-text-christian-horner-comparison",
+     "snippet": "Martin Brundle: \"Quite a few years ago, Toto got quite sniffy with me because...\""
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Brundle recalls Wolff's 'sniffy' text after Horner comment",
+   "summary": "Martin Brundle says Toto Wolff once got \"quite sniffy\" with him over a matter he describes in his remarks. The story is based on Brundle's recollection of that exchange after a comment about Christian Horner.",
+   "disagreement": "",
+   "updated": "2026-11-15T07:56:20Z"
+  },
   {
    "id": "c2fac4caf",
    "created": "2026-11-15T04:40:15Z",
@@ -1310,6 +1346,36 @@
     }
    ],
    "reason": "Both concern Damon Hill's Ferrari and Hamilton comments, but S1 reports a different person rejecting Hill's theory, so it is not the same comment or news."
+  },
+  {
+   "time": "2026-11-15T07:56:20Z",
+   "items": [
+    {
+     "title": "George Russell faces career-defining 15 months with either Rosberg or Ricciardo outcome",
+     "source": "PlanetF1",
+     "link": "https://www.planetf1.com/news/george-russell-mercedes-future-kimi-antonelli-title-defeat"
+    },
+    {
+     "card": "ced7c2287",
+     "title": "Russell looks to Hamilton for inspiration in 2027 recovery"
+    }
+   ],
+   "reason": "Both concern Russell bouncing back in 2027, but S2 compares his career to Rosberg and Ricciardo while the existing card reports Russell citing Hamilton as inspiration, so they are different reports on different points."
+  },
+  {
+   "time": "2026-11-15T07:56:20Z",
+   "items": [
+    {
+     "title": "Brundle recalls ‘sniffy’ Toto Wolff text after Christian Horner comment",
+     "source": "PlanetF1",
+     "link": "https://www.planetf1.com/news/martin-brundle-toto-wolff-text-christian-horner-comparison"
+    },
+    {
+     "card": "c99973b55",
+     "title": "Newey's Red Bull salary demand revealed in Horner book"
+    }
+   ],
+   "reason": "Both mention Christian Horner, but the existing card covers Newey's salary demand in a Horner book, while S1 covers Brundle's recollection of a text from Wolff, which is a different event."
   }
  ],
  "processed": [
@@ -1520,10 +1586,12 @@
   "https://www.planetf1.com/news/felipe-massa-ferrari-not-right",
   "https://www.planetf1.com/news/ferrari-f1-2026-mercedes-title-loss-concession",
   "https://www.planetf1.com/news/george-russell-lewis-hamilton-recovery-f1-2027",
+  "https://www.planetf1.com/news/george-russell-mercedes-future-kimi-antonelli-title-defeat",
   "https://www.planetf1.com/news/imola-reveals-future-f1-return-plan",
   "https://www.planetf1.com/news/jonathan-mcevoy-fia-ban-ferrari",
   "https://www.planetf1.com/news/kimi-antonelli-in-awe-after-international-football-fans-chant-his-name",
   "https://www.planetf1.com/news/lewis-hamilton-causing-ferrari-tension-ralf-schumacher",
+  "https://www.planetf1.com/news/martin-brundle-toto-wolff-text-christian-horner-comparison",
   "https://www.planetf1.com/news/max-verstappen-named-mercedes-biggest-2027-threat",
   "https://www.planetf1.com/news/mercedes-reveals-brazilian-gp-investigation-findings",
   "https://www.planetf1.com/news/michael-schumacher-jock-clear",
