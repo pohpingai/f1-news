@@ -29,26 +29,26 @@
   },
   "2026-11-16": {
    "AI grouping + labels": {
-    "cost": 0.007528,
-    "requests": 2,
-    "tokens_in": 23767,
-    "tokens_out": 10303
+    "cost": 0.009722,
+    "requests": 3,
+    "tokens_in": 36360,
+    "tokens_out": 12172
    },
    "Headline of the day": {
-    "cost": 0.000411,
-    "requests": 2,
-    "tokens_in": 2948,
-    "tokens_out": 232
+    "cost": 0.000657,
+    "requests": 3,
+    "tokens_in": 5064,
+    "tokens_out": 301
    },
    "Rumour tracker": {
-    "cost": 0.000996,
-    "requests": 2,
-    "tokens_in": 5853,
-    "tokens_out": 823
+    "cost": 0.00127,
+    "requests": 3,
+    "tokens_in": 7911,
+    "tokens_out": 960
    }
   }
  },
- "total_cost": 0.031171,
- "updated": "2026-11-15T23:44:22Z",
+ "total_cost": 0.033885,
+ "updated": "2026-11-16T04:36:34Z",
  "model": "anthropic/claude-haiku-5.5"
 }

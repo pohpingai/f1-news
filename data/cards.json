@@ -1,12 +1,85 @@
 {
- "updated": "2026-11-15T23:44:04Z",
+ "updated": "2026-11-16T04:36:22Z",
  "model": "anthropic/claude-haiku-5.5",
  "headline_of_the_day": {
   "date": "2026-11-16",
-  "text": "The biggest story today is the FIA banning veteran journalist from the paddock for the rest of 2026 over a Leclerc column, which Bernie Ecclestone called \"completely mad.",
-  "written": "2026-11-15T23:44:04Z"
+  "text": "Racing Bulls confirm Liam Lawson and Arvid Lindblad for 2027, while the FIA's removal of a veteran journalist's paddock access over a Leclerc column draws criticism.",
+  "written": "2026-11-16T04:36:22Z"
  },
  "cards": [
+  {
+   "id": "cbf24a633",
+   "created": "2026-11-16T04:36:22Z",
+   "stories": [
+    {
+     "title": "Much still to do on F1 diversity - Hamilton",
+     "source": "BBC Sport",
+     "date": "2026-11-16T00:04:45Z",
+     "link": "https://www.bbc.co.uk/sport/formula1/articles/c52e8kpnje42o?at_medium=RSS&at_campaign=rss",
+     "snippet": "British Formula 1 driver Lewis Hamilton outlines three steps the sport must take to improve its diversity."
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Hamilton says F1 must take three steps to improve diversity",
+   "summary": "Lewis Hamilton outlines three steps the sport must take to improve its diversity. He says much still needs to be done on F1 diversity.",
+   "disagreement": "",
+   "label": "Reported",
+   "updated": "2026-11-16T04:36:22Z"
+  },
+  {
+   "id": "cd4afaa4d",
+   "created": "2026-11-14T23:33:49Z",
+   "stories": [
+    {
+     "title": "Kimi Antonelli meets Italian president Sergio Mattarella",
+     "source": "Motorsport.com",
+     "date": "2026-11-14T10:37:42Z",
+     "link": "https://www.motorsport.com/f1/news/kimi-antonelli-meets-italian-president-sergio-mattarella/10874471/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "snippet": "\"To President Mattarella, with great admiration,\" signed Kimi Antonelli. The new Formula 1 world champion is in the middle of a whirlwind of meetings, events and celebrations for the world title he…"
+    },
+    {
+     "title": "Kimi Antonelli meets Italian president after receiving prestigious award",
+     "source": "PlanetF1",
+     "date": "2026-11-16T00:01:56Z",
+     "link": "https://www.planetf1.com/news/kimi-antonelli-meets-italian-president-after-award",
+     "snippet": "Kimi Antonelli has been busy since being crowned F1 world champion for the first time."
+    }
+   ],
+   "merge_reasons": [
+    {
+     "time": "2026-11-16T04:36:22Z",
+     "added": [
+      "https://www.planetf1.com/news/kimi-antonelli-meets-italian-president-after-award"
+     ],
+     "joined_existing": true,
+     "reason": "Both reports cover Antonelli's meeting with Italian president Sergio Mattarella."
+    }
+   ],
+   "title": "Antonelli meets Italian president Mattarella after receiving prestigious award",
+   "summary": "Kimi Antonelli met Italian president Sergio Mattarella, signing a message to him with great admiration. The meeting is part of a busy run of meetings and celebrations since Antonelli was crowned F1 world champion.",
+   "disagreement": "",
+   "updated": "2026-11-16T04:36:22Z",
+   "label": "Reported"
+  },
+  {
+   "id": "c87e83b4a",
+   "created": "2026-11-16T04:36:22Z",
+   "stories": [
+    {
+     "title": "Christian Horner admits Red Bull prospects were thrown in against Max Verstappen too soon",
+     "source": "Motorsport.com",
+     "date": "2026-11-15T23:30:04Z",
+     "link": "https://www.motorsport.com/f1/news/horner-admits-red-bull-broken-pierre-gasly-and-promoted-drivers-too-soon/10874627/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "snippet": "The second seat at Red Bull Racing has long been viewed as one of the most high-pressure environments in Formula 1. While the Milton Keynes operation frequently cycled through highly rated prospects…"
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Horner admits Red Bull threw prospects in against Verstappen too soon",
+   "summary": "Christian Horner admits that Red Bull's prospects were thrown in alongside Max Verstappen too early. The Motorsport.com piece frames this as part of Red Bull's history of cycling through highly rated drivers.",
+   "disagreement": "",
+   "label": "Reported",
+   "updated": "2026-11-16T04:36:22Z"
+  },
   {
    "id": "c5cb32f36",
    "created": "2026-11-15T23:44:04Z",
@@ -1505,25 +1578,6 @@
    "disagreement": "",
    "updated": "2026-11-15T12:28:09Z",
    "label": "Reported"
-  },
-  {
-   "id": "cd4afaa4d",
-   "created": "2026-11-14T23:33:49Z",
-   "stories": [
-    {
-     "title": "Kimi Antonelli meets Italian president Sergio Mattarella",
-     "source": "Motorsport.com",
-     "date": "2026-11-14T10:37:42Z",
-     "link": "https://www.motorsport.com/f1/news/kimi-antonelli-meets-italian-president-sergio-mattarella/10874471/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "snippet": "\"To President Mattarella, with great admiration,\" signed Kimi Antonelli. The new Formula 1 world champion is in the middle of a whirlwind of meetings, events and celebrations for the world title he…"
-    }
-   ],
-   "merge_reasons": [],
-   "title": "Kimi Antonelli meets Italian president Sergio Mattarella",
-   "summary": "Kimi Antonelli met Italian president Sergio Mattarella during a run of meetings and celebrations for his world title. He signed a photo 'with great admiration'.",
-   "disagreement": "",
-   "updated": "2026-11-14T23:33:49Z",
-   "label": "Confirmed"
   },
   {
    "id": "c157af946",
@@ -3078,6 +3132,36 @@
     }
    ],
    "reason": "Both mention Liam Lawson, but the Montoya theory about succeeding Verstappen is a separate claim from the confirmed 2027 Racing Bulls line-up."
+  },
+  {
+   "time": "2026-11-16T04:36:22Z",
+   "items": [
+    {
+     "title": "Christian Horner admits Red Bull prospects were thrown in against Max Verstappen too soon",
+     "source": "Motorsport.com",
+     "link": "https://www.motorsport.com/f1/news/horner-admits-red-bull-broken-pierre-gasly-and-promoted-drivers-too-soon/10874627/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www"
+    },
+    {
+     "card": "c2281dc96",
+     "title": "Horner blames Red Bull leadership structure for missed talent"
+    }
+   ],
+   "reason": "The Motorsport.com Horner piece on prospects being thrown in too soon looks similar to the Horner leadership-structure piece from the same site, but the snippets do not clearly show the same comments, so they stay apart."
+  },
+  {
+   "time": "2026-11-16T04:36:22Z",
+   "items": [
+    {
+     "title": "Christian Horner admits Red Bull prospects were thrown in against Max Verstappen too soon",
+     "source": "Motorsport.com",
+     "link": "https://www.motorsport.com/f1/news/horner-admits-red-bull-broken-pierre-gasly-and-promoted-drivers-too-soon/10874627/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www"
+    },
+    {
+     "card": "c0e6edd2f",
+     "title": "Horner explains why Verstappen's driving style unsettles team-mates"
+    }
+   ],
+   "reason": "The Horner article on Verstappen's driving style unsettling team-mates is about a different topic than the prospects being thrown in too soon."
   }
  ],
  "processed": [
@@ -3143,6 +3227,7 @@
   "https://www.bbc.co.uk/sport/articles/ck0j0l65nzlvo?at_medium=RSS&at_campaign=rss",
   "https://www.bbc.co.uk/sport/formula1/articles/c0rdvxdwwwwo?at_medium=RSS&at_campaign=rss",
   "https://www.bbc.co.uk/sport/formula1/articles/c35yn19r7zkvo?at_medium=RSS&at_campaign=rss",
+  "https://www.bbc.co.uk/sport/formula1/articles/c52e8kpnje42o?at_medium=RSS&at_campaign=rss",
   "https://www.bbc.co.uk/sport/formula1/articles/c53989e97lxwo?at_medium=RSS&at_campaign=rss",
   "https://www.bbc.co.uk/sport/formula1/articles/c574p28devp4o?at_medium=RSS&at_campaign=rss",
   "https://www.bbc.co.uk/sport/formula1/articles/c59vz9gdllxlo?at_medium=RSS&at_campaign=rss",
@@ -3280,6 +3365,7 @@
   "https://www.motorsport.com/f1/news/guenther-steiner-suggests-mark-webber-became-too-involved-in-oscar-piastris-career/10874383/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/guenther-steiner-suggests-max-verstappen-could-be-better-suited-to-lead-ferrari/10874192/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/guether-steiner-warns-oscar-piastris-mclaren-future-could-be-at-risk-after-2027/10874189/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+  "https://www.motorsport.com/f1/news/horner-admits-red-bull-broken-pierre-gasly-and-promoted-drivers-too-soon/10874627/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/horner-explains-why-max-verstappens-abnormal-driving-style-destroys-his-teammates/10874636/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/horribly-painful-williams-2026-car-upgrades-benefit-2027/10874290/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/i-never-had-responsibility-horner-blames-fractured-red-bull-leadership-for-missing-f1s-future-stars/10874624/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
@@ -3336,6 +3422,7 @@
   "https://www.planetf1.com/news/jenson-button-fernando-alonso-aston-martin-contract",
   "https://www.planetf1.com/news/jonathan-mcevoy-fia-ban-ferrari",
   "https://www.planetf1.com/news/kimi-antonelli-in-awe-after-international-football-fans-chant-his-name",
+  "https://www.planetf1.com/news/kimi-antonelli-meets-italian-president-after-award",
   "https://www.planetf1.com/news/lewis-hamilton-causing-ferrari-saga-formula-1-sale",
   "https://www.planetf1.com/news/lewis-hamilton-causing-ferrari-tension-ralf-schumacher",
   "https://www.planetf1.com/news/liam-lawson-mclaren-oscar-piastri-guenther-steiner",
