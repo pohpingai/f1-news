@@ -1,12 +1,670 @@
 {
- "updated": "2026-11-16T14:40:58Z",
+ "updated": "2026-11-16T23:57:55Z",
  "model": "anthropic/claude-haiku-5.5",
  "headline_of_the_day": {
-  "date": "2026-11-16",
-  "text": "Kimi Antonelli has clinched the 2026 world title, while Racing Bulls confirmed Liam Lawson and Arvid Lindblad for 2027 and the FIA banned a veteran journalist from the paddock.",
-  "written": "2026-11-16T14:40:58Z"
+  "date": "2026-11-17",
+  "text": "Kimi Antonelli's 2026 title win dominates today's F1 news, with Toto Wolff revealing Christian Horner's private message and predicting Antonelli will become more popular in Italy than Michael Schumacher.",
+  "written": "2026-11-16T23:57:55Z"
  },
  "cards": [
+  {
+   "id": "c5342c81c",
+   "created": "2026-11-15T12:28:09Z",
+   "stories": [
+    {
+     "title": "Las Vegas GP: UK schedule and how to watch on Sky Sports",
+     "source": "Sky Sports",
+     "date": "2026-11-13T06:00:00Z",
+     "link": "https://www.skysports.com/f1/news/12433/13611077/las-vegas-gp-2026-dates-schedule-weather-uk-start-time-and-how-to-watch-or-stream-f1-race-in-united-states-live-on-sky-sports",
+     "snippet": "Formula 1 heads for the bright lights of Las Vegas with both 2026 titles settled, but the competitive picture at the front of the grid tighter than it has been at any other stage of the season."
+    },
+    {
+     "title": "What time is the next F1 race? Las Vegas GP dates and full schedule",
+     "source": "Crash.net",
+     "date": "2026-11-15T12:00:00Z",
+     "link": "https://www.crash.net/f1/news/1110116/1/what-time-next-f1-race-las-vegas-gp-dates-and-full-schedule",
+     "snippet": "The next round of the 2026 Formula 1 season takes place at the Las Vegas Grand Prix."
+    },
+    {
+     "title": "How to watch the 2026 Las Vegas Grand Prix live this weekend | TV Times",
+     "source": "RaceFans",
+     "date": "2026-11-16T07:15:50Z",
+     "link": "https://www.racefans.net/2026/11/16/how-to-watch-the-2026-las-vegas-grand-prix-live-this-weekend/",
+     "snippet": "It's race week! Formula 1 heads to Las Vegas Strip Circuit this weekend. Here's how to watch the Las Vegas Grand Prix and more."
+    },
+    {
+     "title": "How to follow Las Vegas Grand Prix on the BBC",
+     "source": "BBC Sport",
+     "date": "2026-11-16T08:07:20Z",
+     "link": "https://www.bbc.co.uk/sport/formula1/articles/cx4gnlr603mqo?at_medium=RSS&at_campaign=rss",
+     "snippet": "All the key BBC coverage details for the Las Vegas Grand Prix, which takes place from 20-22 November."
+    },
+    {
+     "title": "F1 Las Vegas GP 2026: UK times, schedule and how to watch",
+     "source": "Motorsport.com",
+     "date": "2026-11-16T14:50:05Z",
+     "link": "https://www.motorsport.com/f1/news/f1-las-vegas-gp-2026-uk-times-schedule-how-to-watch/10874860/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "snippet": "The Las Vegas Grand Prix starts at 4am UK time on Sunday 22 November. In Las Vegas it is still 8pm on Saturday, because the race runs at night along the Strip. Every session falls overnight in the…"
+    },
+    {
+     "title": "F1 Las Vegas GP 2026: start time, schedule and how to watch",
+     "source": "Motorsport.com",
+     "date": "2026-11-16T15:02:24Z",
+     "link": "https://www.motorsport.com/f1/news/f1-las-vegas-gp-2026-start-time-schedule-and-how-to-watch/10874866/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "snippet": "The Las Vegas Grand Prix starts at 8 pm PT on Saturday, November 21, which is 11 pm ET. The race runs at night along the Strip, and every session is live on Apple TV. Las Vegas Grand Prix 2026…"
+    },
+    {
+     "title": "What time is F1's 2026 Las Vegas Grand Prix? Full weekend schedule",
+     "source": "The Race",
+     "date": "2026-11-16T15:59:25Z",
+     "link": "https://www.the-race.com/formula-1/what-time-is-f1s-2026-las-vegas-grand-prix-full-weekend-schedule/",
+     "snippet": "Time for the most spectacular of all the recent additions to the F1 calendar: Las Vegas"
+    },
+    {
+     "title": "What time is the 2026 Las Vegas GP and how can I watch it?",
+     "source": "Formula1.com",
+     "date": "2026-11-16T23:57:48Z",
+     "link": "https://www.formula1.com/en/latest/article/what-time-is-the-formula-1-2026-las-vegas-grand-prix-and-how-can-i-watch-it.5klYngWOQMjROxZ3nEp5Pr",
+     "snippet": "Here are all the timings – along with all the additional information you need – for the 21st Grand Prix weekend of the 2026 season from Las Vegas."
+    }
+   ],
+   "merge_reasons": [
+    {
+     "time": "2026-11-15T12:28:09Z",
+     "added": [
+      "https://www.skysports.com/f1/news/12433/13611077/las-vegas-gp-2026-dates-schedule-weather-uk-start-time-and-how-to-watch-or-stream-f1-race-in-united-states-live-on-sky-sports",
+      "https://www.crash.net/f1/news/1110116/1/what-time-next-f1-race-las-vegas-gp-dates-and-full-schedule"
+     ],
+     "joined_existing": false,
+     "reason": "Both are schedule and viewing guides for the same upcoming Las Vegas Grand Prix."
+    },
+    {
+     "time": "2026-11-16T14:40:58Z",
+     "added": [
+      "https://www.racefans.net/2026/11/16/how-to-watch-the-2026-las-vegas-grand-prix-live-this-weekend/",
+      "https://www.bbc.co.uk/sport/formula1/articles/cx4gnlr603mqo?at_medium=RSS&at_campaign=rss"
+     ],
+     "joined_existing": true,
+     "reason": "The RaceFans and BBC Sport pieces both give broadcast information for the same Las Vegas Grand Prix weekend."
+    },
+    {
+     "time": "2026-11-16T23:57:55Z",
+     "added": [
+      "https://www.motorsport.com/f1/news/f1-las-vegas-gp-2026-uk-times-schedule-how-to-watch/10874860/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+      "https://www.motorsport.com/f1/news/f1-las-vegas-gp-2026-start-time-schedule-and-how-to-watch/10874866/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+      "https://www.the-race.com/formula-1/what-time-is-f1s-2026-las-vegas-grand-prix-full-weekend-schedule/",
+      "https://www.formula1.com/en/latest/article/what-time-is-the-formula-1-2026-las-vegas-grand-prix-and-how-can-i-watch-it.5klYngWOQMjROxZ3nEp5Pr"
+     ],
+     "joined_existing": true,
+     "reason": "All of these are schedule and viewing guides for the same 2026 Las Vegas Grand Prix weekend."
+    }
+   ],
+   "title": "Las Vegas Grand Prix: UK start times and how to watch",
+   "summary": "Several guides set out the Las Vegas Grand Prix start time, which is 4am UK time on Sunday 22 November, or 8pm Saturday local time. They also cover the full weekend schedule and how to follow the race on TV and streaming.",
+   "disagreement": "",
+   "label": "Opinion",
+   "updated": "2026-11-16T23:57:55Z"
+  },
+  {
+   "id": "cda76024c",
+   "created": "2026-11-16T23:57:55Z",
+   "stories": [
+    {
+     "title": "Las Vegas Grand Prix betting guide and latest odds",
+     "source": "Formula1.com",
+     "date": "2026-11-16T23:57:48Z",
+     "link": "https://www.formula1.com/en/latest/article/las-vegas-grand-prix-race-betting-guide-and-what-the-markets-expect-to-happen.5sEja0aYqYkyfdSZ9sTibF",
+     "snippet": "Our experts bring you all the important betting information you need before making your predictions for Vegas."
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Las Vegas Grand Prix betting guide and latest odds",
+   "summary": "Formula1.com publishes a betting guide ahead of the Las Vegas Grand Prix with the latest odds. It is aimed at fans making predictions for the race.",
+   "disagreement": "",
+   "label": "Opinion",
+   "updated": "2026-11-16T23:57:55Z"
+  },
+  {
+   "id": "c432a612d",
+   "created": "2026-11-16T23:57:55Z",
+   "stories": [
+    {
+     "title": "Terry Crews on America's growing love for F1",
+     "source": "Formula1.com",
+     "date": "2026-11-16T23:57:48Z",
+     "link": "https://www.formula1.com/en/latest/article/americans-are-becoming-more-formula-1-terry-crews-on-why-f1-is-winning-over-the-us.6Uqdsu4AlrP8Y3fxNUMesa",
+     "snippet": "As Formula 1 returns to Las Vegas, actor Terry Crews discusses the sport's growing popularity in the United States and how it is encouraging Americans to embrace the wider world."
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Terry Crews on America's growing love for F1",
+   "summary": "Actor Terry Crews discusses Formula 1's growing popularity in the United States as the sport returns to Las Vegas. He says it is encouraging Americans to embrace the wider world.",
+   "disagreement": "",
+   "label": "Opinion",
+   "updated": "2026-11-16T23:57:55Z"
+  },
+  {
+   "id": "cab54b728",
+   "created": "2026-11-16T23:57:55Z",
+   "stories": [
+    {
+     "title": "Williams and Aston Martin reveal one-off liveries for Las Vegas Grand Prix | Formula 1",
+     "source": "RaceFans",
+     "date": "2026-11-16T16:10:54Z",
+     "link": "https://www.racefans.net/2026/11/16/williams-and-aston-martin-reveal-one-off-liveries-for-las-vegas-grand-prix/",
+     "snippet": "Williams and Aston Martin have revealed special liveries for this weekend's Las Vegas Grand Prix."
+    },
+    {
+     "title": "Aston Martin unveils eye-catching Las Vegas Grand Prix livery",
+     "source": "PlanetF1",
+     "date": "2026-11-16T17:19:12Z",
+     "link": "https://www.planetf1.com/news/aston-martin-las-vegas-grand-prix-2026-livery",
+     "snippet": "What happens in Vegas stays in Vegas..."
+    },
+    {
+     "title": "Williams, Aston Martin among new F1 liveries for Las Vegas GP as Acura \"replaces\" Honda",
+     "source": "Motorsport.com",
+     "date": "2026-11-16T18:45:08Z",
+     "link": "https://www.motorsport.com/f1/news/williams-aston-martin-among-new-f1-liveries-for-las-vegas-gp-as-acura-replaces-honda/10874925/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "snippet": "Williams and Aston Martin are among the F1 teams to have revamped their car liveries for this weekend's Las Vegas Grand Prix. F1 heads to Las Vegas for its third of three US races, with the…"
+    },
+    {
+     "title": "Williams unveil special livery for Las Vegas Grand Prix",
+     "source": "Formula1.com",
+     "date": "2026-11-16T23:57:48Z",
+     "link": "https://www.formula1.com/en/latest/article/williams-unveil-special-one-off-livery-for-las-vegas-grand-prix.01klQqq0PYu7wjugCtr98K",
+     "snippet": "The Williams FW48 will sport a unique livery across the Las Vegas Grand Prix weekend."
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Williams and Aston Martin reveal one-off Las Vegas liveries",
+   "summary": "Williams and Aston Martin have unveiled special one-off liveries for the Las Vegas Grand Prix weekend. Motorsport.com also notes that Acura replaces Honda in the Aston Martin livery.",
+   "disagreement": "",
+   "label": "Confirmed",
+   "updated": "2026-11-16T23:57:55Z"
+  },
+  {
+   "id": "cb0461321",
+   "created": "2026-11-16T14:40:58Z",
+   "stories": [
+    {
+     "title": "Lando Norris signs former Red Bull junior in new F2 driver announcement",
+     "source": "PlanetF1",
+     "date": "2026-11-16T10:59:52Z",
+     "link": "https://www.planetf1.com/news/lando-norris-f2-team-2027-driver",
+     "snippet": "Lando Norris's team will be on the Formula 2 grid in 2027."
+    },
+    {
+     "title": "Lando Norris's LN4 Fusion signs former Red Bull junior Oliver Goethe as its first F2 driver",
+     "source": "Motorsport.com",
+     "date": "2026-11-16T17:51:34Z",
+     "link": "https://www.motorsport.com/f1/news/lando-norriss-ln4-fusion-signs-former-red-bull-junior-oliver-goethe-as-its-first-f2-driver/10874918/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "snippet": "Lando Norris's new junior team LN4 Fusion has signed former Red Bull junior Oliver Goethe as its first driver for the 2027 Formula 2 season. The 22-year-old will make the move from MP Motorsport for…"
+    },
+    {
+     "title": "Lando Norris announces major deal with former Red Bull star",
+     "source": "GPFans",
+     "date": "2026-11-16T21:45:00Z",
+     "link": "https://www.gpfans.com/en/f1-news/1092966/f1-lando-norris-major-deal-f2-contract-oliver-goethe-red-bull-ln4-fusion/",
+     "snippet": "Lando Norris' new racing team LN4 Fusion has announced its newest driver, former Red Bull Junior Team driver Oliver Goethe."
+    }
+   ],
+   "merge_reasons": [
+    {
+     "time": "2026-11-16T23:57:55Z",
+     "added": [
+      "https://www.motorsport.com/f1/news/lando-norriss-ln4-fusion-signs-former-red-bull-junior-oliver-goethe-as-its-first-f2-driver/10874918/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+      "https://www.gpfans.com/en/f1-news/1092966/f1-lando-norris-major-deal-f2-contract-oliver-goethe-red-bull-ln4-fusion/"
+     ],
+     "joined_existing": true,
+     "reason": "The Motorsport.com and GPFans stories report the same LN4 Fusion signing of Oliver Goethe."
+    }
+   ],
+   "title": "Norris's LN4 Fusion signs former Red Bull junior Oliver Goethe",
+   "summary": "Lando Norris's junior team LN4 Fusion has signed Oliver Goethe as its first driver for the 2027 Formula 2 season. Goethe moves from MP Motorsport and is a former Red Bull junior.",
+   "disagreement": "",
+   "label": "Confirmed",
+   "updated": "2026-11-16T23:57:55Z"
+  },
+  {
+   "id": "c371a3883",
+   "created": "2026-11-16T23:57:55Z",
+   "stories": [
+    {
+     "title": "Australian GP boss to leave role weeks after final MotoGP race at Phillip Island",
+     "source": "Crash.net",
+     "date": "2026-11-16T15:28:00Z",
+     "link": "https://www.crash.net/motogp/news/1110135/1/australian-gp-boss-leave-role-weeks-after-final-motogp-race-phillip-island",
+     "snippet": "Travis Auld will leave his role at the Australian GP at the end of 2026"
+    },
+    {
+     "title": "Australian GP boss quits in shock move",
+     "source": "GPFans",
+     "date": "2026-11-16T20:45:00Z",
+     "link": "https://www.gpfans.com/en/f1-news/1092961/australian-gp-ceo-travis-auld-resigns-exciting-new-global-role/",
+     "snippet": "Australian Grand Prix Corporation CEO Travis Auld has resigned from his role to take up a mystery global role."
+    }
+   ],
+   "merge_reasons": [
+    {
+     "time": "2026-11-16T23:57:55Z",
+     "added": [
+      "https://www.crash.net/motogp/news/1110135/1/australian-gp-boss-leave-role-weeks-after-final-motogp-race-phillip-island",
+      "https://www.gpfans.com/en/f1-news/1092961/australian-gp-ceo-travis-auld-resigns-exciting-new-global-role/"
+     ],
+     "joined_existing": false,
+     "reason": "Both the Crash.net and GPFans stories report the same resignation of Travis Auld from the Australian GP."
+    }
+   ],
+   "title": "Australian GP boss Travis Auld to leave role",
+   "summary": "Travis Auld is leaving his role as Australian Grand Prix CEO at the end of 2026. Reports say he is taking up a new global role.",
+   "disagreement": "",
+   "label": "Confirmed",
+   "updated": "2026-11-16T23:57:55Z"
+  },
+  {
+   "id": "c03ec9289",
+   "created": "2026-11-16T23:57:55Z",
+   "stories": [
+    {
+     "title": "Daniel Ricciardo reveals F1 moment he ‘just wanted to be over’",
+     "source": "PlanetF1",
+     "date": "2026-11-16T20:02:35Z",
+     "link": "https://www.planetf1.com/news/daniel-ricciardo-monaco-moment",
+     "snippet": "\"I wasn't excited about anything. I was just like, I've hardly slept.\""
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Ricciardo recalls an F1 moment he just wanted to be over",
+   "summary": "Daniel Ricciardo says he was not excited about anything at one point and had hardly slept. He describes the moment in a PlanetF1 interview.",
+   "disagreement": "",
+   "label": "Reported",
+   "updated": "2026-11-16T23:57:55Z"
+  },
+  {
+   "id": "cb529d5b5",
+   "created": "2026-11-15T12:28:09Z",
+   "stories": [
+    {
+     "title": "FSG’s $3bn Cadillac F1 move faces unexpected NASCAR blocker",
+     "source": "GPFans",
+     "date": "2026-11-14T19:55:00Z",
+     "link": "https://www.gpfans.com/en/f1-news/1092919/f1-cadillac-sale-blockage-fsg-nascar-brad-keselowski-ownership/",
+     "snippet": "John Henry's Fenway Sports Group (FSG) have been the main name mentioned as a potential buyer for Cadillac's F1 operation, but they could hit one snag in the process."
+    },
+    {
+     "title": "Christian Horner frozen out as $3bn Cadillac deal faces unexpected blocker - F1 News Today",
+     "source": "GPFans",
+     "date": "2026-11-15T06:30:00Z",
+     "link": "https://www.gpfans.com/en/f1-news/1092921/f1-news-today-christian-horner-frozen-out-cadillac-sale-blocker/",
+     "snippet": "“I feel like there’s a desire within the sport to see me come back, which is very flattering” - so said Christian Horner just five days ago."
+    },
+    {
+     "title": "Christian Horner responds to Cadillac question amid $3bn return rumours",
+     "source": "GPFans",
+     "date": "2026-11-16T19:45:00Z",
+     "link": "https://www.gpfans.com/en/f1-news/1092949/f1-christian-horner-cadillac-question-takeover-bid-winners/",
+     "snippet": "The Cadillac F1 team being up for sale sounds on the surface like a great way back into the sport for Christian Horner - but the man himself might not be so interested."
+    }
+   ],
+   "merge_reasons": [
+    {
+     "time": "2026-11-15T12:28:09Z",
+     "added": [
+      "https://www.gpfans.com/en/f1-news/1092919/f1-cadillac-sale-blockage-fsg-nascar-brad-keselowski-ownership/",
+      "https://www.gpfans.com/en/f1-news/1092921/f1-news-today-christian-horner-frozen-out-cadillac-sale-blocker/"
+     ],
+     "joined_existing": false,
+     "reason": "Both stories report the same unexpected NASCAR blocker to the $3bn Cadillac F1 deal."
+    },
+    {
+     "time": "2026-11-16T23:57:55Z",
+     "added": [
+      "https://www.gpfans.com/en/f1-news/1092949/f1-christian-horner-cadillac-question-takeover-bid-winners/"
+     ],
+     "joined_existing": true,
+     "reason": "The GPFans story on Horner's response covers the same Cadillac sale rumours as the existing card's stories."
+    }
+   ],
+   "title": "FSG linked with $3bn Cadillac F1 deal, Horner responds",
+   "summary": "Fenway Sports Group has been linked with a $3bn purchase of Cadillac's F1 operation, which faces a possible NASCAR-related obstacle. Christian Horner has responded to questions about a return to the sport through the deal.",
+   "disagreement": "",
+   "label": "Rumour",
+   "updated": "2026-11-16T23:57:55Z"
+  },
+  {
+   "id": "c41b60b43",
+   "created": "2026-11-16T23:57:55Z",
+   "stories": [
+    {
+     "title": "Kimi Antonelli salary, Haas driver decision, Hamilton falls behind Leclerc in ranking – roundup",
+     "source": "PlanetF1",
+     "date": "2026-11-16T19:04:22Z",
+     "link": "https://www.planetf1.com/news/kimi-antonelli-salary-las-vegas-grand-prix",
+     "snippet": "Monday's fast-paced F1 news wrap is go, go, go!"
+    }
+   ],
+   "merge_reasons": [],
+   "title": "F1 news roundup: Antonelli salary, Haas decision, Hamilton ranking",
+   "summary": "A PlanetF1 roundup covers several stories, including Kimi Antonelli's salary, the Haas driver decision and Hamilton falling behind Leclerc. It is a summary of multiple separate news items.",
+   "disagreement": "",
+   "label": "Opinion",
+   "updated": "2026-11-16T23:57:55Z"
+  },
+  {
+   "id": "cf63ab29b",
+   "created": "2026-11-16T23:57:55Z",
+   "stories": [
+    {
+     "title": "Liam Lawson compared to F1 champion as Mark Hughes sends compelling Red Bull message",
+     "source": "GPFans",
+     "date": "2026-11-16T18:43:00Z",
+     "link": "https://www.gpfans.com/en/f1-news/1092955/f1-liam-lawson-compared-alan-jones-champion-mark-hughes-red-bull/",
+     "snippet": "The long-term future of Liam Lawson at Red Bull remains in question, but one highly respected F1 journalist has backed him for success - comparing him to a world champion of yesteryear."
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Mark Hughes compares Liam Lawson to a former world champion",
+   "summary": "Journalist Mark Hughes has backed Liam Lawson for success at Red Bull. He compares Lawson to a former world champion.",
+   "disagreement": "",
+   "label": "Opinion",
+   "updated": "2026-11-16T23:57:55Z"
+  },
+  {
+   "id": "c243907af",
+   "created": "2026-11-16T23:57:55Z",
+   "stories": [
+    {
+     "title": "Lewis Hamilton's Ferrari revolution faces one HUGE problem",
+     "source": "GPFans",
+     "date": "2026-11-16T17:45:00Z",
+     "link": "https://www.gpfans.com/en/f1-news/1092963/f1-lewis-hamilton-ferrari-revolution-problem-age-fred-vasseur/",
+     "snippet": "Another month, another story out of Italy about Lewis Hamilton and his staff being less popular than perhaps they might like at Maranello."
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Hamilton's Ferrari revolution faces a major problem",
+   "summary": "GPFans argues that Lewis Hamilton and his staff are becoming less popular at Maranello. The article is a commentary on Hamilton's position at Ferrari.",
+   "disagreement": "",
+   "label": "Opinion",
+   "updated": "2026-11-16T23:57:55Z"
+  },
+  {
+   "id": "cd25c59c2",
+   "created": "2026-11-16T23:57:55Z",
+   "stories": [
+    {
+     "title": "Norris: Las Vegas GP would be \"scary\" with current F1 wet tyres",
+     "source": "Autosport",
+     "date": "2026-11-16T17:30:03Z",
+     "link": "https://www.autosport.com/f1/news/lando-norris-f1-needs-better-rain-tyres-as-wet-las-vegas-would-be-scary/10874886/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+     "snippet": "Lando Norris hopes Formula 1 tyre supplier Pirelli will field much-improved rain tyres in 2027 as he expects the current range won't work properly at a low-downforce circuit like Las Vegas. Following…"
+    },
+    {
+     "title": "Lando Norris: F1 needs better rain tyres as wet Las Vegas would be \"scary\"",
+     "source": "Motorsport.com",
+     "date": "2026-11-16T17:30:42Z",
+     "link": "https://www.motorsport.com/f1/news/lando-norris-f1-needs-better-rain-tyres-as-wet-las-vegas-would-be-scary/10874689/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "snippet": "World champion Lando Norris hopes Formula 1 tyre supplier Pirelli will field much-improved rain tyres in 2027 as he expects the current range won't work properly at a low-downforce circuit like Las…"
+    }
+   ],
+   "merge_reasons": [
+    {
+     "time": "2026-11-16T23:57:55Z",
+     "added": [
+      "https://www.autosport.com/f1/news/lando-norris-f1-needs-better-rain-tyres-as-wet-las-vegas-would-be-scary/10874886/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "https://www.motorsport.com/f1/news/lando-norris-f1-needs-better-rain-tyres-as-wet-las-vegas-would-be-scary/10874689/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www"
+     ],
+     "joined_existing": false,
+     "reason": "The Autosport and Motorsport.com stories report the same Norris comments on wet tyres and Las Vegas."
+    }
+   ],
+   "title": "Norris says wet Las Vegas GP would be scary on current tyres",
+   "summary": "Lando Norris hopes Pirelli will bring much-improved wet tyres in 2027. He says the current range will not work well at a low-downforce circuit like Las Vegas.",
+   "disagreement": "",
+   "label": "Reported",
+   "updated": "2026-11-16T23:57:55Z"
+  },
+  {
+   "id": "c5f3e6035",
+   "created": "2026-11-16T14:40:58Z",
+   "stories": [
+    {
+     "title": "Lewis Hamilton makes £50m investment demand ‘the future of F1 depends on’",
+     "source": "Crash.net",
+     "date": "2026-11-16T09:22:23Z",
+     "link": "https://www.crash.net/f1/news/1110123/1/lewis-hamilton-makes-ps50m-investment-demand-future-f1-depends",
+     "snippet": "Lewis Hamilton is demanding a big investment from F1 to boost diversity in the paddock"
+    },
+    {
+     "title": "Lewis Hamilton issues new F1 plea as £50m investment plan unveiled",
+     "source": "GPFans",
+     "date": "2026-11-16T14:27:00Z",
+     "link": "https://www.gpfans.com/en/f1-news/1092958/lewis-hamilton-mission-44-investment-next-generation-f1-talent/",
+     "snippet": "Lewis Hamilton has called on the sport of F1 to invest at least £50 million in the next generation of motorsport talent."
+    },
+    {
+     "title": "Hamilton tells F1 to spend £50 million in promoting under-represented talent | Formula 1",
+     "source": "RaceFans",
+     "date": "2026-11-16T17:10:16Z",
+     "link": "https://www.racefans.net/2026/11/16/hamilton-tells-f1-to-spend-50-million-in-promoting-under-represented-talent/",
+     "snippet": "Lewis Hamilton's Mission 44 organisation says Formula 1 fans want to see greater representation in the championship."
+    }
+   ],
+   "merge_reasons": [
+    {
+     "time": "2026-11-16T14:40:58Z",
+     "added": [
+      "https://www.crash.net/f1/news/1110123/1/lewis-hamilton-makes-ps50m-investment-demand-future-f1-depends",
+      "https://www.gpfans.com/en/f1-news/1092958/lewis-hamilton-mission-44-investment-next-generation-f1-talent/"
+     ],
+     "joined_existing": false,
+     "reason": "The Crash.net and GPFans reports both describe the same Hamilton demand for a £50m investment plan."
+    },
+    {
+     "time": "2026-11-16T23:57:55Z",
+     "added": [
+      "https://www.racefans.net/2026/11/16/hamilton-tells-f1-to-spend-50-million-in-promoting-under-represented-talent/"
+     ],
+     "joined_existing": true,
+     "reason": "The RaceFans story reports the same £50 million investment call that Hamilton made in the existing card's stories."
+    }
+   ],
+   "title": "Hamilton calls for £50m F1 investment in future talent",
+   "summary": "Lewis Hamilton has called on F1 to invest at least £50 million in the next generation of talent. His Mission 44 organisation says fans want to see greater representation in the sport.",
+   "disagreement": "",
+   "label": "Reported",
+   "updated": "2026-11-16T23:57:55Z"
+  },
+  {
+   "id": "c0a13a578",
+   "created": "2026-11-16T23:57:55Z",
+   "stories": [
+    {
+     "title": "Kimi Antonelli's dad delivers blunt George Russell verdict after F1 title win",
+     "source": "GPFans",
+     "date": "2026-11-16T16:57:00Z",
+     "link": "https://www.gpfans.com/en/f1-news/1092954/kimi-antonelli-father-george-russell-f1-title-verdict/",
+     "snippet": "Marco Antonelli has defended his son Kimi's remarkable F1 title win and delivered a pointed assessment of George Russell's failure to challenge for the championship."
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Antonelli's father gives blunt verdict on Russell after title",
+   "summary": "Marco Antonelli has defended his son Kimi's F1 title win. He also gave a pointed assessment of George Russell's failure to challenge for the championship.",
+   "disagreement": "",
+   "label": "Reported",
+   "updated": "2026-11-16T23:57:55Z"
+  },
+  {
+   "id": "c5dd5bf89",
+   "created": "2026-11-16T14:40:58Z",
+   "stories": [
+    {
+     "title": "Toto Wolff reveals what Christian Horner told him after Kimi Antonelli’s F1 title win",
+     "source": "Crash.net",
+     "date": "2026-11-16T10:12:57Z",
+     "link": "https://www.crash.net/f1/news/1110125/1/toto-wolff-reveals-what-christian-horner-told-him-after-kimi-antonellis-f1-title",
+     "snippet": "Toto Wolff has opened up on the message he received from Christian Horner after winning the 2026 title"
+    },
+    {
+     "title": "Christian Horner’s private message to Toto Wolff revealed after Kimi Antonelli's 2026 F1 title",
+     "source": "Motorsport.com",
+     "date": "2026-11-16T16:02:29Z",
+     "link": "https://www.motorsport.com/f1/news/christian-horners-private-message-to-toto-wolff-revealed-respect-for-you/10874823/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "snippet": "At the height of their bitter championship battles, the idea of Christian Horner sending Toto Wolff a warm congratulatory text would have seemed entirely fictional to most Formula 1 fans. But…"
+    },
+    {
+     "title": "Toto Wolff reveals what Christian Horner messaged him after Antonelli won title",
+     "source": "PlanetF1",
+     "date": "2026-11-16T16:21:18Z",
+     "link": "https://www.planetf1.com/news/christian-horner-toto-wolff-kimi-antonelli-text-message",
+     "snippet": "\"But that didn't surprise me...\""
+    }
+   ],
+   "merge_reasons": [
+    {
+     "time": "2026-11-16T23:57:55Z",
+     "added": [
+      "https://www.motorsport.com/f1/news/christian-horners-private-message-to-toto-wolff-revealed-respect-for-you/10874823/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+      "https://www.planetf1.com/news/christian-horner-toto-wolff-kimi-antonelli-text-message"
+     ],
+     "joined_existing": true,
+     "reason": "The Motorsport.com and PlanetF1 stories report the same Wolff account of Horner's message after Antonelli's title."
+    }
+   ],
+   "title": "Wolff reveals Horner's message after Antonelli's title win",
+   "summary": "Toto Wolff has revealed the private message Christian Horner sent him after Kimi Antonelli won the 2026 title. Wolff said the message did not surprise him.",
+   "disagreement": "",
+   "label": "Reported",
+   "updated": "2026-11-16T23:57:55Z"
+  },
+  {
+   "id": "c7beb77d4",
+   "created": "2026-11-16T23:57:55Z",
+   "stories": [
+    {
+     "title": "Toto Wolff predicts Kimi Antonelli will become more popular in Italy than Michael Schumacher",
+     "source": "Motorsport.com",
+     "date": "2026-11-16T16:17:25Z",
+     "link": "https://www.motorsport.com/f1/news/toto-wolff-says-kimi-antonelli-is-more-loved-in-italy-than-michael-schumacher-was-at-ferrari/10874809/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "snippet": "Mercedes team principal Toto Wolff is no stranger to making bold statements, but his latest assessment of Kimi Antonelli's popularity might actually shock the dedicated Ferrari fanbase. Following…"
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Wolff predicts Antonelli will be more popular in Italy than Schumacher",
+   "summary": "Toto Wolff has predicted that Kimi Antonelli will become more popular in Italy than Michael Schumacher. He made the comment in a recent interview.",
+   "disagreement": "",
+   "label": "Reported",
+   "updated": "2026-11-16T23:57:55Z"
+  },
+  {
+   "id": "caccdbb2c",
+   "created": "2026-11-16T14:40:58Z",
+   "stories": [
+    {
+     "title": "Zak Brown lifts lid on McLaren chaos: 'It was a terrible environment'",
+     "source": "GPFans",
+     "date": "2026-11-16T11:27:00Z",
+     "link": "https://www.gpfans.com/en/f1-news/1092944/f1-zak-brown-mclaren-toxic-terrible-2016-turnaround/",
+     "snippet": "Zak Brown has opened up on just how much McLaren has changed since he joined the team a decade ago."
+    },
+    {
+     "title": "Zak Brown recalls McLaren's \"very toxic environment\" after joining team in 2016",
+     "source": "Motorsport.com",
+     "date": "2026-11-16T15:54:25Z",
+     "link": "https://www.motorsport.com/f1/news/zak-brown-recalls-mclarens-very-toxic-environment-after-joining-team-in-2016/10874891/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "snippet": "McLaren Racing CEO Zak Brown has described the team he joined in 2016 as \"a very toxic environment\", blaming a revolving door of leaders for years of poor results on and off the track. The American…"
+    }
+   ],
+   "merge_reasons": [
+    {
+     "time": "2026-11-16T23:57:55Z",
+     "added": [
+      "https://www.motorsport.com/f1/news/zak-brown-recalls-mclarens-very-toxic-environment-after-joining-team-in-2016/10874891/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www"
+     ],
+     "joined_existing": true,
+     "reason": "The Motorsport.com interview and the GPFans report cover the same Zak Brown comments about McLaren's environment."
+    }
+   ],
+   "title": "Zak Brown describes McLaren's toxic environment before change",
+   "summary": "Zak Brown has described McLaren as a very toxic environment when he joined in 2016. He blamed a revolving door of leaders for years of poor results.",
+   "disagreement": "",
+   "label": "Reported",
+   "updated": "2026-11-16T23:57:55Z"
+  },
+  {
+   "id": "c9460c278",
+   "created": "2026-11-16T23:57:55Z",
+   "stories": [
+    {
+     "title": "Lewis Hamilton falls behind Charles Leclerc in 2026 marketability ranking",
+     "source": "PlanetF1",
+     "date": "2026-11-16T15:26:39Z",
+     "link": "https://www.planetf1.com/news/lewis-hamilton-charles-leclerc-sportspro-2026-ranking",
+     "snippet": "Hamilton has fallen behind Leclerc."
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Hamilton falls behind Leclerc in 2026 marketability ranking",
+   "summary": "A PlanetF1 ranking places Charles Leclerc ahead of Lewis Hamilton in marketability for 2026. The article is a short ranking update.",
+   "disagreement": "",
+   "label": "Opinion",
+   "updated": "2026-11-16T23:57:55Z"
+  },
+  {
+   "id": "cbf24a633",
+   "created": "2026-11-16T04:36:22Z",
+   "stories": [
+    {
+     "title": "Much still to do on F1 diversity - Hamilton",
+     "source": "BBC Sport",
+     "date": "2026-11-16T00:04:45Z",
+     "link": "https://www.bbc.co.uk/sport/formula1/articles/c52e8kpnje42o?at_medium=RSS&at_campaign=rss",
+     "snippet": "British Formula 1 driver Lewis Hamilton outlines three steps the sport must take to improve its diversity."
+    },
+    {
+     "title": "'Now we need to go further' - Hamilton outlines next targets to improve F1 diversity",
+     "source": "Sky Sports",
+     "date": "2026-11-16T15:19:00Z",
+     "link": "https://www.skysports.com/f1/news/12433/13612897/lewis-hamilton-says-work-improving-diversity-in-f1-nowhere-near-finished-as-mission-44-outlines-recommendations-for-further-change",
+     "snippet": "Lewis Hamilton says Formula 1 has \"shown that change is possible\" to improve diversity in the sport over the past five years and \"now we need to go further\" in increasing opportunities for the next…"
+    }
+   ],
+   "merge_reasons": [
+    {
+     "time": "2026-11-16T23:57:55Z",
+     "added": [
+      "https://www.skysports.com/f1/news/12433/13612897/lewis-hamilton-says-work-improving-diversity-in-f1-nowhere-near-finished-as-mission-44-outlines-recommendations-for-further-change"
+     ],
+     "joined_existing": true,
+     "reason": "The Sky Sports and BBC stories both report Hamilton's comments on the next steps for F1 diversity."
+    }
+   ],
+   "title": "Hamilton outlines three steps to improve F1 diversity",
+   "summary": "Lewis Hamilton has set out three steps F1 must take to improve diversity. He says the sport has shown change is possible and now needs to go further.",
+   "disagreement": "",
+   "label": "Reported",
+   "updated": "2026-11-16T23:57:55Z"
+  },
+  {
+   "id": "c50c870cb",
+   "created": "2026-11-16T23:57:55Z",
+   "stories": [
+    {
+     "title": "Lewis Hamilon reportedly house-hunting in LA amid Kim Kardashian relationship",
+     "source": "Motorsport.com",
+     "date": "2026-11-16T15:08:51Z",
+     "link": "https://www.motorsport.com/f1/news/lewis-hamilon-reportedly-house-hunting-in-la-amid-kim-kardashian-relationship/10874877/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "snippet": "Seven-time Formula 1 champion Lewis Hamilton wants a Los Angeles base so he can spend more of the winter break with his partner Kim Kardashian and her children, according to a report from the Daily…"
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Hamilton reportedly house-hunting in LA during winter break",
+   "summary": "A Daily Mail report says Lewis Hamilton wants a Los Angeles base to spend more of the winter break with Kim Kardashian. The claim comes from that report and has not been confirmed.",
+   "disagreement": "",
+   "label": "Rumour",
+   "updated": "2026-11-16T23:57:55Z"
+  },
   {
    "id": "cf9b8daaa",
    "created": "2026-11-16T14:40:58Z",
@@ -146,6 +804,60 @@
    "updated": "2026-11-16T14:40:58Z"
   },
   {
+   "id": "c25cb9ce3",
+   "created": "2026-11-16T23:57:55Z",
+   "stories": [
+    {
+     "title": "F1 driver manager Enrico Zanarini recounts his 50 years in motorsport",
+     "source": "Motorsport.com",
+     "date": "2026-11-16T14:39:52Z",
+     "link": "https://www.motorsport.com/f1/news/f1-driver-manager-enrico-zanarini-recounts-his-50-years-in-motorsport/10874697/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "snippet": "Sometimes, a single incident – mere seconds – is enough to alter the course of a career. Enrico Zanarini recalls one such moment, which took place in the paddock at the 1993 Portuguese Grand Prix…"
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Zanarini recalls 1993 paddock incident that shaped his career",
+   "summary": "Motorsport.com profiles driver manager Enrico Zanarini as he recounts 50 years in motorsport. He describes a moment in the paddock at the 1993 Portuguese Grand Prix that changed his career.",
+   "disagreement": "",
+   "label": "Opinion",
+   "updated": "2026-11-16T23:57:55Z"
+  },
+  {
+   "id": "cf9a1601b",
+   "created": "2026-11-15T19:32:36Z",
+   "stories": [
+    {
+     "title": "Michael Schumacher ‘worse at’ theory in Mercedes F1 comeback presented by Rosberg",
+     "source": "PlanetF1",
+     "date": "2026-11-15T14:00:04Z",
+     "link": "https://www.planetf1.com/news/michael-schumacher-mercedes-f1-worse-at-theory-nico-rosberg",
+     "snippet": "Nico Rosberg revealed the only area where Michael Schumacher showed decline from his peak."
+    },
+    {
+     "title": "Nico Rosberg highlights where Michael Schumacher “was not at his best” in F1 comeback",
+     "source": "Crash.net",
+     "date": "2026-11-16T14:37:44Z",
+     "link": "https://www.crash.net/f1/news/1110133/1/nico-rosberg-highlights-where-michael-schumacher-was-not-his-best-f1-comeback",
+     "snippet": "Nico Rosberg shares his thoughts on Michael Schumacher’s F1 comeback"
+    }
+   ],
+   "merge_reasons": [
+    {
+     "time": "2026-11-16T23:57:55Z",
+     "added": [
+      "https://www.crash.net/f1/news/1110133/1/nico-rosberg-highlights-where-michael-schumacher-was-not-his-best-f1-comeback"
+     ],
+     "joined_existing": true,
+     "reason": "The Crash.net report and the PlanetF1 story both cover the same Rosberg comments on Schumacher's comeback."
+    }
+   ],
+   "title": "Rosberg says Schumacher was not at his best in comeback",
+   "summary": "Nico Rosberg has commented on the areas where Michael Schumacher was not at his best during his Formula 1 comeback. The Crash.net report and the earlier PlanetF1 story cover the same remarks.",
+   "disagreement": "",
+   "label": "Reported",
+   "updated": "2026-11-16T23:57:55Z"
+  },
+  {
    "id": "ce0b8e8da",
    "created": "2026-11-15T09:34:21Z",
    "stories": [
@@ -191,42 +903,6 @@
    ],
    "title": "Steiner says Verstappen could fix Ferrari and doubts Hamilton",
    "summary": "Guenther Steiner has suggested Max Verstappen could be the solution to Ferrari's problems. He has also questioned whether Lewis Hamilton is the right person to lead the team.",
-   "disagreement": "",
-   "label": "Reported",
-   "updated": "2026-11-16T14:40:58Z"
-  },
-  {
-   "id": "c5f3e6035",
-   "created": "2026-11-16T14:40:58Z",
-   "stories": [
-    {
-     "title": "Lewis Hamilton makes £50m investment demand ‘the future of F1 depends on’",
-     "source": "Crash.net",
-     "date": "2026-11-16T09:22:23Z",
-     "link": "https://www.crash.net/f1/news/1110123/1/lewis-hamilton-makes-ps50m-investment-demand-future-f1-depends",
-     "snippet": "Lewis Hamilton is demanding a big investment from F1 to boost diversity in the paddock"
-    },
-    {
-     "title": "Lewis Hamilton issues new F1 plea as £50m investment plan unveiled",
-     "source": "GPFans",
-     "date": "2026-11-16T14:27:00Z",
-     "link": "https://www.gpfans.com/en/f1-news/1092958/lewis-hamilton-mission-44-investment-next-generation-f1-talent/",
-     "snippet": "Lewis Hamilton has called on the sport of F1 to invest at least £50 million in the next generation of motorsport talent."
-    }
-   ],
-   "merge_reasons": [
-    {
-     "time": "2026-11-16T14:40:58Z",
-     "added": [
-      "https://www.crash.net/f1/news/1110123/1/lewis-hamilton-makes-ps50m-investment-demand-future-f1-depends",
-      "https://www.gpfans.com/en/f1-news/1092958/lewis-hamilton-mission-44-investment-next-generation-f1-talent/"
-     ],
-     "joined_existing": false,
-     "reason": "The Crash.net and GPFans reports both describe the same Hamilton demand for a £50m investment plan."
-    }
-   ],
-   "title": "Hamilton calls for £50m F1 investment in future talent",
-   "summary": "Lewis Hamilton has called on F1 to invest at least £50 million in the next generation of motorsport talent. He says the future of the sport depends on this investment.",
    "disagreement": "",
    "label": "Reported",
    "updated": "2026-11-16T14:40:58Z"
@@ -396,63 +1072,6 @@
    "updated": "2026-11-16T14:40:58Z"
   },
   {
-   "id": "caccdbb2c",
-   "created": "2026-11-16T14:40:58Z",
-   "stories": [
-    {
-     "title": "Zak Brown lifts lid on McLaren chaos: 'It was a terrible environment'",
-     "source": "GPFans",
-     "date": "2026-11-16T11:27:00Z",
-     "link": "https://www.gpfans.com/en/f1-news/1092944/f1-zak-brown-mclaren-toxic-terrible-2016-turnaround/",
-     "snippet": "Zak Brown has opened up on just how much McLaren has changed since he joined the team a decade ago."
-    }
-   ],
-   "merge_reasons": [],
-   "title": "Zak Brown describes McLaren's 'terrible environment' before change",
-   "summary": "Zak Brown has described how much McLaren has changed since he joined the team a decade ago. He said it was a terrible environment at the time.",
-   "disagreement": "",
-   "label": "Reported",
-   "updated": "2026-11-16T14:40:58Z"
-  },
-  {
-   "id": "cb0461321",
-   "created": "2026-11-16T14:40:58Z",
-   "stories": [
-    {
-     "title": "Lando Norris signs former Red Bull junior in new F2 driver announcement",
-     "source": "PlanetF1",
-     "date": "2026-11-16T10:59:52Z",
-     "link": "https://www.planetf1.com/news/lando-norris-f2-team-2027-driver",
-     "snippet": "Lando Norris's team will be on the Formula 2 grid in 2027."
-    }
-   ],
-   "merge_reasons": [],
-   "title": "Lando Norris's team signs former Red Bull junior for F2",
-   "summary": "PlanetF1 reports that a new Formula 2 driver announcement confirms Lando Norris's team will be on the grid in 2027. The driver is a former Red Bull junior.",
-   "disagreement": "",
-   "label": "Confirmed",
-   "updated": "2026-11-16T14:40:58Z"
-  },
-  {
-   "id": "c5dd5bf89",
-   "created": "2026-11-16T14:40:58Z",
-   "stories": [
-    {
-     "title": "Toto Wolff reveals what Christian Horner told him after Kimi Antonelli’s F1 title win",
-     "source": "Crash.net",
-     "date": "2026-11-16T10:12:57Z",
-     "link": "https://www.crash.net/f1/news/1110125/1/toto-wolff-reveals-what-christian-horner-told-him-after-kimi-antonellis-f1-title",
-     "snippet": "Toto Wolff has opened up on the message he received from Christian Horner after winning the 2026 title"
-    }
-   ],
-   "merge_reasons": [],
-   "title": "Wolff reveals what Horner told him after Antonelli's title",
-   "summary": "Toto Wolff has shared the message Christian Horner sent him after Kimi Antonelli won the 2026 title. Crash.net reports Wolff's comments.",
-   "disagreement": "",
-   "label": "Reported",
-   "updated": "2026-11-16T14:40:58Z"
-  },
-  {
    "id": "c7eb7529d",
    "created": "2026-11-16T14:40:58Z",
    "stories": [
@@ -562,65 +1181,6 @@
    "summary": "GPFans reports that Christian Horner was offered just £1 to enter F1 more than 20 years ago. He would eventually leave the sport with a package worth £67million.",
    "disagreement": "",
    "label": "Opinion",
-   "updated": "2026-11-16T14:40:58Z"
-  },
-  {
-   "id": "c5342c81c",
-   "created": "2026-11-15T12:28:09Z",
-   "stories": [
-    {
-     "title": "Las Vegas GP: UK schedule and how to watch on Sky Sports",
-     "source": "Sky Sports",
-     "date": "2026-11-13T06:00:00Z",
-     "link": "https://www.skysports.com/f1/news/12433/13611077/las-vegas-gp-2026-dates-schedule-weather-uk-start-time-and-how-to-watch-or-stream-f1-race-in-united-states-live-on-sky-sports",
-     "snippet": "Formula 1 heads for the bright lights of Las Vegas with both 2026 titles settled, but the competitive picture at the front of the grid tighter than it has been at any other stage of the season."
-    },
-    {
-     "title": "What time is the next F1 race? Las Vegas GP dates and full schedule",
-     "source": "Crash.net",
-     "date": "2026-11-15T12:00:00Z",
-     "link": "https://www.crash.net/f1/news/1110116/1/what-time-next-f1-race-las-vegas-gp-dates-and-full-schedule",
-     "snippet": "The next round of the 2026 Formula 1 season takes place at the Las Vegas Grand Prix."
-    },
-    {
-     "title": "How to watch the 2026 Las Vegas Grand Prix live this weekend | TV Times",
-     "source": "RaceFans",
-     "date": "2026-11-16T07:15:50Z",
-     "link": "https://www.racefans.net/2026/11/16/how-to-watch-the-2026-las-vegas-grand-prix-live-this-weekend/",
-     "snippet": "It's race week! Formula 1 heads to Las Vegas Strip Circuit this weekend. Here's how to watch the Las Vegas Grand Prix and more."
-    },
-    {
-     "title": "How to follow Las Vegas Grand Prix on the BBC",
-     "source": "BBC Sport",
-     "date": "2026-11-16T08:07:20Z",
-     "link": "https://www.bbc.co.uk/sport/formula1/articles/cx4gnlr603mqo?at_medium=RSS&at_campaign=rss",
-     "snippet": "All the key BBC coverage details for the Las Vegas Grand Prix, which takes place from 20-22 November."
-    }
-   ],
-   "merge_reasons": [
-    {
-     "time": "2026-11-15T12:28:09Z",
-     "added": [
-      "https://www.skysports.com/f1/news/12433/13611077/las-vegas-gp-2026-dates-schedule-weather-uk-start-time-and-how-to-watch-or-stream-f1-race-in-united-states-live-on-sky-sports",
-      "https://www.crash.net/f1/news/1110116/1/what-time-next-f1-race-las-vegas-gp-dates-and-full-schedule"
-     ],
-     "joined_existing": false,
-     "reason": "Both are schedule and viewing guides for the same upcoming Las Vegas Grand Prix."
-    },
-    {
-     "time": "2026-11-16T14:40:58Z",
-     "added": [
-      "https://www.racefans.net/2026/11/16/how-to-watch-the-2026-las-vegas-grand-prix-live-this-weekend/",
-      "https://www.bbc.co.uk/sport/formula1/articles/cx4gnlr603mqo?at_medium=RSS&at_campaign=rss"
-     ],
-     "joined_existing": true,
-     "reason": "The RaceFans and BBC Sport pieces both give broadcast information for the same Las Vegas Grand Prix weekend."
-    }
-   ],
-   "title": "Las Vegas Grand Prix: how to watch and full schedule",
-   "summary": "RaceFans and BBC Sport have published guides on how to watch the Las Vegas Grand Prix. The race takes place from 20 to 22 November.",
-   "disagreement": "",
-   "label": "Confirmed",
    "updated": "2026-11-16T14:40:58Z"
   },
   {
@@ -774,25 +1334,6 @@
    "disagreement": "",
    "label": "Reported",
    "updated": "2026-11-16T14:40:58Z"
-  },
-  {
-   "id": "cbf24a633",
-   "created": "2026-11-16T04:36:22Z",
-   "stories": [
-    {
-     "title": "Much still to do on F1 diversity - Hamilton",
-     "source": "BBC Sport",
-     "date": "2026-11-16T00:04:45Z",
-     "link": "https://www.bbc.co.uk/sport/formula1/articles/c52e8kpnje42o?at_medium=RSS&at_campaign=rss",
-     "snippet": "British Formula 1 driver Lewis Hamilton outlines three steps the sport must take to improve its diversity."
-    }
-   ],
-   "merge_reasons": [],
-   "title": "Hamilton says F1 must take three steps to improve diversity",
-   "summary": "Lewis Hamilton outlines three steps the sport must take to improve its diversity. He says much still needs to be done on F1 diversity.",
-   "disagreement": "",
-   "label": "Reported",
-   "updated": "2026-11-16T04:36:22Z"
   },
   {
    "id": "cd4afaa4d",
@@ -1277,25 +1818,6 @@
    "updated": "2026-11-15T19:32:36Z"
   },
   {
-   "id": "cf9a1601b",
-   "created": "2026-11-15T19:32:36Z",
-   "stories": [
-    {
-     "title": "Michael Schumacher ‘worse at’ theory in Mercedes F1 comeback presented by Rosberg",
-     "source": "PlanetF1",
-     "date": "2026-11-15T14:00:04Z",
-     "link": "https://www.planetf1.com/news/michael-schumacher-mercedes-f1-worse-at-theory-nico-rosberg",
-     "snippet": "Nico Rosberg revealed the only area where Michael Schumacher showed decline from his peak."
-    }
-   ],
-   "merge_reasons": [],
-   "title": "Rosberg says Schumacher declined only in one area",
-   "summary": "Nico Rosberg has named the only area where Michael Schumacher showed decline from his peak, in his Mercedes comeback. The comments were presented in a PlanetF1 report.",
-   "disagreement": "",
-   "label": "Reported",
-   "updated": "2026-11-15T19:32:36Z"
-  },
-  {
    "id": "cd070e826",
    "created": "2026-11-15T19:32:36Z",
    "stories": [
@@ -1659,42 +2181,6 @@
    "summary": "Martin Brundle gave a worrying verdict on Aston Martin, which runs Honda power units. Aston Martin are continuing to learn.",
    "disagreement": "",
    "label": "Opinion",
-   "updated": "2026-11-15T12:28:09Z"
-  },
-  {
-   "id": "cb529d5b5",
-   "created": "2026-11-15T12:28:09Z",
-   "stories": [
-    {
-     "title": "FSG’s $3bn Cadillac F1 move faces unexpected NASCAR blocker",
-     "source": "GPFans",
-     "date": "2026-11-14T19:55:00Z",
-     "link": "https://www.gpfans.com/en/f1-news/1092919/f1-cadillac-sale-blockage-fsg-nascar-brad-keselowski-ownership/",
-     "snippet": "John Henry's Fenway Sports Group (FSG) have been the main name mentioned as a potential buyer for Cadillac's F1 operation, but they could hit one snag in the process."
-    },
-    {
-     "title": "Christian Horner frozen out as $3bn Cadillac deal faces unexpected blocker - F1 News Today",
-     "source": "GPFans",
-     "date": "2026-11-15T06:30:00Z",
-     "link": "https://www.gpfans.com/en/f1-news/1092921/f1-news-today-christian-horner-frozen-out-cadillac-sale-blocker/",
-     "snippet": "“I feel like there’s a desire within the sport to see me come back, which is very flattering” - so said Christian Horner just five days ago."
-    }
-   ],
-   "merge_reasons": [
-    {
-     "time": "2026-11-15T12:28:09Z",
-     "added": [
-      "https://www.gpfans.com/en/f1-news/1092919/f1-cadillac-sale-blockage-fsg-nascar-brad-keselowski-ownership/",
-      "https://www.gpfans.com/en/f1-news/1092921/f1-news-today-christian-horner-frozen-out-cadillac-sale-blocker/"
-     ],
-     "joined_existing": false,
-     "reason": "Both stories report the same unexpected NASCAR blocker to the $3bn Cadillac F1 deal."
-    }
-   ],
-   "title": "Cadillac F1 sale faces NASCAR blocker as FSG linked",
-   "summary": "Fenway Sports Group, led by John Henry, has been mentioned as a potential buyer for Cadillac's F1 operation. Reports say a possible NASCAR-related obstacle could complicate the $3bn deal.",
-   "disagreement": "",
-   "label": "Rumour",
    "updated": "2026-11-15T12:28:09Z"
   },
   {
@@ -3908,6 +4394,96 @@
     }
    ],
    "reason": "Both are general F1 features rather than the same event, so there was no basis for merging them."
+  },
+  {
+   "time": "2026-11-16T23:57:55Z",
+   "items": [
+    {
+     "title": "Liam Lawson compared to F1 champion as Mark Hughes sends compelling Red Bull message",
+     "source": "GPFans",
+     "link": "https://www.gpfans.com/en/f1-news/1092955/f1-liam-lawson-compared-alan-jones-champion-mark-hughes-red-bull/"
+    },
+    {
+     "card": "cd6add4b0",
+     "title": "Racing Bulls confirm Lawson and Lindblad for 2027"
+    }
+   ],
+   "reason": "Mark Hughes's comparison of Lawson to a champion is his own opinion, not the Racing Bulls contract news."
+  },
+  {
+   "time": "2026-11-16T23:57:55Z",
+   "items": [
+    {
+     "title": "Daniel Ricciardo reveals F1 moment he ‘just wanted to be over’",
+     "source": "PlanetF1",
+     "link": "https://www.planetf1.com/news/daniel-ricciardo-monaco-moment"
+    },
+    {
+     "card": "c56595422",
+     "title": "Russell's 2027 bounce-back weighed against Rosberg and Ricciardo examples"
+    }
+   ],
+   "reason": "Ricciardo's account of a personal F1 moment is a different comment from the Rosberg and Ricciardo career analysis."
+  },
+  {
+   "time": "2026-11-16T23:57:55Z",
+   "items": [
+    {
+     "title": "Kimi Antonelli's dad delivers blunt George Russell verdict after F1 title win",
+     "source": "GPFans",
+     "link": "https://www.gpfans.com/en/f1-news/1092954/kimi-antonelli-father-george-russell-f1-title-verdict/"
+    },
+    {
+     "card": "ccd2269f9",
+     "title": "Antonelli's salary draws attention after Russell's title defeat"
+    }
+   ],
+   "reason": "Marco Antonelli's verdict on Russell is a different story from the report on Kimi Antonelli's salary."
+  },
+  {
+   "time": "2026-11-16T23:57:55Z",
+   "items": [
+    {
+     "title": "Lewis Hamilton's Ferrari revolution faces one HUGE problem",
+     "source": "GPFans",
+     "link": "https://www.gpfans.com/en/f1-news/1092963/f1-lewis-hamilton-ferrari-revolution-problem-age-fred-vasseur/"
+    },
+    {
+     "card": "c417d9865",
+     "title": "Ferrari reportedly considering a lead driver for 2027"
+    }
+   ],
+   "reason": "The GPFans commentary on Hamilton's Ferrari position is opinion, not the report that Ferrari is considering a lead driver."
+  },
+  {
+   "time": "2026-11-16T23:57:55Z",
+   "items": [
+    {
+     "title": "Kimi Antonelli salary, Haas driver decision, Hamilton falls behind Leclerc in ranking – roundup",
+     "source": "PlanetF1",
+     "link": "https://www.planetf1.com/news/kimi-antonelli-salary-las-vegas-grand-prix"
+    },
+    {
+     "card": "cf9b8daaa",
+     "title": "Haas names Rafael Camara for Las Vegas, Hirakawa in FP1"
+    }
+   ],
+   "reason": "The roundup covers several unrelated stories, so it is not the same event as the Haas driver announcement."
+  },
+  {
+   "time": "2026-11-16T23:57:55Z",
+   "items": [
+    {
+     "title": "Lewis Hamilon reportedly house-hunting in LA amid Kim Kardashian relationship",
+     "source": "Motorsport.com",
+     "link": "https://www.motorsport.com/f1/news/lewis-hamilon-reportedly-house-hunting-in-la-amid-kim-kardashian-relationship/10874877/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www"
+    },
+    {
+     "card": "cd7b949a5",
+     "title": "Wolff says Mercedes could back Russell for second in standings"
+    }
+   ],
+   "reason": "A report about Hamilton's home search is unrelated to Wolff's comments on Russell's standings."
   }
  ],
  "processed": [
@@ -3935,6 +4511,7 @@
   "https://www.autosport.com/f1/news/how-the-racing-bulls-pendulum-is-swinging-back-towards-lawson/10873320/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
   "https://www.autosport.com/f1/news/ill-try-to-win-somehow-can-lewis-hamilton-and-max-verstappen-fight-back-for-f1-brazilian-gp-victory/10872922/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
   "https://www.autosport.com/f1/news/inside-turkeys-revamp-for-the-return-of-a-modern-f1-classic/10874610/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+  "https://www.autosport.com/f1/news/lando-norris-f1-needs-better-rain-tyres-as-wet-las-vegas-would-be-scary/10874886/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
   "https://www.autosport.com/f1/news/lawson-to-stay-in-f1-as-racing-bulls-announces-2027-driver-pairing/10874063/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
   "https://www.autosport.com/f1/news/leclerc-penalised-for-lawson-clash-antonelli-and-oliver-bearman-also-punished-after-f1-brazilian-gp/10873166/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
   "https://www.autosport.com/f1/news/lewis-hamilton-backs-claims-charles-leclerc-races-him-harder-than-f1-rivals/10871859/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
@@ -4064,15 +4641,18 @@
   "https://www.crash.net/f1/news/1110123/1/lewis-hamilton-makes-ps50m-investment-demand-future-f1-depends",
   "https://www.crash.net/f1/news/1110125/1/toto-wolff-reveals-what-christian-horner-told-him-after-kimi-antonellis-f1-title",
   "https://www.crash.net/f1/news/1110130/1/max-verstappen-loses-f1-champion-mechanic-another-racing-series",
+  "https://www.crash.net/f1/news/1110133/1/nico-rosberg-highlights-where-michael-schumacher-was-not-his-best-f1-comeback",
   "https://www.crash.net/f1/results/1110009/1/f1-brazil-grand-prix-full-race-results",
   "https://www.crash.net/motogp/news/1110106/1/watch-dani-pedrosa-race-ktm-motogp-bike-against-red-bull-f1-car-ice",
   "https://www.crash.net/motogp/news/1110108/1/buenos-aires-motogp-circuit-transformation-gathers-pace-f1-dream",
+  "https://www.crash.net/motogp/news/1110135/1/australian-gp-boss-leave-role-weeks-after-final-motogp-race-phillip-island",
   "https://www.fia.com/news/f1-2026-sao-paulo-grand-prix-post-race-press-conference-transcript",
   "https://www.fia.com/news/f1-norris-triumphs-sao-paulo-mercedes-secure-2026-constructors-championship",
   "https://www.fia.com/news/fabiana-ecclestone-leads-high-impact-agenda-brazil-focusing-road-safety-and-female-empowerment",
   "https://www.fia.com/news/fia-announces-aduo-results-following-third-review-periods-2026",
   "https://www.fia.com/news/fia-opens-new-remote-operations-centre-biggin-hill-ushering-new-era-f1-race-management",
   "https://www.fia.com/news/international-court-appeal-hearing-november-25-2026",
+  "https://www.formula1.com/en/latest/article/americans-are-becoming-more-formula-1-terry-crews-on-why-f1-is-winning-over-the-us.6Uqdsu4AlrP8Y3fxNUMesa",
   "https://www.formula1.com/en/latest/article/analysis-why-the-f1-driver-market-might-produce-one-last-twist-for-2027.6t7AwtqfHWkDqSgQZ3ElQ3",
   "https://www.formula1.com/en/latest/article/antonelli-identifies-which-driver-poses-the-biggest-threat-to-his-title-defence-in-2027.6qjcpNnf8IerbXck8NpB05",
   "https://www.formula1.com/en/latest/article/exclusive-button-explains-what-will-keep-alonso-going-as-spaniard-prepares-for-another-year-with-aston-martin.7bxjUs5DZSH18UP0SEqFWD",
@@ -4081,6 +4661,7 @@
   "https://www.formula1.com/en/latest/article/haas-confirm-camara-to-race-for-the-team-in-las-vegas-as-hirakawa-returns-for-fp1-appearance.2as7TuSF4UHgXczZlu4245",
   "https://www.formula1.com/en/latest/article/its-10-years-since-ron-dennis-left-f1-i-miss-him.1HKS8KLe46myFMW6qOzsdY",
   "https://www.formula1.com/en/latest/article/its-race-week-5-storylines-were-excited-about-ahead-of-the-2026-las-vegas-grand-prix.3fjavheTbHD8fjZI0i7BWd",
+  "https://www.formula1.com/en/latest/article/las-vegas-grand-prix-race-betting-guide-and-what-the-markets-expect-to-happen.5sEja0aYqYkyfdSZ9sTibF",
   "https://www.formula1.com/en/latest/article/mercedes-incredible-success-through-formula-1-history.7yLliKc36ZI9pd7xzNYFwq",
   "https://www.formula1.com/en/latest/article/one-of-the-best-experiences-of-my-life-mark-sutton-on-photographing-antonellis-f1-title.2oqpziZe3WQ5B2xFvPWsnU",
   "https://www.formula1.com/en/latest/article/our-writers-on-antonellis-title-success-and-what-it-means.2FAfHA49byUlrrTfVgWKWc",
@@ -4088,7 +4669,9 @@
   "https://www.formula1.com/en/latest/article/toto-wolffs-journey-from-williams-to-nine-time-champion-with-mercedes.2l85DG3mfUyL5icscw0Gbn",
   "https://www.formula1.com/en/latest/article/trivia-guess-the-track-1.1N6Z8MTxyBFjqio8h5hOSW",
   "https://www.formula1.com/en/latest/article/well-make-sure-it-goes-down-to-the-wire-mclaren-on-determination-to-finish-p3-in-teams-championship.2CPaMf6YTIkLE4pZlahf9y",
+  "https://www.formula1.com/en/latest/article/what-time-is-the-formula-1-2026-las-vegas-grand-prix-and-how-can-i-watch-it.5klYngWOQMjROxZ3nEp5Pr",
   "https://www.formula1.com/en/latest/article/why-f1-drivers-love-padel-as-aston-martin-become-the-latest-to-embrace-the-sport.2n2jOtb63TbalovQuHIIUi",
+  "https://www.formula1.com/en/latest/article/williams-unveil-special-one-off-livery-for-las-vegas-grand-prix.01klQqq0PYu7wjugCtr98K",
   "https://www.gpfans.com/en/f1-news/1092908/f1-aston-martin-honda-lawrence-stroll-concerns-martin-brundle/",
   "https://www.gpfans.com/en/f1-news/1092910/f1-oscar-piastri-lando-norris-joke-birthday-secret/",
   "https://www.gpfans.com/en/f1-news/1092913/f1-title-race-2026-mercedes-compression-ratio-ruling/",
@@ -4114,15 +4697,25 @@
   "https://www.gpfans.com/en/f1-news/1092936/f1-news-today-verstappen-backed-to-fix-ferrari-lewis-hamilton-refuses-to-back-down/",
   "https://www.gpfans.com/en/f1-news/1092944/f1-zak-brown-mclaren-toxic-terrible-2016-turnaround/",
   "https://www.gpfans.com/en/f1-news/1092946/f1-haas-driver-lineup-change-las-vegas-grand-prix-rafael-camara-ryo-hirakawa/",
+  "https://www.gpfans.com/en/f1-news/1092949/f1-christian-horner-cadillac-question-takeover-bid-winners/",
+  "https://www.gpfans.com/en/f1-news/1092954/kimi-antonelli-father-george-russell-f1-title-verdict/",
+  "https://www.gpfans.com/en/f1-news/1092955/f1-liam-lawson-compared-alan-jones-champion-mark-hughes-red-bull/",
   "https://www.gpfans.com/en/f1-news/1092958/lewis-hamilton-mission-44-investment-next-generation-f1-talent/",
+  "https://www.gpfans.com/en/f1-news/1092961/australian-gp-ceo-travis-auld-resigns-exciting-new-global-role/",
+  "https://www.gpfans.com/en/f1-news/1092963/f1-lewis-hamilton-ferrari-revolution-problem-age-fred-vasseur/",
+  "https://www.gpfans.com/en/f1-news/1092966/f1-lando-norris-major-deal-f2-contract-oliver-goethe-red-bull-ln4-fusion/",
   "https://www.motorsport.com/f1/news/andrea-stella-wants-mclaren-to-finally-make-peace-with-las-vegas/10873819/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/ayrton-sennas-1994-williams-f1-car-heads-to-auction-with-6million-estimate/10874089/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/bruno-senna-reveals-plans-to-put-kimi-antonelli-behind-the-wheel-of-ayrton-sennas-f1-car/10873973/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+  "https://www.motorsport.com/f1/news/christian-horners-private-message-to-toto-wolff-revealed-respect-for-you/10874823/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/colapinto-never-hit-the-apex-audis-take-on-contentious-hulkenberg-penalty-in-sao-paulo-gp/10873551/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/damon-hill-ferrari-has-a-political-problem-as-lewis-hamilton-rebuilt-himself-after-abu-dhabi-202/10874278/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/daniel-ricciardo-max-verstappen-will-go-down-as-one-of-the-best-ever/10873738/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/f1-academy-champion-alisha-palmowski-reveals-key-lesson-from-max-verstappen/10874174/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/f1-driver-contracts-how-long-is-each-driver-tied-down-for/10850679/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+  "https://www.motorsport.com/f1/news/f1-driver-manager-enrico-zanarini-recounts-his-50-years-in-motorsport/10874697/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+  "https://www.motorsport.com/f1/news/f1-las-vegas-gp-2026-start-time-schedule-and-how-to-watch/10874866/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+  "https://www.motorsport.com/f1/news/f1-las-vegas-gp-2026-uk-times-schedule-how-to-watch/10874860/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/final-mercedes-benz-slr-mclaren-stirling-moss-heads-to-auction-for-over-6million/10873978/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/fred-vasseur-lewis-hamilton-and-charles-leclerc-left-my-room-joking-together/10874079/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/george-russell-credits-toto-wolffs-loyalty-for-mercedes-f1-title-return-nobody-was-hired-or-fired/10873975/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
@@ -4146,9 +4739,12 @@
   "https://www.motorsport.com/f1/news/kimi-antonelli-keeps-f1-title-promise-with-italian-flag-hair-at-mercedes-factory/10873952/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/kimi-antonelli-meets-italian-president-sergio-mattarella/10874471/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/kimi-antonelli-names-biggest-threat-to-2027-title-defence-as-he-warns-mercedes-advantage-may-fade/10874729/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+  "https://www.motorsport.com/f1/news/lando-norris-f1-needs-better-rain-tyres-as-wet-las-vegas-would-be-scary/10874689/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/lando-norris-questions-charles-leclercs-brazilian-gp-penalty-just-racing/10873736/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+  "https://www.motorsport.com/f1/news/lando-norriss-ln4-fusion-signs-former-red-bull-junior-oliver-goethe-as-its-first-f2-driver/10874918/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/las-vegas-gp-reveals-neon-sign-inspired-trophy-design/10874361/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/laurent-mekies-brazil-was-isack-hadjars-best-race-for-red-bull/10874059/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+  "https://www.motorsport.com/f1/news/lewis-hamilon-reportedly-house-hunting-in-la-amid-kim-kardashian-relationship/10874877/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/lewis-hamilton-criticises-ex-f1-drivers-for-talking-smack-and-young-stars/10874726/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/lewis-hamilton-loses-most-marketable-athlete-crown-as-charles-leclerc-moves-ahead/10873959/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/lewis-suspected-a-conspiracy-nico-rosberg-explains-how-hamilton-f1-rivalry-went-awry-at-mercedes/10874271/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
@@ -4177,12 +4773,18 @@
   "https://www.motorsport.com/f1/news/topps-reveals-gem-mint-10-lando-norris-card-with-coca-cola-suit-patch/10874731/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/toto-wolff-offered-his-resignation-during-mercedes-struggles-but-the-ceo-refused/10874282/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/toto-wolff-reflects-on-mercedes-non-title-years-we-werent-complete-losers/10873281/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+  "https://www.motorsport.com/f1/news/toto-wolff-says-kimi-antonelli-is-more-loved-in-italy-than-michael-schumacher-was-at-ferrari/10874809/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/tsolov-named-red-bull-racing-bulls-reserve-driver-after-missing-out-on-2027-f1-race-seat/10874147/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/what-is-left-to-fight-for-in-f1-2026/10874717/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/what-the-brazilian-gp-revealed-about-f1s-ability-to-cope-with-rain/10873679/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+  "https://www.motorsport.com/f1/news/williams-aston-martin-among-new-f1-liveries-for-las-vegas-gp-as-acura-replaces-honda/10874925/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+  "https://www.motorsport.com/f1/news/zak-brown-recalls-mclarens-very-toxic-environment-after-joining-team-in-2016/10874891/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.planetf1.com/home-page/opinion-liam-lawson-to-mercedes",
   "https://www.planetf1.com/news/adrian-newey-christian-horner-red-bull-salary-book",
   "https://www.planetf1.com/news/adrian-newey-salary-mercedes-insider-michael-schumacher",
+  "https://www.planetf1.com/news/aston-martin-las-vegas-grand-prix-2026-livery",
+  "https://www.planetf1.com/news/christian-horner-toto-wolff-kimi-antonelli-text-message",
+  "https://www.planetf1.com/news/daniel-ricciardo-monaco-moment",
   "https://www.planetf1.com/news/f1-tipped-for-imminent-sale-by-former-liberty-media-boss",
   "https://www.planetf1.com/news/felipe-massa-ferrari-not-right",
   "https://www.planetf1.com/news/fernando-alonso-delivers-honda-vow-aston-martin-claim",
@@ -4200,9 +4802,11 @@
   "https://www.planetf1.com/news/kimi-antonelli-meets-italian-president-after-award",
   "https://www.planetf1.com/news/kimi-antonelli-mercedes-salary-george-russell",
   "https://www.planetf1.com/news/kimi-antonelli-reveals-driver-who-might-cause-the-most-problems-in-f1-2027-title-defence",
+  "https://www.planetf1.com/news/kimi-antonelli-salary-las-vegas-grand-prix",
   "https://www.planetf1.com/news/lando-norris-f2-team-2027-driver",
   "https://www.planetf1.com/news/lewis-hamilton-causing-ferrari-saga-formula-1-sale",
   "https://www.planetf1.com/news/lewis-hamilton-causing-ferrari-tension-ralf-schumacher",
+  "https://www.planetf1.com/news/lewis-hamilton-charles-leclerc-sportspro-2026-ranking",
   "https://www.planetf1.com/news/lewis-hamilton-leadership-questioned-max-verstappen-ferrari-solution",
   "https://www.planetf1.com/news/liam-lawson-mclaren-oscar-piastri-guenther-steiner",
   "https://www.planetf1.com/news/liam-lawson-next-max-verstappen-juan-pablo-montoya",
@@ -4240,8 +4844,10 @@
   "https://www.racefans.net/2026/11/14/on-this-day-2021-brazilian-grand-prix/",
   "https://www.racefans.net/2026/11/15/how-many-f1-drivers-could-have-won-the-championship-in-antonellis-car/",
   "https://www.racefans.net/2026/11/16/camara-to-race-for-haas-again-in-las-vegas-hirakawa-to-drive-in-practice/",
+  "https://www.racefans.net/2026/11/16/hamilton-tells-f1-to-spend-50-million-in-promoting-under-represented-talent/",
   "https://www.racefans.net/2026/11/16/how-to-watch-the-2026-las-vegas-grand-prix-live-this-weekend/",
   "https://www.racefans.net/2026/11/16/racing-bulls-boss-permane-should-talk-up-need-for-cost-cap-changes-vowles/",
+  "https://www.racefans.net/2026/11/16/williams-and-aston-martin-reveal-one-off-liveries-for-las-vegas-grand-prix/",
   "https://www.skysports.com/f1/live-blog/12433/12466779/f1-news-rumours-and-gossip-formula-1-latest-updates-on-teams-driver-transfer-market-and-contracts",
   "https://www.skysports.com/f1/live-blog/12433/13518208/f1-academy-2026-reports-calendar-news-results-standings-and-highlights-for-races-this-season",
   "https://www.skysports.com/f1/news/12433/13609697/toto-wolff-proud-of-mercedes-turnaround-after-winning-f1-2026-constructors-championship-at-sao-paulo-grand-prix",
@@ -4259,6 +4865,7 @@
   "https://www.skysports.com/f1/news/12433/13611222/lewis-hamilton-ferraris-seven-time-f1-world-champion-urges-israel-to-let-the-aid-trucks-in-to-gaza-after-visit-to-rafah-border",
   "https://www.skysports.com/f1/news/12433/13611832/toto-wolff-says-mercedes-could-prioritise-george-russell-over-kimi-antonelli-in-final-races-of-2026-f1-season",
   "https://www.skysports.com/f1/news/12433/13612731/rafael-camara-haas-keep-brazilian-driver-as-oliver-bearmans-team-mate-for-las-vegas-gp-following-home-debut",
+  "https://www.skysports.com/f1/news/12433/13612897/lewis-hamilton-says-work-improving-diversity-in-f1-nowhere-near-finished-as-mission-44-outlines-recommendations-for-further-change",
   "https://www.skysports.com/football/news/12433/13611406/the-fast-and-the-curious-an-f1-podcast-with-greg-james-betty-glover-and-christian-hewgill",
   "https://www.the-race.com/business/how-madrid-f1-races-economic-impact-compares-to-barcelonas/",
   "https://www.the-race.com/extra/hamilton-loses-most-marketable-athlete-status-in-2026/",
@@ -4274,6 +4881,7 @@
   "https://www.the-race.com/formula-1/racing-bulls-commits-to-lawson-and-lindblad-as-2027-f1-line-up/",
   "https://www.the-race.com/formula-1/tsolov-gets-twin-f1-2027-reserve-role-to-prepare-him-for-race-seat/",
   "https://www.the-race.com/formula-1/vegas-gives-camara-chance-to-put-messy-debut-behind-him/",
+  "https://www.the-race.com/formula-1/what-time-is-f1s-2026-las-vegas-grand-prix-full-weekend-schedule/",
   "https://www.the-race.com/formula-1/what-will-stop-this-being-an-era-of-mercedes-f1-domination/",
   "https://www.the-race.com/formula-1/why-red-bull-avoided-an-unprecedented-driver-sacking/",
   "https://www.the-race.com/formula-1/why-williams-has-turned-sainz-and-albon-into-test-drivers/"

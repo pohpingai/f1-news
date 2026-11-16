@@ -1,7 +1,93 @@
 {
- "updated": "2026-11-16T14:41:36Z",
+ "updated": "2026-11-16T23:58:32Z",
  "model": "anthropic/claude-haiku-5.5",
  "rumours": [
+  {
+   "id": "ra67150ae",
+   "claim": "Fenway Sports Group could reportedly buy Cadillac's F1 operation for about $3bn, though a NASCAR-related obstacle could complicate the deal.",
+   "people": [
+    "Fenway Sports Group (FSG)",
+    "John Henry",
+    "Cadillac"
+   ],
+   "status": "Active",
+   "trend": "rising",
+   "first_seen": "2026-11-14T19:55:00Z",
+   "last_seen": "2026-11-16T19:45:00Z",
+   "sources": [
+    {
+     "title": "FSG’s $3bn Cadillac F1 move faces unexpected NASCAR blocker",
+     "source": "GPFans",
+     "date": "2026-11-14T19:55:00Z",
+     "link": "https://www.gpfans.com/en/f1-news/1092919/f1-cadillac-sale-blockage-fsg-nascar-brad-keselowski-ownership/"
+    },
+    {
+     "title": "Christian Horner frozen out as $3bn Cadillac deal faces unexpected blocker - F1 News Today",
+     "source": "GPFans",
+     "date": "2026-11-15T06:30:00Z",
+     "link": "https://www.gpfans.com/en/f1-news/1092921/f1-news-today-christian-horner-frozen-out-cadillac-sale-blocker/"
+    },
+    {
+     "title": "Christian Horner responds to Cadillac question amid $3bn return rumours",
+     "source": "GPFans",
+     "date": "2026-11-16T19:45:00Z",
+     "link": "https://www.gpfans.com/en/f1-news/1092949/f1-christian-horner-cadillac-question-takeover-bid-winners/"
+    }
+   ],
+   "cards": [
+    "cb529d5b5"
+   ],
+   "proof": null,
+   "history": [
+    {
+     "time": "2026-11-15T12:28:51Z",
+     "event": "created",
+     "detail": "First seen: GPFans (2026-11-14); GPFans (2026-11-15)",
+     "reason": "This is a new sale story about Cadillac's F1 operation and FSG, which is not covered by the known rumours about the FIA presidency rule or the cost cap proposal.",
+     "card": "Cadillac F1 sale faces NASCAR blocker as FSG linked"
+    },
+    {
+     "time": "2026-11-16T23:58:32Z",
+     "event": "new sources",
+     "detail": "1 new source(s): GPFans (2026-11-16)",
+     "reason": "The card covers the same claim as the known rumour about Fenway Sports Group buying Cadillac's F1 operation for about $3bn and the NASCAR-related obstacle, with Christian Horner's response added as context.",
+     "card": "FSG linked with $3bn Cadillac F1 deal, Horner responds"
+    }
+   ]
+  },
+  {
+   "id": "r97fd3679",
+   "claim": "Lewis Hamilton reportedly wants a Los Angeles base so he can spend more of the winter break with Kim Kardashian and her children.",
+   "people": [
+    "Lewis Hamilton",
+    "Kim Kardashian"
+   ],
+   "status": "Active",
+   "trend": "steady",
+   "first_seen": "2026-11-16T15:08:51Z",
+   "last_seen": "2026-11-16T15:08:51Z",
+   "sources": [
+    {
+     "title": "Lewis Hamilon reportedly house-hunting in LA amid Kim Kardashian relationship",
+     "source": "Motorsport.com",
+     "date": "2026-11-16T15:08:51Z",
+     "link": "https://www.motorsport.com/f1/news/lewis-hamilon-reportedly-house-hunting-in-la-amid-kim-kardashian-relationship/10874877/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www"
+    }
+   ],
+   "cards": [
+    "c50c870cb"
+   ],
+   "proof": null,
+   "history": [
+    {
+     "time": "2026-11-16T23:58:32Z",
+     "event": "created",
+     "detail": "First seen: Motorsport.com (2026-11-16)",
+     "reason": "No known rumour covers Hamilton looking for a home in Los Angeles, so this is a new rumour.",
+     "card": "Hamilton reportedly house-hunting in LA during winter break"
+    }
+   ]
+  },
   {
    "id": "r2d7f992f",
    "claim": "Ferrari could reportedly choose a lead driver for 2027 as tension between Lewis Hamilton and Charles Leclerc continues.",
@@ -150,46 +236,6 @@
    ]
   },
   {
-   "id": "ra67150ae",
-   "claim": "Fenway Sports Group could reportedly buy Cadillac's F1 operation for about $3bn, though a NASCAR-related obstacle could complicate the deal.",
-   "people": [
-    "Fenway Sports Group (FSG)",
-    "John Henry",
-    "Cadillac"
-   ],
-   "status": "Active",
-   "trend": "rising",
-   "first_seen": "2026-11-14T19:55:00Z",
-   "last_seen": "2026-11-15T06:30:00Z",
-   "sources": [
-    {
-     "title": "FSG’s $3bn Cadillac F1 move faces unexpected NASCAR blocker",
-     "source": "GPFans",
-     "date": "2026-11-14T19:55:00Z",
-     "link": "https://www.gpfans.com/en/f1-news/1092919/f1-cadillac-sale-blockage-fsg-nascar-brad-keselowski-ownership/"
-    },
-    {
-     "title": "Christian Horner frozen out as $3bn Cadillac deal faces unexpected blocker - F1 News Today",
-     "source": "GPFans",
-     "date": "2026-11-15T06:30:00Z",
-     "link": "https://www.gpfans.com/en/f1-news/1092921/f1-news-today-christian-horner-frozen-out-cadillac-sale-blocker/"
-    }
-   ],
-   "cards": [
-    "cb529d5b5"
-   ],
-   "proof": null,
-   "history": [
-    {
-     "time": "2026-11-15T12:28:51Z",
-     "event": "created",
-     "detail": "First seen: GPFans (2026-11-14); GPFans (2026-11-15)",
-     "reason": "This is a new sale story about Cadillac's F1 operation and FSG, which is not covered by the known rumours about the FIA presidency rule or the cost cap proposal.",
-     "card": "Cadillac F1 sale faces NASCAR blocker as FSG linked"
-    }
-   ]
-  },
-  {
    "id": "rf51d5acf",
    "claim": "FIA president Mohammed Ben Sulayem is reportedly looking to make a controversial change to a key presidency rule.",
    "people": [
@@ -301,7 +347,7 @@
   "cf35d4411": "1|Reported",
   "c187b61fd": "2|Reported",
   "c7bc6c301": "1|Reported",
-  "cb529d5b5": "2|Rumour",
+  "cb529d5b5": "3|Rumour",
   "cbc435fa3": "1|Rumour",
   "cdbe4dc5e": "1|Confirmed",
   "c3e2ee348": "1|Reported",
@@ -327,7 +373,7 @@
   "c84bd951d": "1|Rumour",
   "c63d2b2af": "1|Reported",
   "cd070e826": "1|Reported",
-  "cf9a1601b": "1|Reported",
+  "cf9a1601b": "2|Reported",
   "ce03111b5": "1|Reported",
   "c302c3d85": "1|Reported",
   "c2281dc96": "1|Reported",
@@ -339,7 +385,7 @@
   "c7518bd43": "1|Reported",
   "c5cb32f36": "1|Reported",
   "c87e83b4a": "1|Reported",
-  "cbf24a633": "1|Reported",
+  "cbf24a633": "2|Reported",
   "ca01456fa": "1|Rumour",
   "c3a6011a1": "1|Rumour",
   "c417d9865": "1|Rumour",
@@ -349,18 +395,25 @@
   "cff6e454c": "1|Reported",
   "cf9b8daaa": "10|Confirmed",
   "cb9153814": "1|Reported",
-  "c5f3e6035": "2|Reported",
+  "c5f3e6035": "3|Reported",
   "cd3e5b497": "1|Reported",
   "c7eb7529d": "1|Reported",
-  "c5dd5bf89": "1|Reported",
-  "cb0461321": "1|Confirmed",
-  "caccdbb2c": "1|Reported",
+  "c5dd5bf89": "3|Reported",
+  "cb0461321": "3|Confirmed",
+  "caccdbb2c": "2|Reported",
   "c02b7492b": "1|Reported",
   "cdaffc3e7": "1|Reported",
   "c6c1d4ab6": "1|Confirmed",
   "c502fd1e2": "1|Reported",
   "cfaa896f7": "1|Confirmed",
   "c2e9b147f": "1|Reported",
-  "ca0e66a87": "1|Reported"
+  "ca0e66a87": "1|Reported",
+  "c50c870cb": "1|Rumour",
+  "c371a3883": "2|Confirmed",
+  "cab54b728": "4|Confirmed",
+  "c7beb77d4": "1|Reported",
+  "c0a13a578": "1|Reported",
+  "cd25c59c2": "2|Reported",
+  "c03ec9289": "1|Reported"
  }
 }
