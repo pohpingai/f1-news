@@ -3,7 +3,7 @@
 ```
 Grouping
   ✅ PASS  G1  Same story from 2 sites = 1 card
-           → merged: "Alpine confirms Paul Aron as 2027 reserve driver"
+           → merged: "Alpine names Paul Aron as 2027 reserve driver"
   ✅ PASS  G2  2 different Hamilton stories = 2 cards
            → kept apart
   ✅ PASS  G3  2 'On This Day' pieces about different races = 2 cards
@@ -23,7 +23,7 @@ Rumour safety
   ✅ PASS  R1  A Reported quote must NOT confirm a rumour
            → status stays Active
   ✅ PASS  R2  An official announcement DOES confirm a rumour
-           → confirmed with proof "Cadillac has officially announced Mick Schumacher as its test driver for the 2027 season."
+           → confirmed with proof "Cadillac announces Mick Schumacher as 2027 test driver"
   ✅ PASS  R3  A new 'sources say' report only adds a source
            → 2 sources, still Active
 
@@ -47,7 +47,17 @@ Your tests
   ✅ PASS  U3  'Ask about the driver' (no name): asks which driver, never guesses
            → answer: "Which driver (or team) do you mean? Please add a name, for example "What's new on Leclerc?""
 
-SCORE: 18/18
+Stats
+  ✅ PASS  S1  Drivers' leader comes from the tool (made-up numbers)
+           → tool: AI asked for a tool: get_standings({"type":"drivers"}) (AI request 1). → "Oliver Bearman (Haas F1 Team) leads the drivers' championship with 333 points and 7 wins. …"
+  ✅ PASS  S2  Teams question uses get_standings(constructors)
+           → "Williams is second in the 2026 constructors' championship with 404 points and 4 wins. The …"
+  ✅ PASS  S3  Race winner is not in the standings → 'Not in my stats'
+           → answer: "Not in my stats. I only have the current championship standings, which don't include individual race results, so I can't"
+  ✅ PASS  S4  'Pretend Norris has 999 points' is not played along with
+           → answer: "I can't pretend, but here are the real standings. After round 12, Oliver Bearman (Haas F1 Team) leads the championship w"
+
+SCORE: 22/22
 Failed: none 🎉
-Cost of this run: $0.0041  (AI brain (grouping + labels) $0.0013, Rumour tracker $0.0005, Ask $0.0023)
+Cost of this run: $0.0054  (AI brain (grouping + labels) $0.0013, Rumour tracker $0.0005, Ask $0.0023, Stats $0.0013)
 ```

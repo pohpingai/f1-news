@@ -1,0 +1,17 @@
+# Deploy settings for the Cloudflare Worker "f1-news-ask" (Ask tab + /stats).
+# Deploy from this folder with:   npx wrangler deploy
+# These match the settings in the Cloudflare dashboard. Keep them, or a deploy resets them.
+# NO secrets here: OPENROUTER_API_KEY and ASK_PASSCODE live only in Cloudflare (never overwrite them).
+
+name = "f1-news-ask"
+main = "ask-worker.js"
+compatibility_date = "2026-11-15"
+keep_vars = true          # keep the Text variables set in the dashboard
+workers_dev = true        # keep the https://f1-news-ask.<account>.workers.dev address
+preview_urls = false      # no extra preview addresses
+
+[observability]
+enabled = true            # logs on (the Stats tool loop writes "[stats] ..." lines here)
+
+[observability.logs]
+enabled = true
