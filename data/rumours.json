@@ -1,7 +1,41 @@
 {
- "updated": "2026-11-16T04:36:33Z",
+ "updated": "2026-11-16T14:41:36Z",
  "model": "anthropic/claude-haiku-5.5",
  "rumours": [
+  {
+   "id": "r2d7f992f",
+   "claim": "Ferrari could reportedly choose a lead driver for 2027 as tension between Lewis Hamilton and Charles Leclerc continues.",
+   "people": [
+    "Ferrari",
+    "Lewis Hamilton",
+    "Charles Leclerc"
+   ],
+   "status": "Active",
+   "trend": "steady",
+   "first_seen": "2026-11-16T07:59:00Z",
+   "last_seen": "2026-11-16T07:59:00Z",
+   "sources": [
+    {
+     "title": "Ferrari consider major Hamilton and Leclerc shake-up for 2027",
+     "source": "GPFans",
+     "date": "2026-11-16T07:59:00Z",
+     "link": "https://www.gpfans.com/en/f1-news/1092929/ferrari-f1-shakeup-2027-lewis-hamilton-charles-leclerc/"
+    }
+   ],
+   "cards": [
+    "c417d9865"
+   ],
+   "proof": null,
+   "history": [
+    {
+     "time": "2026-11-16T14:41:36Z",
+     "event": "created",
+     "detail": "First seen: GPFans (2026-11-16)",
+     "reason": "No known rumour covers Ferrari choosing a lead driver or the Hamilton and Leclerc tension.",
+     "card": "Ferrari reportedly considering a lead driver for 2027"
+    }
+   ]
+  },
   {
    "id": "r4925ce69",
    "claim": "Liam Lawson could reportedly be available to join McLaren, which could affect Oscar Piastri's position.",
@@ -12,19 +46,26 @@
     "Steiner"
    ],
    "status": "Active",
-   "trend": "steady",
+   "trend": "rising",
    "first_seen": "2026-11-15T19:01:48Z",
-   "last_seen": "2026-11-15T19:01:48Z",
+   "last_seen": "2026-11-16T07:15:00Z",
    "sources": [
     {
      "title": "Liam Lawson to McLaren tease as Oscar Piastri warned by Steiner",
      "source": "PlanetF1",
      "date": "2026-11-15T19:01:48Z",
      "link": "https://www.planetf1.com/news/liam-lawson-mclaren-oscar-piastri-guenther-steiner"
+    },
+    {
+     "title": "Liam Lawson a potential McLaren option if Piastri struggles again in 2027",
+     "source": "GPFans",
+     "date": "2026-11-16T07:15:00Z",
+     "link": "https://www.gpfans.com/en/f1-news/1092934/piastri-out-lawson-to-mclaren-guenther-steiner-f1-driver-market/"
     }
    ],
    "cards": [
-    "c84bd951d"
+    "c84bd951d",
+    "c3a6011a1"
    ],
    "proof": null,
    "history": [
@@ -34,6 +75,45 @@
      "detail": "First seen: PlanetF1 (2026-11-15)",
      "reason": "No known rumour covers a Lawson move to McLaren, so this is a new claim, framed as a tease rather than a confirmed move.",
      "card": "Lawson McLaren tease as Steiner warns Piastri"
+    },
+    {
+     "time": "2026-11-16T14:41:36Z",
+     "event": "new sources",
+     "detail": "1 new source(s): GPFans (2026-11-16)",
+     "reason": "This card says Liam Lawson has been tipped as a McLaren option to replace Oscar Piastri if Piastri struggles in 2027, which is the same claim as the known rumour about Lawson joining McLaren.",
+     "card": "Lawson tipped as possible McLaren option for 2027"
+    }
+   ]
+  },
+  {
+   "id": "r4bccd5f1",
+   "claim": "F1's plan to move to V8 engines could reportedly take a major step forward on Monday, with manufacturers poised to back new regulations.",
+   "people": [
+    "manufacturers"
+   ],
+   "status": "Active",
+   "trend": "steady",
+   "first_seen": "2026-11-16T07:11:53Z",
+   "last_seen": "2026-11-16T07:11:53Z",
+   "sources": [
+    {
+     "title": "F1 poised to take crucial step towards V8 engines' return",
+     "source": "The Race",
+     "date": "2026-11-16T07:11:53Z",
+     "link": "https://www.the-race.com/formula-1/f1-poised-to-take-crucial-step-towards-v8-engines-return/"
+    }
+   ],
+   "cards": [
+    "ca01456fa"
+   ],
+   "proof": null,
+   "history": [
+    {
+     "time": "2026-11-16T14:41:36Z",
+     "event": "created",
+     "detail": "First seen: The Race (2026-11-16)",
+     "reason": "This is a specific regulatory claim about the V8 engine plan, which is different from the known rumour about cost cap changes at the Commission meeting.",
+     "card": "F1 set for major step towards V8 engine return"
     }
    ]
   },
@@ -206,7 +286,7 @@
   "c889a2d29": "1|Reported",
   "c37161d91": "1|Reported",
   "c679d8d18": "1|Reported",
-  "ccb151298": "2|Reported",
+  "ccb151298": "3|Reported",
   "c7f3a5f64": "3|Confirmed",
   "ccdbc9441": "1|Reported",
   "c8569341f": "1|Reported",
@@ -216,7 +296,7 @@
   "c157af946": "1|Reported",
   "cef48b734": "1|Reported",
   "c2fac4caf": "1|Reported",
-  "ce0b8e8da": "2|Reported",
+  "ce0b8e8da": "4|Reported",
   "c61b8b67b": "1|Reported",
   "cf35d4411": "1|Reported",
   "c187b61fd": "2|Reported",
@@ -259,6 +339,28 @@
   "c7518bd43": "1|Reported",
   "c5cb32f36": "1|Reported",
   "c87e83b4a": "1|Reported",
-  "cbf24a633": "1|Reported"
+  "cbf24a633": "1|Reported",
+  "ca01456fa": "1|Rumour",
+  "c3a6011a1": "1|Rumour",
+  "c417d9865": "1|Rumour",
+  "c5342c81c": "4|Confirmed",
+  "ccd2269f9": "1|Reported",
+  "cd7b949a5": "1|Reported",
+  "cff6e454c": "1|Reported",
+  "cf9b8daaa": "10|Confirmed",
+  "cb9153814": "1|Reported",
+  "c5f3e6035": "2|Reported",
+  "cd3e5b497": "1|Reported",
+  "c7eb7529d": "1|Reported",
+  "c5dd5bf89": "1|Reported",
+  "cb0461321": "1|Confirmed",
+  "caccdbb2c": "1|Reported",
+  "c02b7492b": "1|Reported",
+  "cdaffc3e7": "1|Reported",
+  "c6c1d4ab6": "1|Confirmed",
+  "c502fd1e2": "1|Reported",
+  "cfaa896f7": "1|Confirmed",
+  "c2e9b147f": "1|Reported",
+  "ca0e66a87": "1|Reported"
  }
 }
