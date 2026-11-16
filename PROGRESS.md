@@ -346,3 +346,44 @@
 
 ### Next ideas
 - Maybe restyle `costs.html` to match (it still has the old plain look).
+
+## Session 12 — 16 Nov 2026: Stage 3, Agent 1 (Stats Agent), Step 1: the stats robot
+
+### Done
+- New `scripts/fetch_stats.py` (no AI). It downloads from the free **Jolpica F1 API**
+  (`api.jolpi.ca`, the Ergast replacement):
+  - the current driver standings,
+  - the current constructor (team) standings,
+  - every race result of the current season, read in pages of 100 rows and joined back up by round.
+- It saves everything to `data/stats.json`: season, "after round N", the last race, both standings
+  and all races (position, driver, team, grid, laps, status, time, points, fastest-lap rank).
+  A `note` in the file says standings include sprint points but `races` is Grand Prix only.
+- New workflow `.github/workflows/fetch-stats.yml` runs it **every 6 hours** (at :30, so it
+  doesn't clash with the news robot), plus a "Run workflow" button. It only saves when the
+  numbers changed.
+- `requests` added to `requirements.txt` (it was installed before, but never listed).
+- Safety: if any download fails, or the number of result rows doesn't match what Jolpica says,
+  the old `stats.json` is kept and the robot does not fail.
+
+### Rate limits (from Jolpica's `docs/rate_limits.md`)
+- Limit: 4 requests per second and 500 per hour. We make **7 requests per run**, waiting 1.5 s
+  between them (under 1 per second), and run 4 times a day: about **28 requests a day**.
+  If Jolpica says "slow down" (429), the script waits 10–40 s and tries again (max 4 tries).
+
+### Tested
+- Real run: season 2026, after round 20 (Brazilian GP): 25 drivers, 11 teams, 20 races × 22
+  results = 440 rows, matching Jolpica's total. 7 requests, 13 seconds.
+- Second run: "Stats unchanged", file not rewritten.
+- Broken API address: "Could not get the stats… Keeping the old file", file byte-for-byte unchanged.
+- Spot check: Antonelli 1st, 390 pts, 9 wins; Mercedes 1st, 652 pts; Brazil won by Norris from pole.
+  Race-only points (Antonelli 359) are less than the standings (390) because of sprints, which is expected.
+
+### Things to know
+- The Claude cloud session needed a new personal environment **f1-news** (allows only
+  `api.jolpi.ca` and `openrouter.ai`), because this session couldn't be moved onto `f1-dashboard`.
+  The OpenRouter key is NOT in `f1-news` yet; it will be asked for in Step 2.
+- GitHub only runs scheduled jobs from `main`, so the 6-hour robot starts after merging.
+
+### Next
+- Step 2: the Ask Worker gets OpenRouter tool calling with one tool, `get_standings`,
+  reading `stats.json`.

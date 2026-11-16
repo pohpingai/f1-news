@@ -1,0 +1,45 @@
+# The "stats robot": GitHub runs this every 6 hours.
+# It downloads this season's standings and race results from the free Jolpica F1 API
+# and saves data/stats.json back into the repo. No AI, no keys needed.
+name: Fetch F1 stats
+
+on:
+  schedule:
+    - cron: "30 */6 * * *"  # every 6 hours, at :30 so it doesn't start together with the news robot
+  workflow_dispatch:        # "Run workflow" button for running it by hand
+
+permissions:
+  contents: write           # allows the robot to save the updated stats file
+
+concurrency:
+  group: fetch-stats
+  cancel-in-progress: false
+
+jobs:
+  stats:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install the downloader
+        run: pip install -r requirements.txt
+
+      - name: Download the stats
+        run: python scripts/fetch_stats.py
+
+      - name: Save the stats (only if something changed)
+        run: |
+          if git diff --quiet -- data/stats.json && [ -z "$(git ls-files --others data/stats.json)" ]; then
+            echo "Stats unchanged."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add data/stats.json
+          git commit -m "Update F1 stats"
+          git pull --rebase
+          git push
