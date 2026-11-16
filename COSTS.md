@@ -7,6 +7,7 @@ Live, automatic numbers are on the website: **💰 AI costs** (`costs.html`, dat
 | Part | Cost |
 |---|---|
 | Collecting the news (`fetch_news.py`) | $0 |
+| Stats robot (`fetch_stats.py`, Jolpica F1 API, every 6 hours, no AI) | $0 |
 | The robot (GitHub Actions, public repo) | $0 |
 | The website (GitHub Pages) | $0 |
 
@@ -47,7 +48,8 @@ Taken from the OpenRouter key's usage page. This total includes everything paid 
 | 15 Nov 2026 | Step 6 report card: building, 3 full runs + debugging (+ robot runs) | ~$0.019 |
 | 15 Nov 2026 | Session 10 new sources: testing on a data copy + report card (+ robot runs) | ~$0.017 |
 | 15 Nov 2026 | Session 11 comic restyle: Ask screenshot test + report card (+ robot runs) | ~$0.010 |
-| **15 Nov 2026** | **Total used on the main key so far** | **$0.119** |
+| 16 Nov 2026 | Stage 3 Step 1 stats robot: no AI, so no cost | $0 |
+| **16 Nov 2026** | **Total used on the main key so far** (not re-checked this session: this cloud session has no OpenRouter key yet) | **~$0.12 + robot runs** |
 | | Left on the $5 limit | $4.88 |
 
 **Report card (`tests/report_card.py`):** about **$0.004 per run** (18 tests). It only costs money
