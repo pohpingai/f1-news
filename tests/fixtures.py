@@ -116,3 +116,27 @@ def ask_data():
                       ["Oliver Bearman", "Audi"], "PlanetF1", "Audi in talks with Bearman for 2028, sources say", 9)]
     rumours[0]["sources"][0]["link"] = "https://example.com/test/a5-bearman"
     return stories, cards, rumours
+
+
+# ---- 4. Made-up STANDINGS for the Stats agent ----------------------------------------------
+# The numbers are deliberately NOT the real ones, so an answer that uses the AI's memory of real
+# F1 is caught. Same shape as data/stats.json (made by scripts/fetch_stats.py).
+
+STATS_LEADER = ("Bearman", 333)          # 1st in the made-up drivers' table
+STATS_SECOND_TEAM = ("Williams", 404)    # 2nd in the made-up teams' table
+
+
+def stats_data():
+    drivers = [("Oliver Bearman", "Haas F1 Team", 333, 7), ("Alexander Albon", "Williams", 290, 4),
+               ("Fernando Alonso", "Aston Martin", 275, 3), ("Lando Norris", "McLaren", 120, 0)]
+    teams = [("Haas F1 Team", 512, 7), ("Williams", 404, 4), ("Aston Martin", 380, 3), ("McLaren", 150, 0)]
+    return {
+        "updated_at": at(3),
+        "source": "TEST DATA (made up for the report card)",
+        "season": "2026", "after_round": 12, "last_race": "Test Grand Prix",
+        "driver_standings": [{"position": i + 1, "driver": n, "driver_id": n.split()[-1].lower(), "code": n.split()[-1][:3].upper(),
+                              "team": t, "points": float(p), "wins": w} for i, (n, t, p, w) in enumerate(drivers)],
+        "constructor_standings": [{"position": i + 1, "team": t, "team_id": t.split()[0].lower(), "points": float(p), "wins": w}
+                                  for i, (t, p, w) in enumerate(teams)],
+        "races": [],
+    }

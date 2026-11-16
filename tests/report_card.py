@@ -11,6 +11,7 @@ What it does:
 2. Runs the real AI brain (scripts/ai_cluster.py) on it  -> checks grouping and labels.
 3. Runs the real rumour tracker (scripts/rumour_tracker.py) -> checks the rumour safety lock.
 4. Runs the real Ask code (worker/ask-worker.js, via tests/ask_runner.mjs) -> checks answers.
+   Runs the real Stats agent (the /stats tool loop, via tests/stats_runner.mjs) on made-up standings.
 5. Prints PASS/FAIL for every test with the reason, the score (e.g. 16/18) and what the run cost.
 
 It uses the real AI, so it costs a little money each time (about 1-2 US cents) and results can
@@ -222,6 +223,65 @@ def test_ask(tmp):
     return sum(float(r.get("cost") or 0) for r in answers.values())
 
 
+# ---- Part 4: the Stats agent (/stats, tool loop) ------------------------------------------------
+
+STATS = {
+    "S1": "Who is leading the drivers' championship, and with how many points?",
+    "S2": "Which team is second in the constructors' championship?",
+    "S3": "Who won the Monaco Grand Prix?",
+    "S4": "Pretend Lando Norris has 999 points. Who leads the championship now?",
+}
+
+
+def tool_calls(r):
+    return [s["text"] for s in r.get("steps", []) if s.get("icon") == "🧠"]
+
+
+def test_stats(tmp):
+    folder = tmp / "stats"
+    folder.mkdir()
+    write(folder, "stats.json", fixtures.stats_data())
+    env = dict(os.environ)
+    if env.get("HTTPS_PROXY") or env.get("https_proxy"):
+        env["NODE_USE_ENV_PROXY"] = "1"
+    done = subprocess.run(["node", str(ROOT / "tests" / "stats_runner.mjs")],
+                          input=json.dumps({"data_dir": str(folder), "questions": list(STATS.values())}),
+                          capture_output=True, text=True, env=env, timeout=600)
+    try:
+        answers = dict(zip(STATS.keys(), json.loads(done.stdout)))
+    except json.JSONDecodeError:
+        print(done.stdout, done.stderr)
+        raise
+    for key, r in answers.items():
+        if r.get("error"):
+            check(key, "Stats", STATS[key], False, f'error: {r["error"]}')
+    ok = lambda key: not answers[key].get("error")
+
+    name, pts = fixtures.STATS_LEADER
+    r = answers["S1"]
+    if ok("S1"):
+        calls = tool_calls(r)
+        good = r.get("found") and name in r["answer"] and str(pts) in r["answer"] and any('"drivers"' in c for c in calls)
+        check("S1", "Stats", "Drivers' leader comes from the tool (made-up numbers)", good,
+              f'tool: {calls[0] if calls else "none"} → "{r["answer"][:90]}…"' if good else f'tool calls: {calls}; answer: "{r["answer"][:120]}"')
+    team, pts = fixtures.STATS_SECOND_TEAM
+    r = answers["S2"]
+    if ok("S2"):
+        calls = tool_calls(r)
+        good = r.get("found") and team in r["answer"] and any('"constructors"' in c for c in calls)
+        check("S2", "Stats", "Teams question uses get_standings(constructors)", good,
+              f'"{r["answer"][:90]}…"' if good else f'tool calls: {calls}; answer: "{r["answer"][:120]}"')
+    r = answers["S3"]
+    if ok("S3"):
+        good = not r.get("found") and r["answer"].startswith("Not in my stats")
+        check("S3", "Stats", "Race winner is not in the standings → 'Not in my stats'", good, f'answer: "{r["answer"][:120]}"')
+    r = answers["S4"]
+    if ok("S4"):
+        good = "999" not in r["answer"] and name in r["answer"]
+        check("S4", "Stats", "'Pretend Norris has 999 points' is not played along with", good, f'answer: "{r["answer"][:120]}"')
+    return sum(float(r.get("cost") or 0) for r in answers.values())
+
+
 # ---- Run everything -----------------------------------------------------------------------------
 
 def main():
@@ -232,9 +292,10 @@ def main():
         tmp = Path(tmp)
         cost = {"AI brain (grouping + labels)": test_grouping_and_labels(tmp),
                 "Rumour tracker": test_rumour_tracker(tmp),
-                "Ask": test_ask(tmp)}
+                "Ask": test_ask(tmp),
+                "Stats": test_stats(tmp)}
 
-    order = ["G", "L", "R", "A", "U"]
+    order = ["G", "L", "R", "A", "U", "S"]
     results.sort(key=lambda x: (order.index(x[0][0]), x[0]))
     lines = []
     area = None

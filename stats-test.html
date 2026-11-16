@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Stats agent — test page</title>
+<style>
+  /* A plain TEST page for the Stats agent (Stage 3, Step 2). Not linked from the main site yet. */
+  body { font-family: system-ui, sans-serif; max-width: 640px; margin: 0 auto; padding: 16px; background: #fffaf0; color: #1b2a4a; }
+  h1 { font-size: 1.3rem; }
+  .box { border: 2px solid #1b2a4a; border-radius: 14px; padding: 12px; margin: 12px 0; background: #fff; }
+  input, button { font: inherit; padding: 10px; border-radius: 10px; border: 2px solid #1b2a4a; box-sizing: border-box; }
+  input { width: 100%; margin: 4px 0; }
+  button { background: #e10600; color: #fff; border-color: #e10600; cursor: pointer; }
+  .quick button { background: #fff; color: #1b2a4a; border-color: #1b2a4a; margin: 4px 4px 0 0; padding: 6px 10px; }
+  .step { margin: 4px 0; font-size: .92rem; }
+  .answer { white-space: pre-wrap; font-size: 1.05rem; }
+  .muted { color: #667; font-size: .85rem; }
+  .error { color: #b00020; }
+</style>
+</head>
+<body>
+<h1>📊 Stats agent: test page</h1>
+<p class="muted">Asks the <b>/stats</b> address of your Ask Worker. It uses the Worker address and passcode
+you saved in the Ask tab (they stay in this browser only).</p>
+
+<div class="box" id="setup" hidden>
+  <p>No Worker saved in this browser yet. Enter it here (same as the Ask tab):</p>
+  <input id="url" placeholder="https://f1-news-ask.YOUR-NAME.workers.dev">
+  <input id="pass" type="password" placeholder="Passcode">
+  <button id="save">Save</button>
+</div>
+
+<div class="box">
+  <input id="q" maxlength="300" placeholder="e.g. Who leads the drivers' championship?">
+  <div class="quick">
+    <button data-q="Who leads the drivers' championship, and by how much?">Drivers' leader</button>
+    <button data-q="Top 3 teams?">Top 3 teams</button>
+    <button data-q="Compare Hamilton and Leclerc">Hamilton vs Leclerc</button>
+    <button data-q="Who won the Brazilian Grand Prix?">Not in the stats</button>
+  </div>
+  <p><button id="ask">Ask</button></p>
+</div>
+
+<div id="out"></div>
+
+<script>
+  const URL_KEY = "f1ask_url", PASS_KEY = "f1ask_pass";   // same keys as the Ask tab in news.html
+  const $ = id => document.getElementById(id);
+  const esc = t => String(t).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+
+  function setup() { $("setup").hidden = !!(localStorage.getItem(URL_KEY) && localStorage.getItem(PASS_KEY)); }
+  $("save").onclick = () => {
+    const url = $("url").value.trim(), pass = $("pass").value;
+    if (!/^https:\/\//.test(url) || !pass) return alert("Please enter the Worker address (https://…) and passcode.");
+    localStorage.setItem(URL_KEY, url); localStorage.setItem(PASS_KEY, pass); setup();
+  };
+  document.querySelectorAll("[data-q]").forEach(b => b.onclick = () => { $("q").value = b.dataset.q; $("q").focus(); });
+  $("q").addEventListener("keydown", e => { if (e.key === "Enter") ask(); });
+  $("ask").onclick = ask;
+
+  async function ask() {
+    const question = $("q").value.trim();
+    if (question.length < 3 || $("ask").disabled) return;
+    const base = (localStorage.getItem(URL_KEY) || "").replace(/\/+$/, "");
+    if (!base) return setup();
+    $("ask").disabled = true;
+    const box = document.createElement("div");
+    box.className = "box";
+    box.innerHTML = `<b>${esc(question)}</b><p class="muted">Thinking…</p>`;
+    $("out").prepend(box);
+    try {
+      const res = await fetch(base + "/stats", { method: "POST", headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ passcode: localStorage.getItem(PASS_KEY), question }) });
+      const r = await res.json();
+      if (!res.ok) throw new Error(r.error || `The Worker said ${res.status}`);
+      const steps = (r.steps || []).map(s => `<div class="step">${s.icon} ${esc(s.text)}</div>`).join("");
+      const src = (r.sources || []).map(s => `<div class="muted">📄 Source: ${esc(s.title)} — ${esc(s.from)}</div>`).join("");
+      box.innerHTML = `<b>${esc(question)}</b><div class="muted" style="margin-top:8px">Tool loop:</div>${steps}` +
+        `<p class="answer">${esc(r.answer)}</p>${src}` +
+        `<div class="muted">Cost: $${Number(r.cost || 0).toFixed(5)} · today so far: $${Number(r.spent_today || 0).toFixed(4)} of $${r.daily_limit}</div>`;
+    } catch (e) {
+      box.innerHTML = `<b>${esc(question)}</b><p class="error">⚠️ ${esc(e.message)}</p>`;
+      if (/passcode/i.test(e.message)) { localStorage.removeItem(PASS_KEY); setup(); }
+    } finally {
+      $("ask").disabled = false;
+    }
+  }
+  setup();
+</script>
+</body>
+</html>

@@ -75,6 +75,28 @@ To remove them, tap **Disconnect this device**.
 
 ---
 
+## The Stats agent (`/stats`, added in Stage 3)
+
+The same Worker has a second address: **`https://f1-news-ask.YOUR-NAME.workers.dev/stats`**.
+It uses the same passcode, the same daily limit and the same chat key. The AI there has one tool,
+`get_standings`, which reads `data/stats.json` from the website (saved by the stats robot every 6 hours).
+
+- Quick check: open the `/stats` address in a browser → `{"ok":true,"message":"F1 News Stats is running."}`
+- Try it: open **https://pohpingai.github.io/f1-news/stats-test.html** (it uses the Worker address and
+  passcode saved by the Ask tab in that browser).
+- Logs: Cloudflare → your Worker → **Logs** shows lines starting with `[stats]` for every tool-loop step.
+
+## Updating the Worker after a code change (Wrangler)
+
+`worker/wrangler.toml` keeps the deploy settings (logs on, preview links off, date 2026-11-15), so a
+deploy doesn't reset them. From the `worker` folder, with a Cloudflare API token set:
+
+```bash
+npx wrangler deploy
+```
+
+The secrets are never in this file and are not changed by a deploy.
+
 ## If something goes wrong
 
 | You see | What to do |

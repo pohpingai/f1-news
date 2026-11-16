@@ -24,6 +24,7 @@ Estimates come from real test runs. The robot runs 12 times a day, but most runs
 | **Rumour tracker** | Remembers rumours across days, trend, history, official confirmations | ~$0.005–0.01 | The "Rumours" tab | Step 3 | ☐ |
 | **Ask tab (chat)** | Answers your questions from the saved news, with sources and thinking steps (2 AI steps per question) | ~$0.0002–0.0015 per question; e.g. 20 questions ≈ $0.015–0.02 (named-topic questions search 30 days: ~+$0.0003 each) | The Ask tab | Step 5 | ☐ |
 | **Label catch-up** | Labels cards that have no label | One-off ~$0.002, then ~$0 | Some cards might show no label | Step 3 | ☐ |
+| **Stats agent (`/stats`)** | Answers standings questions with one tool (`get_standings`), 2 AI requests per question, numbers checked by code | ~$0.0003–0.0005 per question; e.g. 20 questions ≈ $0.01 | The stats questions (the stats robot itself is free) | Stage 3 Step 2 | ☐ |
 | **All robot AI features together** | | **~$0.025–0.06 per day (~$0.75–1.80 per month)** | | | |
 | **Ask tab** | Only when you ask; capped by the Worker's daily limit (default $0.20) and the `f1-news-ask` key's own limit | | | | |
 
@@ -49,10 +50,11 @@ Taken from the OpenRouter key's usage page. This total includes everything paid 
 | 15 Nov 2026 | Session 10 new sources: testing on a data copy + report card (+ robot runs) | ~$0.017 |
 | 15 Nov 2026 | Session 11 comic restyle: Ask screenshot test + report card (+ robot runs) | ~$0.010 |
 | 16 Nov 2026 | Stage 3 Step 1 stats robot: no AI, so no cost | $0 |
-| **16 Nov 2026** | **Total used on the main key so far** (not re-checked this session: this cloud session has no OpenRouter key yet) | **~$0.12 + robot runs** |
+| 16 Nov 2026 | Stage 3 Step 2 stats tool: ~15 test questions + 1 report card (22 tests, $0.0054), on the key saved in the f1-news cloud environment (OpenRouter showed $0.0066, may lag a little) | ~$0.007–0.012 |
+| **16 Nov 2026** | **Total used on the main key so far** (the main key was not checked this session; the testing used the key saved in the f1-news cloud environment) | **~$0.12 + robot runs** |
 | | Left on the $5 limit | $4.88 |
 
-**Report card (`tests/report_card.py`):** about **$0.004 per run** (18 tests). It only costs money
+**Report card (`tests/report_card.py`):** about **$0.005 per run** (22 tests). It only costs money
 when someone runs it; it is not part of the robot.
 
 *Update this table at the end of each session (check `https://openrouter.ai/settings/keys` or ask Claude).*
