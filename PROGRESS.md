@@ -1,5 +1,111 @@
 # Progress log
 
+## ⭐ Start here — project summary (as of 17 Nov 2026)
+
+*Read this first in a new thread. The session-by-session log follows below it.*
+
+### What it is
+A free website that collects F1 news every 2 hours, groups the same story from different sites,
+labels each story, tracks rumours, keeps the championship standings, and has a private chat
+that answers only from the saved news.
+- **Live site:** https://pohpingai.github.io/f1-news/ · **Code:** https://github.com/pohpingai/f1-news
+  (GitHub Pages serves the site from `main`).
+- **Working style (CLAUDE.md):** beginner, simple words, plan first, small steps, test before
+  saying it works, update PROGRESS.md and COSTS.md every session.
+
+### How it works (robots on GitHub, results saved in `data/`)
+| Robot | File | What it does | Saves |
+|---|---|---|---|
+| News, every 2 h (`fetch-news.yml`) | `scripts/fetch_news.py` | Reads 13 RSS feeds; headline, source, date, link, ~200-char snippet; link = ID; deletes stories older than 30 days | `data/news.json` |
+| | `scripts/ai_cluster.py` | AI brain: groups the same story into cards (title, 2-sentence summary, "sources disagree" note, merge reason), labels every card, writes the headline of the day | `data/cards.json` |
+| | `scripts/rumour_tracker.py` | AI memory of rumours: claim, people, sources, status, trend, history | `data/rumours.json` |
+| Stats, every 6 h at :30 (`fetch-stats.yml`) | `scripts/fetch_stats.py` | No AI. Free **Jolpica F1 API** (`api.jolpi.ca`): driver + constructor standings and all race results; ~7 requests per run | `data/stats.json` |
+| Every AI request | `ask_ai(..., feature=...)` | Logs the real cost per feature per day | `data/costs.json` → `costs.html` |
+
+### News sources (12 sources, 13 feeds)
+- Formula1.com (no dates → "seen at"), Autosport, Motorsport.com, The Race (F1 tag only), RaceFans,
+  BBC Sport, PlanetF1 (`/rss`), Crash.net, **GPFans**, **Sky Sports** (videos skipped), **ESPN**,
+  **FIA** press releases + news (F1 items only).
+- Not possible: Reuters (no public RSS), team sites (no feeds; Haas feed = sponsors), Ferrari/Alpine
+  (block bots), Audi/Sauber (unreachable). Check new feeds: `python scripts/check_feeds.py` or
+  GitHub Actions → "Check new feeds".
+
+### The website
+- `news.html` — "Comic strip, more fun" design (cream / navy / red / yellow, Fredoka + Nunito, sticker
+  labels, speech-bubble headline of the day, faint background cars, works on phones). Four tabs:
+  - **Top stories (AI):** cards, most sources first each day; label sticker, red "N sources" pill, "Why grouped?".
+  - **All stories:** every story, with source filter buttons.
+  - **Rumours:** Active first; trend arrows, source count, first seen, Sources + History buttons.
+  - **Ask:** private chat; one question box (shortcut buttons only fill it; Enter or Ask sends);
+    thinking steps (what was searched, the dates, what was found) shown above each answer.
+- `costs.html` — AI money tracker (still the OLD plain look).
+- `stats-test.html` — plain test page for the Stats Agent (not linked from the site).
+
+### Labels
+**Confirmed** = official team/driver/FIA news, results, penalties · **Reported** = on-the-record quotes
+and interviews · **Rumour** = "sources say", "in talks", "could" · **Opinion** = columns, analysis,
+features, history. If unsure: Reported over Confirmed, Rumour over both. Changing the rules → bump
+`LABELS_VERSION` in `ai_cluster.py`.
+
+### Rumour safety lock (never weaken)
+Confirmed only from a **Confirmed** card; Denied only from a Confirmed or **Reported** card; the AI's
+evidence words must be found word-for-word in that card (checked by code), otherwise "blocked".
+Trend is plain code: rising = 2+ sources in 2 days; fading = nothing new 5 days; Faded = 14 days.
+
+### The Cloudflare Worker (`worker/ask-worker.js`, setup in `worker/SETUP.md`)
+- Worker **`f1-news-ask`**, address **https://f1-news-ask.pohping-ai.workers.dev**,
+  Cloudflare account ID `9e2f6ecc21dc9252de2ef530821dfd25`.
+- Secrets on the Worker (**never overwrite**): `OPENROUTER_API_KEY` (separate chat key `f1-news-ask`)
+  and `ASK_PASSCODE`. Daily limit `DAILY_LIMIT_USD` (default $0.20).
+- **`/` = Ask:** passcode + daily limit → AI plans the search → code searches the saved news →
+  AI answers ONLY from what was found, with numbered sources, or "Not in my news."
+  Search range by code: a named time → that time; a named person/team/topic → all saved news (30 days);
+  a catch-up → 7 days. Unclear questions → "Which driver do you mean?"; "pretend…" → refused.
+- **`/stats` = Stats Agent (Stage 3, Agent 1):** OpenRouter tool calling with one tool,
+  `get_standings` (drivers or constructors), reading `data/stats.json` from the website.
+  Code checks: no tool call → "Not in my stats."; every number in the answer must be in the tool
+  data (numbers typed in the question don't count); race winners / titles / other seasons →
+  "Not in my stats."
+- **Deploying:** it does NOT update by itself. After merging a Worker change:
+  `cd worker && npx wrangler deploy` (settings in `worker/wrangler.toml`: logs on, preview links off,
+  compatibility date 2026-11-15, keep_vars). The Cloudflare token is saved in the cloud environment
+  **f1-dashboard** (not in **f1-news**).
+- Live version: `f9598475` (Session 9). **`/stats` is NOT deployed yet** (checked 17 Nov).
+
+### Report card (tests)
+- `OPENROUTER_API_KEY=… python tests/report_card.py` (`--save` → `tests/LAST_REPORT.md`).
+- **22 tests** with made-up data in `tests/fixtures.py` (never the real `data/`): grouping (3),
+  labels (4), rumour safety (3), Ask (5), the user's 3 (Leclerc's daughter, Verstappen
+  source + label, "Ask about the driver"), Stats S1–S4. Latest score **22/22** (~$0.005 per run).
+- Run it after any AI change; never lower a test's expectations to make it pass.
+
+### Money (OpenRouter, model `anthropic/claude-haiku-5.5`)
+- Robot AI ≈ $0.025–0.06 a day (~$0.75–1.80 a month). Ask ≈ $0.0002–0.0015 per question;
+  Stats ≈ $0.0003–0.0005 per question. GitHub Actions, GitHub Pages, Cloudflare and Jolpica are free.
+- Main key: **$0.163 used, $4.84 left** of $5 (checked 17 Nov). `COSTS.md` has the keep-or-drop table.
+
+### Keys and cloud environments
+- GitHub Secret `OPENROUTER_API_KEY` (main key, $5 limit) — used by the robot.
+- Cloud environment **f1-dashboard**: OpenRouter + Cloudflare tokens, the news sites (+16 extra
+  sites added for feed testing, removable). Cloud environment **f1-news**: only `api.jolpi.ca` and
+  `openrouter.ai`, no Cloudflare token. No key is ever in the code.
+
+### Pull requests (all merged)
+#1 news site · #2 AI brain · #3 merged cards first + badges · #4 labels + rumour tracker ·
+#5 money tracker · #6 Reported label + Ask/Worker · #7 one Ask box · #8 30-day search ·
+#9 report card + Ask fixes · #10 GPFans/Sky/ESPN/FIA + feed checker · #11 comic restyle ·
+#12 Stats Agent step 1 (stats robot) · #13 Stats Agent step 2 (`/stats` + `get_standings`)
+
+### Loose ends (17 Nov)
+1. **Deploy the Worker** so `/stats` goes live, then test `stats-test.html` on the phone.
+2. Restyle `costs.html` (and maybe `stats-test.html`) to the comic design.
+3. Delete the 13 merged branches on GitHub (everything is in `main`).
+4. Optional: remove the 16 feed-testing sites from the f1-dashboard environment.
+5. Next: Stats Agent step 3+ (more tools, show it on the site), or whatever comes next.
+
+---
+
+
 ## Session 1 — 14 Nov 2026: Step 1, the basic news site (no AI yet)
 
 ### Done
