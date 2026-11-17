@@ -571,3 +571,24 @@ Trend is plain code: rising = 2+ sources in 2 days; fading = nothing new 5 days;
 
 ### Next ideas (Step 2+)
 - Countdown lights, a real F1-shaped track, lap splits, more ghosts (e.g. from real pole times).
+
+## Session 14 — 17 Nov 2026: "Beat the pole lap" tweaks (Beginner / Pro)
+
+### Done (`game.html` only)
+- **Bug fixed:** the whole car now always stays inside the canvas (kept 24 px from the edge; before,
+  only its centre was kept 12 px in, so part of it could vanish). Off the track for **2 seconds** →
+  the car is put back on the track at the same point of the lap, with a "Back on track!" message.
+- **Beginner mode (default):** soft invisible walls (the car slides along the track edge instead of
+  leaving it) + gentle steering help that follows the curve (weaker while you steer yourself).
+- **Pro mode:** the old behaviour, no help. A Beginner / Pro toggle under the track; switching starts over.
+  The chosen mode is remembered.
+- **Separate best times:** `f1game_best_beginner` and `f1game_best_pro`. The old single best time
+  (from Session 13, no help) became the Pro best.
+
+### Tested (phone-sized screen)
+- Beginner with no steering at all: full lap on the help alone, 10.32 s, never off the track.
+- Beginner holding ◀ the whole lap: slides along the wall, finishes (14.38 s), never off the track.
+- Pro: steering off the track → back on the track after 2 s, "Back on track!" shown.
+- Pro holding ▶ for 8 s: the car stops at the canvas edge (lowest y 496 of 520), never leaves it.
+- Pro lap with the real buttons: 9.72 s saved as the Pro best; Beginner best (10.32) kept separately;
+  mode and best times survive a reload. No errors, no sideways scrolling.

@@ -45,6 +45,15 @@
              background: #fff; color: var(--ink); box-shadow: 4px 4px 0 var(--ink); touch-action: none; user-select: none;
              -webkit-user-select: none; -webkit-touch-callout: none; cursor: pointer; }
     .steer.held { background: var(--yellow); transform: translate(2px, 2px); box-shadow: 2px 2px 0 var(--ink); }
+    /* Beginner / Pro toggle */
+    .modes { display: flex; align-items: center; justify-content: center; gap: 8px; margin-top: 14px; font: 600 0.95rem var(--head); }
+    .modes .seg { display: flex; background: #fff; border: 3px solid var(--ink); border-radius: 999px; padding: 3px; box-shadow: 3px 3px 0 var(--ink); }
+    .modes button { font: 600 0.95rem var(--head); border: 0; background: transparent; color: var(--ink); padding: 6px 14px; border-radius: 999px; cursor: pointer; }
+    .modes button.on { background: var(--yellow); box-shadow: inset 0 0 0 2.5px var(--ink); }
+    .toast { position: absolute; left: 50%; bottom: 22px; transform: translateX(-50%); pointer-events: none;
+             background: var(--yellow); border: 3px solid var(--ink); border-radius: 999px; padding: 4px 14px;
+             font: 700 1rem var(--head); box-shadow: 3px 3px 0 var(--ink); }
+    .toast[hidden] { display: none; }
     .help { text-align: center; color: #4A5072; font-size: 0.9rem; margin: 10px 0 0; }
     @media (max-width: 640px) { h1 { font-size: 1.3rem; } .hud { top: 14px; left: 14px; right: 14px; font-size: 0.9rem; } }
   </style>
@@ -62,6 +71,7 @@
       <span class="pill" id="timer">0.00 s</span>
       <span class="pill ghost" id="ghostInfo">Ghost: 10.30 s</span>
     </div>
+    <div class="toast" id="toast" hidden>Back on track!</div>
     <div class="panel" id="startPanel">
       <div class="card">
         <h2>Ready?</h2>
@@ -77,18 +87,26 @@
           <div><span>Your time</span><span id="rMine"></span></div>
           <div><span>Ghost time</span><span id="rGhost"></span></div>
           <div><span>Gap</span><span id="rGap"></span></div>
-          <div><span>Your best</span><span id="rBest"></span></div>
+          <div><span id="rBestLabel">Your best</span><span id="rBest"></span></div>
         </div>
         <button class="btn" id="againBtn">Try again</button>
       </div>
     </div>
   </div>
 
+  <div class="modes">
+    <span>Mode:</span>
+    <div class="seg" role="group" aria-label="Game mode">
+      <button id="modeBeginner" class="on">Beginner</button>
+      <button id="modePro">Pro</button>
+    </div>
+  </div>
   <div class="controls">
     <button class="steer" id="leftBtn" aria-label="Steer left">◀</button>
     <button class="steer" id="rightBtn" aria-label="Steer right">▶</button>
   </div>
-  <p class="help">Laptop: ← → arrow keys · Phone: hold ◀ ▶ · Your car speeds up by itself.</p>
+  <p class="help">Laptop: ← → arrow keys · Phone: hold ◀ ▶ · Your car speeds up by itself.<br>
+    <b>Beginner</b>: soft walls + steering help · <b>Pro</b>: no help. Each mode has its own best time.</p>
 </div>
 
 <script>
@@ -98,7 +116,18 @@
   const OFF_SPEED = 40;          // top speed when you are off the track (grass)
   const ACCEL = 120;             // how fast you speed up
   const TURN = 2.6;              // how fast you steer (radians per second)
-  const BEST_KEY = "f1game_best";
+  const OFF_RESET = 2;           // seconds off the track before the car is put back on it
+  const ASSIST = 1.3;            // Beginner: how strongly the steering help follows the curve (radians per second)
+  const WALL_GRIP = 0.985;       // Beginner: speed kept each time the car slides along a soft wall
+  const EDGE = 24;               // keep the whole car this far inside the canvas
+  const BEST_KEYS = { beginner: "f1game_best_beginner", pro: "f1game_best_pro" };
+  const MODE_KEY = "f1game_mode";
+  // The very first version saved one best time (no help = Pro). Keep it as the Pro best.
+  if (localStorage.getItem("f1game_best") && !localStorage.getItem(BEST_KEYS.pro)) {
+    localStorage.setItem(BEST_KEYS.pro, localStorage.getItem("f1game_best"));
+  }
+  localStorage.removeItem("f1game_best");
+  let mode = localStorage.getItem(MODE_KEY) === "pro" ? "pro" : "beginner";   // Beginner by default
 
   // ===== The track: an oval (ellipse) with a fixed width =====
   const canvas = document.getElementById("track");
@@ -159,11 +188,30 @@
 
   // ===== Game state =====
   let state = "ready";            // ready | racing | finished
-  let car, raceTime, progress, lastAngle, steer = { left: false, right: false };
+  let car, raceTime, progress, lastAngle, offTime, toastUntil = 0, steer = { left: false, right: false };
 
   function reset() {
     car = { x: CX + 6, y: CY + RY, angle: Math.PI, speed: 0 };   // on the line, facing left (clockwise lap)
-    raceTime = 0; progress = 0; lastAngle = lapAngle(car.x, car.y);
+    raceTime = 0; progress = 0; offTime = 0; lastAngle = lapAngle(car.x, car.y);
+  }
+
+  // Point on the centre line at lap angle a, and the direction of travel there (clockwise).
+  const centre = a => ({ x: CX + RX * Math.cos(a), y: CY + RY * Math.sin(a),
+                         heading: Math.atan2(RY * Math.cos(a), -RX * Math.sin(a)) });
+  const turnTo = (from, to) => Math.atan2(Math.sin(to - from), Math.cos(to - from));   // shortest turn, -π..π
+
+  // Beginner: soft invisible walls. If the car crosses an edge of the tarmac, move it back onto
+  // the edge and turn it along the track, so it slides along instead of leaving.
+  function softWalls() {
+    const dx = car.x - CX, dy = car.y - CY;
+    const out = (dx / (RX + HALF - 6)) ** 2 + (dy / (RY + HALF - 6)) ** 2;   // > 1 = past the outer edge
+    const inn = (dx / (RX - HALF + 6)) ** 2 + (dy / (RY - HALF + 6)) ** 2;   // < 1 = past the inner edge
+    if (out <= 1 && inn >= 1) return;
+    const k = out > 1 ? 1 / Math.sqrt(out) : 1 / Math.sqrt(inn);
+    car.x = CX + dx * k; car.y = CY + dy * k;
+    const along = centre(lapAngle(car.x, car.y)).heading;
+    car.angle += turnTo(car.angle, along) * 0.5;      // slide: turn halfway towards the track direction
+    car.speed *= WALL_GRIP;
   }
 
   function ghostPos(t) {
@@ -180,13 +228,30 @@
     // steering (a little less sharp when going slowly)
     const turn = (steer.left ? -1 : 0) + (steer.right ? 1 : 0);
     car.angle += turn * TURN * dt * Math.min(1, 0.35 + car.speed / MAX_SPEED);
+    if (mode === "beginner") {
+      // gentle steering help: aim at a point a little further along the centre line
+      const target = centre(lapAngle(car.x, car.y) + 0.3);
+      const want = Math.atan2(target.y - car.y, target.x - car.x);
+      const help = Math.max(-1, Math.min(1, turnTo(car.angle, want) * 3)) * ASSIST * dt;
+      car.angle += turn ? help * 0.4 : help;          // weaker while you are steering yourself
+    }
     // auto-accelerate; off the track the top speed drops and the car slows down
     const top = onTrack(car.x, car.y) ? MAX_SPEED : OFF_SPEED;
     if (car.speed < top) car.speed = Math.min(top, car.speed + ACCEL * dt);
     else car.speed = Math.max(top, car.speed - 260 * dt);
     car.x += Math.cos(car.angle) * car.speed * dt;
     car.y += Math.sin(car.angle) * car.speed * dt;
-    car.x = Math.max(12, Math.min(W - 12, car.x)); car.y = Math.max(12, Math.min(H - 12, car.y));
+    if (mode === "beginner") softWalls();
+    // never leave the canvas (the whole car stays visible)
+    car.x = Math.max(EDGE, Math.min(W - EDGE, car.x)); car.y = Math.max(EDGE, Math.min(H - EDGE, car.y));
+    // off the track for OFF_RESET seconds? Put the car back on the track, at the same point of the lap.
+    offTime = onTrack(car.x, car.y) ? 0 : offTime + dt;
+    if (offTime >= OFF_RESET) {
+      const c = centre(lapAngle(car.x, car.y));
+      car.x = c.x; car.y = c.y; car.angle = c.heading; car.speed = OFF_SPEED; offTime = 0;
+      toastUntil = raceTime + 1.2;
+    }
+    document.getElementById("toast").hidden = raceTime > toastUntil;
     // lap progress: add up how far round the oval we have travelled (clockwise = positive)
     const a = lapAngle(car.x, car.y);
     let d = a - lastAngle;
@@ -213,11 +278,23 @@
 
   // ===== Start, finish, best time =====
   const fmt = s => s.toFixed(2) + " s";
-  const getBest = () => { const v = parseFloat(localStorage.getItem(BEST_KEY)); return isFinite(v) ? v : null; };
+  const modeName = () => (mode === "pro" ? "Pro" : "Beginner");
+  const getBest = () => { const v = parseFloat(localStorage.getItem(BEST_KEYS[mode])); return isFinite(v) ? v : null; };
   function showBestOnStart() {
     const b = getBest();
-    document.getElementById("bestStart").textContent = b ? `Your best: ${fmt(b)}` : "";
+    document.getElementById("bestStart").textContent = `${modeName()} mode` + (b ? ` · your best: ${fmt(b)}` : "");
   }
+  function setMode(m) {
+    mode = m; localStorage.setItem(MODE_KEY, m);
+    document.getElementById("modeBeginner").className = m === "beginner" ? "on" : "";
+    document.getElementById("modePro").className = m === "pro" ? "on" : "";
+    // switching mode starts over (so each best time belongs to one mode)
+    state = "ready"; reset(); toastUntil = 0; showBestOnStart();
+    document.getElementById("resultPanel").hidden = true;
+    document.getElementById("startPanel").hidden = false;
+  }
+  document.getElementById("modeBeginner").onclick = () => setMode("beginner");
+  document.getElementById("modePro").onclick = () => setMode("pro");
   function start() {
     reset(); state = "racing";
     document.getElementById("startPanel").hidden = true;
@@ -228,9 +305,10 @@
     const mine = Math.round(raceTime * 100) / 100, gap = mine - GHOST_LAP;
     let best = getBest();
     const newBest = best === null || mine < best;           // only a faster lap counts as a new best
-    if (newBest) { best = mine; localStorage.setItem(BEST_KEY, mine.toFixed(2)); }
+    if (newBest) { best = mine; localStorage.setItem(BEST_KEYS[mode], mine.toFixed(2)); }
     document.getElementById("resultTitle").textContent = gap < 0 ? "Pole position! 🏁" : "Lap done!";
     document.getElementById("rMine").textContent = fmt(mine);
+    document.getElementById("rBestLabel").textContent = `Your best (${modeName()})`;
     document.getElementById("rGhost").textContent = fmt(GHOST_LAP);
     const gapEl = document.getElementById("rGap");
     gapEl.textContent = (gap < 0 ? "−" : "+") + Math.abs(gap).toFixed(2) + " s";
@@ -267,9 +345,10 @@
 
   // For automatic tests only: read-only view of the car and the lap.
   window.__game = { get state() { return state; }, get car() { return car; }, get progress() { return progress; },
+                    get mode() { return mode; }, get offTime() { return offTime; },
                     onTrack, CX, CY, RX, RY };
 
-  reset(); showBestOnStart(); requestAnimationFrame(loop);
+  setMode(mode); requestAnimationFrame(loop);
 </script>
 </body>
 </html>
