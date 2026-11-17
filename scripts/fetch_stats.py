@@ -25,6 +25,8 @@ PAUSE = 1.5          # seconds between requests (limit is 4 per second - we do u
 PAGE = 100           # rows per page for race results
 TIMEOUT = 30
 HEADERS = {"User-Agent": "f1-news-daily-stats-robot (runs every 6 hours)"}
+# Circuits the "Beat the pole lap" game (game.html) has a track outline for (Jolpica circuit ids).
+GAME_CIRCUITS = ["vegas"]
 
 DATA_DIR = Path(os.environ.get("F1_DATA_DIR") or Path(__file__).resolve().parent.parent / "data")
 OUT = DATA_DIR / "stats.json"
@@ -135,11 +137,68 @@ def fetch_results():
     return out, total
 
 
+def lap_seconds(text):
+    """'1:47.934' -> 107.934 (seconds)."""
+    if not text:
+        return None
+    mins, _, secs = text.rpartition(":")
+    return round((int(mins) if mins else 0) * 60 + float(secs), 3)
+
+
+def pole_row(race):
+    """The pole sitter of one qualifying session, with their best time (Q3, else Q2, else Q1)."""
+    q = race["QualifyingResults"][0]
+    session, time_text = next(((k, q[k]) for k in ("Q3", "Q2", "Q1") if q.get(k)), (None, None))
+    return {
+        "season": race["season"], "round": int(race["round"]), "race": race["raceName"],
+        "circuit_id": race["Circuit"]["circuitId"], "circuit": race["Circuit"]["circuitName"],
+        "driver": driver_name(q["Driver"]), "code": q["Driver"].get("code"),
+        "team": q["Constructor"]["name"], "session": session,
+        "time": time_text, "seconds": lap_seconds(time_text),
+    }
+
+
+def fetch_poles():
+    """This season's pole position for every round run so far (qualifying position 1)."""
+    data = get("current/qualifying/1/", {"limit": PAGE})
+    return [pole_row(r) for r in data["RaceTable"]["Races"]]
+
+
+def fetch_next_race():
+    """The next Grand Prix on this season's calendar (today or later), or None after the last race."""
+    data = get("current/", {"limit": PAGE})
+    today = datetime.now(timezone.utc).date().isoformat()
+    for r in data["RaceTable"]["Races"]:
+        if r["date"] >= today:
+            c = r["Circuit"]
+            return {"season": r["season"], "round": int(r["round"]), "race": r["raceName"], "date": r["date"],
+                    "qualifying_date": (r.get("Qualifying") or {}).get("date"),
+                    "circuit_id": c["circuitId"], "circuit": c["circuitName"],
+                    "locality": c["Location"].get("locality"), "country": c["Location"].get("country")}
+    return None
+
+
+def fetch_game_poles():
+    """For each game circuit: the MOST RECENT pole there (this year's once qualifying has run,
+    otherwise the latest earlier year)."""
+    out = {}
+    for cid in GAME_CIRCUITS:
+        data = get(f"circuits/{cid}/qualifying/1/", {"limit": PAGE})
+        races = data["RaceTable"]["Races"]
+        if races:
+            latest = max(races, key=lambda r: (int(r["season"]), int(r["round"])))
+            out[cid] = pole_row(latest)
+    return out
+
+
 def main():
     try:
         season, rnd, drivers = fetch_driver_standings()
         teams = fetch_constructor_standings()
         races, total_rows = fetch_results()
+        poles = fetch_poles()
+        next_race = fetch_next_race()
+        game_poles = fetch_game_poles()
     except Exception as e:  # network or API problem: keep yesterday's file
         print(f"Could not get the stats ({e}). Keeping the old data/stats.json.")
         return 0   # do not fail the robot - the news must still update
@@ -162,6 +221,11 @@ def main():
         "driver_standings": drivers,
         "constructor_standings": teams,
         "races": races,
+        # Qualifying: pole position per round this season, the next race, and (for the game)
+        # the most recent pole at each game circuit. "seconds" = the lap time in seconds.
+        "poles": poles,
+        "next_race": next_race,
+        "game_poles": game_poles,
     }
 
     old = {}
@@ -175,7 +239,8 @@ def main():
     DATA_DIR.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(stats, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     print(f"Saved stats: season {season}, after round {rnd} ({stats['last_race']}), "
-          f"{len(drivers)} drivers, {len(teams)} teams, {len(races)} races. {_calls} requests.")
+          f"{len(drivers)} drivers, {len(teams)} teams, {len(races)} races, {len(poles)} poles, "
+          f"next race: {(next_race or {}).get('race')}. {_calls} requests.")
     return 0
 
 
