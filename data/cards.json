@@ -1,12 +1,177 @@
 {
- "updated": "2026-11-16T23:57:55Z",
+ "updated": "2026-11-17T07:14:21Z",
  "model": "anthropic/claude-haiku-5.5",
  "headline_of_the_day": {
   "date": "2026-11-17",
-  "text": "Kimi Antonelli's 2026 title win dominates today's F1 news, with Toto Wolff revealing Christian Horner's private message and predicting Antonelli will become more popular in Italy than Michael Schumacher.",
-  "written": "2026-11-16T23:57:55Z"
+  "text": "Kimi Antonelli's 2026 title win dominates the day, with Toto Wolff revealing Christian Horner's private message and predicting Antonelli will become more popular in Italy than Schumacher.",
+  "written": "2026-11-17T07:14:21Z"
  },
  "cards": [
+  {
+   "id": "c3f75be0a",
+   "created": "2026-11-17T07:14:21Z",
+   "stories": [
+    {
+     "title": "Verstappen: Antonelli's records won't motivate me to stay in F1",
+     "source": "ESPN",
+     "date": "2026-11-17T07:05:29Z",
+     "link": "https://www.espn.com/f1/story/_/id/50320342/max-verstappen-f1-kimi-antonelli-exclusive",
+     "snippet": "Max Verstappen has insisted he doesn't need Kimi Antonelli chasing his records to motivate him to stay in Formula 1, saying only he will make the decision to walk away."
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Verstappen says Antonelli's records won't keep him in F1",
+   "summary": "Max Verstappen says he does not need Kimi Antonelli chasing his records to stay motivated in Formula 1. He says only he will decide when to walk away.",
+   "disagreement": "",
+   "label": "Reported",
+   "updated": "2026-11-17T07:14:21Z"
+  },
+  {
+   "id": "c14d978fd",
+   "created": "2026-11-17T07:14:21Z",
+   "stories": [
+    {
+     "title": "Lewis Hamilton grilled on key Project 679 decision as Ferrari steps up F1 2027 plans",
+     "source": "PlanetF1",
+     "date": "2026-11-17T07:01:06Z",
+     "link": "https://www.planetf1.com/news/lewis-hamilton-ferrari-project-679-decision",
+     "snippet": "Ferrari has a decision to make on Project 679."
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Hamilton quizzed on Project 679 as Ferrari plans for 2027",
+   "summary": "Lewis Hamilton was asked about a key Project 679 decision. Ferrari has a decision to make on the project as it steps up its 2027 plans.",
+   "disagreement": "",
+   "label": "Reported",
+   "updated": "2026-11-17T07:14:21Z"
+  },
+  {
+   "id": "c417d9865",
+   "created": "2026-11-16T14:40:58Z",
+   "stories": [
+    {
+     "title": "Ferrari consider major Hamilton and Leclerc shake-up for 2027",
+     "source": "GPFans",
+     "date": "2026-11-16T07:59:00Z",
+     "link": "https://www.gpfans.com/en/f1-news/1092929/ferrari-f1-shakeup-2027-lewis-hamilton-charles-leclerc/",
+     "snippet": "Ferrari are reportedly considering choosing a lead driver in 2027 as the tension between Lewis Hamilton and Charles Leclerc continues to simmer inside Maranello."
+    },
+    {
+     "title": "Ferrari consider Hamilton-Leclerc choice, Brown lifts lid on 'toxic' McLaren - F1 News Today",
+     "source": "GPFans",
+     "date": "2026-11-17T06:30:00Z",
+     "link": "https://www.gpfans.com/en/f1-news/1092972/f1-news-today-ferrari-hamilton-leclerc-shakeup-zak-brown-toxic-mclaren/",
+     "snippet": "Ferrari are reportedly considering choosing a lead driver in 2027 as the tension between Lewis Hamilton and Charles Leclerc continues to simmer inside Maranello."
+    }
+   ],
+   "merge_reasons": [
+    {
+     "time": "2026-11-17T07:14:21Z",
+     "added": [
+      "https://www.gpfans.com/en/f1-news/1092972/f1-news-today-ferrari-hamilton-leclerc-shakeup-zak-brown-toxic-mclaren/"
+     ],
+     "joined_existing": true,
+     "reason": "The GPFans roundup and the existing GPFans report both cover Ferrari considering a lead driver for 2027."
+    }
+   ],
+   "title": "Ferrari reportedly considering a lead driver for 2027",
+   "summary": "Ferrari are reportedly considering choosing a lead driver for 2027 as tension between Lewis Hamilton and Charles Leclerc continues. A GPFans roundup also covered Zak Brown's comments on McLaren.",
+   "disagreement": "",
+   "label": "Rumour",
+   "updated": "2026-11-17T07:14:21Z"
+  },
+  {
+   "id": "ce68e50e0",
+   "created": "2026-11-17T07:14:21Z",
+   "stories": [
+    {
+     "title": "Brown reveals Djokovic advice that will help McLaren after 'underperformance'",
+     "source": "Sky Sports",
+     "date": "2026-11-17T06:00:00Z",
+     "link": "https://www.skysports.com/f1/news/12433/13612940/mclaren-chief-zak-brown-says-advice-from-novak-djokovic-will-help-f1-team-bounce-back-from-losing-titles-to-mercedes",
+     "snippet": "McLaren chief executive Zak Brown says he is using advice from Novak Djokovic to aid his team's attempt to bounce back after losing both of their Formula 1 titles to Mercedes this season."
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Brown says Djokovic advice will help McLaren bounce back",
+   "summary": "McLaren chief executive Zak Brown says he is using advice from Novak Djokovic to help the team recover from underperformance. McLaren lost both of its titles to Mercedes this season.",
+   "disagreement": "",
+   "label": "Reported",
+   "updated": "2026-11-17T07:14:21Z"
+  },
+  {
+   "id": "ccd2269f9",
+   "created": "2026-11-16T14:40:58Z",
+   "stories": [
+    {
+     "title": "Kimi Antonelli Mercedes salary in spotlight after Russell defeated – report",
+     "source": "PlanetF1",
+     "date": "2026-11-16T05:58:44Z",
+     "link": "https://www.planetf1.com/news/kimi-antonelli-mercedes-salary-george-russell",
+     "snippet": "Kimi Antonelli won the F1 2026 title, but George Russell's Mercedes earnings may sting."
+    },
+    {
+     "title": "‘No one has to worry about him’ – Toto Wolff responds to Kimi Antonelli salary question",
+     "source": "PlanetF1",
+     "date": "2026-11-17T05:54:06Z",
+     "link": "https://www.planetf1.com/news/kimi-antonelli-salary-toto-wolff-mercedes-world-champion-reward",
+     "snippet": "\"I can say this much: no one has to worry about him financially...\""
+    }
+   ],
+   "merge_reasons": [
+    {
+     "time": "2026-11-17T07:14:21Z",
+     "added": [
+      "https://www.planetf1.com/news/kimi-antonelli-salary-toto-wolff-mercedes-world-champion-reward"
+     ],
+     "joined_existing": true,
+     "reason": "Wolff's response and the PlanetF1 report both address the same question about Antonelli's Mercedes salary."
+    }
+   ],
+   "title": "Antonelli's salary in spotlight; Wolff says no one must worry",
+   "summary": "A PlanetF1 report put Kimi Antonelli's Mercedes salary in the spotlight after the title race. Toto Wolff responded that no one has to worry about Antonelli financially.",
+   "disagreement": "",
+   "label": "Reported",
+   "updated": "2026-11-17T07:14:21Z"
+  },
+  {
+   "id": "c762ca0e9",
+   "created": "2026-11-17T07:14:21Z",
+   "stories": [
+    {
+     "title": "Franco Colapinto makes Alpine admission ahead of Las Vegas GP",
+     "source": "PlanetF1",
+     "date": "2026-11-17T04:03:56Z",
+     "link": "https://www.planetf1.com/alpine/franco-colapinto-alpine-upgrades",
+     "snippet": "Colapinto makes Alpine admission."
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Colapinto makes Alpine admission ahead of Las Vegas GP",
+   "summary": "Franco Colapinto has made an admission about Alpine ahead of the Las Vegas Grand Prix. The report gives no further detail in the snippet.",
+   "disagreement": "",
+   "label": "Reported",
+   "updated": "2026-11-17T07:14:21Z"
+  },
+  {
+   "id": "c003d9ff5",
+   "created": "2026-11-17T07:14:21Z",
+   "stories": [
+    {
+     "title": "Oscar Piastri addresses F1 2025 hangover as McLaren struggles continue",
+     "source": "PlanetF1",
+     "date": "2026-11-17T00:02:40Z",
+     "link": "https://www.planetf1.com/news/oscar-piastri-mclaren-2025-f1-title-collapse-mistakes",
+     "snippet": "Piastri has yet to win a Grand Prix this season."
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Piastri addresses F1 2025 hangover as McLaren struggles continue",
+   "summary": "Oscar Piastri has addressed the effects of F1 2025 as McLaren's struggles continue. He has yet to win a Grand Prix this season.",
+   "disagreement": "",
+   "label": "Reported",
+   "updated": "2026-11-17T07:14:21Z"
+  },
   {
    "id": "c5342c81c",
    "created": "2026-11-15T12:28:09Z",
@@ -66,6 +231,13 @@
      "date": "2026-11-16T23:57:48Z",
      "link": "https://www.formula1.com/en/latest/article/what-time-is-the-formula-1-2026-las-vegas-grand-prix-and-how-can-i-watch-it.5klYngWOQMjROxZ3nEp5Pr",
      "snippet": "Here are all the timings – along with all the additional information you need – for the 21st Grand Prix weekend of the 2026 season from Las Vegas."
+    },
+    {
+     "title": "Las Vegas Grand Prix 2026: Race start time, how to watch, full schedule, predictions",
+     "source": "ESPN",
+     "date": "2026-11-14T15:19:08Z",
+     "link": "https://www.espn.com/f1/story/_/id/50389130/las-vegas-grand-prix-2026-race-f1-start-s-how-watch-schedule-tv-channel-live-stream-predictions",
+     "snippet": "Formula 1 is back under the bright lights of Las Vegas for one of the most extravagant weekends on the calendar."
     }
    ],
    "merge_reasons": [
@@ -97,13 +269,21 @@
      ],
      "joined_existing": true,
      "reason": "All of these are schedule and viewing guides for the same 2026 Las Vegas Grand Prix weekend."
+    },
+    {
+     "time": "2026-11-17T07:14:21Z",
+     "added": [
+      "https://www.espn.com/f1/story/_/id/50389130/las-vegas-grand-prix-2026-race-f1-start-s-how-watch-schedule-tv-channel-live-stream-predictions"
+     ],
+     "joined_existing": true,
+     "reason": "The ESPN preview and the other schedule guides all cover the 2026 Las Vegas Grand Prix start times and viewing details."
     }
    ],
-   "title": "Las Vegas Grand Prix: UK start times and how to watch",
-   "summary": "Several guides set out the Las Vegas Grand Prix start time, which is 4am UK time on Sunday 22 November, or 8pm Saturday local time. They also cover the full weekend schedule and how to follow the race on TV and streaming.",
+   "title": "Las Vegas Grand Prix 2026: UK start times and how to watch",
+   "summary": "Several guides list the UK and Las Vegas race start times, TV coverage and full weekend schedule. ESPN adds its race start time, how-to-watch details and predictions.",
    "disagreement": "",
    "label": "Opinion",
-   "updated": "2026-11-16T23:57:55Z"
+   "updated": "2026-11-17T07:14:21Z"
   },
   {
    "id": "cda76024c",
@@ -1184,25 +1364,6 @@
    "updated": "2026-11-16T14:40:58Z"
   },
   {
-   "id": "c417d9865",
-   "created": "2026-11-16T14:40:58Z",
-   "stories": [
-    {
-     "title": "Ferrari consider major Hamilton and Leclerc shake-up for 2027",
-     "source": "GPFans",
-     "date": "2026-11-16T07:59:00Z",
-     "link": "https://www.gpfans.com/en/f1-news/1092929/ferrari-f1-shakeup-2027-lewis-hamilton-charles-leclerc/",
-     "snippet": "Ferrari are reportedly considering choosing a lead driver in 2027 as the tension between Lewis Hamilton and Charles Leclerc continues to simmer inside Maranello."
-    }
-   ],
-   "merge_reasons": [],
-   "title": "Ferrari reportedly considering a lead driver for 2027",
-   "summary": "GPFans reports that Ferrari are considering choosing a lead driver for 2027. The report links this to the continuing tension between Lewis Hamilton and Charles Leclerc.",
-   "disagreement": "",
-   "label": "Rumour",
-   "updated": "2026-11-16T14:40:58Z"
-  },
-  {
    "id": "cff6e454c",
    "created": "2026-11-16T14:40:58Z",
    "stories": [
@@ -1212,14 +1373,30 @@
      "date": "2026-11-16T07:49:57Z",
      "link": "https://www.planetf1.com/news/final-sector-podcast-f1-imola-decision-makes-no-sense",
      "snippet": "Should Imola have been stood down?"
+    },
+    {
+     "title": "F1 season set to finish in Middle East as Imola backup plan ruled out",
+     "source": "ESPN",
+     "date": "2026-11-10T15:01:30Z",
+     "link": "https://www.espn.com/f1/story/_/id/50442406/qatar-abu-dhabi-imola-f1-2026",
+     "snippet": "Formula 1 has told Imola it will not be required to hold a season-ending race, meaning the plan to finish 2026 in Qatar and Abh Dhabi is now set in stone."
     }
    ],
-   "merge_reasons": [],
-   "title": "Podcast says Imola decision 'makes no sense'",
-   "summary": "The PlanetF1 Final Sector podcast questions whether Imola should have been stood down. The hosts say the decision makes no sense.",
+   "merge_reasons": [
+    {
+     "time": "2026-11-17T07:14:21Z",
+     "added": [
+      "https://www.espn.com/f1/story/_/id/50442406/qatar-abu-dhabi-imola-f1-2026"
+     ],
+     "joined_existing": true,
+     "reason": "The ESPN report on F1 ruling out an Imola season-ending race and the podcast on the Imola decision both cover the same decision."
+    }
+   ],
+   "title": "F1 rules out Imola backup; 2026 season finishes in Middle East",
+   "summary": "Formula 1 has told Imola it will not be required to hold a season-ending race, so 2026 will finish in Qatar and Abu Dhabi. A Final Sector podcast argued the Imola decision makes no sense.",
    "disagreement": "",
-   "label": "Reported",
-   "updated": "2026-11-16T14:40:58Z"
+   "label": "Confirmed",
+   "updated": "2026-11-17T07:14:21Z"
   },
   {
    "id": "c3a6011a1",
@@ -1312,25 +1489,6 @@
    "merge_reasons": [],
    "title": "Wolff says Mercedes could back Russell for second in standings",
    "summary": "Toto Wolff says Mercedes could prioritise George Russell over the final three races. The aim would be to help him finish second in the Drivers' Championship.",
-   "disagreement": "",
-   "label": "Reported",
-   "updated": "2026-11-16T14:40:58Z"
-  },
-  {
-   "id": "ccd2269f9",
-   "created": "2026-11-16T14:40:58Z",
-   "stories": [
-    {
-     "title": "Kimi Antonelli Mercedes salary in spotlight after Russell defeated – report",
-     "source": "PlanetF1",
-     "date": "2026-11-16T05:58:44Z",
-     "link": "https://www.planetf1.com/news/kimi-antonelli-mercedes-salary-george-russell",
-     "snippet": "Kimi Antonelli won the F1 2026 title, but George Russell's Mercedes earnings may sting."
-    }
-   ],
-   "merge_reasons": [],
-   "title": "Antonelli's salary draws attention after Russell's title defeat",
-   "summary": "A PlanetF1 report says Kimi Antonelli's 2026 title win has prompted attention to George Russell's Mercedes earnings. The report frames Russell's pay as a possible source of sting.",
    "disagreement": "",
    "label": "Reported",
    "updated": "2026-11-16T14:40:58Z"
@@ -1456,14 +1614,30 @@
      "date": "2026-11-15T20:45:00Z",
      "link": "https://www.gpfans.com/en/f1-news/1092930/f1-oscar-piastri-split-mark-webber-claim-guenther-steiner/",
      "snippet": "The split between Oscar Piastri and manager Mark Webber was one of the biggest stories of the F1 week, and former team principal Guenther Steiner has provided an intriguing take on why it happened."
+    },
+    {
+     "title": "McLaren's Piastri splits from ex-F1 driver Webber's management team",
+     "source": "ESPN",
+     "date": "2026-11-09T10:22:31Z",
+     "link": "https://www.espn.com/f1/story/_/id/50431169/oscar-piastri-mark-webber-f1-mclaren",
+     "snippet": "McLaren driver Oscar Piastri has split with the management team headed by ex-Formula 1 driver Mark Webber."
     }
    ],
-   "merge_reasons": [],
-   "title": "Steiner offers take on Piastri and Webber split",
-   "summary": "GPFans reports that former Haas boss Guenther Steiner has given his view on the split between Oscar Piastri and manager Mark Webber. The article presents Steiner's explanation of why the split happened.",
+   "merge_reasons": [
+    {
+     "time": "2026-11-17T07:14:21Z",
+     "added": [
+      "https://www.espn.com/f1/story/_/id/50431169/oscar-piastri-mark-webber-f1-mclaren"
+     ],
+     "joined_existing": true,
+     "reason": "The ESPN report of the Piastri split and the GPFans piece on Steiner's take both cover the same Piastri and Webber management split."
+    }
+   ],
+   "title": "Piastri splits from Mark Webber's management; Steiner offers take",
+   "summary": "Oscar Piastri has split with the management team headed by Mark Webber. Former team principal Guenther Steiner has offered his view on why the split happened.",
    "disagreement": "",
    "label": "Reported",
-   "updated": "2026-11-15T23:44:04Z"
+   "updated": "2026-11-17T07:14:21Z"
   },
   {
    "id": "ccc658bfd",
@@ -1617,6 +1791,13 @@
      "date": "2026-11-15T18:45:00Z",
      "link": "https://www.gpfans.com/en/f1-news/1092931/f1-liam-lawson-father-admission-new-contract-racing-bulls/",
      "snippet": "Liam Lawson's father has responded with an emotional statement after the news that his son has finally signed a contract to race in F1 again in 2027."
+    },
+    {
+     "title": "Lawson and Lindblad to continue at Racing Bulls for 2027",
+     "source": "ESPN",
+     "date": "2026-11-12T15:40:18Z",
+     "link": "https://www.espn.com/f1/story/_/id/50389094/liam-lawson-arvid-lindblad-racing-bulls-formula-1",
+     "snippet": "Liam Lawson will stay in Formula 1 alongside teammate Arvid Lindblad at Racing Bulls in 2027, ending weeks of speculation about the New Zealander's future."
     }
    ],
    "merge_reasons": [
@@ -1636,12 +1817,20 @@
      ],
      "joined_existing": true,
      "reason": "The Motorsport.com column repeats an article already in the card, and Lawson's father's reaction responds to the same Racing Bulls 2027 signing."
+    },
+    {
+     "time": "2026-11-17T07:14:21Z",
+     "added": [
+      "https://www.espn.com/f1/story/_/id/50389094/liam-lawson-arvid-lindblad-racing-bulls-formula-1"
+     ],
+     "joined_existing": true,
+     "reason": "The ESPN report and the Sky Sports report both cover Racing Bulls confirming Lawson and Lindblad for 2027."
     }
    ],
-   "title": "Racing Bulls confirm Lawson and Lindblad for 2027",
-   "summary": "Racing Bulls have confirmed Liam Lawson and Arvid Lindblad for the 2027 Formula 1 season. Commentary argues Red Bull should stop treating Lawson as a failure, and his father has responded emotionally to the news.",
+   "title": "Liam Lawson and Arvid Lindblad retained by Racing Bulls for 2027",
+   "summary": "Racing Bulls have confirmed Liam Lawson and Arvid Lindblad for the 2027 Formula 1 season. ESPN says the decision ends weeks of speculation about Lawson's future.",
    "disagreement": "",
-   "updated": "2026-11-15T19:32:36Z",
+   "updated": "2026-11-17T07:14:21Z",
    "label": "Confirmed"
   },
   {
@@ -2588,6 +2777,25 @@
    "label": "Confirmed"
   },
   {
+   "id": "c8d8f9f92",
+   "created": "2026-11-17T07:14:21Z",
+   "stories": [
+    {
+     "title": "How Antonelli overcame Russell, Ferrari to become F1's youngest champion",
+     "source": "ESPN",
+     "date": "2026-11-14T13:27:31Z",
+     "link": "https://www.espn.com/f1/story/_/id/50196394/how-kimi-antonelli-george-russell-ferrari-f1-youngest-champion",
+     "snippet": "How Kimi Antonelli overcame early setbacks, teammate George Russell and a Ferrari fightback to become Formula 1's youngest-ever world champion."
+    }
+   ],
+   "merge_reasons": [],
+   "title": "How Antonelli overcame Russell and Ferrari to become youngest champion",
+   "summary": "Kimi Antonelli overcame early setbacks, teammate George Russell and a Ferrari fightback to win the title. He became Formula 1's youngest-ever world champion.",
+   "disagreement": "",
+   "label": "Opinion",
+   "updated": "2026-11-17T07:14:21Z"
+  },
+  {
    "id": "cfd29317c",
    "created": "2026-11-14T23:33:49Z",
    "stories": [
@@ -3487,6 +3695,25 @@
    "updated": "2026-11-15T12:28:09Z"
   },
   {
+   "id": "c8ef7f13c",
+   "created": "2026-11-17T07:14:21Z",
+   "stories": [
+    {
+     "title": "Lewis Hamilton visits Gaza border: 'Let the aid trucks in'",
+     "source": "ESPN",
+     "date": "2026-11-12T13:09:42Z",
+     "link": "https://www.espn.com/f1/story/_/id/50389071/lewis-hamilton-gaza-israel",
+     "snippet": "Lewis Hamilton urged Israel to let aid trucks into Gaza after visiting the Rafah border this week, adding in a passionate post \"the past three years of Israel's genocide is appalling.\""
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Hamilton visits Gaza border and urges aid trucks be let in",
+   "summary": "Lewis Hamilton visited the Rafah border and urged Israel to let aid trucks into Gaza. In a post he said the past three years of Israel's actions are appalling.",
+   "disagreement": "",
+   "label": "Reported",
+   "updated": "2026-11-17T07:14:21Z"
+  },
+  {
    "id": "c424d4431",
    "created": "2026-11-15T12:28:09Z",
    "stories": [
@@ -3637,6 +3864,25 @@
    "updated": "2026-11-15T12:28:09Z"
   },
   {
+   "id": "ca702937a",
+   "created": "2026-11-17T07:14:21Z",
+   "stories": [
+    {
+     "title": "All-time F1 drivers' and constructors' championship winners",
+     "source": "ESPN",
+     "date": "2026-11-10T01:38:18Z",
+     "link": "https://www.espn.com/auto/story/_/id/42230928/all-f1-drivers-constructors-championship-winners",
+     "snippet": "The drivers' championship and constructors' championship are top prizes each Formula 1 season. Check out all-time winners now."
+    }
+   ],
+   "merge_reasons": [],
+   "title": "All-time F1 drivers' and constructors' championship winners",
+   "summary": "A list of all-time winners of the Formula 1 drivers' and constructors' championships. It is a reference roundup.",
+   "disagreement": "",
+   "label": "Opinion",
+   "updated": "2026-11-17T07:14:21Z"
+  },
+  {
    "id": "cf6e82f46",
    "created": "2026-11-15T12:28:09Z",
    "stories": [
@@ -3673,6 +3919,63 @@
    "disagreement": "",
    "label": "Reported",
    "updated": "2026-11-15T12:28:09Z"
+  },
+  {
+   "id": "c8fe5e384",
+   "created": "2026-11-17T07:14:21Z",
+   "stories": [
+    {
+     "title": "Mercedes new era of dominance? Wolff warns of fight to retain constructors'",
+     "source": "ESPN",
+     "date": "2026-11-09T10:45:48Z",
+     "link": "https://www.espn.com/f1/story/_/id/50431168/toto-wolff-mercedes-f1-2027",
+     "snippet": "Mercedes team principal Toto Wolff has played down the suggestion his team is about to embark on another period of dominance in Formula 1, and believes the battle for the 2027 title has already…"
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Wolff plays down Mercedes dominance talk, warns of 2027 fight",
+   "summary": "Toto Wolff has downplayed the suggestion that Mercedes is about to enter another period of dominance. He believes the battle for the 2027 title has already started.",
+   "disagreement": "",
+   "label": "Reported",
+   "updated": "2026-11-17T07:14:21Z"
+  },
+  {
+   "id": "c5e14dca8",
+   "created": "2026-11-17T07:14:21Z",
+   "stories": [
+    {
+     "title": "Wet weather mastery by Norris, Verstappen makes Brazil F1's must-see race",
+     "source": "ESPN",
+     "date": "2026-11-09T01:59:18Z",
+     "link": "https://www.espn.com/racing/f1/story/_/id/50427335/wet-weather-mastery-lando-norris-max-verstappen-make-sao-paulo-brazil-f1-see-race",
+     "snippet": "Max Verstappen is known for excelling in the rain, but in winning Sunday's wet Brazilian Grand Prix, Lando Norris proved he deserves accolades, too."
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Norris and Verstappen's wet-weather mastery makes Brazil must-see race",
+   "summary": "Lando Norris won the wet Brazilian Grand Prix, which ESPN describes as a must-see race. The piece highlights Norris's rain performance alongside Verstappen's known wet-weather skill.",
+   "disagreement": "",
+   "label": "Opinion",
+   "updated": "2026-11-17T07:14:21Z"
+  },
+  {
+   "id": "caf7c433e",
+   "created": "2026-11-17T07:14:21Z",
+   "stories": [
+    {
+     "title": "Verstappen's P21 to P2: Red Bull a 'disaster to drive' in São Paulo",
+     "source": "ESPN",
+     "date": "2026-11-08T22:22:26Z",
+     "link": "https://www.espn.com/f1/story/_/id/50389072/max-verstappen-sao-paulo-grand-prix-brazil-formula-1",
+     "snippet": "Despite racing from 21st on the grid to second at the checkered flag, Max Verstappen said he is convinced more was possible at the São Paulo Grand Prix had his Red Bull not been \"a disaster to drive.\""
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Verstappen says Red Bull was a disaster to drive in Brazil",
+   "summary": "Max Verstappen climbed from 21st on the grid to second at the São Paulo Grand Prix. He said he believes more was possible had his Red Bull not been a disaster to drive.",
+   "disagreement": "",
+   "label": "Reported",
+   "updated": "2026-11-17T07:14:21Z"
   },
   {
    "id": "c9a1dbde2",
@@ -3751,6 +4054,44 @@
    "updated": "2026-11-15T12:28:09Z"
   },
   {
+   "id": "c336f1e34",
+   "created": "2026-11-17T07:14:21Z",
+   "stories": [
+    {
+     "title": "Antonelli shuns number one on car, 'staying humble'",
+     "source": "ESPN",
+     "date": "2026-11-07T11:27:11Z",
+     "link": "https://www.espn.com/f1/story/_/id/50361788/kimi-antonelli-f1-mercedes-number-one-championship-win",
+     "snippet": "Kimi Antonelli confirmed he will not use the number one on his car in 2026, saying keeping number 12 will be important for \"staying humble\" as reigning world champion."
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Antonelli will not use number one on car, citing humility",
+   "summary": "Kimi Antonelli confirmed he will not use the number one on his car in 2026. He says keeping number 12 is important for staying humble as reigning champion.",
+   "disagreement": "",
+   "label": "Reported",
+   "updated": "2026-11-17T07:14:21Z"
+  },
+  {
+   "id": "c05ef0db0",
+   "created": "2026-11-17T07:14:21Z",
+   "stories": [
+    {
+     "title": "Hamilton: Kimi's title the 'highlight of my year'",
+     "source": "ESPN",
+     "date": "2026-11-07T11:27:11Z",
+     "link": "https://www.espn.com/f1/story/_/id/50367782/lewis-hamilton-kimi-antonelli-title-mercedes",
+     "snippet": "Lewis Hamilton has said watching his Mercedes successor Kimi Antonelli win his first world championship was the \"highlight\" of his Formula 1 season."
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Hamilton says Antonelli's title was highlight of his year",
+   "summary": "Lewis Hamilton said watching Kimi Antonelli win his first world championship was the highlight of his Formula 1 season. Antonelli succeeded Hamilton at Mercedes.",
+   "disagreement": "",
+   "label": "Reported",
+   "updated": "2026-11-17T07:14:21Z"
+  },
+  {
    "id": "c3e2ee348",
    "created": "2026-11-15T12:28:09Z",
    "stories": [
@@ -3770,6 +4111,120 @@
    "updated": "2026-11-15T12:28:09Z"
   },
   {
+   "id": "cce033974",
+   "created": "2026-11-17T07:14:21Z",
+   "stories": [
+    {
+     "title": "Haas confirm Ocon done for season after team boss row",
+     "source": "ESPN",
+     "date": "2026-11-05T10:25:36Z",
+     "link": "https://www.espn.com/f1/story/_/id/50371747/esteban-ocon-haas-f1-aayo-komatsu",
+     "snippet": "Haas has confirmed Esteban Ocon will not race for them again in 2026 after his highly publicised row with team boss Aayo Komatsu."
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Haas confirm Esteban Ocon will not race again in 2026",
+   "summary": "Haas has confirmed Esteban Ocon will not race for the team again this season. The decision follows a highly publicised row with team boss Aayo Komatsu.",
+   "disagreement": "",
+   "label": "Confirmed",
+   "updated": "2026-11-17T07:14:21Z"
+  },
+  {
+   "id": "c986902c6",
+   "created": "2026-11-17T07:14:21Z",
+   "stories": [
+    {
+     "title": "Antonelli is F1 champion. So where is his trophy?",
+     "source": "ESPN",
+     "date": "2026-11-05T10:25:36Z",
+     "link": "https://www.espn.com/f1/story/_/id/50354613/kimi-antonelli-f1-champion-why-trophy-2026",
+     "snippet": "Kimi Antonelli is F1 world champion, but he won't get his trophy until December. Why does the sport still deny its champions their crowning moment?"
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Antonelli is F1 champion but his trophy only comes in December",
+   "summary": "Kimi Antonelli is the 2026 F1 world champion but will not receive his trophy until December. ESPN questions why the sport delays champions' crowning moment.",
+   "disagreement": "",
+   "label": "Opinion",
+   "updated": "2026-11-17T07:14:21Z"
+  },
+  {
+   "id": "c5e4ebf59",
+   "created": "2026-11-17T07:14:21Z",
+   "stories": [
+    {
+     "title": "1980 F1 world champion Alan Jones dies aged 80",
+     "source": "ESPN",
+     "date": "2026-11-05T03:49:30Z",
+     "link": "https://www.espn.com/f1/story/_/id/50384560/1980-f1-world-champion-alan-jones-dies-aged-80",
+     "snippet": "Alan Jones, the 1980 Formula One world champion, has died, aged 80."
+    }
+   ],
+   "merge_reasons": [],
+   "title": "1980 F1 world champion Alan Jones dies aged 80",
+   "summary": "Alan Jones, the 1980 Formula One world champion, has died at the age of 80. ESPN reported the news.",
+   "disagreement": "",
+   "label": "Reported",
+   "updated": "2026-11-17T07:14:21Z"
+  },
+  {
+   "id": "c3e6f82aa",
+   "created": "2026-11-17T07:14:21Z",
+   "stories": [
+    {
+     "title": "Sergio Pérez's F1 second act: Red Bull regrets, redemption and a fresh start at Cadillac",
+     "source": "ESPN",
+     "date": "2026-10-29T10:19:21Z",
+     "link": "https://www.espn.com/f1/story/_/id/50310746/sergio-perez-f1-second-act-red-bull-regrets-cadillac-contract",
+     "snippet": "Sergio Pérez reflects on his Red Bull exit, finding happiness beyond F1 and rediscovering his love of racing as he prepares for his 300th grand prix."
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Sergio Pérez reflects on Red Bull exit and Cadillac fresh start",
+   "summary": "Sergio Pérez looks back on his Red Bull exit and his happiness beyond F1. He says he has rediscovered his love of racing ahead of his 300th grand prix.",
+   "disagreement": "",
+   "label": "Opinion",
+   "updated": "2026-11-17T07:14:21Z"
+  },
+  {
+   "id": "c7bb306a7",
+   "created": "2026-11-17T07:14:21Z",
+   "stories": [
+    {
+     "title": "F1 2027 driver lineups: From Hamilton to Verstappen, who has a seat - and who's out of contract?",
+     "source": "ESPN",
+     "date": "2026-10-23T09:43:42Z",
+     "link": "https://www.espn.com/f1/story/_/id/49515865/f1-2027-driver-lineups-lewis-hamilton-max-verstappen-seat-contract",
+     "snippet": "The 2026 rule changes threw Formula 1 into a new era of challenges and uncertainty, but the real moments of unpredictability are still to come."
+    }
+   ],
+   "merge_reasons": [],
+   "title": "F1 2027 driver lineups: who has a seat and who is out of contract",
+   "summary": "A look at the 2027 Formula 1 grid, covering who has a seat and who is out of contract. The piece comes after the 2026 rule changes.",
+   "disagreement": "",
+   "label": "Opinion",
+   "updated": "2026-11-17T07:14:21Z"
+  },
+  {
+   "id": "cf958e6ed",
+   "created": "2026-11-17T07:14:21Z",
+   "stories": [
+    {
+     "title": "Verstappen finishes 9th in GT World Challenge",
+     "source": "ESPN",
+     "date": "2026-10-23T09:09:31Z",
+     "link": "https://www.espn.com/f1/story/_/id/50203944/max-verstappen-clinches-top-10-finish-first-gt-world-challenge",
+     "snippet": "Max Verstappen fought back from 24th to ninth at the GT World Challenge after his hopes of a podium finish were derailed by a drive-through penalty."
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Verstappen finishes ninth at GT World Challenge after drive-through penalty",
+   "summary": "Max Verstappen recovered from 24th to ninth at the GT World Challenge. A drive-through penalty ended his hopes of a podium finish.",
+   "disagreement": "",
+   "label": "Confirmed",
+   "updated": "2026-11-17T07:14:21Z"
+  },
+  {
    "id": "cdbe4dc5e",
    "created": "2026-11-15T12:28:09Z",
    "stories": [
@@ -3787,6 +4242,42 @@
    "disagreement": "",
    "label": "Confirmed",
    "updated": "2026-11-15T12:28:09Z"
+  },
+  {
+   "id": "c84f7079f",
+   "created": "2026-11-17T07:14:21Z",
+   "stories": [
+    {
+     "title": "Rafael Câmara to Haas: How F1's next rookie could shake up Ferrari's future",
+     "source": "ESPN",
+     "date": "2026-10-19T14:27:26Z",
+     "link": "https://www.espn.com/f1/story/_/id/50148089/rafael-camara-haas-how-f1-next-rookie-shake-ferrari-future",
+     "snippet": "The arrival of Rafa Camara to Haas will give Ferrari an interesting conundrum for the future, writes ESPN's Nate Saunders."
+    },
+    {
+     "title": "Ferrari protege Câmara joins Haas for F1 2027",
+     "source": "ESPN",
+     "date": "2026-10-19T14:27:26Z",
+     "link": "https://www.espn.com/f1/story/_/id/50131330/rafael-camara-haas-completes-driver-line-2027-formula-1",
+     "snippet": "Brazilian sensation Rafael Câmara will replace Esteban Ocon at Haas in 2027, the team confirmed on Thursday."
+    }
+   ],
+   "merge_reasons": [
+    {
+     "time": "2026-11-17T07:14:21Z",
+     "added": [
+      "https://www.espn.com/f1/story/_/id/50148089/rafael-camara-haas-how-f1-next-rookie-shake-ferrari-future",
+      "https://www.espn.com/f1/story/_/id/50131330/rafael-camara-haas-completes-driver-line-2027-formula-1"
+     ],
+     "joined_existing": false,
+     "reason": "The ESPN analysis and the ESPN confirmation news both cover the same announcement that Câmara will join Haas for 2027."
+    }
+   ],
+   "title": "Rafael Câmara joins Haas for 2027, replacing Esteban Ocon",
+   "summary": "Brazilian driver Rafael Câmara will replace Esteban Ocon at Haas in 2027, the team confirmed on Thursday. ESPN also analysed what the arrival could mean for Ferrari's future.",
+   "disagreement": "",
+   "label": "Confirmed",
+   "updated": "2026-11-17T07:14:21Z"
   }
  ],
  "decisions": [
@@ -4484,6 +4975,81 @@
     }
    ],
    "reason": "A report about Hamilton's home search is unrelated to Wolff's comments on Russell's standings."
+  },
+  {
+   "time": "2026-11-17T07:14:21Z",
+   "items": [
+    {
+     "title": "Ferrari protege Câmara joins Haas for F1 2027",
+     "source": "ESPN",
+     "link": "https://www.espn.com/f1/story/_/id/50131330/rafael-camara-haas-completes-driver-line-2027-formula-1"
+    },
+    {
+     "card": "cf9b8daaa",
+     "title": "Haas names Rafael Camara for Las Vegas, Hirakawa in FP1"
+    }
+   ],
+   "reason": "The 2027 Câmara signing for Haas is a different announcement from the Las Vegas one-race driver line-up change."
+  },
+  {
+   "time": "2026-11-17T07:14:21Z",
+   "items": [
+    {
+     "title": "Haas confirm Ocon done for season after team boss row",
+     "source": "ESPN",
+     "link": "https://www.espn.com/f1/story/_/id/50371747/esteban-ocon-haas-f1-aayo-komatsu"
+    },
+    {
+     "card": "cf9b8daaa",
+     "title": "Haas names Rafael Camara for Las Vegas, Hirakawa in FP1"
+    }
+   ],
+   "reason": "Haas ending Ocon's 2026 season is a separate announcement from naming the driver for the Las Vegas Grand Prix."
+  },
+  {
+   "time": "2026-11-17T07:14:21Z",
+   "items": [
+    {
+     "title": "Oscar Piastri addresses F1 2025 hangover as McLaren struggles continue",
+     "source": "PlanetF1",
+     "link": "https://www.planetf1.com/news/oscar-piastri-mclaren-2025-f1-title-collapse-mistakes"
+    },
+    {
+     "card": "c331c62ce",
+     "title": "Piastri says his 2026 F1 season has been tougher than expected"
+    }
+   ],
+   "reason": "Both are Piastri interviews about a tough season, but the sources do not clearly show the same comments, so they stay apart."
+  },
+  {
+   "time": "2026-11-17T07:14:21Z",
+   "items": [
+    {
+     "title": "Wet weather mastery by Norris, Verstappen makes Brazil F1's must-see race",
+     "source": "ESPN",
+     "link": "https://www.espn.com/racing/f1/story/_/id/50427335/wet-weather-mastery-lando-norris-max-verstappen-make-sao-paulo-brazil-f1-see-race"
+    },
+    {
+     "card": "c61b8b67b",
+     "title": "McLaren highlights key trait behind Lando Norris's elite status"
+    }
+   ],
+   "reason": "The ESPN piece is a wet-race analysis about Norris and Verstappen, while the PlanetF1 story is a McLaren comment on Norris's Brazil performance."
+  },
+  {
+   "time": "2026-11-17T07:14:21Z",
+   "items": [
+    {
+     "title": "Brown reveals Djokovic advice that will help McLaren after 'underperformance'",
+     "source": "Sky Sports",
+     "link": "https://www.skysports.com/f1/news/12433/13612940/mclaren-chief-zak-brown-says-advice-from-novak-djokovic-will-help-f1-team-bounce-back-from-losing-titles-to-mercedes"
+    },
+    {
+     "card": "caccdbb2c",
+     "title": "Zak Brown describes McLaren's toxic environment before change"
+    }
+   ],
+   "reason": "Brown's Djokovic advice on bouncing back is a different topic from his earlier comments on McLaren's toxic past environment."
   }
  ],
  "processed": [
@@ -4646,6 +5212,27 @@
   "https://www.crash.net/motogp/news/1110106/1/watch-dani-pedrosa-race-ktm-motogp-bike-against-red-bull-f1-car-ice",
   "https://www.crash.net/motogp/news/1110108/1/buenos-aires-motogp-circuit-transformation-gathers-pace-f1-dream",
   "https://www.crash.net/motogp/news/1110135/1/australian-gp-boss-leave-role-weeks-after-final-motogp-race-phillip-island",
+  "https://www.espn.com/auto/story/_/id/42230928/all-f1-drivers-constructors-championship-winners",
+  "https://www.espn.com/f1/story/_/id/49515865/f1-2027-driver-lineups-lewis-hamilton-max-verstappen-seat-contract",
+  "https://www.espn.com/f1/story/_/id/50131330/rafael-camara-haas-completes-driver-line-2027-formula-1",
+  "https://www.espn.com/f1/story/_/id/50148089/rafael-camara-haas-how-f1-next-rookie-shake-ferrari-future",
+  "https://www.espn.com/f1/story/_/id/50196394/how-kimi-antonelli-george-russell-ferrari-f1-youngest-champion",
+  "https://www.espn.com/f1/story/_/id/50203944/max-verstappen-clinches-top-10-finish-first-gt-world-challenge",
+  "https://www.espn.com/f1/story/_/id/50310746/sergio-perez-f1-second-act-red-bull-regrets-cadillac-contract",
+  "https://www.espn.com/f1/story/_/id/50320342/max-verstappen-f1-kimi-antonelli-exclusive",
+  "https://www.espn.com/f1/story/_/id/50354613/kimi-antonelli-f1-champion-why-trophy-2026",
+  "https://www.espn.com/f1/story/_/id/50361788/kimi-antonelli-f1-mercedes-number-one-championship-win",
+  "https://www.espn.com/f1/story/_/id/50367782/lewis-hamilton-kimi-antonelli-title-mercedes",
+  "https://www.espn.com/f1/story/_/id/50371747/esteban-ocon-haas-f1-aayo-komatsu",
+  "https://www.espn.com/f1/story/_/id/50384560/1980-f1-world-champion-alan-jones-dies-aged-80",
+  "https://www.espn.com/f1/story/_/id/50389071/lewis-hamilton-gaza-israel",
+  "https://www.espn.com/f1/story/_/id/50389072/max-verstappen-sao-paulo-grand-prix-brazil-formula-1",
+  "https://www.espn.com/f1/story/_/id/50389094/liam-lawson-arvid-lindblad-racing-bulls-formula-1",
+  "https://www.espn.com/f1/story/_/id/50389130/las-vegas-grand-prix-2026-race-f1-start-s-how-watch-schedule-tv-channel-live-stream-predictions",
+  "https://www.espn.com/f1/story/_/id/50431168/toto-wolff-mercedes-f1-2027",
+  "https://www.espn.com/f1/story/_/id/50431169/oscar-piastri-mark-webber-f1-mclaren",
+  "https://www.espn.com/f1/story/_/id/50442406/qatar-abu-dhabi-imola-f1-2026",
+  "https://www.espn.com/racing/f1/story/_/id/50427335/wet-weather-mastery-lando-norris-max-verstappen-make-sao-paulo-brazil-f1-see-race",
   "https://www.fia.com/news/f1-2026-sao-paulo-grand-prix-post-race-press-conference-transcript",
   "https://www.fia.com/news/f1-norris-triumphs-sao-paulo-mercedes-secure-2026-constructors-championship",
   "https://www.fia.com/news/fabiana-ecclestone-leads-high-impact-agenda-brazil-focusing-road-safety-and-female-empowerment",
@@ -4704,6 +5291,7 @@
   "https://www.gpfans.com/en/f1-news/1092961/australian-gp-ceo-travis-auld-resigns-exciting-new-global-role/",
   "https://www.gpfans.com/en/f1-news/1092963/f1-lewis-hamilton-ferrari-revolution-problem-age-fred-vasseur/",
   "https://www.gpfans.com/en/f1-news/1092966/f1-lando-norris-major-deal-f2-contract-oliver-goethe-red-bull-ln4-fusion/",
+  "https://www.gpfans.com/en/f1-news/1092972/f1-news-today-ferrari-hamilton-leclerc-shakeup-zak-brown-toxic-mclaren/",
   "https://www.motorsport.com/f1/news/andrea-stella-wants-mclaren-to-finally-make-peace-with-las-vegas/10873819/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/ayrton-sennas-1994-williams-f1-car-heads-to-auction-with-6million-estimate/10874089/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/bruno-senna-reveals-plans-to-put-kimi-antonelli-behind-the-wheel-of-ayrton-sennas-f1-car/10873973/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
@@ -4779,6 +5367,7 @@
   "https://www.motorsport.com/f1/news/what-the-brazilian-gp-revealed-about-f1s-ability-to-cope-with-rain/10873679/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/williams-aston-martin-among-new-f1-liveries-for-las-vegas-gp-as-acura-replaces-honda/10874925/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/zak-brown-recalls-mclarens-very-toxic-environment-after-joining-team-in-2016/10874891/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+  "https://www.planetf1.com/alpine/franco-colapinto-alpine-upgrades",
   "https://www.planetf1.com/home-page/opinion-liam-lawson-to-mercedes",
   "https://www.planetf1.com/news/adrian-newey-christian-horner-red-bull-salary-book",
   "https://www.planetf1.com/news/adrian-newey-salary-mercedes-insider-michael-schumacher",
@@ -4803,10 +5392,12 @@
   "https://www.planetf1.com/news/kimi-antonelli-mercedes-salary-george-russell",
   "https://www.planetf1.com/news/kimi-antonelli-reveals-driver-who-might-cause-the-most-problems-in-f1-2027-title-defence",
   "https://www.planetf1.com/news/kimi-antonelli-salary-las-vegas-grand-prix",
+  "https://www.planetf1.com/news/kimi-antonelli-salary-toto-wolff-mercedes-world-champion-reward",
   "https://www.planetf1.com/news/lando-norris-f2-team-2027-driver",
   "https://www.planetf1.com/news/lewis-hamilton-causing-ferrari-saga-formula-1-sale",
   "https://www.planetf1.com/news/lewis-hamilton-causing-ferrari-tension-ralf-schumacher",
   "https://www.planetf1.com/news/lewis-hamilton-charles-leclerc-sportspro-2026-ranking",
+  "https://www.planetf1.com/news/lewis-hamilton-ferrari-project-679-decision",
   "https://www.planetf1.com/news/lewis-hamilton-leadership-questioned-max-verstappen-ferrari-solution",
   "https://www.planetf1.com/news/liam-lawson-mclaren-oscar-piastri-guenther-steiner",
   "https://www.planetf1.com/news/liam-lawson-next-max-verstappen-juan-pablo-montoya",
@@ -4820,6 +5411,7 @@
   "https://www.planetf1.com/news/michael-schumacher-mercedes-f1-worse-at-theory-nico-rosberg",
   "https://www.planetf1.com/news/nico-hulkenberg-fia-penalty-audi-f1-2026-brazilian-grand-prix",
   "https://www.planetf1.com/news/oscar-piastri-f1-2026-struggles",
+  "https://www.planetf1.com/news/oscar-piastri-mclaren-2025-f1-title-collapse-mistakes",
   "https://www.planetf1.com/news/red-bull-f1-2026-turnaround-revealed",
   "https://www.planetf1.com/news/toto-wolff-ron-dennis-frank-williams-f1-title-record",
   "https://www.racefans.net/2026/11/09/spotlight-fia-president-ben-sulayem-planning-to-remove-age-limits-for-office-holders/",
@@ -4866,6 +5458,7 @@
   "https://www.skysports.com/f1/news/12433/13611832/toto-wolff-says-mercedes-could-prioritise-george-russell-over-kimi-antonelli-in-final-races-of-2026-f1-season",
   "https://www.skysports.com/f1/news/12433/13612731/rafael-camara-haas-keep-brazilian-driver-as-oliver-bearmans-team-mate-for-las-vegas-gp-following-home-debut",
   "https://www.skysports.com/f1/news/12433/13612897/lewis-hamilton-says-work-improving-diversity-in-f1-nowhere-near-finished-as-mission-44-outlines-recommendations-for-further-change",
+  "https://www.skysports.com/f1/news/12433/13612940/mclaren-chief-zak-brown-says-advice-from-novak-djokovic-will-help-f1-team-bounce-back-from-losing-titles-to-mercedes",
   "https://www.skysports.com/football/news/12433/13611406/the-fast-and-the-curious-an-f1-podcast-with-greg-james-betty-glover-and-christian-hewgill",
   "https://www.the-race.com/business/how-madrid-f1-races-economic-impact-compares-to-barcelonas/",
   "https://www.the-race.com/extra/hamilton-loses-most-marketable-athlete-status-in-2026/",
