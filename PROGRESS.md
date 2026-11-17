@@ -547,3 +547,27 @@ Trend is plain code: rising = 2+ sources in 2 days; fading = nothing new 5 days;
 - Then test on the phone with `stats-test.html`.
 - Jolpica can lag behind official changes (e.g. the Leclerc Brazil penalty question: our 510 vs a
   512 seen on formula1.com). The answers always say "after round N" and the file's save time is in the tool data.
+
+## Session 13 — 17 Nov 2026: mini project "Beat the pole lap", Step 1
+
+### Done
+- New page `game.html` (separate from the dashboard; no other page changed), comic-strip style.
+- Top-down oval track on an HTML canvas: grey tarmac, red/white kerbs, navy outlines, chequered line.
+- Your car (red): speeds up by itself; steer with ← → on a laptop or hold the ◀ ▶ buttons on a phone.
+  Off the track the top speed drops from 160 to 40, so cutting corners does not pay.
+- See-through ghost car (yellow) drives a fixed pole lap of **10.30 s** (`GHOST_LAP` at the top of
+  the script — easy to change).
+- Timer on screen. At the finish line: your time, ghost time, the gap (green = faster), your best.
+  Best time is saved in the browser (`localStorage`, key `f1game_best`). "Try again" button.
+  (Laptop: Enter or Space also starts a lap.)
+- No AI, no sound, no new tools.
+
+### Tested (phone-sized screen, iPhone 13)
+- A test autopilot steered with the real ◀ ▶ buttons: full lap → "Pole position!", 9.72 s vs 10.30 s,
+  gap −0.58 s, best saved; "Try again" resets the timer and hides the results; best still shown after reload.
+- Steering off the track → speed drops to 40. No sideways scrolling, no errors.
+- First try: the ghost (12 s) was beaten by 2.3 s, so it was made faster (10.30 s); a tie no longer
+  counts as a "new" best.
+
+### Next ideas (Step 2+)
+- Countdown lights, a real F1-shaped track, lap splits, more ghosts (e.g. from real pole times).

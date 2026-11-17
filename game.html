@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>Beat the pole lap · F1 News Daily</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@600;700&family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    /* Comic-strip style (same colours as the news site) */
+    :root { --cream: #FFF8EC; --ink: #1D2340; --red: #E10600; --yellow: #F2B705;
+            --head: "Fredoka", system-ui, sans-serif; --body: "Nunito", system-ui, sans-serif; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--cream); color: var(--ink); font: 16px/1.4 var(--body); }
+    .wrap { max-width: 860px; margin: 0 auto; padding: 12px; }
+    header { display: flex; align-items: center; justify-content: space-between; gap: 10px; flex-wrap: wrap; margin-bottom: 12px; }
+    h1 { margin: 0; font: 700 1.6rem var(--head); background: #fff; border: 3px solid var(--ink); border-radius: 22px;
+         box-shadow: 4px 4px 0 var(--ink); padding: 4px 16px 6px; transform: rotate(-1.5deg); }
+    h1 span { color: var(--red); }
+    header a { font: 600 0.95rem var(--head); color: var(--ink); }
+    .stage { position: relative; background: #fff; border: 3px solid var(--ink); border-radius: 26px;
+             box-shadow: 5px 5px 0 var(--ink); padding: 8px; }
+    canvas { display: block; width: 100%; height: auto; border-radius: 18px; touch-action: none; }
+    .hud { position: absolute; top: 18px; left: 18px; right: 18px; display: flex; justify-content: space-between;
+           pointer-events: none; font: 700 1.05rem var(--head); }
+    .pill { background: #fff; border: 3px solid var(--ink); border-radius: 999px; padding: 3px 12px; box-shadow: 3px 3px 0 var(--ink); }
+    .pill.ghost { background: var(--yellow); }
+    /* Big panel in the middle: start + results */
+    .panel { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; }
+    .panel[hidden] { display: none; }
+    .card { background: var(--cream); border: 3px solid var(--ink); border-radius: 24px; box-shadow: 5px 5px 0 var(--ink);
+            padding: 16px 20px; text-align: center; max-width: 90%; }
+    .card h2 { margin: 0 0 6px; font: 700 1.4rem var(--head); }
+    .card p { margin: 4px 0; }
+    .rows { margin: 8px 0 12px; font: 600 1.05rem var(--head); }
+    .rows div { display: flex; justify-content: space-between; gap: 24px; }
+    .gap-good { color: #17663F; } .gap-bad { color: var(--red); }
+    .btn { font: 700 1.1rem var(--head); border: 3px solid var(--ink); border-radius: 999px; padding: 8px 22px;
+           background: var(--red); color: #fff; box-shadow: 3px 3px 0 var(--ink); cursor: pointer; }
+    .btn:active { transform: translate(2px, 2px); box-shadow: 1px 1px 0 var(--ink); }
+    /* Phone steering buttons (hold to steer) */
+    .controls { display: flex; gap: 14px; margin-top: 14px; }
+    .steer { flex: 1; font: 700 2rem var(--head); padding: 14px 0; border: 3px solid var(--ink); border-radius: 24px;
+             background: #fff; color: var(--ink); box-shadow: 4px 4px 0 var(--ink); touch-action: none; user-select: none;
+             -webkit-user-select: none; -webkit-touch-callout: none; cursor: pointer; }
+    .steer.held { background: var(--yellow); transform: translate(2px, 2px); box-shadow: 2px 2px 0 var(--ink); }
+    .help { text-align: center; color: #4A5072; font-size: 0.9rem; margin: 10px 0 0; }
+    @media (max-width: 640px) { h1 { font-size: 1.3rem; } .hud { top: 14px; left: 14px; right: 14px; font-size: 0.9rem; } }
+  </style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Beat the <span>pole</span> lap</h1>
+    <a href="news.html">← Back to the news</a>
+  </header>
+
+  <div class="stage">
+    <canvas id="track" width="800" height="520" aria-label="Race track"></canvas>
+    <div class="hud">
+      <span class="pill" id="timer">0.00 s</span>
+      <span class="pill ghost" id="ghostInfo">Ghost: 10.30 s</span>
+    </div>
+    <div class="panel" id="startPanel">
+      <div class="card">
+        <h2>Ready?</h2>
+        <p>Beat the ghost's pole lap. Stay on the track!</p>
+        <p id="bestStart"></p>
+        <button class="btn" id="startBtn">Start</button>
+      </div>
+    </div>
+    <div class="panel" id="resultPanel" hidden>
+      <div class="card">
+        <h2 id="resultTitle">Lap done!</h2>
+        <div class="rows">
+          <div><span>Your time</span><span id="rMine"></span></div>
+          <div><span>Ghost time</span><span id="rGhost"></span></div>
+          <div><span>Gap</span><span id="rGap"></span></div>
+          <div><span>Your best</span><span id="rBest"></span></div>
+        </div>
+        <button class="btn" id="againBtn">Try again</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="controls">
+    <button class="steer" id="leftBtn" aria-label="Steer left">◀</button>
+    <button class="steer" id="rightBtn" aria-label="Steer right">▶</button>
+  </div>
+  <p class="help">Laptop: ← → arrow keys · Phone: hold ◀ ▶ · Your car speeds up by itself.</p>
+</div>
+
+<script>
+  // ===== Settings you can change =====
+  const GHOST_LAP = 10.3;        // the ghost's fixed "pole lap" in seconds
+  const MAX_SPEED = 160;         // your top speed on the track (pixels per second)
+  const OFF_SPEED = 40;          // top speed when you are off the track (grass)
+  const ACCEL = 120;             // how fast you speed up
+  const TURN = 2.6;              // how fast you steer (radians per second)
+  const BEST_KEY = "f1game_best";
+
+  // ===== The track: an oval (ellipse) with a fixed width =====
+  const canvas = document.getElementById("track");
+  const ctx = canvas.getContext("2d");
+  const W = canvas.width, H = canvas.height;
+  const CX = W / 2, CY = H / 2, RX = 300, RY = 175, HALF = 46;   // centre line + half the track width
+
+  // Is a point on the tarmac? (inside the outer edge and outside the inner edge)
+  function onTrack(x, y) {
+    const outer = ((x - CX) / (RX + HALF)) ** 2 + ((y - CY) / (RY + HALF)) ** 2;
+    const inner = ((x - CX) / (RX - HALF)) ** 2 + ((y - CY) / (RY - HALF)) ** 2;
+    return outer <= 1 && inner >= 1;
+  }
+  // Angle of a point around the oval (used to measure how far round the lap you are).
+  const lapAngle = (x, y) => Math.atan2((y - CY) / RY, (x - CX) / RX);
+  const START = Math.PI / 2;    // start/finish line: bottom middle of the oval
+
+  // ===== Drawing =====
+  function ellipsePath(rx, ry) { ctx.beginPath(); ctx.ellipse(CX, CY, rx, ry, 0, 0, Math.PI * 2); }
+  function drawTrack() {
+    ctx.fillStyle = "#DFF3D6"; ctx.fillRect(0, 0, W, H);                 // soft grass
+    // dotted grass texture (comic feel)
+    ctx.fillStyle = "rgba(29,35,64,0.06)";
+    for (let y = 8; y < H; y += 18) for (let x = (y / 18) % 2 ? 8 : 17; x < W; x += 18) { ctx.beginPath(); ctx.arc(x, y, 1.6, 0, 7); ctx.fill(); }
+    // red/white kerbs: a dashed ring just outside the tarmac on both sides
+    for (const r of [HALF + 5, -HALF - 5]) {
+      ellipsePath(RX + r, RY + r); ctx.lineWidth = 10; ctx.strokeStyle = "#fff"; ctx.setLineDash([]); ctx.stroke();
+      ctx.strokeStyle = "#E10600"; ctx.setLineDash([16, 16]); ctx.stroke(); ctx.setLineDash([]);
+    }
+    // tarmac
+    ellipsePath(RX, RY); ctx.lineWidth = HALF * 2; ctx.strokeStyle = "#CFCBD6"; ctx.stroke();
+    // navy comic outlines
+    ctx.lineWidth = 3; ctx.strokeStyle = "#1D2340";
+    ellipsePath(RX + HALF, RY + HALF); ctx.stroke(); ellipsePath(RX - HALF, RY - HALF); ctx.stroke();
+    // white dashed centre line
+    ellipsePath(RX, RY); ctx.lineWidth = 2; ctx.strokeStyle = "rgba(255,255,255,0.8)"; ctx.setLineDash([10, 14]); ctx.stroke(); ctx.setLineDash([]);
+    // chequered start/finish line at the bottom
+    const sq = 9, top = CY + RY - HALF;
+    for (let i = 0; i < (HALF * 2) / sq; i++) for (let j = 0; j < 2; j++) {
+      ctx.fillStyle = (i + j) % 2 ? "#1D2340" : "#fff"; ctx.fillRect(CX - sq + j * sq, top + i * sq, sq, sq);
+    }
+    // infield sticker
+    ctx.font = "700 30px Fredoka, system-ui"; ctx.textAlign = "center"; ctx.fillStyle = "#1D2340";
+    ctx.fillText("F1 News Daily GP", CX, CY + 10);
+  }
+  // Top-down F1 car, pointing right before rotation.
+  function drawCar(x, y, angle, body, alpha) {
+    ctx.save(); ctx.translate(x, y); ctx.rotate(angle); ctx.globalAlpha = alpha;
+    ctx.lineWidth = 2.5; ctx.strokeStyle = "#1D2340"; ctx.fillStyle = "#1D2340";
+    for (const [wx, wy] of [[-11, -10], [-11, 10], [11, -10], [11, 10]]) ctx.fillRect(wx - 5, wy - 3.5, 10, 7);  // wheels
+    ctx.fillStyle = body;
+    ctx.beginPath(); ctx.roundRect(-17, -6, 32, 12, 5); ctx.fill(); ctx.stroke();          // body
+    ctx.beginPath(); ctx.roundRect(14, -10, 6, 20, 2); ctx.fill(); ctx.stroke();           // front wing
+    ctx.beginPath(); ctx.roundRect(-21, -9, 5, 18, 2); ctx.fill(); ctx.stroke();           // rear wing
+    ctx.fillStyle = "#1D2340"; ctx.beginPath(); ctx.arc(0, 0, 3.5, 0, 7); ctx.fill();      // helmet
+    ctx.restore();
+  }
+
+  // ===== Game state =====
+  let state = "ready";            // ready | racing | finished
+  let car, raceTime, progress, lastAngle, steer = { left: false, right: false };
+
+  function reset() {
+    car = { x: CX + 6, y: CY + RY, angle: Math.PI, speed: 0 };   // on the line, facing left (clockwise lap)
+    raceTime = 0; progress = 0; lastAngle = lapAngle(car.x, car.y);
+  }
+
+  function ghostPos(t) {
+    // The ghost drives round the centre line at a steady pace: one lap in GHOST_LAP seconds.
+    const a = START + (Math.min(t, GHOST_LAP) / GHOST_LAP) * Math.PI * 2;
+    const x = CX + RX * Math.cos(a), y = CY + RY * Math.sin(a);
+    const heading = Math.atan2(RY * Math.cos(a), -RX * Math.sin(a));
+    return { x, y, heading };
+  }
+
+  function update(dt) {
+    if (state !== "racing") return;
+    raceTime += dt;
+    // steering (a little less sharp when going slowly)
+    const turn = (steer.left ? -1 : 0) + (steer.right ? 1 : 0);
+    car.angle += turn * TURN * dt * Math.min(1, 0.35 + car.speed / MAX_SPEED);
+    // auto-accelerate; off the track the top speed drops and the car slows down
+    const top = onTrack(car.x, car.y) ? MAX_SPEED : OFF_SPEED;
+    if (car.speed < top) car.speed = Math.min(top, car.speed + ACCEL * dt);
+    else car.speed = Math.max(top, car.speed - 260 * dt);
+    car.x += Math.cos(car.angle) * car.speed * dt;
+    car.y += Math.sin(car.angle) * car.speed * dt;
+    car.x = Math.max(12, Math.min(W - 12, car.x)); car.y = Math.max(12, Math.min(H - 12, car.y));
+    // lap progress: add up how far round the oval we have travelled (clockwise = positive)
+    const a = lapAngle(car.x, car.y);
+    let d = a - lastAngle;
+    if (d > Math.PI) d -= Math.PI * 2;
+    if (d < -Math.PI) d += Math.PI * 2;
+    progress += d; lastAngle = a;
+    if (progress >= Math.PI * 2) finish();
+  }
+
+  function draw() {
+    drawTrack();
+    const g = ghostPos(state === "ready" ? 0 : raceTime);
+    drawCar(g.x, g.y, g.heading, "#F2B705", 0.45);           // see-through ghost
+    drawCar(car.x, car.y, car.angle, "#E10600", 1);          // your car
+    document.getElementById("timer").textContent = raceTime.toFixed(2) + " s";
+  }
+
+  let last = performance.now();
+  function loop(now) {
+    const dt = Math.min(0.05, (now - last) / 1000); last = now;
+    update(dt); draw();
+    requestAnimationFrame(loop);
+  }
+
+  // ===== Start, finish, best time =====
+  const fmt = s => s.toFixed(2) + " s";
+  const getBest = () => { const v = parseFloat(localStorage.getItem(BEST_KEY)); return isFinite(v) ? v : null; };
+  function showBestOnStart() {
+    const b = getBest();
+    document.getElementById("bestStart").textContent = b ? `Your best: ${fmt(b)}` : "";
+  }
+  function start() {
+    reset(); state = "racing";
+    document.getElementById("startPanel").hidden = true;
+    document.getElementById("resultPanel").hidden = true;
+  }
+  function finish() {
+    state = "finished";
+    const mine = Math.round(raceTime * 100) / 100, gap = mine - GHOST_LAP;
+    let best = getBest();
+    const newBest = best === null || mine < best;           // only a faster lap counts as a new best
+    if (newBest) { best = mine; localStorage.setItem(BEST_KEY, mine.toFixed(2)); }
+    document.getElementById("resultTitle").textContent = gap < 0 ? "Pole position! 🏁" : "Lap done!";
+    document.getElementById("rMine").textContent = fmt(mine);
+    document.getElementById("rGhost").textContent = fmt(GHOST_LAP);
+    const gapEl = document.getElementById("rGap");
+    gapEl.textContent = (gap < 0 ? "−" : "+") + Math.abs(gap).toFixed(2) + " s";
+    gapEl.className = gap < 0 ? "gap-good" : "gap-bad";
+    document.getElementById("rBest").textContent = fmt(best) + (newBest ? " (new!)" : "");
+    document.getElementById("resultPanel").hidden = false;
+  }
+  document.getElementById("startBtn").onclick = start;
+  document.getElementById("againBtn").onclick = start;
+  document.getElementById("ghostInfo").textContent = `Ghost: ${fmt(GHOST_LAP)}`;
+
+  // ===== Controls =====
+  // Laptop: arrow keys.
+  addEventListener("keydown", e => {
+    if (e.key === "ArrowLeft") { steer.left = true; e.preventDefault(); }
+    if (e.key === "ArrowRight") { steer.right = true; e.preventDefault(); }
+    if ((e.key === "Enter" || e.key === " ") && state !== "racing") { start(); e.preventDefault(); }
+  });
+  addEventListener("keyup", e => {
+    if (e.key === "ArrowLeft") steer.left = false;
+    if (e.key === "ArrowRight") steer.right = false;
+  });
+  // Phone: hold the ◀ ▶ buttons.
+  function holdButton(id, side) {
+    const b = document.getElementById(id);
+    const on = e => { e.preventDefault(); steer[side] = true; b.classList.add("held"); };
+    const off = () => { steer[side] = false; b.classList.remove("held"); };
+    b.addEventListener("pointerdown", on);
+    for (const ev of ["pointerup", "pointercancel", "pointerleave"]) b.addEventListener(ev, off);
+    b.addEventListener("contextmenu", e => e.preventDefault());
+  }
+  holdButton("leftBtn", "left");
+  holdButton("rightBtn", "right");
+
+  // For automatic tests only: read-only view of the car and the lap.
+  window.__game = { get state() { return state; }, get car() { return car; }, get progress() { return progress; },
+                    onTrack, CX, CY, RX, RY };
+
+  reset(); showBestOnStart(); requestAnimationFrame(loop);
+</script>
+</body>
+</html>
