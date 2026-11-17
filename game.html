@@ -41,6 +41,26 @@
     .rows { margin: 8px 0 12px; font: 600 1.05rem var(--head); }
     .rows div { display: flex; justify-content: space-between; gap: 24px; }
     .gap-good { color: #17663F; } .gap-bad { color: var(--red); }
+    /* Sector pills, coloured like F1 timing screens */
+    .sectors { display: flex; gap: 6px; margin: 0 0 8px; }
+    .sec { flex: 1; text-align: center; border: 3px solid var(--ink); border-radius: 999px; padding: 2px 4px;
+           font: 700 0.9rem var(--head); background: #EEEEF2; color: #4A5072; box-shadow: 2px 2px 0 var(--ink); white-space: nowrap; }
+    .c-purple { background: #9B3FE0 !important; color: #fff !important; }
+    .c-green  { background: #1FA855 !important; color: #fff !important; }
+    .c-yellow { background: #F2B705 !important; color: var(--ink) !important; }
+    .c-none   { background: #EEEEF2; color: #4A5072; }
+    /* Sector table on the "Lap done" card */
+    .stable { width: 100%; border-collapse: separate; border-spacing: 0 5px; margin: 6px 0 4px; font: 600 1rem var(--head); }
+    .stable th { font: 600 0.8rem var(--head); color: #4A5072; text-align: right; padding: 0 4px; }
+    .stable th:first-child, .stable td:first-child { text-align: left; }
+    .stable td { text-align: right; padding: 0 4px; }
+    .stable td.t span { display: inline-block; min-width: 64px; text-align: center; border: 2px solid var(--ink); border-radius: 999px; padding: 0 6px; }
+    .stable tr.lap td { border-top: 2px dashed rgba(29,35,64,.3); padding-top: 5px; font-weight: 700; }
+    .summary { margin: 4px 0 10px; font: 600 0.98rem var(--head); }
+    .btn.light { background: #fff; color: var(--ink); font-size: 0.9rem; padding: 6px 14px; margin-left: 6px; }
+    .copied { font-size: 0.85rem; color: #17663F; min-height: 1.2em; margin: 6px 0 0; }
+    .legend { display: flex; flex-wrap: wrap; justify-content: center; gap: 6px 12px; font-size: 0.82rem; color: #4A5072; margin: 8px 0 0; }
+    .legend i { display: inline-block; width: 12px; height: 12px; border-radius: 50%; border: 2px solid var(--ink); vertical-align: -2px; margin-right: 4px; }
     .btn { font: 700 1.1rem var(--head); border: 3px solid var(--ink); border-radius: 999px; padding: 8px 22px;
            background: var(--red); color: #fff; box-shadow: 3px 3px 0 var(--ink); cursor: pointer; }
     .btn:active { transform: translate(2px, 2px); box-shadow: 1px 1px 0 var(--ink); }
@@ -62,7 +82,12 @@
     .help { text-align: center; color: #4A5072; font-size: 0.9rem; margin: 10px 0 0; }
     .credit { text-align: center; color: #4A5072; font-size: 0.8rem; margin: 14px 0 0; }
     .credit a { color: #4A5072; }
-    @media (max-width: 640px) { h1 { font-size: 1.3rem; } .hud { font-size: 0.9rem; } .sticker { font-size: 0.85rem; } }
+    @media (max-width: 640px) {
+      h1 { font-size: 1.3rem; } .hud { font-size: 0.9rem; } .sticker { font-size: 0.85rem; } .sec { font-size: 0.8rem; }
+      /* On phones the results card sits UNDER the track (it is too tall to fit on top of it) */
+      #resultPanel { position: static; margin-top: 10px; }
+      #resultPanel .card { max-width: 100%; width: 100%; }
+    }
   </style>
 </head>
 <body>
@@ -82,6 +107,9 @@
       <span class="pill" id="timer">0.00 s</span>
       <span class="pill ghost" id="ghostInfo">Ghost: …</span>
     </div>
+    <div class="sectors" aria-label="Sector times">
+      <span class="sec" id="sec1">S1 —</span><span class="sec" id="sec2">S2 —</span><span class="sec" id="sec3">S3 —</span>
+    </div>
     <canvas id="track" width="800" height="500" aria-label="Race track"></canvas>
     <div class="toast" id="toast" hidden>Back on track!</div>
     <div class="panel" id="startPanel">
@@ -95,17 +123,18 @@
     <div class="panel" id="resultPanel" hidden>
       <div class="card">
         <h2 id="resultTitle">Lap done!</h2>
-        <div class="rows">
-          <div><span>Your time</span><span id="rMine"></span></div>
-          <div><span>Ghost time</span><span id="rGhost"></span></div>
-          <div><span>Gap</span><span id="rGap"></span></div>
-          <div><span id="rBestLabel">Your best</span><span id="rBest"></span></div>
-        </div>
-        <button class="btn" id="againBtn">Try again</button>
+        <table class="stable">
+          <thead><tr><th></th><th>You</th><th>Ghost</th><th>Gap</th></tr></thead>
+          <tbody id="sectorRows"></tbody>
+        </table>
+        <p class="summary"><span id="rBestLabel">Your best</span>: <span id="rBest"></span></p>
+        <button class="btn" id="againBtn">Try again</button><button class="btn light" id="copyBtn">📋 Copy lap data</button>
+        <p class="copied" id="copied"></p>
       </div>
     </div>
   </div>
 
+  <p class="legend"><span><i class="c-purple"></i>your best ever</span><span><i class="c-green"></i>faster than the ghost</span><span><i class="c-yellow"></i>slower than the ghost</span></p>
   <div class="modes">
     <span>Mode:</span>
     <div class="seg" role="group" aria-label="Game mode">
@@ -138,6 +167,8 @@
   const WALL_GRIP = 0.97;        // Beginner: speed kept each time the car slides along a soft wall
   const EDGE = 24;               // keep the whole car this far inside the canvas
   const MODE_KEY = "f1game_mode";
+  const LAPS_KEY = "f1game_laps";   // every finished lap, as JSON, for a future AI race engineer
+  const MAX_LAPS = 200;             // keep the newest 200 laps
 
   // The circuits the game has (Jolpica circuit id -> outline file). Outlines: bacinger/f1-circuits (MIT).
   const CIRCUITS = {
@@ -224,6 +255,16 @@
     strokePath(HALF * 2 + 5, "#1D2340");                                  // navy comic outline
     strokePath(HALF * 2, "#CFCBD6");                                      // tarmac
     strokePath(2, "rgba(255,255,255,0.85)", [8, 12]);                     // dashed centre line
+    // sector markers (S2 and S3 start here): a thick line across the track + a small label
+    ctx.font = "700 14px Fredoka, system-ui"; ctx.textAlign = "center"; ctx.textBaseline = "middle";
+    for (const [k, i] of [[2, sectorEnd(0)], [3, sectorEnd(1)]]) {
+      const m = path[i], nx = -Math.sin(m.h), ny = Math.cos(m.h);
+      ctx.beginPath(); ctx.moveTo(m.x - nx * HALF, m.y - ny * HALF); ctx.lineTo(m.x + nx * HALF, m.y + ny * HALF);
+      ctx.lineWidth = 4; ctx.strokeStyle = "#1D2340"; ctx.stroke();
+      const lx = m.x + nx * (HALF + 16), ly = m.y + ny * (HALF + 16);
+      ctx.fillStyle = "#fff"; ctx.beginPath(); ctx.roundRect(lx - 14, ly - 9, 28, 18, 9); ctx.fill();
+      ctx.lineWidth = 2; ctx.stroke(); ctx.fillStyle = "#1D2340"; ctx.fillText("S" + k, lx, ly + 1);
+    }
     // chequered start/finish line across the track at the first point
     const s = path[0], nx = -Math.sin(s.h), ny = Math.cos(s.h), sq = 5;
     for (let i = -HALF; i < HALF; i += sq) for (let j = 0; j < 2; j++) {
@@ -250,10 +291,33 @@
   let car, raceTime, progress, idx, offTime, toastUntil = 0, steer = { left: false, right: false };
   let mode = localStorage.getItem(MODE_KEY) === "pro" ? "pro" : "beginner";   // Beginner by default
 
+  // ===== Sectors: the lap is split into 3 equal-length parts =====
+  const sectorEnd = k => Math.round((N * (k + 1)) / 3) - (k === 2 ? 1 : 0);   // progress needed to finish sector k
+  let sectorTimes, sectorStats, sectorColours, bestBefore;
+  const ghostSectors = () => { const a = Math.round(ghostLap / 3 * 100) / 100; return [a, a, Math.round((ghostLap - 2 * a) * 100) / 100]; };
+  const bestSecKey = () => `f1game_bestsectors_${circuitId}_${mode}`;
+  const getBestSectors = () => { try { const v = JSON.parse(localStorage.getItem(bestSecKey())); return Array.isArray(v) ? v : [null, null, null]; } catch (e) { return [null, null, null]; } };
+  function colourFor(k, t) {
+    // purple = your best ever in this sector · green = faster than the ghost · yellow = slower
+    if (bestBefore[k] === null || t < bestBefore[k]) return "purple";
+    return t < ghostSectors()[k] ? "green" : "yellow";
+  }
+  function showSectors() {
+    for (let k = 0; k < 3; k++) {
+      const el = document.getElementById("sec" + (k + 1)), t = sectorTimes ? sectorTimes[k] : null;
+      el.textContent = `S${k + 1} ` + (t == null ? "—" : t.toFixed(2));
+      el.className = "sec c-" + (t == null ? "none" : sectorColours[k]);
+    }
+  }
+
   function reset() {
     const s = path[0] || { x: W / 2, y: H / 2, h: 0 };
     car = { x: s.x, y: s.y, angle: s.h, speed: 0 };
     raceTime = 0; progress = 0; idx = 0; offTime = 0;
+    sectorTimes = [null, null, null]; sectorColours = ["none", "none", "none"];
+    sectorStats = [0, 1, 2].map(() => ({ off_track_s: 0, back_on_track: 0, wall_slides: 0 }));
+    bestBefore = getBestSectors();
+    if (typeof document !== "undefined") showSectors();
   }
   function ghostPos(t) {
     // The ghost drives the whole lap at one steady speed: one lap in ghostLap seconds.
@@ -269,7 +333,9 @@
     car.x = p.x + (car.x - p.x) * k; car.y = p.y + (car.y - p.y) * k;
     car.angle += turnTo(car.angle, p.h) * 0.5;
     car.speed *= WALL_GRIP;
+    sectorStats[currentSector()].wall_slides++;
   }
+  const currentSector = () => (sectorTimes[0] == null ? 0 : sectorTimes[1] == null ? 1 : 2);
 
   function update(dt) {
     if (state !== "racing") return;
@@ -297,10 +363,12 @@
     car.x = Math.max(EDGE, Math.min(W - EDGE, car.x)); car.y = Math.max(EDGE, Math.min(H - EDGE, car.y));
     // off the track for OFF_RESET seconds? Put the car back on the track at the same point of the lap.
     offTime = n.d > HALF ? offTime + dt : 0;
+    if (n.d > HALF) sectorStats[currentSector()].off_track_s += dt;
     if (offTime >= OFF_RESET) {
       const p = path[n.i];
       car.x = p.x; car.y = p.y; car.angle = p.h; car.speed = MAX_SPEED * OFF_RATIO; offTime = 0;
       toastUntil = raceTime + 1.2;
+      sectorStats[currentSector()].back_on_track++;
     }
     document.getElementById("toast").hidden = raceTime > toastUntil;
     // lap progress: count how many track points we moved forward (wrapping round at the finish line)
@@ -308,6 +376,15 @@
     if (d > N / 2) d -= N;
     if (d < -N / 2) d += N;
     progress += d; idx = n.i;
+    // close a sector when we pass its end (sector time = time since the previous sector ended)
+    for (let k = 0; k < 2; k++) {
+      if (sectorTimes[k] == null && progress >= sectorEnd(k)) {
+        const before = sectorTimes.slice(0, k).reduce((a, b) => a + b, 0);
+        sectorTimes[k] = Math.round((raceTime - before) * 100) / 100;
+        sectorColours[k] = colourFor(k, sectorTimes[k]);
+        showSectors();
+      }
+    }
     if (progress >= N - 1) finish();
   }
 
@@ -353,19 +430,54 @@
   function finish() {
     state = "finished";
     const mine = Math.round(raceTime * 100) / 100, gap = mine - ghostLap;
+    // sector 3 = lap time minus sectors 1 and 2 (so the three always add up to the lap)
+    sectorTimes[2] = Math.round((mine - sectorTimes[0] - sectorTimes[1]) * 100) / 100;
+    sectorColours[2] = colourFor(2, sectorTimes[2]);
+    showSectors();
+    const gs = ghostSectors(), bestSecBefore = bestBefore.slice();
+    const bestSec = bestBefore.map((b, k) => (b === null || sectorTimes[k] < b ? sectorTimes[k] : b));
+    localStorage.setItem(bestSecKey(), JSON.stringify(bestSec));
     let best = getBest();
+    const bestLapBefore = best;
     const newBest = best === null || mine < best;           // only a faster lap counts as a new best
     if (newBest) { best = mine; localStorage.setItem(bestKey(), mine.toFixed(2)); }
     document.getElementById("resultTitle").textContent = gap < 0 ? "Pole position! 🏁" : "Lap done!";
-    document.getElementById("rMine").textContent = fmt(mine);
-    document.getElementById("rGhost").textContent = fmt(ghostLap);
-    const gapEl = document.getElementById("rGap");
-    gapEl.textContent = (gap < 0 ? "−" : "+") + Math.abs(gap).toFixed(2) + " s";
-    gapEl.className = gap < 0 ? "gap-good" : "gap-bad";
-    document.getElementById("rBestLabel").textContent = `Your best (${modeName()})`;
+    const signed = v => (v < 0 ? "−" : "+") + Math.abs(v).toFixed(2);
+    const row = (label, you, ghost, colour, bold) =>
+      `<tr${bold ? ' class="lap"' : ""}><td>${label}</td><td class="t"><span class="c-${colour}">${you.toFixed(2)}</span></td>` +
+      `<td>${ghost.toFixed(2)}</td><td class="${you - ghost < 0 ? "gap-good" : "gap-bad"}">${signed(you - ghost)}</td></tr>`;
+    document.getElementById("sectorRows").innerHTML =
+      [0, 1, 2].map(k => row("S" + (k + 1), sectorTimes[k], gs[k], sectorColours[k])).join("") +
+      row("Lap", mine, ghostLap, gap < 0 ? "green" : "yellow", true);
+    // save this lap for a future AI race engineer (simple JSON in the browser)
+    const lap = {
+      version: 1, game: "beat-the-pole-lap", saved_at: new Date().toISOString(),
+      circuit_id: circuitId, circuit: CIRCUITS[circuitId].name, mode,
+      lap_time: mine, ghost_lap: ghostLap, gap: Math.round(gap * 100) / 100,
+      time_scale: TIME_SCALE, pole: pole ? { driver: pole.driver, time: pole.time, season: pole.season } : null,
+      sectors: [0, 1, 2].map(k => ({
+        sector: k + 1, time: sectorTimes[k], ghost: gs[k], delta: Math.round((sectorTimes[k] - gs[k]) * 100) / 100,
+        colour: sectorColours[k], best_before: bestSecBefore[k],
+        off_track_s: Math.round(sectorStats[k].off_track_s * 100) / 100,
+        back_on_track: sectorStats[k].back_on_track, wall_slides: sectorStats[k].wall_slides,
+      })),
+      best_lap_before: bestLapBefore,
+    };
+    const laps = getLaps(); laps.push(lap);
+    localStorage.setItem(LAPS_KEY, JSON.stringify(laps.slice(-MAX_LAPS)));
+    document.getElementById("copied").textContent = "";
+    document.getElementById("rBestLabel").textContent = `Your best lap (${modeName()})`;
     document.getElementById("rBest").textContent = fmt(best) + (newBest ? " (new!)" : "");
     document.getElementById("resultPanel").hidden = false;
   }
+  function getLaps() { try { const v = JSON.parse(localStorage.getItem(LAPS_KEY)); return Array.isArray(v) ? v : []; } catch (e) { return []; } }
+  // Copy all saved laps (JSON) — e.g. to paste into an AI race engineer later.
+  document.getElementById("copyBtn").onclick = async () => {
+    const laps = getLaps(), text = JSON.stringify(laps, null, 1);
+    try { await navigator.clipboard.writeText(text); }
+    catch (e) { const t = document.createElement("textarea"); t.value = text; document.body.appendChild(t); t.select(); document.execCommand("copy"); t.remove(); }
+    document.getElementById("copied").textContent = `Copied ${laps.length} lap${laps.length === 1 ? "" : "s"} as JSON.`;
+  };
   document.getElementById("startBtn").onclick = start;
   document.getElementById("againBtn").onclick = start;
   document.getElementById("modeBeginner").onclick = () => setMode("beginner");
@@ -425,6 +537,7 @@
   window.__game = { get state() { return state; }, get car() { return car; }, get progress() { return progress; },
                     get mode() { return mode; }, get offTime() { return offTime; }, get path() { return path; },
                     get N() { return N; }, get idx() { return idx; }, get ghostLap() { return ghostLap; },
+                    get sectorTimes() { return sectorTimes; }, get sectorColours() { return sectorColours; },
                     onTrack, HALF, W, H };
 
   setMode(mode); load(); requestAnimationFrame(loop);
