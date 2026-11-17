@@ -19,18 +19,23 @@
          box-shadow: 4px 4px 0 var(--ink); padding: 4px 16px 6px; transform: rotate(-1.5deg); }
     h1 span { color: var(--red); }
     header a { font: 600 0.95rem var(--head); color: var(--ink); }
+    /* Race info stickers: circuit + real pole */
+    .info { display: flex; flex-wrap: wrap; gap: 8px; margin: 4px 0 12px; }
+    .sticker { background: #fff; border: 3px solid var(--ink); border-radius: 999px; box-shadow: 3px 3px 0 var(--ink);
+               padding: 3px 12px; font: 600 0.95rem var(--head); }
+    .sticker.pole { background: var(--yellow); }
     .stage { position: relative; background: #fff; border: 3px solid var(--ink); border-radius: 26px;
              box-shadow: 5px 5px 0 var(--ink); padding: 8px; }
-    canvas { display: block; width: 100%; height: auto; border-radius: 18px; touch-action: none; }
-    .hud { position: absolute; top: 18px; left: 18px; right: 18px; display: flex; justify-content: space-between;
-           pointer-events: none; font: 700 1.05rem var(--head); }
-    .pill { background: #fff; border: 3px solid var(--ink); border-radius: 999px; padding: 3px 12px; box-shadow: 3px 3px 0 var(--ink); }
+    /* Timer + ghost, ABOVE the track so they never hide part of it */
+    .hud { display: flex; justify-content: space-between; gap: 8px; margin: 0 0 8px; font: 700 1.05rem var(--head); }
+    .pill { background: #fff; border: 3px solid var(--ink); border-radius: 999px; padding: 2px 12px; box-shadow: 3px 3px 0 var(--ink); }
     .pill.ghost { background: var(--yellow); }
+    canvas { display: block; width: 100%; height: auto; border-radius: 18px; touch-action: none; }
     /* Big panel in the middle: start + results */
     .panel { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; }
     .panel[hidden] { display: none; }
     .card { background: var(--cream); border: 3px solid var(--ink); border-radius: 24px; box-shadow: 5px 5px 0 var(--ink);
-            padding: 16px 20px; text-align: center; max-width: 90%; }
+            padding: 16px 20px; text-align: center; max-width: 92%; }
     .card h2 { margin: 0 0 6px; font: 700 1.4rem var(--head); }
     .card p { margin: 4px 0; }
     .rows { margin: 8px 0 12px; font: 600 1.05rem var(--head); }
@@ -55,7 +60,9 @@
              font: 700 1rem var(--head); box-shadow: 3px 3px 0 var(--ink); }
     .toast[hidden] { display: none; }
     .help { text-align: center; color: #4A5072; font-size: 0.9rem; margin: 10px 0 0; }
-    @media (max-width: 640px) { h1 { font-size: 1.3rem; } .hud { top: 14px; left: 14px; right: 14px; font-size: 0.9rem; } }
+    .credit { text-align: center; color: #4A5072; font-size: 0.8rem; margin: 14px 0 0; }
+    .credit a { color: #4A5072; }
+    @media (max-width: 640px) { h1 { font-size: 1.3rem; } .hud { font-size: 0.9rem; } .sticker { font-size: 0.85rem; } }
   </style>
 </head>
 <body>
@@ -65,19 +72,24 @@
     <a href="news.html">← Back to the news</a>
   </header>
 
+  <div class="info">
+    <span class="sticker" id="raceInfo">🏁 Loading the track…</span>
+    <span class="sticker pole" id="poleInfo">Pole: …</span>
+  </div>
+
   <div class="stage">
-    <canvas id="track" width="800" height="520" aria-label="Race track"></canvas>
     <div class="hud">
       <span class="pill" id="timer">0.00 s</span>
-      <span class="pill ghost" id="ghostInfo">Ghost: 10.30 s</span>
+      <span class="pill ghost" id="ghostInfo">Ghost: …</span>
     </div>
+    <canvas id="track" width="800" height="500" aria-label="Race track"></canvas>
     <div class="toast" id="toast" hidden>Back on track!</div>
     <div class="panel" id="startPanel">
       <div class="card">
         <h2>Ready?</h2>
         <p>Beat the ghost's pole lap. Stay on the track!</p>
         <p id="bestStart"></p>
-        <button class="btn" id="startBtn">Start</button>
+        <button class="btn" id="startBtn" disabled>Start</button>
       </div>
     </div>
     <div class="panel" id="resultPanel" hidden>
@@ -105,170 +117,208 @@
     <button class="steer" id="leftBtn" aria-label="Steer left">◀</button>
     <button class="steer" id="rightBtn" aria-label="Steer right">▶</button>
   </div>
-  <p class="help">Laptop: ← → arrow keys · Phone: hold ◀ ▶ · Your car speeds up by itself.<br>
-    <b>Beginner</b>: soft walls + steering help · <b>Pro</b>: no help. Each mode has its own best time.</p>
+  <p class="help">Laptop: ← → arrow keys · Phone: hold ◀ ▶ · Your car speeds up by itself and slows a little while you steer.<br>
+    <b>Beginner</b>: soft walls + steering help · <b>Pro</b>: no help. Each mode has its own best time on each circuit.<br>
+    <span id="scaleNote"></span></p>
+  <p class="credit">Track outline: <a href="https://github.com/bacinger/f1-circuits" target="_blank" rel="noopener">f1-circuits</a>
+    by Tomislav Bacinger (<a href="game/circuits/LICENSE-f1-circuits.md">MIT licence</a>).
+    Pole times: <a href="https://api.jolpi.ca/" target="_blank" rel="noopener">Jolpica F1 API</a>.</p>
 </div>
 
 <script>
   // ===== Settings you can change =====
-  const GHOST_LAP = 10.3;        // the ghost's fixed "pole lap" in seconds
-  const MAX_SPEED = 160;         // your top speed on the track (pixels per second)
-  const OFF_SPEED = 40;          // top speed when you are off the track (grass)
-  const ACCEL = 120;             // how fast you speed up
-  const TURN = 2.6;              // how fast you steer (radians per second)
+  const TIME_SCALE = 10;         // game time runs 10x faster than real life: ghost lap = real pole time ÷ 10
+  const SPEED_RATIO = 1.45;      // your top speed = ghost's average speed × this (you must slow for corners)
+  const STEER_SLOW = 0.5;        // while steering, your top speed drops to this share (like lifting for a corner)
+  const OFF_RATIO = 0.25;        // off the track, top speed drops to this share
+  const TURN = 4.6;              // how fast you steer (radians per second)
+  const HALF = 14;               // half the track width (pixels)
   const OFF_RESET = 2;           // seconds off the track before the car is put back on it
-  const ASSIST = 1.3;            // Beginner: how strongly the steering help follows the curve (radians per second)
-  const WALL_GRIP = 0.985;       // Beginner: speed kept each time the car slides along a soft wall
+  const ASSIST = 2.2;            // Beginner: strength of the steering help (radians per second)
+  const WALL_GRIP = 0.97;        // Beginner: speed kept each time the car slides along a soft wall
   const EDGE = 24;               // keep the whole car this far inside the canvas
-  const BEST_KEYS = { beginner: "f1game_best_beginner", pro: "f1game_best_pro" };
   const MODE_KEY = "f1game_mode";
-  // The very first version saved one best time (no help = Pro). Keep it as the Pro best.
-  if (localStorage.getItem("f1game_best") && !localStorage.getItem(BEST_KEYS.pro)) {
-    localStorage.setItem(BEST_KEYS.pro, localStorage.getItem("f1game_best"));
-  }
-  localStorage.removeItem("f1game_best");
-  let mode = localStorage.getItem(MODE_KEY) === "pro" ? "pro" : "beginner";   // Beginner by default
 
-  // ===== The track: an oval (ellipse) with a fixed width =====
+  // The circuits the game has (Jolpica circuit id -> outline file). Outlines: bacinger/f1-circuits (MIT).
+  const CIRCUITS = {
+    vegas: { file: "game/circuits/us-2023.geojson", name: "Las Vegas Strip Circuit", race: "Las Vegas Grand Prix" },
+  };
+  // Used only if data/stats.json has no pole yet (the stats robot adds it on its next run).
+  // Same data the robot reads from Jolpica: the most recent Las Vegas pole.
+  const FALLBACK_POLES = { vegas: { season: "2025", driver: "Lando Norris", code: "NOR", time: "1:47.934", seconds: 107.934, session: "Q3" } };
+
   const canvas = document.getElementById("track");
   const ctx = canvas.getContext("2d");
   const W = canvas.width, H = canvas.height;
-  const CX = W / 2, CY = H / 2, RX = 300, RY = 175, HALF = 46;   // centre line + half the track width
+  let circuitId = "vegas", path = [], N = 0, ghostLap = 10, MAX_SPEED = 200, pole = null;
 
-  // Is a point on the tarmac? (inside the outer edge and outside the inner edge)
-  function onTrack(x, y) {
-    const outer = ((x - CX) / (RX + HALF)) ** 2 + ((y - CY) / (RY + HALF)) ** 2;
-    const inner = ((x - CX) / (RX - HALF)) ** 2 + ((y - CY) / (RY - HALF)) ** 2;
-    return outer <= 1 && inner >= 1;
+  // ===== Turning the real outline (longitude/latitude) into a track on the canvas =====
+  function buildPath(coords) {
+    // 1. longitude/latitude -> metres (flat map: fine for a few kilometres)
+    const lat0 = coords.reduce((s, c) => s + c[1], 0) / coords.length;
+    const k = Math.cos(lat0 * Math.PI / 180);
+    let pts = coords.map(c => [c[0] * k * 111320, -c[1] * 111320]);     // y down, like the screen
+    if (Math.hypot(pts[0][0] - pts.at(-1)[0], pts[0][1] - pts.at(-1)[1]) < 1) pts.pop();   // closed loop
+    // 2. try rotations and keep the one that makes the track biggest on the canvas
+    let best = null;
+    for (let deg = 0; deg < 180; deg += 5) {
+      const a = deg * Math.PI / 180, c = Math.cos(a), s = Math.sin(a);
+      const r = pts.map(([x, y]) => [x * c - y * s, x * s + y * c]);
+      const xs = r.map(p => p[0]), ys = r.map(p => p[1]);
+      const minX = Math.min(...xs), maxX = Math.max(...xs), minY = Math.min(...ys), maxY = Math.max(...ys);
+      const scale = Math.min((W - 2 * 46) / (maxX - minX), (H - 2 * 40) / (maxY - minY));
+      if (!best || scale > best.scale) best = { r, scale, minX, maxX, minY, maxY };
+    }
+    const ox = (W - (best.maxX - best.minX) * best.scale) / 2, oy = (H - (best.maxY - best.minY) * best.scale) / 2;
+    pts = best.r.map(([x, y]) => [ox + (x - best.minX) * best.scale, oy + (y - best.minY) * best.scale]);
+    // 3. round off the sharpest corners a little (two passes of "corner cutting")
+    for (let pass = 0; pass < 2; pass++) {
+      const out = [];
+      for (let i = 0; i < pts.length; i++) {
+        const p = pts[i], q = pts[(i + 1) % pts.length];
+        out.push([0.75 * p[0] + 0.25 * q[0], 0.75 * p[1] + 0.25 * q[1]], [0.25 * p[0] + 0.75 * q[0], 0.25 * p[1] + 0.75 * q[1]]);
+      }
+      pts = out;
+    }
+    // 4. evenly spaced points every 4 pixels, each with its direction (start = first point of the outline)
+    const res = [], step = 4;
+    let carry = 0;
+    for (let i = 0; i < pts.length; i++) {
+      const p = pts[i], q = pts[(i + 1) % pts.length], len = Math.hypot(q[0] - p[0], q[1] - p[1]);
+      let t = carry;
+      while (t < len) { res.push({ x: p[0] + (q[0] - p[0]) * t / len, y: p[1] + (q[1] - p[1]) * t / len }); t += step; }
+      carry = t - len;
+    }
+    for (let i = 0; i < res.length; i++) {
+      const a = res[(i - 2 + res.length) % res.length], b = res[(i + 2) % res.length];
+      res[i].h = Math.atan2(b.y - a.y, b.x - a.x);
+    }
+    return { path: res, length: res.length * step };
   }
-  // Angle of a point around the oval (used to measure how far round the lap you are).
-  const lapAngle = (x, y) => Math.atan2((y - CY) / RY, (x - CX) / RX);
-  const START = Math.PI / 2;    // start/finish line: bottom middle of the oval
+
+  // Nearest point of the track to (x, y). Looks near `around` first (fast, and never jumps to a
+  // nearby part of the track), or everywhere if around is null.
+  function nearest(x, y, around) {
+    let bi = 0, bd = Infinity;
+    const look = (i) => { const p = path[(i + N) % N], d = (p.x - x) ** 2 + (p.y - y) ** 2; if (d < bd) { bd = d; bi = (i + N) % N; } };
+    if (around == null) for (let i = 0; i < N; i++) look(i);
+    else for (let i = around - 30; i <= around + 30; i++) look(i);
+    return { i: bi, d: Math.sqrt(bd) };
+  }
+  const onTrack = (x, y) => nearest(x, y, null).d <= HALF;
+  const turnTo = (from, to) => Math.atan2(Math.sin(to - from), Math.cos(to - from));   // shortest turn, -π..π
 
   // ===== Drawing =====
-  function ellipsePath(rx, ry) { ctx.beginPath(); ctx.ellipse(CX, CY, rx, ry, 0, 0, Math.PI * 2); }
+  function strokePath(width, colour, dash) {
+    ctx.beginPath(); path.forEach((p, i) => (i ? ctx.lineTo(p.x, p.y) : ctx.moveTo(p.x, p.y))); ctx.closePath();
+    ctx.lineWidth = width; ctx.strokeStyle = colour; ctx.setLineDash(dash || []); ctx.stroke(); ctx.setLineDash([]);
+  }
   function drawTrack() {
     ctx.fillStyle = "#DFF3D6"; ctx.fillRect(0, 0, W, H);                 // soft grass
-    // dotted grass texture (comic feel)
-    ctx.fillStyle = "rgba(29,35,64,0.06)";
+    ctx.fillStyle = "rgba(29,35,64,0.06)";                                // comic dots
     for (let y = 8; y < H; y += 18) for (let x = (y / 18) % 2 ? 8 : 17; x < W; x += 18) { ctx.beginPath(); ctx.arc(x, y, 1.6, 0, 7); ctx.fill(); }
-    // red/white kerbs: a dashed ring just outside the tarmac on both sides
-    for (const r of [HALF + 5, -HALF - 5]) {
-      ellipsePath(RX + r, RY + r); ctx.lineWidth = 10; ctx.strokeStyle = "#fff"; ctx.setLineDash([]); ctx.stroke();
-      ctx.strokeStyle = "#E10600"; ctx.setLineDash([16, 16]); ctx.stroke(); ctx.setLineDash([]);
+    if (!N) return;
+    ctx.lineJoin = ctx.lineCap = "round";
+    strokePath(HALF * 2 + 12, "#fff");                                    // kerbs: white…
+    strokePath(HALF * 2 + 12, "#E10600", [12, 12]);                       // …with red stripes
+    strokePath(HALF * 2 + 5, "#1D2340");                                  // navy comic outline
+    strokePath(HALF * 2, "#CFCBD6");                                      // tarmac
+    strokePath(2, "rgba(255,255,255,0.85)", [8, 12]);                     // dashed centre line
+    // chequered start/finish line across the track at the first point
+    const s = path[0], nx = -Math.sin(s.h), ny = Math.cos(s.h), sq = 5;
+    for (let i = -HALF; i < HALF; i += sq) for (let j = 0; j < 2; j++) {
+      ctx.fillStyle = ((i / sq + j) & 1) ? "#1D2340" : "#fff";
+      const x = s.x + nx * i + Math.cos(s.h) * (j * sq - sq), y = s.y + ny * i + Math.sin(s.h) * (j * sq - sq);
+      ctx.save(); ctx.translate(x, y); ctx.rotate(s.h); ctx.fillRect(0, 0, sq, sq); ctx.restore();
     }
-    // tarmac
-    ellipsePath(RX, RY); ctx.lineWidth = HALF * 2; ctx.strokeStyle = "#CFCBD6"; ctx.stroke();
-    // navy comic outlines
-    ctx.lineWidth = 3; ctx.strokeStyle = "#1D2340";
-    ellipsePath(RX + HALF, RY + HALF); ctx.stroke(); ellipsePath(RX - HALF, RY - HALF); ctx.stroke();
-    // white dashed centre line
-    ellipsePath(RX, RY); ctx.lineWidth = 2; ctx.strokeStyle = "rgba(255,255,255,0.8)"; ctx.setLineDash([10, 14]); ctx.stroke(); ctx.setLineDash([]);
-    // chequered start/finish line at the bottom
-    const sq = 9, top = CY + RY - HALF;
-    for (let i = 0; i < (HALF * 2) / sq; i++) for (let j = 0; j < 2; j++) {
-      ctx.fillStyle = (i + j) % 2 ? "#1D2340" : "#fff"; ctx.fillRect(CX - sq + j * sq, top + i * sq, sq, sq);
-    }
-    // infield sticker
-    ctx.font = "700 30px Fredoka, system-ui"; ctx.textAlign = "center"; ctx.fillStyle = "#1D2340";
-    ctx.fillText("F1 News Daily GP", CX, CY + 10);
   }
-  // Top-down F1 car, pointing right before rotation.
+  // Top-down F1 car, pointing right before rotation (a bit smaller than on the oval).
   function drawCar(x, y, angle, body, alpha) {
-    ctx.save(); ctx.translate(x, y); ctx.rotate(angle); ctx.globalAlpha = alpha;
-    ctx.lineWidth = 2.5; ctx.strokeStyle = "#1D2340"; ctx.fillStyle = "#1D2340";
-    for (const [wx, wy] of [[-11, -10], [-11, 10], [11, -10], [11, 10]]) ctx.fillRect(wx - 5, wy - 3.5, 10, 7);  // wheels
+    ctx.save(); ctx.translate(x, y); ctx.rotate(angle); ctx.scale(0.62, 0.62); ctx.globalAlpha = alpha;
+    ctx.lineWidth = 3; ctx.strokeStyle = "#1D2340"; ctx.fillStyle = "#1D2340";
+    for (const [wx, wy] of [[-11, -10], [-11, 10], [11, -10], [11, 10]]) ctx.fillRect(wx - 5, wy - 3.5, 10, 7);
     ctx.fillStyle = body;
-    ctx.beginPath(); ctx.roundRect(-17, -6, 32, 12, 5); ctx.fill(); ctx.stroke();          // body
-    ctx.beginPath(); ctx.roundRect(14, -10, 6, 20, 2); ctx.fill(); ctx.stroke();           // front wing
-    ctx.beginPath(); ctx.roundRect(-21, -9, 5, 18, 2); ctx.fill(); ctx.stroke();           // rear wing
-    ctx.fillStyle = "#1D2340"; ctx.beginPath(); ctx.arc(0, 0, 3.5, 0, 7); ctx.fill();      // helmet
+    ctx.beginPath(); ctx.roundRect(-17, -6, 32, 12, 5); ctx.fill(); ctx.stroke();
+    ctx.beginPath(); ctx.roundRect(14, -10, 6, 20, 2); ctx.fill(); ctx.stroke();
+    ctx.beginPath(); ctx.roundRect(-21, -9, 5, 18, 2); ctx.fill(); ctx.stroke();
+    ctx.fillStyle = "#1D2340"; ctx.beginPath(); ctx.arc(0, 0, 3.5, 0, 7); ctx.fill();
     ctx.restore();
   }
 
   // ===== Game state =====
-  let state = "ready";            // ready | racing | finished
-  let car, raceTime, progress, lastAngle, offTime, toastUntil = 0, steer = { left: false, right: false };
+  let state = "loading";          // loading | ready | racing | finished
+  let car, raceTime, progress, idx, offTime, toastUntil = 0, steer = { left: false, right: false };
+  let mode = localStorage.getItem(MODE_KEY) === "pro" ? "pro" : "beginner";   // Beginner by default
 
   function reset() {
-    car = { x: CX + 6, y: CY + RY, angle: Math.PI, speed: 0 };   // on the line, facing left (clockwise lap)
-    raceTime = 0; progress = 0; offTime = 0; lastAngle = lapAngle(car.x, car.y);
+    const s = path[0] || { x: W / 2, y: H / 2, h: 0 };
+    car = { x: s.x, y: s.y, angle: s.h, speed: 0 };
+    raceTime = 0; progress = 0; idx = 0; offTime = 0;
   }
-
-  // Point on the centre line at lap angle a, and the direction of travel there (clockwise).
-  const centre = a => ({ x: CX + RX * Math.cos(a), y: CY + RY * Math.sin(a),
-                         heading: Math.atan2(RY * Math.cos(a), -RX * Math.sin(a)) });
-  const turnTo = (from, to) => Math.atan2(Math.sin(to - from), Math.cos(to - from));   // shortest turn, -π..π
-
-  // Beginner: soft invisible walls. If the car crosses an edge of the tarmac, move it back onto
-  // the edge and turn it along the track, so it slides along instead of leaving.
-  function softWalls() {
-    const dx = car.x - CX, dy = car.y - CY;
-    const out = (dx / (RX + HALF - 6)) ** 2 + (dy / (RY + HALF - 6)) ** 2;   // > 1 = past the outer edge
-    const inn = (dx / (RX - HALF + 6)) ** 2 + (dy / (RY - HALF + 6)) ** 2;   // < 1 = past the inner edge
-    if (out <= 1 && inn >= 1) return;
-    const k = out > 1 ? 1 / Math.sqrt(out) : 1 / Math.sqrt(inn);
-    car.x = CX + dx * k; car.y = CY + dy * k;
-    const along = centre(lapAngle(car.x, car.y)).heading;
-    car.angle += turnTo(car.angle, along) * 0.5;      // slide: turn halfway towards the track direction
-    car.speed *= WALL_GRIP;
-  }
-
   function ghostPos(t) {
-    // The ghost drives round the centre line at a steady pace: one lap in GHOST_LAP seconds.
-    const a = START + (Math.min(t, GHOST_LAP) / GHOST_LAP) * Math.PI * 2;
-    const x = CX + RX * Math.cos(a), y = CY + RY * Math.sin(a);
-    const heading = Math.atan2(RY * Math.cos(a), -RX * Math.sin(a));
-    return { x, y, heading };
+    // The ghost drives the whole lap at one steady speed: one lap in ghostLap seconds.
+    const f = (Math.min(t, ghostLap) / ghostLap) * N, i = Math.floor(f) % N, p = path[i], q = path[(i + 1) % N], u = f - Math.floor(f);
+    return { x: p.x + (q.x - p.x) * u, y: p.y + (q.y - p.y) * u, h: p.h };
+  }
+
+  // Beginner: soft invisible walls. If the car goes past an edge, move it back to the edge and
+  // turn it along the track, so it slides along instead of leaving.
+  function softWalls(n) {
+    if (n.d <= HALF - 3) return;
+    const p = path[n.i], k = (HALF - 3) / n.d;
+    car.x = p.x + (car.x - p.x) * k; car.y = p.y + (car.y - p.y) * k;
+    car.angle += turnTo(car.angle, p.h) * 0.5;
+    car.speed *= WALL_GRIP;
   }
 
   function update(dt) {
     if (state !== "racing") return;
     raceTime += dt;
-    // steering (a little less sharp when going slowly)
     const turn = (steer.left ? -1 : 0) + (steer.right ? 1 : 0);
-    car.angle += turn * TURN * dt * Math.min(1, 0.35 + car.speed / MAX_SPEED);
+    car.angle += turn * TURN * dt * Math.min(1, 0.4 + car.speed / MAX_SPEED);
+    let n = nearest(car.x, car.y, idx);
     if (mode === "beginner") {
-      // gentle steering help: aim at a point a little further along the centre line
-      const target = centre(lapAngle(car.x, car.y) + 0.3);
-      const want = Math.atan2(target.y - car.y, target.x - car.x);
-      const help = Math.max(-1, Math.min(1, turnTo(car.angle, want) * 3)) * ASSIST * dt;
-      car.angle += turn ? help * 0.4 : help;          // weaker while you are steering yourself
+      // gentle steering help: aim at the track a little further ahead
+      const ahead = path[(n.i + 8) % N];
+      const help = Math.max(-1, Math.min(1, turnTo(car.angle, Math.atan2(ahead.y - car.y, ahead.x - car.x)) * 2.5)) * ASSIST * dt;
+      car.angle += turn ? help * 0.4 : help;
     }
-    // auto-accelerate; off the track the top speed drops and the car slows down
-    const top = onTrack(car.x, car.y) ? MAX_SPEED : OFF_SPEED;
-    if (car.speed < top) car.speed = Math.min(top, car.speed + ACCEL * dt);
-    else car.speed = Math.max(top, car.speed - 260 * dt);
+    // speed: auto-accelerate; slower while steering (and while the help steers hard); much slower off track
+    const helping = mode === "beginner" && Math.abs(turnTo(car.angle, path[(n.i + 10) % N].h)) > 0.35;
+    let top = MAX_SPEED * (turn || helping ? STEER_SLOW : 1);
+    if (n.d > HALF) top = MAX_SPEED * OFF_RATIO;
+    if (car.speed < top) car.speed = Math.min(top, car.speed + MAX_SPEED * 0.9 * dt);
+    else car.speed = Math.max(top, car.speed - MAX_SPEED * 2.2 * dt);
     car.x += Math.cos(car.angle) * car.speed * dt;
     car.y += Math.sin(car.angle) * car.speed * dt;
-    if (mode === "beginner") softWalls();
+    n = nearest(car.x, car.y, n.i);
+    if (mode === "beginner") { softWalls(n); n = nearest(car.x, car.y, n.i); }
     // never leave the canvas (the whole car stays visible)
     car.x = Math.max(EDGE, Math.min(W - EDGE, car.x)); car.y = Math.max(EDGE, Math.min(H - EDGE, car.y));
-    // off the track for OFF_RESET seconds? Put the car back on the track, at the same point of the lap.
-    offTime = onTrack(car.x, car.y) ? 0 : offTime + dt;
+    // off the track for OFF_RESET seconds? Put the car back on the track at the same point of the lap.
+    offTime = n.d > HALF ? offTime + dt : 0;
     if (offTime >= OFF_RESET) {
-      const c = centre(lapAngle(car.x, car.y));
-      car.x = c.x; car.y = c.y; car.angle = c.heading; car.speed = OFF_SPEED; offTime = 0;
+      const p = path[n.i];
+      car.x = p.x; car.y = p.y; car.angle = p.h; car.speed = MAX_SPEED * OFF_RATIO; offTime = 0;
       toastUntil = raceTime + 1.2;
     }
     document.getElementById("toast").hidden = raceTime > toastUntil;
-    // lap progress: add up how far round the oval we have travelled (clockwise = positive)
-    const a = lapAngle(car.x, car.y);
-    let d = a - lastAngle;
-    if (d > Math.PI) d -= Math.PI * 2;
-    if (d < -Math.PI) d += Math.PI * 2;
-    progress += d; lastAngle = a;
-    if (progress >= Math.PI * 2) finish();
+    // lap progress: count how many track points we moved forward (wrapping round at the finish line)
+    let d = n.i - idx;
+    if (d > N / 2) d -= N;
+    if (d < -N / 2) d += N;
+    progress += d; idx = n.i;
+    if (progress >= N - 1) finish();
   }
 
   function draw() {
     drawTrack();
-    const g = ghostPos(state === "ready" ? 0 : raceTime);
-    drawCar(g.x, g.y, g.heading, "#F2B705", 0.45);           // see-through ghost
+    if (!N) return;
+    const g = ghostPos(state === "racing" || state === "finished" ? raceTime : 0);
+    drawCar(g.x, g.y, g.h, "#F2B705", 0.45);                 // see-through ghost
     drawCar(car.x, car.y, car.angle, "#E10600", 1);          // your car
-    document.getElementById("timer").textContent = raceTime.toFixed(2) + " s";
+    document.getElementById("timer").textContent = "⏱ " + raceTime.toFixed(2) + " s";
   }
-
   let last = performance.now();
   function loop(now) {
     const dt = Math.min(0.05, (now - last) / 1000); last = now;
@@ -276,10 +326,11 @@
     requestAnimationFrame(loop);
   }
 
-  // ===== Start, finish, best time =====
+  // ===== Start, finish, best times (per circuit and per mode) =====
   const fmt = s => s.toFixed(2) + " s";
+  const bestKey = () => `f1game_best_${circuitId}_${mode}`;
   const modeName = () => (mode === "pro" ? "Pro" : "Beginner");
-  const getBest = () => { const v = parseFloat(localStorage.getItem(BEST_KEYS[mode])); return isFinite(v) ? v : null; };
+  const getBest = () => { const v = parseFloat(localStorage.getItem(bestKey())); return isFinite(v) ? v : null; };
   function showBestOnStart() {
     const b = getBest();
     document.getElementById("bestStart").textContent = `${modeName()} mode` + (b ? ` · your best: ${fmt(b)}` : "");
@@ -288,40 +339,39 @@
     mode = m; localStorage.setItem(MODE_KEY, m);
     document.getElementById("modeBeginner").className = m === "beginner" ? "on" : "";
     document.getElementById("modePro").className = m === "pro" ? "on" : "";
-    // switching mode starts over (so each best time belongs to one mode)
-    state = "ready"; reset(); toastUntil = 0; showBestOnStart();
+    if (state !== "loading") state = "ready";           // switching mode starts over
+    reset(); toastUntil = 0; showBestOnStart();
     document.getElementById("resultPanel").hidden = true;
     document.getElementById("startPanel").hidden = false;
   }
-  document.getElementById("modeBeginner").onclick = () => setMode("beginner");
-  document.getElementById("modePro").onclick = () => setMode("pro");
   function start() {
+    if (state === "loading") return;
     reset(); state = "racing";
     document.getElementById("startPanel").hidden = true;
     document.getElementById("resultPanel").hidden = true;
   }
   function finish() {
     state = "finished";
-    const mine = Math.round(raceTime * 100) / 100, gap = mine - GHOST_LAP;
+    const mine = Math.round(raceTime * 100) / 100, gap = mine - ghostLap;
     let best = getBest();
     const newBest = best === null || mine < best;           // only a faster lap counts as a new best
-    if (newBest) { best = mine; localStorage.setItem(BEST_KEYS[mode], mine.toFixed(2)); }
+    if (newBest) { best = mine; localStorage.setItem(bestKey(), mine.toFixed(2)); }
     document.getElementById("resultTitle").textContent = gap < 0 ? "Pole position! 🏁" : "Lap done!";
     document.getElementById("rMine").textContent = fmt(mine);
-    document.getElementById("rBestLabel").textContent = `Your best (${modeName()})`;
-    document.getElementById("rGhost").textContent = fmt(GHOST_LAP);
+    document.getElementById("rGhost").textContent = fmt(ghostLap);
     const gapEl = document.getElementById("rGap");
     gapEl.textContent = (gap < 0 ? "−" : "+") + Math.abs(gap).toFixed(2) + " s";
     gapEl.className = gap < 0 ? "gap-good" : "gap-bad";
+    document.getElementById("rBestLabel").textContent = `Your best (${modeName()})`;
     document.getElementById("rBest").textContent = fmt(best) + (newBest ? " (new!)" : "");
     document.getElementById("resultPanel").hidden = false;
   }
   document.getElementById("startBtn").onclick = start;
   document.getElementById("againBtn").onclick = start;
-  document.getElementById("ghostInfo").textContent = `Ghost: ${fmt(GHOST_LAP)}`;
+  document.getElementById("modeBeginner").onclick = () => setMode("beginner");
+  document.getElementById("modePro").onclick = () => setMode("pro");
 
   // ===== Controls =====
-  // Laptop: arrow keys.
   addEventListener("keydown", e => {
     if (e.key === "ArrowLeft") { steer.left = true; e.preventDefault(); }
     if (e.key === "ArrowRight") { steer.right = true; e.preventDefault(); }
@@ -331,7 +381,6 @@
     if (e.key === "ArrowLeft") steer.left = false;
     if (e.key === "ArrowRight") steer.right = false;
   });
-  // Phone: hold the ◀ ▶ buttons.
   function holdButton(id, side) {
     const b = document.getElementById(id);
     const on = e => { e.preventDefault(); steer[side] = true; b.classList.add("held"); };
@@ -343,12 +392,42 @@
   holdButton("leftBtn", "left");
   holdButton("rightBtn", "right");
 
-  // For automatic tests only: read-only view of the car and the lap.
-  window.__game = { get state() { return state; }, get car() { return car; }, get progress() { return progress; },
-                    get mode() { return mode; }, get offTime() { return offTime; },
-                    onTrack, CX, CY, RX, RY };
+  // ===== Load the circuit + the real pole time, then get ready =====
+  const shortName = n => { const p = n.split(" "); return p.length > 1 ? p.slice(1).join(" ") : n; };
+  const niceDate = iso => new Date(iso + "T12:00:00Z").toLocaleDateString("en-GB", { day: "numeric", month: "short" });
+  async function load() {
+    let stats = null;
+    try { stats = await (await fetch("data/stats.json", { cache: "no-store" })).json(); } catch (e) { /* use the fallback */ }
+    const next = stats && stats.next_race;
+    if (next && CIRCUITS[next.circuit_id]) circuitId = next.circuit_id;      // the next race, if we have its track
+    const info = CIRCUITS[circuitId];
+    pole = (stats && stats.game_poles && stats.game_poles[circuitId]) || FALLBACK_POLES[circuitId];
 
-  setMode(mode); requestAnimationFrame(loop);
+    const geo = await (await fetch(info.file)).json();
+    const built = buildPath(geo.features[0].geometry.coordinates);
+    path = built.path; N = path.length;
+
+    // The scaling: game time runs TIME_SCALE times faster than real life.
+    ghostLap = Math.round(pole.seconds / TIME_SCALE * 100) / 100;
+    MAX_SPEED = (built.length / ghostLap) * SPEED_RATIO;
+
+    const isNext = next && next.circuit_id === circuitId;
+    document.getElementById("raceInfo").textContent = `🏁 ${info.race}` + (isNext ? ` · next race ${niceDate(next.date)}` : "");
+    document.getElementById("poleInfo").textContent = `Pole: ${shortName(pole.driver)} ${pole.time} (${pole.season})`;
+    document.getElementById("ghostInfo").textContent = `👻 Ghost: ${fmt(ghostLap)}`;
+    document.getElementById("scaleNote").textContent =
+      `The ghost drives the real pole lap ${TIME_SCALE}× faster: ${pole.time} ÷ ${TIME_SCALE} = ${fmt(ghostLap)}.`;
+    state = "ready"; document.getElementById("startBtn").disabled = false;
+    reset(); showBestOnStart();
+  }
+
+  // For automatic tests only: read-only view of the game.
+  window.__game = { get state() { return state; }, get car() { return car; }, get progress() { return progress; },
+                    get mode() { return mode; }, get offTime() { return offTime; }, get path() { return path; },
+                    get N() { return N; }, get idx() { return idx; }, get ghostLap() { return ghostLap; },
+                    onTrack, HALF, W, H };
+
+  setMode(mode); load(); requestAnimationFrame(loop);
 </script>
 </body>
 </html>

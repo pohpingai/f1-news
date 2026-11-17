@@ -19,7 +19,7 @@ that answers only from the saved news.
 | News, every 2 h (`fetch-news.yml`) | `scripts/fetch_news.py` | Reads 13 RSS feeds; headline, source, date, link, ~200-char snippet; link = ID; deletes stories older than 30 days | `data/news.json` |
 | | `scripts/ai_cluster.py` | AI brain: groups the same story into cards (title, 2-sentence summary, "sources disagree" note, merge reason), labels every card, writes the headline of the day | `data/cards.json` |
 | | `scripts/rumour_tracker.py` | AI memory of rumours: claim, people, sources, status, trend, history | `data/rumours.json` |
-| Stats, every 6 h at :30 (`fetch-stats.yml`) | `scripts/fetch_stats.py` | No AI. Free **Jolpica F1 API** (`api.jolpi.ca`): driver + constructor standings and all race results; ~7 requests per run | `data/stats.json` |
+| Stats, every 6 h at :30 (`fetch-stats.yml`) | `scripts/fetch_stats.py` | No AI. Free **Jolpica F1 API** (`api.jolpi.ca`): driver + constructor standings, all race results, pole per round, the next race and the latest pole at each game circuit; ~10 requests per run | `data/stats.json` |
 | Every AI request | `ask_ai(..., feature=...)` | Logs the real cost per feature per day | `data/costs.json` → `costs.html` |
 
 ### News sources (12 sources, 13 feeds)
@@ -40,6 +40,8 @@ that answers only from the saved news.
     thinking steps (what was searched, the dates, what was found) shown above each answer.
 - `costs.html` — AI money tracker (still the OLD plain look).
 - `stats-test.html` — plain test page for the Stats Agent (not linked from the site).
+- `game.html` — mini game "Beat the pole lap": real Las Vegas outline (bacinger/f1-circuits, MIT),
+  ghost = real pole time ÷ 10, Beginner/Pro modes, best times per circuit and mode (no AI).
 
 ### Labels
 **Confirmed** = official team/driver/FIA news, results, penalties · **Reported** = on-the-record quotes
@@ -592,3 +594,40 @@ Trend is plain code: rising = 2+ sources in 2 days; fading = nothing new 5 days;
 - Pro holding ▶ for 8 s: the car stops at the canvas edge (lowest y 496 of 520), never leaves it.
 - Pro lap with the real buttons: 9.72 s saved as the Pro best; Beginner best (10.32) kept separately;
   mode and best times survive a reload. No errors, no sideways scrolling.
+
+## Session 15 — 17 Nov 2026: "Beat the pole lap" Step 2 (real track + real pole)
+
+### Done
+- **Real track:** the oval is replaced by the **Las Vegas Strip Circuit**, the next race on the 2026
+  calendar (round 21, 22 Nov). Outline from **bacinger/f1-circuits** (`circuits/us-2023.geojson`),
+  **MIT licence** (Copyright (c) 2019-2025 Tomislav Bacinger) — copied with its licence to
+  `game/circuits/` and credited on the page. The outline (longitude/latitude) is turned into canvas
+  pixels, rotated to fit best, corners rounded a little, start line = first point of the outline;
+  the points run anticlockwise, like the real race.
+- **Real pole time:** `scripts/fetch_stats.py` now also saves to `data/stats.json`:
+  `poles` (this season's pole per round), `next_race`, and `game_poles` (the most recent pole at each
+  game circuit). 10 requests per run (was 7). Same safety: if anything fails, the old file is kept.
+  The 2026 Las Vegas qualifying is on 21 Nov, so until then the game shows the latest one:
+  **Norris 1:47.934 (2025)**; the robot switches to the 2026 pole by itself.
+- **Scaling:** game time runs 10× faster than real life: ghost lap = pole time ÷ 10 = **10.79 s**.
+  Your top speed = the ghost's average speed × 1.45; you slow down while steering, so a clean lap
+  just beats the ghost (`TIME_SCALE`, `SPEED_RATIO` at the top of the script).
+- Kept: Beginner/Pro modes, back-on-track after 2 s, car stays on screen. Best times are now per
+  circuit AND mode (`f1game_best_vegas_beginner`, `f1game_best_vegas_pro`); the old oval bests are not used.
+- Timer + ghost moved above the track so they never hide part of it. If `stats.json` has no pole yet,
+  the page uses a built-in copy of the same Jolpica pole.
+
+### Tested (phone-sized screen)
+- Stickers: "Las Vegas Grand Prix · next race 22 Nov", "Pole: Norris 1:47.934 (2025)", ghost 10.79 s.
+- No parts of the drawn track overlap (closest two parts 90 px apart; track drawn 40 px wide).
+- Beginner, no steering: 11.3 s, never off the track. Pro autopilot on the real buttons: 10.20 s and
+  10.67 s (beats the ghost). First balance try: Pro 14.97 s (too hard) → sharper steering + more speed.
+- Off the track → back after 2 s; car never leaves the canvas; best times per circuit+mode saved;
+  works without the new stats.json; no errors, no sideways scrolling.
+- Stats robot on a data copy: 20 poles, next race Las Vegas, Vegas pole Norris 1:47.934; 2nd run "unchanged".
+
+### Things to know
+- This session moved to the cloud environment **f1-news** (it allows Jolpica). To deploy the Worker
+  (Cloudflare token), use **f1-dashboard**.
+- The game shows the next race only if its outline is in `CIRCUITS` (game.html) and `GAME_CIRCUITS`
+  (fetch_stats.py); otherwise it stays on Las Vegas. Qatar (`qa-2004`) is the next one to add.
