@@ -631,3 +631,28 @@ Trend is plain code: rising = 2+ sources in 2 days; fading = nothing new 5 days;
   (Cloudflare token), use **f1-dashboard**.
 - The game shows the next race only if its outline is in `CIRCUITS` (game.html) and `GAME_CIRCUITS`
   (fetch_stats.py); otherwise it stays on Las Vegas. Qatar (`qa-2004`) is the next one to add.
+
+## Session 16 — 17 Nov 2026: "Beat the pole lap" — sectors + lap data
+
+### Done (`game.html` only)
+- The lap is split into **3 equal-length sectors** (markers "S2", "S3" on the track; real F1 sectors
+  are not equal — this keeps it simple). Ghost sectors = ghost lap ÷ 3.
+- **Live sector pills** under the timer, coloured like F1: purple = your best ever in that sector,
+  green = faster than the ghost, yellow = slower. Sector 3 = lap time − S1 − S2 (they always add up).
+- **"Lap done" card:** a table of S1/S2/S3/Lap — you vs ghost, with the gap. On phones the card now
+  sits under the track (it was too tall to fit on top of it).
+- **Best sectors** saved per circuit and mode: `f1game_bestsectors_vegas_beginner` / `_pro` (JSON list).
+- **Lap log for a future AI race engineer:** every finished lap is saved in the browser under
+  `f1game_laps` (newest 200, JSON). Each lap: version, date, circuit, mode, lap time, ghost lap, gap,
+  time scale, pole, and per sector: time, ghost time, delta, colour, best before, seconds off the
+  track, "back on track" resets and wall slides. A **📋 Copy lap data** button copies all laps as JSON.
+
+### Tested (phone-sized screen, autopilot on the real buttons)
+- Pro lap 1: S1/S2/S3 all purple (first lap); lap 2: S1 yellow, S2 purple (new best), S3 green.
+- Card rows match; the sectors add up to the lap time; best sectors per mode saved; Beginner keeps
+  its own; 3 laps in `f1game_laps` with the fields above; Copy puts valid JSON on the clipboard.
+- No errors, no sideways scrolling.
+
+### Next ideas
+- AI race engineer: read `f1game_laps` and say where the time is lost (e.g. "S1: +0.5 s, you were off
+  the track 0.7 s").
