@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T00:29:52Z",
+ "updated": "2026-11-18T09:43:00Z",
  "model": "anthropic/claude-haiku-5.5",
  "rumours": [
   {
@@ -90,7 +90,7 @@
     "Charles Leclerc"
    ],
    "status": "Active",
-   "trend": "rising",
+   "trend": "steady",
    "first_seen": "2026-11-16T07:59:00Z",
    "last_seen": "2026-11-17T06:30:00Z",
    "sources": [
@@ -495,16 +495,16 @@
   "c77be571c": "10|Confirmed",
   "cc4b2ac53": "1|Reported",
   "c441425a1": "1|Confirmed",
-  "c67ec87ec": "1|Reported",
+  "c67ec87ec": "3|Reported",
   "cf8b5fde0": "2|Confirmed",
   "cec46fcab": "1|Confirmed",
   "cee081101": "2|Reported",
   "c674f6248": "2|Confirmed",
-  "c4a0bc4f4": "2|Reported",
+  "c4a0bc4f4": "3|Reported",
   "c7bca97b3": "1|Confirmed",
   "cad42a732": "1|Confirmed",
   "c15f59184": "1|Reported",
-  "c18ab9564": "4|Reported",
+  "c18ab9564": "5|Reported",
   "cf4671225": "1|Reported",
   "c46bfebac": "1|Confirmed",
   "c04501f0b": "1|Reported",
@@ -513,6 +513,13 @@
   "c1c19362a": "1|Reported",
   "c969e6462": "1|Reported",
   "c9aac1089": "1|Reported",
-  "c521f1e41": "1|Confirmed"
+  "c521f1e41": "4|Confirmed",
+  "c1ec98bf5": "1|Confirmed",
+  "c318ec4fb": "1|Reported",
+  "cb9e1abbf": "1|Reported",
+  "c57057013": "1|Reported",
+  "c0999cd35": "1|Reported",
+  "cb5eb87a9": "1|Reported",
+  "c9e0a52aa": "1|Reported"
  }
 }

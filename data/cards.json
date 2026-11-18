@@ -1,12 +1,457 @@
 {
- "updated": "2026-11-18T00:28:39Z",
+ "updated": "2026-11-18T09:42:15Z",
  "model": "anthropic/claude-haiku-5.5",
  "headline_of_the_day": {
   "date": "2026-11-18",
-  "text": "Alonso will race the 2027 Dakar Rally for Aston Martin, while Mercedes' ADUO turbo and Piastri's 10-place grid drop shape the Las Vegas Grand Prix build-up.",
-  "written": "2026-11-18T00:28:39Z"
+  "text": "Fernando Alonso will race the 2027 Dakar Rally for Aston Martin, while Kimi Antonelli's Las Vegas upgrade and Piastri's 10-place grid drop headline the build-up to the final triple-header.",
+  "written": "2026-11-18T09:42:15Z"
  },
  "cards": [
+  {
+   "id": "c521f1e41",
+   "created": "2026-11-18T00:28:39Z",
+   "stories": [
+    {
+     "title": "Oscar Piastri set for grid penalty at F1 Las Vegas GP",
+     "source": "Motorsport.com",
+     "date": "2026-11-18T00:21:42Z",
+     "link": "https://www.motorsport.com/f1/news/oscar-piastri-set-for-grid-penalty-at-f1-las-vegas-gp/10875180/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "snippet": "McLaren driver Oscar Piastri is set for a 10-place grid drop at F1's Las Vegas GP for exceeding his engine allowance for the season. Piastri was already on the limit of four internal combustion…"
+    },
+    {
+     "title": "Oscar Piastri braced for grid penalty at Las Vegas Grand Prix",
+     "source": "PlanetF1",
+     "date": "2026-11-18T06:59:56Z",
+     "link": "https://www.planetf1.com/news/oscar-piastri-fia-las-vegas-grand-prix-2026-penalty",
+     "snippet": "Oscar Piastri will serve a penalty in Las Vegas."
+    },
+    {
+     "title": "Piastri set for grid penalty at F1 Las Vegas GP",
+     "source": "Autosport",
+     "date": "2026-11-18T08:14:39Z",
+     "link": "https://www.autosport.com/f1/news/piastri-set-for-grid-penalty-at-f1-las-vegas-gp/10875205/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+     "snippet": "McLaren driver Oscar Piastri is set for a 10-place grid drop at Formula 1's Las Vegas GP for exceeding his engine allowance for the season. Piastri was already on the limit of four internal…"
+    },
+    {
+     "title": "Oscar Piastri set for huge Las Vegas GP grid penalty",
+     "source": "Crash.net",
+     "date": "2026-11-18T09:31:09Z",
+     "link": "https://www.crash.net/f1/news/1110160/1/oscar-piastri-set-huge-las-vegas-gp-grid-penalty",
+     "snippet": "Oscar Piastri will take a grid penalty at the Las Vegas GP"
+    }
+   ],
+   "merge_reasons": [
+    {
+     "time": "2026-11-18T09:42:15Z",
+     "added": [
+      "https://www.planetf1.com/news/oscar-piastri-fia-las-vegas-grand-prix-2026-penalty",
+      "https://www.autosport.com/f1/news/piastri-set-for-grid-penalty-at-f1-las-vegas-gp/10875205/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "https://www.crash.net/f1/news/1110160/1/oscar-piastri-set-huge-las-vegas-gp-grid-penalty"
+     ],
+     "joined_existing": true,
+     "reason": "The PlanetF1, Autosport and Crash.net reports all cover the same 10-place grid penalty for Piastri at Las Vegas."
+    }
+   ],
+   "title": "Piastri to take 10-place grid drop at Las Vegas Grand Prix",
+   "summary": "McLaren's Oscar Piastri is set for a 10-place grid drop at the Las Vegas Grand Prix. The penalty is for exceeding his season engine allowance, as he was already at the limit.",
+   "disagreement": "",
+   "label": "Confirmed",
+   "updated": "2026-11-18T09:42:15Z"
+  },
+  {
+   "id": "c872aed23",
+   "created": "2026-11-18T09:42:15Z",
+   "stories": [
+    {
+     "title": "The Kimi Antonelli you don't know, told by those closest to him",
+     "source": "Motorsport.com",
+     "date": "2026-11-18T09:14:20Z",
+     "link": "https://www.motorsport.com/f1/news/the-kimi-antonelli-you-dont-know-told-by-those-closest-to-him/10875085/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "snippet": "There is one thing that physiotherapist Sergi Avila took a little while to understand. When Kimi Antonelli finally found himself with a free weekend, after weeks being spent between circuits…"
+    },
+    {
+     "title": "The Antonelli you don't know: Daily life with F1's newest champion",
+     "source": "Autosport",
+     "date": "2026-11-18T09:20:55Z",
+     "link": "https://www.autosport.com/f1/news/the-antonelli-you-dont-know-daily-life-with-f1s-newest-champion/10875217/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+     "snippet": "There is one thing that physiotherapist Sergi Avila took a little while to understand. When Kimi Antonelli finally found himself with a free weekend, after weeks being spent between circuits…"
+    }
+   ],
+   "merge_reasons": [
+    {
+     "time": "2026-11-18T09:42:15Z",
+     "added": [
+      "https://www.motorsport.com/f1/news/the-kimi-antonelli-you-dont-know-told-by-those-closest-to-him/10875085/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+      "https://www.autosport.com/f1/news/the-antonelli-you-dont-know-daily-life-with-f1s-newest-champion/10875217/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk"
+     ],
+     "joined_existing": false,
+     "reason": "The Motorsport.com and Autosport pieces are the same feature, sharing the Sergi Avila anecdote and text."
+    }
+   ],
+   "title": "Those close to Kimi Antonelli reveal his life away from the track",
+   "summary": "A feature shares accounts from people close to Kimi Antonelli, including physiotherapist Sergi Avila. It describes how Antonelli spent a rare free weekend between races.",
+   "disagreement": "",
+   "label": "Opinion",
+   "updated": "2026-11-18T09:42:15Z"
+  },
+  {
+   "id": "c18ab9564",
+   "created": "2026-11-18T00:28:39Z",
+   "stories": [
+    {
+     "title": "Why George Russell won’t get Mercedes F1 engine upgrade at Las Vegas GP",
+     "source": "Crash.net",
+     "date": "2026-11-17T14:29:22Z",
+     "link": "https://www.crash.net/f1/news/1110155/1/why-george-russell-wont-get-mercedes-f1-engine-upgrade-las-vegas-gp",
+     "snippet": "Mercedes will finally introduce its ADUO F1 engine upgrade in Las Vegas."
+    },
+    {
+     "title": "Mercedes plans to debut ADUO upgrade on Antonelli's car only",
+     "source": "The Race",
+     "date": "2026-11-17T15:05:38Z",
+     "link": "https://www.the-race.com/formula-1/mercedes-plan-to-debut-aduo-upgrade-on-antonellis-car-only/",
+     "snippet": "Mercedes is planning to introduce its long-awaited ADUO-assisted turbo on Kimi Antonelli's F1 car at the Las Vegas GP"
+    },
+    {
+     "title": "Mercedes set to run ADUO engine upgrade in Las Vegas with one driver",
+     "source": "Sky Sports",
+     "date": "2026-11-17T15:31:00Z",
+     "link": "https://www.skysports.com/f1/news/12433/13613272/mercedes-confirm-aduo-turbo-upgrade-ready-for-las-vegas-gp-with-kimi-antonelli-set-to-run-new-engine-part",
+     "snippet": "World champions Mercedes will bring their ADUO turbocharger upgrade to this weekend's Las Vegas Grand Prix, although George Russell will not use it to avoid having to take another grid penalty in his…"
+    },
+    {
+     "title": "Toto Wolff explains why George Russell won't get Mercedes’ new turbo in Las Vegas",
+     "source": "Motorsport.com",
+     "date": "2026-11-17T23:30:27Z",
+     "link": "https://www.motorsport.com/f1/news/toto-wolff-explains-why-george-russell-is-being-denied-mercedes-new-turbo-in-las-vegas/10875150/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "snippet": "Having officially wrapped up both the 2026 constructors' and drivers' world championships in Brazil, Mercedes arrives at the Las Vegas Grand Prix with a dual mandate: test development parts for 2027…"
+    },
+    {
+     "title": "Mercedes makes upgrade decision as Antonelli receives ADUO update",
+     "source": "PlanetF1",
+     "date": "2026-11-18T09:09:12Z",
+     "link": "https://www.planetf1.com/news/mercedes-aduo-upgrade-las-vegas-kimi-antonelli",
+     "snippet": "Kimi Antonelli will receive Mercedes' latest update, but there is a good reason why George Russell is not for now."
+    }
+   ],
+   "merge_reasons": [
+    {
+     "time": "2026-11-18T00:28:39Z",
+     "added": [
+      "https://www.crash.net/f1/news/1110155/1/why-george-russell-wont-get-mercedes-f1-engine-upgrade-las-vegas-gp",
+      "https://www.the-race.com/formula-1/mercedes-plan-to-debut-aduo-upgrade-on-antonellis-car-only/",
+      "https://www.skysports.com/f1/news/12433/13613272/mercedes-confirm-aduo-turbo-upgrade-ready-for-las-vegas-gp-with-kimi-antonelli-set-to-run-new-engine-part"
+     ],
+     "joined_existing": false,
+     "reason": "All three stories report the same Mercedes plan to run the ADUO upgrade on Antonelli's car in Las Vegas."
+    },
+    {
+     "time": "2026-11-18T00:28:39Z",
+     "added": [
+      "https://www.motorsport.com/f1/news/toto-wolff-explains-why-george-russell-is-being-denied-mercedes-new-turbo-in-las-vegas/10875150/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www"
+     ],
+     "joined_existing": true,
+     "reason": "Both the Sky Sports report and the Motorsport.com report cover the same decision to run the ADUO upgrade on Antonelli's car only, with Russell excluded."
+    },
+    {
+     "time": "2026-11-18T09:42:15Z",
+     "added": [
+      "https://www.planetf1.com/news/mercedes-aduo-upgrade-las-vegas-kimi-antonelli"
+     ],
+     "joined_existing": true,
+     "reason": "The PlanetF1 piece reports the same decision to fit the ADUO update to Antonelli's car only in Las Vegas."
+    }
+   ],
+   "title": "Mercedes fits ADUO turbo to Antonelli's car only in Las Vegas",
+   "summary": "Mercedes will bring its ADUO turbo upgrade to Kimi Antonelli's car at the Las Vegas Grand Prix. George Russell will not use it, which avoids another grid penalty for him.",
+   "disagreement": "",
+   "label": "Reported",
+   "updated": "2026-11-18T09:42:15Z"
+  },
+  {
+   "id": "c9e0a52aa",
+   "created": "2026-11-18T09:42:15Z",
+   "stories": [
+    {
+     "title": "Kimi Antonelli and Susie Wolff left Toto with a movie night problem",
+     "source": "GPFans",
+     "date": "2026-11-18T08:45:00Z",
+     "link": "https://www.gpfans.com/en/f1-news/1092985/f1-kimi-antonelli-toto-wolff-susie-wolff-movie-night-problem/",
+     "snippet": "Mercedes boss Toto Wolff has revealed just how close young world champion Kimi Antonelli has become to his family over his career."
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Wolff reveals how close Antonelli is to his family",
+   "summary": "Toto Wolff has revealed how close Kimi Antonelli has become to his family over his career. GPFans reports the story with an anecdote about a movie night involving Susie Wolff.",
+   "disagreement": "",
+   "label": "Reported",
+   "updated": "2026-11-18T09:42:15Z"
+  },
+  {
+   "id": "cbfdbd30a",
+   "created": "2026-11-18T09:42:15Z",
+   "stories": [
+    {
+     "title": "When Ferrari nearly signed Adrian Newey: ‘Incredible’ offer, Horner intervention, announcement plan",
+     "source": "PlanetF1",
+     "date": "2026-11-18T08:15:35Z",
+     "link": "https://www.planetf1.com/news/christian-horner-adrian-newey-ferrari-2014-drive",
+     "snippet": "Christian Horner: \"I couldn't rely on him any more – our partnership was not as solid as I'd previously believed.\""
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Ferrari's near-signing of Adrian Newey recalled in detail",
+   "summary": "PlanetF1 looks back at how Ferrari nearly signed Adrian Newey, including an incredible offer and a planned announcement. The piece includes a Christian Horner quote saying their partnership was not as solid as he had believed.",
+   "disagreement": "",
+   "label": "Opinion",
+   "updated": "2026-11-18T09:42:15Z"
+  },
+  {
+   "id": "cb5eb87a9",
+   "created": "2026-11-18T09:42:15Z",
+   "stories": [
+    {
+     "title": "Lewis Hamilton calls out ex-F1 drivers for “talking smack” about young stars",
+     "source": "Crash.net",
+     "date": "2026-11-18T08:00:00Z",
+     "link": "https://www.crash.net/f1/news/1110158/1/lewis-hamilton-calls-out-ex-f1-drivers-talking-smack-about-young-stars",
+     "snippet": "Lewis Hamilton has hit back at ex-F1 drivers for criticising the next generation."
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Hamilton hits back at ex-drivers over young stars",
+   "summary": "Lewis Hamilton has responded to former F1 drivers who criticised the next generation. Crash.net reports that he called out their comments about young stars.",
+   "disagreement": "",
+   "label": "Reported",
+   "updated": "2026-11-18T09:42:15Z"
+  },
+  {
+   "id": "c67ec87ec",
+   "created": "2026-11-18T00:28:39Z",
+   "stories": [
+    {
+     "title": "Lewis Hamilton told to “think about quitting” F1 by Bernie Ecclestone",
+     "source": "Crash.net",
+     "date": "2026-11-17T09:56:59Z",
+     "link": "https://www.crash.net/f1/news/1110144/1/lewis-hamilton-told-think-about-quitting-f1-bernie-ecclestone",
+     "snippet": "Ex-F1 supremo Bernie Ecclestone issues a brutal verdict about Ferrari driver Lewis Hamilton."
+    },
+    {
+     "title": "‘Complaining’ Lewis Hamilton needs ‘to think about quitting’ amid growing Ferrari frustration",
+     "source": "PlanetF1",
+     "date": "2026-11-18T06:26:36Z",
+     "link": "https://www.planetf1.com/news/lewis-hamilton-ferrari-quit-bernie-ecclestone",
+     "snippet": "\"He already complains and complains about anything before the first corner — no matter what it is.\""
+    },
+    {
+     "title": "Lewis Hamilton told to retire amid Ferrari misery: 'It's too late for him'",
+     "source": "GPFans",
+     "date": "2026-11-18T07:58:00Z",
+     "link": "https://www.gpfans.com/en/f1-news/1092987/f1-lewis-hamilton-bernie-ecclestone-retire-ferrari-too-late/",
+     "snippet": "Former F1 supremo Bernie Ecclestone has warned that Lewis Hamilton should be considering retirement from the sport."
+    }
+   ],
+   "merge_reasons": [
+    {
+     "time": "2026-11-18T09:42:15Z",
+     "added": [
+      "https://www.planetf1.com/news/lewis-hamilton-ferrari-quit-bernie-ecclestone",
+      "https://www.gpfans.com/en/f1-news/1092987/f1-lewis-hamilton-bernie-ecclestone-retire-ferrari-too-late/"
+     ],
+     "joined_existing": true,
+     "reason": "The PlanetF1 and GPFans reports cover the same Ecclestone comments urging Hamilton to consider retiring from F1."
+    }
+   ],
+   "title": "Ecclestone tells Hamilton to think about quitting F1",
+   "summary": "Former F1 boss Bernie Ecclestone has told Lewis Hamilton to think about quitting the sport amid Ferrari frustrations. Reports say he criticised Hamilton's constant complaining and suggested retirement is too late for him.",
+   "disagreement": "",
+   "label": "Reported",
+   "updated": "2026-11-18T09:42:15Z"
+  },
+  {
+   "id": "c22457594",
+   "created": "2026-11-18T09:42:15Z",
+   "stories": [
+    {
+     "title": "Cowboy boots, cocktails and casinos - how do three US grands prix compare?",
+     "source": "BBC Sport",
+     "date": "2026-11-18T07:50:26Z",
+     "link": "https://www.bbc.co.uk/sport/formula1/articles/c6d91xl13pggo?at_medium=RSS&at_campaign=rss",
+     "snippet": "F1 struggled to establish itself in the United States, but now hosts three grands prix. We compare the merits of Austin, Miami and Las Vegas."
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Comparing Austin, Miami and Las Vegas as US grands prix",
+   "summary": "BBC Sport compares the three US grands prix now hosted by F1: Austin, Miami and Las Vegas. The piece covers their merits, from cowboy boots to cocktails and casinos.",
+   "disagreement": "",
+   "label": "Opinion",
+   "updated": "2026-11-18T09:42:15Z"
+  },
+  {
+   "id": "c64709a6f",
+   "created": "2026-11-18T09:42:15Z",
+   "stories": [
+    {
+     "title": "George Russell ‘bad luck’ claim under Kimi Antonelli father scrutiny",
+     "source": "PlanetF1",
+     "date": "2026-11-18T07:34:28Z",
+     "link": "https://www.planetf1.com/news/george-russell-marco-antonelli-bad-luck",
+     "snippet": "George Russell did experience some \"bad luck\" across F1 2026, but..."
+    }
+   ],
+   "merge_reasons": [],
+   "title": "George Russell 'bad luck' claim comes under scrutiny",
+   "summary": "PlanetF1 reports that George Russell did experience some bad luck during the 2026 season. The piece sets this claim against scrutiny of the comments made by Kimi Antonelli's father.",
+   "disagreement": "",
+   "label": "Opinion",
+   "updated": "2026-11-18T09:42:15Z"
+  },
+  {
+   "id": "c0999cd35",
+   "created": "2026-11-18T09:42:15Z",
+   "stories": [
+    {
+     "title": "Mercedes’ technical director explains how Antonelli leapt ahead of Russell in 2026 | Formula 1",
+     "source": "RaceFans",
+     "date": "2026-11-18T07:15:48Z",
+     "link": "https://www.racefans.net/2026/11/18/mercedes-technical-director-explains-how-antonelli-leapt-ahead-of-russell-in-second-season/",
+     "snippet": "Mercedes technical director James Allison explains why Andrea Kimi Antonelli has performed better in this year's car than George Russell."
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Allison explains how Antonelli pulled ahead of Russell",
+   "summary": "Mercedes technical director James Allison explains why Kimi Antonelli has performed better than George Russell in this year's car. RaceFans reports his comments.",
+   "disagreement": "",
+   "label": "Reported",
+   "updated": "2026-11-18T09:42:15Z"
+  },
+  {
+   "id": "c57057013",
+   "created": "2026-11-18T09:42:15Z",
+   "stories": [
+    {
+     "title": "Christian Horner statement drops major hint about Alpine F1 return",
+     "source": "GPFans",
+     "date": "2026-11-18T07:14:00Z",
+     "link": "https://www.gpfans.com/en/f1-news/1093002/christian-horner-statement-offers-major-insight-into-alpine-f1-return/",
+     "snippet": "We are 16 months on from the shock exit of Christian Horner from F1, and right now the list of potential landing spots for the former Red Bull chief appears to be pretty thin."
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Horner statement hints at possible Alpine F1 return",
+   "summary": "GPFans reports that a Christian Horner statement drops a major hint about an Alpine F1 return. The article notes that the list of possible landing spots for the former Red Bull chief looks thin.",
+   "disagreement": "",
+   "label": "Reported",
+   "updated": "2026-11-18T09:42:15Z"
+  },
+  {
+   "id": "c4a0bc4f4",
+   "created": "2026-11-18T00:28:39Z",
+   "stories": [
+    {
+     "title": "Ferrari boss Fred Vasseur “overwhelmed” by job claims Bernie Ecclestone",
+     "source": "Crash.net",
+     "date": "2026-11-17T12:30:10Z",
+     "link": "https://www.crash.net/f1/news/1110151/1/ferrari-boss-fred-vasseur-overwhelmed-job-claims-bernie-ecclestone",
+     "snippet": "Ex-F1 boss Bernie Ecclestone launches scathing attack on Ferrari and Fred Vasseur."
+    },
+    {
+     "title": "Lewis Hamilton's boss 'overwhelmed' as Ferrari leadership questioned",
+     "source": "GPFans",
+     "date": "2026-11-17T12:37:00Z",
+     "link": "https://www.gpfans.com/en/f1-news/1092983/fred-vasseur-lewis-hamilton-ferrari-f1-boss-overwhelmed-bernie-ecclestone/",
+     "snippet": "Lewis Hamilton's Ferrari boss Fred Vasseur has been branded 'overwhelmed' by the demands of the job, with serious questions raised over his suitability to lead the Scuderia."
+    },
+    {
+     "title": "Vasseur 'overwhelmed' at Ferrari as Lewis Hamilton replaced in Vegas - F1 News Today",
+     "source": "GPFans",
+     "date": "2026-11-18T06:30:00Z",
+     "link": "https://www.gpfans.com/en/f1-news/1093004/f1-news-today-fred-vasseur-overwhelmed-ferrari-lewis-hamilton-replaced-las-vegas-gp/",
+     "snippet": "Lewis Hamilton's Ferrari boss Fred Vasseur has been branded 'overwhelmed' by the demands of the job, with serious questions raised over his suitability to lead the Scuderia."
+    }
+   ],
+   "merge_reasons": [
+    {
+     "time": "2026-11-18T00:28:39Z",
+     "added": [
+      "https://www.crash.net/f1/news/1110151/1/ferrari-boss-fred-vasseur-overwhelmed-job-claims-bernie-ecclestone",
+      "https://www.gpfans.com/en/f1-news/1092983/fred-vasseur-lewis-hamilton-ferrari-f1-boss-overwhelmed-bernie-ecclestone/"
+     ],
+     "joined_existing": false,
+     "reason": "Both stories report the same Ecclestone claim that Vasseur is overwhelmed by the Ferrari job."
+    },
+    {
+     "time": "2026-11-18T09:42:15Z",
+     "added": [
+      "https://www.gpfans.com/en/f1-news/1093004/f1-news-today-fred-vasseur-overwhelmed-ferrari-lewis-hamilton-replaced-las-vegas-gp/"
+     ],
+     "joined_existing": true,
+     "reason": "The GPFans Vasseur piece repeats the same claims about Vasseur being overwhelmed as the existing coverage."
+    }
+   ],
+   "title": "Ecclestone says Vasseur is overwhelmed by Ferrari job",
+   "summary": "Bernie Ecclestone has claimed Ferrari boss Fred Vasseur is overwhelmed by the job. GPFans repeats the claim and questions Vasseur's suitability to lead the Scuderia.",
+   "disagreement": "",
+   "label": "Reported",
+   "updated": "2026-11-18T09:42:15Z"
+  },
+  {
+   "id": "c67ae1007",
+   "created": "2026-11-18T09:42:15Z",
+   "stories": [
+    {
+     "title": "What's still to play for in 2026 as F1 hits Vegas?",
+     "source": "Sky Sports",
+     "date": "2026-11-18T06:00:00Z",
+     "link": "https://www.skysports.com/f1/news/12433/13611983/las-vegas-gp-whats-still-to-play-for-over-final-three-races-of-f1-2026-season-with-battles-in-drivers-and-constructors-championships",
+     "snippet": "The 2026 Formula 1 season has three races left to go with the Las Vegas Grand Prix opening the final triple header of the year this weekend."
+    }
+   ],
+   "merge_reasons": [],
+   "title": "What is still to play for as F1 heads to Vegas",
+   "summary": "Three races remain in the 2026 season, with Las Vegas opening the final triple-header. Sky Sports looks at what is still to be decided.",
+   "disagreement": "",
+   "label": "Opinion",
+   "updated": "2026-11-18T09:42:15Z"
+  },
+  {
+   "id": "cb9e1abbf",
+   "created": "2026-11-18T09:42:15Z",
+   "stories": [
+    {
+     "title": "Charles Leclerc reveals worried Ferrari stance on Las Vegas GP prospects",
+     "source": "PlanetF1",
+     "date": "2026-11-18T03:00:35Z",
+     "link": "https://www.planetf1.com/news/charles-leclerc-ferrari-las-vegas-prospects-revealed",
+     "snippet": "Charles Leclerc claimed pole position on F1's inaugural visit to Las Vegas in 2023."
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Leclerc shares Ferrari's worried outlook for Las Vegas Grand Prix",
+   "summary": "Charles Leclerc says Ferrari has a worried stance on its Las Vegas prospects. He claimed pole position on F1's inaugural Las Vegas visit in 2023.",
+   "disagreement": "",
+   "label": "Reported",
+   "updated": "2026-11-18T09:42:15Z"
+  },
+  {
+   "id": "c318ec4fb",
+   "created": "2026-11-18T09:42:15Z",
+   "stories": [
+    {
+     "title": "Toto Wolff reveals heartwarming memory of a teenage Kimi Antonelli living at his house",
+     "source": "Motorsport.com",
+     "date": "2026-11-18T01:00:03Z",
+     "link": "https://www.motorsport.com/f1/news/toto-wolff-reveals-heartwarming-memory-of-a-teenage-kimi-antonelli-living-at-his-house/10874978/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "snippet": "The Formula 1 paddock is notoriously cutthroat, but Mercedes team principal Toto Wolff operates his driver management pipeline with a distinctly paternal approach. After guiding Kimi Antonelli from…"
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Wolff recalls teenage Antonelli living at his house",
+   "summary": "Toto Wolff shares a memory of Kimi Antonelli living at his home as a teenager. Motorsport.com describes Wolff's paternal approach to managing his driver pipeline.",
+   "disagreement": "",
+   "label": "Reported",
+   "updated": "2026-11-18T09:42:15Z"
+  },
   {
    "id": "cab54b728",
    "created": "2026-11-16T23:57:55Z",
@@ -103,25 +548,6 @@
    "updated": "2026-11-18T00:28:39Z"
   },
   {
-   "id": "c521f1e41",
-   "created": "2026-11-18T00:28:39Z",
-   "stories": [
-    {
-     "title": "Oscar Piastri set for grid penalty at F1 Las Vegas GP",
-     "source": "Motorsport.com",
-     "date": "2026-11-18T00:21:42Z",
-     "link": "https://www.motorsport.com/f1/news/oscar-piastri-set-for-grid-penalty-at-f1-las-vegas-gp/10875180/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "snippet": "McLaren driver Oscar Piastri is set for a 10-place grid drop at F1's Las Vegas GP for exceeding his engine allowance for the season. Piastri was already on the limit of four internal combustion…"
-    }
-   ],
-   "merge_reasons": [],
-   "title": "Piastri faces 10-place grid drop at Las Vegas Grand Prix",
-   "summary": "Oscar Piastri is set for a 10-place grid drop at the Las Vegas Grand Prix. The penalty is for exceeding his engine allowance for the season.",
-   "disagreement": "",
-   "label": "Confirmed",
-   "updated": "2026-11-18T00:28:39Z"
-  },
-  {
    "id": "c9aac1089",
    "created": "2026-11-18T00:28:39Z",
    "stories": [
@@ -136,65 +562,6 @@
    "merge_reasons": [],
    "title": "Wolff details subdued Mercedes celebrations after 2026 double",
    "summary": "Mercedes clinched the constructors' championship at the São Paulo Grand Prix, a week after Kimi Antonelli won the drivers' title. Toto Wolff has detailed how the team's celebrations were subdued.",
-   "disagreement": "",
-   "label": "Reported",
-   "updated": "2026-11-18T00:28:39Z"
-  },
-  {
-   "id": "c18ab9564",
-   "created": "2026-11-18T00:28:39Z",
-   "stories": [
-    {
-     "title": "Why George Russell won’t get Mercedes F1 engine upgrade at Las Vegas GP",
-     "source": "Crash.net",
-     "date": "2026-11-17T14:29:22Z",
-     "link": "https://www.crash.net/f1/news/1110155/1/why-george-russell-wont-get-mercedes-f1-engine-upgrade-las-vegas-gp",
-     "snippet": "Mercedes will finally introduce its ADUO F1 engine upgrade in Las Vegas."
-    },
-    {
-     "title": "Mercedes plans to debut ADUO upgrade on Antonelli's car only",
-     "source": "The Race",
-     "date": "2026-11-17T15:05:38Z",
-     "link": "https://www.the-race.com/formula-1/mercedes-plan-to-debut-aduo-upgrade-on-antonellis-car-only/",
-     "snippet": "Mercedes is planning to introduce its long-awaited ADUO-assisted turbo on Kimi Antonelli's F1 car at the Las Vegas GP"
-    },
-    {
-     "title": "Mercedes set to run ADUO engine upgrade in Las Vegas with one driver",
-     "source": "Sky Sports",
-     "date": "2026-11-17T15:31:00Z",
-     "link": "https://www.skysports.com/f1/news/12433/13613272/mercedes-confirm-aduo-turbo-upgrade-ready-for-las-vegas-gp-with-kimi-antonelli-set-to-run-new-engine-part",
-     "snippet": "World champions Mercedes will bring their ADUO turbocharger upgrade to this weekend's Las Vegas Grand Prix, although George Russell will not use it to avoid having to take another grid penalty in his…"
-    },
-    {
-     "title": "Toto Wolff explains why George Russell won't get Mercedes’ new turbo in Las Vegas",
-     "source": "Motorsport.com",
-     "date": "2026-11-17T23:30:27Z",
-     "link": "https://www.motorsport.com/f1/news/toto-wolff-explains-why-george-russell-is-being-denied-mercedes-new-turbo-in-las-vegas/10875150/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "snippet": "Having officially wrapped up both the 2026 constructors' and drivers' world championships in Brazil, Mercedes arrives at the Las Vegas Grand Prix with a dual mandate: test development parts for 2027…"
-    }
-   ],
-   "merge_reasons": [
-    {
-     "time": "2026-11-18T00:28:39Z",
-     "added": [
-      "https://www.crash.net/f1/news/1110155/1/why-george-russell-wont-get-mercedes-f1-engine-upgrade-las-vegas-gp",
-      "https://www.the-race.com/formula-1/mercedes-plan-to-debut-aduo-upgrade-on-antonellis-car-only/",
-      "https://www.skysports.com/f1/news/12433/13613272/mercedes-confirm-aduo-turbo-upgrade-ready-for-las-vegas-gp-with-kimi-antonelli-set-to-run-new-engine-part"
-     ],
-     "joined_existing": false,
-     "reason": "All three stories report the same Mercedes plan to run the ADUO upgrade on Antonelli's car in Las Vegas."
-    },
-    {
-     "time": "2026-11-18T00:28:39Z",
-     "added": [
-      "https://www.motorsport.com/f1/news/toto-wolff-explains-why-george-russell-is-being-denied-mercedes-new-turbo-in-las-vegas/10875150/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www"
-     ],
-     "joined_existing": true,
-     "reason": "Both the Sky Sports report and the Motorsport.com report cover the same decision to run the ADUO upgrade on Antonelli's car only, with Russell excluded."
-    }
-   ],
-   "title": "Mercedes fits ADUO turbo to Antonelli's car only in Las Vegas",
-   "summary": "Mercedes will bring its ADUO turbocharger upgrade to the Las Vegas Grand Prix on Kimi Antonelli's car only. Toto Wolff has explained that George Russell will not get the new turbo, which would otherwise mean taking another grid penalty.",
    "disagreement": "",
    "label": "Reported",
    "updated": "2026-11-18T00:28:39Z"
@@ -656,6 +1023,25 @@
    "updated": "2026-11-18T00:28:39Z"
   },
   {
+   "id": "c1ec98bf5",
+   "created": "2026-11-18T09:42:15Z",
+   "stories": [
+    {
+     "title": "F1 - 2026 Las Vegas Grand Prix Preview",
+     "source": "FIA",
+     "date": "2026-11-17T16:20:00Z",
+     "link": "https://www.fia.com/news/f1-2026-las-vegas-grand-prix-preview",
+     "snippet": "FIA Formula One World Championship Brazilian Grand Prix SEASON 2026 Sport Circuit 1SportFIA Formula One World ChampionshipCircuitSEASON 2026Brazilian Grand Prix00 Tuesday, November 17…"
+    }
+   ],
+   "merge_reasons": [],
+   "title": "FIA publishes preview document for Las Vegas Grand Prix",
+   "summary": "The FIA has released its official preview document for the 2026 Las Vegas Grand Prix. The document is dated Tuesday, 17 November.",
+   "disagreement": "",
+   "label": "Confirmed",
+   "updated": "2026-11-18T09:42:15Z"
+  },
+  {
    "id": "cf8b5fde0",
    "created": "2026-11-18T00:28:39Z",
    "stories": [
@@ -871,42 +1257,6 @@
    "summary": "PlanetF1 profiles George Kurtz, a billionaire racing driver who owns a stake in Mercedes and has won at Le Mans. The piece links him to the team's latest success.",
    "disagreement": "",
    "label": "Opinion",
-   "updated": "2026-11-18T00:28:39Z"
-  },
-  {
-   "id": "c4a0bc4f4",
-   "created": "2026-11-18T00:28:39Z",
-   "stories": [
-    {
-     "title": "Ferrari boss Fred Vasseur “overwhelmed” by job claims Bernie Ecclestone",
-     "source": "Crash.net",
-     "date": "2026-11-17T12:30:10Z",
-     "link": "https://www.crash.net/f1/news/1110151/1/ferrari-boss-fred-vasseur-overwhelmed-job-claims-bernie-ecclestone",
-     "snippet": "Ex-F1 boss Bernie Ecclestone launches scathing attack on Ferrari and Fred Vasseur."
-    },
-    {
-     "title": "Lewis Hamilton's boss 'overwhelmed' as Ferrari leadership questioned",
-     "source": "GPFans",
-     "date": "2026-11-17T12:37:00Z",
-     "link": "https://www.gpfans.com/en/f1-news/1092983/fred-vasseur-lewis-hamilton-ferrari-f1-boss-overwhelmed-bernie-ecclestone/",
-     "snippet": "Lewis Hamilton's Ferrari boss Fred Vasseur has been branded 'overwhelmed' by the demands of the job, with serious questions raised over his suitability to lead the Scuderia."
-    }
-   ],
-   "merge_reasons": [
-    {
-     "time": "2026-11-18T00:28:39Z",
-     "added": [
-      "https://www.crash.net/f1/news/1110151/1/ferrari-boss-fred-vasseur-overwhelmed-job-claims-bernie-ecclestone",
-      "https://www.gpfans.com/en/f1-news/1092983/fred-vasseur-lewis-hamilton-ferrari-f1-boss-overwhelmed-bernie-ecclestone/"
-     ],
-     "joined_existing": false,
-     "reason": "Both stories report the same Ecclestone claim that Vasseur is overwhelmed by the Ferrari job."
-    }
-   ],
-   "title": "Ecclestone says Vasseur is overwhelmed by Ferrari job",
-   "summary": "Bernie Ecclestone has claimed that Ferrari boss Fred Vasseur is overwhelmed by the demands of the role. Coverage says this has raised questions about Vasseur's suitability to lead Ferrari.",
-   "disagreement": "",
-   "label": "Reported",
    "updated": "2026-11-18T00:28:39Z"
   },
   {
@@ -1151,25 +1501,6 @@
    ],
    "title": "Wolff reveals Christian Horner's message after Antonelli's title win",
    "summary": "Toto Wolff has revealed the private message he received from Christian Horner after Kimi Antonelli won the 2026 title. Several outlets report that the message was a congratulatory one from a former rival.",
-   "disagreement": "",
-   "label": "Reported",
-   "updated": "2026-11-18T00:28:39Z"
-  },
-  {
-   "id": "c67ec87ec",
-   "created": "2026-11-18T00:28:39Z",
-   "stories": [
-    {
-     "title": "Lewis Hamilton told to “think about quitting” F1 by Bernie Ecclestone",
-     "source": "Crash.net",
-     "date": "2026-11-17T09:56:59Z",
-     "link": "https://www.crash.net/f1/news/1110144/1/lewis-hamilton-told-think-about-quitting-f1-bernie-ecclestone",
-     "snippet": "Ex-F1 supremo Bernie Ecclestone issues a brutal verdict about Ferrari driver Lewis Hamilton."
-    }
-   ],
-   "merge_reasons": [],
-   "title": "Ecclestone tells Hamilton to think about quitting F1",
-   "summary": "Former F1 supremo Bernie Ecclestone has issued a harsh verdict on Lewis Hamilton, telling him to think about quitting. The comments were made about the Ferrari driver.",
    "disagreement": "",
    "label": "Reported",
    "updated": "2026-11-18T00:28:39Z"
@@ -6312,6 +6643,52 @@
     }
    ],
    "reason": "The subdued celebrations report and the Horner congratulatory message are separate accounts from the Mercedes title win, so they describe different events."
+  },
+  {
+   "time": "2026-11-18T09:42:15Z",
+   "items": [
+    {
+     "title": "Toto Wolff reveals heartwarming memory of a teenage Kimi Antonelli living at his house",
+     "source": "Motorsport.com",
+     "link": "https://www.motorsport.com/f1/news/toto-wolff-reveals-heartwarming-memory-of-a-teenage-kimi-antonelli-living-at-his-house/10874978/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www"
+    },
+    {
+     "title": "Kimi Antonelli and Susie Wolff left Toto with a movie night problem",
+     "source": "GPFans",
+     "link": "https://www.gpfans.com/en/f1-news/1092985/f1-kimi-antonelli-toto-wolff-susie-wolff-movie-night-problem/"
+    }
+   ],
+   "reason": "Both are Wolff comments about Antonelli's closeness to the family, but they describe different anecdotes from different pieces."
+  },
+  {
+   "time": "2026-11-18T09:42:15Z",
+   "items": [
+    {
+     "title": "George Russell ‘bad luck’ claim under Kimi Antonelli father scrutiny",
+     "source": "PlanetF1",
+     "link": "https://www.planetf1.com/news/george-russell-marco-antonelli-bad-luck"
+    },
+    {
+     "card": "c0a13a578",
+     "title": "Antonelli's father gives blunt verdict on Russell after title"
+    }
+   ],
+   "reason": "The Russell 'bad luck' piece may respond to the father's verdict, but the snippet does not confirm that link, so it stays separate."
+  },
+  {
+   "time": "2026-11-18T09:42:15Z",
+   "items": [
+    {
+     "title": "Christian Horner statement drops major hint about Alpine F1 return",
+     "source": "GPFans",
+     "link": "https://www.gpfans.com/en/f1-news/1093002/christian-horner-statement-offers-major-insight-into-alpine-f1-return/"
+    },
+    {
+     "card": "cb529d5b5",
+     "title": "FSG linked with $3bn Cadillac F1 deal, Horner responds"
+    }
+   ],
+   "reason": "The Horner Alpine hint and the Horner-linked Cadillac sale story concern different teams and deals."
   }
  ],
  "processed": [
@@ -6355,9 +6732,11 @@
   "https://www.autosport.com/f1/news/oscar-piastri-splits-from-mark-webber-management/10873258/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
   "https://www.autosport.com/f1/news/penalty-drops-oscar-piastri-out-of-f1-mexico-gp-points/10870864/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
   "https://www.autosport.com/f1/news/permane-signs-new-racing-bulls-f1-deal/10871999/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+  "https://www.autosport.com/f1/news/piastri-set-for-grid-penalty-at-f1-las-vegas-gp/10875205/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
   "https://www.autosport.com/f1/news/red-bulls-key-strategy-call-behind-verstappens-mexico-win-10871260/10871260/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
   "https://www.autosport.com/f1/news/retaining-lawson-isnt-enough-red-bull-must-stop-treating-him-like-a-failure/10874666/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
   "https://www.autosport.com/f1/news/russell-and-brdc-launch-karting-academy/10874110/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+  "https://www.autosport.com/f1/news/the-antonelli-you-dont-know-daily-life-with-f1s-newest-champion/10875217/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
   "https://www.autosport.com/f1/news/the-antonelli-you-dont-know-inside-the-mercedes-garage-with-f1s-new-world-champion/10874265/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
   "https://www.autosport.com/f1/news/the-reason-behind-hondas-power-unit-lasting-five-laps-in-mexico/10871286/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
   "https://www.autosport.com/f1/news/the-surprising-convergence-behind-f1s-increasingly-competitive-2026-season/10874375/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
@@ -6388,6 +6767,7 @@
   "https://www.bbc.co.uk/sport/formula1/articles/c59vz9gdllxlo?at_medium=RSS&at_campaign=rss",
   "https://www.bbc.co.uk/sport/formula1/articles/c5y43jzvrnz0o?at_medium=RSS&at_campaign=rss",
   "https://www.bbc.co.uk/sport/formula1/articles/c60735md0jrpo?at_medium=RSS&at_campaign=rss",
+  "https://www.bbc.co.uk/sport/formula1/articles/c6d91xl13pggo?at_medium=RSS&at_campaign=rss",
   "https://www.bbc.co.uk/sport/formula1/articles/c6gell5l7l3zo?at_medium=RSS&at_campaign=rss",
   "https://www.bbc.co.uk/sport/formula1/articles/c6gr8e822kzqo?at_medium=RSS&at_campaign=rss",
   "https://www.bbc.co.uk/sport/formula1/articles/c6m2dj7ze9v2o?at_medium=RSS&at_campaign=rss",
@@ -6404,7 +6784,6 @@
   "https://www.bbc.co.uk/sport/formula1/articles/cmp3g005zyxko?at_medium=RSS&at_campaign=rss",
   "https://www.bbc.co.uk/sport/formula1/articles/cmq8n95ppwd4o?at_medium=RSS&at_campaign=rss",
   "https://www.bbc.co.uk/sport/formula1/articles/cmwy7dl879gzo?at_medium=RSS&at_campaign=rss",
-  "https://www.bbc.co.uk/sport/formula1/articles/cqm24nezmy23o?at_medium=RSS&at_campaign=rss",
   "https://www.bbc.co.uk/sport/formula1/articles/cqp9dr4kedd3o?at_medium=RSS&at_campaign=rss",
   "https://www.bbc.co.uk/sport/formula1/articles/cr3wvvpxnx1wo?at_medium=RSS&at_campaign=rss",
   "https://www.bbc.co.uk/sport/formula1/articles/cr9dz7w1xgxvo?at_medium=RSS&at_campaign=rss",
@@ -6481,6 +6860,8 @@
   "https://www.crash.net/f1/news/1110151/1/ferrari-boss-fred-vasseur-overwhelmed-job-claims-bernie-ecclestone",
   "https://www.crash.net/f1/news/1110155/1/why-george-russell-wont-get-mercedes-f1-engine-upgrade-las-vegas-gp",
   "https://www.crash.net/f1/news/1110156/1/toto-wolff-offers-blunt-response-kimi-antonelli-ferrari-question",
+  "https://www.crash.net/f1/news/1110158/1/lewis-hamilton-calls-out-ex-f1-drivers-talking-smack-about-young-stars",
+  "https://www.crash.net/f1/news/1110160/1/oscar-piastri-set-huge-las-vegas-gp-grid-penalty",
   "https://www.crash.net/f1/results/1110009/1/f1-brazil-grand-prix-full-race-results",
   "https://www.crash.net/motogp/news/1110106/1/watch-dani-pedrosa-race-ktm-motogp-bike-against-red-bull-f1-car-ice",
   "https://www.crash.net/motogp/news/1110108/1/buenos-aires-motogp-circuit-transformation-gathers-pace-f1-dream",
@@ -6508,6 +6889,7 @@
   "https://www.espn.com/f1/story/_/id/50509240/fernando-alonso-dakar-rally-aston-martin",
   "https://www.espn.com/racing/f1/story/_/id/50427335/wet-weather-mastery-lando-norris-max-verstappen-make-sao-paulo-brazil-f1-see-race",
   "https://www.fia.com/news/f1-2026-las-vegas-gp-schedule-press-conferences",
+  "https://www.fia.com/news/f1-2026-las-vegas-grand-prix-preview",
   "https://www.fia.com/news/f1-2026-sao-paulo-grand-prix-post-race-press-conference-transcript",
   "https://www.fia.com/news/f1-norris-triumphs-sao-paulo-mercedes-secure-2026-constructors-championship",
   "https://www.fia.com/news/fabiana-ecclestone-leads-high-impact-agenda-brazil-focusing-road-safety-and-female-empowerment",
@@ -6585,11 +6967,15 @@
   "https://www.gpfans.com/en/f1-news/1092979/f1-max-verstappen-mechanic-departure-jon-caller-ford-wec/",
   "https://www.gpfans.com/en/f1-news/1092981/f1-george-russell-kimi-antonelli-mercedes-humiliation-title/",
   "https://www.gpfans.com/en/f1-news/1092983/fred-vasseur-lewis-hamilton-ferrari-f1-boss-overwhelmed-bernie-ecclestone/",
+  "https://www.gpfans.com/en/f1-news/1092985/f1-kimi-antonelli-toto-wolff-susie-wolff-movie-night-problem/",
+  "https://www.gpfans.com/en/f1-news/1092987/f1-lewis-hamilton-bernie-ecclestone-retire-ferrari-too-late/",
   "https://www.gpfans.com/en/f1-news/1092989/oscar-piastri-mclaren-f1-future-lando-norris-wingman-peter-windsor/",
   "https://www.gpfans.com/en/f1-news/1092995/ferrari-f1-team-kit-hamilton-leclerc-las-vegas-grand-prix-2026/",
   "https://www.gpfans.com/en/f1-news/1092998/kimi-antonelli-mercedes-f1-contract-toto-wolff/",
   "https://www.gpfans.com/en/f1-news/1093000/f1-pressure-mounting-williams-boss-james-vowles-2026-struggles/",
+  "https://www.gpfans.com/en/f1-news/1093002/christian-horner-statement-offers-major-insight-into-alpine-f1-return/",
   "https://www.gpfans.com/en/f1-news/1093003/lewis-hamilton-replaced-f1-2026-las-vegas-grand-prix-fp1/",
+  "https://www.gpfans.com/en/f1-news/1093004/f1-news-today-fred-vasseur-overwhelmed-ferrari-lewis-hamilton-replaced-las-vegas-gp/",
   "https://www.motorsport.com/dakar/news/fernando-alonso-to-return-to-dakar-rally-with-aston-martin-in-2027/10874907/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/alan-permane-liam-lawson-has-been-a-revelation-as-he-earned-2027-racing-bulls-f1-deal/10875104/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/andrea-stella-wants-mclaren-to-finally-make-peace-with-las-vegas/10873819/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
@@ -6658,6 +7044,7 @@
   "https://www.motorsport.com/f1/news/retaining-liam-lawson-isnt-enough-red-bull-must-stop-treating-him-like-a-failure/10874659/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/the-impressive-stats-underpinning-liam-lawsons-career-saving-f1-season/10874116/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/the-kimi-antonelli-you-dont-know-inside-the-mercedes-garage-with-f1s-new-world-champion-/10874164/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+  "https://www.motorsport.com/f1/news/the-kimi-antonelli-you-dont-know-told-by-those-closest-to-him/10875085/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/topps-celebrates-lewis-hamiltons-400th-f1-start-with-limited-now-card/10874547/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/topps-reveals-gem-mint-10-lando-norris-card-with-coca-cola-suit-patch/10874731/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/toto-wolff-celebrated-mercedes-title-with-a-vodka-shot-on-the-plane-with-hamilton-and-russell/10874816/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
@@ -6665,6 +7052,7 @@
   "https://www.motorsport.com/f1/news/toto-wolff-is-not-afraid-of-losing-kimi-antonelli-to-ferrari/10875044/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/toto-wolff-offered-his-resignation-during-mercedes-struggles-but-the-ceo-refused/10874282/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/toto-wolff-reflects-on-mercedes-non-title-years-we-werent-complete-losers/10873281/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+  "https://www.motorsport.com/f1/news/toto-wolff-reveals-heartwarming-memory-of-a-teenage-kimi-antonelli-living-at-his-house/10874978/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/toto-wolff-says-kimi-antonelli-is-more-loved-in-italy-than-michael-schumacher-was-at-ferrari/10874809/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/tsolov-named-red-bull-racing-bulls-reserve-driver-after-missing-out-on-2027-f1-race-seat/10874147/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/what-is-left-to-fight-for-in-f1-2026/10874717/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
@@ -6677,6 +7065,8 @@
   "https://www.planetf1.com/news/adrian-newey-salary-mercedes-insider-michael-schumacher",
   "https://www.planetf1.com/news/alex-albon-williams-problems",
   "https://www.planetf1.com/news/aston-martin-las-vegas-grand-prix-2026-livery",
+  "https://www.planetf1.com/news/charles-leclerc-ferrari-las-vegas-prospects-revealed",
+  "https://www.planetf1.com/news/christian-horner-adrian-newey-ferrari-2014-drive",
   "https://www.planetf1.com/news/christian-horner-toto-wolff-kimi-antonelli-text-message",
   "https://www.planetf1.com/news/daniel-ricciardo-monaco-moment",
   "https://www.planetf1.com/news/f1-tipped-for-imminent-sale-by-former-liberty-media-boss",
@@ -6691,6 +7081,7 @@
   "https://www.planetf1.com/news/former-f1-driver-makes-comeback-with-mclaren-test",
   "https://www.planetf1.com/news/george-kurtz-mercedes-f1-quiet-owner-billionaire",
   "https://www.planetf1.com/news/george-russell-lewis-hamilton-recovery-f1-2027",
+  "https://www.planetf1.com/news/george-russell-marco-antonelli-bad-luck",
   "https://www.planetf1.com/news/george-russell-mercedes-future-kimi-antonelli-title-defeat",
   "https://www.planetf1.com/news/haas-confirm-esteban-ocon-replacement-las-vegas-rafael-camara",
   "https://www.planetf1.com/news/imola-reveals-future-f1-return-plan",
@@ -6709,6 +7100,7 @@
   "https://www.planetf1.com/news/lewis-hamilton-charles-leclerc-sportspro-2026-ranking",
   "https://www.planetf1.com/news/lewis-hamilton-ferrari-las-vegas-grand-prix-2026-fp1",
   "https://www.planetf1.com/news/lewis-hamilton-ferrari-project-679-decision",
+  "https://www.planetf1.com/news/lewis-hamilton-ferrari-quit-bernie-ecclestone",
   "https://www.planetf1.com/news/lewis-hamilton-fia-las-vegas-grand-prix-2026-fp1",
   "https://www.planetf1.com/news/lewis-hamilton-leadership-questioned-max-verstappen-ferrari-solution",
   "https://www.planetf1.com/news/liam-lawson-mclaren-oscar-piastri-guenther-steiner",
@@ -6719,6 +7111,7 @@
   "https://www.planetf1.com/news/mclaren-explains-oscar-piastri-norris-deficit",
   "https://www.planetf1.com/news/mclaren-highlights-key-lando-norris-trait",
   "https://www.planetf1.com/news/mclaren-las-vegas-upgrades-foundations-2027-f1-car",
+  "https://www.planetf1.com/news/mercedes-aduo-upgrade-las-vegas-kimi-antonelli",
   "https://www.planetf1.com/news/mercedes-ferrari-rubbish-race",
   "https://www.planetf1.com/news/mercedes-george-russell-role-kimi-antonelli-f1-success",
   "https://www.planetf1.com/news/mercedes-reveals-brazilian-gp-investigation-findings",
@@ -6727,6 +7120,7 @@
   "https://www.planetf1.com/news/nico-hulkenberg-fia-penalty-audi-f1-2026-brazilian-grand-prix",
   "https://www.planetf1.com/news/oliver-bearman-haas-las-vegas-grand-prix-2026-fp1",
   "https://www.planetf1.com/news/oscar-piastri-f1-2026-struggles",
+  "https://www.planetf1.com/news/oscar-piastri-fia-las-vegas-grand-prix-2026-penalty",
   "https://www.planetf1.com/news/oscar-piastri-mclaren-2025-f1-title-collapse-mistakes",
   "https://www.planetf1.com/news/red-bull-f1-2026-turnaround-revealed",
   "https://www.planetf1.com/news/toto-wolff-ron-dennis-frank-williams-f1-title-record",
@@ -6761,6 +7155,7 @@
   "https://www.racefans.net/2026/11/17/an-early-season-finale-five-talking-points-for-the-2026-las-vegas-grand-prix/",
   "https://www.racefans.net/2026/11/17/social-media-fia-president-indicates-agreement-reached-on-next-power-unit-formula/",
   "https://www.racefans.net/2026/11/17/spotlight-alonso-to-enter-dakar-in-car-aston-martin-designed-for-call-of-duty/",
+  "https://www.racefans.net/2026/11/18/mercedes-technical-director-explains-how-antonelli-leapt-ahead-of-russell-in-second-season/",
   "https://www.skysports.com/f1/live-blog/12433/12466779/f1-news-rumours-and-gossip-formula-1-latest-updates-on-teams-driver-transfer-market-and-contracts",
   "https://www.skysports.com/f1/live-blog/12433/13518208/f1-academy-2026-reports-calendar-news-results-standings-and-highlights-for-races-this-season",
   "https://www.skysports.com/f1/news/12433/13609697/toto-wolff-proud-of-mercedes-turnaround-after-winning-f1-2026-constructors-championship-at-sao-paulo-grand-prix",
@@ -6777,6 +7172,7 @@
   "https://www.skysports.com/f1/news/12433/13611077/las-vegas-gp-2026-dates-schedule-weather-uk-start-time-and-how-to-watch-or-stream-f1-race-in-united-states-live-on-sky-sports",
   "https://www.skysports.com/f1/news/12433/13611222/lewis-hamilton-ferraris-seven-time-f1-world-champion-urges-israel-to-let-the-aid-trucks-in-to-gaza-after-visit-to-rafah-border",
   "https://www.skysports.com/f1/news/12433/13611832/toto-wolff-says-mercedes-could-prioritise-george-russell-over-kimi-antonelli-in-final-races-of-2026-f1-season",
+  "https://www.skysports.com/f1/news/12433/13611983/las-vegas-gp-whats-still-to-play-for-over-final-three-races-of-f1-2026-season-with-battles-in-drivers-and-constructors-championships",
   "https://www.skysports.com/f1/news/12433/13612731/rafael-camara-haas-keep-brazilian-driver-as-oliver-bearmans-team-mate-for-las-vegas-gp-following-home-debut",
   "https://www.skysports.com/f1/news/12433/13612897/lewis-hamilton-says-work-improving-diversity-in-f1-nowhere-near-finished-as-mission-44-outlines-recommendations-for-further-change",
   "https://www.skysports.com/f1/news/12433/13612940/mclaren-chief-zak-brown-says-advice-from-novak-djokovic-will-help-f1-team-bounce-back-from-losing-titles-to-mercedes",
