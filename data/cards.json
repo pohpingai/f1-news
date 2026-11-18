@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-18T09:42:15Z",
+ "updated": "2026-11-18T18:37:37Z",
  "model": "anthropic/claude-haiku-5.5",
  "headline_of_the_day": {
-  "date": "2026-11-18",
-  "text": "Fernando Alonso will race the 2027 Dakar Rally for Aston Martin, while Kimi Antonelli's Las Vegas upgrade and Piastri's 10-place grid drop headline the build-up to the final triple-header.",
-  "written": "2026-11-18T09:42:15Z"
+  "date": "2026-11-19",
+  "text": "Piastri takes a 10-place grid drop for exceeding his 2026 engine allowance, while Mercedes fits its ADUO turbo to Antonelli's car only at the Las Vegas Grand Prix.",
+  "written": "2026-11-18T18:37:37Z"
  },
  "cards": [
   {
@@ -38,6 +38,27 @@
      "date": "2026-11-18T09:31:09Z",
      "link": "https://www.crash.net/f1/news/1110160/1/oscar-piastri-set-huge-las-vegas-gp-grid-penalty",
      "snippet": "Oscar Piastri will take a grid penalty at the Las Vegas GP"
+    },
+    {
+     "title": "Piastri to receive 10-place grid drop at Las Vegas GP",
+     "source": "Autosport",
+     "date": "2026-11-18T08:14:39Z",
+     "link": "https://www.autosport.com/f1/news/piastri-to-receive-grid-drop-at-las-vegas-gp/10875205/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+     "snippet": "McLaren driver Oscar Piastri is set for a 10-place grid drop at the Las Vegas Grand Prix for exceeding his engine allowance in the 2026 Formula 1 season. The 25-year-old was already on the limit of…"
+    },
+    {
+     "title": "Piastri to serve grid penalty at Las Vegas GP",
+     "source": "Sky Sports",
+     "date": "2026-11-18T14:30:00Z",
+     "link": "https://www.skysports.com/f1/news/12433/13613606/oscar-piastri-to-serve-grid-penalty-at-las-vegas-gp-as-mclaren-confirm-addition-of-more-upgrades-to-mcl40",
+     "snippet": "McLaren have confirmed that Oscar Piastri will serve a 10-place grid penalty at this weekend's Las Vegas Grand Prix as he will be forced to exceed his engine allowance for the season."
+    },
+    {
+     "title": "Piastri set for grid penalty at Las Vegas Grand Prix",
+     "source": "Formula1.com",
+     "date": "2026-11-18T18:37:32Z",
+     "link": "https://www.formula1.com/en/latest/article/piastri-set-for-10-place-grid-penalty-at-las-vegas-grand-prix.5eT1wWFQzCfOS6W2tvTtLk",
+     "snippet": "Oscar Piastri is set to take a penalty for the Las Vegas Grand Prix with McLaren confirming the Australian will have a new Internal Combustion Engine."
     }
    ],
    "merge_reasons": [
@@ -50,49 +71,23 @@
      ],
      "joined_existing": true,
      "reason": "The PlanetF1, Autosport and Crash.net reports all cover the same 10-place grid penalty for Piastri at Las Vegas."
+    },
+    {
+     "time": "2026-11-18T18:37:37Z",
+     "added": [
+      "https://www.autosport.com/f1/news/piastri-to-receive-grid-drop-at-las-vegas-gp/10875205/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "https://www.skysports.com/f1/news/12433/13613606/oscar-piastri-to-serve-grid-penalty-at-las-vegas-gp-as-mclaren-confirm-addition-of-more-upgrades-to-mcl40",
+      "https://www.formula1.com/en/latest/article/piastri-set-for-10-place-grid-penalty-at-las-vegas-grand-prix.5eT1wWFQzCfOS6W2tvTtLk"
+     ],
+     "joined_existing": true,
+     "reason": "All reports describe the same grid penalty for Piastri's engine allowance at Las Vegas."
     }
    ],
    "title": "Piastri to take 10-place grid drop at Las Vegas Grand Prix",
-   "summary": "McLaren's Oscar Piastri is set for a 10-place grid drop at the Las Vegas Grand Prix. The penalty is for exceeding his season engine allowance, as he was already at the limit.",
+   "summary": "McLaren has confirmed Oscar Piastri will serve a 10-place grid penalty at the Las Vegas Grand Prix. The penalty comes from exceeding his engine allowance for the 2026 season.",
    "disagreement": "",
    "label": "Confirmed",
-   "updated": "2026-11-18T09:42:15Z"
-  },
-  {
-   "id": "c872aed23",
-   "created": "2026-11-18T09:42:15Z",
-   "stories": [
-    {
-     "title": "The Kimi Antonelli you don't know, told by those closest to him",
-     "source": "Motorsport.com",
-     "date": "2026-11-18T09:14:20Z",
-     "link": "https://www.motorsport.com/f1/news/the-kimi-antonelli-you-dont-know-told-by-those-closest-to-him/10875085/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "snippet": "There is one thing that physiotherapist Sergi Avila took a little while to understand. When Kimi Antonelli finally found himself with a free weekend, after weeks being spent between circuits…"
-    },
-    {
-     "title": "The Antonelli you don't know: Daily life with F1's newest champion",
-     "source": "Autosport",
-     "date": "2026-11-18T09:20:55Z",
-     "link": "https://www.autosport.com/f1/news/the-antonelli-you-dont-know-daily-life-with-f1s-newest-champion/10875217/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-     "snippet": "There is one thing that physiotherapist Sergi Avila took a little while to understand. When Kimi Antonelli finally found himself with a free weekend, after weeks being spent between circuits…"
-    }
-   ],
-   "merge_reasons": [
-    {
-     "time": "2026-11-18T09:42:15Z",
-     "added": [
-      "https://www.motorsport.com/f1/news/the-kimi-antonelli-you-dont-know-told-by-those-closest-to-him/10875085/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-      "https://www.autosport.com/f1/news/the-antonelli-you-dont-know-daily-life-with-f1s-newest-champion/10875217/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk"
-     ],
-     "joined_existing": false,
-     "reason": "The Motorsport.com and Autosport pieces are the same feature, sharing the Sergi Avila anecdote and text."
-    }
-   ],
-   "title": "Those close to Kimi Antonelli reveal his life away from the track",
-   "summary": "A feature shares accounts from people close to Kimi Antonelli, including physiotherapist Sergi Avila. It describes how Antonelli spent a rare free weekend between races.",
-   "disagreement": "",
-   "label": "Opinion",
-   "updated": "2026-11-18T09:42:15Z"
+   "updated": "2026-11-18T18:37:37Z"
   },
   {
    "id": "c18ab9564",
@@ -132,6 +127,20 @@
      "date": "2026-11-18T09:09:12Z",
      "link": "https://www.planetf1.com/news/mercedes-aduo-upgrade-las-vegas-kimi-antonelli",
      "snippet": "Kimi Antonelli will receive Mercedes' latest update, but there is a good reason why George Russell is not for now."
+    },
+    {
+     "title": "Mercedes announce Kimi Antonelli F1 engine upgrade but George Russell won't be getting it",
+     "source": "GPFans",
+     "date": "2026-11-18T17:45:00Z",
+     "link": "https://www.gpfans.com/en/f1-news/1093025/f1-mercedes-announce-engine-upgrade-kimi-antonelli-george-russell-las-vegas-grand-prix/",
+     "snippet": "Mercedes have confirmed that they will, finally, bring an ADUO enabled engine upgrade to the Las Vegas Grand Prix."
+    },
+    {
+     "title": "Why Russell won't run Mercedes' upgraded turbocharger in Vegas",
+     "source": "Formula1.com",
+     "date": "2026-11-18T18:37:32Z",
+     "link": "https://www.formula1.com/en/latest/article/why-russell-wont-run-mercedes-upgraded-turbocharger-in-las-vegas.2ZwhMHFGbRFb6pApmMiEgY",
+     "snippet": "World Champion Kimi Antonelli is set to run with Mercedes' upgraded turbocharger at this weekend's Las Vegas Grand Prix, but team mate George Russell will not."
     }
    ],
    "merge_reasons": [
@@ -160,12 +169,974 @@
      ],
      "joined_existing": true,
      "reason": "The PlanetF1 piece reports the same decision to fit the ADUO update to Antonelli's car only in Las Vegas."
+    },
+    {
+     "time": "2026-11-18T18:37:37Z",
+     "added": [
+      "https://www.gpfans.com/en/f1-news/1093025/f1-mercedes-announce-engine-upgrade-kimi-antonelli-george-russell-las-vegas-grand-prix/",
+      "https://www.formula1.com/en/latest/article/why-russell-wont-run-mercedes-upgraded-turbocharger-in-las-vegas.2ZwhMHFGbRFb6pApmMiEgY"
+     ],
+     "joined_existing": true,
+     "reason": "All reports cover the same Mercedes decision to run the ADUO upgrade on Antonelli's car only in Las Vegas."
     }
    ],
    "title": "Mercedes fits ADUO turbo to Antonelli's car only in Las Vegas",
-   "summary": "Mercedes will bring its ADUO turbo upgrade to Kimi Antonelli's car at the Las Vegas Grand Prix. George Russell will not use it, which avoids another grid penalty for him.",
+   "summary": "Mercedes will bring its ADUO-enabled turbo upgrade to Kimi Antonelli's car at the Las Vegas Grand Prix. George Russell will not run it this weekend.",
+   "disagreement": "",
+   "label": "Confirmed",
+   "updated": "2026-11-18T18:37:37Z"
+  },
+  {
+   "id": "c5342c81c",
+   "created": "2026-11-15T12:28:09Z",
+   "stories": [
+    {
+     "title": "Las Vegas GP: UK schedule and how to watch on Sky Sports",
+     "source": "Sky Sports",
+     "date": "2026-11-13T06:00:00Z",
+     "link": "https://www.skysports.com/f1/news/12433/13611077/las-vegas-gp-2026-dates-schedule-weather-uk-start-time-and-how-to-watch-or-stream-f1-race-in-united-states-live-on-sky-sports",
+     "snippet": "Formula 1 heads for the bright lights of Las Vegas with both 2026 titles settled, but the competitive picture at the front of the grid tighter than it has been at any other stage of the season."
+    },
+    {
+     "title": "What time is the next F1 race? Las Vegas GP dates and full schedule",
+     "source": "Crash.net",
+     "date": "2026-11-15T12:00:00Z",
+     "link": "https://www.crash.net/f1/news/1110116/1/what-time-next-f1-race-las-vegas-gp-dates-and-full-schedule",
+     "snippet": "The next round of the 2026 Formula 1 season takes place at the Las Vegas Grand Prix."
+    },
+    {
+     "title": "How to watch the 2026 Las Vegas Grand Prix live this weekend | TV Times",
+     "source": "RaceFans",
+     "date": "2026-11-16T07:15:50Z",
+     "link": "https://www.racefans.net/2026/11/16/how-to-watch-the-2026-las-vegas-grand-prix-live-this-weekend/",
+     "snippet": "It's race week! Formula 1 heads to Las Vegas Strip Circuit this weekend. Here's how to watch the Las Vegas Grand Prix and more."
+    },
+    {
+     "title": "How to follow Las Vegas Grand Prix on the BBC",
+     "source": "BBC Sport",
+     "date": "2026-11-16T08:07:20Z",
+     "link": "https://www.bbc.co.uk/sport/formula1/articles/cx4gnlr603mqo?at_medium=RSS&at_campaign=rss",
+     "snippet": "All the key BBC coverage details for the Las Vegas Grand Prix, which takes place from 20-22 November."
+    },
+    {
+     "title": "F1 Las Vegas GP 2026: UK times, schedule and how to watch",
+     "source": "Motorsport.com",
+     "date": "2026-11-16T14:50:05Z",
+     "link": "https://www.motorsport.com/f1/news/f1-las-vegas-gp-2026-uk-times-schedule-how-to-watch/10874860/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "snippet": "The Las Vegas Grand Prix starts at 4am UK time on Sunday 22 November. In Las Vegas it is still 8pm on Saturday, because the race runs at night along the Strip. Every session falls overnight in the…"
+    },
+    {
+     "title": "F1 Las Vegas GP 2026: start time, schedule and how to watch",
+     "source": "Motorsport.com",
+     "date": "2026-11-16T15:02:24Z",
+     "link": "https://www.motorsport.com/f1/news/f1-las-vegas-gp-2026-start-time-schedule-and-how-to-watch/10874866/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "snippet": "The Las Vegas Grand Prix starts at 8 pm PT on Saturday, November 21, which is 11 pm ET. The race runs at night along the Strip, and every session is live on Apple TV. Las Vegas Grand Prix 2026…"
+    },
+    {
+     "title": "What time is F1's 2026 Las Vegas Grand Prix? Full weekend schedule",
+     "source": "The Race",
+     "date": "2026-11-16T15:59:25Z",
+     "link": "https://www.the-race.com/formula-1/what-time-is-f1s-2026-las-vegas-grand-prix-full-weekend-schedule/",
+     "snippet": "Time for the most spectacular of all the recent additions to the F1 calendar: Las Vegas"
+    },
+    {
+     "title": "What time is the 2026 Las Vegas GP and how can I watch it?",
+     "source": "Formula1.com",
+     "date": "2026-11-16T23:57:48Z",
+     "link": "https://www.formula1.com/en/latest/article/what-time-is-the-formula-1-2026-las-vegas-grand-prix-and-how-can-i-watch-it.5klYngWOQMjROxZ3nEp5Pr",
+     "snippet": "Here are all the timings – along with all the additional information you need – for the 21st Grand Prix weekend of the 2026 season from Las Vegas."
+    },
+    {
+     "title": "Las Vegas Grand Prix 2026: Race start time, how to watch, full schedule, predictions",
+     "source": "ESPN",
+     "date": "2026-11-14T15:19:08Z",
+     "link": "https://www.espn.com/f1/story/_/id/50389130/las-vegas-grand-prix-2026-race-f1-start-s-how-watch-schedule-tv-channel-live-stream-predictions",
+     "snippet": "Formula 1 is back under the bright lights of Las Vegas for one of the most extravagant weekends on the calendar."
+    },
+    {
+     "title": "How to stream the 2026 Las Vegas Grand Prix on F1 TV Premium",
+     "source": "Formula1.com",
+     "date": "2026-11-18T18:37:32Z",
+     "link": "https://www.formula1.com/en/latest/article/how-to-stream-the-formula-1-2026-las-vegas-grand-prix-on-f1-tv-premium.5YZztaEts0uPxfdx2UwaQE",
+     "snippet": "Here is all the information you need to follow the Las Vegas Grand Prix weekend live on F1 TV."
+    }
+   ],
+   "merge_reasons": [
+    {
+     "time": "2026-11-15T12:28:09Z",
+     "added": [
+      "https://www.skysports.com/f1/news/12433/13611077/las-vegas-gp-2026-dates-schedule-weather-uk-start-time-and-how-to-watch-or-stream-f1-race-in-united-states-live-on-sky-sports",
+      "https://www.crash.net/f1/news/1110116/1/what-time-next-f1-race-las-vegas-gp-dates-and-full-schedule"
+     ],
+     "joined_existing": false,
+     "reason": "Both are schedule and viewing guides for the same upcoming Las Vegas Grand Prix."
+    },
+    {
+     "time": "2026-11-16T14:40:58Z",
+     "added": [
+      "https://www.racefans.net/2026/11/16/how-to-watch-the-2026-las-vegas-grand-prix-live-this-weekend/",
+      "https://www.bbc.co.uk/sport/formula1/articles/cx4gnlr603mqo?at_medium=RSS&at_campaign=rss"
+     ],
+     "joined_existing": true,
+     "reason": "The RaceFans and BBC Sport pieces both give broadcast information for the same Las Vegas Grand Prix weekend."
+    },
+    {
+     "time": "2026-11-16T23:57:55Z",
+     "added": [
+      "https://www.motorsport.com/f1/news/f1-las-vegas-gp-2026-uk-times-schedule-how-to-watch/10874860/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+      "https://www.motorsport.com/f1/news/f1-las-vegas-gp-2026-start-time-schedule-and-how-to-watch/10874866/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+      "https://www.the-race.com/formula-1/what-time-is-f1s-2026-las-vegas-grand-prix-full-weekend-schedule/",
+      "https://www.formula1.com/en/latest/article/what-time-is-the-formula-1-2026-las-vegas-grand-prix-and-how-can-i-watch-it.5klYngWOQMjROxZ3nEp5Pr"
+     ],
+     "joined_existing": true,
+     "reason": "All of these are schedule and viewing guides for the same 2026 Las Vegas Grand Prix weekend."
+    },
+    {
+     "time": "2026-11-17T07:14:21Z",
+     "added": [
+      "https://www.espn.com/f1/story/_/id/50389130/las-vegas-grand-prix-2026-race-f1-start-s-how-watch-schedule-tv-channel-live-stream-predictions"
+     ],
+     "joined_existing": true,
+     "reason": "The ESPN preview and the other schedule guides all cover the 2026 Las Vegas Grand Prix start times and viewing details."
+    },
+    {
+     "time": "2026-11-18T18:37:37Z",
+     "added": [
+      "https://www.formula1.com/en/latest/article/how-to-stream-the-formula-1-2026-las-vegas-grand-prix-on-f1-tv-premium.5YZztaEts0uPxfdx2UwaQE"
+     ],
+     "joined_existing": true,
+     "reason": "All stories are viewing guides for the same Las Vegas Grand Prix weekend."
+    }
+   ],
+   "title": "How to watch the 2026 Las Vegas Grand Prix and start times",
+   "summary": "Guides list UK start times and viewing options for the Las Vegas Grand Prix weekend. The race runs at night on the Strip, so sessions fall overnight in the UK.",
+   "disagreement": "",
+   "label": "Opinion",
+   "updated": "2026-11-18T18:37:37Z"
+  },
+  {
+   "id": "c343c0c5b",
+   "created": "2026-11-18T18:37:37Z",
+   "stories": [
+    {
+     "title": "F1 Las Vegas weather: What is the risk of rain this weekend?",
+     "source": "PlanetF1",
+     "date": "2026-11-18T13:53:52Z",
+     "link": "https://www.planetf1.com/news/f1-las-vegas-weather-2026-rain-risk",
+     "snippet": "We saw the impact of rain in Las Vegas last year. Will it be the same again this time around?"
+    },
+    {
+     "title": "F1 Las Vegas Grand Prix weather forecast: Latest from the Nevada desert",
+     "source": "GPFans",
+     "date": "2026-11-18T14:54:00Z",
+     "link": "https://www.gpfans.com/en/f1-news/1093024/f1-las-vegas-grand-prix-weather-forecast-latest/",
+     "snippet": "The Las Vegas Grand Prix is the next stop on the 2026 F1 calendar later today, as teams head stateside for the third time this year."
+    },
+    {
+     "title": "What is the weather forecast for the Las Vegas Grand Prix?",
+     "source": "Formula1.com",
+     "date": "2026-11-18T18:37:32Z",
+     "link": "https://www.formula1.com/en/latest/article/what-is-the-weather-forecast-for-the-2026-las-vegas-grand-prix.1ki78WcweOZ8vq2zQ1HOJX",
+     "snippet": "The weather forecast is in ahead of the Las Vegas Grand Prix."
+    }
+   ],
+   "merge_reasons": [
+    {
+     "time": "2026-11-18T18:37:37Z",
+     "added": [
+      "https://www.planetf1.com/news/f1-las-vegas-weather-2026-rain-risk",
+      "https://www.gpfans.com/en/f1-news/1093024/f1-las-vegas-grand-prix-weather-forecast-latest/",
+      "https://www.formula1.com/en/latest/article/what-is-the-weather-forecast-for-the-2026-las-vegas-grand-prix.1ki78WcweOZ8vq2zQ1HOJX"
+     ],
+     "joined_existing": false,
+     "reason": "All three stories cover the weather forecast and rain risk for the same Las Vegas weekend."
+    }
+   ],
+   "title": "Las Vegas Grand Prix weather forecast and rain risk explained",
+   "summary": "Previews set out the latest forecast and the risk of rain for the Las Vegas Grand Prix weekend. One piece recalls that rain affected last year's Las Vegas event.",
    "disagreement": "",
    "label": "Reported",
+   "updated": "2026-11-18T18:37:37Z"
+  },
+  {
+   "id": "c6b79467f",
+   "created": "2026-11-18T18:37:37Z",
+   "stories": [
+    {
+     "title": "F1 to showcase driver health data as it partners with WHOOP",
+     "source": "Motorsport.com",
+     "date": "2026-11-18T17:37:23Z",
+     "link": "https://www.motorsport.com/f1/news/f1-to-showcase-driver-health-data-as-it-partners-with-whoop/10875341/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "snippet": "Formula 1 has signed a deal with wearables company WHOOP which will see a number of drivers wear the company's health trackers and showcase their data on the TV broadcasts in 2027. WHOOP will become…"
+    },
+    {
+     "title": "F1 to showcase driver health data in new partnership",
+     "source": "Autosport",
+     "date": "2026-11-18T17:39:21Z",
+     "link": "https://www.autosport.com/f1/news/f1-announces-new-partnership-with-whoop/10875346/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+     "snippet": "Formula 1 has signed a deal with wearables company WHOOP which will see a number of drivers wear the company's health trackers and showcase their data on the TV broadcasts in 2027. WHOOP will become…"
+    },
+    {
+     "title": "Formula 1 and WHOOP announce landmark partnership",
+     "source": "Formula1.com",
+     "date": "2026-11-18T18:37:32Z",
+     "link": "https://www.formula1.com/en/latest/article/formula-1-and-whoop-announce-landmark-partnership-to-bring-fans-closer-to-the-human-side-of-racing.1YTsprVRx7MPlaDJnniexm",
+     "snippet": "WHOOP has become an Official Partner of Formula 1 in a multi-year partnership, helping unlock a new era of human performance storytelling in the sport."
+    }
+   ],
+   "merge_reasons": [
+    {
+     "time": "2026-11-18T18:37:37Z",
+     "added": [
+      "https://www.motorsport.com/f1/news/f1-to-showcase-driver-health-data-as-it-partners-with-whoop/10875341/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+      "https://www.autosport.com/f1/news/f1-announces-new-partnership-with-whoop/10875346/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "https://www.formula1.com/en/latest/article/formula-1-and-whoop-announce-landmark-partnership-to-bring-fans-closer-to-the-human-side-of-racing.1YTsprVRx7MPlaDJnniexm"
+     ],
+     "joined_existing": false,
+     "reason": "All three stories cover the same F1 and WHOOP partnership announcement."
+    }
+   ],
+   "title": "F1 partners with WHOOP to showcase driver health data",
+   "summary": "Formula 1 has signed WHOOP as an official partner in a multi-year deal. Drivers will wear its trackers and their health data will appear on 2027 TV broadcasts.",
+   "disagreement": "",
+   "label": "Confirmed",
+   "updated": "2026-11-18T18:37:37Z"
+  },
+  {
+   "id": "c789a7aa4",
+   "created": "2026-11-18T18:37:37Z",
+   "stories": [
+    {
+     "title": "Our early Bet Builder picks for Las Vegas",
+     "source": "Formula1.com",
+     "date": "2026-11-18T18:37:32Z",
+     "link": "https://www.formula1.com/en/latest/article/our-early-bet-builder-selections-for-the-las-vegas-grand-prix.3CN1v7zsYxJIfD3azv9vjj",
+     "snippet": "Our expert betting writers have picked a four-leg Bet Builder for the Las Vegas Grand Prix, including two podium finishes, a top-six selection and a driver with points potential."
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Early Bet Builder picks for the Las Vegas Grand Prix",
+   "summary": "Formula1.com has picked a four-leg Bet Builder for Las Vegas. It includes two podium finishes, a top-six pick and a driver with points potential.",
+   "disagreement": "",
+   "label": "Opinion",
+   "updated": "2026-11-18T18:37:37Z"
+  },
+  {
+   "id": "ca27ff8d8",
+   "created": "2026-11-18T18:37:37Z",
+   "stories": [
+    {
+     "title": "The F1 braking system innovation that could soon be revealed",
+     "source": "Formula1.com",
+     "date": "2026-11-18T18:37:32Z",
+     "link": "https://www.formula1.com/en/latest/article/the-f1-braking-system-innovation-that-could-soon-be-revealed.5BLbJmoFNGwhbllIHNGHOG",
+     "snippet": "Mark Hughes and Giorgio Piola speculate about a revolutionary cooling method that could soon be revealed."
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Speculation on a revolutionary F1 braking cooling system",
+   "summary": "Mark Hughes and Giorgio Piola speculate about a braking cooling method that could soon be revealed. The piece is speculative analysis.",
+   "disagreement": "",
+   "label": "Opinion",
+   "updated": "2026-11-18T18:37:37Z"
+  },
+  {
+   "id": "cfcfa11b3",
+   "created": "2026-11-18T18:37:37Z",
+   "stories": [
+    {
+     "title": "How F1 drivers and strategists tackle the Las Vegas Grand Prix",
+     "source": "Formula1.com",
+     "date": "2026-11-18T18:37:32Z",
+     "link": "https://www.formula1.com/en/latest/article/the-risk-perspective-how-f1-drivers-engineers-and-strategists-tackle-the-las-vegas-grand-prix.7yJLDDlVCuKALLnoYrpgrb",
+     "snippet": "In Formula 1, performance is decided in moments where conditions change instantly, and decisions carry consequence. The difference isn’t just speed – it’s perspective."
+    }
+   ],
+   "merge_reasons": [],
+   "title": "How F1 drivers and strategists approach Las Vegas Grand Prix",
+   "summary": "Formula1.com looks at how drivers and strategists handle changing conditions at Las Vegas. The feature focuses on decisions made under pressure.",
+   "disagreement": "",
+   "label": "Opinion",
+   "updated": "2026-11-18T18:37:37Z"
+  },
+  {
+   "id": "c8cd47a26",
+   "created": "2026-11-18T18:37:37Z",
+   "stories": [
+    {
+     "title": "Save the date: F1 Unlocked Season Finale Watch Party",
+     "source": "Formula1.com",
+     "date": "2026-11-18T18:37:32Z",
+     "link": "https://www.formula1.com/en/latest/article/save-the-date-f1-unlocked-season-finale-watch-party.22ZXTQut4A8OosqH0ldCTM",
+     "snippet": ""
+    }
+   ],
+   "merge_reasons": [],
+   "title": "F1 Unlocked season finale watch party announced",
+   "summary": "Formula1.com has issued a save-the-date for the F1 Unlocked season finale watch party. The snippet gives no further details.",
+   "disagreement": "",
+   "label": "Confirmed",
+   "updated": "2026-11-18T18:37:37Z"
+  },
+  {
+   "id": "cfeb121bd",
+   "created": "2026-11-18T18:37:37Z",
+   "stories": [
+    {
+     "title": "QUIZ: 10 tricky questions on Formula 1 night races",
+     "source": "Formula1.com",
+     "date": "2026-11-18T18:37:32Z",
+     "link": "https://www.formula1.com/en/latest/article/quiz-10-tricky-questions-on-formula-1-night-races.w2XDE4bcho7ho79HRKfFa",
+     "snippet": "This weekend we return to Las Vegas – F1’s newest night race – so it’s the best time to test your knowledge on racing action under floodlights..."
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Quiz: ten tricky questions on F1 night races",
+   "summary": "Formula1.com has published a quiz on Formula 1 night races ahead of Las Vegas. It tests knowledge of racing under floodlights.",
+   "disagreement": "",
+   "label": "Opinion",
+   "updated": "2026-11-18T18:37:37Z"
+  },
+  {
+   "id": "c88a0b0ec",
+   "created": "2026-11-18T18:37:37Z",
+   "stories": [
+    {
+     "title": "Ecclestone urges Hamilton to consider retirement, FIA set to confirm Piastri penalty – roundup",
+     "source": "PlanetF1",
+     "date": "2026-11-18T18:02:15Z",
+     "link": "https://www.planetf1.com/news/fia-lewis-hamilton-las-vegas-grand-prix-2026-penalty-retire",
+     "snippet": "Wednesday's fast-paced F1 news wrap is go, go, go!"
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Ecclestone urges Hamilton retirement; FIA to confirm Piastri penalty",
+   "summary": "PlanetF1's Wednesday roundup covers Bernie Ecclestone's call for Lewis Hamilton to consider retirement. It also notes the FIA was set to confirm Piastri's grid penalty.",
+   "disagreement": "",
+   "label": "Opinion",
+   "updated": "2026-11-18T18:37:37Z"
+  },
+  {
+   "id": "c0c3edc7a",
+   "created": "2026-11-18T18:37:37Z",
+   "stories": [
+    {
+     "title": "Five things to watch out for at the F1 Las Vegas GP",
+     "source": "Motorsport.com",
+     "date": "2026-11-18T16:30:40Z",
+     "link": "https://www.motorsport.com/f1/news/five-things-to-watch-out-for-at-the-f1-las-vegas-gp/10875316/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "snippet": "Formula 1 kickstarts its final triple-header of the 2026 campaign with this weekend’s Las Vegas Grand Prix. The American venue serves as race 21 of the 23-round calendar with grands prix in Qatar and…"
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Five things to watch at the Las Vegas Grand Prix",
+   "summary": "Motorsport.com lists five things to watch as F1 starts its final triple-header. Las Vegas is race 21 of the 23-round 2026 calendar.",
+   "disagreement": "",
+   "label": "Opinion",
+   "updated": "2026-11-18T18:37:37Z"
+  },
+  {
+   "id": "cee494ae9",
+   "created": "2026-11-18T18:37:37Z",
+   "stories": [
+    {
+     "title": "F1 champion admits he CANCELLED his parents' race tickets to see him win title",
+     "source": "GPFans",
+     "date": "2026-11-18T16:29:00Z",
+     "link": "https://www.gpfans.com/en/f1-news/1093017/f1-nico-rosberg-cancelled-parents-tickets-win-world-championship/",
+     "snippet": "Nico Rosberg had revealed he made a late decision to cancel the tickets of his friends and family ahead of his title deciding race in 2016."
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Nico Rosberg admits cancelling parents' tickets for 2016 title",
+   "summary": "Nico Rosberg has revealed he made a late decision to cancel tickets for friends and family for his 2016 title-deciding race. The story recalls that race.",
+   "disagreement": "",
+   "label": "Reported",
+   "updated": "2026-11-18T18:37:37Z"
+  },
+  {
+   "id": "c49aa7a5f",
+   "created": "2026-11-18T18:37:37Z",
+   "stories": [
+    {
+     "title": "McLaren to sell 2027 F1 car before it races",
+     "source": "The Race",
+     "date": "2026-11-18T13:57:21Z",
+     "link": "https://www.the-race.com/business/mclaren-to-sell-2027-f1-car-before-it-races/",
+     "snippet": "McLaren will auction its 2027 MCL41 F1 car with Sotheby’s after the 2026 Abu Dhabi Grand Prix"
+    },
+    {
+     "title": "McLaren to auction F1 2027 challenger before it even races",
+     "source": "PlanetF1",
+     "date": "2026-11-18T15:47:44Z",
+     "link": "https://www.planetf1.com/news/mclaren-auction-mcl41-f1-car-sale-abu-dhabi",
+     "snippet": "McLaren will be selling its as-yet-unseen F1 2027 car, before it even races."
+    }
+   ],
+   "merge_reasons": [
+    {
+     "time": "2026-11-18T18:37:37Z",
+     "added": [
+      "https://www.the-race.com/business/mclaren-to-sell-2027-f1-car-before-it-races/",
+      "https://www.planetf1.com/news/mclaren-auction-mcl41-f1-car-sale-abu-dhabi"
+     ],
+     "joined_existing": false,
+     "reason": "Both stories report the same McLaren plan to auction its 2027 car."
+    }
+   ],
+   "title": "McLaren to auction 2027 F1 car before it races",
+   "summary": "McLaren will auction its 2027 MCL41 car with Sotheby's after the 2026 Abu Dhabi Grand Prix. The car will be sold before it has raced.",
+   "disagreement": "",
+   "label": "Confirmed",
+   "updated": "2026-11-18T18:37:37Z"
+  },
+  {
+   "id": "ccd2269f9",
+   "created": "2026-11-16T14:40:58Z",
+   "stories": [
+    {
+     "title": "Kimi Antonelli Mercedes salary in spotlight after Russell defeated – report",
+     "source": "PlanetF1",
+     "date": "2026-11-16T05:58:44Z",
+     "link": "https://www.planetf1.com/news/kimi-antonelli-mercedes-salary-george-russell",
+     "snippet": "Kimi Antonelli won the F1 2026 title, but George Russell's Mercedes earnings may sting."
+    },
+    {
+     "title": "‘No one has to worry about him’ – Toto Wolff responds to Kimi Antonelli salary question",
+     "source": "PlanetF1",
+     "date": "2026-11-17T05:54:06Z",
+     "link": "https://www.planetf1.com/news/kimi-antonelli-salary-toto-wolff-mercedes-world-champion-reward",
+     "snippet": "\"I can say this much: no one has to worry about him financially...\""
+    },
+    {
+     "title": "Toto Wolff addresses F1 champion Kimi Antonelli salary claims",
+     "source": "Crash.net",
+     "date": "2026-11-18T15:33:30Z",
+     "link": "https://www.crash.net/f1/news/1110172/1/toto-wolff-addresses-f1-champion-kimi-antonelli-salary-claims",
+     "snippet": "Toto Wolff has commented on Kimi Antonelli’s salary"
+    }
+   ],
+   "merge_reasons": [
+    {
+     "time": "2026-11-17T07:14:21Z",
+     "added": [
+      "https://www.planetf1.com/news/kimi-antonelli-salary-toto-wolff-mercedes-world-champion-reward"
+     ],
+     "joined_existing": true,
+     "reason": "Wolff's response and the PlanetF1 report both address the same question about Antonelli's Mercedes salary."
+    },
+    {
+     "time": "2026-11-18T18:37:37Z",
+     "added": [
+      "https://www.crash.net/f1/news/1110172/1/toto-wolff-addresses-f1-champion-kimi-antonelli-salary-claims"
+     ],
+     "joined_existing": true,
+     "reason": "Both stories cover Toto Wolff's response to questions about Antonelli's salary."
+    }
+   ],
+   "title": "Wolff responds to Antonelli salary questions after title",
+   "summary": "A report put Kimi Antonelli's Mercedes salary in the spotlight after his title win. Toto Wolff said no one has to worry about him financially.",
+   "disagreement": "",
+   "label": "Reported",
+   "updated": "2026-11-18T18:37:37Z"
+  },
+  {
+   "id": "c29d58ee3",
+   "created": "2026-11-18T18:37:37Z",
+   "stories": [
+    {
+     "title": "Failed Mercedes plan addressed by Toto Wolff in honest F1 2027 claim",
+     "source": "PlanetF1",
+     "date": "2026-11-18T14:50:47Z",
+     "link": "https://www.planetf1.com/news/mercedes-upgrade-fail-toto-wolff-red-bull-f1-2027",
+     "snippet": "Toto Wolff: \"I don't think it's the reality.\""
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Toto Wolff disputes claim about a failed Mercedes 2027 plan",
+   "summary": "Toto Wolff said he does not think a claimed failed Mercedes plan for 2027 is the reality. PlanetF1 reports his response.",
+   "disagreement": "",
+   "label": "Reported",
+   "updated": "2026-11-18T18:37:37Z"
+  },
+  {
+   "id": "c02bb61c0",
+   "created": "2026-11-18T18:37:37Z",
+   "stories": [
+    {
+     "title": "Ford's real role in building F1's 'best' engine",
+     "source": "The Race",
+     "date": "2026-11-18T14:39:06Z",
+     "link": "https://www.the-race.com/formula-1/ford-real-role-in-building-f1-best-engine/",
+     "snippet": "How much has Ford really been involved in Red Bull Powertrains' instant success? More than you might think"
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Ford's role in Red Bull Powertrains' engine success examined",
+   "summary": "The Race looks at how much Ford contributed to Red Bull Powertrains' rapid engine success. The piece argues Ford's involvement is larger than many expect.",
+   "disagreement": "",
+   "label": "Opinion",
+   "updated": "2026-11-18T18:37:37Z"
+  },
+  {
+   "id": "c6c1d86c3",
+   "created": "2026-11-18T18:37:37Z",
+   "stories": [
+    {
+     "title": "What's going on with F1's confusing V8s 2030 future reveal",
+     "source": "The Race",
+     "date": "2026-11-18T10:35:13Z",
+     "link": "https://www.the-race.com/formula-1/whats-going-on-with-f1-confusing-v8s-2030-future-announcement/",
+     "snippet": "Social media posts announcing details of F1's return to V8s were deleted..."
+    },
+    {
+     "title": "What’s behind bizarre deleted F1 V8 announcement?",
+     "source": "Crash.net",
+     "date": "2026-11-18T12:05:33Z",
+     "link": "https://www.crash.net/f1/news/1110167/1/whats-behind-bizarre-deleted-f1-v8-announcement",
+     "snippet": "F1’s V8 future was revealed and then deleted on Tuesday"
+    },
+    {
+     "title": "Future imperfect: What's behind the abortive 2030 F1 rules announcement?",
+     "source": "Motorsport.com",
+     "date": "2026-11-18T14:04:19Z",
+     "link": "https://www.motorsport.com/f1/news/future-imperfect-whats-behind-the-abortive-2030-f1-rules-announcement/10875283/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "snippet": "Famously, when the papal conclave gathers to elect a new pope, a successful vote is communicated to the huddled masses via smoke from the Sistine Chapel chimney as the chemically impregnated ballot…"
+    },
+    {
+     "title": "The factors behind the abortive 2030 F1 rules announcement",
+     "source": "Autosport",
+     "date": "2026-11-18T14:08:08Z",
+     "link": "https://www.autosport.com/f1/news/the-factors-behind-the-abortive-f1-2030-rules-announcement/10875290/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+     "snippet": "Famously, when the papal conclave gathers to elect a new pope, a successful vote is communicated to the huddled masses via smoke from the Sistine Chapel chimney as the chemically impregnated ballot…"
+    }
+   ],
+   "merge_reasons": [
+    {
+     "time": "2026-11-18T18:37:37Z",
+     "added": [
+      "https://www.the-race.com/formula-1/whats-going-on-with-f1-confusing-v8s-2030-future-announcement/",
+      "https://www.crash.net/f1/news/1110167/1/whats-behind-bizarre-deleted-f1-v8-announcement",
+      "https://www.motorsport.com/f1/news/future-imperfect-whats-behind-the-abortive-2030-f1-rules-announcement/10875283/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+      "https://www.autosport.com/f1/news/the-factors-behind-the-abortive-f1-2030-rules-announcement/10875290/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk"
+     ],
+     "joined_existing": false,
+     "reason": "All four stories cover the same posted-then-deleted 2030 V8 rules announcement."
+    }
+   ],
+   "title": "F1 2030 V8 rules announcement deleted after being posted",
+   "summary": "F1's planned announcement on the 2030 V8 engine future was posted on social media and then deleted. Follow-up pieces examine the factors behind the abortive announcement.",
+   "disagreement": "",
+   "label": "Reported",
+   "updated": "2026-11-18T18:37:37Z"
+  },
+  {
+   "id": "cfa2ff5ea",
+   "created": "2026-11-18T18:37:37Z",
+   "stories": [
+    {
+     "title": "What McLaren has learned from a tough 2026 as it aims for a return to glory in 2027",
+     "source": "Autosport",
+     "date": "2026-11-18T13:30:02Z",
+     "link": "https://www.autosport.com/f1/news/what-mclaren-has-learned-from-a-tough-f1-2026/10875268/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+     "snippet": "McLaren's 2026 Formula 1 season has been characterised by a recovery effort that never quite came to fruition. Yet, team principal Andrea Stella insists the reasons for this are well understood, so…"
+    },
+    {
+     "title": "\"We haven't taken any steps backwards\" – McLaren boss explains 2026",
+     "source": "Motorsport.com",
+     "date": "2026-11-18T13:30:02Z",
+     "link": "https://www.motorsport.com/f1/news/we-havent-taken-any-steps-backwards-mclaren-boss-explains-2026/10875219/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "snippet": "McLaren's 2026 Formula 1 season has been characterised by a recovery effort that never quite came to fruition. Yet, team principal Andrea Stella insists the reasons for this are well understood, so…"
+    }
+   ],
+   "merge_reasons": [
+    {
+     "time": "2026-11-18T18:37:37Z",
+     "added": [
+      "https://www.autosport.com/f1/news/what-mclaren-has-learned-from-a-tough-f1-2026/10875268/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "https://www.motorsport.com/f1/news/we-havent-taken-any-steps-backwards-mclaren-boss-explains-2026/10875219/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www"
+     ],
+     "joined_existing": false,
+     "reason": "Both pieces report the same Andrea Stella comments on McLaren's 2026 season."
+    }
+   ],
+   "title": "Andrea Stella says McLaren has learned from tough 2026",
+   "summary": "McLaren team principal Andrea Stella says the reasons for the 2026 struggles are well understood. He insists the team has not taken any steps backwards as it aims for a return to glory in 2027.",
+   "disagreement": "",
+   "label": "Reported",
+   "updated": "2026-11-18T18:37:37Z"
+  },
+  {
+   "id": "cb670ff64",
+   "created": "2026-11-18T18:37:37Z",
+   "stories": [
+    {
+     "title": "Palmer rejects Damon Hill’s Ferrari plan for Lewis Hamilton and Charles Leclerc",
+     "source": "PlanetF1",
+     "date": "2026-11-18T13:03:19Z",
+     "link": "https://www.planetf1.com/news/jolyon-palmer-damon-hill-ferrari-plan-lewis-hamilton-charles-leclerc",
+     "snippet": "\"The driver line-up is like the stuff of dreams, but equally on the other hand, it could be the stuff of nightmares.\""
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Palmer rejects Damon Hill's Ferrari plan for Hamilton and Leclerc",
+   "summary": "Palmer dismisses Damon Hill's idea for a Ferrari line-up of Lewis Hamilton and Charles Leclerc. He says the pairing could be a dream or a nightmare.",
+   "disagreement": "",
+   "label": "Reported",
+   "updated": "2026-11-18T18:37:37Z"
+  },
+  {
+   "id": "c1c19362a",
+   "created": "2026-11-18T00:28:39Z",
+   "stories": [
+    {
+     "title": "Social Media: FIA president indicates agreement reached on next power unit formula | Brief",
+     "source": "RaceFans",
+     "date": "2026-11-17T20:37:09Z",
+     "link": "https://www.racefans.net/2026/11/17/social-media-fia-president-indicates-agreement-reached-on-next-power-unit-formula/",
+     "snippet": "V8 engines are coming to F1 \"soon\", claims Ben Sulayem"
+    },
+    {
+     "title": "F1 fans react as FIA president releases audio clip hinting V8 engine return: 'Sounds like a blender'",
+     "source": "GPFans",
+     "date": "2026-11-18T12:55:00Z",
+     "link": "https://www.gpfans.com/en/f1-news/1093014/f1-fia-v8-engines-mohammed-ben-sulayem-return-audio-clip/",
+     "snippet": "The FIA president has dropped the biggest hint yet that F1 is going to return to V8 engines after posting an audio clip online."
+    }
+   ],
+   "merge_reasons": [
+    {
+     "time": "2026-11-18T18:37:37Z",
+     "added": [
+      "https://www.gpfans.com/en/f1-news/1093014/f1-fia-v8-engines-mohammed-ben-sulayem-return-audio-clip/"
+     ],
+     "joined_existing": true,
+     "reason": "Both stories cover the same FIA president social media comments hinting at a V8 engine return."
+    }
+   ],
+   "title": "FIA president says V8 engines are coming soon",
+   "summary": "FIA president Ben Sulayem has said V8 engines are coming to F1 soon. He also posted an audio clip online that fans have read as a hint of the return.",
+   "disagreement": "",
+   "label": "Reported",
+   "updated": "2026-11-18T18:37:37Z"
+  },
+  {
+   "id": "c532df576",
+   "created": "2026-11-18T18:37:37Z",
+   "stories": [
+    {
+     "title": "Speed, trust, controlled aggression - What really led to Liam Lawson's career-saving F1 2026",
+     "source": "Motorsport.com",
+     "date": "2026-11-18T12:22:31Z",
+     "link": "https://www.motorsport.com/f1/news/speed-trust-controlled-aggression-what-really-led-to-liam-lawsons-career-saving-f1-2026/10875262/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "snippet": "Liam Lawson's improved form made him too good for Racing Bulls to ignore for the 2027 Formula 1 campaign. But, as always, there's more than just a single factor behind that upturn in performances. It…"
+    }
+   ],
+   "merge_reasons": [],
+   "title": "What drove Liam Lawson's career-saving 2026 F1 form",
+   "summary": "Motorsport.com analyses the speed, trust and controlled aggression behind Lawson's improved 2026 form. The piece says that form earned him a 2027 Racing Bulls seat.",
+   "disagreement": "",
+   "label": "Opinion",
+   "updated": "2026-11-18T18:37:37Z"
+  },
+  {
+   "id": "cab54b728",
+   "created": "2026-11-16T23:57:55Z",
+   "stories": [
+    {
+     "title": "Williams and Aston Martin reveal one-off liveries for Las Vegas Grand Prix | Formula 1",
+     "source": "RaceFans",
+     "date": "2026-11-16T16:10:54Z",
+     "link": "https://www.racefans.net/2026/11/16/williams-and-aston-martin-reveal-one-off-liveries-for-las-vegas-grand-prix/",
+     "snippet": "Williams and Aston Martin have revealed special liveries for this weekend's Las Vegas Grand Prix."
+    },
+    {
+     "title": "Aston Martin unveils eye-catching Las Vegas Grand Prix livery",
+     "source": "PlanetF1",
+     "date": "2026-11-16T17:19:12Z",
+     "link": "https://www.planetf1.com/news/aston-martin-las-vegas-grand-prix-2026-livery",
+     "snippet": "What happens in Vegas stays in Vegas..."
+    },
+    {
+     "title": "Williams, Aston Martin among new F1 liveries for Las Vegas GP as Acura \"replaces\" Honda",
+     "source": "Motorsport.com",
+     "date": "2026-11-16T18:45:08Z",
+     "link": "https://www.motorsport.com/f1/news/williams-aston-martin-among-new-f1-liveries-for-las-vegas-gp-as-acura-replaces-honda/10874925/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "snippet": "Williams and Aston Martin are among the F1 teams to have revamped their car liveries for this weekend's Las Vegas Grand Prix. F1 heads to Las Vegas for its third of three US races, with the…"
+    },
+    {
+     "title": "Williams unveil special livery for Las Vegas Grand Prix",
+     "source": "Formula1.com",
+     "date": "2026-11-16T23:57:48Z",
+     "link": "https://www.formula1.com/en/latest/article/williams-unveil-special-one-off-livery-for-las-vegas-grand-prix.01klQqq0PYu7wjugCtr98K",
+     "snippet": "The Williams FW48 will sport a unique livery across the Las Vegas Grand Prix weekend."
+    },
+    {
+     "title": "Cadillac, Williams, Alpine and Aston Martin change liveries for Las Vegas GP | Formula 1",
+     "source": "RaceFans",
+     "date": "2026-11-16T16:10:54Z",
+     "link": "https://www.racefans.net/2026/11/16/cadillac-williams-alpine-and-aston-martin-change-liveries-for-las-vegas-gp/",
+     "snippet": "Cadillac, Williams, Alpine and Aston Martin have revealed special liveries for this weekend's Las Vegas Grand Prix."
+    },
+    {
+     "title": "Williams unveils special Las Vegas Grand Prix livery in ground-effect throwback",
+     "source": "PlanetF1",
+     "date": "2026-11-17T11:11:26Z",
+     "link": "https://www.planetf1.com/news/williams-las-vegas-grand-prix-2026-livery",
+     "snippet": "Williams has become the second team to reveal a special livery for Las Vegas."
+    },
+    {
+     "title": "All the special liveries for F1's Las Vegas Grand Prix",
+     "source": "The Race",
+     "date": "2026-11-17T15:56:37Z",
+     "link": "https://www.the-race.com/formula-1/f1-all-special-liveries-las-vegas-grand-prix/",
+     "snippet": "It's time for the Las Vegas Grand Prix - and with it, a host of special liveries for F1 teams"
+    },
+    {
+     "title": "Aston Martin showcase bespoke Las Vegas Grand Prix livery",
+     "source": "Formula1.com",
+     "date": "2026-11-17T17:21:14Z",
+     "link": "https://www.formula1.com/en/latest/article/gallery-aston-martin-showcase-bespoke-livery-for-las-vegas-grand-prix.7f71lWPYrxvriroCo30iaY",
+     "snippet": "Aston Martin will run a special livery on the AMR26 for the Las Vegas Grand Prix weekend."
+    },
+    {
+     "title": "Cadillac reveal special livery for Las Vegas Grand Prix",
+     "source": "Formula1.com",
+     "date": "2026-11-18T00:28:35Z",
+     "link": "https://www.formula1.com/en/latest/article/gallery-cadillac-reveal-special-livery-for-las-vegas-grand-prix.1b7NXQe83gP2LzjiCQf2ES",
+     "snippet": "Cadillac have become the latest team to showcase a bespoke livery that will feature on their car for the Las Vegas Grand Prix."
+    },
+    {
+     "title": "Cadillac unveils eye-catching Las Vegas Grand Prix livery",
+     "source": "PlanetF1",
+     "date": "2026-11-18T12:04:29Z",
+     "link": "https://www.planetf1.com/news/cadillac-las-vegas-grand-prix-2026-livery",
+     "snippet": "The best livery of 2026?"
+    }
+   ],
+   "merge_reasons": [
+    {
+     "time": "2026-11-18T00:28:39Z",
+     "added": [
+      "https://www.racefans.net/2026/11/16/cadillac-williams-alpine-and-aston-martin-change-liveries-for-las-vegas-gp/",
+      "https://www.planetf1.com/news/williams-las-vegas-grand-prix-2026-livery",
+      "https://www.the-race.com/formula-1/f1-all-special-liveries-las-vegas-grand-prix/",
+      "https://www.formula1.com/en/latest/article/gallery-aston-martin-showcase-bespoke-livery-for-las-vegas-grand-prix.7f71lWPYrxvriroCo30iaY"
+     ],
+     "joined_existing": true,
+     "reason": "All these stories cover the same set of special Las Vegas Grand Prix liveries revealed by the teams."
+    },
+    {
+     "time": "2026-11-18T00:28:39Z",
+     "added": [
+      "https://www.formula1.com/en/latest/article/gallery-cadillac-reveal-special-livery-for-las-vegas-grand-prix.1b7NXQe83gP2LzjiCQf2ES"
+     ],
+     "joined_existing": true,
+     "reason": "Cadillac's bespoke Las Vegas livery is another team reveal in the same set of special liveries for the race weekend."
+    },
+    {
+     "time": "2026-11-18T18:37:37Z",
+     "added": [
+      "https://www.planetf1.com/news/cadillac-las-vegas-grand-prix-2026-livery"
+     ],
+     "joined_existing": true,
+     "reason": "The Cadillac livery is one of the special liveries revealed for the same Las Vegas Grand Prix weekend."
+    }
+   ],
+   "title": "Teams unveil special liveries for Las Vegas Grand Prix",
+   "summary": "Williams, Aston Martin, Cadillac and Alpine have revealed one-off liveries for the Las Vegas weekend. Cadillac's special livery was also shown separately.",
+   "disagreement": "",
+   "label": "Confirmed",
+   "updated": "2026-11-18T18:37:37Z"
+  },
+  {
+   "id": "cf792ad1b",
+   "created": "2026-11-18T18:37:37Z",
+   "stories": [
+    {
+     "title": "Fernando Alonso retirement will make or break these F1 stars",
+     "source": "GPFans",
+     "date": "2026-11-18T11:27:00Z",
+     "link": "https://www.gpfans.com/en/f1-news/1093001/f1-fernando-alonso-retirement-make-break-oscar-piastri-george-russell/",
+     "snippet": "F1's silly season wasn't especially silly this...season. In lieu of blockbusters, we got a deluge of one-year contract extensions as teams kicked their actual decision-making can down the road."
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Alonso retirement could make or break several F1 stars",
+   "summary": "GPFans looks at a silly season of one-year contract extensions. It suggests Fernando Alonso's retirement will make or break several drivers.",
+   "disagreement": "",
+   "label": "Opinion",
+   "updated": "2026-11-18T18:37:37Z"
+  },
+  {
+   "id": "c495cefb8",
+   "created": "2026-11-18T18:37:37Z",
+   "stories": [
+    {
+     "title": "Las Vegas GP predictions: Mercedes team orders, Ferrari failure, Lawson surprise",
+     "source": "PlanetF1",
+     "date": "2026-11-18T11:05:51Z",
+     "link": "https://www.planetf1.com/features/las-vegas-grand-prix-2026-predictions",
+     "snippet": "What's your prediction for Las Vegas?"
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Las Vegas Grand Prix predictions: team orders, Ferrari, Lawson",
+   "summary": "PlanetF1 makes predictions for the Las Vegas Grand Prix, including possible Mercedes team orders. It also expects a Ferrari failure and a Lawson surprise.",
+   "disagreement": "",
+   "label": "Opinion",
+   "updated": "2026-11-18T18:37:37Z"
+  },
+  {
+   "id": "c3f75be0a",
+   "created": "2026-11-17T07:14:21Z",
+   "stories": [
+    {
+     "title": "Verstappen: Antonelli's records won't motivate me to stay in F1",
+     "source": "ESPN",
+     "date": "2026-11-17T07:05:29Z",
+     "link": "https://www.espn.com/f1/story/_/id/50320342/max-verstappen-f1-kimi-antonelli-exclusive",
+     "snippet": "Max Verstappen has insisted he doesn't need Kimi Antonelli chasing his records to motivate him to stay in Formula 1, saying only he will make the decision to walk away."
+    },
+    {
+     "title": "Max Verstappen makes F1 retirement stance clear after Antonelli rise",
+     "source": "GPFans",
+     "date": "2026-11-18T09:57:00Z",
+     "link": "https://www.gpfans.com/en/f1-news/1092996/f1-max-verstappen-retirement-decision-kimi-antonelli-record/",
+     "snippet": "Max Verstappen has rubbished suggestions that he could be motivated to stay in F1 longer to make it harder for Kimi Antonelli to match his career milestones."
+    },
+    {
+     "title": "Max Verstappen’s blunt response on Kimi Antonelli F1 motivation",
+     "source": "Crash.net",
+     "date": "2026-11-18T10:48:46Z",
+     "link": "https://www.crash.net/f1/news/1110164/1/max-verstappens-blunt-response-kimi-antonelli-f1-motivation",
+     "snippet": "Max Verstappen says he doesn’t need Kimi Antonelli's success to be motivated"
+    }
+   ],
+   "merge_reasons": [
+    {
+     "time": "2026-11-18T18:37:37Z",
+     "added": [
+      "https://www.gpfans.com/en/f1-news/1092996/f1-max-verstappen-retirement-decision-kimi-antonelli-record/",
+      "https://www.crash.net/f1/news/1110164/1/max-verstappens-blunt-response-kimi-antonelli-f1-motivation"
+     ],
+     "joined_existing": true,
+     "reason": "All three reports cover the same Verstappen comments that Antonelli's records do not motivate him to stay."
+    }
+   ],
+   "title": "Verstappen says Antonelli's records won't keep him in F1",
+   "summary": "Max Verstappen has rejected the idea that Kimi Antonelli's record chase would motivate him to stay in F1. He says only he will decide when to walk away.",
+   "disagreement": "",
+   "label": "Reported",
+   "updated": "2026-11-18T18:37:37Z"
+  },
+  {
+   "id": "c0114aeec",
+   "created": "2026-11-18T18:37:37Z",
+   "stories": [
+    {
+     "title": "Claire Williams suffers nightmare Las Vegas GP trip in F1 paddock return",
+     "source": "PlanetF1",
+     "date": "2026-11-18T10:37:32Z",
+     "link": "https://www.planetf1.com/news/claire-williams-channel-4-las-vegas-grand-prix-2026-f1",
+     "snippet": "Claire Williams is back in the paddock in Las Vegas."
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Claire Williams returns to the paddock for Las Vegas",
+   "summary": "Claire Williams is back in the paddock at the Las Vegas Grand Prix. PlanetF1 describes her trip as a difficult one.",
+   "disagreement": "",
+   "label": "Opinion",
+   "updated": "2026-11-18T18:37:37Z"
+  },
+  {
+   "id": "c18560872",
+   "created": "2026-11-18T18:37:37Z",
+   "stories": [
+    {
+     "title": "Featured Comment: F1 fans underestimate importance of “getting to a top car” | Brief",
+     "source": "RaceFans",
+     "date": "2026-11-18T10:21:34Z",
+     "link": "https://www.racefans.net/2026/11/18/featured-comment-f1-fans-underestimate-importance-of-getting-to-a-top-car/",
+     "snippet": "\"Half of the grid\" could be champions in the right car"
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Fans underestimate the importance of getting into a top car",
+   "summary": "A RaceFans featured comment argues that many drivers could be champions in the right car. It says half the grid could win titles with a top car.",
+   "disagreement": "",
+   "label": "Opinion",
+   "updated": "2026-11-18T18:37:37Z"
+  },
+  {
+   "id": "c04501f0b",
+   "created": "2026-11-18T00:28:39Z",
+   "stories": [
+    {
+     "title": "Brown on why McLaren struggled to fight for title in 2026",
+     "source": "Formula1.com",
+     "date": "2026-11-17T17:21:14Z",
+     "link": "https://www.formula1.com/en/latest/article/weve-just-got-to-do-a-better-job-brown-explains-why-mclaren-struggled-to-challenge-for-the-championship-in-2026.4vyTtKngYi0IPSrhXhRozz",
+     "snippet": "McLaren CEO Zak Brown has reflected on why the team were unable to defend their titles in 2026 – and the learnings that they are taking forward into next season."
+    },
+    {
+     "title": "Why McLaren’s F1 title defence failed in 2026",
+     "source": "Crash.net",
+     "date": "2026-11-18T10:04:14Z",
+     "link": "https://www.crash.net/f1/news/1110162/1/why-mclarens-f1-title-defence-failed-2026",
+     "snippet": "Zak Brown has explained why 2026 has been so tough for McLaren"
+    }
+   ],
+   "merge_reasons": [
+    {
+     "time": "2026-11-18T18:37:37Z",
+     "added": [
+      "https://www.crash.net/f1/news/1110162/1/why-mclarens-f1-title-defence-failed-2026"
+     ],
+     "joined_existing": true,
+     "reason": "Both reports cover the same Zak Brown explanation of McLaren's 2026 struggles."
+    }
+   ],
+   "title": "Zak Brown explains why McLaren struggled to defend titles",
+   "summary": "McLaren CEO Zak Brown has reflected on why the team could not defend its titles in 2026. He said the team is taking learnings into next season.",
+   "disagreement": "",
+   "label": "Reported",
+   "updated": "2026-11-18T18:37:37Z"
+  },
+  {
+   "id": "c872aed23",
+   "created": "2026-11-18T09:42:15Z",
+   "stories": [
+    {
+     "title": "The Kimi Antonelli you don't know, told by those closest to him",
+     "source": "Motorsport.com",
+     "date": "2026-11-18T09:14:20Z",
+     "link": "https://www.motorsport.com/f1/news/the-kimi-antonelli-you-dont-know-told-by-those-closest-to-him/10875085/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "snippet": "There is one thing that physiotherapist Sergi Avila took a little while to understand. When Kimi Antonelli finally found himself with a free weekend, after weeks being spent between circuits…"
+    },
+    {
+     "title": "The Antonelli you don't know: Daily life with F1's newest champion",
+     "source": "Autosport",
+     "date": "2026-11-18T09:20:55Z",
+     "link": "https://www.autosport.com/f1/news/the-antonelli-you-dont-know-daily-life-with-f1s-newest-champion/10875217/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+     "snippet": "There is one thing that physiotherapist Sergi Avila took a little while to understand. When Kimi Antonelli finally found himself with a free weekend, after weeks being spent between circuits…"
+    }
+   ],
+   "merge_reasons": [
+    {
+     "time": "2026-11-18T09:42:15Z",
+     "added": [
+      "https://www.motorsport.com/f1/news/the-kimi-antonelli-you-dont-know-told-by-those-closest-to-him/10875085/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+      "https://www.autosport.com/f1/news/the-antonelli-you-dont-know-daily-life-with-f1s-newest-champion/10875217/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk"
+     ],
+     "joined_existing": false,
+     "reason": "The Motorsport.com and Autosport pieces are the same feature, sharing the Sergi Avila anecdote and text."
+    }
+   ],
+   "title": "Those close to Kimi Antonelli reveal his life away from the track",
+   "summary": "A feature shares accounts from people close to Kimi Antonelli, including physiotherapist Sergi Avila. It describes how Antonelli spent a rare free weekend between races.",
+   "disagreement": "",
+   "label": "Opinion",
    "updated": "2026-11-18T09:42:15Z"
   },
   {
@@ -453,101 +1424,6 @@
    "updated": "2026-11-18T09:42:15Z"
   },
   {
-   "id": "cab54b728",
-   "created": "2026-11-16T23:57:55Z",
-   "stories": [
-    {
-     "title": "Williams and Aston Martin reveal one-off liveries for Las Vegas Grand Prix | Formula 1",
-     "source": "RaceFans",
-     "date": "2026-11-16T16:10:54Z",
-     "link": "https://www.racefans.net/2026/11/16/williams-and-aston-martin-reveal-one-off-liveries-for-las-vegas-grand-prix/",
-     "snippet": "Williams and Aston Martin have revealed special liveries for this weekend's Las Vegas Grand Prix."
-    },
-    {
-     "title": "Aston Martin unveils eye-catching Las Vegas Grand Prix livery",
-     "source": "PlanetF1",
-     "date": "2026-11-16T17:19:12Z",
-     "link": "https://www.planetf1.com/news/aston-martin-las-vegas-grand-prix-2026-livery",
-     "snippet": "What happens in Vegas stays in Vegas..."
-    },
-    {
-     "title": "Williams, Aston Martin among new F1 liveries for Las Vegas GP as Acura \"replaces\" Honda",
-     "source": "Motorsport.com",
-     "date": "2026-11-16T18:45:08Z",
-     "link": "https://www.motorsport.com/f1/news/williams-aston-martin-among-new-f1-liveries-for-las-vegas-gp-as-acura-replaces-honda/10874925/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "snippet": "Williams and Aston Martin are among the F1 teams to have revamped their car liveries for this weekend's Las Vegas Grand Prix. F1 heads to Las Vegas for its third of three US races, with the…"
-    },
-    {
-     "title": "Williams unveil special livery for Las Vegas Grand Prix",
-     "source": "Formula1.com",
-     "date": "2026-11-16T23:57:48Z",
-     "link": "https://www.formula1.com/en/latest/article/williams-unveil-special-one-off-livery-for-las-vegas-grand-prix.01klQqq0PYu7wjugCtr98K",
-     "snippet": "The Williams FW48 will sport a unique livery across the Las Vegas Grand Prix weekend."
-    },
-    {
-     "title": "Cadillac, Williams, Alpine and Aston Martin change liveries for Las Vegas GP | Formula 1",
-     "source": "RaceFans",
-     "date": "2026-11-16T16:10:54Z",
-     "link": "https://www.racefans.net/2026/11/16/cadillac-williams-alpine-and-aston-martin-change-liveries-for-las-vegas-gp/",
-     "snippet": "Cadillac, Williams, Alpine and Aston Martin have revealed special liveries for this weekend's Las Vegas Grand Prix."
-    },
-    {
-     "title": "Williams unveils special Las Vegas Grand Prix livery in ground-effect throwback",
-     "source": "PlanetF1",
-     "date": "2026-11-17T11:11:26Z",
-     "link": "https://www.planetf1.com/news/williams-las-vegas-grand-prix-2026-livery",
-     "snippet": "Williams has become the second team to reveal a special livery for Las Vegas."
-    },
-    {
-     "title": "All the special liveries for F1's Las Vegas Grand Prix",
-     "source": "The Race",
-     "date": "2026-11-17T15:56:37Z",
-     "link": "https://www.the-race.com/formula-1/f1-all-special-liveries-las-vegas-grand-prix/",
-     "snippet": "It's time for the Las Vegas Grand Prix - and with it, a host of special liveries for F1 teams"
-    },
-    {
-     "title": "Aston Martin showcase bespoke Las Vegas Grand Prix livery",
-     "source": "Formula1.com",
-     "date": "2026-11-17T17:21:14Z",
-     "link": "https://www.formula1.com/en/latest/article/gallery-aston-martin-showcase-bespoke-livery-for-las-vegas-grand-prix.7f71lWPYrxvriroCo30iaY",
-     "snippet": "Aston Martin will run a special livery on the AMR26 for the Las Vegas Grand Prix weekend."
-    },
-    {
-     "title": "Cadillac reveal special livery for Las Vegas Grand Prix",
-     "source": "Formula1.com",
-     "date": "2026-11-18T00:28:35Z",
-     "link": "https://www.formula1.com/en/latest/article/gallery-cadillac-reveal-special-livery-for-las-vegas-grand-prix.1b7NXQe83gP2LzjiCQf2ES",
-     "snippet": "Cadillac have become the latest team to showcase a bespoke livery that will feature on their car for the Las Vegas Grand Prix."
-    }
-   ],
-   "merge_reasons": [
-    {
-     "time": "2026-11-18T00:28:39Z",
-     "added": [
-      "https://www.racefans.net/2026/11/16/cadillac-williams-alpine-and-aston-martin-change-liveries-for-las-vegas-gp/",
-      "https://www.planetf1.com/news/williams-las-vegas-grand-prix-2026-livery",
-      "https://www.the-race.com/formula-1/f1-all-special-liveries-las-vegas-grand-prix/",
-      "https://www.formula1.com/en/latest/article/gallery-aston-martin-showcase-bespoke-livery-for-las-vegas-grand-prix.7f71lWPYrxvriroCo30iaY"
-     ],
-     "joined_existing": true,
-     "reason": "All these stories cover the same set of special Las Vegas Grand Prix liveries revealed by the teams."
-    },
-    {
-     "time": "2026-11-18T00:28:39Z",
-     "added": [
-      "https://www.formula1.com/en/latest/article/gallery-cadillac-reveal-special-livery-for-las-vegas-grand-prix.1b7NXQe83gP2LzjiCQf2ES"
-     ],
-     "joined_existing": true,
-     "reason": "Cadillac's bespoke Las Vegas livery is another team reveal in the same set of special liveries for the race weekend."
-    }
-   ],
-   "title": "Teams reveal special liveries for Las Vegas Grand Prix",
-   "summary": "Williams, Aston Martin, Cadillac and Alpine have revealed one-off liveries for the Las Vegas Grand Prix weekend. Cadillac became the latest team to show its bespoke design.",
-   "disagreement": "",
-   "label": "Confirmed",
-   "updated": "2026-11-18T00:28:39Z"
-  },
-  {
    "id": "c9aac1089",
    "created": "2026-11-18T00:28:39Z",
    "stories": [
@@ -602,25 +1478,6 @@
    "summary": "GPFans suggests Oscar Piastri should play Mr Nice Guy and become a wingman for Lando Norris to secure his McLaren future. The piece is an opinion on his position.",
    "disagreement": "",
    "label": "Opinion",
-   "updated": "2026-11-18T00:28:39Z"
-  },
-  {
-   "id": "c1c19362a",
-   "created": "2026-11-18T00:28:39Z",
-   "stories": [
-    {
-     "title": "Social Media: FIA president indicates agreement reached on next power unit formula | Brief",
-     "source": "RaceFans",
-     "date": "2026-11-17T20:37:09Z",
-     "link": "https://www.racefans.net/2026/11/17/social-media-fia-president-indicates-agreement-reached-on-next-power-unit-formula/",
-     "snippet": "V8 engines are coming to F1 \"soon\", claims Ben Sulayem"
-    }
-   ],
-   "merge_reasons": [],
-   "title": "FIA president says V8 engines are coming soon",
-   "summary": "FIA president Mohammed Ben Sulayem has indicated that an agreement on the next power unit formula has been reached. He says V8 engines are coming to F1 soon.",
-   "disagreement": "",
-   "label": "Reported",
    "updated": "2026-11-18T00:28:39Z"
   },
   {
@@ -906,25 +1763,6 @@
    "summary": "Formula1.com explores how the Sphere has become an integral part of the Las Vegas Grand Prix. The feature looks at how and why it became so central to the event.",
    "disagreement": "",
    "label": "Opinion",
-   "updated": "2026-11-18T00:28:39Z"
-  },
-  {
-   "id": "c04501f0b",
-   "created": "2026-11-18T00:28:39Z",
-   "stories": [
-    {
-     "title": "Brown on why McLaren struggled to fight for title in 2026",
-     "source": "Formula1.com",
-     "date": "2026-11-17T17:21:14Z",
-     "link": "https://www.formula1.com/en/latest/article/weve-just-got-to-do-a-better-job-brown-explains-why-mclaren-struggled-to-challenge-for-the-championship-in-2026.4vyTtKngYi0IPSrhXhRozz",
-     "snippet": "McLaren CEO Zak Brown has reflected on why the team were unable to defend their titles in 2026 – and the learnings that they are taking forward into next season."
-    }
-   ],
-   "merge_reasons": [],
-   "title": "Brown explains why McLaren struggled to defend titles",
-   "summary": "McLaren CEO Zak Brown has reflected on why the team could not defend its titles in 2026. He also outlined the lessons McLaren is taking into next season.",
-   "disagreement": "",
-   "label": "Reported",
    "updated": "2026-11-18T00:28:39Z"
   },
   {
@@ -1658,25 +2496,6 @@
    "updated": "2026-11-18T00:28:39Z"
   },
   {
-   "id": "c3f75be0a",
-   "created": "2026-11-17T07:14:21Z",
-   "stories": [
-    {
-     "title": "Verstappen: Antonelli's records won't motivate me to stay in F1",
-     "source": "ESPN",
-     "date": "2026-11-17T07:05:29Z",
-     "link": "https://www.espn.com/f1/story/_/id/50320342/max-verstappen-f1-kimi-antonelli-exclusive",
-     "snippet": "Max Verstappen has insisted he doesn't need Kimi Antonelli chasing his records to motivate him to stay in Formula 1, saying only he will make the decision to walk away."
-    }
-   ],
-   "merge_reasons": [],
-   "title": "Verstappen says Antonelli's records won't keep him in F1",
-   "summary": "Max Verstappen says he does not need Kimi Antonelli chasing his records to stay motivated in Formula 1. He says only he will decide when to walk away.",
-   "disagreement": "",
-   "label": "Reported",
-   "updated": "2026-11-17T07:14:21Z"
-  },
-  {
    "id": "c14d978fd",
    "created": "2026-11-17T07:14:21Z",
    "stories": [
@@ -1750,41 +2569,6 @@
    "updated": "2026-11-17T07:14:21Z"
   },
   {
-   "id": "ccd2269f9",
-   "created": "2026-11-16T14:40:58Z",
-   "stories": [
-    {
-     "title": "Kimi Antonelli Mercedes salary in spotlight after Russell defeated – report",
-     "source": "PlanetF1",
-     "date": "2026-11-16T05:58:44Z",
-     "link": "https://www.planetf1.com/news/kimi-antonelli-mercedes-salary-george-russell",
-     "snippet": "Kimi Antonelli won the F1 2026 title, but George Russell's Mercedes earnings may sting."
-    },
-    {
-     "title": "‘No one has to worry about him’ – Toto Wolff responds to Kimi Antonelli salary question",
-     "source": "PlanetF1",
-     "date": "2026-11-17T05:54:06Z",
-     "link": "https://www.planetf1.com/news/kimi-antonelli-salary-toto-wolff-mercedes-world-champion-reward",
-     "snippet": "\"I can say this much: no one has to worry about him financially...\""
-    }
-   ],
-   "merge_reasons": [
-    {
-     "time": "2026-11-17T07:14:21Z",
-     "added": [
-      "https://www.planetf1.com/news/kimi-antonelli-salary-toto-wolff-mercedes-world-champion-reward"
-     ],
-     "joined_existing": true,
-     "reason": "Wolff's response and the PlanetF1 report both address the same question about Antonelli's Mercedes salary."
-    }
-   ],
-   "title": "Antonelli's salary in spotlight; Wolff says no one must worry",
-   "summary": "A PlanetF1 report put Kimi Antonelli's Mercedes salary in the spotlight after the title race. Toto Wolff responded that no one has to worry about Antonelli financially.",
-   "disagreement": "",
-   "label": "Reported",
-   "updated": "2026-11-17T07:14:21Z"
-  },
-  {
    "id": "c762ca0e9",
    "created": "2026-11-17T07:14:21Z",
    "stories": [
@@ -1820,119 +2604,6 @@
    "summary": "Oscar Piastri has addressed the effects of F1 2025 as McLaren's struggles continue. He has yet to win a Grand Prix this season.",
    "disagreement": "",
    "label": "Reported",
-   "updated": "2026-11-17T07:14:21Z"
-  },
-  {
-   "id": "c5342c81c",
-   "created": "2026-11-15T12:28:09Z",
-   "stories": [
-    {
-     "title": "Las Vegas GP: UK schedule and how to watch on Sky Sports",
-     "source": "Sky Sports",
-     "date": "2026-11-13T06:00:00Z",
-     "link": "https://www.skysports.com/f1/news/12433/13611077/las-vegas-gp-2026-dates-schedule-weather-uk-start-time-and-how-to-watch-or-stream-f1-race-in-united-states-live-on-sky-sports",
-     "snippet": "Formula 1 heads for the bright lights of Las Vegas with both 2026 titles settled, but the competitive picture at the front of the grid tighter than it has been at any other stage of the season."
-    },
-    {
-     "title": "What time is the next F1 race? Las Vegas GP dates and full schedule",
-     "source": "Crash.net",
-     "date": "2026-11-15T12:00:00Z",
-     "link": "https://www.crash.net/f1/news/1110116/1/what-time-next-f1-race-las-vegas-gp-dates-and-full-schedule",
-     "snippet": "The next round of the 2026 Formula 1 season takes place at the Las Vegas Grand Prix."
-    },
-    {
-     "title": "How to watch the 2026 Las Vegas Grand Prix live this weekend | TV Times",
-     "source": "RaceFans",
-     "date": "2026-11-16T07:15:50Z",
-     "link": "https://www.racefans.net/2026/11/16/how-to-watch-the-2026-las-vegas-grand-prix-live-this-weekend/",
-     "snippet": "It's race week! Formula 1 heads to Las Vegas Strip Circuit this weekend. Here's how to watch the Las Vegas Grand Prix and more."
-    },
-    {
-     "title": "How to follow Las Vegas Grand Prix on the BBC",
-     "source": "BBC Sport",
-     "date": "2026-11-16T08:07:20Z",
-     "link": "https://www.bbc.co.uk/sport/formula1/articles/cx4gnlr603mqo?at_medium=RSS&at_campaign=rss",
-     "snippet": "All the key BBC coverage details for the Las Vegas Grand Prix, which takes place from 20-22 November."
-    },
-    {
-     "title": "F1 Las Vegas GP 2026: UK times, schedule and how to watch",
-     "source": "Motorsport.com",
-     "date": "2026-11-16T14:50:05Z",
-     "link": "https://www.motorsport.com/f1/news/f1-las-vegas-gp-2026-uk-times-schedule-how-to-watch/10874860/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "snippet": "The Las Vegas Grand Prix starts at 4am UK time on Sunday 22 November. In Las Vegas it is still 8pm on Saturday, because the race runs at night along the Strip. Every session falls overnight in the…"
-    },
-    {
-     "title": "F1 Las Vegas GP 2026: start time, schedule and how to watch",
-     "source": "Motorsport.com",
-     "date": "2026-11-16T15:02:24Z",
-     "link": "https://www.motorsport.com/f1/news/f1-las-vegas-gp-2026-start-time-schedule-and-how-to-watch/10874866/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "snippet": "The Las Vegas Grand Prix starts at 8 pm PT on Saturday, November 21, which is 11 pm ET. The race runs at night along the Strip, and every session is live on Apple TV. Las Vegas Grand Prix 2026…"
-    },
-    {
-     "title": "What time is F1's 2026 Las Vegas Grand Prix? Full weekend schedule",
-     "source": "The Race",
-     "date": "2026-11-16T15:59:25Z",
-     "link": "https://www.the-race.com/formula-1/what-time-is-f1s-2026-las-vegas-grand-prix-full-weekend-schedule/",
-     "snippet": "Time for the most spectacular of all the recent additions to the F1 calendar: Las Vegas"
-    },
-    {
-     "title": "What time is the 2026 Las Vegas GP and how can I watch it?",
-     "source": "Formula1.com",
-     "date": "2026-11-16T23:57:48Z",
-     "link": "https://www.formula1.com/en/latest/article/what-time-is-the-formula-1-2026-las-vegas-grand-prix-and-how-can-i-watch-it.5klYngWOQMjROxZ3nEp5Pr",
-     "snippet": "Here are all the timings – along with all the additional information you need – for the 21st Grand Prix weekend of the 2026 season from Las Vegas."
-    },
-    {
-     "title": "Las Vegas Grand Prix 2026: Race start time, how to watch, full schedule, predictions",
-     "source": "ESPN",
-     "date": "2026-11-14T15:19:08Z",
-     "link": "https://www.espn.com/f1/story/_/id/50389130/las-vegas-grand-prix-2026-race-f1-start-s-how-watch-schedule-tv-channel-live-stream-predictions",
-     "snippet": "Formula 1 is back under the bright lights of Las Vegas for one of the most extravagant weekends on the calendar."
-    }
-   ],
-   "merge_reasons": [
-    {
-     "time": "2026-11-15T12:28:09Z",
-     "added": [
-      "https://www.skysports.com/f1/news/12433/13611077/las-vegas-gp-2026-dates-schedule-weather-uk-start-time-and-how-to-watch-or-stream-f1-race-in-united-states-live-on-sky-sports",
-      "https://www.crash.net/f1/news/1110116/1/what-time-next-f1-race-las-vegas-gp-dates-and-full-schedule"
-     ],
-     "joined_existing": false,
-     "reason": "Both are schedule and viewing guides for the same upcoming Las Vegas Grand Prix."
-    },
-    {
-     "time": "2026-11-16T14:40:58Z",
-     "added": [
-      "https://www.racefans.net/2026/11/16/how-to-watch-the-2026-las-vegas-grand-prix-live-this-weekend/",
-      "https://www.bbc.co.uk/sport/formula1/articles/cx4gnlr603mqo?at_medium=RSS&at_campaign=rss"
-     ],
-     "joined_existing": true,
-     "reason": "The RaceFans and BBC Sport pieces both give broadcast information for the same Las Vegas Grand Prix weekend."
-    },
-    {
-     "time": "2026-11-16T23:57:55Z",
-     "added": [
-      "https://www.motorsport.com/f1/news/f1-las-vegas-gp-2026-uk-times-schedule-how-to-watch/10874860/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-      "https://www.motorsport.com/f1/news/f1-las-vegas-gp-2026-start-time-schedule-and-how-to-watch/10874866/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-      "https://www.the-race.com/formula-1/what-time-is-f1s-2026-las-vegas-grand-prix-full-weekend-schedule/",
-      "https://www.formula1.com/en/latest/article/what-time-is-the-formula-1-2026-las-vegas-grand-prix-and-how-can-i-watch-it.5klYngWOQMjROxZ3nEp5Pr"
-     ],
-     "joined_existing": true,
-     "reason": "All of these are schedule and viewing guides for the same 2026 Las Vegas Grand Prix weekend."
-    },
-    {
-     "time": "2026-11-17T07:14:21Z",
-     "added": [
-      "https://www.espn.com/f1/story/_/id/50389130/las-vegas-grand-prix-2026-race-f1-start-s-how-watch-schedule-tv-channel-live-stream-predictions"
-     ],
-     "joined_existing": true,
-     "reason": "The ESPN preview and the other schedule guides all cover the 2026 Las Vegas Grand Prix start times and viewing details."
-    }
-   ],
-   "title": "Las Vegas Grand Prix 2026: UK start times and how to watch",
-   "summary": "Several guides list the UK and Las Vegas race start times, TV coverage and full weekend schedule. ESPN adds its race start time, how-to-watch details and predictions.",
-   "disagreement": "",
-   "label": "Opinion",
    "updated": "2026-11-17T07:14:21Z"
   },
   {
@@ -5635,42 +6306,6 @@
    "disagreement": "",
    "label": "Confirmed",
    "updated": "2026-11-15T12:28:09Z"
-  },
-  {
-   "id": "c84f7079f",
-   "created": "2026-11-17T07:14:21Z",
-   "stories": [
-    {
-     "title": "Rafael Câmara to Haas: How F1's next rookie could shake up Ferrari's future",
-     "source": "ESPN",
-     "date": "2026-10-19T14:27:26Z",
-     "link": "https://www.espn.com/f1/story/_/id/50148089/rafael-camara-haas-how-f1-next-rookie-shake-ferrari-future",
-     "snippet": "The arrival of Rafa Camara to Haas will give Ferrari an interesting conundrum for the future, writes ESPN's Nate Saunders."
-    },
-    {
-     "title": "Ferrari protege Câmara joins Haas for F1 2027",
-     "source": "ESPN",
-     "date": "2026-10-19T14:27:26Z",
-     "link": "https://www.espn.com/f1/story/_/id/50131330/rafael-camara-haas-completes-driver-line-2027-formula-1",
-     "snippet": "Brazilian sensation Rafael Câmara will replace Esteban Ocon at Haas in 2027, the team confirmed on Thursday."
-    }
-   ],
-   "merge_reasons": [
-    {
-     "time": "2026-11-17T07:14:21Z",
-     "added": [
-      "https://www.espn.com/f1/story/_/id/50148089/rafael-camara-haas-how-f1-next-rookie-shake-ferrari-future",
-      "https://www.espn.com/f1/story/_/id/50131330/rafael-camara-haas-completes-driver-line-2027-formula-1"
-     ],
-     "joined_existing": false,
-     "reason": "The ESPN analysis and the ESPN confirmation news both cover the same announcement that Câmara will join Haas for 2027."
-    }
-   ],
-   "title": "Rafael Câmara joins Haas for 2027, replacing Esteban Ocon",
-   "summary": "Brazilian driver Rafael Câmara will replace Esteban Ocon at Haas in 2027, the team confirmed on Thursday. ESPN also analysed what the arrival could mean for Ferrari's future.",
-   "disagreement": "",
-   "label": "Confirmed",
-   "updated": "2026-11-17T07:14:21Z"
   }
  ],
  "decisions": [
@@ -6689,6 +7324,96 @@
     }
    ],
    "reason": "The Horner Alpine hint and the Horner-linked Cadillac sale story concern different teams and deals."
+  },
+  {
+   "time": "2026-11-18T18:37:37Z",
+   "items": [
+    {
+     "title": "Speed, trust, controlled aggression - What really led to Liam Lawson's career-saving F1 2026",
+     "source": "Motorsport.com",
+     "link": "https://www.motorsport.com/f1/news/speed-trust-controlled-aggression-what-really-led-to-liam-lawsons-career-saving-f1-2026/10875262/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www"
+    },
+    {
+     "card": "cf4671225",
+     "title": "Permane calls Lawson's 2026 form a revelation for Racing Bulls"
+    }
+   ],
+   "reason": "The Motorsport.com piece analyses the factors behind Lawson's form, while the existing card reports Alan Permane's own comments, so they are different angles."
+  },
+  {
+   "time": "2026-11-18T18:37:37Z",
+   "items": [
+    {
+     "title": "Five things to watch out for at the F1 Las Vegas GP",
+     "source": "Motorsport.com",
+     "link": "https://www.motorsport.com/f1/news/five-things-to-watch-out-for-at-the-f1-las-vegas-gp/10875316/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www"
+    },
+    {
+     "card": "c67ae1007",
+     "title": "What is still to play for as F1 heads to Vegas"
+    }
+   ],
+   "reason": "Both are preview articles for the same race, but separate previews are not the same specific news event."
+  },
+  {
+   "time": "2026-11-18T18:37:37Z",
+   "items": [
+    {
+     "title": "What's going on with F1's confusing V8s 2030 future reveal",
+     "source": "The Race",
+     "link": "https://www.the-race.com/formula-1/whats-going-on-with-f1-confusing-v8s-2030-future-announcement/"
+    },
+    {
+     "card": "c1c19362a",
+     "title": "FIA president says V8 engines are coming soon"
+    }
+   ],
+   "reason": "The FIA president's statements are not confirmed to be the same thing as the posted-then-deleted 2030 V8 announcement, so they stay separate."
+  },
+  {
+   "time": "2026-11-18T18:37:37Z",
+   "items": [
+    {
+     "title": "Fernando Alonso retirement will make or break these F1 stars",
+     "source": "GPFans",
+     "link": "https://www.gpfans.com/en/f1-news/1093001/f1-fernando-alonso-retirement-make-break-oscar-piastri-george-russell/"
+    },
+    {
+     "card": "c77be571c",
+     "title": "Fernando Alonso to race 2027 Dakar Rally for Aston Martin"
+    }
+   ],
+   "reason": "The Alonso retirement opinion piece is about his F1 future and does not report the Dakar Rally news."
+  },
+  {
+   "time": "2026-11-18T18:37:37Z",
+   "items": [
+    {
+     "title": "Ecclestone urges Hamilton to consider retirement, FIA set to confirm Piastri penalty – roundup",
+     "source": "PlanetF1",
+     "link": "https://www.planetf1.com/news/fia-lewis-hamilton-las-vegas-grand-prix-2026-penalty-retire"
+    },
+    {
+     "card": "c67ec87ec",
+     "title": "Ecclestone tells Hamilton to think about quitting F1"
+    }
+   ],
+   "reason": "The PlanetF1 roundup covers several stories, so it is not the same event as the Ecclestone comments on Hamilton."
+  },
+  {
+   "time": "2026-11-18T18:37:37Z",
+   "items": [
+    {
+     "title": "Palmer rejects Damon Hill’s Ferrari plan for Lewis Hamilton and Charles Leclerc",
+     "source": "PlanetF1",
+     "link": "https://www.planetf1.com/news/jolyon-palmer-damon-hill-ferrari-plan-lewis-hamilton-charles-leclerc"
+    },
+    {
+     "card": "c417d9865",
+     "title": "Ferrari reportedly considering a lead driver for 2027"
+    }
+   ],
+   "reason": "Palmer's rejection of Damon Hill's plan is a different comment from reports that Ferrari is considering a lead driver."
   }
  ],
  "processed": [
@@ -6698,6 +7423,7 @@
   "https://www.autosport.com/f1/news/ayao-komatsu-esteban-ocon-axing-surprised-everybody-at-haas/10872457/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
   "https://www.autosport.com/f1/news/exhausted-russell-set-for-brazilian-f1-grid-penalty/10872138/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
   "https://www.autosport.com/f1/news/f1-2026-calendar-update-imola-off-the-table-no-plan-b-if-iran-war-escalates/10873643/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+  "https://www.autosport.com/f1/news/f1-announces-new-partnership-with-whoop/10875346/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
   "https://www.autosport.com/f1/news/f1-brazilian-gp-kimi-antonelli-fastest-in-tricky-fp2/10872299/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
   "https://www.autosport.com/f1/news/f1-brazilian-gp-lando-norris-takes-pole-in-soaking-wet-qualifying/10872710/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
   "https://www.autosport.com/f1/news/f1-brazilian-gp-lando-norris-wins-in-mixed-conditions-mercedes-clinches-constructors-title/10873048/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
@@ -6733,17 +7459,20 @@
   "https://www.autosport.com/f1/news/penalty-drops-oscar-piastri-out-of-f1-mexico-gp-points/10870864/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
   "https://www.autosport.com/f1/news/permane-signs-new-racing-bulls-f1-deal/10871999/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
   "https://www.autosport.com/f1/news/piastri-set-for-grid-penalty-at-f1-las-vegas-gp/10875205/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+  "https://www.autosport.com/f1/news/piastri-to-receive-grid-drop-at-las-vegas-gp/10875205/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
   "https://www.autosport.com/f1/news/red-bulls-key-strategy-call-behind-verstappens-mexico-win-10871260/10871260/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
   "https://www.autosport.com/f1/news/retaining-lawson-isnt-enough-red-bull-must-stop-treating-him-like-a-failure/10874666/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
   "https://www.autosport.com/f1/news/russell-and-brdc-launch-karting-academy/10874110/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
   "https://www.autosport.com/f1/news/the-antonelli-you-dont-know-daily-life-with-f1s-newest-champion/10875217/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
   "https://www.autosport.com/f1/news/the-antonelli-you-dont-know-inside-the-mercedes-garage-with-f1s-new-world-champion/10874265/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+  "https://www.autosport.com/f1/news/the-factors-behind-the-abortive-f1-2030-rules-announcement/10875290/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
   "https://www.autosport.com/f1/news/the-reason-behind-hondas-power-unit-lasting-five-laps-in-mexico/10871286/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
   "https://www.autosport.com/f1/news/the-surprising-convergence-behind-f1s-increasingly-competitive-2026-season/10874375/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
   "https://www.autosport.com/f1/news/the-wet-weather-challenges-thrown-up-by-brazilian-gp-qualifying/10872894/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
   "https://www.autosport.com/f1/news/tsolov-lands-reserve-driver-role-for-f1-2027/10874151/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
   "https://www.autosport.com/f1/news/we-failed-so-we-had-to-react-fred-vasseur-on-ferrari-driver-talks-and-mexico-f1-fallout/10872249/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
   "https://www.autosport.com/f1/news/what-is-left-to-fight-for-in-f1-2026/10874769/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+  "https://www.autosport.com/f1/news/what-mclaren-has-learned-from-a-tough-f1-2026/10875268/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
   "https://www.autosport.com/f1/news/what-the-brazilian-gp-revealed-about-f1s-ability-to-cope-with-rain/10873789/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
   "https://www.autosport.com/f1/news/what-was-antonellis-best-moment-of-his-f1-title-winning-campaign-our-writers-have-their-say/10871078/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
   "https://www.autosport.com/f1/news/whats-behind-piastris-split-with-webber-and-what-it-means-for-his-f1-career/10873410/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
@@ -6862,14 +7591,16 @@
   "https://www.crash.net/f1/news/1110156/1/toto-wolff-offers-blunt-response-kimi-antonelli-ferrari-question",
   "https://www.crash.net/f1/news/1110158/1/lewis-hamilton-calls-out-ex-f1-drivers-talking-smack-about-young-stars",
   "https://www.crash.net/f1/news/1110160/1/oscar-piastri-set-huge-las-vegas-gp-grid-penalty",
+  "https://www.crash.net/f1/news/1110162/1/why-mclarens-f1-title-defence-failed-2026",
+  "https://www.crash.net/f1/news/1110164/1/max-verstappens-blunt-response-kimi-antonelli-f1-motivation",
+  "https://www.crash.net/f1/news/1110167/1/whats-behind-bizarre-deleted-f1-v8-announcement",
+  "https://www.crash.net/f1/news/1110172/1/toto-wolff-addresses-f1-champion-kimi-antonelli-salary-claims",
   "https://www.crash.net/f1/results/1110009/1/f1-brazil-grand-prix-full-race-results",
   "https://www.crash.net/motogp/news/1110106/1/watch-dani-pedrosa-race-ktm-motogp-bike-against-red-bull-f1-car-ice",
   "https://www.crash.net/motogp/news/1110108/1/buenos-aires-motogp-circuit-transformation-gathers-pace-f1-dream",
   "https://www.crash.net/motogp/news/1110135/1/australian-gp-boss-leave-role-weeks-after-final-motogp-race-phillip-island",
   "https://www.espn.com/auto/story/_/id/42230928/all-f1-drivers-constructors-championship-winners",
   "https://www.espn.com/f1/story/_/id/49515865/f1-2027-driver-lineups-lewis-hamilton-max-verstappen-seat-contract",
-  "https://www.espn.com/f1/story/_/id/50131330/rafael-camara-haas-completes-driver-line-2027-formula-1",
-  "https://www.espn.com/f1/story/_/id/50148089/rafael-camara-haas-how-f1-next-rookie-shake-ferrari-future",
   "https://www.espn.com/f1/story/_/id/50196394/how-kimi-antonelli-george-russell-ferrari-f1-youngest-champion",
   "https://www.espn.com/f1/story/_/id/50203944/max-verstappen-clinches-top-10-finish-first-gt-world-challenge",
   "https://www.espn.com/f1/story/_/id/50310746/sergio-perez-f1-second-act-red-bull-regrets-cadillac-contract",
@@ -6905,25 +7636,35 @@
   "https://www.formula1.com/en/latest/article/exclusive-piastri-on-taming-the-mcl40-redefining-success-and-why-a-tough-2026-could-make-him-stronger.qz9mVgFRNxNey7waRfq83",
   "https://www.formula1.com/en/latest/article/exclusive-sainz-reflects-on-the-journey-to-his-250th-grand-prix-and-preparing-for-williams-most-important-year.4q4YmHp7ZpfnUTMjNNPXc9",
   "https://www.formula1.com/en/latest/article/f1-academy-champion-alisha-palmowski-graduates-to-formula-regional-with-fully-funded-seat.39A1mu7n4LQ3ljJdTyFlhW",
+  "https://www.formula1.com/en/latest/article/formula-1-and-whoop-announce-landmark-partnership-to-bring-fans-closer-to-the-human-side-of-racing.1YTsprVRx7MPlaDJnniexm",
   "https://www.formula1.com/en/latest/article/gallery-aston-martin-showcase-bespoke-livery-for-las-vegas-grand-prix.7f71lWPYrxvriroCo30iaY",
   "https://www.formula1.com/en/latest/article/gallery-cadillac-reveal-special-livery-for-las-vegas-grand-prix.1b7NXQe83gP2LzjiCQf2ES",
   "https://www.formula1.com/en/latest/article/haas-confirm-camara-to-race-for-the-team-in-las-vegas-as-hirakawa-returns-for-fp1-appearance.2as7TuSF4UHgXczZlu4245",
   "https://www.formula1.com/en/latest/article/how-the-sphere-became-the-heart-of-the-las-vegas-grand-prix.1xiIUVGfOPf8kGx8oHY7V9",
+  "https://www.formula1.com/en/latest/article/how-to-stream-the-formula-1-2026-las-vegas-grand-prix-on-f1-tv-premium.5YZztaEts0uPxfdx2UwaQE",
   "https://www.formula1.com/en/latest/article/its-10-years-since-ron-dennis-left-f1-i-miss-him.1HKS8KLe46myFMW6qOzsdY",
   "https://www.formula1.com/en/latest/article/its-race-week-5-storylines-were-excited-about-ahead-of-the-2026-las-vegas-grand-prix.3fjavheTbHD8fjZI0i7BWd",
   "https://www.formula1.com/en/latest/article/las-vegas-grand-prix-race-betting-guide-and-what-the-markets-expect-to-happen.5sEja0aYqYkyfdSZ9sTibF",
   "https://www.formula1.com/en/latest/article/mercedes-incredible-success-through-formula-1-history.7yLliKc36ZI9pd7xzNYFwq",
   "https://www.formula1.com/en/latest/article/one-of-the-best-experiences-of-my-life-mark-sutton-on-photographing-antonellis-f1-title.2oqpziZe3WQ5B2xFvPWsnU",
+  "https://www.formula1.com/en/latest/article/our-early-bet-builder-selections-for-the-las-vegas-grand-prix.3CN1v7zsYxJIfD3azv9vjj",
   "https://www.formula1.com/en/latest/article/our-writers-on-antonellis-title-success-and-what-it-means.2FAfHA49byUlrrTfVgWKWc",
+  "https://www.formula1.com/en/latest/article/piastri-set-for-10-place-grid-penalty-at-las-vegas-grand-prix.5eT1wWFQzCfOS6W2tvTtLk",
+  "https://www.formula1.com/en/latest/article/quiz-10-tricky-questions-on-formula-1-night-races.w2XDE4bcho7ho79HRKfFa",
+  "https://www.formula1.com/en/latest/article/save-the-date-f1-unlocked-season-finale-watch-party.22ZXTQut4A8OosqH0ldCTM",
   "https://www.formula1.com/en/latest/article/the-5-drivers-most-likely-to-win-the-las-vegas-grand-prix-according-to-the-betting-markets.35XTVOVdU16UJWGZJj3ctb",
   "https://www.formula1.com/en/latest/article/the-5-drivers-who-are-most-likely-to-qualify-fastest-in-las-vegas.4bdBCuhbBNlUkHaoVfsopF",
   "https://www.formula1.com/en/latest/article/the-extra-gear-liam-lawsons-top-six-hopes-examined-after-securing-new-racing-bulls-deal.4FuO5PyKE8vCtfqm1OyxrJ",
+  "https://www.formula1.com/en/latest/article/the-f1-braking-system-innovation-that-could-soon-be-revealed.5BLbJmoFNGwhbllIHNGHOG",
+  "https://www.formula1.com/en/latest/article/the-risk-perspective-how-f1-drivers-engineers-and-strategists-tackle-the-las-vegas-grand-prix.7yJLDDlVCuKALLnoYrpgrb",
   "https://www.formula1.com/en/latest/article/toto-wolffs-journey-from-williams-to-nine-time-champion-with-mercedes.2l85DG3mfUyL5icscw0Gbn",
   "https://www.formula1.com/en/latest/article/trivia-guess-the-track-1.1N6Z8MTxyBFjqio8h5hOSW",
   "https://www.formula1.com/en/latest/article/well-make-sure-it-goes-down-to-the-wire-mclaren-on-determination-to-finish-p3-in-teams-championship.2CPaMf6YTIkLE4pZlahf9y",
   "https://www.formula1.com/en/latest/article/weve-just-got-to-do-a-better-job-brown-explains-why-mclaren-struggled-to-challenge-for-the-championship-in-2026.4vyTtKngYi0IPSrhXhRozz",
+  "https://www.formula1.com/en/latest/article/what-is-the-weather-forecast-for-the-2026-las-vegas-grand-prix.1ki78WcweOZ8vq2zQ1HOJX",
   "https://www.formula1.com/en/latest/article/what-time-is-the-formula-1-2026-las-vegas-grand-prix-and-how-can-i-watch-it.5klYngWOQMjROxZ3nEp5Pr",
   "https://www.formula1.com/en/latest/article/why-f1-drivers-love-padel-as-aston-martin-become-the-latest-to-embrace-the-sport.2n2jOtb63TbalovQuHIIUi",
+  "https://www.formula1.com/en/latest/article/why-russell-wont-run-mercedes-upgraded-turbocharger-in-las-vegas.2ZwhMHFGbRFb6pApmMiEgY",
   "https://www.formula1.com/en/latest/article/williams-retain-jade-jacquet-for-2027-f1-academy-campaign.5BcvOHlUPr9OJXYXq30dnE",
   "https://www.formula1.com/en/latest/article/williams-unveil-special-one-off-livery-for-las-vegas-grand-prix.01klQqq0PYu7wjugCtr98K",
   "https://www.gpfans.com/en/f1-news/1092908/f1-aston-martin-honda-lawrence-stroll-concerns-martin-brundle/",
@@ -6971,11 +7712,17 @@
   "https://www.gpfans.com/en/f1-news/1092987/f1-lewis-hamilton-bernie-ecclestone-retire-ferrari-too-late/",
   "https://www.gpfans.com/en/f1-news/1092989/oscar-piastri-mclaren-f1-future-lando-norris-wingman-peter-windsor/",
   "https://www.gpfans.com/en/f1-news/1092995/ferrari-f1-team-kit-hamilton-leclerc-las-vegas-grand-prix-2026/",
+  "https://www.gpfans.com/en/f1-news/1092996/f1-max-verstappen-retirement-decision-kimi-antonelli-record/",
   "https://www.gpfans.com/en/f1-news/1092998/kimi-antonelli-mercedes-f1-contract-toto-wolff/",
   "https://www.gpfans.com/en/f1-news/1093000/f1-pressure-mounting-williams-boss-james-vowles-2026-struggles/",
+  "https://www.gpfans.com/en/f1-news/1093001/f1-fernando-alonso-retirement-make-break-oscar-piastri-george-russell/",
   "https://www.gpfans.com/en/f1-news/1093002/christian-horner-statement-offers-major-insight-into-alpine-f1-return/",
   "https://www.gpfans.com/en/f1-news/1093003/lewis-hamilton-replaced-f1-2026-las-vegas-grand-prix-fp1/",
   "https://www.gpfans.com/en/f1-news/1093004/f1-news-today-fred-vasseur-overwhelmed-ferrari-lewis-hamilton-replaced-las-vegas-gp/",
+  "https://www.gpfans.com/en/f1-news/1093014/f1-fia-v8-engines-mohammed-ben-sulayem-return-audio-clip/",
+  "https://www.gpfans.com/en/f1-news/1093017/f1-nico-rosberg-cancelled-parents-tickets-win-world-championship/",
+  "https://www.gpfans.com/en/f1-news/1093024/f1-las-vegas-grand-prix-weather-forecast-latest/",
+  "https://www.gpfans.com/en/f1-news/1093025/f1-mercedes-announce-engine-upgrade-kimi-antonelli-george-russell-las-vegas-grand-prix/",
   "https://www.motorsport.com/dakar/news/fernando-alonso-to-return-to-dakar-rally-with-aston-martin-in-2027/10874907/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/alan-permane-liam-lawson-has-been-a-revelation-as-he-earned-2027-racing-bulls-f1-deal/10875104/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/andrea-stella-wants-mclaren-to-finally-make-peace-with-las-vegas/10873819/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
@@ -6990,8 +7737,11 @@
   "https://www.motorsport.com/f1/news/f1-driver-manager-enrico-zanarini-recounts-his-50-years-in-motorsport/10874697/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/f1-las-vegas-gp-2026-start-time-schedule-and-how-to-watch/10874866/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/f1-las-vegas-gp-2026-uk-times-schedule-how-to-watch/10874860/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+  "https://www.motorsport.com/f1/news/f1-to-showcase-driver-health-data-as-it-partners-with-whoop/10875341/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/final-mercedes-benz-slr-mclaren-stirling-moss-heads-to-auction-for-over-6million/10873978/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+  "https://www.motorsport.com/f1/news/five-things-to-watch-out-for-at-the-f1-las-vegas-gp/10875316/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/fred-vasseur-lewis-hamilton-and-charles-leclerc-left-my-room-joking-together/10874079/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+  "https://www.motorsport.com/f1/news/future-imperfect-whats-behind-the-abortive-2030-f1-rules-announcement/10875283/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/george-russell-credits-toto-wolffs-loyalty-for-mercedes-f1-title-return-nobody-was-hired-or-fired/10873975/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/george-russell-is-looking-down-the-barrel-of-kimi-antonellis-raw-pace-says-allison/10874424/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/george-russell-launches-fully-funded-gr63-karting-academy-at-silverstone/10874038/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
@@ -7042,6 +7792,7 @@
   "https://www.motorsport.com/f1/news/ralf-schumacher-questions-lewis-hamiltons-leadership-as-he-issues-max-verstappen-warning/10874111/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/red-bull-f1-car-takes-on-motogp-bike-rally-car-and-snowmobile-in-extreme-ice-race/10874304/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/retaining-liam-lawson-isnt-enough-red-bull-must-stop-treating-him-like-a-failure/10874659/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+  "https://www.motorsport.com/f1/news/speed-trust-controlled-aggression-what-really-led-to-liam-lawsons-career-saving-f1-2026/10875262/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/the-impressive-stats-underpinning-liam-lawsons-career-saving-f1-season/10874116/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/the-kimi-antonelli-you-dont-know-inside-the-mercedes-garage-with-f1s-new-world-champion-/10874164/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/the-kimi-antonelli-you-dont-know-told-by-those-closest-to-him/10875085/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
@@ -7055,20 +7806,25 @@
   "https://www.motorsport.com/f1/news/toto-wolff-reveals-heartwarming-memory-of-a-teenage-kimi-antonelli-living-at-his-house/10874978/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/toto-wolff-says-kimi-antonelli-is-more-loved-in-italy-than-michael-schumacher-was-at-ferrari/10874809/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/tsolov-named-red-bull-racing-bulls-reserve-driver-after-missing-out-on-2027-f1-race-seat/10874147/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+  "https://www.motorsport.com/f1/news/we-havent-taken-any-steps-backwards-mclaren-boss-explains-2026/10875219/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/what-is-left-to-fight-for-in-f1-2026/10874717/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/what-the-brazilian-gp-revealed-about-f1s-ability-to-cope-with-rain/10873679/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/williams-aston-martin-among-new-f1-liveries-for-las-vegas-gp-as-acura-replaces-honda/10874925/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/zak-brown-recalls-mclarens-very-toxic-environment-after-joining-team-in-2016/10874891/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.planetf1.com/alpine/franco-colapinto-alpine-upgrades",
+  "https://www.planetf1.com/features/las-vegas-grand-prix-2026-predictions",
   "https://www.planetf1.com/home-page/opinion-liam-lawson-to-mercedes",
   "https://www.planetf1.com/news/adrian-newey-christian-horner-red-bull-salary-book",
   "https://www.planetf1.com/news/adrian-newey-salary-mercedes-insider-michael-schumacher",
   "https://www.planetf1.com/news/alex-albon-williams-problems",
   "https://www.planetf1.com/news/aston-martin-las-vegas-grand-prix-2026-livery",
+  "https://www.planetf1.com/news/cadillac-las-vegas-grand-prix-2026-livery",
   "https://www.planetf1.com/news/charles-leclerc-ferrari-las-vegas-prospects-revealed",
   "https://www.planetf1.com/news/christian-horner-adrian-newey-ferrari-2014-drive",
   "https://www.planetf1.com/news/christian-horner-toto-wolff-kimi-antonelli-text-message",
+  "https://www.planetf1.com/news/claire-williams-channel-4-las-vegas-grand-prix-2026-f1",
   "https://www.planetf1.com/news/daniel-ricciardo-monaco-moment",
+  "https://www.planetf1.com/news/f1-las-vegas-weather-2026-rain-risk",
   "https://www.planetf1.com/news/f1-tipped-for-imminent-sale-by-former-liberty-media-boss",
   "https://www.planetf1.com/news/felipe-massa-ferrari-not-right",
   "https://www.planetf1.com/news/fernando-alonso-aston-martin-dakar-rally",
@@ -7076,6 +7832,7 @@
   "https://www.planetf1.com/news/ferrari-f1-2026-mercedes-title-loss-concession",
   "https://www.planetf1.com/news/ferrari-lewis-hamilton-charles-leclerc-catastrophic-f1-2027-warning",
   "https://www.planetf1.com/news/fia-las-vegas-grand-prix-2026-active-aero",
+  "https://www.planetf1.com/news/fia-lewis-hamilton-las-vegas-grand-prix-2026-penalty-retire",
   "https://www.planetf1.com/news/fia-major-age-limits-rule-change-to-be-proposed",
   "https://www.planetf1.com/news/final-sector-podcast-f1-imola-decision-makes-no-sense",
   "https://www.planetf1.com/news/former-f1-driver-makes-comeback-with-mclaren-test",
@@ -7086,6 +7843,7 @@
   "https://www.planetf1.com/news/haas-confirm-esteban-ocon-replacement-las-vegas-rafael-camara",
   "https://www.planetf1.com/news/imola-reveals-future-f1-return-plan",
   "https://www.planetf1.com/news/jenson-button-fernando-alonso-aston-martin-contract",
+  "https://www.planetf1.com/news/jolyon-palmer-damon-hill-ferrari-plan-lewis-hamilton-charles-leclerc",
   "https://www.planetf1.com/news/jonathan-mcevoy-fia-ban-ferrari",
   "https://www.planetf1.com/news/kimi-antonelli-in-awe-after-international-football-fans-chant-his-name",
   "https://www.planetf1.com/news/kimi-antonelli-meets-italian-president-after-award",
@@ -7108,6 +7866,7 @@
   "https://www.planetf1.com/news/martin-brundle-toto-wolff-text-christian-horner-comparison",
   "https://www.planetf1.com/news/max-verstappen-named-mercedes-biggest-2027-threat",
   "https://www.planetf1.com/news/max-verstappen-red-bull-jonathan-wheatley-jon-caller",
+  "https://www.planetf1.com/news/mclaren-auction-mcl41-f1-car-sale-abu-dhabi",
   "https://www.planetf1.com/news/mclaren-explains-oscar-piastri-norris-deficit",
   "https://www.planetf1.com/news/mclaren-highlights-key-lando-norris-trait",
   "https://www.planetf1.com/news/mclaren-las-vegas-upgrades-foundations-2027-f1-car",
@@ -7115,6 +7874,7 @@
   "https://www.planetf1.com/news/mercedes-ferrari-rubbish-race",
   "https://www.planetf1.com/news/mercedes-george-russell-role-kimi-antonelli-f1-success",
   "https://www.planetf1.com/news/mercedes-reveals-brazilian-gp-investigation-findings",
+  "https://www.planetf1.com/news/mercedes-upgrade-fail-toto-wolff-red-bull-f1-2027",
   "https://www.planetf1.com/news/michael-schumacher-jock-clear",
   "https://www.planetf1.com/news/michael-schumacher-mercedes-f1-worse-at-theory-nico-rosberg",
   "https://www.planetf1.com/news/nico-hulkenberg-fia-penalty-audi-f1-2026-brazilian-grand-prix",
@@ -7155,6 +7915,7 @@
   "https://www.racefans.net/2026/11/17/an-early-season-finale-five-talking-points-for-the-2026-las-vegas-grand-prix/",
   "https://www.racefans.net/2026/11/17/social-media-fia-president-indicates-agreement-reached-on-next-power-unit-formula/",
   "https://www.racefans.net/2026/11/17/spotlight-alonso-to-enter-dakar-in-car-aston-martin-designed-for-call-of-duty/",
+  "https://www.racefans.net/2026/11/18/featured-comment-f1-fans-underestimate-importance-of-getting-to-a-top-car/",
   "https://www.racefans.net/2026/11/18/mercedes-technical-director-explains-how-antonelli-leapt-ahead-of-russell-in-second-season/",
   "https://www.skysports.com/f1/live-blog/12433/12466779/f1-news-rumours-and-gossip-formula-1-latest-updates-on-teams-driver-transfer-market-and-contracts",
   "https://www.skysports.com/f1/live-blog/12433/13518208/f1-academy-2026-reports-calendar-news-results-standings-and-highlights-for-races-this-season",
@@ -7178,8 +7939,10 @@
   "https://www.skysports.com/f1/news/12433/13612940/mclaren-chief-zak-brown-says-advice-from-novak-djokovic-will-help-f1-team-bounce-back-from-losing-titles-to-mercedes",
   "https://www.skysports.com/f1/news/12433/13612958/fernando-alonso-aston-martin-driver-to-race-in-dakar-rally-ahead-of-2027-f1-season-in-return-to-rally-raid-event",
   "https://www.skysports.com/f1/news/12433/13613272/mercedes-confirm-aduo-turbo-upgrade-ready-for-las-vegas-gp-with-kimi-antonelli-set-to-run-new-engine-part",
+  "https://www.skysports.com/f1/news/12433/13613606/oscar-piastri-to-serve-grid-penalty-at-las-vegas-gp-as-mclaren-confirm-addition-of-more-upgrades-to-mcl40",
   "https://www.skysports.com/football/news/12433/13611406/the-fast-and-the-curious-an-f1-podcast-with-greg-james-betty-glover-and-christian-hewgill",
   "https://www.the-race.com/business/how-madrid-f1-races-economic-impact-compares-to-barcelonas/",
+  "https://www.the-race.com/business/mclaren-to-sell-2027-f1-car-before-it-races/",
   "https://www.the-race.com/extra/hamilton-loses-most-marketable-athlete-status-in-2026/",
   "https://www.the-race.com/extra/las-vegas-gp-reveals-neon-inspired-trophy-for-2026/",
   "https://www.the-race.com/extra/russell-launches-karting-academy-to-find-next-generation-of-talent/",
@@ -7190,6 +7953,7 @@
   "https://www.the-race.com/formula-1/f1-poised-to-take-crucial-step-towards-v8-engines-return/",
   "https://www.the-race.com/formula-1/fernando-alonso-2027-dakar-rally-new-aston-martin-project/",
   "https://www.the-race.com/formula-1/ferrari-leclerc-hamilton-f1-problem-far-from-solved/",
+  "https://www.the-race.com/formula-1/ford-real-role-in-building-f1-best-engine/",
   "https://www.the-race.com/formula-1/honda-f1-new-reliability-problem-might-not-cure-before-2026-end/",
   "https://www.the-race.com/formula-1/liam-lawson-2027-f1-extension-our-verdict/",
   "https://www.the-race.com/formula-1/mercedes-plan-to-debut-aduo-upgrade-on-antonellis-car-only/",
@@ -7199,6 +7963,7 @@
   "https://www.the-race.com/formula-1/what-f1-looking-to-change-about-stupid-speed-limit-rule/",
   "https://www.the-race.com/formula-1/what-time-is-f1s-2026-las-vegas-grand-prix-full-weekend-schedule/",
   "https://www.the-race.com/formula-1/what-will-stop-this-being-an-era-of-mercedes-f1-domination/",
+  "https://www.the-race.com/formula-1/whats-going-on-with-f1-confusing-v8s-2030-future-announcement/",
   "https://www.the-race.com/formula-1/why-red-bull-avoided-an-unprecedented-driver-sacking/",
   "https://www.the-race.com/formula-1/why-williams-has-turned-sainz-and-albon-into-test-drivers/"
  ],
