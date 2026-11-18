@@ -1,7 +1,86 @@
 {
- "updated": "2026-11-17T07:15:02Z",
+ "updated": "2026-11-18T00:29:52Z",
  "model": "anthropic/claude-haiku-5.5",
  "rumours": [
+  {
+   "id": "r6d153a3d",
+   "claim": "The FIA reportedly is reviewing an F1 speed limit rule that could change in 2027.",
+   "people": [
+    "FIA",
+    "Lewis Hamilton"
+   ],
+   "status": "Active",
+   "trend": "steady",
+   "first_seen": "2026-11-17T12:34:58Z",
+   "last_seen": "2026-11-17T12:34:58Z",
+   "sources": [
+    {
+     "title": "F1's 'stupid' speed limit to change in 2027? What you need to know",
+     "source": "The Race",
+     "date": "2026-11-17T12:34:58Z",
+     "link": "https://www.the-race.com/formula-1/what-f1-looking-to-change-about-stupid-speed-limit-rule/"
+    }
+   ],
+   "cards": [
+    "c94134fe8"
+   ],
+   "proof": null,
+   "history": [
+    {
+     "time": "2026-11-18T00:29:52Z",
+     "event": "created",
+     "detail": "First seen: The Race (2026-11-17)",
+     "reason": "This concerns a speed limit rule, which is different from the known rumours about the FIA presidency rule, the V8 engine plan, or the cost cap proposal.",
+     "card": "FIA reviewing F1 speed limit rule that may change in 2027"
+    }
+   ]
+  },
+  {
+   "id": "r97fd3679",
+   "claim": "Lewis Hamilton reportedly wants a Los Angeles base so he can spend more of the winter break with Kim Kardashian and her children.",
+   "people": [
+    "Lewis Hamilton",
+    "Kim Kardashian"
+   ],
+   "status": "Active",
+   "trend": "rising",
+   "first_seen": "2026-11-16T15:08:51Z",
+   "last_seen": "2026-11-17T11:28:21Z",
+   "sources": [
+    {
+     "title": "Lewis Hamilon reportedly house-hunting in LA amid Kim Kardashian relationship",
+     "source": "Motorsport.com",
+     "date": "2026-11-16T15:08:51Z",
+     "link": "https://www.motorsport.com/f1/news/lewis-hamilon-reportedly-house-hunting-in-la-amid-kim-kardashian-relationship/10874877/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www"
+    },
+    {
+     "title": "Lewis Hamilton ‘house-hunting in LA’ to spend more time with girlfriend Kim Kardashian",
+     "source": "Crash.net",
+     "date": "2026-11-17T11:28:21Z",
+     "link": "https://www.crash.net/f1/news/1110147/1/lewis-hamilton-house-hunting-la-spend-more-time-girlfriend-kim-kardashian"
+    }
+   ],
+   "cards": [
+    "c50c870cb"
+   ],
+   "proof": null,
+   "history": [
+    {
+     "time": "2026-11-16T23:58:32Z",
+     "event": "created",
+     "detail": "First seen: Motorsport.com (2026-11-16)",
+     "reason": "No known rumour covers Hamilton looking for a home in Los Angeles, so this is a new rumour.",
+     "card": "Hamilton reportedly house-hunting in LA during winter break"
+    },
+    {
+     "time": "2026-11-18T00:29:52Z",
+     "event": "new sources",
+     "detail": "1 new source(s): Crash.net (2026-11-17)",
+     "reason": "Both cards report that Lewis Hamilton is house-hunting in Los Angeles so he can spend more of the winter break with Kim Kardashian, which is the same claim as the known rumour.",
+     "card": "Hamilton reportedly house-hunting in LA during winter break"
+    }
+   ]
+  },
   {
    "id": "r2d7f992f",
    "claim": "Ferrari could reportedly choose a lead driver for 2027 as tension between Lewis Hamilton and Charles Leclerc continues.",
@@ -103,39 +182,6 @@
    ]
   },
   {
-   "id": "r97fd3679",
-   "claim": "Lewis Hamilton reportedly wants a Los Angeles base so he can spend more of the winter break with Kim Kardashian and her children.",
-   "people": [
-    "Lewis Hamilton",
-    "Kim Kardashian"
-   ],
-   "status": "Active",
-   "trend": "steady",
-   "first_seen": "2026-11-16T15:08:51Z",
-   "last_seen": "2026-11-16T15:08:51Z",
-   "sources": [
-    {
-     "title": "Lewis Hamilon reportedly house-hunting in LA amid Kim Kardashian relationship",
-     "source": "Motorsport.com",
-     "date": "2026-11-16T15:08:51Z",
-     "link": "https://www.motorsport.com/f1/news/lewis-hamilon-reportedly-house-hunting-in-la-amid-kim-kardashian-relationship/10874877/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www"
-    }
-   ],
-   "cards": [
-    "c50c870cb"
-   ],
-   "proof": null,
-   "history": [
-    {
-     "time": "2026-11-16T23:58:32Z",
-     "event": "created",
-     "detail": "First seen: Motorsport.com (2026-11-16)",
-     "reason": "No known rumour covers Hamilton looking for a home in Los Angeles, so this is a new rumour.",
-     "card": "Hamilton reportedly house-hunting in LA during winter break"
-    }
-   ]
-  },
-  {
    "id": "r4925ce69",
    "claim": "Liam Lawson could reportedly be available to join McLaren, which could affect Oscar Piastri's position.",
    "people": [
@@ -145,7 +191,7 @@
     "Steiner"
    ],
    "status": "Active",
-   "trend": "rising",
+   "trend": "steady",
    "first_seen": "2026-11-15T19:01:48Z",
    "last_seen": "2026-11-16T07:15:00Z",
    "sources": [
@@ -406,12 +452,12 @@
   "ccd2269f9": "2|Reported",
   "cd7b949a5": "1|Reported",
   "cff6e454c": "2|Confirmed",
-  "cf9b8daaa": "10|Confirmed",
+  "cf9b8daaa": "11|Confirmed",
   "cb9153814": "1|Reported",
   "c5f3e6035": "3|Reported",
   "cd3e5b497": "1|Reported",
   "c7eb7529d": "1|Reported",
-  "c5dd5bf89": "3|Reported",
+  "c5dd5bf89": "4|Reported",
   "cb0461321": "3|Confirmed",
   "caccdbb2c": "2|Reported",
   "c02b7492b": "1|Reported",
@@ -419,14 +465,14 @@
   "c6c1d4ab6": "1|Confirmed",
   "c502fd1e2": "1|Reported",
   "cfaa896f7": "1|Confirmed",
-  "c2e9b147f": "1|Reported",
+  "c2e9b147f": "2|Reported",
   "ca0e66a87": "1|Reported",
-  "c50c870cb": "1|Rumour",
+  "c50c870cb": "2|Rumour",
   "c371a3883": "2|Confirmed",
-  "cab54b728": "4|Confirmed",
+  "cab54b728": "9|Confirmed",
   "c7beb77d4": "1|Reported",
   "c0a13a578": "1|Reported",
-  "cd25c59c2": "2|Reported",
+  "cd25c59c2": "3|Reported",
   "c03ec9289": "1|Reported",
   "c84f7079f": "2|Confirmed",
   "cf958e6ed": "1|Confirmed",
@@ -441,6 +487,32 @@
   "c762ca0e9": "1|Reported",
   "ce68e50e0": "1|Reported",
   "c14d978fd": "1|Reported",
-  "c3f75be0a": "1|Reported"
+  "c3f75be0a": "1|Reported",
+  "c94134fe8": "1|Rumour",
+  "cf61c5782": "1|Reported",
+  "caa2f6891": "1|Reported",
+  "c1394f2be": "1|Reported",
+  "c77be571c": "10|Confirmed",
+  "cc4b2ac53": "1|Reported",
+  "c441425a1": "1|Confirmed",
+  "c67ec87ec": "1|Reported",
+  "cf8b5fde0": "2|Confirmed",
+  "cec46fcab": "1|Confirmed",
+  "cee081101": "2|Reported",
+  "c674f6248": "2|Confirmed",
+  "c4a0bc4f4": "2|Reported",
+  "c7bca97b3": "1|Confirmed",
+  "cad42a732": "1|Confirmed",
+  "c15f59184": "1|Reported",
+  "c18ab9564": "4|Reported",
+  "cf4671225": "1|Reported",
+  "c46bfebac": "1|Confirmed",
+  "c04501f0b": "1|Reported",
+  "c4b67530a": "1|Confirmed",
+  "c307479c9": "1|Reported",
+  "c1c19362a": "1|Reported",
+  "c969e6462": "1|Reported",
+  "c9aac1089": "1|Reported",
+  "c521f1e41": "1|Confirmed"
  }
 }
