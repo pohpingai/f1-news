@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T01:41:23Z",
+ "updated": "2026-11-19T09:52:16Z",
  "model": "anthropic/claude-haiku-5.5",
  "rumours": [
   {
@@ -368,7 +368,7 @@
     "Formula 1 Commission"
    ],
    "status": "Active",
-   "trend": "steady",
+   "trend": "fading",
    "first_seen": "2026-11-14T08:47:00Z",
    "last_seen": "2026-11-14T08:47:00Z",
    "sources": [
@@ -525,7 +525,7 @@
   "cf61c5782": "1|Reported",
   "caa2f6891": "1|Reported",
   "c1394f2be": "1|Reported",
-  "c77be571c": "10|Confirmed",
+  "c77be571c": "11|Confirmed",
   "cc4b2ac53": "1|Reported",
   "c441425a1": "1|Confirmed",
   "c67ec87ec": "3|Reported",
@@ -565,10 +565,16 @@
   "c8cd47a26": "1|Confirmed",
   "c4987cfb6": "1|Rumour",
   "cdf80d09e": "1|Reported",
-  "c698ce129": "12|Confirmed",
+  "c698ce129": "13|Confirmed",
   "cea70c766": "1|Reported",
   "c655ed527": "1|Reported",
   "c66509511": "1|Reported",
-  "caf0db7f2": "1|Reported"
+  "caf0db7f2": "2|Reported",
+  "cab9e2ace": "1|Reported",
+  "c733740e9": "1|Reported",
+  "c5e2fd1f1": "1|Reported",
+  "c705813d4": "1|Reported",
+  "cbadb0d54": "1|Reported",
+  "ca5d0e533": "1|Reported"
  }
 }
