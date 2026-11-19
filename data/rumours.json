@@ -1,7 +1,41 @@
 {
- "updated": "2026-11-18T18:38:36Z",
+ "updated": "2026-11-19T01:41:23Z",
  "model": "anthropic/claude-haiku-5.5",
  "rumours": [
+  {
+   "id": "r7629d743",
+   "claim": "Lewis Hamilton could reportedly leave Ferrari to return to McLaren.",
+   "people": [
+    "Lewis Hamilton",
+    "Ferrari",
+    "McLaren"
+   ],
+   "status": "Active",
+   "trend": "steady",
+   "first_seen": "2026-11-18T19:57:00Z",
+   "last_seen": "2026-11-18T19:57:00Z",
+   "sources": [
+    {
+     "title": "Lewis Hamilton and a shock return to McLaren - how F1 star could ditch Ferrari for move home",
+     "source": "GPFans",
+     "date": "2026-11-18T19:57:00Z",
+     "link": "https://www.gpfans.com/en/f1-news/1093028/f1-lewis-hamilton-mclaren-return-ferrari-2028-contract-issues/"
+    }
+   ],
+   "cards": [
+    "c4987cfb6"
+   ],
+   "proof": null,
+   "history": [
+    {
+     "time": "2026-11-19T01:41:23Z",
+     "event": "created",
+     "detail": "First seen: GPFans (2026-11-18)",
+     "reason": "The known rumours about Hamilton concern his Los Angeles base and Ferrari's 2027 lead driver choice, but none covers Hamilton leaving Ferrari for a McLaren return.",
+     "card": "Hamilton could leave Ferrari for a McLaren return, speculation suggests"
+    }
+   ]
+  },
   {
    "id": "r6d153a3d",
    "claim": "The FIA reportedly is reviewing an F1 speed limit rule that could change in 2027.",
@@ -512,7 +546,7 @@
   "c1c19362a": "2|Reported",
   "c969e6462": "1|Reported",
   "c9aac1089": "1|Reported",
-  "c521f1e41": "7|Confirmed",
+  "c521f1e41": "8|Confirmed",
   "c1ec98bf5": "1|Confirmed",
   "c318ec4fb": "1|Reported",
   "cb9e1abbf": "1|Reported",
@@ -528,6 +562,13 @@
   "c29d58ee3": "1|Reported",
   "cee494ae9": "1|Reported",
   "c6b79467f": "3|Confirmed",
-  "c8cd47a26": "1|Confirmed"
+  "c8cd47a26": "1|Confirmed",
+  "c4987cfb6": "1|Rumour",
+  "cdf80d09e": "1|Reported",
+  "c698ce129": "12|Confirmed",
+  "cea70c766": "1|Reported",
+  "c655ed527": "1|Reported",
+  "c66509511": "1|Reported",
+  "caf0db7f2": "1|Reported"
  }
 }

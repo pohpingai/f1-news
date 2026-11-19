@@ -1,12 +1,242 @@
 {
- "updated": "2026-11-18T18:37:37Z",
+ "updated": "2026-11-19T01:40:57Z",
  "model": "anthropic/claude-haiku-5.5",
  "headline_of_the_day": {
   "date": "2026-11-19",
-  "text": "Piastri takes a 10-place grid drop for exceeding his 2026 engine allowance, while Mercedes fits its ADUO turbo to Antonelli's car only at the Las Vegas Grand Prix.",
-  "written": "2026-11-18T18:37:37Z"
+  "text": "Cadillac keeps Valtteri Bottas for 2027 over Colton Herta, while Oscar Piastri takes a 10-place grid drop at the Las Vegas Grand Prix after exceeding his engine allowance.",
+  "written": "2026-11-19T01:40:57Z"
  },
  "cards": [
+  {
+   "id": "c698ce129",
+   "created": "2026-11-19T01:40:57Z",
+   "stories": [
+    {
+     "title": "Valtteri Bottas beats Colton Herta to 2027 Cadillac F1 seat",
+     "source": "Motorsport.com",
+     "date": "2026-11-18T20:00:46Z",
+     "link": "https://www.motorsport.com/f1/news/valtteri-bottas-retains-cadillac-f1-seat-for-2027-ahead-of-colton-herta/10875159/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "snippet": "Incumbent Valtteri Bottas will remain with the Cadillac Formula 1 team through 2027 after the US-owned team decided against fast-tracking American test driver Colton Herta to a race seat. Bottas will…"
+    },
+    {
+     "title": "Final Valtteri Bottas decision as Cadillac makes F1 2027 driver announcement",
+     "source": "PlanetF1",
+     "date": "2026-11-18T20:01:02Z",
+     "link": "https://www.planetf1.com/news/valtteri-bottas-cadillac-f1-2027-announcement",
+     "snippet": "Cadillac has made a decision on Valtteri Bottas."
+    },
+    {
+     "title": "Cadillac completes F1 2027 driver pairing",
+     "source": "Autosport",
+     "date": "2026-11-18T20:01:11Z",
+     "link": "https://www.autosport.com/f1/news/cadillac-completes-f1-2027-driver-pairing/10875162/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+     "snippet": "Incumbent Valtteri Bottas will remain with the Cadillac Formula 1 team through 2027 after the US-owned team decided against fast-tracking American test driver Colton Herta to a race seat. Bottas will…"
+    },
+    {
+     "title": "What the Valtteri Bottas contract renewal says about Cadillac's F1 future",
+     "source": "Motorsport.com",
+     "date": "2026-11-18T20:01:25Z",
+     "link": "https://www.motorsport.com/f1/news/what-valtteri-bottas-contract-renewal-says-about-cadillacs-f1-future/10875333/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "snippet": "The longest-running contract saga of the Formula 1 season is now at an end. Not that it has been blockbuster material, since it revolves around a team struggling to lift itself from the back of the…"
+    },
+    {
+     "title": "Cadillac retaining Bottas for F1 2027 is the logical move",
+     "source": "Autosport",
+     "date": "2026-11-18T20:01:35Z",
+     "link": "https://www.autosport.com/f1/news/cadillac-retaining-bottas-for-f1-2027-is-the-logical-move/10875337/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+     "snippet": "The longest-running contract saga of the Formula 1 season is now at an end. Not that it has been blockbuster material, since it revolves around a team struggling to lift itself from the back of the…"
+    },
+    {
+     "title": "Official: Bottas to stay at Cadillac in 2027 alongside Perez | Formula 1",
+     "source": "RaceFans",
+     "date": "2026-11-18T20:07:11Z",
+     "link": "https://www.racefans.net/2026/11/18/official-bottas-to-stay-at-cadillacin-2027/",
+     "snippet": "Colton Herta will not make hie Formula 1 debut next year as Cadillac has confirmed Valtteri Bottas will continue to drive for them."
+    },
+    {
+     "title": "Cadillac keeps Bottas in F1 for 2027 despite Herta rumours",
+     "source": "The Race",
+     "date": "2026-11-18T20:10:50Z",
+     "link": "https://www.the-race.com/formula-1/cadillac-keeps-bottas-in-f1-for-2027-despite-herta-rumours/",
+     "snippet": "Despite all its efforts to prepare Colton Herta - and the rumours surrounding his possible graduation to F1 - Cadillac has stuck with Valtteri Bottas for the 2027 season after all"
+    },
+    {
+     "title": "Cadillac confirm Bottas to stay with team for 2027",
+     "source": "Sky Sports",
+     "date": "2026-11-18T20:11:00Z",
+     "link": "https://www.skysports.com/f1/news/12433/13611531/valtteri-bottas-cadillac-confirm-finnish-driver-to-stay-with-team-for-2027-formula-1-season-ahead-of-las-vegas-grand-prix",
+     "snippet": "Cadillac have confirmed Valtteri Bottas will stay on at the team for the 2027 Formula 1 season, ending speculation about the Finnish driver's future."
+    },
+    {
+     "title": "Cadillac finally confirms F1 2027 driver line-up after huge speculation",
+     "source": "Crash.net",
+     "date": "2026-11-18T20:53:30Z",
+     "link": "https://www.crash.net/f1/news/1110177/1/cadillac-finally-confirms-f1-2027-driver-line-after-speculation",
+     "snippet": "Cadillac has finally made a decision on its 2027 F1 driver line-up."
+    },
+    {
+     "title": "Bottas' stay at Cadillac confirmed for 2027",
+     "source": "BBC Sport",
+     "date": "2026-11-18T21:18:32Z",
+     "link": "https://www.bbc.co.uk/sport/formula1/articles/cqkgr0elvl5zo?at_medium=RSS&at_campaign=rss",
+     "snippet": "Valtteri Bottas is retained by Cadillac for the 2027 Formula 1 season."
+    },
+    {
+     "title": "Our verdict on Cadillac keeping Bottas over Herta for F1 2027",
+     "source": "The Race",
+     "date": "2026-11-18T21:33:27Z",
+     "link": "https://www.the-race.com/formula-1/our-verdict-on-cadillac-keeping-bottas-over-herta-for-f1-2027/",
+     "snippet": "Colton Herta has his superlicence, but Cadillac's committed to Valtteri Bottas for 2027. Here's our take on the decision"
+    },
+    {
+     "title": "Cadillac confirm Bottas will remain with the team in 2027",
+     "source": "Formula1.com",
+     "date": "2026-11-19T01:40:53Z",
+     "link": "https://www.formula1.com/en/latest/article/cadillac-confirm-bottas-will-remain-with-the-team-in-2027.2FzTQfliXlMixOPFUMpPB4",
+     "snippet": "Cadillac have completed their 2027 driver line-up, with Valtteri Bottas set to continue racing alongside Sergio Perez."
+    }
+   ],
+   "merge_reasons": [
+    {
+     "time": "2026-11-19T01:40:57Z",
+     "added": [
+      "https://www.motorsport.com/f1/news/valtteri-bottas-retains-cadillac-f1-seat-for-2027-ahead-of-colton-herta/10875159/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+      "https://www.planetf1.com/news/valtteri-bottas-cadillac-f1-2027-announcement",
+      "https://www.autosport.com/f1/news/cadillac-completes-f1-2027-driver-pairing/10875162/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "https://www.motorsport.com/f1/news/what-valtteri-bottas-contract-renewal-says-about-cadillacs-f1-future/10875333/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+      "https://www.autosport.com/f1/news/cadillac-retaining-bottas-for-f1-2027-is-the-logical-move/10875337/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "https://www.racefans.net/2026/11/18/official-bottas-to-stay-at-cadillacin-2027/",
+      "https://www.the-race.com/formula-1/cadillac-keeps-bottas-in-f1-for-2027-despite-herta-rumours/",
+      "https://www.skysports.com/f1/news/12433/13611531/valtteri-bottas-cadillac-confirm-finnish-driver-to-stay-with-team-for-2027-formula-1-season-ahead-of-las-vegas-grand-prix",
+      "https://www.crash.net/f1/news/1110177/1/cadillac-finally-confirms-f1-2027-driver-line-after-speculation",
+      "https://www.bbc.co.uk/sport/formula1/articles/cqkgr0elvl5zo?at_medium=RSS&at_campaign=rss",
+      "https://www.the-race.com/formula-1/our-verdict-on-cadillac-keeping-bottas-over-herta-for-f1-2027/",
+      "https://www.formula1.com/en/latest/article/cadillac-confirm-bottas-will-remain-with-the-team-in-2027.2FzTQfliXlMixOPFUMpPB4"
+     ],
+     "joined_existing": false,
+     "reason": "All these stories report Cadillac's decision to keep Valtteri Bottas for 2027 instead of promoting Colton Herta, including the official confirmation and the analysis of it."
+    }
+   ],
+   "title": "Cadillac keeps Valtteri Bottas for 2027 over Colton Herta",
+   "summary": "Cadillac has confirmed Valtteri Bottas will stay on for the 2027 season alongside Sergio Perez. The team decided against fast-tracking American test driver Colton Herta to a race seat.",
+   "disagreement": "",
+   "label": "Confirmed",
+   "updated": "2026-11-19T01:40:57Z"
+  },
+  {
+   "id": "c160db518",
+   "created": "2026-11-19T01:40:57Z",
+   "stories": [
+    {
+     "title": "LIVE COVERAGE: Build-up ahead of the Las Vegas GP",
+     "source": "Formula1.com",
+     "date": "2026-11-19T01:40:53Z",
+     "link": "https://www.formula1.com/en/latest/article/live-coverage-wednesday-build-up-in-las-vegas-2026.MqDte4ggZDt3kjYNJ0CvS",
+     "snippet": "Live coverage of all the build-up ahead of the 2026 Las Vegas Grand Prix weekend."
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Live coverage of Las Vegas Grand Prix build-up",
+   "summary": "Formula 1 is running live coverage of the build-up to the 2026 Las Vegas Grand Prix weekend. The coverage runs ahead of the race weekend.",
+   "disagreement": "",
+   "label": "Opinion",
+   "updated": "2026-11-19T01:40:57Z"
+  },
+  {
+   "id": "cd3d7f838",
+   "created": "2026-11-19T01:40:57Z",
+   "stories": [
+    {
+     "title": "Best value early bets for the Las Vegas Grand Prix",
+     "source": "Formula1.com",
+     "date": "2026-11-19T01:40:53Z",
+     "link": "https://www.formula1.com/en/latest/article/best-value-early-bets-to-consider-for-the-las-vegas-grand-prix.G1YHN2K36iO2K2PxC7zjh",
+     "snippet": "We've assessed the latest betting markets and picked the early bets offering the best value at the Las Vegas Strip Circuit."
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Best value early bets for the Las Vegas Grand Prix",
+   "summary": "Formula 1 has assessed the latest betting markets for the Las Vegas Grand Prix. It picks the early bets offering the best value at the Strip Circuit.",
+   "disagreement": "",
+   "label": "Opinion",
+   "updated": "2026-11-19T01:40:57Z"
+  },
+  {
+   "id": "caf0db7f2",
+   "created": "2026-11-19T01:40:57Z",
+   "stories": [
+    {
+     "title": "Oliver Bearman frustrated by Haas contract delay as F1 2027 uncertainty continues",
+     "source": "PlanetF1",
+     "date": "2026-11-19T01:24:33Z",
+     "link": "https://www.planetf1.com/news/oliver-bearman-frustrated-by-haas-contract-delay-as-f1-2027-uncertainty-continues",
+     "snippet": "Oliver Bearman has made his frustration clear over his F1 2027 future, insisting there is no excuse for still being without a signed contract with two races remaining..."
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Bearman frustrated by lack of signed Haas contract for 2027",
+   "summary": "Oliver Bearman has said there is no excuse for still being without a signed F1 2027 contract. He made his frustration clear with two races remaining.",
+   "disagreement": "",
+   "label": "Reported",
+   "updated": "2026-11-19T01:40:57Z"
+  },
+  {
+   "id": "c66509511",
+   "created": "2026-11-19T01:40:57Z",
+   "stories": [
+    {
+     "title": "Honda explains battery problems after revealing expected Brazilian GP issue",
+     "source": "PlanetF1",
+     "date": "2026-11-18T23:31:17Z",
+     "link": "https://www.planetf1.com/news/honda-lance-stroll-battery-issue-expected-brazilian-gp",
+     "snippet": "Honda anticipated the issue found in Lance Stroll's Brazilian GP battery, but admits it still needs to establish the exact root cause..."
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Honda explains battery problems after anticipated Brazilian GP issue",
+   "summary": "Honda says it anticipated the battery issue found in Lance Stroll's Brazilian Grand Prix car. It still needs to establish the exact root cause.",
+   "disagreement": "",
+   "label": "Reported",
+   "updated": "2026-11-19T01:40:57Z"
+  },
+  {
+   "id": "c655ed527",
+   "created": "2026-11-19T01:40:57Z",
+   "stories": [
+    {
+     "title": "Liam Lawson opens up on how Helmut Marko 'terrified' him and delivered brutal Red Bull ultimatum",
+     "source": "GPFans",
+     "date": "2026-11-18T21:28:00Z",
+     "link": "https://www.gpfans.com/en/f1-news/1093030/f1-liam-lawson-helmut-marko-win-sacked-red-bull-racing-bulls/",
+     "snippet": "Liam Lawson has admitted he was intimidated by Helmut Marko during his time in the Red Bull academy."
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Lawson says Helmut Marko terrified him during Red Bull academy",
+   "summary": "Liam Lawson admitted he was intimidated by Helmut Marko during his time in the Red Bull academy. He also described a brutal Red Bull ultimatum.",
+   "disagreement": "",
+   "label": "Reported",
+   "updated": "2026-11-19T01:40:57Z"
+  },
+  {
+   "id": "cea70c766",
+   "created": "2026-11-19T01:40:57Z",
+   "stories": [
+    {
+     "title": "Daniel Ricciardo lauds Max Verstappen after Red Bull Ford F1 landmark",
+     "source": "PlanetF1",
+     "date": "2026-11-18T21:01:37Z",
+     "link": "https://www.planetf1.com/news/daniel-ricciardo-max-verstappen-red-bull-ford-win",
+     "snippet": "Daniel Ricciardo gave this thoughts on Max Verstappen already making Red Bull and Ford a winning alliance in F1 2026."
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Ricciardo praises Verstappen for Red Bull and Ford success",
+   "summary": "Daniel Ricciardo gave his thoughts on Max Verstappen making Red Bull and Ford a winning alliance in F1 2026. The comments praise the pairing's early success.",
+   "disagreement": "",
+   "label": "Reported",
+   "updated": "2026-11-19T01:40:57Z"
+  },
   {
    "id": "c521f1e41",
    "created": "2026-11-18T00:28:39Z",
@@ -59,6 +289,13 @@
      "date": "2026-11-18T18:37:32Z",
      "link": "https://www.formula1.com/en/latest/article/piastri-set-for-10-place-grid-penalty-at-las-vegas-grand-prix.5eT1wWFQzCfOS6W2tvTtLk",
      "snippet": "Oscar Piastri is set to take a penalty for the Las Vegas Grand Prix with McLaren confirming the Australian will have a new Internal Combustion Engine."
+    },
+    {
+     "title": "Oscar Piastri to take 10-place grid penalty at the Las Vegas Grand Prix",
+     "source": "GPFans",
+     "date": "2026-11-18T20:45:00Z",
+     "link": "https://www.gpfans.com/en/f1-news/1093015/f1-oscar-piastri-10-place-penalty-las-vegas-grand-prix-mclaren-engine-change/",
+     "snippet": "Oscar Piastri will take a ten-place penalty at this weekend's Las Vegas Grand Prix, compounding a miserable end to the season for the 2025 title contender."
     }
    ],
    "merge_reasons": [
@@ -81,13 +318,78 @@
      ],
      "joined_existing": true,
      "reason": "All reports describe the same grid penalty for Piastri's engine allowance at Las Vegas."
+    },
+    {
+     "time": "2026-11-19T01:40:57Z",
+     "added": [
+      "https://www.gpfans.com/en/f1-news/1093015/f1-oscar-piastri-10-place-penalty-las-vegas-grand-prix-mclaren-engine-change/"
+     ],
+     "joined_existing": true,
+     "reason": "The new GPFans story reports the same Las Vegas grid penalty for Oscar Piastri as the existing card."
     }
    ],
    "title": "Piastri to take 10-place grid drop at Las Vegas Grand Prix",
-   "summary": "McLaren has confirmed Oscar Piastri will serve a 10-place grid penalty at the Las Vegas Grand Prix. The penalty comes from exceeding his engine allowance for the 2026 season.",
+   "summary": "McLaren has confirmed Oscar Piastri will serve a 10-place grid penalty at the Las Vegas Grand Prix. The penalty comes from exceeding his engine allowance for the season, after he was already on the limit of four internal combustion engines.",
    "disagreement": "",
    "label": "Confirmed",
-   "updated": "2026-11-18T18:37:37Z"
+   "updated": "2026-11-19T01:40:57Z"
+  },
+  {
+   "id": "ccb493621",
+   "created": "2026-11-19T01:40:57Z",
+   "stories": [
+    {
+     "title": "F1 2027 driver line-up: Which drivers are already confirmed for the 2027 grid?",
+     "source": "PlanetF1",
+     "date": "2026-11-18T20:02:10Z",
+     "link": "https://www.planetf1.com/news/f1-2027-driver-line-up-confirmed-grid",
+     "snippet": "The F1 2027 season will be here before we know it, with plenty of seats up for grabs that season."
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Which drivers are already confirmed for the 2027 F1 grid?",
+   "summary": "A PlanetF1 overview looks at which seats for the 2027 season are already filled. It notes that plenty of seats are still up for grabs.",
+   "disagreement": "",
+   "label": "Opinion",
+   "updated": "2026-11-19T01:40:57Z"
+  },
+  {
+   "id": "c4987cfb6",
+   "created": "2026-11-19T01:40:57Z",
+   "stories": [
+    {
+     "title": "Lewis Hamilton and a shock return to McLaren - how F1 star could ditch Ferrari for move home",
+     "source": "GPFans",
+     "date": "2026-11-18T19:57:00Z",
+     "link": "https://www.gpfans.com/en/f1-news/1093028/f1-lewis-hamilton-mclaren-return-ferrari-2028-contract-issues/",
+     "snippet": "Lewis Hamilton's Ferrari journey has gone... pretty much how many of us thought it would, to be honest."
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Hamilton could leave Ferrari for a McLaren return, speculation suggests",
+   "summary": "Speculation suggests Lewis Hamilton could ditch Ferrari for a move back to McLaren. The piece looks at how his Ferrari spell has gone so far.",
+   "disagreement": "",
+   "label": "Rumour",
+   "updated": "2026-11-19T01:40:57Z"
+  },
+  {
+   "id": "cdf80d09e",
+   "created": "2026-11-19T01:40:57Z",
+   "stories": [
+    {
+     "title": "Zak Brown reveals he broke Lando Norris's ribs: 'I thought they were joking'",
+     "source": "GPFans",
+     "date": "2026-11-18T18:45:00Z",
+     "link": "https://www.gpfans.com/en/f1-news/1093020/f1-zak-brown-lando-norris-broken-ribs-injury-celebration/",
+     "snippet": "McLaren boss Zak Brown has revealed that he was told that he broke Lando Norris' ribs during one particularly exuberant celebration."
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Zak Brown says he was told he broke Lando Norris's ribs",
+   "summary": "McLaren boss Zak Brown revealed he was told he broke Lando Norris's ribs during an exuberant celebration. He said he initially thought they were joking.",
+   "disagreement": "",
+   "label": "Reported",
+   "updated": "2026-11-19T01:40:57Z"
   },
   {
    "id": "c18ab9564",
@@ -7414,6 +7716,51 @@
     }
    ],
    "reason": "Palmer's rejection of Damon Hill's plan is a different comment from reports that Ferrari is considering a lead driver."
+  },
+  {
+   "time": "2026-11-19T01:40:57Z",
+   "items": [
+    {
+     "title": "Daniel Ricciardo lauds Max Verstappen after Red Bull Ford F1 landmark",
+     "source": "PlanetF1",
+     "link": "https://www.planetf1.com/news/daniel-ricciardo-max-verstappen-red-bull-ford-win"
+    },
+    {
+     "card": "c02bb61c0",
+     "title": "Ford's role in Red Bull Powertrains' engine success examined"
+    }
+   ],
+   "reason": "Ricciardo's comments praise Verstappen's results, while the existing card examines how much Ford contributed to Red Bull Powertrains' engine."
+  },
+  {
+   "time": "2026-11-19T01:40:57Z",
+   "items": [
+    {
+     "title": "Liam Lawson opens up on how Helmut Marko 'terrified' him and delivered brutal Red Bull ultimatum",
+     "source": "GPFans",
+     "link": "https://www.gpfans.com/en/f1-news/1093030/f1-liam-lawson-helmut-marko-win-sacked-red-bull-racing-bulls/"
+    },
+    {
+     "card": "c532df576",
+     "title": "What drove Liam Lawson's career-saving 2026 F1 form"
+    }
+   ],
+   "reason": "Lawson's account of Helmut Marko's treatment of him is a different story from the analysis of what drove his 2026 form."
+  },
+  {
+   "time": "2026-11-19T01:40:57Z",
+   "items": [
+    {
+     "title": "Best value early bets for the Las Vegas Grand Prix",
+     "source": "Formula1.com",
+     "link": "https://www.formula1.com/en/latest/article/best-value-early-bets-to-consider-for-the-las-vegas-grand-prix.G1YHN2K36iO2K2PxC7zjh"
+    },
+    {
+     "card": "c789a7aa4",
+     "title": "Early Bet Builder picks for the Las Vegas Grand Prix"
+    }
+   ],
+   "reason": "The best-value early bets article covers different betting markets from the existing Bet Builder picks."
   }
  ],
  "processed": [
@@ -7421,6 +7768,8 @@
   "https://www.autosport.com/f1/news/1980-f1-world-champion-alan-jones-dies-aged-80/10871644/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
   "https://www.autosport.com/f1/news/antonelli-explains-weird-spin-and-car-instability-which-cost-f1-brazilian-gp-win/10873132/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
   "https://www.autosport.com/f1/news/ayao-komatsu-esteban-ocon-axing-surprised-everybody-at-haas/10872457/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+  "https://www.autosport.com/f1/news/cadillac-completes-f1-2027-driver-pairing/10875162/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+  "https://www.autosport.com/f1/news/cadillac-retaining-bottas-for-f1-2027-is-the-logical-move/10875337/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
   "https://www.autosport.com/f1/news/exhausted-russell-set-for-brazilian-f1-grid-penalty/10872138/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
   "https://www.autosport.com/f1/news/f1-2026-calendar-update-imola-off-the-table-no-plan-b-if-iran-war-escalates/10873643/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
   "https://www.autosport.com/f1/news/f1-announces-new-partnership-with-whoop/10875346/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
@@ -7513,6 +7862,7 @@
   "https://www.bbc.co.uk/sport/formula1/articles/cmp3g005zyxko?at_medium=RSS&at_campaign=rss",
   "https://www.bbc.co.uk/sport/formula1/articles/cmq8n95ppwd4o?at_medium=RSS&at_campaign=rss",
   "https://www.bbc.co.uk/sport/formula1/articles/cmwy7dl879gzo?at_medium=RSS&at_campaign=rss",
+  "https://www.bbc.co.uk/sport/formula1/articles/cqkgr0elvl5zo?at_medium=RSS&at_campaign=rss",
   "https://www.bbc.co.uk/sport/formula1/articles/cqp9dr4kedd3o?at_medium=RSS&at_campaign=rss",
   "https://www.bbc.co.uk/sport/formula1/articles/cr3wvvpxnx1wo?at_medium=RSS&at_campaign=rss",
   "https://www.bbc.co.uk/sport/formula1/articles/cr9dz7w1xgxvo?at_medium=RSS&at_campaign=rss",
@@ -7595,6 +7945,7 @@
   "https://www.crash.net/f1/news/1110164/1/max-verstappens-blunt-response-kimi-antonelli-f1-motivation",
   "https://www.crash.net/f1/news/1110167/1/whats-behind-bizarre-deleted-f1-v8-announcement",
   "https://www.crash.net/f1/news/1110172/1/toto-wolff-addresses-f1-champion-kimi-antonelli-salary-claims",
+  "https://www.crash.net/f1/news/1110177/1/cadillac-finally-confirms-f1-2027-driver-line-after-speculation",
   "https://www.crash.net/f1/results/1110009/1/f1-brazil-grand-prix-full-race-results",
   "https://www.crash.net/motogp/news/1110106/1/watch-dani-pedrosa-race-ktm-motogp-bike-against-red-bull-f1-car-ice",
   "https://www.crash.net/motogp/news/1110108/1/buenos-aires-motogp-circuit-transformation-gathers-pace-f1-dream",
@@ -7632,6 +7983,8 @@
   "https://www.formula1.com/en/latest/article/analysis-why-the-f1-driver-market-might-produce-one-last-twist-for-2027.6t7AwtqfHWkDqSgQZ3ElQ3",
   "https://www.formula1.com/en/latest/article/antonelli-identifies-which-driver-poses-the-biggest-threat-to-his-title-defence-in-2027.6qjcpNnf8IerbXck8NpB05",
   "https://www.formula1.com/en/latest/article/audi-announce-emma-felbermayr-for-third-f1-academy-season-in-2027.3numbjpdYoNe5Bp0NCeSUz",
+  "https://www.formula1.com/en/latest/article/best-value-early-bets-to-consider-for-the-las-vegas-grand-prix.G1YHN2K36iO2K2PxC7zjh",
+  "https://www.formula1.com/en/latest/article/cadillac-confirm-bottas-will-remain-with-the-team-in-2027.2FzTQfliXlMixOPFUMpPB4",
   "https://www.formula1.com/en/latest/article/exclusive-button-explains-what-will-keep-alonso-going-as-spaniard-prepares-for-another-year-with-aston-martin.7bxjUs5DZSH18UP0SEqFWD",
   "https://www.formula1.com/en/latest/article/exclusive-piastri-on-taming-the-mcl40-redefining-success-and-why-a-tough-2026-could-make-him-stronger.qz9mVgFRNxNey7waRfq83",
   "https://www.formula1.com/en/latest/article/exclusive-sainz-reflects-on-the-journey-to-his-250th-grand-prix-and-preparing-for-williams-most-important-year.4q4YmHp7ZpfnUTMjNNPXc9",
@@ -7645,6 +7998,7 @@
   "https://www.formula1.com/en/latest/article/its-10-years-since-ron-dennis-left-f1-i-miss-him.1HKS8KLe46myFMW6qOzsdY",
   "https://www.formula1.com/en/latest/article/its-race-week-5-storylines-were-excited-about-ahead-of-the-2026-las-vegas-grand-prix.3fjavheTbHD8fjZI0i7BWd",
   "https://www.formula1.com/en/latest/article/las-vegas-grand-prix-race-betting-guide-and-what-the-markets-expect-to-happen.5sEja0aYqYkyfdSZ9sTibF",
+  "https://www.formula1.com/en/latest/article/live-coverage-wednesday-build-up-in-las-vegas-2026.MqDte4ggZDt3kjYNJ0CvS",
   "https://www.formula1.com/en/latest/article/mercedes-incredible-success-through-formula-1-history.7yLliKc36ZI9pd7xzNYFwq",
   "https://www.formula1.com/en/latest/article/one-of-the-best-experiences-of-my-life-mark-sutton-on-photographing-antonellis-f1-title.2oqpziZe3WQ5B2xFvPWsnU",
   "https://www.formula1.com/en/latest/article/our-early-bet-builder-selections-for-the-las-vegas-grand-prix.3CN1v7zsYxJIfD3azv9vjj",
@@ -7720,9 +8074,13 @@
   "https://www.gpfans.com/en/f1-news/1093003/lewis-hamilton-replaced-f1-2026-las-vegas-grand-prix-fp1/",
   "https://www.gpfans.com/en/f1-news/1093004/f1-news-today-fred-vasseur-overwhelmed-ferrari-lewis-hamilton-replaced-las-vegas-gp/",
   "https://www.gpfans.com/en/f1-news/1093014/f1-fia-v8-engines-mohammed-ben-sulayem-return-audio-clip/",
+  "https://www.gpfans.com/en/f1-news/1093015/f1-oscar-piastri-10-place-penalty-las-vegas-grand-prix-mclaren-engine-change/",
   "https://www.gpfans.com/en/f1-news/1093017/f1-nico-rosberg-cancelled-parents-tickets-win-world-championship/",
+  "https://www.gpfans.com/en/f1-news/1093020/f1-zak-brown-lando-norris-broken-ribs-injury-celebration/",
   "https://www.gpfans.com/en/f1-news/1093024/f1-las-vegas-grand-prix-weather-forecast-latest/",
   "https://www.gpfans.com/en/f1-news/1093025/f1-mercedes-announce-engine-upgrade-kimi-antonelli-george-russell-las-vegas-grand-prix/",
+  "https://www.gpfans.com/en/f1-news/1093028/f1-lewis-hamilton-mclaren-return-ferrari-2028-contract-issues/",
+  "https://www.gpfans.com/en/f1-news/1093030/f1-liam-lawson-helmut-marko-win-sacked-red-bull-racing-bulls/",
   "https://www.motorsport.com/dakar/news/fernando-alonso-to-return-to-dakar-rally-with-aston-martin-in-2027/10874907/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/alan-permane-liam-lawson-has-been-a-revelation-as-he-earned-2027-racing-bulls-f1-deal/10875104/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/andrea-stella-wants-mclaren-to-finally-make-peace-with-las-vegas/10873819/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
@@ -7806,9 +8164,11 @@
   "https://www.motorsport.com/f1/news/toto-wolff-reveals-heartwarming-memory-of-a-teenage-kimi-antonelli-living-at-his-house/10874978/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/toto-wolff-says-kimi-antonelli-is-more-loved-in-italy-than-michael-schumacher-was-at-ferrari/10874809/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/tsolov-named-red-bull-racing-bulls-reserve-driver-after-missing-out-on-2027-f1-race-seat/10874147/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+  "https://www.motorsport.com/f1/news/valtteri-bottas-retains-cadillac-f1-seat-for-2027-ahead-of-colton-herta/10875159/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/we-havent-taken-any-steps-backwards-mclaren-boss-explains-2026/10875219/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/what-is-left-to-fight-for-in-f1-2026/10874717/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/what-the-brazilian-gp-revealed-about-f1s-ability-to-cope-with-rain/10873679/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+  "https://www.motorsport.com/f1/news/what-valtteri-bottas-contract-renewal-says-about-cadillacs-f1-future/10875333/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/williams-aston-martin-among-new-f1-liveries-for-las-vegas-gp-as-acura-replaces-honda/10874925/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/zak-brown-recalls-mclarens-very-toxic-environment-after-joining-team-in-2016/10874891/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.planetf1.com/alpine/franco-colapinto-alpine-upgrades",
@@ -7823,7 +8183,9 @@
   "https://www.planetf1.com/news/christian-horner-adrian-newey-ferrari-2014-drive",
   "https://www.planetf1.com/news/christian-horner-toto-wolff-kimi-antonelli-text-message",
   "https://www.planetf1.com/news/claire-williams-channel-4-las-vegas-grand-prix-2026-f1",
+  "https://www.planetf1.com/news/daniel-ricciardo-max-verstappen-red-bull-ford-win",
   "https://www.planetf1.com/news/daniel-ricciardo-monaco-moment",
+  "https://www.planetf1.com/news/f1-2027-driver-line-up-confirmed-grid",
   "https://www.planetf1.com/news/f1-las-vegas-weather-2026-rain-risk",
   "https://www.planetf1.com/news/f1-tipped-for-imminent-sale-by-former-liberty-media-boss",
   "https://www.planetf1.com/news/felipe-massa-ferrari-not-right",
@@ -7841,6 +8203,7 @@
   "https://www.planetf1.com/news/george-russell-marco-antonelli-bad-luck",
   "https://www.planetf1.com/news/george-russell-mercedes-future-kimi-antonelli-title-defeat",
   "https://www.planetf1.com/news/haas-confirm-esteban-ocon-replacement-las-vegas-rafael-camara",
+  "https://www.planetf1.com/news/honda-lance-stroll-battery-issue-expected-brazilian-gp",
   "https://www.planetf1.com/news/imola-reveals-future-f1-return-plan",
   "https://www.planetf1.com/news/jenson-button-fernando-alonso-aston-martin-contract",
   "https://www.planetf1.com/news/jolyon-palmer-damon-hill-ferrari-plan-lewis-hamilton-charles-leclerc",
@@ -7878,12 +8241,14 @@
   "https://www.planetf1.com/news/michael-schumacher-jock-clear",
   "https://www.planetf1.com/news/michael-schumacher-mercedes-f1-worse-at-theory-nico-rosberg",
   "https://www.planetf1.com/news/nico-hulkenberg-fia-penalty-audi-f1-2026-brazilian-grand-prix",
+  "https://www.planetf1.com/news/oliver-bearman-frustrated-by-haas-contract-delay-as-f1-2027-uncertainty-continues",
   "https://www.planetf1.com/news/oliver-bearman-haas-las-vegas-grand-prix-2026-fp1",
   "https://www.planetf1.com/news/oscar-piastri-f1-2026-struggles",
   "https://www.planetf1.com/news/oscar-piastri-fia-las-vegas-grand-prix-2026-penalty",
   "https://www.planetf1.com/news/oscar-piastri-mclaren-2025-f1-title-collapse-mistakes",
   "https://www.planetf1.com/news/red-bull-f1-2026-turnaround-revealed",
   "https://www.planetf1.com/news/toto-wolff-ron-dennis-frank-williams-f1-title-record",
+  "https://www.planetf1.com/news/valtteri-bottas-cadillac-f1-2027-announcement",
   "https://www.planetf1.com/news/williams-las-vegas-grand-prix-2026-livery",
   "https://www.racefans.net/2026/11/09/spotlight-fia-president-ben-sulayem-planning-to-remove-age-limits-for-office-holders/",
   "https://www.racefans.net/2026/11/09/the-car-is-steering-by-itself-dont-you-see-it-how-handling-trouble-baffled-antonelli/",
@@ -7917,6 +8282,7 @@
   "https://www.racefans.net/2026/11/17/spotlight-alonso-to-enter-dakar-in-car-aston-martin-designed-for-call-of-duty/",
   "https://www.racefans.net/2026/11/18/featured-comment-f1-fans-underestimate-importance-of-getting-to-a-top-car/",
   "https://www.racefans.net/2026/11/18/mercedes-technical-director-explains-how-antonelli-leapt-ahead-of-russell-in-second-season/",
+  "https://www.racefans.net/2026/11/18/official-bottas-to-stay-at-cadillacin-2027/",
   "https://www.skysports.com/f1/live-blog/12433/12466779/f1-news-rumours-and-gossip-formula-1-latest-updates-on-teams-driver-transfer-market-and-contracts",
   "https://www.skysports.com/f1/live-blog/12433/13518208/f1-academy-2026-reports-calendar-news-results-standings-and-highlights-for-races-this-season",
   "https://www.skysports.com/f1/news/12433/13609697/toto-wolff-proud-of-mercedes-turnaround-after-winning-f1-2026-constructors-championship-at-sao-paulo-grand-prix",
@@ -7932,6 +8298,7 @@
   "https://www.skysports.com/f1/news/12433/13610745/james-vowles-williams-boss-admits-team-got-carried-away-with-success-but-says-2026-f1-season-struggles-are-only-a-blip",
   "https://www.skysports.com/f1/news/12433/13611077/las-vegas-gp-2026-dates-schedule-weather-uk-start-time-and-how-to-watch-or-stream-f1-race-in-united-states-live-on-sky-sports",
   "https://www.skysports.com/f1/news/12433/13611222/lewis-hamilton-ferraris-seven-time-f1-world-champion-urges-israel-to-let-the-aid-trucks-in-to-gaza-after-visit-to-rafah-border",
+  "https://www.skysports.com/f1/news/12433/13611531/valtteri-bottas-cadillac-confirm-finnish-driver-to-stay-with-team-for-2027-formula-1-season-ahead-of-las-vegas-grand-prix",
   "https://www.skysports.com/f1/news/12433/13611832/toto-wolff-says-mercedes-could-prioritise-george-russell-over-kimi-antonelli-in-final-races-of-2026-f1-season",
   "https://www.skysports.com/f1/news/12433/13611983/las-vegas-gp-whats-still-to-play-for-over-final-three-races-of-f1-2026-season-with-battles-in-drivers-and-constructors-championships",
   "https://www.skysports.com/f1/news/12433/13612731/rafael-camara-haas-keep-brazilian-driver-as-oliver-bearmans-team-mate-for-las-vegas-gp-following-home-debut",
@@ -7948,6 +8315,7 @@
   "https://www.the-race.com/extra/russell-launches-karting-academy-to-find-next-generation-of-talent/",
   "https://www.the-race.com/formula-1/aduo-for-teams-to-be-discussed-by-f1/",
   "https://www.the-race.com/formula-1/audi-appeal-f1-italian-gp-yuki-tsunoda/",
+  "https://www.the-race.com/formula-1/cadillac-keeps-bottas-in-f1-for-2027-despite-herta-rumours/",
   "https://www.the-race.com/formula-1/f1-all-special-liveries-las-vegas-grand-prix/",
   "https://www.the-race.com/formula-1/f1-divisive-wet-weather-tyres-to-change-in-2027-what-we-know/",
   "https://www.the-race.com/formula-1/f1-poised-to-take-crucial-step-towards-v8-engines-return/",
@@ -7957,6 +8325,7 @@
   "https://www.the-race.com/formula-1/honda-f1-new-reliability-problem-might-not-cure-before-2026-end/",
   "https://www.the-race.com/formula-1/liam-lawson-2027-f1-extension-our-verdict/",
   "https://www.the-race.com/formula-1/mercedes-plan-to-debut-aduo-upgrade-on-antonellis-car-only/",
+  "https://www.the-race.com/formula-1/our-verdict-on-cadillac-keeping-bottas-over-herta-for-f1-2027/",
   "https://www.the-race.com/formula-1/racing-bulls-commits-to-lawson-and-lindblad-as-2027-f1-line-up/",
   "https://www.the-race.com/formula-1/tsolov-gets-twin-f1-2027-reserve-role-to-prepare-him-for-race-seat/",
   "https://www.the-race.com/formula-1/vegas-gives-camara-chance-to-put-messy-debut-behind-him/",
