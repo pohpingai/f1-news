@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T09:52:16Z",
+ "updated": "2026-11-19T18:52:33Z",
  "model": "anthropic/claude-haiku-5.5",
  "rumours": [
   {
@@ -336,7 +336,7 @@
     "FIA"
    ],
    "status": "Active",
-   "trend": "steady",
+   "trend": "fading",
    "first_seen": "2026-11-14T12:00:00Z",
    "last_seen": "2026-11-14T12:00:00Z",
    "sources": [
@@ -442,7 +442,6 @@
   "c7bc6c301": "1|Reported",
   "cb529d5b5": "3|Rumour",
   "cbc435fa3": "1|Rumour",
-  "cdbe4dc5e": "1|Confirmed",
   "c3e2ee348": "1|Reported",
   "c418f8eb5": "1|Reported",
   "ccda12e84": "1|Confirmed",
@@ -565,16 +564,37 @@
   "c8cd47a26": "1|Confirmed",
   "c4987cfb6": "1|Rumour",
   "cdf80d09e": "1|Reported",
-  "c698ce129": "13|Confirmed",
+  "c698ce129": "17|Confirmed",
   "cea70c766": "1|Reported",
   "c655ed527": "1|Reported",
   "c66509511": "1|Reported",
-  "caf0db7f2": "2|Reported",
-  "cab9e2ace": "1|Reported",
+  "caf0db7f2": "3|Reported",
+  "cab9e2ace": "2|Reported",
   "c733740e9": "1|Reported",
   "c5e2fd1f1": "1|Reported",
   "c705813d4": "1|Reported",
   "cbadb0d54": "1|Reported",
-  "ca5d0e533": "1|Reported"
+  "ca5d0e533": "1|Reported",
+  "c030f1444": "2|Reported",
+  "c74ed3342": "1|Reported",
+  "c53047ae6": "1|Reported",
+  "c3a81c5e5": "1|Reported",
+  "ccb547894": "1|Reported",
+  "c31030df8": "3|Reported",
+  "c911cf1f4": "1|Reported",
+  "cdd550189": "1|Reported",
+  "cd3a2d7ab": "1|Reported",
+  "c08fed885": "1|Reported",
+  "cea91bef1": "1|Reported",
+  "cf08fc1f2": "1|Reported",
+  "cd772e578": "1|Reported",
+  "ccb880c30": "1|Reported",
+  "c0a53dae3": "1|Confirmed",
+  "c86c192da": "1|Reported",
+  "c6cecc16b": "1|Reported",
+  "c7759b772": "1|Confirmed",
+  "c3baf9a41": "1|Reported",
+  "c48822369": "1|Reported",
+  "cdd024362": "1|Reported"
  }
 }
