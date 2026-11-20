@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T18:52:33Z",
+ "updated": "2026-11-20T01:39:53Z",
  "model": "anthropic/claude-haiku-5.5",
  "rumours": [
   {
@@ -568,21 +568,21 @@
   "cea70c766": "1|Reported",
   "c655ed527": "1|Reported",
   "c66509511": "1|Reported",
-  "caf0db7f2": "3|Reported",
-  "cab9e2ace": "2|Reported",
+  "caf0db7f2": "4|Reported",
+  "cab9e2ace": "4|Reported",
   "c733740e9": "1|Reported",
   "c5e2fd1f1": "1|Reported",
   "c705813d4": "1|Reported",
   "cbadb0d54": "1|Reported",
   "ca5d0e533": "1|Reported",
-  "c030f1444": "2|Reported",
+  "c030f1444": "3|Reported",
   "c74ed3342": "1|Reported",
   "c53047ae6": "1|Reported",
   "c3a81c5e5": "1|Reported",
-  "ccb547894": "1|Reported",
+  "ccb547894": "2|Reported",
   "c31030df8": "3|Reported",
   "c911cf1f4": "1|Reported",
-  "cdd550189": "1|Reported",
+  "cdd550189": "2|Reported",
   "cd3a2d7ab": "1|Reported",
   "c08fed885": "1|Reported",
   "cea91bef1": "1|Reported",
@@ -595,6 +595,16 @@
   "c7759b772": "1|Confirmed",
   "c3baf9a41": "1|Reported",
   "c48822369": "1|Reported",
-  "cdd024362": "1|Reported"
+  "cdd024362": "1|Reported",
+  "cfffb6e75": "9|Confirmed",
+  "cba0cb9fb": "1|Reported",
+  "cf08c5237": "1|Reported",
+  "c74d804e1": "1|Reported",
+  "c079b9f09": "1|Confirmed",
+  "cdebe6a30": "5|Confirmed",
+  "c28ae87f1": "4|Confirmed",
+  "c033d0083": "1|Confirmed",
+  "c172830d2": "1|Reported",
+  "cf39f0077": "1|Confirmed"
  }
 }

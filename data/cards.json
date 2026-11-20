@@ -1,12 +1,567 @@
 {
- "updated": "2026-11-19T18:50:29Z",
+ "updated": "2026-11-20T01:38:14Z",
  "model": "anthropic/claude-haiku-5.5",
  "headline_of_the_day": {
   "date": "2026-11-20",
-  "text": "Cadillac confirms Valtteri Bottas for 2027 alongside Sergio Perez, with Colton Herta left out of a race seat, as Hamilton dismisses trust concerns at Ferrari.",
-  "written": "2026-11-19T18:50:29Z"
+  "text": "Cadillac confirms Valtteri Bottas stays for 2027 alongside Sergio Perez, while the FIA plans full-time stewards from 2027 and Las Vegas practice is washed out by rain.",
+  "written": "2026-11-20T01:38:14Z"
  },
  "cards": [
+  {
+   "id": "caf0db7f2",
+   "created": "2026-11-19T01:40:57Z",
+   "stories": [
+    {
+     "title": "Oliver Bearman frustrated by Haas contract delay as F1 2027 uncertainty continues",
+     "source": "PlanetF1",
+     "date": "2026-11-19T01:24:33Z",
+     "link": "https://www.planetf1.com/news/oliver-bearman-frustrated-by-haas-contract-delay-as-f1-2027-uncertainty-continues",
+     "snippet": "Oliver Bearman has made his frustration clear over his F1 2027 future, insisting there is no excuse for still being without a signed contract with two races remaining..."
+    },
+    {
+     "title": "Bearman frustrated by delay in confirming Haas future",
+     "source": "Formula1.com",
+     "date": "2026-11-19T09:50:45Z",
+     "link": "https://www.formula1.com/en/latest/article/theres-no-excuses-for-that-bearman-frustrated-by-delay-in-confirming-haas-future.3B6g2yqgJgf3g8UNtsYU5L",
+     "snippet": "Ollie Bearman is yet to have his future at Haas officially confirmed for 2027, a situation that the Briton says has been \"a bit disappointing\"."
+    },
+    {
+     "title": "Haas issues response to Oliver Bearman frustration over contract delay",
+     "source": "PlanetF1",
+     "date": "2026-11-19T17:08:18Z",
+     "link": "https://www.planetf1.com/news/haas-oliver-bearman-contract-delay-frustration-response",
+     "snippet": "Oliver Bearman remains without a deal in place to drive for Haas beyond F1 2026."
+    },
+    {
+     "title": "Komatsu insists there is 'no doubt' over Bearman’s Haas seat",
+     "source": "Formula1.com",
+     "date": "2026-11-20T01:38:10Z",
+     "link": "https://www.formula1.com/en/latest/article/komatsu-insists-there-is-no-doubt-over-bearmans-2027-haas-seat-after-britons-frustrations.1lCOdGv5mDv2FcqDshxnYB",
+     "snippet": "Ollie Bearman voiced his frustrations over the delay in confirming his Haas seat for next season."
+    }
+   ],
+   "merge_reasons": [
+    {
+     "time": "2026-11-19T09:50:49Z",
+     "added": [
+      "https://www.formula1.com/en/latest/article/theres-no-excuses-for-that-bearman-frustrated-by-delay-in-confirming-haas-future.3B6g2yqgJgf3g8UNtsYU5L"
+     ],
+     "joined_existing": true,
+     "reason": "Both report Bearman's frustration over the still-unconfirmed Haas contract for 2027."
+    },
+    {
+     "time": "2026-11-19T18:50:29Z",
+     "added": [
+      "https://www.planetf1.com/news/haas-oliver-bearman-contract-delay-frustration-response"
+     ],
+     "joined_existing": true,
+     "reason": "The Haas response and Bearman's frustration both concern the unsigned Haas 2027 contract."
+    },
+    {
+     "time": "2026-11-20T01:38:14Z",
+     "added": [
+      "https://www.formula1.com/en/latest/article/komatsu-insists-there-is-no-doubt-over-bearmans-2027-haas-seat-after-britons-frustrations.1lCOdGv5mDv2FcqDshxnYB"
+     ],
+     "joined_existing": true,
+     "reason": "The Formula1.com story is Haas's response to the same Bearman contract delay already covered in this card."
+    }
+   ],
+   "title": "Haas says no doubt over Bearman's 2027 seat amid contract delay",
+   "summary": "Haas team boss Komatsu has insisted there is 'no doubt' over Ollie Bearman's seat. Bearman had voiced frustration over the delay in confirming his 2027 drive.",
+   "disagreement": "",
+   "label": "Reported",
+   "updated": "2026-11-20T01:38:14Z"
+  },
+  {
+   "id": "cfffb6e75",
+   "created": "2026-11-20T01:38:14Z",
+   "stories": [
+    {
+     "title": "FIA TO INTRODUCE FULL-TIME STEWARDS TO FIA FORMULA ONE WORLD CHAMPIONSHIP FROM 2027",
+     "source": "FIA",
+     "date": "2026-11-19T19:00:00Z",
+     "link": "https://www.fia.com/news/fia-introduce-full-time-stewards-fia-formula-one-world-championship-2027",
+     "snippet": "FIA to begin recruiting full-time stewards, with a phased introduction during the 2027 Formula 1 season. Programme aims to establish a department of 12-15 full-time stewards over coming…"
+    },
+    {
+     "title": "Major F1 stewarding revamp coming for 2027",
+     "source": "The Race",
+     "date": "2026-11-19T20:23:09Z",
+     "link": "https://www.the-race.com/formula-1/f1-to-use-full-time-stewards-from-2027/",
+     "snippet": "Full-time stewards will be used in Formula 1 for the first time from the 2027 F1 season"
+    },
+    {
+     "title": "FIA to introduce full-time stewards to Formula 1 during 2027 | Formula 1",
+     "source": "RaceFans",
+     "date": "2026-11-19T20:24:42Z",
+     "link": "https://www.racefans.net/2026/11/19/fia-to-introduce-full-time-stewards-to-formula-1-during-2027/",
+     "snippet": "The FIA has announced it will begin introducing full-time stewards to formula 1 during the 2027 season."
+    },
+    {
+     "title": "FIA announces major Formula 1 stewarding change for 2027",
+     "source": "Crash.net",
+     "date": "2026-11-19T20:30:28Z",
+     "link": "https://www.crash.net/f1/news/1110202/1/fia-announces-major-formula-1-stewarding-change-2027",
+     "snippet": "The FIA is working to introduce full-time stewards next year"
+    },
+    {
+     "title": "FIA to introduce full-time F1 stewards",
+     "source": "Sky Sports",
+     "date": "2026-11-19T20:37:00Z",
+     "link": "https://www.skysports.com/f1/news/12433/13614150/fia-announce-introduction-of-full-time-f1-stewards-from-2027-ahead-of-las-vegas-grand-prix",
+     "snippet": "The FIA has announced it will introduce full-time Formula 1 stewards from 2027 with the aim of having \"greater consistency in decision-making\"."
+    },
+    {
+     "title": "FIA to introduce full-time F1 stewards from 2027 to improve consistency",
+     "source": "Motorsport.com",
+     "date": "2026-11-19T20:48:50Z",
+     "link": "https://www.motorsport.com/f1/news/fia-to-introduce-full-time-f1-stewards-from-2027-in-bid-to-improve-consistency/10875716/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "snippet": "The consistency of stewards’ decisions has been a topic of discussion in the Formula 1 paddock for years. While the complexity of the sporting regulations and racing guidelines is one factor, another…"
+    },
+    {
+     "title": "FIA to phase in full-time F1 stewards from 2027",
+     "source": "Autosport",
+     "date": "2026-11-19T21:01:44Z",
+     "link": "https://www.autosport.com/f1/news/fia-to-introduce-full-time-f1-stewards-from-2027-to-improve-consistency/10875719/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+     "snippet": "The consistency of stewards’ decisions has been a topic of discussion in the Formula 1 paddock for years. While the complexity of the sporting regulations and racing guidelines is one factor, another…"
+    },
+    {
+     "title": "F1 to introduce full-time race stewards from 2027",
+     "source": "BBC Sport",
+     "date": "2026-11-19T21:39:22Z",
+     "link": "https://www.bbc.co.uk/sport/formula1/articles/cv62pxxkz8wxo?at_medium=RSS&at_campaign=rss",
+     "snippet": "Formula 1's governing body the FIA is to introduce permanent race stewards from the 2027 season."
+    },
+    {
+     "title": "FIA to introduce full-time stewards in F1 from 2027",
+     "source": "Formula1.com",
+     "date": "2026-11-20T01:38:10Z",
+     "link": "https://www.formula1.com/en/latest/article/fia-to-introduce-full-time-stewards-in-f1-from-2027.tbSC1HZmNj46TbAjzEPGj",
+     "snippet": "A new department of full-time stewards will be gradually introduced from the 2027 season."
+    }
+   ],
+   "merge_reasons": [
+    {
+     "time": "2026-11-20T01:38:14Z",
+     "added": [
+      "https://www.fia.com/news/fia-introduce-full-time-stewards-fia-formula-one-world-championship-2027",
+      "https://www.the-race.com/formula-1/f1-to-use-full-time-stewards-from-2027/",
+      "https://www.racefans.net/2026/11/19/fia-to-introduce-full-time-stewards-to-formula-1-during-2027/",
+      "https://www.crash.net/f1/news/1110202/1/fia-announces-major-formula-1-stewarding-change-2027",
+      "https://www.skysports.com/f1/news/12433/13614150/fia-announce-introduction-of-full-time-f1-stewards-from-2027-ahead-of-las-vegas-grand-prix",
+      "https://www.motorsport.com/f1/news/fia-to-introduce-full-time-f1-stewards-from-2027-in-bid-to-improve-consistency/10875716/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+      "https://www.autosport.com/f1/news/fia-to-introduce-full-time-f1-stewards-from-2027-to-improve-consistency/10875719/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "https://www.bbc.co.uk/sport/formula1/articles/cv62pxxkz8wxo?at_medium=RSS&at_campaign=rss",
+      "https://www.formula1.com/en/latest/article/fia-to-introduce-full-time-stewards-in-f1-from-2027.tbSC1HZmNj46TbAjzEPGj"
+     ],
+     "joined_existing": false,
+     "reason": "All nine stories report the same FIA announcement that full-time stewards will be introduced from 2027."
+    }
+   ],
+   "title": "FIA to introduce full-time F1 stewards from the 2027 season",
+   "summary": "The FIA has announced that full-time stewards will be introduced gradually during the 2027 Formula 1 season. The aim is greater consistency in decision-making, with a department of 12-15 full-time stewards planned.",
+   "disagreement": "",
+   "label": "Confirmed",
+   "updated": "2026-11-20T01:38:14Z"
+  },
+  {
+   "id": "c28ae87f1",
+   "created": "2026-11-20T01:38:14Z",
+   "stories": [
+    {
+     "title": "Nike to return to F1 after 24 years",
+     "source": "The Race",
+     "date": "2026-11-20T00:00:06Z",
+     "link": "https://www.the-race.com/business/nike-to-return-to-f1-after-24-years/",
+     "snippet": "Nike will supply F1 staff and release F1-branded merchandise as part of its new partnership"
+    },
+    {
+     "title": "Nike joins F1 as apparel partner",
+     "source": "Motorsport.com",
+     "date": "2026-11-20T00:22:25Z",
+     "link": "https://www.motorsport.com/f1/news/nike-joins-f1-as-apparel-partner/10875754/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "snippet": "Athletic apparel giant Nike has joined F1 as its official partner and uniform supplier, taking over from Puma at the start of 2027. As was long rumoured, Nike will start supplying F1 personnel with…"
+    },
+    {
+     "title": "Nike joins F1 as apparel partner",
+     "source": "Autosport",
+     "date": "2026-11-20T00:24:50Z",
+     "link": "https://www.autosport.com/f1/news/nike-joins-f1-as-apparel-partner/10875757/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+     "snippet": "Athletic apparel giant Nike has joined F1 as its official partner and uniform supplier, taking over from Puma at the start of 2027. As was long rumoured, Nike will start supplying F1 personnel with…"
+    },
+    {
+     "title": "Formula 1 and Nike join forces in long-term partnership",
+     "source": "Formula1.com",
+     "date": "2026-11-20T01:38:10Z",
+     "link": "https://www.formula1.com/en/latest/article/formula-1-and-nike-join-forces-to-shape-the-future-of-sport-and-culture.W36MoCI5DL9I0evuX1xtd",
+     "snippet": "Formula 1 welcomes Nike as an Official Partner from 2027 in a deal that will see the sports and lifestyle brand become F1’s Official Apparel and Uniform Supplier as part of a long-term partnership."
+    }
+   ],
+   "merge_reasons": [
+    {
+     "time": "2026-11-20T01:38:14Z",
+     "added": [
+      "https://www.the-race.com/business/nike-to-return-to-f1-after-24-years/",
+      "https://www.motorsport.com/f1/news/nike-joins-f1-as-apparel-partner/10875754/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+      "https://www.autosport.com/f1/news/nike-joins-f1-as-apparel-partner/10875757/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "https://www.formula1.com/en/latest/article/formula-1-and-nike-join-forces-to-shape-the-future-of-sport-and-culture.W36MoCI5DL9I0evuX1xtd"
+     ],
+     "joined_existing": false,
+     "reason": "All four stories report the same official Nike and F1 partnership announcement."
+    }
+   ],
+   "title": "Nike to become F1's official apparel partner and uniform supplier from 2027",
+   "summary": "Nike has joined Formula 1 as an official partner and uniform supplier, taking over from Puma at the start of 2027. The deal also covers F1 personnel apparel and F1-branded merchandise.",
+   "disagreement": "",
+   "label": "Confirmed",
+   "updated": "2026-11-20T01:38:14Z"
+  },
+  {
+   "id": "cdebe6a30",
+   "created": "2026-11-20T01:38:14Z",
+   "stories": [
+    {
+     "title": "Las Vegas GP: No laps completed in first practice due to heavy rain LIVE!",
+     "source": "Sky Sports",
+     "date": "2026-11-19T23:25:00Z",
+     "link": "https://www.skysports.com/f1/live-blog/12433/13613211/f1-las-vegas-gp-live-friday-practice-updates-results-stream-highlights-from-formula-1-race-weekend-in-the-usa",
+     "snippet": ""
+    },
+    {
+     "title": "Las Vegas Grand Prix 2026: Live updates from FP1",
+     "source": "PlanetF1",
+     "date": "2026-11-20T00:23:39Z",
+     "link": "https://www.planetf1.com/news/las-vegas-grand-prix-live-2026-fp1-updates",
+     "snippet": "Live commentary from opening practice in Las Vegas."
+    },
+    {
+     "title": "No times set at all in Las Vegas FP1 washout",
+     "source": "The Race",
+     "date": "2026-11-20T01:31:48Z",
+     "link": "https://www.the-race.com/formula-1/no-times-set-at-all-in-las-vegas-fp1-washout/",
+     "snippet": "Heavy rain meant Formula 1's Las Vegas Grand Prix got off to a bizarre start with no actual laptimes set at all in the first of Thursday evening's practice sessions"
+    },
+    {
+     "title": "Las Vegas FP1 a wash-out with just 20 laps covered and not a single time set",
+     "source": "PlanetF1",
+     "date": "2026-11-20T01:35:40Z",
+     "link": "https://www.planetf1.com/news/2026-las-vegas-grand-prix-fp1-report",
+     "snippet": "It rains for 26 days on average each year in Las Vegas, and Friday was one of those days."
+    },
+    {
+     "title": "LIVE COVERAGE: First practice for the Las Vegas GP",
+     "source": "Formula1.com",
+     "date": "2026-11-20T01:38:10Z",
+     "link": "https://www.formula1.com/en/latest/article/live-coverage-first-practice-in-las-vegas-2026.6znaP19Dx0zBrPVStcB2BP",
+     "snippet": "Live coverage of Thursday's first practice session for the 2026 Las Vegas Grand Prix."
+    }
+   ],
+   "merge_reasons": [
+    {
+     "time": "2026-11-20T01:38:14Z",
+     "added": [
+      "https://www.skysports.com/f1/live-blog/12433/13613211/f1-las-vegas-gp-live-friday-practice-updates-results-stream-highlights-from-formula-1-race-weekend-in-the-usa",
+      "https://www.planetf1.com/news/las-vegas-grand-prix-live-2026-fp1-updates",
+      "https://www.the-race.com/formula-1/no-times-set-at-all-in-las-vegas-fp1-washout/",
+      "https://www.planetf1.com/news/2026-las-vegas-grand-prix-fp1-report",
+      "https://www.formula1.com/en/latest/article/live-coverage-first-practice-in-las-vegas-2026.6znaP19Dx0zBrPVStcB2BP"
+     ],
+     "joined_existing": false,
+     "reason": "The stories all cover the same Las Vegas first practice session, which was disrupted by rain."
+    }
+   ],
+   "title": "Las Vegas first practice washed out by rain with no times set",
+   "summary": "Heavy rain meant no lap times were set in the first Las Vegas Grand Prix practice session. Live coverage followed the session, which covered only about 20 laps.",
+   "disagreement": "",
+   "label": "Confirmed",
+   "updated": "2026-11-20T01:38:14Z"
+  },
+  {
+   "id": "cf39f0077",
+   "created": "2026-11-20T01:38:14Z",
+   "stories": [
+    {
+     "title": "Sainz handed grid penalty for Las Vegas Grand Prix",
+     "source": "Formula1.com",
+     "date": "2026-11-20T01:38:10Z",
+     "link": "https://www.formula1.com/en/latest/article/sainz-handed-grid-penalty-for-las-vegas-grand-prix-after-turbo-change.hKQ2ZkbOHVlu58FKLxMca",
+     "snippet": "Williams driver Carlos Sainz will serve a grid penalty for this weekend's Las Vegas Grand Prix."
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Sainz handed grid penalty for Las Vegas Grand Prix",
+   "summary": "Williams driver Carlos Sainz will serve a grid penalty for this weekend's Las Vegas Grand Prix.",
+   "disagreement": "",
+   "label": "Confirmed",
+   "updated": "2026-11-20T01:38:14Z"
+  },
+  {
+   "id": "c172830d2",
+   "created": "2026-11-20T01:38:14Z",
+   "stories": [
+    {
+     "title": "Lando Norris confident F1 would not \"put us at risk\" in the Middle East",
+     "source": "Motorsport.com",
+     "date": "2026-11-20T01:19:15Z",
+     "link": "https://www.motorsport.com/f1/news/lando-norris-confident-f1-would-not-put-us-at-risk-in-the-middle-east/10875771/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "snippet": "2025 Formula 1 champion Lando Norris says he has no concerns about the final two races of the season in the Middle East, insisting the championship would not put its drivers and teams at risk. After…"
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Norris confident F1 would not put teams at risk in Middle East",
+   "summary": "Lando Norris says he has no concerns about the final two races in the Middle East. He insists the championship would not put drivers and teams at risk.",
+   "disagreement": "",
+   "label": "Reported",
+   "updated": "2026-11-20T01:38:14Z"
+  },
+  {
+   "id": "c033d0083",
+   "created": "2026-11-20T01:38:14Z",
+   "stories": [
+    {
+     "title": "The Las Vegas Grand Prix will be streamed free in major broadcast change",
+     "source": "PlanetF1",
+     "date": "2026-11-20T00:14:04Z",
+     "link": "https://www.planetf1.com/news/the-las-vegas-grand-prix-will-be-streamed-free-in-major-broadcast-change",
+     "snippet": "The Las Vegas Grand Prix will be free to watch in the US without the need for a subscription or even a free trial. Apple TV has confirmed the final North American race of the..."
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Las Vegas Grand Prix to be streamed free in the US",
+   "summary": "Apple TV has confirmed that the Las Vegas Grand Prix will be free to watch in the US. No subscription or free trial will be needed.",
+   "disagreement": "",
+   "label": "Confirmed",
+   "updated": "2026-11-20T01:38:14Z"
+  },
+  {
+   "id": "c030f1444",
+   "created": "2026-11-19T18:50:29Z",
+   "stories": [
+    {
+     "title": "Rafael Camara torn between his F2 title bid and more F1 races with Haas",
+     "source": "Motorsport.com",
+     "date": "2026-11-19T09:53:44Z",
+     "link": "https://www.motorsport.com/f1/news/rafael-camara-could-finish-the-2026-season-in-both-f1-and-f2/10875556/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "snippet": "Rafael Camara is torn between completing his title-contending Formula 2 campaign and seeing out the 2026 season at Haas in Formula 1. The Ferrari protege is the reigning F3 champion and leads the F2…"
+    },
+    {
+     "title": "Camara offers update on plans for final races of 2026",
+     "source": "Formula1.com",
+     "date": "2026-11-19T18:50:26Z",
+     "link": "https://www.formula1.com/en/latest/article/camara-looks-ahead-to-second-f1-outing-and-offers-update-on-plans-for-final-races.75aokJ7GXrP44nJ1p7NZbv",
+     "snippet": "Rafael Camara reflects on his F1 debut in Brazil as he prepares for the Las Vegas Grand Prix, with his plans for Qatar and Abu Dhabi still undecided."
+    },
+    {
+     "title": "Rafa Camara still unsure about finishing 2026 F1 season",
+     "source": "Crash.net",
+     "date": "2026-11-19T23:54:18Z",
+     "link": "https://www.crash.net/f1/news/1110206/1/rafa-camara-still-unsure-about-finishing-2026-f1-season",
+     "snippet": "Rafael Camara is still unsure whether he’ll finish the 2026 F1 season with Haas or return to F2 for the final two rounds."
+    }
+   ],
+   "merge_reasons": [
+    {
+     "time": "2026-11-19T18:50:29Z",
+     "added": [
+      "https://www.motorsport.com/f1/news/rafael-camara-could-finish-the-2026-season-in-both-f1-and-f2/10875556/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+      "https://www.formula1.com/en/latest/article/camara-looks-ahead-to-second-f1-outing-and-offers-update-on-plans-for-final-races.75aokJ7GXrP44nJ1p7NZbv"
+     ],
+     "joined_existing": false,
+     "reason": "Both stories report Camara's unresolved plans for the remaining 2026 races."
+    }
+   ],
+   "title": "Rafael Camara still undecided on final 2026 races",
+   "summary": "Rafael Camara is still unsure whether he will finish the 2026 season with Haas or return to F2 for the final two rounds. He is torn between his F2 title bid and more F1 races.",
+   "disagreement": "",
+   "label": "Reported",
+   "updated": "2026-11-20T01:38:14Z"
+  },
+  {
+   "id": "c079b9f09",
+   "created": "2026-11-20T01:38:14Z",
+   "stories": [
+    {
+     "title": "F1 Las Vegas Grand Prix LIVE: Updates from Friday practice in the US",
+     "source": "Crash.net",
+     "date": "2026-11-19T23:04:53Z",
+     "link": "https://www.crash.net/f1/live/1044271/f1-las-vegas-grand-prix-live-updates-friday-practice-us",
+     "snippet": "Live coverage of the Friday practice sessions at the 2026 F1 Las Vegas Grand Prix, round 21 of the season."
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Live updates from Friday practice at the Las Vegas Grand Prix",
+   "summary": "Crash.net has published live coverage of the Friday practice sessions at the Las Vegas Grand Prix. It is round 21 of the 2026 season.",
+   "disagreement": "",
+   "label": "Confirmed",
+   "updated": "2026-11-20T01:38:14Z"
+  },
+  {
+   "id": "c74d804e1",
+   "created": "2026-11-20T01:38:14Z",
+   "stories": [
+    {
+     "title": "Lewis Hamilton backs V8 return, hits out at 2026 engines “dying” on straights",
+     "source": "Motorsport.com",
+     "date": "2026-11-19T22:50:25Z",
+     "link": "https://www.motorsport.com/f1/news/lewis-hamilton-backs-v8-return-hits-out-at-engines-dying-on-straights/10875488/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "snippet": "Lewis Hamilton has raced through every season of Formula 1's V6 turbo-hybrid era, and he is not shy about what the latest rules are getting wrong. Speaking on Las Vegas Grand Prix media day, the…"
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Hamilton backs V8 return and criticises 2026 engines",
+   "summary": "Lewis Hamilton has backed a return to V8 engines. He said the current 2026 engines are dying on the straights.",
+   "disagreement": "",
+   "label": "Reported",
+   "updated": "2026-11-20T01:38:14Z"
+  },
+  {
+   "id": "cf08c5237",
+   "created": "2026-11-20T01:38:14Z",
+   "stories": [
+    {
+     "title": "Nico Rosberg reveals how changing his helmet colour helped him beat Lewis Hamilton to F1 title",
+     "source": "GPFans",
+     "date": "2026-11-19T21:28:00Z",
+     "link": "https://www.gpfans.com/en/f1-news/1093078/f1-nico-rosberg-mercedes-lewis-hamilton-helmet-colour-2016-world-title/",
+     "snippet": "Nico Rosberg has revealed the extraordinary lengths he went to in defeating Lewis Hamilton during their famous F1 rivalry."
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Nico Rosberg reveals helmet colour change helped him beat Hamilton",
+   "summary": "Nico Rosberg has revealed how he changed his helmet colour during his rivalry with Lewis Hamilton. He says the move helped him win the 2016 title.",
+   "disagreement": "",
+   "label": "Reported",
+   "updated": "2026-11-20T01:38:14Z"
+  },
+  {
+   "id": "cba0cb9fb",
+   "created": "2026-11-20T01:38:14Z",
+   "stories": [
+    {
+     "title": "Oscar Piastri is 'melting inside' after 2026 season turmoil",
+     "source": "GPFans",
+     "date": "2026-11-19T20:44:00Z",
+     "link": "https://www.gpfans.com/en/f1-news/1093064/f1-oscar-piastri-most-disappointing-driver-melting-inside/",
+     "snippet": "Long-time F1 engineer Rob Smedley has named McLaren star Oscar Piastri as his most disappointing driver of the 2026 season, and warned people not to be fooled by the Aussie's cool demeanour."
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Rob Smedley names Piastri as 2026's most disappointing driver",
+   "summary": "Former engineer Rob Smedley has named Oscar Piastri as his most disappointing driver of the 2026 season. He warned that Piastri's cool demeanour hides how much he is struggling.",
+   "disagreement": "",
+   "label": "Reported",
+   "updated": "2026-11-20T01:38:14Z"
+  },
+  {
+   "id": "cab9e2ace",
+   "created": "2026-11-19T09:50:49Z",
+   "stories": [
+    {
+     "title": "Piastri opens up on decision to split with management team",
+     "source": "Formula1.com",
+     "date": "2026-11-19T09:50:45Z",
+     "link": "https://www.formula1.com/en/latest/article/it-felt-like-the-time-was-right-for-something-new-piastri-opens-up-on-decision-to-split-with-management-team.4v3F2IJjTzAoRC9OIkyLgG",
+     "snippet": "Oscar Piastri has reflected on the decision to part ways with his management team, led by nine-time Grand Prix winner Mark Webber and his partner Ann Webber."
+    },
+    {
+     "title": "Oscar Piastri explains split with Mark Webber management",
+     "source": "Crash.net",
+     "date": "2026-11-19T10:17:50Z",
+     "link": "https://www.crash.net/f1/news/1110186/1/oscar-piastri-explains-split-mark-webber-management",
+     "snippet": "Oscar Piastri details his split from Mark Webber's management."
+    },
+    {
+     "title": "Oscar Piastri addresses management plans after Mark Webber split",
+     "source": "Motorsport.com",
+     "date": "2026-11-19T19:08:32Z",
+     "link": "https://www.motorsport.com/f1/news/oscar-piastri-addresses-management-plans-after-mark-webber-split/10875654/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "snippet": "McLaren Formula 1 driver Oscar Piastri says his upcoming management structure is yet to be defined, after his partnership with managers Ann and Mark Webber was terminated. Piastri put out a joint…"
+    },
+    {
+     "title": "Oscar Piastri grilled on Mark Webber split ahead of Las Vegas GP",
+     "source": "PlanetF1",
+     "date": "2026-11-19T19:59:44Z",
+     "link": "https://www.planetf1.com/news/oscar-piastri-mark-webber-split-reaction",
+     "snippet": "Oscar Piastri has split with manager and mentor Mark Webber."
+    }
+   ],
+   "merge_reasons": [
+    {
+     "time": "2026-11-19T18:50:29Z",
+     "added": [
+      "https://www.crash.net/f1/news/1110186/1/oscar-piastri-explains-split-mark-webber-management"
+     ],
+     "joined_existing": true,
+     "reason": "Both stories report Piastri's comments on ending his management split."
+    },
+    {
+     "time": "2026-11-20T01:38:14Z",
+     "added": [
+      "https://www.motorsport.com/f1/news/oscar-piastri-addresses-management-plans-after-mark-webber-split/10875654/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+      "https://www.planetf1.com/news/oscar-piastri-mark-webber-split-reaction"
+     ],
+     "joined_existing": true,
+     "reason": "The Motorsport.com and PlanetF1 stories cover the same Piastri split from the Webber management team."
+    }
+   ],
+   "title": "Piastri ends management partnership with Mark and Ann Webber",
+   "summary": "Oscar Piastri's partnership with managers Mark and Ann Webber has been terminated. Piastri says his future management structure has yet to be defined.",
+   "disagreement": "",
+   "label": "Reported",
+   "updated": "2026-11-20T01:38:14Z"
+  },
+  {
+   "id": "cdd550189",
+   "created": "2026-11-19T18:50:29Z",
+   "stories": [
+    {
+     "title": "Charles Leclerc reveals further details from Lewis Hamilton clear-the-air talks",
+     "source": "PlanetF1",
+     "date": "2026-11-19T11:50:57Z",
+     "link": "https://www.planetf1.com/news/charles-leclerc-reveals-lewis-hamilton-private-talks-details",
+     "snippet": "Charles Leclerc has revealed more details from his discussion with Lewis Hamilton after the pair's clash in Mexico."
+    },
+    {
+     "title": "Charles Leclerc reveals details on showdown meeting with Lewis Hamilton and Ferrari chief",
+     "source": "GPFans",
+     "date": "2026-11-19T19:56:00Z",
+     "link": "https://www.gpfans.com/en/f1-news/1093063/f1-charles-leclerc-ferrari-lewis-hamilton-fred-vasseur-meeting-las-vegas-brazil/",
+     "snippet": "Charles Leclerc has opened up on the Ferrari meeting between himself, Lewis Hamilton and Fred Vasseur at the Brazilian Grand Prix."
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Leclerc gives more details of Hamilton clear-the-air talks",
+   "summary": "Charles Leclerc has revealed further details of the meeting with Lewis Hamilton and Ferrari boss Fred Vasseur. The talks followed the pair's on-track clash.",
+   "disagreement": "",
+   "label": "Reported",
+   "updated": "2026-11-20T01:38:14Z"
+  },
+  {
+   "id": "ccb547894",
+   "created": "2026-11-19T18:50:29Z",
+   "stories": [
+    {
+     "title": "Liam Lawson responds to Helmut Marko after securing Racing Bulls F1 seat",
+     "source": "Crash.net",
+     "date": "2026-11-19T11:19:59Z",
+     "link": "https://www.crash.net/f1/news/1110189/1/liam-lawson-responds-helmut-marko-after-securing-racing-bulls-f1-seat",
+     "snippet": "Liam Lawson has responded to recent comments by Helmet Marko."
+    },
+    {
+     "title": "Why Liam Lawson is ‘grateful’ Helmut Marko isn’t ‘calling the shots’ at Red Bull",
+     "source": "PlanetF1",
+     "date": "2026-11-19T19:01:37Z",
+     "link": "https://www.planetf1.com/news/liam-lawson-helmut-marko-nikola-tsolov-racing-bulls",
+     "snippet": "Liam Lawson has responded to Helmut Marko's comments."
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Lawson responds to Helmut Marko's comments after Racing Bulls seat",
+   "summary": "Liam Lawson has responded to recent comments by Helmut Marko. He said he is grateful Marko is not calling the shots at Red Bull.",
+   "disagreement": "",
+   "label": "Reported",
+   "updated": "2026-11-20T01:38:14Z"
+  },
   {
    "id": "c698ce129",
    "created": "2026-11-19T01:40:57Z",
@@ -175,42 +730,6 @@
    "summary": "Cadillac has confirmed Valtteri Bottas will stay on for 2027 alongside Sergio Perez, with Colton Herta not moved to a race seat. Bottas has reacted to the speculation, calling the noise unnecessary, and Perez has also commented on the announcement.",
    "disagreement": "",
    "label": "Confirmed",
-   "updated": "2026-11-19T18:50:29Z"
-  },
-  {
-   "id": "c030f1444",
-   "created": "2026-11-19T18:50:29Z",
-   "stories": [
-    {
-     "title": "Rafael Camara torn between his F2 title bid and more F1 races with Haas",
-     "source": "Motorsport.com",
-     "date": "2026-11-19T09:53:44Z",
-     "link": "https://www.motorsport.com/f1/news/rafael-camara-could-finish-the-2026-season-in-both-f1-and-f2/10875556/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "snippet": "Rafael Camara is torn between completing his title-contending Formula 2 campaign and seeing out the 2026 season at Haas in Formula 1. The Ferrari protege is the reigning F3 champion and leads the F2…"
-    },
-    {
-     "title": "Camara offers update on plans for final races of 2026",
-     "source": "Formula1.com",
-     "date": "2026-11-19T18:50:26Z",
-     "link": "https://www.formula1.com/en/latest/article/camara-looks-ahead-to-second-f1-outing-and-offers-update-on-plans-for-final-races.75aokJ7GXrP44nJ1p7NZbv",
-     "snippet": "Rafael Camara reflects on his F1 debut in Brazil as he prepares for the Las Vegas Grand Prix, with his plans for Qatar and Abu Dhabi still undecided."
-    }
-   ],
-   "merge_reasons": [
-    {
-     "time": "2026-11-19T18:50:29Z",
-     "added": [
-      "https://www.motorsport.com/f1/news/rafael-camara-could-finish-the-2026-season-in-both-f1-and-f2/10875556/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-      "https://www.formula1.com/en/latest/article/camara-looks-ahead-to-second-f1-outing-and-offers-update-on-plans-for-final-races.75aokJ7GXrP44nJ1p7NZbv"
-     ],
-     "joined_existing": false,
-     "reason": "Both stories report Camara's unresolved plans for the remaining 2026 races."
-    }
-   ],
-   "title": "Rafael Camara undecided on final 2026 races between F2 and Haas",
-   "summary": "Rafael Camara is torn between completing his F2 title bid and more F1 races with Haas. He says his plans for Qatar and Abu Dhabi are still undecided.",
-   "disagreement": "",
-   "label": "Reported",
    "updated": "2026-11-19T18:50:29Z"
   },
   {
@@ -386,56 +905,6 @@
    ],
    "title": "Hamilton insists there are no trust problems at Ferrari",
    "summary": "Lewis Hamilton says there are zero trust problems at Ferrari, despite repeatedly overruling strategic calls. He addressed the issue ahead of the Las Vegas Grand Prix.",
-   "disagreement": "",
-   "label": "Reported",
-   "updated": "2026-11-19T18:50:29Z"
-  },
-  {
-   "id": "caf0db7f2",
-   "created": "2026-11-19T01:40:57Z",
-   "stories": [
-    {
-     "title": "Oliver Bearman frustrated by Haas contract delay as F1 2027 uncertainty continues",
-     "source": "PlanetF1",
-     "date": "2026-11-19T01:24:33Z",
-     "link": "https://www.planetf1.com/news/oliver-bearman-frustrated-by-haas-contract-delay-as-f1-2027-uncertainty-continues",
-     "snippet": "Oliver Bearman has made his frustration clear over his F1 2027 future, insisting there is no excuse for still being without a signed contract with two races remaining..."
-    },
-    {
-     "title": "Bearman frustrated by delay in confirming Haas future",
-     "source": "Formula1.com",
-     "date": "2026-11-19T09:50:45Z",
-     "link": "https://www.formula1.com/en/latest/article/theres-no-excuses-for-that-bearman-frustrated-by-delay-in-confirming-haas-future.3B6g2yqgJgf3g8UNtsYU5L",
-     "snippet": "Ollie Bearman is yet to have his future at Haas officially confirmed for 2027, a situation that the Briton says has been \"a bit disappointing\"."
-    },
-    {
-     "title": "Haas issues response to Oliver Bearman frustration over contract delay",
-     "source": "PlanetF1",
-     "date": "2026-11-19T17:08:18Z",
-     "link": "https://www.planetf1.com/news/haas-oliver-bearman-contract-delay-frustration-response",
-     "snippet": "Oliver Bearman remains without a deal in place to drive for Haas beyond F1 2026."
-    }
-   ],
-   "merge_reasons": [
-    {
-     "time": "2026-11-19T09:50:49Z",
-     "added": [
-      "https://www.formula1.com/en/latest/article/theres-no-excuses-for-that-bearman-frustrated-by-delay-in-confirming-haas-future.3B6g2yqgJgf3g8UNtsYU5L"
-     ],
-     "joined_existing": true,
-     "reason": "Both report Bearman's frustration over the still-unconfirmed Haas contract for 2027."
-    },
-    {
-     "time": "2026-11-19T18:50:29Z",
-     "added": [
-      "https://www.planetf1.com/news/haas-oliver-bearman-contract-delay-frustration-response"
-     ],
-     "joined_existing": true,
-     "reason": "The Haas response and Bearman's frustration both concern the unsigned Haas 2027 contract."
-    }
-   ],
-   "title": "Bearman frustrated as Haas 2027 contract remains unsigned",
-   "summary": "Oliver Bearman has said he is frustrated that his Haas future for 2027 is still unconfirmed with two races left. Haas has now responded to his frustration.",
    "disagreement": "",
    "label": "Reported",
    "updated": "2026-11-19T18:50:29Z"
@@ -688,25 +1157,6 @@
    "updated": "2026-11-19T18:50:29Z"
   },
   {
-   "id": "cdd550189",
-   "created": "2026-11-19T18:50:29Z",
-   "stories": [
-    {
-     "title": "Charles Leclerc reveals further details from Lewis Hamilton clear-the-air talks",
-     "source": "PlanetF1",
-     "date": "2026-11-19T11:50:57Z",
-     "link": "https://www.planetf1.com/news/charles-leclerc-reveals-lewis-hamilton-private-talks-details",
-     "snippet": "Charles Leclerc has revealed more details from his discussion with Lewis Hamilton after the pair's clash in Mexico."
-    }
-   ],
-   "merge_reasons": [],
-   "title": "Leclerc gives more details of Hamilton clear-the-air talks",
-   "summary": "Charles Leclerc has revealed further details from his talks with Lewis Hamilton after their clash in Mexico. The discussion was intended to clear the air between them.",
-   "disagreement": "",
-   "label": "Reported",
-   "updated": "2026-11-19T18:50:29Z"
-  },
-  {
    "id": "c911cf1f4",
    "created": "2026-11-19T18:50:29Z",
    "stories": [
@@ -742,25 +1192,6 @@
    "summary": "GPFans has published the practice schedule and times for the 2026 Las Vegas Grand Prix. It also gives the TV channel for the sessions.",
    "disagreement": "",
    "label": "Opinion",
-   "updated": "2026-11-19T18:50:29Z"
-  },
-  {
-   "id": "ccb547894",
-   "created": "2026-11-19T18:50:29Z",
-   "stories": [
-    {
-     "title": "Liam Lawson responds to Helmut Marko after securing Racing Bulls F1 seat",
-     "source": "Crash.net",
-     "date": "2026-11-19T11:19:59Z",
-     "link": "https://www.crash.net/f1/news/1110189/1/liam-lawson-responds-helmut-marko-after-securing-racing-bulls-f1-seat",
-     "snippet": "Liam Lawson has responded to recent comments by Helmet Marko."
-    }
-   ],
-   "merge_reasons": [],
-   "title": "Lawson responds to Helmut Marko after Racing Bulls seat",
-   "summary": "Liam Lawson has responded to recent comments made by Helmut Marko. His response follows the confirmation of his Racing Bulls seat.",
-   "disagreement": "",
-   "label": "Reported",
    "updated": "2026-11-19T18:50:29Z"
   },
   {
@@ -816,41 +1247,6 @@
    "merge_reasons": [],
    "title": "Leclerc had no hand in journalist's paddock ban, he says",
    "summary": "Charles Leclerc says he had no role in a veteran reporter being barred from the paddock. He says he was surprised by the choice of words used in the coverage.",
-   "disagreement": "",
-   "label": "Reported",
-   "updated": "2026-11-19T18:50:29Z"
-  },
-  {
-   "id": "cab9e2ace",
-   "created": "2026-11-19T09:50:49Z",
-   "stories": [
-    {
-     "title": "Piastri opens up on decision to split with management team",
-     "source": "Formula1.com",
-     "date": "2026-11-19T09:50:45Z",
-     "link": "https://www.formula1.com/en/latest/article/it-felt-like-the-time-was-right-for-something-new-piastri-opens-up-on-decision-to-split-with-management-team.4v3F2IJjTzAoRC9OIkyLgG",
-     "snippet": "Oscar Piastri has reflected on the decision to part ways with his management team, led by nine-time Grand Prix winner Mark Webber and his partner Ann Webber."
-    },
-    {
-     "title": "Oscar Piastri explains split with Mark Webber management",
-     "source": "Crash.net",
-     "date": "2026-11-19T10:17:50Z",
-     "link": "https://www.crash.net/f1/news/1110186/1/oscar-piastri-explains-split-mark-webber-management",
-     "snippet": "Oscar Piastri details his split from Mark Webber's management."
-    }
-   ],
-   "merge_reasons": [
-    {
-     "time": "2026-11-19T18:50:29Z",
-     "added": [
-      "https://www.crash.net/f1/news/1110186/1/oscar-piastri-explains-split-mark-webber-management"
-     ],
-     "joined_existing": true,
-     "reason": "Both stories report Piastri's comments on ending his management split."
-    }
-   ],
-   "title": "Piastri explains decision to part ways with management team",
-   "summary": "Oscar Piastri has explained his decision to split from the management team led by Mark Webber and Ann Webber. The Crash.net report and the Formula1.com piece both cover his comments on the split.",
    "disagreement": "",
    "label": "Reported",
    "updated": "2026-11-19T18:50:29Z"
@@ -8755,6 +9151,82 @@
     }
    ],
    "reason": "The PlanetF1 roundup mentions Leclerc's FIA response only briefly among several items, so it is not the same story as the dedicated Leclerc piece."
+  },
+  {
+   "time": "2026-11-20T01:38:14Z",
+   "items": [
+    {
+     "title": "Oscar Piastri is 'melting inside' after 2026 season turmoil",
+     "source": "GPFans",
+     "link": "https://www.gpfans.com/en/f1-news/1093064/f1-oscar-piastri-most-disappointing-driver-melting-inside/"
+    },
+    {
+     "card": "cab9e2ace",
+     "title": "Piastri ends management partnership with Mark and Ann Webber"
+    }
+   ],
+   "reason": "The Smedley story is a former engineer's view of Piastri's 2026 form, not coverage of the Webber management split."
+  },
+  {
+   "time": "2026-11-20T01:38:14Z",
+   "items": [
+    {
+     "title": "F1 Las Vegas Grand Prix LIVE: Updates from Friday practice in the US",
+     "source": "Crash.net",
+     "link": "https://www.crash.net/f1/live/1044271/f1-las-vegas-grand-prix-live-updates-friday-practice-us"
+    },
+    {
+     "title": "Las Vegas GP: No laps completed in first practice due to heavy rain LIVE!",
+     "source": "Sky Sports",
+     "link": "https://www.skysports.com/f1/live-blog/12433/13613211/f1-las-vegas-gp-live-friday-practice-updates-results-stream-highlights-from-formula-1-race-weekend-in-the-usa"
+    }
+   ],
+   "reason": "The Crash.net live blog covers Friday practice, while the washed-out session was the first practice on Thursday."
+  },
+  {
+   "time": "2026-11-20T01:38:14Z",
+   "items": [
+    {
+     "title": "Lewis Hamilton backs V8 return, hits out at 2026 engines “dying” on straights",
+     "source": "Motorsport.com",
+     "link": "https://www.motorsport.com/f1/news/lewis-hamilton-backs-v8-return-hits-out-at-engines-dying-on-straights/10875488/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www"
+    },
+    {
+     "card": "c6c1d86c3",
+     "title": "F1 2030 V8 rules announcement deleted after being posted"
+    }
+   ],
+   "reason": "Hamilton's comments are his own view on V8 engines, while the other card covers the FIA's deleted 2030 rules announcement."
+  },
+  {
+   "time": "2026-11-20T01:38:14Z",
+   "items": [
+    {
+     "title": "Lewis Hamilton backs V8 return, hits out at 2026 engines “dying” on straights",
+     "source": "Motorsport.com",
+     "link": "https://www.motorsport.com/f1/news/lewis-hamilton-backs-v8-return-hits-out-at-engines-dying-on-straights/10875488/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www"
+    },
+    {
+     "card": "c1c19362a",
+     "title": "FIA president says V8 engines are coming soon"
+    }
+   ],
+   "reason": "Hamilton and the FIA president are different people giving views on the V8 return, so the stories stay separate."
+  },
+  {
+   "time": "2026-11-20T01:38:14Z",
+   "items": [
+    {
+     "title": "Lewis Hamilton backs V8 return, hits out at 2026 engines “dying” on straights",
+     "source": "Motorsport.com",
+     "link": "https://www.motorsport.com/f1/news/lewis-hamilton-backs-v8-return-hits-out-at-engines-dying-on-straights/10875488/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www"
+    },
+    {
+     "card": "cea91bef1",
+     "title": "Alonso comments on F1's V8 engine return"
+    }
+   ],
+   "reason": "Hamilton and Alonso are different people commenting on the V8 return, so the stories stay separate."
   }
  ],
  "processed": [
@@ -8775,6 +9247,7 @@
   "https://www.autosport.com/f1/news/f1-retains-brazilian-gp-until-2035-with-fresh-sao-paulo-deal/10872539/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
   "https://www.autosport.com/f1/news/ferrari-set-for-crunch-meeting-as-hamilton-and-leclerc-tension-reaches-brazil/10872030/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
   "https://www.autosport.com/f1/news/fia-reveals-aduo-results-in-final-review-of-2026-f1-season/10873566/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+  "https://www.autosport.com/f1/news/fia-to-introduce-full-time-f1-stewards-from-2027-to-improve-consistency/10875719/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
   "https://www.autosport.com/f1/news/gasly-and-colapinto-penalised-post-race-hirakawa-scores-on-f1-debut-at-mexico-gp/10870863/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
   "https://www.autosport.com/f1/news/haas-sticks-with-rafael-camara-for-las-vegas-ryo-hirakawa-in-for-fp1/10874781/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
   "https://www.autosport.com/f1/news/hamilton-set-for-new-penalty-will-start-f1-brazilian-gp-from-back-of-grid/10872645/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
@@ -8797,6 +9270,7 @@
   "https://www.autosport.com/f1/news/mclaren-to-bring-upgrades-to-brazil-gp-with-f1-2027-in-mind/10871328/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
   "https://www.autosport.com/f1/news/mclaren-to-upgrade-mcl40-f1-car-at-its-bogey-track-las-vegas/10874450/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
   "https://www.autosport.com/f1/news/mercedes-takes-blame-for-russells-poor-mexico-gp/10871439/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+  "https://www.autosport.com/f1/news/nike-joins-f1-as-apparel-partner/10875757/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
   "https://www.autosport.com/f1/news/ocon-to-skip-the-rest-of-f1-2026-with-camara-to-debut-in-brazil/10871378/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
   "https://www.autosport.com/f1/news/ocons-f1-story-is-one-of-success/10871449/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
   "https://www.autosport.com/f1/news/oscar-piastri-splits-from-mark-webber-management/10873258/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
@@ -8862,6 +9336,7 @@
   "https://www.bbc.co.uk/sport/formula1/articles/cqp9dr4kedd3o?at_medium=RSS&at_campaign=rss",
   "https://www.bbc.co.uk/sport/formula1/articles/cr3wvvpxnx1wo?at_medium=RSS&at_campaign=rss",
   "https://www.bbc.co.uk/sport/formula1/articles/cr9dz7w1xgxvo?at_medium=RSS&at_campaign=rss",
+  "https://www.bbc.co.uk/sport/formula1/articles/cv62pxxkz8wxo?at_medium=RSS&at_campaign=rss",
   "https://www.bbc.co.uk/sport/formula1/articles/cw24epe29566o?at_medium=RSS&at_campaign=rss",
   "https://www.bbc.co.uk/sport/formula1/articles/cw80zzd8jk1go?at_medium=RSS&at_campaign=rss",
   "https://www.bbc.co.uk/sport/formula1/articles/cx0544g2n1jdo?at_medium=RSS&at_campaign=rss",
@@ -8876,6 +9351,7 @@
   "https://www.crash.net/dakar/news/1110143/1/fernando-alonso-race-dakar-rally-aston-martin",
   "https://www.crash.net/f1/feature/1088707/1/f1-2027-grid-every-teams-confirmed-driver-line",
   "https://www.crash.net/f1/live/1044270/f1-brazil-grand-prix-live-race-updates-hamilton-verstappen-come-last",
+  "https://www.crash.net/f1/live/1044271/f1-las-vegas-grand-prix-live-updates-friday-practice-us",
   "https://www.crash.net/f1/news/1110014/1/new-f1-championship-standings-after-brazil-grand-prix",
   "https://www.crash.net/f1/news/1110024/1/max-verstappen-makes-foul-mouthed-red-bull-complaint-despite-brazil-gp-p2",
   "https://www.crash.net/f1/news/1110025/1/charles-leclerc-hit-brazil-gp-penalty-liam-lawson-collision",
@@ -8946,6 +9422,8 @@
   "https://www.crash.net/f1/news/1110188/1/valtteri-bottas-hits-out-unnecessary-noise-about-cadillac-f1-future",
   "https://www.crash.net/f1/news/1110189/1/liam-lawson-responds-helmut-marko-after-securing-racing-bulls-f1-seat",
   "https://www.crash.net/f1/news/1110192/1/lewis-hamilton-will-be-playing-gta-6-las-vegas-gp-i-have-my-playstation-me",
+  "https://www.crash.net/f1/news/1110202/1/fia-announces-major-formula-1-stewarding-change-2027",
+  "https://www.crash.net/f1/news/1110206/1/rafa-camara-still-unsure-about-finishing-2026-f1-season",
   "https://www.crash.net/f1/results/1110009/1/f1-brazil-grand-prix-full-race-results",
   "https://www.crash.net/motogp/news/1110106/1/watch-dani-pedrosa-race-ktm-motogp-bike-against-red-bull-f1-car-ice",
   "https://www.crash.net/motogp/news/1110108/1/buenos-aires-motogp-circuit-transformation-gathers-pace-f1-dream",
@@ -8976,6 +9454,7 @@
   "https://www.fia.com/news/f1-norris-triumphs-sao-paulo-mercedes-secure-2026-constructors-championship",
   "https://www.fia.com/news/fabiana-ecclestone-leads-high-impact-agenda-brazil-focusing-road-safety-and-female-empowerment",
   "https://www.fia.com/news/fia-announces-aduo-results-following-third-review-periods-2026",
+  "https://www.fia.com/news/fia-introduce-full-time-stewards-fia-formula-one-world-championship-2027",
   "https://www.fia.com/news/international-court-appeal-hearing-november-25-2026",
   "https://www.formula1.com/en/latest/article/all-the-stories-that-got-the-las-vegas-paddock-talking.4DclxlWGaLDwKgzLpfAvuz",
   "https://www.formula1.com/en/latest/article/alonso-to-make-dakar-rally-return-with-aston-martin-dreadnought-in-2027.6qKZRHvlJP4ECq2Bri772q",
@@ -8994,7 +9473,9 @@
   "https://www.formula1.com/en/latest/article/exclusive-sainz-reflects-on-the-journey-to-his-250th-grand-prix-and-preparing-for-williams-most-important-year.4q4YmHp7ZpfnUTMjNNPXc9",
   "https://www.formula1.com/en/latest/article/f1-academy-champion-alisha-palmowski-graduates-to-formula-regional-with-fully-funded-seat.39A1mu7n4LQ3ljJdTyFlhW",
   "https://www.formula1.com/en/latest/article/f1-fantasy-strategist-preview-the-williams-mini-league-and-what-you-need-to-know-for-las-vegas-and-qatar.6hHYy6ckLb4oqMNCVPbRul",
+  "https://www.formula1.com/en/latest/article/fia-to-introduce-full-time-stewards-in-f1-from-2027.tbSC1HZmNj46TbAjzEPGj",
   "https://www.formula1.com/en/latest/article/first-time-where-we-can-almost-stop-playing-catch-up-norris-assesses-mclarens-turnaround-ahead-of-las-vegas-gp.5AFaPtFnGnni7aXVlu3UiC",
+  "https://www.formula1.com/en/latest/article/formula-1-and-nike-join-forces-to-shape-the-future-of-sport-and-culture.W36MoCI5DL9I0evuX1xtd",
   "https://www.formula1.com/en/latest/article/formula-1-and-whoop-announce-landmark-partnership-to-bring-fans-closer-to-the-human-side-of-racing.1YTsprVRx7MPlaDJnniexm",
   "https://www.formula1.com/en/latest/article/gallery-aston-martin-showcase-bespoke-livery-for-las-vegas-grand-prix.7f71lWPYrxvriroCo30iaY",
   "https://www.formula1.com/en/latest/article/gallery-cadillac-reveal-special-livery-for-las-vegas-grand-prix.1b7NXQe83gP2LzjiCQf2ES",
@@ -9006,7 +9487,9 @@
   "https://www.formula1.com/en/latest/article/it-felt-like-the-time-was-right-for-something-new-piastri-opens-up-on-decision-to-split-with-management-team.4v3F2IJjTzAoRC9OIkyLgG",
   "https://www.formula1.com/en/latest/article/its-10-years-since-ron-dennis-left-f1-i-miss-him.1HKS8KLe46myFMW6qOzsdY",
   "https://www.formula1.com/en/latest/article/its-race-week-5-storylines-were-excited-about-ahead-of-the-2026-las-vegas-grand-prix.3fjavheTbHD8fjZI0i7BWd",
+  "https://www.formula1.com/en/latest/article/komatsu-insists-there-is-no-doubt-over-bearmans-2027-haas-seat-after-britons-frustrations.1lCOdGv5mDv2FcqDshxnYB",
   "https://www.formula1.com/en/latest/article/las-vegas-grand-prix-race-betting-guide-and-what-the-markets-expect-to-happen.5sEja0aYqYkyfdSZ9sTibF",
+  "https://www.formula1.com/en/latest/article/live-coverage-first-practice-in-las-vegas-2026.6znaP19Dx0zBrPVStcB2BP",
   "https://www.formula1.com/en/latest/article/live-coverage-wednesday-build-up-in-las-vegas-2026.MqDte4ggZDt3kjYNJ0CvS",
   "https://www.formula1.com/en/latest/article/mercedes-incredible-success-through-formula-1-history.7yLliKc36ZI9pd7xzNYFwq",
   "https://www.formula1.com/en/latest/article/need-to-know-the-most-important-facts-stats-and-trivia-ahead-of-the-2026-las-vegas-grand-prix.6ynxQ4e9Z7F1o2Uijhh1FK",
@@ -9015,6 +9498,7 @@
   "https://www.formula1.com/en/latest/article/our-writers-on-antonellis-title-success-and-what-it-means.2FAfHA49byUlrrTfVgWKWc",
   "https://www.formula1.com/en/latest/article/piastri-set-for-10-place-grid-penalty-at-las-vegas-grand-prix.5eT1wWFQzCfOS6W2tvTtLk",
   "https://www.formula1.com/en/latest/article/quiz-10-tricky-questions-on-formula-1-night-races.w2XDE4bcho7ho79HRKfFa",
+  "https://www.formula1.com/en/latest/article/sainz-handed-grid-penalty-for-las-vegas-grand-prix-after-turbo-change.hKQ2ZkbOHVlu58FKLxMca",
   "https://www.formula1.com/en/latest/article/save-the-date-f1-unlocked-season-finale-watch-party.22ZXTQut4A8OosqH0ldCTM",
   "https://www.formula1.com/en/latest/article/the-5-drivers-most-likely-to-win-the-las-vegas-grand-prix-according-to-the-betting-markets.35XTVOVdU16UJWGZJj3ctb",
   "https://www.formula1.com/en/latest/article/the-5-drivers-who-are-most-likely-to-qualify-fastest-in-las-vegas.4bdBCuhbBNlUkHaoVfsopF",
@@ -9100,9 +9584,12 @@
   "https://www.gpfans.com/en/f1-news/1093051/f1-cadillac-valtteri-bottas-colton-herta-sergio-perez-2027-driver-lineup/",
   "https://www.gpfans.com/en/f1-news/1093059/f1-lando-norris-mclaren-grand-theft-auto-6-gta-6-banned-las-vegas-grand-prix/",
   "https://www.gpfans.com/en/f1-news/1093062/f1-lewis-hamilton-fan-question-cheese-rival-driver-max-verstappen-charles-leclerc/",
+  "https://www.gpfans.com/en/f1-news/1093063/f1-charles-leclerc-ferrari-lewis-hamilton-fred-vasseur-meeting-las-vegas-brazil/",
+  "https://www.gpfans.com/en/f1-news/1093064/f1-oscar-piastri-most-disappointing-driver-melting-inside/",
   "https://www.gpfans.com/en/f1-news/1093069/f1-max-verstappen-trust-qatar-abu-dhabi-grand-prix-races-danger/",
   "https://www.gpfans.com/en/f1-news/1093072/f1-lewis-hamilton-trust-ferrari-carlo-santi-charles-leclerc/",
   "https://www.gpfans.com/en/f1-news/1093077/f1-lance-stroll-aston-martin-engine-power-dangerous-las-vegas-grand-prix/",
+  "https://www.gpfans.com/en/f1-news/1093078/f1-nico-rosberg-mercedes-lewis-hamilton-helmet-colour-2016-world-title/",
   "https://www.motorsport.com/dakar/news/fernando-alonso-to-return-to-dakar-rally-with-aston-martin-in-2027/10874907/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/alan-permane-liam-lawson-has-been-a-revelation-as-he-earned-2027-racing-bulls-f1-deal/10875104/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/andrea-stella-wants-mclaren-to-finally-make-peace-with-las-vegas/10873819/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
@@ -9119,6 +9606,7 @@
   "https://www.motorsport.com/f1/news/f1-las-vegas-gp-2026-start-time-schedule-and-how-to-watch/10874866/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/f1-las-vegas-gp-2026-uk-times-schedule-how-to-watch/10874860/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/f1-to-showcase-driver-health-data-as-it-partners-with-whoop/10875341/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+  "https://www.motorsport.com/f1/news/fia-to-introduce-full-time-f1-stewards-from-2027-in-bid-to-improve-consistency/10875716/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/final-mercedes-benz-slr-mclaren-stirling-moss-heads-to-auction-for-over-6million/10873978/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/five-things-to-watch-out-for-at-the-f1-las-vegas-gp/10875316/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/fred-vasseur-lewis-hamilton-and-charles-leclerc-left-my-room-joking-together/10874079/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
@@ -9145,12 +9633,14 @@
   "https://www.motorsport.com/f1/news/kimi-antonelli-meets-italian-president-sergio-mattarella/10874471/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/kimi-antonelli-names-biggest-threat-to-2027-title-defence-as-he-warns-mercedes-advantage-may-fade/10874729/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/lando-norris-a-hell-of-a-lot-of-money-riding-on-mclarens-fight-for-third/10875499/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+  "https://www.motorsport.com/f1/news/lando-norris-confident-f1-would-not-put-us-at-risk-in-the-middle-east/10875771/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/lando-norris-f1-needs-better-rain-tyres-as-wet-las-vegas-would-be-scary/10874689/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/lando-norris-questions-charles-leclercs-brazilian-gp-penalty-just-racing/10873736/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/lando-norriss-ln4-fusion-signs-former-red-bull-junior-oliver-goethe-as-its-first-f2-driver/10874918/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/las-vegas-gp-reveals-neon-sign-inspired-trophy-design/10874361/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/laurent-mekies-brazil-was-isack-hadjars-best-race-for-red-bull/10874059/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/lewis-hamilon-reportedly-house-hunting-in-la-amid-kim-kardashian-relationship/10874877/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+  "https://www.motorsport.com/f1/news/lewis-hamilton-backs-v8-return-hits-out-at-engines-dying-on-straights/10875488/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/lewis-hamilton-criticises-ex-f1-drivers-for-talking-smack-and-young-stars/10874726/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/lewis-hamilton-insists-there-are-no-trust-problems-at-ferrari/10875582/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/lewis-hamilton-loses-most-marketable-athlete-crown-as-charles-leclerc-moves-ahead/10873959/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
@@ -9169,6 +9659,8 @@
   "https://www.motorsport.com/f1/news/mercedes-pit-wall-admits-floundering-ferraris-relieved-all-title-pressure-in-sao-paulo/10874440/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/mercedes-tech-boss-warns-f1-teams-wont-lie-down-over-massive-2027-downforce-cuts/10874433/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/mercedes-technical-director-details-the-brutal-psychological-toll-of-f1-underperformance/10874429/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+  "https://www.motorsport.com/f1/news/nike-joins-f1-as-apparel-partner/10875754/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+  "https://www.motorsport.com/f1/news/oscar-piastri-addresses-management-plans-after-mark-webber-split/10875654/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/oscar-piastri-admits-he-is-missing-the-stress-of-an-f1-title-fight/10873816/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/oscar-piastri-reveals-unexpected-upside-of-being-out-of-f1-title-fight/10873740/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/oscar-piastri-set-for-grid-penalty-at-f1-las-vegas-gp/10875180/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
@@ -9201,6 +9693,7 @@
   "https://www.planetf1.com/alpine/franco-colapinto-alpine-upgrades",
   "https://www.planetf1.com/features/las-vegas-grand-prix-2026-predictions",
   "https://www.planetf1.com/home-page/opinion-liam-lawson-to-mercedes",
+  "https://www.planetf1.com/news/2026-las-vegas-grand-prix-fp1-report",
   "https://www.planetf1.com/news/adrian-newey-christian-horner-red-bull-salary-book",
   "https://www.planetf1.com/news/adrian-newey-salary-mercedes-insider-michael-schumacher",
   "https://www.planetf1.com/news/alex-albon-williams-problems",
@@ -9249,6 +9742,7 @@
   "https://www.planetf1.com/news/kimi-antonelli-salary-toto-wolff-mercedes-world-champion-reward",
   "https://www.planetf1.com/news/lando-norris-f2-team-2027-driver",
   "https://www.planetf1.com/news/lando-norris-las-vegas-gp-rain-warning-pirelli-tyres",
+  "https://www.planetf1.com/news/las-vegas-grand-prix-live-2026-fp1-updates",
   "https://www.planetf1.com/news/lewis-hamilton-causing-ferrari-saga-formula-1-sale",
   "https://www.planetf1.com/news/lewis-hamilton-causing-ferrari-tension-ralf-schumacher",
   "https://www.planetf1.com/news/lewis-hamilton-charles-leclerc-sportspro-2026-ranking",
@@ -9257,6 +9751,7 @@
   "https://www.planetf1.com/news/lewis-hamilton-ferrari-quit-bernie-ecclestone",
   "https://www.planetf1.com/news/lewis-hamilton-fia-las-vegas-grand-prix-2026-fp1",
   "https://www.planetf1.com/news/lewis-hamilton-leadership-questioned-max-verstappen-ferrari-solution",
+  "https://www.planetf1.com/news/liam-lawson-helmut-marko-nikola-tsolov-racing-bulls",
   "https://www.planetf1.com/news/liam-lawson-mclaren-oscar-piastri-guenther-steiner",
   "https://www.planetf1.com/news/liam-lawson-next-max-verstappen-juan-pablo-montoya",
   "https://www.planetf1.com/news/martin-brundle-toto-wolff-text-christian-horner-comparison",
@@ -9279,9 +9774,11 @@
   "https://www.planetf1.com/news/oliver-bearman-haas-las-vegas-grand-prix-2026-fp1",
   "https://www.planetf1.com/news/oscar-piastri-f1-2026-struggles",
   "https://www.planetf1.com/news/oscar-piastri-fia-las-vegas-grand-prix-2026-penalty",
+  "https://www.planetf1.com/news/oscar-piastri-mark-webber-split-reaction",
   "https://www.planetf1.com/news/oscar-piastri-mclaren-2025-f1-title-collapse-mistakes",
   "https://www.planetf1.com/news/red-bull-f1-2026-turnaround-revealed",
   "https://www.planetf1.com/news/sergio-perez-valtteri-bottas-cadillac-f1-2027",
+  "https://www.planetf1.com/news/the-las-vegas-grand-prix-will-be-streamed-free-in-major-broadcast-change",
   "https://www.planetf1.com/news/toto-wolff-ron-dennis-frank-williams-f1-title-record",
   "https://www.planetf1.com/news/valtteri-bottas-cadillac-f1-2027-announcement",
   "https://www.planetf1.com/news/williams-las-vegas-grand-prix-2026-livery",
@@ -9320,10 +9817,12 @@
   "https://www.racefans.net/2026/11/18/featured-comment-f1-fans-underestimate-importance-of-getting-to-a-top-car/",
   "https://www.racefans.net/2026/11/18/mercedes-technical-director-explains-how-antonelli-leapt-ahead-of-russell-in-second-season/",
   "https://www.racefans.net/2026/11/18/official-bottas-to-stay-at-cadillacin-2027/",
+  "https://www.racefans.net/2026/11/19/fia-to-introduce-full-time-stewards-to-formula-1-during-2027/",
   "https://www.racefans.net/2026/11/19/the-five-way-fight-for-second-is-close-but-no-one-cares-about-winning-it/",
   "https://www.racefans.net/2026/11/19/video-fia-reveals-how-formula-1-race-control-takes-decisions-during-an-event/",
   "https://www.skysports.com/f1/live-blog/12433/12466779/f1-news-rumours-and-gossip-formula-1-latest-updates-on-teams-driver-transfer-market-and-contracts",
   "https://www.skysports.com/f1/live-blog/12433/13518208/f1-academy-2026-reports-calendar-news-results-standings-and-highlights-for-races-this-season",
+  "https://www.skysports.com/f1/live-blog/12433/13613211/f1-las-vegas-gp-live-friday-practice-updates-results-stream-highlights-from-formula-1-race-weekend-in-the-usa",
   "https://www.skysports.com/f1/news/12433/13609697/toto-wolff-proud-of-mercedes-turnaround-after-winning-f1-2026-constructors-championship-at-sao-paulo-grand-prix",
   "https://www.skysports.com/f1/news/12433/13609700/lewis-hamilton-ferrari-driver-says-he-overrode-teams-pit-call-due-to-lack-of-information-provided-as-rain-fell-during-sao-paulo-gp",
   "https://www.skysports.com/f1/news/12433/13610108/oscar-piastri-mclaren-driver-splits-from-mark-webber-management-after-sao-paulo-grand-prix-in-brazil",
@@ -9346,10 +9845,12 @@
   "https://www.skysports.com/f1/news/12433/13612958/fernando-alonso-aston-martin-driver-to-race-in-dakar-rally-ahead-of-2027-f1-season-in-return-to-rally-raid-event",
   "https://www.skysports.com/f1/news/12433/13613272/mercedes-confirm-aduo-turbo-upgrade-ready-for-las-vegas-gp-with-kimi-antonelli-set-to-run-new-engine-part",
   "https://www.skysports.com/f1/news/12433/13613606/oscar-piastri-to-serve-grid-penalty-at-las-vegas-gp-as-mclaren-confirm-addition-of-more-upgrades-to-mcl40",
+  "https://www.skysports.com/f1/news/12433/13614150/fia-announce-introduction-of-full-time-f1-stewards-from-2027-ahead-of-las-vegas-grand-prix",
   "https://www.skysports.com/football/news/12433/13611406/the-fast-and-the-curious-an-f1-podcast-with-greg-james-betty-glover-and-christian-hewgill",
   "https://www.the-race.com/business/how-madrid-f1-races-economic-impact-compares-to-barcelonas/",
   "https://www.the-race.com/business/mclaren-to-sell-2027-f1-car-before-it-races/",
   "https://www.the-race.com/business/most-valuable-f1-sponsors-2026-anthropic-microsoft-google-aramco-meta-amd-visa/",
+  "https://www.the-race.com/business/nike-to-return-to-f1-after-24-years/",
   "https://www.the-race.com/extra/hamilton-loses-most-marketable-athlete-status-in-2026/",
   "https://www.the-race.com/extra/las-vegas-gp-reveals-neon-inspired-trophy-for-2026/",
   "https://www.the-race.com/extra/new-f1-season-ticket-winner-revealed/",
@@ -9360,12 +9861,14 @@
   "https://www.the-race.com/formula-1/f1-all-special-liveries-las-vegas-grand-prix/",
   "https://www.the-race.com/formula-1/f1-divisive-wet-weather-tyres-to-change-in-2027-what-we-know/",
   "https://www.the-race.com/formula-1/f1-poised-to-take-crucial-step-towards-v8-engines-return/",
+  "https://www.the-race.com/formula-1/f1-to-use-full-time-stewards-from-2027/",
   "https://www.the-race.com/formula-1/fernando-alonso-2027-dakar-rally-new-aston-martin-project/",
   "https://www.the-race.com/formula-1/ferrari-leclerc-hamilton-f1-problem-far-from-solved/",
   "https://www.the-race.com/formula-1/ford-real-role-in-building-f1-best-engine/",
   "https://www.the-race.com/formula-1/honda-f1-new-reliability-problem-might-not-cure-before-2026-end/",
   "https://www.the-race.com/formula-1/liam-lawson-2027-f1-extension-our-verdict/",
   "https://www.the-race.com/formula-1/mercedes-plan-to-debut-aduo-upgrade-on-antonellis-car-only/",
+  "https://www.the-race.com/formula-1/no-times-set-at-all-in-las-vegas-fp1-washout/",
   "https://www.the-race.com/formula-1/our-verdict-on-cadillac-keeping-bottas-over-herta-for-f1-2027/",
   "https://www.the-race.com/formula-1/racing-bulls-commits-to-lawson-and-lindblad-as-2027-f1-line-up/",
   "https://www.the-race.com/formula-1/the-cadillac-weakness-still-frustrating-perez/",
