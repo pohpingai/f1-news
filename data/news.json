@@ -1,6 +1,582 @@
 {
- "updated": "2026-11-20T01:38:10Z",
+ "updated": "2026-11-20T09:37:27Z",
  "stories": [
+  {
+   "title": "Palmowski makes history as she secures pole in Las Vegas",
+   "source": "Formula1.com",
+   "date": "2026-11-20T09:37:27Z",
+   "date_is_seen_time": true,
+   "link": "https://www.formula1.com/en/latest/article/f1-academy-palmowski-makes-history-as-she-secures-her-final-pole-position-around-las-vegas.1n8CvOtY14APLOTC3pzBrL",
+   "snippet": "Red Bull Racing's Alisha Palmowski secured pole position for the F1 ACADEMY Las Vegas Feature Race."
+  },
+  {
+   "title": "Alpine ‘hopeful’ after Gasly earns P2 during second practice",
+   "source": "Formula1.com",
+   "date": "2026-11-20T09:37:27Z",
+   "date_is_seen_time": true,
+   "link": "https://www.formula1.com/en/latest/article/alpine-feeling-hopeful-after-gasly-earns-p2-during-second-practice-in-las-vegas.3Iac1ObpdCLCHGU5rWCNXO",
+   "snippet": "Alpine's Pierre Gasly caught the eye by slotting into P2 on the timesheets during Thursday's second practice session at the Las Vegas Grand Prix."
+  },
+  {
+   "title": "Hamilton reflects on Ferrari's practice running in Las Vegas",
+   "source": "Formula1.com",
+   "date": "2026-11-20T09:37:27Z",
+   "date_is_seen_time": true,
+   "link": "https://www.formula1.com/en/latest/article/a-couple-of-good-findings-hamilton-reflects-on-ferraris-wet-practice-running-in-las-vegas.4lQStkjoi1h32oQJng6ZMm",
+   "snippet": "Lewis Hamilton believes himself and Ferrari made \"a couple of good findings\" during a wet day of practice ahead of the Las Vegas Grand Prix."
+  },
+  {
+   "title": "Red Bull working to fix Verstappen's Vegas practice issues",
+   "source": "Formula1.com",
+   "date": "2026-11-20T09:37:27Z",
+   "date_is_seen_time": true,
+   "link": "https://www.formula1.com/en/latest/article/red-bull-working-to-understand-and-fix-verstappens-balance-issues-after-tricky-las-vegas-practice.2CbSLmEnwmgW8h0V1Ujr03",
+   "snippet": "Pierre Wache explains Max Verstappen's balance and energy management issues after a difficult Thursday in Las Vegas, with Red Bull working on solutions."
+  },
+  {
+   "title": "Russell admits Mercedes lacking pace despite topping FP2",
+   "source": "Formula1.com",
+   "date": "2026-11-20T09:37:27Z",
+   "date_is_seen_time": true,
+   "link": "https://www.formula1.com/en/latest/article/we-probably-were-not-the-fastest-russell-admits-mercedes-lacking-pace-despite-topping-fp2-in-las-vegas.6t2XX2vWPRCohJvtJ5PLeu",
+   "snippet": "George Russell admits that \"realistically we probably were not the fastest\", despite finishing top of the times in a wet Free Practice 2 ahead of the Las Vegas Grand Prix."
+  },
+  {
+   "title": "Piastri shares early impressions of new engine in Las Vegas",
+   "source": "Formula1.com",
+   "date": "2026-11-20T09:37:27Z",
+   "date_is_seen_time": true,
+   "link": "https://www.formula1.com/en/latest/article/piastri-shares-early-impressions-of-new-engine-in-las-vegas-as-he-prepares-for-grid-penalty.1EhZ4bKxodItgmXEX2euQf",
+   "snippet": "After taking on new power unit components, McLaren's Oscar Piastri has assessed how his first day on track went at the Las Vegas Grand Prix."
+  },
+  {
+   "title": "Russell beats Gasly and Leclerc to top spot in wet FP2",
+   "source": "Formula1.com",
+   "date": "2026-11-20T09:37:27Z",
+   "date_is_seen_time": true,
+   "link": "https://www.formula1.com/en/latest/article/fp2-russell-beats-gasly-and-leclerc-to-top-spot-in-wet-las-vegas-gp-practice.62NwXdkf1krQs0esgViJtc",
+   "snippet": "George Russell claimed top spot in Free Practice 2 ahead of the Las Vegas Grand Prix, the Mercedes driver beating Alpine's Pierre Gasly and Ferrari's Charles Leclerc."
+  },
+  {
+   "title": "Antonelli, Bearman and Stroll set for penalties in Las Vegas",
+   "source": "Formula1.com",
+   "date": "2026-11-20T09:37:27Z",
+   "date_is_seen_time": true,
+   "link": "https://www.formula1.com/en/latest/article/antonelli-bearman-and-stroll-set-for-grid-penalties-at-las-vegas-grand-prix.37Vixk6Mt1gvZlVXDsO8S",
+   "snippet": "Kimi Antonelli, Ollie Bearman and Lance Stroll have joined the list of drivers set to be hit with grid penalties at the Las Vegas Grand Prix."
+  },
+  {
+   "title": "AS IT HAPPENED: Second practice for the Las Vegas GP",
+   "source": "Formula1.com",
+   "date": "2026-11-20T09:37:27Z",
+   "date_is_seen_time": true,
+   "link": "https://www.formula1.com/en/latest/article/live-coverage-second-practice-in-las-vegas-2026.4jTMaRKyeJ2CONkCrsDQV1",
+   "snippet": "Live coverage of Thursday's second practice session for the 2026 Las Vegas Grand Prix."
+  },
+  {
+   "title": "Mercedes’ first female junior Fluxa Cross on her F1 ACADEMY debut",
+   "source": "Formula1.com",
+   "date": "2026-11-20T09:37:27Z",
+   "date_is_seen_time": true,
+   "link": "https://www.formula1.com/en/latest/article/im-part-of-a-family-mercedes-first-female-junior-fluxa-cross-on-her-f1-academy-debut-and-silver-arrows-support.4u3ANQLRWs1389wP4d2fKj",
+   "snippet": "Mercedes junior Luna Fluxa Cross reflects on how she is feeling ahead of her F1 ACADEMY debut in Las Vegas."
+  },
+  {
+   "title": "George Russell impressed by \"exceptionally fast\" McLaren as rain delays Lando Norris' floor test",
+   "source": "Motorsport.com",
+   "date": "2026-11-20T09:31:14Z",
+   "date_is_seen_time": false,
+   "link": "https://www.motorsport.com/f1/news/george-russell-impressed-by-exceptionally-fast-mclaren-as-rain-delays-lando-norris-floor-test/10875966/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+   "snippet": "George Russell came out of nowhere to set the fastest time in the closing stages of the second Formula 1 practice session in Las Vegas, although Alpine driver Pierre Gasly almost caused a major…"
+  },
+  {
+   "title": "Max Verstappen faces ‘major’ Red Bull balance problem after disrupted Las Vegas GP practice",
+   "source": "PlanetF1",
+   "date": "2026-11-20T09:20:00Z",
+   "date_is_seen_time": false,
+   "link": "https://www.planetf1.com/news/max-verstappen-red-bull-balance-issue-las-vegas-gp",
+   "snippet": "Red Bull is working to resolve a major balance problem that left Max Verstappen struggling during a disrupted opening day in Las Vegas..."
+  },
+  {
+   "title": "Wet Las Vegas practice was like a cold, miserable day karting at Rowrah – Hamilton | Formula 1",
+   "source": "RaceFans",
+   "date": "2026-11-20T09:09:46Z",
+   "date_is_seen_time": false,
+   "link": "https://www.racefans.net/2026/11/20/wet-las-vegas-practice-was-like-a-cold-miserable-day-karting-at-rowrah-hamilton/",
+   "snippet": "Lewis Hamilton said the rain-hit practice session at Las Vegas reminded him of his early days karting in the north of England."
+  },
+  {
+   "title": "Max Verstappen says NO to F1 as new data plan sparks privacy concerns",
+   "source": "GPFans",
+   "date": "2026-11-20T08:45:00Z",
+   "date_is_seen_time": false,
+   "link": "https://www.gpfans.com/en/f1-news/1093091/max-verstappen-f1-data-plan-heart-rate-rejection/",
+   "snippet": "Max Verstappen says he has no intention of co-operating with F1's new plan to broadcast drivers’ physical data, including their heart rates, live on television from next season."
+  },
+  {
+   "title": "McLaren finds hidden edge in Las Vegas as FP2 data uncovered",
+   "source": "PlanetF1",
+   "date": "2026-11-20T08:44:15Z",
+   "date_is_seen_time": false,
+   "link": "https://www.planetf1.com/f1-data/mclaren-las-vegas-gp-2026-fp2-findings",
+   "snippet": "George Russell topped FP2 at the Las Vegas Grand Prix, but the data shows why McLaren could yet factor this weekend."
+  },
+  {
+   "title": "Lewis Hamilton shares fresh update on Ferrari contract situation: \"No need to think about it\"",
+   "source": "Crash.net",
+   "date": "2026-11-20T08:42:38Z",
+   "date_is_seen_time": false,
+   "link": "https://www.crash.net/f1/news/1110273/1/lewis-hamilton-shares-fresh-update-ferrari-contract-situation-no-need-think-about",
+   "snippet": "Lewis Hamilton provides a fresh update on his Ferrari F1 contract situation."
+  },
+  {
+   "title": "Pirelli reintroduces stint limit for F1 Qatar GP",
+   "source": "Motorsport.com",
+   "date": "2026-11-20T08:21:28Z",
+   "date_is_seen_time": false,
+   "link": "https://www.motorsport.com/f1/news/pirelli-introduces-stint-limit-for-f1-qatar-gp-but-increases-total-from-2025/10875950/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+   "snippet": "Formula 1 teams will again have to follow a prescribed stint limit for each car at the Qatar Grand Prix to protect the Pirelli tyres around the high-degradation track. Drivers must complete no more…"
+  },
+  {
+   "title": "Pirelli reintroduces stint limit for F1 Qatar GP",
+   "source": "Autosport",
+   "date": "2026-11-20T08:21:11Z",
+   "date_is_seen_time": false,
+   "link": "https://www.autosport.com/f1/news/pirelli-reintroduces-stint-limit-for-f1-qatar-gp/10875958/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+   "snippet": "Formula 1 teams will again have to follow a prescribed stint limit for each car at the Qatar Grand Prix to protect the Pirelli tyres around the high-degradation track. Drivers must complete no more…"
+  },
+  {
+   "title": "Everything we learned from F1's wet Las Vegas GP practice running",
+   "source": "The Race",
+   "date": "2026-11-20T08:14:34Z",
+   "date_is_seen_time": false,
+   "link": "https://www.the-race.com/formula-1/f1-2026-las-vegas-gp-wet-practice-everything-we-learned/",
+   "snippet": "A wet Las Vegas GP practice day wasn't what F1 teams or drivers would've wanted. But it told us enough about some current limitations"
+  },
+  {
+   "title": "Why McLaren is selling its 2027 F1 car before it even races",
+   "source": "Crash.net",
+   "date": "2026-11-20T08:13:19Z",
+   "date_is_seen_time": false,
+   "link": "https://www.crash.net/f1/news/1110272/1/why-mclaren-selling-its-f1-2027-car-it-even-races",
+   "snippet": "McLaren explains its thinking behind selling its 2027 F1 car before it even races."
+  },
+  {
+   "title": "\"Same as Brazil\" – Red Bull \"trying to understand\" the root cause of Verstappen's complaints",
+   "source": "Autosport",
+   "date": "2026-11-20T08:12:55Z",
+   "date_is_seen_time": false,
+   "link": "https://www.autosport.com/f1/news/same-as-brazil-red-bull-trying-to-understand-the-root-cause-of-verstappens-complaints/10875945/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+   "snippet": "After Thursday's practice sessions in Las Vegas, Red Bull – like all Formula 1 teams – has been left with very few answers. Isack Hadjar eventually finished fourth on the timesheets, but that means…"
+  },
+  {
+   "title": "Cadillac delays F1 engine debut as GM prepares for 2030 V8 switch",
+   "source": "PlanetF1",
+   "date": "2026-11-20T08:01:56Z",
+   "date_is_seen_time": false,
+   "link": "https://www.planetf1.com/news/cadillac-f1-engine-plans-gm-2030-v8",
+   "snippet": "Cadillac will remain a Ferrari customer for another season as General Motors adjusts its engine programme around Formula 1's planned V8 return..."
+  },
+  {
+   "title": "Charles Leclerc at odds with FIA stewards' decision after being hit with controversial penalty",
+   "source": "GPFans",
+   "date": "2026-11-20T07:58:00Z",
+   "date_is_seen_time": false,
+   "link": "https://www.gpfans.com/en/f1-news/1093074/f1-charles-leclerc-ferrari-penalty-brazilian-grand-prix-liam-lawson-fia-harsh/",
+   "snippet": "Charles Leclerc has disagreed with stewards working on behalf of the FIA over a late penalty being imposed on him."
+  },
+  {
+   "title": "\"Same as Brazil\" – Red Bull \"trying to understand\" the root cause of Max Verstappen's complaints",
+   "source": "Motorsport.com",
+   "date": "2026-11-20T07:50:43Z",
+   "date_is_seen_time": false,
+   "link": "https://www.motorsport.com/f1/news/same-as-brazil-red-bull-trying-to-understand-the-root-cause-of-max-verstappens-complaints/10875939/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+   "snippet": "After Thursday's practice sessions in Las Vegas, Red Bull – like all Formula 1 teams – has been left with very few answers. Isack Hadjar eventually finished fourth on the timesheets, but that means…"
+  },
+  {
+   "title": "Brown: McLaren wouldn't trade Norris for anyone else on F1 grid",
+   "source": "Sky Sports",
+   "date": "2026-11-20T07:50:00Z",
+   "date_is_seen_time": false,
+   "link": "https://www.skysports.com/f1/news/12433/13614182/lando-norris-mclaren-chief-zak-brown-says-he-wouldnt-trade-2025-world-champion-for-any-other-driver-on-f1-grid",
+   "snippet": "McLaren chief Zak Brown says he would not want to trade Lando Norris for anyone else on the Formula 1 grid."
+  },
+  {
+   "title": "FIA confirms Kimi Antonelli penalty at Las Vegas Grand Prix",
+   "source": "PlanetF1",
+   "date": "2026-11-20T07:34:48Z",
+   "date_is_seen_time": false,
+   "link": "https://www.planetf1.com/news/fia-kimi-antonelli-las-vegas-grand-prix-2026-penalty",
+   "snippet": "The FIA has made it official."
+  },
+  {
+   "title": "FIA confirms 35-place Las Vegas Grand Prix penalty for Oliver Bearman",
+   "source": "PlanetF1",
+   "date": "2026-11-20T07:19:33Z",
+   "date_is_seen_time": false,
+   "link": "https://www.planetf1.com/news/fia-las-vegas-grand-prix-2026-penalty",
+   "snippet": "Oliver Bearman has been handed a penalty in Las Vegas."
+  },
+  {
+   "title": "Max Verstappen’s curious lack of Las Vegas GP practice running explained",
+   "source": "Crash.net",
+   "date": "2026-11-20T07:13:05Z",
+   "date_is_seen_time": false,
+   "link": "https://www.crash.net/f1/news/1110271/1/max-verstappens-curious-lack-las-vegas-gp-practice-running-explained",
+   "snippet": "Max Verstappen's lack of running in Las Vegas Grand Prix practice has been explained."
+  },
+  {
+   "title": "Honda confirm Aston Martin F1 changes for 2027 after Lance Stroll nears unwanted record",
+   "source": "GPFans",
+   "date": "2026-11-20T07:12:00Z",
+   "date_is_seen_time": false,
+   "link": "https://www.gpfans.com/en/f1-news/1093079/f1-aston-martin-honda-changes-2027-lance-stroll-retirement-record/",
+   "snippet": "Honda have confirmed that they will be making fundamental changes to their F1 power units for the 2027 season."
+  },
+  {
+   "title": "What now for Colton Herta after Valtteri Bottas Cadillac stay for F1 2027?",
+   "source": "Crash.net",
+   "date": "2026-11-20T06:50:54Z",
+   "date_is_seen_time": false,
+   "link": "https://www.crash.net/f1/news/1110270/1/what-now-colton-herta-after-valtteri-bottas-cadillac-stay-f1-2027",
+   "snippet": "Cadillac outlines what is next for Colton Herta after 2027 F1 race seat snub."
+  },
+  {
+   "title": "Russell fastest in Las Vegas practice after rain",
+   "source": "BBC Sport",
+   "date": "2026-11-20T06:40:04Z",
+   "date_is_seen_time": false,
+   "link": "https://www.bbc.co.uk/sport/formula1/articles/c9gklmdmnzydo?at_medium=RSS&at_campaign=rss",
+   "snippet": "Mercedes' George Russell topped a second practice session at the Las Vegas Grand Prix run on a wet but slowly drying track."
+  },
+  {
+   "title": "Lewis Hamilton plans \"GTA VI\" session after Vegas FP2: \"I'm like a big kid\"",
+   "source": "Motorsport.com",
+   "date": "2026-11-20T06:37:05Z",
+   "date_is_seen_time": false,
+   "link": "https://www.motorsport.com/f1/news/lewis-hamilton-plans-gta-vi-session-after-vegas-fp2-im-like-a-big-kid/10875895/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+   "snippet": "Lewis Hamilton finished sixth in a slippery second practice for the Las Vegas Grand Prix, before what he had promised fans would be an early night at his hotel with the newly released Grand Theft…"
+  },
+  {
+   "title": "Lewis Hamilton launches alien-themed Area 44 collection for Las Vegas GP",
+   "source": "Motorsport.com",
+   "date": "2026-11-20T06:35:38Z",
+   "date_is_seen_time": false,
+   "link": "https://www.motorsport.com/f1/news/lewis-hamiltons-44-launches-alien-themed-area-44-collection-for-las-vegas-gp/10875890/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+   "snippet": "Seven-time Formula 1 champion Lewis Hamilton's fashion label +44 has returned to Las Vegas with Area 44, an alien-themed collection released ahead of this weekend's grand prix. The range is on sale…"
+  },
+  {
+   "title": "F1 bosses close to V8 engines deal from 2030",
+   "source": "BBC Sport",
+   "date": "2026-11-20T06:35:38Z",
+   "date_is_seen_time": false,
+   "link": "https://www.bbc.co.uk/sport/formula1/articles/cvj6l7nk611jo?at_medium=RSS&at_campaign=rss",
+   "snippet": "Formula 1 bosses are close to a deal that will see V8 turbo hybrid engines replace the current controversial engines in 2030."
+  },
+  {
+   "title": "F1 has “agreement in principle” to ditch 2026 engines after just four seasons | Formula 1",
+   "source": "RaceFans",
+   "date": "2026-11-20T06:29:22Z",
+   "date_is_seen_time": false,
+   "link": "https://www.racefans.net/2026/11/20/f1-has-agreement-in-principle-to-ditch-2026-engines-after-just-four-seasons/",
+   "snippet": "Formula 1 teams have agreed to scrap the widely-criticised 2026 engine regulations ahead of schedule."
+  },
+  {
+   "title": "The art of protection - inside an F1 helmet factory",
+   "source": "BBC Sport",
+   "date": "2026-11-20T06:29:04Z",
+   "date_is_seen_time": false,
+   "link": "https://www.bbc.co.uk/sport/formula1/articles/cm20vpq8z6n4o?at_medium=RSS&at_campaign=rss",
+   "snippet": "Inside the extraordinary world of Formula 1 helmets, where precision engineering, personal expression and life-saving technology join forces."
+  },
+  {
+   "title": "Charles Leclerc reveals Ferrari showdown as Rosberg gives Hamilton relationship update - F1 News Today",
+   "source": "GPFans",
+   "date": "2026-11-20T06:27:00Z",
+   "date_is_seen_time": false,
+   "link": "https://www.gpfans.com/en/f1-news/1093084/f1-news-today-charles-leclerc-ferrari-showdown-details-nico-rosberg-lewis-hamilton-relationship/",
+   "snippet": "Charles Leclerc has opened up on the Ferrari meeting between himself, Lewis Hamilton and Fred Vasseur at the Brazilian Grand Prix."
+  },
+  {
+   "title": "FIA confirms permanent F1 race stewards in major 2027 change",
+   "source": "PlanetF1",
+   "date": "2026-11-20T06:19:58Z",
+   "date_is_seen_time": false,
+   "link": "https://www.planetf1.com/news/fia-f1-2027-permanent-stewards",
+   "snippet": "Formula 1 will introduce full-time stewards from 2027, with the FIA aiming to improve consistency and professionalise officiating..."
+  },
+  {
+   "title": "Isack Hadjar: \"I realised why Max is a four-time world champion\"",
+   "source": "Motorsport.com",
+   "date": "2026-11-20T06:18:42Z",
+   "date_is_seen_time": false,
+   "link": "https://www.motorsport.com/f1/news/isack-hadjar-i-realised-why-max-is-a-four-time-world-champion/10875884/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+   "snippet": "Isack Hadjar says his first season as Max Verstappen's team-mate at Red Bull has opened his eyes to why the Dutchman is a four-time Formula 1 world champion. Hadjar moved up from Racing Bulls for his…"
+  },
+  {
+   "title": "F1 teams confirm “agreement in principle” on V8 return after deleted FIA posts cause confusion",
+   "source": "Crash.net",
+   "date": "2026-11-20T06:05:18Z",
+   "date_is_seen_time": false,
+   "link": "https://www.crash.net/f1/news/1110269/1/f1-teams-confirm-agreement-principle-v8-return-after-deleted-fia-posts-cause",
+   "snippet": "F1 teams confirm there is an \"agreement in principle\" to return to V8 engines in 2030."
+  },
+  {
+   "title": "Lewis Hamilton delivers fresh update on Ferrari contract situation",
+   "source": "PlanetF1",
+   "date": "2026-11-20T06:02:54Z",
+   "date_is_seen_time": false,
+   "link": "https://www.planetf1.com/news/lewis-hamilton-delivers-ferrari-contract-update",
+   "snippet": "Lewis Hamilton's current contract with Ferrari is due to expire at the end of 2027."
+  },
+  {
+   "title": "F1 – Russell beats Gasly and Leclerc to top spot in wet Las Vegas FP2",
+   "source": "FIA",
+   "date": "2026-11-20T06:01:00Z",
+   "date_is_seen_time": false,
+   "link": "https://www.fia.com/news/f1-russell-beats-gasly-and-leclerc-top-spot-wet-las-vegas-fp2",
+   "snippet": "George Russell topped the timesheets in a rain-affected Free Practice 2 for the 2026 FIA Formula 1 Las Vegas Grand Prix. The Mercedes driver beat Alpine’s Pierre Gasly and Ferrari’s…"
+  },
+  {
+   "title": "Antonelli hit with grid penalty for Las Vegas GP",
+   "source": "Sky Sports",
+   "date": "2026-11-20T06:00:00Z",
+   "date_is_seen_time": false,
+   "link": "https://www.skysports.com/f1/news/12433/13614180/las-vegas-gp-kimi-antonelli-to-serve-grid-penalty-along-with-oscar-piastri-carlos-sainz-lance-stroll-oliver-bearman",
+   "snippet": "Kimi Antonelli has received a five-place grid penalty for the Las Vegas Grand Prix after further exceeding his engine allocation for the season."
+  },
+  {
+   "title": "Historic FIA stewards decision announced at F1 Las Vegas Grand Prix",
+   "source": "GPFans",
+   "date": "2026-11-20T05:55:00Z",
+   "date_is_seen_time": false,
+   "link": "https://www.gpfans.com/en/f1-news/1093088/fia-f1-stewards-full-time-from-2027/",
+   "snippet": "F1 Las Vegas Grand Prix weekend got under way with the historic announcement that the FIA will begin to recruit full-time stewards from the 2027 season."
+  },
+  {
+   "title": "Zak Brown explains why McLaren keeps selling F1 cars before they race ahead of 2027 auction",
+   "source": "Motorsport.com",
+   "date": "2026-11-20T05:54:00Z",
+   "date_is_seen_time": false,
+   "link": "https://www.motorsport.com/f1/news/zak-brown-explains-why-mclaren-keeps-selling-f1-cars-before-they-race-ahead-of-2027-auction/10875872/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+   "snippet": "McLaren Racing CEO Zak Brown has explained why the Woking outfit is selling its Formula 1 cars at auction before they have even turned a wheel, saying the alternative is leaving them hidden away…"
+  },
+  {
+   "title": "Zak Brown says McLaren will always respect staff who want to skip Middle East races",
+   "source": "Motorsport.com",
+   "date": "2026-11-20T05:36:00Z",
+   "date_is_seen_time": false,
+   "link": "https://www.motorsport.com/f1/news/zak-brown-says-mclaren-will-always-respect-staff-who-want-to-skip-middle-east-races/10875831/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+   "snippet": "Formula 1 is pressing ahead with its season-ending swing through the Middle East, and McLaren is making clear that no member of its travelling workforce will be forced onto the plane. Speaking during…"
+  },
+  {
+   "title": "Five drivers to take grid penalties at Las Vegas Grand Prix | Formula 1",
+   "source": "RaceFans",
+   "date": "2026-11-20T05:35:57Z",
+   "date_is_seen_time": false,
+   "link": "https://www.racefans.net/2026/11/20/five-drivers-to-take-grid-penalties-at-las-vegas-grand-prix/",
+   "snippet": "Andrea Kimi Antonelli and Oscar Piastri are among the drivers who will take grid penalties at the Las Vegas Grand Prix."
+  },
+  {
+   "title": "Five F1 drivers carrying grid penalties at Las Vegas GP",
+   "source": "Crash.net",
+   "date": "2026-11-20T05:30:23Z",
+   "date_is_seen_time": false,
+   "link": "https://www.crash.net/f1/news/1110267/1/five-f1-drivers-carrying-grid-penalties-las-vegas-gp",
+   "snippet": "At least five F1 drivers will take grid penalties at the Las Vegas Grand Prix."
+  },
+  {
+   "title": "Russell fastest as rain limits running in Las Vegas GP practice",
+   "source": "Sky Sports",
+   "date": "2026-11-20T05:30:00Z",
+   "date_is_seen_time": false,
+   "link": "https://www.skysports.com/f1/news/12433/13614175/las-vegas-gp-george-russell-tops-practice-for-mercedes-as-rain-limits-running-on-first-day-of-track-action",
+   "snippet": "Mercedes' George Russell topped Practice Two from Alpine's Pierre Gasly as rain limited running on the opening day of track action at the Las Vegas Grand Prix."
+  },
+  {
+   "title": "F1 Las Vegas GP: George Russell pips Pierre Gasly in tricky FP2",
+   "source": "Motorsport.com",
+   "date": "2026-11-20T05:22:53Z",
+   "date_is_seen_time": false,
+   "link": "https://www.motorsport.com/f1/news/f1-las-vegas-gp-fp2-report/10875824/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+   "snippet": "George Russell pipped Pierre Gasly to go fastest in second practice for the Formula 1 Las Vegas Grand Prix thanks to a last-gasp effort in slippery conditions. The Mercedes driver set a 1m47.272s as…"
+  },
+  {
+   "title": "What next for Herta after 'disappointing' Bottas 2027 decision",
+   "source": "The Race",
+   "date": "2026-11-20T05:20:39Z",
+   "date_is_seen_time": false,
+   "link": "https://www.the-race.com/formula-1/what-next-for-herta-after-disappointing-bottas-2027-decision/",
+   "snippet": "Cadillac has offered a \"disappointed\" Colton Herta a reserve driver role for 2027 after sticking with Valtteri Bottas"
+  },
+  {
+   "title": "Russell grabs fastest time after late red flag in second practice | Formula 1",
+   "source": "RaceFans",
+   "date": "2026-11-20T05:18:55Z",
+   "date_is_seen_time": false,
+   "link": "https://www.racefans.net/2026/11/20/russell-grabs-fastest-time-after-late-red-flag-in-second-practice/",
+   "snippet": "George Russell led the second practice session on a drying track at Las Vegas, hitting the top of the times with his final lap."
+  },
+  {
+   "title": "What happened in wet Las Vegas Grand Prix FP2",
+   "source": "The Race",
+   "date": "2026-11-20T05:17:01Z",
+   "date_is_seen_time": false,
+   "link": "https://www.the-race.com/formula-1/george-russell-denies-pierre-gasly-wet-las-vegas-gp-fp2/",
+   "snippet": "Mercedes' George Russell narrowly denied Pierre Gasly and Alpine an upset result in second practice for F1's Las Vegas GP"
+  },
+  {
+   "title": "F1 Results Today: Las Vegas Grand Prix practice times and positions",
+   "source": "GPFans",
+   "date": "2026-11-20T05:17:00Z",
+   "date_is_seen_time": false,
+   "link": "https://www.gpfans.com/en/f1-news/1093087/f1-results-today-las-vegas-grand-prix-2026-practice-times-positions-fp1-fp2/",
+   "snippet": "The 2026 F1 Las Vegas Grand Prix got under way with Thursday's opening practice sessions providing something of a damp squib in cold and damp conditions in Nevada."
+  },
+  {
+   "title": "F1 Las Vegas GP: Russell fastest in damp FP2 from Gasly",
+   "source": "Autosport",
+   "date": "2026-11-20T05:15:28Z",
+   "date_is_seen_time": false,
+   "link": "https://www.autosport.com/f1/news/f1-las-vegas-gp-russell-fastest-in-damp-fp2-from-gasly/10875841/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+   "snippet": "George Russell pipped Pierre Gasly to go fastest in second practice for the Formula 1 Las Vegas Grand Prix thanks to a late time in slippery conditions. The Mercedes driver set a 1m47.272s at the…"
+  },
+  {
+   "title": "F1 results: Las Vegas Grand Prix 2026 – FP2 (Las Vegas Strip Circuit)",
+   "source": "PlanetF1",
+   "date": "2026-11-20T05:14:11Z",
+   "date_is_seen_time": false,
+   "link": "https://www.planetf1.com/news/f1-results-las-vegas-grand-prix-2026-fp2-las-vegas-strip-circuit",
+   "snippet": "Check out the complete F1 results from the second practice session (FP2) at the Las Vegas Grand Prix at the Strip Circuit..."
+  },
+  {
+   "title": "2026 F1 Las Vegas Grand Prix: Friday practice results",
+   "source": "Crash.net",
+   "date": "2026-11-20T05:13:00Z",
+   "date_is_seen_time": false,
+   "link": "https://www.crash.net/f1/results/1110235/1/2026-f1-las-vegas-grand-prix-friday-practice-results",
+   "snippet": "Full results from Friday’s practice sessions at the 2026 F1 Las Vegas Grand Prix."
+  },
+  {
+   "title": "George Russell steals the show with last-gasp lap in Las Vegas GP FP2",
+   "source": "PlanetF1",
+   "date": "2026-11-20T05:08:33Z",
+   "date_is_seen_time": false,
+   "link": "https://www.planetf1.com/news/2026-las-vegas-grand-prix-fp2-report",
+   "snippet": "George Russell set the pace ahead of Pierre Gasly..."
+  },
+  {
+   "title": "F1 2026 Las Vegas Grand Prix practice results",
+   "source": "The Race",
+   "date": "2026-11-20T05:00:00Z",
+   "date_is_seen_time": false,
+   "link": "https://www.the-race.com/formula-1/f1-2026-las-vegas-grand-prix-practice-results/",
+   "snippet": "All the results from F1's 2026 Las Vegas Grand Prix practice sessions"
+  },
+  {
+   "title": "Where to see F1 cars in Las Vegas without a race ticket",
+   "source": "Motorsport.com",
+   "date": "2026-11-20T04:57:03Z",
+   "date_is_seen_time": false,
+   "link": "https://www.motorsport.com/f1/news/where-to-see-f1-cars-in-las-vegas-without-a-race-ticket/10875839/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+   "snippet": "You do not need a grandstand seat to get close to a Formula 1 car in Las Vegas this week. Teams, partners and resorts have parked show cars and replicas all over the Strip for the Las Vegas Grand…"
+  },
+  {
+   "title": "Five drivers set for grid penalties for engine changes at F1 Las Vegas GP",
+   "source": "Motorsport.com",
+   "date": "2026-11-20T04:56:41Z",
+   "date_is_seen_time": false,
+   "link": "https://www.motorsport.com/f1/news/five-drivers-set-for-grid-penalties-for-engine-changes-at-f1-las-vegas-gp/10875835/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+   "snippet": "Five drivers will take grid penalties for the Las Vegas Grand Prix, including new Formula 1 world champion Kimi Antonelli. As previously indicated by Mercedes, Antonelli will take a five-place grid…"
+  },
+  {
+   "title": "At least five drivers carrying grid penalties at F1's Las Vegas GP",
+   "source": "The Race",
+   "date": "2026-11-20T04:48:23Z",
+   "date_is_seen_time": false,
+   "link": "https://www.the-race.com/formula-1/f1-2026-las-vegas-gp-at-least-five-drivers-carrying-grid-penalties/",
+   "snippet": "At least five drivers, including 2026 F1 world champion Kimi Antonelli, will take grid penalties for the Las Vegas GP"
+  },
+  {
+   "title": "Zak Brown confirms “agreement in principle” on F1’s V8 return after deleted FIA posts",
+   "source": "Motorsport.com",
+   "date": "2026-11-20T04:37:14Z",
+   "date_is_seen_time": false,
+   "link": "https://www.motorsport.com/f1/news/zak-brown-confirms-agreement-in-principle-on-f1s-v8-return-after-deleted-fia-posts/10875816/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+   "snippet": "Confusion hung over the Las Vegas Grand Prix paddock all week after official FIA social media channels briefly published—and abruptly deleted—graphics declaring an agreement in principle to bring V8…"
+  },
+  {
+   "title": "Cadillac scraps V6 F1 engine, delays entry as PU manufacturer",
+   "source": "Motorsport.com",
+   "date": "2026-11-20T04:02:15Z",
+   "date_is_seen_time": false,
+   "link": "https://www.motorsport.com/f1/news/cadillac-confirms-gm-will-introduce-its-own-f1-power-unit-a-year-later-than-initially-planned/10875798/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+   "snippet": "Cadillac is set to delay the introduction of its in-house Formula 1 power unit by a year to 2030. The American squad's initial plan was to compete in the championship with its own General Motors…"
+  },
+  {
+   "title": "Cadillac ditches plan to produce own V6 hybrid engine ahead of F1’s V8 push",
+   "source": "Autosport",
+   "date": "2026-11-20T04:01:54Z",
+   "date_is_seen_time": false,
+   "link": "https://www.autosport.com/f1/news/cadillac-ditches-plan-to-produce-own-v6-hybrid-engine-ahead-of-f1s-v8-push/10875807/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+   "snippet": "Cadillac is set to delay the introduction of its in-house Formula 1 power unit by a year to 2030. The American squad's initial plan was to compete in the championship with its own General Motors…"
+  },
+  {
+   "title": "Nike returns to F1 after 24 years as official apparel partner",
+   "source": "Crash.net",
+   "date": "2026-11-20T03:43:31Z",
+   "date_is_seen_time": false,
+   "link": "https://www.crash.net/f1/news/1110240/1/nike-returns-f1-after-24-years-official-apparel-partner",
+   "snippet": "Nike will takeover from Puma as F1's official apparel partner in 2027."
+  },
+  {
+   "title": "Las Vegas Grand Prix 2026: How FP2 unfolded in Las Vegas",
+   "source": "PlanetF1",
+   "date": "2026-11-20T03:42:35Z",
+   "date_is_seen_time": false,
+   "link": "https://www.planetf1.com/news/las-vegas-grand-prix-live-2026-fp2-updates",
+   "snippet": "How FP2 unfolded at the Las Vegas Grand Prix."
+  },
+  {
+   "title": "F1 – Rain limits running in opening practice for Las Vegas Grand Prix",
+   "source": "FIA",
+   "date": "2026-11-20T02:19:00Z",
+   "date_is_seen_time": false,
+   "link": "https://www.fia.com/news/f1-rain-limits-running-opening-practice-las-vegas-grand-prix",
+   "snippet": "Wet conditions and a slippery track surface resulted in a quiet opening practice session for the 2026 FIA Formula 1 Las Vegas Grand Prix, with drivers completing exploratory laps but no…"
+  },
+  {
+   "title": "Formula 1 teams set no lap times in wet first practice at Las Vegas | Formula 1",
+   "source": "RaceFans",
+   "date": "2026-11-20T02:04:49Z",
+   "date_is_seen_time": false,
+   "link": "https://www.racefans.net/2026/11/20/formula-1-teams-set-no-lap-times-set-in-wet-first-practice-at-las-vegas/",
+   "snippet": "Sergio Perez headed first practice for Cadillac but no drivers set any lap times on the soaked Las Vegas Strip Circuit."
+  },
+  {
+   "title": "2026 F1 Las Vegas Grand Prix: Sergio Perez tops washed-out FP1",
+   "source": "Crash.net",
+   "date": "2026-11-20T01:52:28Z",
+   "date_is_seen_time": false,
+   "link": "https://www.crash.net/f1/news/1110236/1/2026-f1-las-vegas-grand-prix-sergio-perez-tops-washed-out-fp1",
+   "snippet": "Sergio Perez was classified at the top of the FP1 session at the 2026 F1 Las Vegas Grand Prix."
+  },
+  {
+   "title": "F1 Las Vegas GP: Rain ruins FP1 running",
+   "source": "Motorsport.com",
+   "date": "2026-11-20T01:46:06Z",
+   "date_is_seen_time": false,
+   "link": "https://www.motorsport.com/f1/news/f1-las-vegas-gp-rain-washes-out-fp1/10875778/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+   "snippet": "\"If we're on a track like Vegas and it rains, honestly, I think we're in trouble,\" Racing Bulls driver Liam Lawson predicted after sampling this year's rain tyres in Brazil. His comments reflected…"
+  },
+  {
+   "title": "F1 Las Vegas GP: Rain drowns out FP1",
+   "source": "Autosport",
+   "date": "2026-11-20T01:43:05Z",
+   "date_is_seen_time": false,
+   "link": "https://www.autosport.com/f1/news/f1-las-vegas-gp-fp1-report/10875770/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+   "snippet": "\"If we're on a track like Vegas and it rains, honestly, I think we're in trouble,\" Racing Bulls driver Liam Lawson predicted after sampling this year's rain tyres in Brazil. His comments reflected…"
+  },
   {
    "title": "Komatsu insists there is 'no doubt' over Bearman’s Haas seat",
    "source": "Formula1.com",
@@ -224,6 +800,14 @@
    "date_is_seen_time": false,
    "link": "https://www.gpfans.com/en/f1-news/1093063/f1-charles-leclerc-ferrari-lewis-hamilton-fred-vasseur-meeting-las-vegas-brazil/",
    "snippet": "Charles Leclerc has opened up on the Ferrari meeting between himself, Lewis Hamilton and Fred Vasseur at the Brazilian Grand Prix."
+  },
+  {
+   "title": "F1 - 2026 Las Vegas Grand Prix - Thursday Press Conference Transcript",
+   "source": "FIA",
+   "date": "2026-11-19T19:36:00Z",
+   "date_is_seen_time": false,
+   "link": "https://www.fia.com/news/f1-2026-las-vegas-grand-prix-thursday-press-conference-transcript",
+   "snippet": "TEAM REPRESENTATIVES - Dan TOWRISS (Cadillac), Flavio BRIATORE (Alpine), Zak BROWN (McLaren) Q: Zak, why don't we start with you? You're celebrating 10 years with McLaren this week. The…"
   },
   {
    "title": "Oscar Piastri addresses management plans after Mark Webber split",
