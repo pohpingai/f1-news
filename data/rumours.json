@@ -1,7 +1,74 @@
 {
- "updated": "2026-11-20T09:40:07Z",
+ "updated": "2026-11-20T18:19:38Z",
  "model": "anthropic/claude-haiku-5.5",
  "rumours": [
+  {
+   "id": "rfcccb08c",
+   "claim": "Stellantis reportedly will cancel its Peugeot WEC and Citroen Formula E programmes.",
+   "people": [
+    "Stellantis",
+    "Peugeot",
+    "Citroen"
+   ],
+   "status": "Active",
+   "trend": "steady",
+   "first_seen": "2026-11-20T10:51:51Z",
+   "last_seen": "2026-11-20T10:51:51Z",
+   "sources": [
+    {
+     "title": "Spotlight: Report claims Stellantis will cancel its Peugeot WEC and Citroen Formula E programmes | Brief",
+     "source": "RaceFans",
+     "date": "2026-11-20T10:51:51Z",
+     "link": "https://www.racefans.net/2026/11/20/spotlight-report-claims-stellantis-will-cancel-its-peugeot-wec-and-citroen-formula-e-programmes/"
+    }
+   ],
+   "cards": [
+    "c8fd883b7"
+   ],
+   "proof": null,
+   "history": [
+    {
+     "time": "2026-11-20T18:19:38Z",
+     "event": "created",
+     "detail": "First seen: RaceFans (2026-11-20)",
+     "reason": "No known rumour covers the cancellation of Stellantis's Peugeot WEC or Citroen Formula E programmes.",
+     "card": "Report claims Stellantis will cancel Peugeot WEC and Citroen Formula E programmes"
+    }
+   ]
+  },
+  {
+   "id": "r2b8c86a2",
+   "claim": "Ferrari's 2027 driver line-up is reportedly deadlocked, with only one seat technically available and the favourite for it reportedly unhappy, while Lewis Hamilton's future is unclear.",
+   "people": [
+    "Ferrari",
+    "Lewis Hamilton"
+   ],
+   "status": "Active",
+   "trend": "steady",
+   "first_seen": "2026-11-20T09:56:00Z",
+   "last_seen": "2026-11-20T09:56:00Z",
+   "sources": [
+    {
+     "title": "F1 star in Ferrari deadlock as Lewis Hamilton future complicates driver lineup",
+     "source": "GPFans",
+     "date": "2026-11-20T09:56:00Z",
+     "link": "https://www.gpfans.com/en/f1-news/1093071/f1-ollie-bearman-ferrari-lewis-hamilton-2027-haas-new-contract/"
+    }
+   ],
+   "cards": [
+    "c6f9dd1d1"
+   ],
+   "proof": null,
+   "history": [
+    {
+     "time": "2026-11-20T18:19:38Z",
+     "event": "created",
+     "detail": "First seen: GPFans (2026-11-20)",
+     "reason": "It concerns Ferrari's 2027 driver situation like the known Ferrari lead-driver rumour (R4), but it describes a seat deadlock rather than the specific lead-driver choice, so it is not clearly the same claim.",
+     "card": "Ferrari driver deadlock complicates 2027 seat as Hamilton's future is unclear"
+    }
+   ]
+  },
   {
    "id": "r7629d743",
    "claim": "Lewis Hamilton could reportedly leave Ferrari to return to McLaren.",
@@ -303,7 +370,7 @@
     "Liberty Media"
    ],
    "status": "Active",
-   "trend": "steady",
+   "trend": "fading",
    "first_seen": "2026-11-15T12:23:39Z",
    "last_seen": "2026-11-15T12:23:39Z",
    "sources": [
@@ -536,7 +603,7 @@
   "c7bca97b3": "1|Confirmed",
   "cad42a732": "1|Confirmed",
   "c15f59184": "1|Reported",
-  "c18ab9564": "7|Confirmed",
+  "c18ab9564": "8|Confirmed",
   "cf4671225": "1|Reported",
   "c46bfebac": "1|Confirmed",
   "c04501f0b": "2|Reported",
@@ -589,7 +656,7 @@
   "cf08fc1f2": "1|Reported",
   "cd772e578": "1|Reported",
   "ccb880c30": "1|Reported",
-  "c0a53dae3": "1|Confirmed",
+  "c0a53dae3": "2|Confirmed",
   "c86c192da": "1|Reported",
   "c6cecc16b": "1|Reported",
   "c7759b772": "1|Confirmed",
@@ -602,17 +669,33 @@
   "c74d804e1": "1|Reported",
   "c079b9f09": "1|Confirmed",
   "cdebe6a30": "5|Confirmed",
-  "c28ae87f1": "4|Confirmed",
+  "c28ae87f1": "6|Confirmed",
   "c033d0083": "1|Confirmed",
   "c172830d2": "1|Reported",
-  "cf39f0077": "1|Confirmed",
+  "cf39f0077": "2|Confirmed",
   "c5dc4bee2": "1|Reported",
   "ca77bc4f1": "2|Reported",
   "c99c13b12": "5|Confirmed",
   "c11e4c7fd": "1|Confirmed",
   "c86ad2b24": "1|Reported",
   "ca2123395": "1|Reported",
-  "cdc91a5c5": "1|Confirmed",
-  "c2336eef8": "1|Reported"
+  "cdc91a5c5": "3|Confirmed",
+  "c2336eef8": "1|Reported",
+  "c6f9dd1d1": "1|Rumour",
+  "c8fd883b7": "1|Rumour",
+  "cc5edec11": "1|Reported",
+  "c53a45490": "1|Reported",
+  "cd6187c04": "3|Reported",
+  "cba25d9dd": "1|Reported",
+  "c506f21ed": "3|Confirmed",
+  "cebbffb39": "1|Reported",
+  "c33006cc5": "2|Reported",
+  "c4e085191": "1|Reported",
+  "cf5f90d2a": "1|Reported",
+  "ca6523011": "1|Reported",
+  "c4566f06d": "1|Reported",
+  "c0561402c": "1|Reported",
+  "c117be4a8": "2|Reported",
+  "c0105474b": "1|Reported"
  }
 }
