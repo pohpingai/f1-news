@@ -1,9 +1,9 @@
 {
- "updated_at": "2026-11-17T21:15:25+00:00",
+ "updated_at": "2026-11-21T19:40:35+00:00",
  "source": "Jolpica F1 API (api.jolpi.ca), Ergast-compatible",
  "note": "Standings points include sprint races. 'races' lists Grand Prix results only (no sprints, no qualifying), so adding up race points can be less than the standings.",
  "season": "2026",
- "after_round": 20,
+ "after_round": 21,
  "last_race": "Brazilian Grand Prix",
  "driver_standings": [
   {
@@ -6938,6 +6938,19 @@
    "session": "Q3",
    "time": "1:27.470",
    "seconds": 87.47
+  },
+  {
+   "season": "2026",
+   "round": 21,
+   "race": "Las Vegas Grand Prix",
+   "circuit_id": "vegas",
+   "circuit": "Las Vegas Strip Street Circuit",
+   "driver": "Andrea Kimi Antonelli",
+   "code": "ANT",
+   "team": "Mercedes",
+   "session": "Q3",
+   "time": "1:33.893",
+   "seconds": 93.893
   }
  ],
  "next_race": {
@@ -6953,17 +6966,17 @@
  },
  "game_poles": {
   "vegas": {
-   "season": "2025",
-   "round": 22,
+   "season": "2026",
+   "round": 21,
    "race": "Las Vegas Grand Prix",
    "circuit_id": "vegas",
    "circuit": "Las Vegas Strip Street Circuit",
-   "driver": "Lando Norris",
-   "code": "NOR",
-   "team": "McLaren",
+   "driver": "Andrea Kimi Antonelli",
+   "code": "ANT",
+   "team": "Mercedes",
    "session": "Q3",
-   "time": "1:47.934",
-   "seconds": 107.934
+   "time": "1:33.893",
+   "seconds": 93.893
   }
  }
 }
