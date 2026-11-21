@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T18:19:38Z",
+ "updated": "2026-11-21T01:07:05Z",
  "model": "anthropic/claude-haiku-5.5",
  "rumours": [
   {
@@ -360,6 +360,14 @@
      "detail": "First seen: The Race (2026-11-16)",
      "reason": "This is a specific regulatory claim about the V8 engine plan, which is different from the known rumour about cost cap changes at the Commission meeting.",
      "card": "F1 set for major step towards V8 engine return"
+    },
+    {
+     "time": "2026-11-21T01:07:05Z",
+     "event": "blocked",
+     "detail": "The AI suggested 'Confirmed' but it was NOT applied: the evidence words were not found in the proof card's headlines or snippets.",
+     "reason": "The official FIA announcement says the 2030 V8 power unit framework was agreed unanimously, which matches the rumoured step forward with manufacturers backing the new regulations.",
+     "card": "F1 confirms V8 engine return from 2030 after unanimous agreement",
+     "evidence": "FIA – The V8 Future: Unanimous Agreement Reached on FIA’s 2030 Formula 1 Power Unit Framework"
     }
    ]
   },
@@ -631,12 +639,12 @@
   "c8cd47a26": "1|Confirmed",
   "c4987cfb6": "1|Rumour",
   "cdf80d09e": "1|Reported",
-  "c698ce129": "17|Confirmed",
+  "c698ce129": "18|Confirmed",
   "cea70c766": "1|Reported",
   "c655ed527": "1|Reported",
   "c66509511": "1|Reported",
   "caf0db7f2": "4|Reported",
-  "cab9e2ace": "4|Reported",
+  "cab9e2ace": "5|Reported",
   "c733740e9": "1|Reported",
   "c5e2fd1f1": "1|Reported",
   "c705813d4": "1|Reported",
@@ -667,7 +675,7 @@
   "cba0cb9fb": "1|Reported",
   "cf08c5237": "1|Reported",
   "c74d804e1": "1|Reported",
-  "c079b9f09": "1|Confirmed",
+  "c079b9f09": "3|Reported",
   "cdebe6a30": "5|Confirmed",
   "c28ae87f1": "6|Confirmed",
   "c033d0083": "1|Confirmed",
@@ -687,7 +695,7 @@
   "c53a45490": "1|Reported",
   "cd6187c04": "3|Reported",
   "cba25d9dd": "1|Reported",
-  "c506f21ed": "3|Confirmed",
+  "c506f21ed": "4|Confirmed",
   "cebbffb39": "1|Reported",
   "c33006cc5": "2|Reported",
   "c4e085191": "1|Reported",
@@ -696,6 +704,13 @@
   "c4566f06d": "1|Reported",
   "c0561402c": "1|Reported",
   "c117be4a8": "2|Reported",
-  "c0105474b": "1|Reported"
+  "c0105474b": "1|Reported",
+  "c57643093": "1|Reported",
+  "c9520248d": "9|Confirmed",
+  "c8ccec610": "1|Reported",
+  "c49d96e56": "1|Reported",
+  "cdbfe8ec5": "1|Reported",
+  "c287477e6": "1|Confirmed",
+  "cca1fae1b": "1|Reported"
  }
 }
