@@ -1,6 +1,294 @@
 {
- "updated": "2026-11-21T09:10:08Z",
+ "updated": "2026-11-21T17:05:10Z",
  "stories": [
+  {
+   "title": "How F1 fans can avoid emotional betting in Las Vegas",
+   "source": "Formula1.com",
+   "date": "2026-11-21T17:05:10Z",
+   "date_is_seen_time": true,
+   "link": "https://www.formula1.com/en/latest/article/how-f1-fans-can-avoid-emotional-betting-during-the-las-vegas-grand-prix.24NadP7NoIqRfhaeuykCuI",
+   "snippet": "Safer gambling is important, so we’ve flagged some key areas where you should keep a cool head when betting during this weekend's race."
+  },
+  {
+   "title": "Our Las Vegas GP Bet Builder selections made",
+   "source": "Formula1.com",
+   "date": "2026-11-21T17:05:10Z",
+   "date_is_seen_time": true,
+   "link": "https://www.formula1.com/en/latest/article/our-las-vegas-grand-prix-bet-builder-selections-as-max-verstappen-to-start-on-pole.5kZr0wohlPjcax9jtd9RLX",
+   "snippet": "We have picked a four-leg Bet Builder for Las Vegas, including winner and a podium finish selection."
+  },
+  {
+   "title": "Wolff reflects on impact of tow in Las Vegas Qualifying",
+   "source": "Formula1.com",
+   "date": "2026-11-21T17:05:10Z",
+   "date_is_seen_time": true,
+   "link": "https://www.formula1.com/en/latest/article/i-have-no-idea-how-these-lap-times-came-together-wolff-reflects-on-slipstream-impact-in-las-vegas-qualifying.5hGMtgEZODMntPSadcUJbO",
+   "snippet": "Toto Wolff reflected on the impact of the slipstream during Las Vegas Grand Prix Qualifying, with Mercedes believing George Russell was ideally positioned for pole."
+  },
+  {
+   "title": "What are the tyre strategy options for the Las Vegas GP?",
+   "source": "Formula1.com",
+   "date": "2026-11-21T17:05:10Z",
+   "date_is_seen_time": true,
+   "link": "https://www.formula1.com/en/latest/article/strategy-guide-what-are-the-tactical-options-for-the-las-vegas-gp.4k41CN1CbogRoqk1kkOb9C",
+   "snippet": "Matt Youson takes a look at the different pit stop and tyre options that are available to the teams on race day under the Las Vegas lights."
+  },
+  {
+   "title": "Kimi Antonelli reveals stance on potential George Russell team orders",
+   "source": "PlanetF1",
+   "date": "2026-11-21T16:47:22Z",
+   "date_is_seen_time": false,
+   "link": "https://www.planetf1.com/news/george-russell-team-orders-stance-kimi-antonelli",
+   "snippet": "Kimi Antonelli has responded after Mercedes boss Toto Wolff revealed that it could deploy team orders to help George Russell."
+  },
+  {
+   "title": "Ferrari collision results in bizarre F1 crash",
+   "source": "GPFans",
+   "date": "2026-11-21T16:28:00Z",
+   "date_is_seen_time": false,
+   "link": "https://www.gpfans.com/en/f1-news/1093183/f1-ferrari-crash-barcelona-catalunya-f2004-499p-modificata-finali-mondiali/",
+   "snippet": "It really isn't Ferrari's weekend so far and I don't just mean at the F1 Las Vegas Grand Prix."
+  },
+  {
+   "title": "Isack Hadjar: “We looked stupid” in Las Vegas as I don’t like slipstreaming",
+   "source": "Motorsport.com",
+   "date": "2026-11-21T16:00:04Z",
+   "date_is_seen_time": false,
+   "link": "https://www.motorsport.com/f1/news/isack-hadjar-we-looked-stupid-in-las-vegas-as-i-dont-like-slipstreaming/10876445/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+   "snippet": "Isack Hadjar has admitted to underperforming in qualifying for Formula 1’s Las Vegas Grand Prix due to not realizing how powerful the tow would be on this high-speed street circuit. Hadjar was 0.67s…"
+  },
+  {
+   "title": "Max Verstappen reveals enlightening insight into ‘weird’ Red Bull issues",
+   "source": "PlanetF1",
+   "date": "2026-11-21T15:36:25Z",
+   "date_is_seen_time": false,
+   "link": "https://www.planetf1.com/news/max-verstappen-reveals-red-bull-issues-insight",
+   "snippet": "Max Verstappen has shed more light on the issues that have continued to plague him and Red Bull in Las Vegas."
+  },
+  {
+   "title": "F1 still 'very small' in US - Domenicali",
+   "source": "The Race",
+   "date": "2026-11-21T15:13:40Z",
+   "date_is_seen_time": false,
+   "link": "https://www.the-race.com/formula-1/f1-still-very-small-in-us-domenicali/",
+   "snippet": "F1 CEO Stefano Domenicali believes the championship is still “very small in the US” despite huge growth."
+  },
+  {
+   "title": "Lewis Hamilton reveals double Ferrari setback: 'When it rains it pours'",
+   "source": "GPFans",
+   "date": "2026-11-21T14:55:00Z",
+   "date_is_seen_time": false,
+   "link": "https://www.gpfans.com/en/f1-news/1093187/f1-lewis-hamilton-ferrari-las-vegas-grand-prix-qualifying-rain-pours-2026/",
+   "snippet": "Lewis Hamilton admitted his Ferrari qualifying at the Las Vegas Grand Prix could hardly have gone any worse."
+  },
+  {
+   "title": "Pirelli announces maximum stint lengths in Qatar GP reveal",
+   "source": "PlanetF1",
+   "date": "2026-11-21T14:39:47Z",
+   "date_is_seen_time": false,
+   "link": "https://www.planetf1.com/news/qatar-gp-2026-pirelli-tyre-maximum-stint",
+   "snippet": "Pirelli has made a Qatar GP announcement."
+  },
+  {
+   "title": "How Ferrari suffered double qualifying blunder at Las Vegas GP",
+   "source": "PlanetF1",
+   "date": "2026-11-21T13:37:47Z",
+   "date_is_seen_time": false,
+   "link": "https://www.planetf1.com/f1-data/ferrari-las-vegas-telemetry-double-q2-exit",
+   "snippet": "Ferrari recorded its worst combined qualifying performance in 18 months. Here's how."
+  },
+  {
+   "title": "Aston Martin 'set to announce F1 driver return'",
+   "source": "GPFans",
+   "date": "2026-11-21T12:57:00Z",
+   "date_is_seen_time": false,
+   "link": "https://www.gpfans.com/en/f1-news/1093148/f1-aston-martin-esteban-ocon-signed-abu-dhabi-test/",
+   "snippet": "Aston Martin are reportedly ready to bring back an F1 star with an upcoming driver announcement."
+  },
+  {
+   "title": "McLaren reveals ‘unlucky’ incident that cost Lando Norris in Las Vegas qualifying",
+   "source": "PlanetF1",
+   "date": "2026-11-21T12:30:27Z",
+   "date_is_seen_time": false,
+   "link": "https://www.planetf1.com/news/lando-norris-andrea-stella-las-vegas-qualifying",
+   "snippet": "Could things have gone better for Lando Norris in Las Vegas qualifying?"
+  },
+  {
+   "title": "'We are not stupid people' - Domenicali on why F1 is going back to V8s",
+   "source": "The Race",
+   "date": "2026-11-21T12:08:04Z",
+   "date_is_seen_time": false,
+   "link": "https://www.the-race.com/formula-1/stefano-domenicali-on-why-f1-is-going-back-to-v8s/",
+   "snippet": "Why is F1 pivoting away from the engine formula it's so strongly defended? CEO Stefano Domenicali told us..."
+  },
+  {
+   "title": "F1 Race Today: 2026 Las Vegas Grand Prix start time and TV channel",
+   "source": "GPFans",
+   "date": "2026-11-21T11:57:00Z",
+   "date_is_seen_time": false,
+   "link": "https://www.gpfans.com/en/f1-news/1093155/f1-race-today-2026-las-vegas-grand-prix-start-time-tv-channel/",
+   "snippet": "The waiting is over on the Strip and the F1 2026 Las Vegas Grand Prix is a go later today in the Nevada entertainment capital."
+  },
+  {
+   "title": "George Russell warned “you don’t want to make an enemy” of Max Verstappen",
+   "source": "Crash.net",
+   "date": "2026-11-21T11:54:27Z",
+   "date_is_seen_time": false,
+   "link": "https://www.crash.net/f1/news/1110568/1/george-russell-warned-you-dont-want-make-enemy-max-verstappen",
+   "snippet": "Jacques Villeneuve issues warning to George Russell after Max Verstappen clash in Las Vegas."
+  },
+  {
+   "title": "Pirelli’s F1 tyres still can’t cope with Losail: Maximum stint lengths imposed again | Formula 1",
+   "source": "RaceFans",
+   "date": "2026-11-21T11:50:21Z",
+   "date_is_seen_time": false,
+   "link": "https://www.racefans.net/2026/11/21/pirellis-f1-tyres-still-cant-cope-with-losail-maximum-stint-lengths-imposed-again/",
+   "snippet": "For the third time in five years, Pirelli is imposing maximum lengths on stints in the Qatar Grand Prix due to concerns over tyre failures."
+  },
+  {
+   "title": "How McLaren tried to mitigate its Las Vegas F1 top speed deficit",
+   "source": "Motorsport.com",
+   "date": "2026-11-21T11:41:02Z",
+   "date_is_seen_time": false,
+   "link": "https://www.motorsport.com/f1/news/how-mclaren-tried-to-mitigate-its-las-vegas-f1-top-speed-deficit/10876451/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+   "snippet": "Despite what was a respectable result on a circuit that accentuated the MCL40's flaws without rewarding its virtues, Lando Norris was not best pleased with how Friday at the Las Vegas Grand Prix…"
+  },
+  {
+   "title": "Untelevised Max Verstappen footage after George Russell Las Vegas GP incident",
+   "source": "PlanetF1",
+   "date": "2026-11-21T11:32:20Z",
+   "date_is_seen_time": false,
+   "link": "https://www.planetf1.com/news/max-verstappen-george-russell-las-vegas-grand-prix-2026-finger",
+   "snippet": "The footage has emerged following a clash in FP3."
+  },
+  {
+   "title": "Toto Wolff predicts ‘big cinema’ for Max Verstappen v George Russell after Las Vegas GP needle",
+   "source": "Crash.net",
+   "date": "2026-11-21T11:24:45Z",
+   "date_is_seen_time": false,
+   "link": "https://www.crash.net/f1/news/1110556/1/toto-wolff-predicts-big-cinema-max-verstappen-v-george-russell-after-las-vegas-gp",
+   "snippet": "Toto Wolff is expecting fireworks between Max Verstappen and George Russell at the start in Las Vegas."
+  },
+  {
+   "title": "Antonelli and Russell set for Mercedes talks over Las Vegas GP qualifying mix-up",
+   "source": "Autosport",
+   "date": "2026-11-21T11:05:19Z",
+   "date_is_seen_time": false,
+   "link": "https://www.autosport.com/f1/news/kimi-antonelli-and-george-russell-set-for-mercedes-talks-over-las-vegas-gp-qualifying-woes/10876456/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+   "snippet": "George Russell and Kimi Antonelli will discuss the fallout from Formula 1’s Las Vegas Grand Prix qualifying “offline” following confusion over team orders and track position. Traffic played a…"
+  },
+  {
+   "title": "Kimi Antonelli and George Russell set for Mercedes talks over Las Vegas GP qualifying woes",
+   "source": "Motorsport.com",
+   "date": "2026-11-21T11:02:55Z",
+   "date_is_seen_time": false,
+   "link": "https://www.motorsport.com/f1/news/kimi-antonelli-and-george-russell-to-discuss-traffic-woes-in-las-vegas-gp-qualifying/10876431/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+   "snippet": "George Russell and Kimi Antonelli will discuss the fallout from Formula 1’s Las Vegas Grand Prix qualifying “offline” following confusion over team orders and track position. Traffic played a…"
+  },
+  {
+   "title": "On This Day: McLaren hire Zak Brown to lead team after ousting Ron Dennis | Brief",
+   "source": "RaceFans",
+   "date": "2026-11-21T10:57:12Z",
+   "date_is_seen_time": false,
+   "link": "https://www.racefans.net/2026/11/21/on-this-day-zak-brown-takes-charge-at-struggling-mclaren/",
+   "snippet": "Zak Brown takes over at McLaren: \"It was a pretty grim place\""
+  },
+  {
+   "title": "Ferrari F1 rivals Lewis Hamilton and Charles Leclerc attempt new handshake and it doesn't go well",
+   "source": "GPFans",
+   "date": "2026-11-21T10:57:00Z",
+   "date_is_seen_time": false,
+   "link": "https://www.gpfans.com/en/f1-news/1093137/f1-lewis-hamilton-charles-leclerc-ferrari-handshake-las-vegas-grand-prix/",
+   "snippet": "F1 needs something to focus on for the remainder of the season now Kimi Antonelli has won the world championship, so as ever attention has turned to Ferrari."
+  },
+  {
+   "title": "Fernando Alonso laments Aston Martin problem after untelevised radio message",
+   "source": "PlanetF1",
+   "date": "2026-11-21T10:49:25Z",
+   "date_is_seen_time": false,
+   "link": "https://www.planetf1.com/news/fernando-alonso-las-vegas-grand-prix-honda-problems",
+   "snippet": "Honda is costing Aston Martin significant time."
+  },
+  {
+   "title": "Max Verstappen’s alarming admission about secret Red Bull F1 car issue: “We can’t fix it”",
+   "source": "Crash.net",
+   "date": "2026-11-21T10:39:39Z",
+   "date_is_seen_time": false,
+   "link": "https://www.crash.net/f1/news/1110540/1/max-verstappens-alarming-admission-about-secret-red-bull-f1-car-issue-we-cant-fix",
+   "snippet": "Max Verstappen remains tight-lipped about a sensitive Red Bull car issue he is dealing with."
+  },
+  {
+   "title": "Max Verstappen shares theory on Ferrari's lack of top speed in F1 2026",
+   "source": "Motorsport.com",
+   "date": "2026-11-21T10:31:10Z",
+   "date_is_seen_time": false,
+   "link": "https://www.motorsport.com/f1/news/max-verstappen-shares-theory-on-ferraris-lack-of-top-speed-in-f1-2026/10876424/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+   "snippet": "Although Max Verstappen was not entirely satisfied with his second-fastest time in qualifying for the Formula 1 Las Vegas Grand Prix – pointing to a mysterious issue with the RB22 – a glance at…"
+  },
+  {
+   "title": "Winners and losers from the 2026 Las Vegas Grand Prix Qualifying",
+   "source": "PlanetF1",
+   "date": "2026-11-21T10:06:17Z",
+   "date_is_seen_time": false,
+   "link": "https://www.planetf1.com/features/winners-losers-2026-las-vegas-grand-prix-qualifying",
+   "snippet": "Kimi Antonelli and Ferrari appear on the Winners & Losers list from qualifying at the 2026 Las Vegas Grand Prix..."
+  },
+  {
+   "title": "Major limits announced for F1 Qatar Grand Prix over safety concerns",
+   "source": "GPFans",
+   "date": "2026-11-21T09:57:00Z",
+   "date_is_seen_time": false,
+   "link": "https://www.gpfans.com/en/f1-news/1093145/f1-qatar-grand-prix-pirelli-tyre-limits-safety-pit-stops/",
+   "snippet": "Next weekend's Qatar Grand Prix will see the return of mandatory limits on how long teams can run a single set of tyres."
+  },
+  {
+   "title": "Isack Hadjar says outsmarted Red Bull “looked a bit stupid” in Las Vegas GP qualifying",
+   "source": "Crash.net",
+   "date": "2026-11-21T09:53:52Z",
+   "date_is_seen_time": false,
+   "link": "https://www.crash.net/f1/news/1110525/1/isack-hadjar-says-outsmarted-red-bull-looked-bit-stupid-las-vegas-gp-qualifying",
+   "snippet": "Isack Hadjar says Red Bull were outsmarted in Las Vegas qualifying."
+  },
+  {
+   "title": "Fernando Alonso: Honda lacks so much power that rivals take extra margin behind us",
+   "source": "Motorsport.com",
+   "date": "2026-11-21T09:43:39Z",
+   "date_is_seen_time": false,
+   "link": "https://www.motorsport.com/f1/news/fernando-alonso-honda-lacks-so-much-power-that-rivals-take-extra-margin-behind-us/10876414/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+   "snippet": "Fernando Alonso says Honda’s power deficit is so dire that other cars are taking extra margin around the Aston Martins at Formula 1’s Las Vegas Grand Prix. The Nevadan street circuit was expected to…"
+  },
+  {
+   "title": "Uncovering the slipstream gamble behind Antonelli’s Las Vegas P1 lap",
+   "source": "PlanetF1",
+   "date": "2026-11-21T09:25:47Z",
+   "date_is_seen_time": false,
+   "link": "https://www.planetf1.com/f1-data/kimi-antonelli-las-vegas-pole-telemetry-analysis",
+   "snippet": "Kimi Antonelli set the fastest time in Las Vegas GP qualifying, despite looking like his track position was completely wrong."
+  },
+  {
+   "title": "What 'crazy' tow was actually worth in Vegas qualifying",
+   "source": "The Race",
+   "date": "2026-11-21T09:24:16Z",
+   "date_is_seen_time": false,
+   "link": "https://www.the-race.com/formula-1/what-crazy-tow-was-actually-worth-in-vegas-qualifying/",
+   "snippet": "Getting a tow from another car was absolutely critical in F1 qualifying in Las Vegas, with nothing demonstrating how “crazy” the gain could be like Kimi Antonelli’s session-topping lap"
+  },
+  {
+   "title": "Drivers expect Monza-style race at Las Vegas with “extreme” slipstream | Formula 1",
+   "source": "RaceFans",
+   "date": "2026-11-21T09:23:36Z",
+   "date_is_seen_time": false,
+   "link": "https://www.racefans.net/2026/11/21/drivers-expect-extreme-slipstream-to-create-monza-style-race-at-las-vegas/",
+   "snippet": "The powerful slipstream effect at the Las Vegas Strip Circuit will shape this weekend's race, say drivers."
+  },
+  {
+   "title": "Lando Norris blasts McLaren’s “awful” flaw amid plastic bag drama in Las Vegas GP qualifying",
+   "source": "Crash.net",
+   "date": "2026-11-21T09:15:41Z",
+   "date_is_seen_time": false,
+   "link": "https://www.crash.net/f1/news/1110523/1/lando-norris-blasts-mclarens-awful-flaw-amid-plastic-bag-drama-las-vegas-gp",
+   "snippet": "Lando Norris rued McLaren's biggest weakness after Las Vegas qualifying."
+  },
   {
    "title": "What To Watch For in the Las Vegas Grand Prix",
    "source": "Formula1.com",
@@ -194,6 +482,14 @@
    "snippet": "The George Russell-Max Verstappen feud surfaced again in Las Vegas, adding spice to a race where they will start on the front row."
   },
   {
+   "title": "Antonelli says he made the decision to run at the back of the field in qualifying | Formula 1",
+   "source": "RaceFans",
+   "date": "2026-11-21T08:04:56Z",
+   "date_is_seen_time": false,
+   "link": "https://www.racefans.net/2026/11/21/antonelli-says-he-made-the-decision-to-run-at-the-back-of-the-field-in-qualifying/",
+   "snippet": "Andrea Kimi Antonelli says he made the tactical call which put him in position to set the fastest lap time in qualifying."
+  },
+  {
    "title": "'George had perfect position' - Wolff defends Mercedes' Vegas Q3 strategy",
    "source": "Sky Sports",
    "date": "2026-11-21T08:00:00Z",
@@ -354,6 +650,14 @@
    "snippet": "A double Q2 exit is Ferrari's worst qualifying of the year - how did it go so wrong?"
   },
   {
+   "title": "Norris fears passing will be impossible due to “insane” straight-line speed deficit | Formula 1",
+   "source": "RaceFans",
+   "date": "2026-11-21T06:56:50Z",
+   "date_is_seen_time": false,
+   "link": "https://www.racefans.net/2026/11/21/norris-fears-passing-will-be-impossible-due-to-insane-straight-line-speed-deficit/",
+   "snippet": "Lando Norris doubts he will be able to gain many places in the Las Vegas Grand Prix due to his lack of straight-line speed."
+  },
+  {
    "title": "Max Verstappen responds to George Russell after Vegas clash",
    "source": "Motorsport.com",
    "date": "2026-11-21T06:56:38Z",
@@ -482,6 +786,14 @@
    "snippet": "1997 Formula 1 champion Jacques Villeneuve says Kimi Antonelli was \"a little bit nasty\" for refusing to give George Russell a tow in Las Vegas qualifying, and claims Mercedes did nothing to help the…"
   },
   {
+   "title": "“Somebody’s got to stand up to that guy” says Russell after latest Verstappen clash | Formula 1",
+   "source": "RaceFans",
+   "date": "2026-11-21T06:10:53Z",
+   "date_is_seen_time": false,
+   "link": "https://www.racefans.net/2026/11/21/somebodys-got-to-stand-up-to-that-guy-says-russell-after-latest-verstappen-clash/",
+   "snippet": "George Russell said Max Verstappen 'screws people over every weekend and everyone accepts it' after they tangled in practice."
+  },
+  {
    "title": "Toto Wolff: George Russell was in the \"perfect position\" for pole at F1's Las Vegas GP",
    "source": "Motorsport.com",
    "date": "2026-11-21T06:03:53Z",
@@ -512,6 +824,14 @@
    "date_is_seen_time": false,
    "link": "https://www.motorsport.com/f1/news/lewis-hamilton-reveals-floor-damage-cost-him-in-f1-las-vegas-qualifying/10876261/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
    "snippet": "Seven-time Formula 1 champion Lewis Hamilton says floor damage and a lack of energy deployment cost him a place in Q3 in the Las Vegas Grand Prix qualifying session. The Ferrari driver qualified…"
+  },
+  {
+   "title": "Hamilton reveals car damage, Leclerc “very angry” as Ferrari pair fail to reach Q3 | Formula 1",
+   "source": "RaceFans",
+   "date": "2026-11-21T05:48:56Z",
+   "date_is_seen_time": false,
+   "link": "https://www.racefans.net/2026/11/21/hamilton-reveals-car-damage-leclerc-very-angry-as-ferrari-pair-fail-to-reach-q3/",
+   "snippet": "Lewis Hamilton said he experienced multiple problems in his Ferrari as he and team mate Charles Leclerc both failed to reach Q3."
   },
   {
    "title": "Toto Wolff wants answers after George Russell misses Vegas pole despite “ideal” final-lap position",
@@ -570,6 +890,14 @@
    "snippet": "Max Verstappen will start on pole at the Formula 1 Las Vegas Grand Prix despite Kimi Antonelli going fastest - while Charles Leclerc and Lewis Hamilton both failed to make Q3. The 2026 world champion…"
   },
   {
+   "title": "Antonelli fastest but Verstappen takes pole for Las Vegas Grand Prix | 2026 Las Vegas GP qualifying report",
+   "source": "RaceFans",
+   "date": "2026-11-21T05:19:52Z",
+   "date_is_seen_time": false,
+   "link": "https://www.racefans.net/2026/11/21/antonelli-fastest-but-verstappen-takes-pole-for-las-vegas-grand-prix/",
+   "snippet": "Andrea Kimi Antonelli was quickest in qualifying but Max Verstappen will start the Las Vegas Grand Prix from pole position."
+  },
+  {
    "title": "FIA confirms Max Verstappen punishment after George Russell investigation",
    "source": "PlanetF1",
    "date": "2026-11-21T05:18:28Z",
@@ -608,6 +936,14 @@
    "date_is_seen_time": false,
    "link": "https://www.crash.net/f1/news/1110511/1/max-verstappen-las-vegas-gp-pole-ferrari-suffers-qualifying-shocker",
    "snippet": "Max Verstappen on pole after penalised Kimi Antonelli tops Las Vegas qualifying."
+  },
+  {
+   "title": "2026 Las Vegas Grand Prix grid | Formula 1",
+   "source": "RaceFans",
+   "date": "2026-11-21T05:12:03Z",
+   "date_is_seen_time": false,
+   "link": "https://www.racefans.net/2026/11/21/2026-las-vegas-grand-prix-grid/",
+   "snippet": "Max Verstappen has taken provisional pole position for the Las Vegas Grand Prix for Red Bull ahead of George Russell and Lando Norris."
   },
   {
    "title": "F1 Qualifying Results: Las Vegas Grand Prix 2026 times and positions as Ferrari crash out",
@@ -666,6 +1002,14 @@
    "snippet": "In the sole dry running of the weekend in Sin City so far, Russell saw off Mercedes team-mate Kimi Antonelli by nearly a second, with McLaren's Lando Norris third."
   },
   {
+   "title": "Verstappen warned over Russell incident, cleared over Colapinto incident in practice | Formula 1",
+   "source": "RaceFans",
+   "date": "2026-11-21T04:17:29Z",
+   "date_is_seen_time": false,
+   "link": "https://www.racefans.net/2026/11/21/verstappen-warned-over-russell-incident-cleared-over-colapinto-incident-in-practice/",
+   "snippet": "The stewards have given Max Verstappen an official warning for his incident with George Russell at turn 14 during final practice."
+  },
+  {
    "title": "Kim Kardashian arrives at Las Vegas Grand Prix to support boyfriend Lewis Hamilton",
    "source": "GPFans",
    "date": "2026-11-21T04:09:00Z",
@@ -704,6 +1048,14 @@
    "date_is_seen_time": false,
    "link": "https://www.fia.com/news/f1-russell-tops-final-practice-las-vegas-after-verstappen-clash",
    "snippet": "George Russell led a Mercedes one-two in the final practice session for the 2026 FIA Formula 1 Las Vegas Grand Prix, finishing nearly a second clear of team-mate Kimi Antonelli, but the…"
+  },
+  {
+   "title": "Russell comfortably leads Mercedes one-two, Verstappen faces two investigations | Formula 1",
+   "source": "RaceFans",
+   "date": "2026-11-21T02:08:06Z",
+   "date_is_seen_time": false,
+   "link": "https://www.racefans.net/2026/11/21/russell-comfortably-leads-mercedes-one-two-verstappen-faces-two-investigations/",
+   "snippet": "George Russell led a one-two for Mercedes in final practice but he and Max Verstappen are under investigation for colliding."
   },
   {
    "title": "Russell and Verstappen make contact in final Vegas F1 practice",

@@ -152,9 +152,17 @@
     "tokens_in": 545,
     "tokens_out": 72
    }
+  },
+  "2026-11-22": {
+   "AI grouping + labels": {
+    "cost": 0.042682,
+    "requests": 4,
+    "tokens_in": 106818,
+    "tokens_out": 64000
+   }
   }
  },
- "total_cost": 0.288646,
- "updated": "2026-11-21T09:14:38Z",
+ "total_cost": 0.331328,
+ "updated": "2026-11-21T17:09:36Z",
  "model": "anthropic/claude-haiku-5.5"
 }
