@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T09:14:34Z",
+ "updated": "2026-11-21T22:48:28Z",
  "model": "anthropic/claude-haiku-5.5",
  "rumours": [
   {
@@ -238,7 +238,7 @@
     "Cadillac"
    ],
    "status": "Active",
-   "trend": "steady",
+   "trend": "fading",
    "first_seen": "2026-11-14T19:55:00Z",
    "last_seen": "2026-11-16T19:45:00Z",
    "sources": [

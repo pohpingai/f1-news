@@ -1,6 +1,110 @@
 {
- "updated": "2026-11-21T17:05:10Z",
+ "updated": "2026-11-21T22:43:59Z",
  "stories": [
+  {
+   "title": "Our final Las Vegas Grand Prix betting predictions",
+   "source": "Formula1.com",
+   "date": "2026-11-21T22:43:59Z",
+   "date_is_seen_time": true,
+   "link": "https://www.formula1.com/en/latest/article/our-final-las-vegas-grand-prix-betting-predictions-before-lights-out-on-the-strip.4jYqIilNqAOjx4y3poORZX",
+   "snippet": "Our expert betting writers bring you their final predictions and latest odds before the Las Vegas Grand Prix."
+  },
+  {
+   "title": "Martin Brundle absent at Las Vegas Grand Prix - this is why",
+   "source": "GPFans",
+   "date": "2026-11-21T21:28:00Z",
+   "date_is_seen_time": false,
+   "link": "https://www.gpfans.com/en/f1-news/1093200/martin-brundle-sky-sports-f1-absent-las-vegas-grand-prix-2026/",
+   "snippet": "Martin Brundle will not be on co-commentary duty for the Las Vegas Grand Prix, in what will be a letdown to his legion of fans getting up early/staying up late to watch the race."
+  },
+  {
+   "title": "Lando Norris teases celebration rethink after Brazil champagne smash",
+   "source": "PlanetF1",
+   "date": "2026-11-21T21:03:32Z",
+   "date_is_seen_time": false,
+   "link": "https://www.planetf1.com/news/lando-norris-celebration-champagne-change",
+   "snippet": "Time for change?"
+  },
+  {
+   "title": "Mercedes F1 boss Toto Wolff explains why George Russell was refused help in qualifying with crucial trick",
+   "source": "GPFans",
+   "date": "2026-11-21T20:45:00Z",
+   "date_is_seen_time": false,
+   "link": "https://www.gpfans.com/en/f1-news/1093199/f1-toto-wolff-mercedes-george-russell-max-verstappen-kimi-antonelli-las-vegas-qualifying/",
+   "snippet": "Mercedes chose not to grant George Russell's late plea during qualifying at the Las Vegas Grand Prix to get a slipstream from teammate Kimi Antonelli."
+  },
+  {
+   "title": "McLaren explains Oscar Piastri struggles in Las Vegas qualifying",
+   "source": "PlanetF1",
+   "date": "2026-11-21T20:08:19Z",
+   "date_is_seen_time": false,
+   "link": "https://www.planetf1.com/news/mclaren-explains-oscar-piastri-struggles-in-las-vegas-qualifying",
+   "snippet": "McLaren has explained why Oscar Piastri perhaps lacked pace compared to Lando Norris in Las Vegas."
+  },
+  {
+   "title": "Charles Leclerc fumes after Ferrari failure in Las Vegas: 'I'm very angry'",
+   "source": "GPFans",
+   "date": "2026-11-21T19:58:00Z",
+   "date_is_seen_time": false,
+   "link": "https://www.gpfans.com/en/f1-news/1093184/f1-charles-leclerc-ferrari-las-vegas-grand-prix-angry-qualifying/",
+   "snippet": "Charles Leclerc has revealed his frustration after a horrific qualifying for Ferrari at the Las Vegas Grand Prix."
+  },
+  {
+   "title": "Liam Lawson faced ‘impossible’ battle in Las Vegas qualifying",
+   "source": "PlanetF1",
+   "date": "2026-11-21T19:06:01Z",
+   "date_is_seen_time": false,
+   "link": "https://www.planetf1.com/news/liam-lawson-buried-las-vegas-qualifying",
+   "snippet": "Liam Lawson is well inside the top 10 in Las Vegas, but highlighted an \"impossible\" hurdle in qualifying."
+  },
+  {
+   "title": "Oscar Piastri questions \"strange\" pace deficit to other Mercedes-powered cars in Las Vegas",
+   "source": "Motorsport.com",
+   "date": "2026-11-21T19:00:03Z",
+   "date_is_seen_time": false,
+   "link": "https://www.motorsport.com/f1/news/piastri-questions-strange-pace-deficit-to-other-mercedes-powered-cars-in-las-vegas/10876516/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+   "snippet": "Oscar Piastri stopped short of echoing the verdict of team-mate Lando Norris that McLaren's straightline speed in Las Vegas was \"just shocking\". But he did acknowledge that the margin of the deficit…"
+  },
+  {
+   "title": "Max Verstappen gives blunt reaction after being blasted by George Russell",
+   "source": "GPFans",
+   "date": "2026-11-21T18:45:00Z",
+   "date_is_seen_time": false,
+   "link": "https://www.gpfans.com/en/f1-news/1093191/f1-max-verstappen-george-russell-las-vegas-grand-prix-reaction-fp3-agreement/",
+   "snippet": "Despite George Russell’s strong reaction after their clash in the final practice session for the Las Vegas Grand Prix, Max Verstappen refused to say much about the incident following qualifying."
+  },
+  {
+   "title": "Max Verstappen takes Las Vegas pole despite “weird issues” since Brazil",
+   "source": "Motorsport.com",
+   "date": "2026-11-21T18:21:40Z",
+   "date_is_seen_time": false,
+   "link": "https://www.motorsport.com/f1/news/max-verstappen-takes-las-vegas-pole-despite-weird-issues-since-brazil/10876373/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+   "snippet": "Max Verstappen will lead the field to the green light for Saturday night’s Las Vegas Grand Prix, yet the four-time world champion spent Friday evening fighting his own car as much as his rivals…"
+  },
+  {
+   "title": "Why Mercedes' tow plan for George Russell fell apart in Las Vegas",
+   "source": "Motorsport.com",
+   "date": "2026-11-21T18:15:21Z",
+   "date_is_seen_time": false,
+   "link": "https://www.motorsport.com/f1/news/why-mercedes-tow-plan-for-george-russell-fell-apart-in-las-vegas/10876341/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+   "snippet": "Qualifying for the Las Vegas Grand Prix was decided as much by slipstreams as it was by actual car and driver performance, and this was very clear when looking at Mercedes. Kimi Antonelli went…"
+  },
+  {
+   "title": "Russell reignites Verstappen spat at Las Vegas Grand Prix – round-up",
+   "source": "PlanetF1",
+   "date": "2026-11-21T18:03:23Z",
+   "date_is_seen_time": false,
+   "link": "https://www.planetf1.com/news/las-vegas-grand-prix-george-russell-max-verstappen-conflict",
+   "snippet": "Your Las Vegas Grand Prix qualifying night round-up is go, go, go!"
+  },
+  {
+   "title": "FIA confirms 35-place grid penalty for British F1 star at Las Vegas Grand Prix",
+   "source": "GPFans",
+   "date": "2026-11-21T17:45:00Z",
+   "date_is_seen_time": false,
+   "link": "https://www.gpfans.com/en/f1-news/1093194/fia-ollie-bearman-haas-f1-las-vegas-grand-prix-35-place-grid-penalty/",
+   "snippet": "Ollie Bearman will start from the very back of the grid at the Las Vegas Grand Prix after being hit with a severe penalty by FIA stewards."
+  },
   {
    "title": "How F1 fans can avoid emotional betting in Las Vegas",
    "source": "Formula1.com",
