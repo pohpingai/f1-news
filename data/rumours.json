@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T01:07:05Z",
+ "updated": "2026-11-21T09:14:34Z",
  "model": "anthropic/claude-haiku-5.5",
  "rumours": [
   {
@@ -292,7 +292,7 @@
     "Steiner"
    ],
    "status": "Active",
-   "trend": "steady",
+   "trend": "fading",
    "first_seen": "2026-11-15T19:01:48Z",
    "last_seen": "2026-11-16T07:15:00Z",
    "sources": [
@@ -338,7 +338,7 @@
     "manufacturers"
    ],
    "status": "Active",
-   "trend": "steady",
+   "trend": "fading",
    "first_seen": "2026-11-16T07:11:53Z",
    "last_seen": "2026-11-16T07:11:53Z",
    "sources": [
@@ -368,6 +368,14 @@
      "reason": "The official FIA announcement says the 2030 V8 power unit framework was agreed unanimously, which matches the rumoured step forward with manufacturers backing the new regulations.",
      "card": "F1 confirms V8 engine return from 2030 after unanimous agreement",
      "evidence": "FIA – The V8 Future: Unanimous Agreement Reached on FIA’s 2030 Formula 1 Power Unit Framework"
+    },
+    {
+     "time": "2026-11-21T09:14:34Z",
+     "event": "blocked",
+     "detail": "The AI suggested 'Confirmed' but it was NOT applied: the evidence words were not found in the proof card's headlines or snippets.",
+     "reason": "The official FIA card confirms that F1, the FIA and the power unit parties reached a unanimous agreement on the V8 framework, which is the step the rumour said manufacturers were poised to back.",
+     "card": "F1 confirms V8 engine return from 2030 after unanimous agreement",
+     "evidence": "F1 confirms V8 engine return from 2030 after unanimous agreement"
     }
    ]
   },
@@ -651,7 +659,7 @@
   "cbadb0d54": "1|Reported",
   "ca5d0e533": "1|Reported",
   "c030f1444": "3|Reported",
-  "c74ed3342": "1|Reported",
+  "c74ed3342": "2|Reported",
   "c53047ae6": "1|Reported",
   "c3a81c5e5": "1|Reported",
   "ccb547894": "2|Reported",
@@ -706,11 +714,27 @@
   "c117be4a8": "2|Reported",
   "c0105474b": "1|Reported",
   "c57643093": "1|Reported",
-  "c9520248d": "9|Confirmed",
+  "c9520248d": "10|Confirmed",
   "c8ccec610": "1|Reported",
   "c49d96e56": "1|Reported",
   "cdbfe8ec5": "1|Reported",
   "c287477e6": "1|Confirmed",
-  "cca1fae1b": "1|Reported"
+  "cca1fae1b": "1|Reported",
+  "cc1b972c7": "3|Reported",
+  "ccb040470": "4|Reported",
+  "c6dafad24": "4|Confirmed",
+  "c00f785b4": "5|Reported",
+  "c70300322": "2|Reported",
+  "c13d90fcd": "4|Reported",
+  "c7937efaa": "2|Reported",
+  "cce773ff7": "1|Confirmed",
+  "cab41427e": "2|Reported",
+  "c7b4c68f5": "1|Confirmed",
+  "cf12b6436": "1|Reported",
+  "c7c58386c": "1|Reported",
+  "c53e54ac7": "1|Reported",
+  "cf350d1b8": "1|Reported",
+  "cbeab7344": "1|Reported",
+  "cbecc9607": "1|Confirmed"
  }
 }
