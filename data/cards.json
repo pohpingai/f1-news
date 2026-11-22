@@ -1,12 +1,806 @@
 {
- "updated": "2026-11-22T13:59:15Z",
+ "updated": "2026-11-22T20:38:42Z",
  "model": "anthropic/claude-haiku-5.5",
  "headline_of_the_day": {
-  "date": "2026-11-22",
-  "text": "Verstappen won a chaotic Las Vegas Grand Prix from a grid penalty-induced pole, closing to within 100 points of champion Antonelli, while Russell crashed out.",
-  "written": "2026-11-22T13:59:15Z"
+  "date": "2026-11-23",
+  "text": "Verstappen won a chaotic Las Vegas Grand Prix with more than 30 lead changes, and his feud with George Russell escalated after the race.",
+  "written": "2026-11-22T20:38:42Z"
  },
  "cards": [
+  {
+   "id": "ceb2fcbd8",
+   "created": "2026-11-22T20:38:42Z",
+   "stories": [
+    {
+     "title": "Camara to sacrifice F2 title bid to finish F1 season with Haas",
+     "source": "Sky Sports",
+     "date": "2026-11-22T18:07:00Z",
+     "link": "https://www.skysports.com/f1/news/12433/13615376/rafael-camara-haas-confirm-brazilian-will-race-in-final-two-rounds-of-f1-season-rather-than-chase-f2-championship",
+     "snippet": "Haas have confirmed Rafael Camara will continue to feature for the team in the final two Formula 1 races of the season, rather than challenge for the Formula 2 championship."
+    },
+    {
+     "title": "Camara to complete F1 season with Haas, sacrificing F2 title shot",
+     "source": "The Race",
+     "date": "2026-11-22T18:12:46Z",
+     "link": "https://www.the-race.com/formula-1/camara-to-complete-f1-season-with-haas-sacrificing-f2-title-shot/",
+     "snippet": "Rafael Camara will complete the 2026 Formula 1 season with Haas, effectively sacrificing his Formula 2 championship shot"
+    },
+    {
+     "title": "Haas keeps Rafael Camara in F1, ending his 2026 F2 title bid",
+     "source": "Motorsport.com",
+     "date": "2026-11-22T18:28:04Z",
+     "link": "https://www.motorsport.com/f1/news/rafael-camara-gives-up-f2-title-chance-to-finish-2026-f1-season-with-haas/10877028/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "snippet": "Haas rookie Rafael Camara will see out the season with Haas in Qatar and Abu Dhabi, effectively ending his F2 championship challenge. Camara was confirmed in October as a full-time replacement for…"
+    },
+    {
+     "title": "Camara to finish F1 season with Haas, ending F2 title bid",
+     "source": "Autosport",
+     "date": "2026-11-22T18:32:32Z",
+     "link": "https://www.autosport.com/f1/news/haas-keeps-rafael-camara-in-f1-ending-his-2026-f2-title-bid/10877044/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+     "snippet": "Haas rookie Rafael Camara will see out the season with Haas in Qatar and Abu Dhabi, effectively ending his F2 championship challenge. Camara was confirmed in October as a full-time replacement for…"
+    },
+    {
+     "title": "Haas confirm Camara will finish 2026 season with the team",
+     "source": "ESPN",
+     "date": "2026-11-22T19:39:40Z",
+     "link": "https://www.espn.com/f1/story/_/id/50563772/formula-1-haas-rafa-camara-esteban-ocon",
+     "snippet": "Brazilian driver Rafa Camara will complete the 2026 season with Haas ahead of his full rookie season in 2027, the team confirmed on Sunday."
+    },
+    {
+     "title": "Camara to continue with Haas for final two races",
+     "source": "BBC Sport",
+     "date": "2026-11-22T19:51:49Z",
+     "link": "https://www.bbc.co.uk/sport/formula1/articles/cwe9k29y7z44o?at_medium=RSS&at_campaign=rss",
+     "snippet": "Brazilian Rafael Camara will continue to race for the Haas team for the final two grands prix of the Formula 1 season."
+    },
+    {
+     "title": "Haas F1 announce driver decision as racing star pulls out of championship battle",
+     "source": "GPFans",
+     "date": "2026-11-22T19:52:00Z",
+     "link": "https://www.gpfans.com/en/f1-news/1093264/f1-haas-rafael-camara-confirmed-2026-pulled-out-f2-championship/",
+     "snippet": "Haas have confirmed that Rafael Camara will compete in the final two rounds of the F1 season with the team consisting of the Qatar and Abu Dhabi grands prix."
+    },
+    {
+     "title": "Haas confirm Camara will drive for team in final races of 2026",
+     "source": "Formula1.com",
+     "date": "2026-11-22T20:38:39Z",
+     "link": "https://www.formula1.com/en/latest/article/haas-confirm-camara-will-drive-for-the-team-in-final-races-of-2026.2wYY9ymhyqr7rXcuK6S7bj",
+     "snippet": "Ahead of his first full-time Formula 1 season in 2027, Rafael Camara will again drive for Haas at the 2026 Qatar and Abu Dhabi Grands Prix."
+    }
+   ],
+   "merge_reasons": [
+    {
+     "time": "2026-11-22T20:38:42Z",
+     "added": [
+      "https://www.skysports.com/f1/news/12433/13615376/rafael-camara-haas-confirm-brazilian-will-race-in-final-two-rounds-of-f1-season-rather-than-chase-f2-championship",
+      "https://www.the-race.com/formula-1/camara-to-complete-f1-season-with-haas-sacrificing-f2-title-shot/",
+      "https://www.motorsport.com/f1/news/rafael-camara-gives-up-f2-title-chance-to-finish-2026-f1-season-with-haas/10877028/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+      "https://www.autosport.com/f1/news/haas-keeps-rafael-camara-in-f1-ending-his-2026-f2-title-bid/10877044/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "https://www.espn.com/f1/story/_/id/50563772/formula-1-haas-rafa-camara-esteban-ocon",
+      "https://www.bbc.co.uk/sport/formula1/articles/cwe9k29y7z44o?at_medium=RSS&at_campaign=rss",
+      "https://www.gpfans.com/en/f1-news/1093264/f1-haas-rafael-camara-confirmed-2026-pulled-out-f2-championship/",
+      "https://www.formula1.com/en/latest/article/haas-confirm-camara-will-drive-for-the-team-in-final-races-of-2026.2wYY9ymhyqr7rXcuK6S7bj"
+     ],
+     "joined_existing": false,
+     "reason": "All eight stories report the same Haas confirmation that Camara will drive for them in Qatar and Abu Dhabi."
+    }
+   ],
+   "title": "Haas confirms Camara will race final two rounds, ending F2 title bid",
+   "summary": "Haas has confirmed that rookie Rafael Camara will drive for the team at the Qatar and Abu Dhabi Grands Prix. The move effectively ends his Formula 2 championship challenge, ahead of his full-time Formula 1 season in 2027.",
+   "disagreement": "",
+   "label": "Confirmed",
+   "updated": "2026-11-22T20:38:42Z"
+  },
+  {
+   "id": "c0d5848f2",
+   "created": "2026-11-22T20:38:42Z",
+   "stories": [
+    {
+     "title": "All the key moments from the Las Vegas Grand Prix",
+     "source": "Formula1.com",
+     "date": "2026-11-22T20:38:39Z",
+     "link": "https://www.formula1.com/en/latest/article/las-vegas-lowdown-all-the-key-moments-as-verstappen-wins-remarkable-race-and-ferraris-drivers-collide-again.62D9SeuQXSboAspMm7N0pN",
+     "snippet": "Max Verstappen claimed his fourth win of the season in Las Vegas, having withstood immense pressure throughout in a thrilling race which featured more than 30 changes of the lead."
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Key moments from the Las Vegas Grand Prix: Verstappen's fourth win",
+   "summary": "Max Verstappen claimed his fourth win of the season in Las Vegas after withstanding pressure in a race with more than 30 lead changes. This article recaps the key moments of the race.",
+   "disagreement": "",
+   "label": "Opinion",
+   "updated": "2026-11-22T20:38:42Z"
+  },
+  {
+   "id": "c11f3e858",
+   "created": "2026-11-22T20:38:42Z",
+   "stories": [
+    {
+     "title": "5 betting lessons after Verstappen wins in Las Vegas",
+     "source": "Formula1.com",
+     "date": "2026-11-22T20:38:39Z",
+     "link": "https://www.formula1.com/en/latest/article/5-key-betting-lessons-after-max-verstappen-wins-the-las-vegas-grand-prix.5B4tZcliWQwS63az2nHNab",
+     "snippet": "It was Verstappen’s third Vegas win in four years, but what did the 2026 edition of this iconic race teach F1 betting fans ahead of the final two races."
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Five betting lessons from Verstappen's Las Vegas win",
+   "summary": "Verstappen's Las Vegas win was his third there in four years. The article draws five betting lessons from the race ahead of the final two rounds.",
+   "disagreement": "",
+   "label": "Opinion",
+   "updated": "2026-11-22T20:38:42Z"
+  },
+  {
+   "id": "c81f39483",
+   "created": "2026-11-22T20:38:42Z",
+   "stories": [
+    {
+     "title": "Wolff explains how Mercedes challenge fell apart in Vegas",
+     "source": "Formula1.com",
+     "date": "2026-11-22T20:38:39Z",
+     "link": "https://www.formula1.com/en/latest/article/wolff-explains-how-the-mercedes-challenge-fell-apart-in-the-closing-laps-in-las-vegas.4Zf0W1yuHxigFi72cspCj",
+     "snippet": "George Russell and Kimi Antonelli were both in contention for victory in Las Vegas, until it all came undone in the final laps of the event."
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Wolff explains how Mercedes' Vegas challenge fell apart",
+   "summary": "Toto Wolff explained how George Russell and Kimi Antonelli, both in contention for victory, saw their challenge unravel in the final laps. The comments came after the race.",
+   "disagreement": "",
+   "label": "Reported",
+   "updated": "2026-11-22T20:38:42Z"
+  },
+  {
+   "id": "c1b33e548",
+   "created": "2026-11-22T20:38:42Z",
+   "stories": [
+    {
+     "title": "Racing Bulls drivers assess 'massive lost opportunity' in Vegas",
+     "source": "Formula1.com",
+     "date": "2026-11-22T20:38:39Z",
+     "link": "https://www.formula1.com/en/latest/article/massive-lost-opportunity-racing-bulls-drivers-reflect-on-no-points-in-las-vegas-gp.1iWZ2ywDpgkLb1FyxW9mcX",
+     "snippet": "Arvid Lindblad admits that Racing Bulls failing to score a single point in the Las Vegas Grand Prix was \"a massive lost opportunity\", with the Formula 1 rookie spinning out of the race behind the…"
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Racing Bulls drivers call Vegas points miss a lost opportunity",
+   "summary": "Arvid Lindblad said Racing Bulls failing to score in Las Vegas was a massive lost opportunity. He spun out of the race behind the leaders.",
+   "disagreement": "",
+   "label": "Reported",
+   "updated": "2026-11-22T20:38:42Z"
+  },
+  {
+   "id": "c80ed89a9",
+   "created": "2026-11-22T20:38:42Z",
+   "stories": [
+    {
+     "title": "Norris reflects on 'chaotic' Las Vegas GP recovery",
+     "source": "Formula1.com",
+     "date": "2026-11-22T20:38:39Z",
+     "link": "https://www.formula1.com/en/latest/article/the-most-chaotic-race-ever-norris-reflects-on-remarkable-recovery-to-p2-in-las-vegas.Nl1w9QpG0Wy5pHzttLCHw",
+     "snippet": "Lando Norris reflects on his recovery to P2 at the Las Vegas Grand Prix, revealing how battery management complicated an exceptionally chaotic race."
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Norris reflects on chaotic Las Vegas GP recovery to second",
+   "summary": "Lando Norris reflected on his recovery to second place in the chaotic Las Vegas Grand Prix. He revealed that battery management complicated the race.",
+   "disagreement": "",
+   "label": "Reported",
+   "updated": "2026-11-22T20:38:42Z"
+  },
+  {
+   "id": "c320dcec0",
+   "created": "2026-11-22T20:38:42Z",
+   "stories": [
+    {
+     "title": "F1 set to reduce customer teams as key 2030 details emerge",
+     "source": "Motorsport.com",
+     "date": "2026-11-22T20:26:49Z",
+     "link": "https://www.motorsport.com/f1/news/f1-set-to-reduce-customer-teams-as-key-2030-details-emerge/10877055/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "snippet": "F1 is planning a shift to just two power unit supplies per manufacturer in 2030, Motorsport.com has learned, raising questions over the status of Mercedes' three current customers. Over the Las Vegas…"
+    },
+    {
+     "title": "F1 plans two-team engine supply limit under 2030 V8 rules",
+     "source": "Autosport",
+     "date": "2026-11-22T20:32:03Z",
+     "link": "https://www.autosport.com/f1/news/f1-set-to-reduce-customer-teams-as-key-2030-details-emerge/10877058/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+     "snippet": "F1 is planning a shift to just two power unit supplies per manufacturer in 2030, Autosport.com has learned, raising questions over the status of Mercedes' three current customers. Over the Las Vegas…"
+    }
+   ],
+   "merge_reasons": [
+    {
+     "time": "2026-11-22T20:38:42Z",
+     "added": [
+      "https://www.motorsport.com/f1/news/f1-set-to-reduce-customer-teams-as-key-2030-details-emerge/10877055/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+      "https://www.autosport.com/f1/news/f1-set-to-reduce-customer-teams-as-key-2030-details-emerge/10877058/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk"
+     ],
+     "joined_existing": false,
+     "reason": "Both reports describe the same planned 2030 engine supply limit and its effect on Mercedes' customers."
+    }
+   ],
+   "title": "F1 plans two power unit suppliers per manufacturer under 2030 rules",
+   "summary": "F1 is reportedly planning to limit each manufacturer to two power unit supplies in 2030. The plan raises questions about the status of Mercedes' three current customer teams.",
+   "disagreement": "",
+   "label": "Rumour",
+   "updated": "2026-11-22T20:38:42Z"
+  },
+  {
+   "id": "ca8f4fbd3",
+   "created": "2026-11-22T13:59:15Z",
+   "stories": [
+    {
+     "title": "Oscar Piastri rejects need for McLaren warning in Lando Norris fight: \"Don't need to be told\"",
+     "source": "Motorsport.com",
+     "date": "2026-11-22T07:52:55Z",
+     "link": "https://www.motorsport.com/f1/news/oscar-piastri-rejects-need-for-mclaren-warning-in-lando-norris-fight-dont-need-to-be-told/10876812/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "snippet": "McLaren Formula 1 driver Oscar Piastri says he and his team-mate Lando Norris \"don't need to be told\" how to race each other, after the Woking outfit warned its drivers to be careful during their…"
+    },
+    {
+     "title": "Oscar Piastri defends angry radio response to McLaren warning",
+     "source": "PlanetF1",
+     "date": "2026-11-22T19:52:22Z",
+     "link": "https://www.planetf1.com/news/oscar-piastri-mclaren-radio-f1-2026-las-vegas-grand-prix",
+     "snippet": "\"Stop telling me to f***ing be careful.\""
+    }
+   ],
+   "merge_reasons": [
+    {
+     "time": "2026-11-22T20:38:42Z",
+     "added": [
+      "https://www.planetf1.com/news/oscar-piastri-mclaren-radio-f1-2026-las-vegas-grand-prix"
+     ],
+     "joined_existing": true,
+     "reason": "The new story covers Piastri's response to the same McLaren warning about racing Norris in Las Vegas."
+    }
+   ],
+   "title": "Piastri rejects McLaren warning and defends angry radio reply",
+   "summary": "Piastri said he and Lando Norris do not need to be told how to race each other after McLaren warned its drivers to be careful. He defended his angry radio response to that warning.",
+   "disagreement": "",
+   "label": "Reported",
+   "updated": "2026-11-22T20:38:42Z"
+  },
+  {
+   "id": "c3be6da8c",
+   "created": "2026-11-22T20:38:42Z",
+   "stories": [
+    {
+     "title": "Lewis Hamilton season gives Ferrari serious consideration over Charles Leclerc's F1 future",
+     "source": "GPFans",
+     "date": "2026-11-22T18:45:00Z",
+     "link": "https://www.gpfans.com/en/f1-news/1093262/f1-lewis-hamilton-charles-leclerc-ferrari-2011-las-vegas-grand-prix-driver-decision/",
+     "snippet": "Another weekend, another Ferrari soap drama. This time though Charles Leclerc cannot deflect most of the barrage of criticism being directed towards him."
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Column: Hamilton's season puts Leclerc's Ferrari future under scrutiny",
+   "summary": "A column argues that Lewis Hamilton's season has led Ferrari to seriously consider Charles Leclerc's future. It describes another Ferrari soap drama after the Las Vegas Grand Prix.",
+   "disagreement": "",
+   "label": "Opinion",
+   "updated": "2026-11-22T20:38:42Z"
+  },
+  {
+   "id": "cb1b437f2",
+   "created": "2026-11-22T20:38:42Z",
+   "stories": [
+    {
+     "title": "'Russell is living rent free in Verstappen's head!'",
+     "source": "BBC Sport",
+     "date": "2026-11-22T18:05:40Z",
+     "link": "https://www.bbc.co.uk/sport/formula1/videos/cr2klvl8zz8jo?at_medium=RSS&at_campaign=rss",
+     "snippet": "BBC Sport's Harry Benjamin, Rebecca Clancy and Abbi Pulling discuss the clash between George Russell and Max Verstappen as their rivalry heats up both on and off the track."
+    }
+   ],
+   "merge_reasons": [],
+   "title": "BBC podcast says Russell is living rent free in Verstappen's head",
+   "summary": "BBC Sport's podcast panel discussed the clash between George Russell and Max Verstappen as their rivalry heats up. The panel's view is that Russell is living rent free in Verstappen's head.",
+   "disagreement": "",
+   "label": "Opinion",
+   "updated": "2026-11-22T20:38:42Z"
+  },
+  {
+   "id": "cf77d9d59",
+   "created": "2026-11-22T20:38:42Z",
+   "stories": [
+    {
+     "title": "'No-one believes they have cleared the air' - Ferrari duo collide again",
+     "source": "BBC Sport",
+     "date": "2026-11-22T18:02:42Z",
+     "link": "https://www.bbc.co.uk/sport/formula1/videos/c9772n2kg5d1o?at_medium=RSS&at_campaign=rss",
+     "snippet": "BBC Sport's Chequered Flag podcast guests do not believe Ferrari drivers Lewis Hamilton and Charles Leclerc have \"cleared the air\" after another collision."
+    }
+   ],
+   "merge_reasons": [],
+   "title": "BBC podcast doubts Hamilton and Leclerc have cleared the air",
+   "summary": "BBC Sport's Chequered Flag podcast guests do not believe Ferrari's Lewis Hamilton and Charles Leclerc have cleared the air after another collision. The view comes from the podcast panel's analysis.",
+   "disagreement": "",
+   "label": "Opinion",
+   "updated": "2026-11-22T20:38:42Z"
+  },
+  {
+   "id": "c1f537eb6",
+   "created": "2026-11-22T20:38:42Z",
+   "stories": [
+    {
+     "title": "Liam Lawson vents FIA frustration after Las Vegas GP false start",
+     "source": "PlanetF1",
+     "date": "2026-11-22T18:01:47Z",
+     "link": "https://www.planetf1.com/news/liam-lawson-safety-car-unlapping-delay-las-vegas-gp",
+     "snippet": "Liam Lawson started the Las Vegas Grand Prix a lap behind, after a pre-race fuel leak."
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Liam Lawson vents FIA frustration after Las Vegas false start",
+   "summary": "Liam Lawson started the Las Vegas Grand Prix a lap behind after a pre-race fuel leak. He vented his frustration at the FIA over the situation.",
+   "disagreement": "",
+   "label": "Reported",
+   "updated": "2026-11-22T20:38:42Z"
+  },
+  {
+   "id": "c977d0be7",
+   "created": "2026-11-22T20:38:42Z",
+   "stories": [
+    {
+     "title": "\"I actually liked it\" – McLaren boss defends Piastri's four-letter outburst in Las Vegas GP",
+     "source": "Motorsport.com",
+     "date": "2026-11-22T18:01:18Z",
+     "link": "https://www.motorsport.com/f1/news/i-actually-liked-it-mclaren-boss-defends-piastris-four-letter-outburst-in-las-vegas-gp/10876928/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "snippet": "Completing the podium behind a victorious Max Verstappen in Las Vegas probably wasn't on McLaren's bingo card after a troubled qualifying session for Lando Norris and Oscar Piastri. Finishing third…"
+    }
+   ],
+   "merge_reasons": [],
+   "title": "McLaren boss defends Piastri's outburst in Las Vegas GP",
+   "summary": "A McLaren boss said he actually liked Oscar Piastri's four-letter outburst during the Las Vegas Grand Prix. The comment came after McLaren finished the race with a podium behind Verstappen.",
+   "disagreement": "",
+   "label": "Reported",
+   "updated": "2026-11-22T20:38:42Z"
+  },
+  {
+   "id": "c91ffb4f5",
+   "created": "2026-11-22T20:38:42Z",
+   "stories": [
+    {
+     "title": "Max Verstappen delivers middle finger gesture to F1 rival who is warned by world champion",
+     "source": "GPFans",
+     "date": "2026-11-22T17:44:00Z",
+     "link": "https://www.gpfans.com/en/f1-news/1093197/f1-max-verstappen-george-russell-jacques-villeneuve-middle-finger-las-vegas-grand-prix/",
+     "snippet": "Jacques Villeneuve has issued a warning to George Russell following a collision with Max Verstappen during the third practice session for the Las Vegas Grand Prix."
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Villeneuve warns Russell after practice collision with Verstappen",
+   "summary": "Jacques Villeneuve issued a warning to George Russell following his collision with Max Verstappen in final practice in Las Vegas. The report also describes a gesture Verstappen made during the incident.",
+   "disagreement": "",
+   "label": "Reported",
+   "updated": "2026-11-22T20:38:42Z"
+  },
+  {
+   "id": "cb1f4baab",
+   "created": "2026-11-22T20:38:42Z",
+   "stories": [
+    {
+     "title": "Max Verstappen, George Russell's latest war of words unlikely to stay in Vegas",
+     "source": "ESPN",
+     "date": "2026-11-22T16:58:21Z",
+     "link": "https://www.espn.com/racing/f1/story/_/id/50562576/verstappen-russell-feud-f1-las-vegas",
+     "snippet": "The long-standing Max Verstappen-George Russell feud boiled over in Las Vegas, where the victorious Dutchman took delight in his rival's misfortune."
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Verstappen-Russell feud likely to continue beyond Las Vegas",
+   "summary": "The long-running Verstappen-Russell feud boiled over in Las Vegas, where Verstappen enjoyed his rival's misfortune. The article argues the war of words will not end there.",
+   "disagreement": "",
+   "label": "Opinion",
+   "updated": "2026-11-22T20:38:42Z"
+  },
+  {
+   "id": "c94922007",
+   "created": "2026-11-22T20:38:42Z",
+   "stories": [
+    {
+     "title": "Verstappen mocks 'complete joke' Russell at Las Vegas GP as feud intensifies",
+     "source": "ESPN",
+     "date": "2026-11-22T16:58:21Z",
+     "link": "https://www.espn.com/f1/story/_/id/50472110/max-verstappen-george-russell-las-vegas-grand-prix-formula-1",
+     "snippet": "Max Verstappen ridiculed George Russell after the Las Vegas Grand Prix, laughing at the Mercedes driver's late mistake and branding his 2026 season a \"complete joke.\""
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Verstappen calls Russell a 'complete joke' after Las Vegas GP",
+   "summary": "Max Verstappen ridiculed George Russell after the Las Vegas Grand Prix, laughing at his late mistake. He also described Russell's 2026 season as a complete joke.",
+   "disagreement": "",
+   "label": "Reported",
+   "updated": "2026-11-22T20:38:42Z"
+  },
+  {
+   "id": "c02a8785b",
+   "created": "2026-11-22T20:38:42Z",
+   "stories": [
+    {
+     "title": "Verstappen: Las Vegas Grand Prix was like 'Mario Kart'",
+     "source": "ESPN",
+     "date": "2026-11-22T16:58:21Z",
+     "link": "https://www.espn.com/f1/story/_/id/50472136/max-verstappen-mario-kart-las-vegas-grand-prix-formula-1",
+     "snippet": "In a career spanning 25 years in go-karts, Formula 3 and Formula 1, Max Verstappen said he has only ever experienced a race as chaotic as the 2026 Las Vegas Grand Prix while playing Nintendo's Mario…"
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Verstappen says Las Vegas Grand Prix was like Mario Kart",
+   "summary": "Max Verstappen said he has never experienced a race as chaotic as the 2026 Las Vegas Grand Prix. He compared it to playing Mario Kart.",
+   "disagreement": "",
+   "label": "Reported",
+   "updated": "2026-11-22T20:38:42Z"
+  },
+  {
+   "id": "c0e43b6af",
+   "created": "2026-11-22T20:38:42Z",
+   "stories": [
+    {
+     "title": "Hamilton and Leclerc spark Ferrari fury; Russell ‘far below’ Verstappen level – roundup",
+     "source": "PlanetF1",
+     "date": "2026-11-22T16:45:06Z",
+     "link": "https://www.planetf1.com/news/lewis-hamilton-charles-leclerc-crash-max-verstappen-george-russell-las-vegas-grand-prix",
+     "snippet": "Lewis Hamilton, Charles Leclerc, Max Verstappen, George Russell and more feature in the Las Vegas GP F1 news headlines."
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Las Vegas GP roundup: Ferrari fury and Russell's verdict on Verstappen",
+   "summary": "A roundup of headlines from the Las Vegas Grand Prix covers Hamilton and Leclerc's Ferrari clash and Russell's comments on Verstappen. It gathers several separate stories in one place.",
+   "disagreement": "",
+   "label": "Opinion",
+   "updated": "2026-11-22T20:38:42Z"
+  },
+  {
+   "id": "c7a46eb03",
+   "created": "2026-11-22T20:38:42Z",
+   "stories": [
+    {
+     "title": "Fernando Alonso retires Aston Martin car just metres from Las Vegas GP finish line on the last lap",
+     "source": "GPFans",
+     "date": "2026-11-22T16:29:00Z",
+     "link": "https://www.gpfans.com/en/f1-news/1093254/f1-fernando-alonso-aston-martin-las-vegas-grand-prix-retirement-last-lap/",
+     "snippet": "One of the great things about the Las Vegas Grand Prix was it acted as an equaliser."
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Alonso retires Aston Martin metres from Las Vegas finish line",
+   "summary": "Fernando Alonso retired his Aston Martin just metres from the finish line on the last lap of the Las Vegas Grand Prix. The incident was one of the race's late talking points.",
+   "disagreement": "",
+   "label": "Reported",
+   "updated": "2026-11-22T20:38:42Z"
+  },
+  {
+   "id": "ce371d9be",
+   "created": "2026-11-22T13:59:15Z",
+   "stories": [
+    {
+     "title": "“I thought I was doing something right”: Why power loss ended Antonelli’s win hopes | Formula 1",
+     "source": "RaceFans",
+     "date": "2026-11-22T07:06:44Z",
+     "link": "https://www.racefans.net/2026/11/22/i-thought-i-was-doing-something-right-why-power-loss-ended-antonellis-win-hopes/",
+     "snippet": "Andrea Kimi Antonelli explained the sudden loss of power which ended his chances of fighting for victory in the Las Vegas Grand Prix."
+    },
+    {
+     "title": "Kimi Antonelli explains mistake that left him “smoked by the two McLarens” in Vegas",
+     "source": "Motorsport.com",
+     "date": "2026-11-22T07:11:39Z",
+     "link": "https://www.motorsport.com/f1/news/antonelli-explains-the-mistake-that-left-him-smoked-by-the-two-mclarens-in-las-vegas/10876732/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "snippet": "Kimi Antonelli looked primed to cap a charge from sixth on the grid with a dramatic last-lap victory at the 2026 Las Vegas Grand Prix. Instead, one split-second pedal adjustment drained his battery…"
+    },
+    {
+     "title": "“My mistake was to lift” – Why Kimi Antonelli lost power in Las Vegas F1 victory battle",
+     "source": "Motorsport.com",
+     "date": "2026-11-22T07:21:34Z",
+     "link": "https://www.motorsport.com/f1/news/my-mistake-was-to-lift-why-kimi-antonelli-lost-power-in-las-vegas-f1-victory-battle/10876764/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "snippet": "Kimi Antonelli has explained the quirky “mistake” that cost him a shot at Formula 1 victory in the Las Vegas Grand Prix. The fastest driver in qualifying, Antonelli was sixth on the grid owing to a…"
+    },
+    {
+     "title": "“My mistake was to lift” – Why Antonelli lost power in Las Vegas GP victory battle",
+     "source": "Autosport",
+     "date": "2026-11-22T07:27:37Z",
+     "link": "https://www.autosport.com/f1/news/my-mistake-was-to-lift-why-antonelli-lost-power-in-las-vegas-gp-victory-battle/10876786/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+     "snippet": "Kimi Antonelli has explained the quirky “mistake” that cost him a shot at Formula 1 victory in the Las Vegas Grand Prix. The fastest driver in qualifying, Antonelli was sixth on the grid owing to a…"
+    },
+    {
+     "title": "Antonelli explains ‘annoying’ last-lap issue in Las Vegas",
+     "source": "Formula1.com",
+     "date": "2026-11-22T13:59:11Z",
+     "link": "https://www.formula1.com/en/latest/article/antonelli-explains-annoying-last-lap-issue-in-las-vegas-as-he-admits-having-a-lot-to-learn-in-these-conditions.1i0fzBGmJSWZAK4wNaYMO9",
+     "snippet": "Mercedes' Kimi Antonelli had to settle for fourth place in the Las Vegas Grand Prix after suddenly dropping out of the fight for the lead on the last lap."
+    },
+    {
+     "title": "Kimi Antonelli reveals cause of Mercedes power glitch at Las Vegas GP",
+     "source": "PlanetF1",
+     "date": "2026-11-22T15:16:39Z",
+     "link": "https://www.planetf1.com/news/kimi-antonelli-reveals-las-vegas-power-issue-cause",
+     "snippet": "Kimi Antonelli was primed to rival Max Verstappen for the win on the last lap in Las Vegas until a power issue ended his chase."
+    }
+   ],
+   "merge_reasons": [
+    {
+     "time": "2026-11-22T13:59:15Z",
+     "added": [
+      "https://www.racefans.net/2026/11/22/i-thought-i-was-doing-something-right-why-power-loss-ended-antonellis-win-hopes/",
+      "https://www.motorsport.com/f1/news/antonelli-explains-the-mistake-that-left-him-smoked-by-the-two-mclarens-in-las-vegas/10876732/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+      "https://www.motorsport.com/f1/news/my-mistake-was-to-lift-why-kimi-antonelli-lost-power-in-las-vegas-f1-victory-battle/10876764/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+      "https://www.autosport.com/f1/news/my-mistake-was-to-lift-why-antonelli-lost-power-in-las-vegas-gp-victory-battle/10876786/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk"
+     ],
+     "joined_existing": false,
+     "reason": "Each story reports Antonelli's explanation of the same sudden power loss that ended his Las Vegas victory bid."
+    },
+    {
+     "time": "2026-11-22T20:38:42Z",
+     "added": [
+      "https://www.formula1.com/en/latest/article/antonelli-explains-annoying-last-lap-issue-in-las-vegas-as-he-admits-having-a-lot-to-learn-in-these-conditions.1i0fzBGmJSWZAK4wNaYMO9",
+      "https://www.planetf1.com/news/kimi-antonelli-reveals-las-vegas-power-issue-cause"
+     ],
+     "joined_existing": true,
+     "reason": "Both new stories report Antonelli's explanation of the same late-race power loss in Las Vegas."
+    }
+   ],
+   "title": "Antonelli blames a lift for the power loss that ended his Vegas win bid",
+   "summary": "Antonelli said a split-second pedal adjustment drained his battery and cost him the lead late in the Las Vegas Grand Prix, leaving him fourth. He called the last-lap issue annoying and explained it as the cause of the Mercedes power glitch.",
+   "disagreement": "",
+   "label": "Reported",
+   "updated": "2026-11-22T20:38:42Z"
+  },
+  {
+   "id": "ca6a31dae",
+   "created": "2026-11-22T13:59:15Z",
+   "stories": [
+    {
+     "title": "2026 Las Vegas Grand Prix race result and championship points | Formula 1",
+     "source": "RaceFans",
+     "date": "2026-11-22T05:37:01Z",
+     "link": "https://www.racefans.net/2026/11/22/2026-las-vegas-grand-prix-race-result-and-championship-points/",
+     "snippet": "Max Verstappen won the Las Vegas Grand Prix for Red Bull and closed to within 100 points of champion Andrea Kimi Antonelli."
+    },
+    {
+     "title": "Max Verstappen survives Mercedes onslaught in spectacular Las Vegas Grand Prix thriller",
+     "source": "PlanetF1",
+     "date": "2026-11-22T05:38:58Z",
+     "link": "https://www.planetf1.com/news/2026-las-vegas-grand-prix-race-report",
+     "snippet": "Mercedes threw everything at Max Verstappen in Las Vegas, but the Red Bull driver had the answer every time."
+    },
+    {
+     "title": "F1 2026 Las Vegas Grand Prix race result with post-race penalties",
+     "source": "The Race",
+     "date": "2026-11-22T05:39:05Z",
+     "link": "https://www.the-race.com/formula-1/f1-2026-las-vegas-grand-prix-race-result/",
+     "snippet": "The complete race result from the 50-lap F1 2026 Las Vegas GP"
+    },
+    {
+     "title": "Verstappen wins wild Las Vegas GP as Ferraris collide again",
+     "source": "Sky Sports",
+     "date": "2026-11-22T05:40:00Z",
+     "link": "https://www.skysports.com/f1/news/12433/13615083/las-vegas-gp-max-verstappen-wins-wild-race-as-ferraris-lewis-hamilton-and-charles-leclerc-collide-again",
+     "snippet": "Max Verstappen produced a remarkable drive to win a wild Las Vegas Grand Prix that saw him withstand extreme pressure from George Russell and Kimi Antonelli before a late Mercedes collapse."
+    },
+    {
+     "title": "F1 Las Vegas Grand Prix: Updated race results after post-race penalties",
+     "source": "Crash.net",
+     "date": "2026-11-22T05:43:00Z",
+     "link": "https://www.crash.net/f1/results/1110729/1/formula-1-las-vegas-grand-prix-full-race-results",
+     "snippet": "Full race results from the 2026 Formula 1 Las Vegas Grand Prix"
+    },
+    {
+     "title": "F1 Las Vegas GP: Max Verstappen wins thriller as Ferraris come to blows",
+     "source": "Motorsport.com",
+     "date": "2026-11-22T05:44:11Z",
+     "link": "https://www.motorsport.com/f1/news/f1-las-vegas-gp-report/10876675/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "snippet": "Max Verstappen won an eventful Las Vegas Grand Prix, holding off both Mercedes as Formula 1’s novel ‘yo-yo’ racing returned – with no Silver Arrow on the eventual podium. With qualifying pacesetter…"
+    },
+    {
+     "title": "Max Verstappen wins pulsating Las Vegas GP as Ferraris collide",
+     "source": "Crash.net",
+     "date": "2026-11-22T05:44:35Z",
+     "link": "https://www.crash.net/f1/race-report/1110730/1/max-verstappen-wins-pulsating-las-vegas-gp-ferraris-collide",
+     "snippet": "Max Verstappen takes the 75th win of his F1 career in Las Vegas."
+    },
+    {
+     "title": "F1 Las Vegas GP: Verstappen wins thriller as Russell hits the wall late on",
+     "source": "Autosport",
+     "date": "2026-11-22T05:45:47Z",
+     "link": "https://www.autosport.com/f1/news/f1-las-vegas-gp-report/10876677/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+     "snippet": "Max Verstappen won a wild Las Vegas Grand Prix, holding off both Mercedes drivers as Formula 1’s ‘yo-yo’ racing returned – with no Silver Arrow on the eventual podium. With qualifying pacesetter…"
+    },
+    {
+     "title": "F1 Results Today: Las Vegas Grand Prix 2026 times and positions",
+     "source": "GPFans",
+     "date": "2026-11-22T05:53:00Z",
+     "link": "https://www.gpfans.com/en/f1-news/1093213/f1-results-today-las-vegas-grand-prix-2026-times-and-positions/",
+     "snippet": "Max Verstappen won a wild 2026 Las Vegas Grand Prix on Saturday night as the Strip delivered a dramatic spectacle befitting the occasion."
+    },
+    {
+     "title": "Verstappen leads parade of position-swapping to win in Las Vegas | 2026 Las Vegas Grand Prix report",
+     "source": "RaceFans",
+     "date": "2026-11-22T05:54:06Z",
+     "link": "https://www.racefans.net/2026/11/22/verstappen-leads-parade-of-position-swapping-to-win-in-las-vegas/",
+     "snippet": "Max Verstappen scored his third grand prix victory of the season in a Las Vegas Grand Prix which was dominated by 'yo-yo' position swaps."
+    },
+    {
+     "title": "Las Vegas Grand Prix 2026 – F1 race results (Las Vegas Strip circuit)",
+     "source": "PlanetF1",
+     "date": "2026-11-22T05:55:06Z",
+     "link": "https://www.planetf1.com/news/f1-results-las-vegas-grand-prix-2026-race",
+     "snippet": "A complete rundown of F1 results from the 2026 Las Vegas Grand Prix in the USA."
+    },
+    {
+     "title": "Verstappen wins breathless Las Vegas GP as Ferraris collide",
+     "source": "The Race",
+     "date": "2026-11-22T05:58:27Z",
+     "link": "https://www.the-race.com/formula-1/f1-las-vegas-gp-max-verstappen-wins-ferrari-drivers-collide/",
+     "snippet": "Max Verstappen delivered a masterclass to win a peloton-style Las Vegas GP, while George Russell crashed and the Ferrari drivers collided"
+    },
+    {
+     "title": "New F1 championship standings after the Las Vegas Grand Prix",
+     "source": "Crash.net",
+     "date": "2026-11-22T06:11:14Z",
+     "link": "https://www.crash.net/f1/results/1110733/1/new-f1-championship-standings-after-las-vegas-grand-prix",
+     "snippet": "Updated F1 championship results after the Las Vegas Grand Prix in the United States."
+    },
+    {
+     "title": "F1 – Verstappen wins action-packed Las Vegas Grand Prix as late Mercedes drama delivers McLaren double podium",
+     "source": "FIA",
+     "date": "2026-11-22T07:36:00Z",
+     "link": "https://www.fia.com/news/f1-verstappen-wins-action-packed-las-vegas-grand-prix-late-mercedes-drama-delivers-mclaren",
+     "snippet": "Max Verstappen claimed a dramatic third victory at the Las Vegas Grand Prix, holding off a race-long challenge from Mercedes before late drama dropped George Russell out of contention and…"
+    },
+    {
+     "title": "F1 Las Vegas LIVE: Verstappen leads, Hamilton out of the points after penalty",
+     "source": "PlanetF1",
+     "date": "2026-11-22T03:09:58Z",
+     "link": "https://www.planetf1.com/news/f1-las-vegas-gp-live-2026-race-updates",
+     "snippet": "Live race updates from the F1 2026 Las Vegas Grand Prix, Round 21 of the season, held at the Las Vegas Strip Circuit."
+    },
+    {
+     "title": "F1 Las Vegas Grand Prix results changed as FIA announce post-race penalties",
+     "source": "GPFans",
+     "date": "2026-11-22T14:57:00Z",
+     "link": "https://www.gpfans.com/en/f1-news/1093250/f1-las-vegas-grand-prix-2026-results-final-classification-all-penalties-applied/",
+     "snippet": "One of the most unusual races in recent years took place but there was no unusual winner as Max Verstappen showed supreme class to take victory at the Las Vegas Grand Prix."
+    }
+   ],
+   "merge_reasons": [
+    {
+     "time": "2026-11-22T13:59:15Z",
+     "added": [
+      "https://www.racefans.net/2026/11/22/2026-las-vegas-grand-prix-race-result-and-championship-points/",
+      "https://www.planetf1.com/news/2026-las-vegas-grand-prix-race-report",
+      "https://www.the-race.com/formula-1/f1-2026-las-vegas-grand-prix-race-result/",
+      "https://www.skysports.com/f1/news/12433/13615083/las-vegas-gp-max-verstappen-wins-wild-race-as-ferraris-lewis-hamilton-and-charles-leclerc-collide-again",
+      "https://www.crash.net/f1/results/1110729/1/formula-1-las-vegas-grand-prix-full-race-results",
+      "https://www.motorsport.com/f1/news/f1-las-vegas-gp-report/10876675/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+      "https://www.crash.net/f1/race-report/1110730/1/max-verstappen-wins-pulsating-las-vegas-gp-ferraris-collide",
+      "https://www.autosport.com/f1/news/f1-las-vegas-gp-report/10876677/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "https://www.gpfans.com/en/f1-news/1093213/f1-results-today-las-vegas-grand-prix-2026-times-and-positions/",
+      "https://www.racefans.net/2026/11/22/verstappen-leads-parade-of-position-swapping-to-win-in-las-vegas/",
+      "https://www.planetf1.com/news/f1-results-las-vegas-grand-prix-2026-race",
+      "https://www.the-race.com/formula-1/f1-las-vegas-gp-max-verstappen-wins-ferrari-drivers-collide/",
+      "https://www.crash.net/f1/results/1110733/1/new-f1-championship-standings-after-las-vegas-grand-prix",
+      "https://www.fia.com/news/f1-verstappen-wins-action-packed-las-vegas-grand-prix-late-mercedes-drama-delivers-mclaren",
+      "https://www.planetf1.com/news/f1-las-vegas-gp-live-2026-race-updates"
+     ],
+     "joined_existing": false,
+     "reason": "All of these report the result, live coverage or standings of the same 2026 Las Vegas Grand Prix race won by Verstappen."
+    },
+    {
+     "time": "2026-11-22T20:38:42Z",
+     "added": [
+      "https://www.gpfans.com/en/f1-news/1093250/f1-las-vegas-grand-prix-2026-results-final-classification-all-penalties-applied/"
+     ],
+     "joined_existing": true,
+     "reason": "The new story reports the revised official results of the same Las Vegas race after post-race penalties."
+    }
+   ],
+   "title": "Verstappen wins chaotic Las Vegas GP as post-race penalties change results",
+   "summary": "Max Verstappen won a race with more than 20 lead changes, with McLaren filling the rest of the podium. The FIA then announced post-race penalties that changed the official results.",
+   "disagreement": "",
+   "label": "Confirmed",
+   "updated": "2026-11-22T20:38:42Z"
+  },
+  {
+   "id": "c258988c7",
+   "created": "2026-11-22T13:59:15Z",
+   "stories": [
+    {
+     "title": "Max Verstappen brutally laughs at George Russell's Las Vegas crash over team radio",
+     "source": "Crash.net",
+     "date": "2026-11-22T06:30:47Z",
+     "link": "https://www.crash.net/f1/news/1110737/1/max-verstappen-brutally-laughs-george-russells-las-vegas-crash-over-team-radio",
+     "snippet": "Max Verstappen had the last laugh in Las Vegas."
+    },
+    {
+     "title": "George Russell explains late-race crash in Las Vegas F1 victory bid",
+     "source": "Motorsport.com",
+     "date": "2026-11-22T06:37:21Z",
+     "link": "https://www.motorsport.com/f1/news/george-russell-explains-late-race-crash-in-las-vegas-f1-victory-bid/10876718/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "snippet": "George Russell has admitted to making “a high-risk move” after crashing with three laps remaining in Formula 1’s Las Vegas Grand Prix in an attempt to clinch victory. As ‘yo-yo’ racing returned to…"
+    },
+    {
+     "title": "George Russell: “I don’t regret it” after crashing out of second at Las Vegas GP",
+     "source": "Motorsport.com",
+     "date": "2026-11-22T06:46:08Z",
+     "link": "https://www.motorsport.com/f1/news/russell-i-dont-regret-it-after-hitting-las-vegas-wall-in-late-lunge-for-second/10876720/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "snippet": "George Russell could have played it safe and walked away from the 2026 Las Vegas Grand Prix with a podium. Instead, the Mercedes driver gambled on a late lunge for second - and watched both his shot…"
+    },
+    {
+     "title": "Max Verstappen pokes fun at George Russell in Las Vegas GP team radio",
+     "source": "PlanetF1",
+     "date": "2026-11-22T07:10:56Z",
+     "link": "https://www.planetf1.com/news/max-verstappen-george-russell-las-vegas-gp-radio",
+     "snippet": "George Russell was Max Verstappen's main challenger, and then he wasn't..."
+    },
+    {
+     "title": "George Russell explains Las Vegas GP crash as Max Verstappen declares ‘karma’",
+     "source": "PlanetF1",
+     "date": "2026-11-22T14:29:15Z",
+     "link": "https://www.planetf1.com/news/george-russell-f1-2026-las-vegas-grand-prix-crash",
+     "snippet": "George Russell crashed out of a podium position in Las Vegas with three laps remaining."
+    }
+   ],
+   "merge_reasons": [
+    {
+     "time": "2026-11-22T13:59:15Z",
+     "added": [
+      "https://www.crash.net/f1/news/1110737/1/max-verstappen-brutally-laughs-george-russells-las-vegas-crash-over-team-radio",
+      "https://www.motorsport.com/f1/news/george-russell-explains-late-race-crash-in-las-vegas-f1-victory-bid/10876718/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+      "https://www.motorsport.com/f1/news/russell-i-dont-regret-it-after-hitting-las-vegas-wall-in-late-lunge-for-second/10876720/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+      "https://www.planetf1.com/news/max-verstappen-george-russell-las-vegas-gp-radio"
+     ],
+     "joined_existing": false,
+     "reason": "These stories all describe the same late-race crash by Russell at the Las Vegas Grand Prix and the reactions to it."
+    },
+    {
+     "time": "2026-11-22T20:38:42Z",
+     "added": [
+      "https://www.planetf1.com/news/george-russell-f1-2026-las-vegas-grand-prix-crash"
+     ],
+     "joined_existing": true,
+     "reason": "The new story is Russell's explanation of the same late-race crash that the card covers."
+    }
+   ],
+   "title": "Russell explains late Vegas crash as Verstappen mocks him",
+   "summary": "Russell said he made a high-risk lunge for second that ended in a crash with three laps left in Las Vegas. Verstappen declared it karma after laughing at the crash over team radio.",
+   "disagreement": "",
+   "label": "Reported",
+   "updated": "2026-11-22T20:38:42Z"
+  },
+  {
+   "id": "c7b40877a",
+   "created": "2026-11-22T20:38:42Z",
+   "stories": [
+    {
+     "title": "'Very artificial' - F1 drivers divided over Las Vegas overtaking frenzy",
+     "source": "The Race",
+     "date": "2026-11-22T14:07:15Z",
+     "link": "https://www.the-race.com/formula-1/this-is-not-f1-verstappen-criticises-las-vegas-overtaking-frenzy/",
+     "snippet": "The racing in F1’s overtake-filled Las Vegas Grand Prix has split opinion among drivers, with some criticising it as “very artificial” and “not F1”"
+    }
+   ],
+   "merge_reasons": [],
+   "title": "F1 drivers divided over Las Vegas overtaking frenzy",
+   "summary": "Drivers have split over the overtake-heavy Las Vegas Grand Prix, with some calling the racing very artificial. Others gave different views on the same race.",
+   "disagreement": "",
+   "label": "Opinion",
+   "updated": "2026-11-22T20:38:42Z"
+  },
+  {
+   "id": "cdde0e92e",
+   "created": "2026-11-22T20:38:42Z",
+   "stories": [
+    {
+     "title": "Max Verstappen is your Las Vegas GP Driver of the Day",
+     "source": "Formula1.com",
+     "date": "2026-11-22T13:59:11Z",
+     "link": "https://www.formula1.com/en/latest/article/driver-of-the-day-race-winner-verstappen-gets-your-las-vegas-vote.5QesGibVmO4x9ftqrpghbk",
+     "snippet": "Max Verstappen picks up the Driver of the Day vote for the 2026 Las Vegas Grand Prix."
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Verstappen wins Las Vegas Grand Prix Driver of the Day vote",
+   "summary": "Max Verstappen won the Driver of the Day vote for the 2026 Las Vegas Grand Prix. The award was announced by Formula1.com.",
+   "disagreement": "",
+   "label": "Confirmed",
+   "updated": "2026-11-22T20:38:42Z"
+  },
   {
    "id": "c55740f86",
    "created": "2026-11-22T13:59:15Z",
@@ -125,25 +919,6 @@
    "merge_reasons": [],
    "title": "Hadjar says Las Vegas front wing failure ruined his race",
    "summary": "Isack Hadjar said a freak front wing failure is ruining his fun after his podium run collapsed in Las Vegas. He had been racing with the frontrunners before the failure.",
-   "disagreement": "",
-   "label": "Reported",
-   "updated": "2026-11-22T13:59:15Z"
-  },
-  {
-   "id": "ca8f4fbd3",
-   "created": "2026-11-22T13:59:15Z",
-   "stories": [
-    {
-     "title": "Oscar Piastri rejects need for McLaren warning in Lando Norris fight: \"Don't need to be told\"",
-     "source": "Motorsport.com",
-     "date": "2026-11-22T07:52:55Z",
-     "link": "https://www.motorsport.com/f1/news/oscar-piastri-rejects-need-for-mclaren-warning-in-lando-norris-fight-dont-need-to-be-told/10876812/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "snippet": "McLaren Formula 1 driver Oscar Piastri says he and his team-mate Lando Norris \"don't need to be told\" how to race each other, after the Woking outfit warned its drivers to be careful during their…"
-    }
-   ],
-   "merge_reasons": [],
-   "title": "Piastri says McLaren drivers don't need warning about racing",
-   "summary": "Oscar Piastri said he and Lando Norris do not need to be told how to race each other. His comments came after McLaren warned its drivers to be careful in their fight.",
    "disagreement": "",
    "label": "Reported",
    "updated": "2026-11-22T13:59:15Z"
@@ -289,250 +1064,6 @@
    "summary": "Sergio Perez will start the Qatar Grand Prix with a five-place grid penalty for a collision with Camara. The penalty was confirmed by RaceFans.",
    "disagreement": "",
    "label": "Confirmed",
-   "updated": "2026-11-22T13:59:15Z"
-  },
-  {
-   "id": "ca6a31dae",
-   "created": "2026-11-22T13:59:15Z",
-   "stories": [
-    {
-     "title": "2026 Las Vegas Grand Prix race result and championship points | Formula 1",
-     "source": "RaceFans",
-     "date": "2026-11-22T05:37:01Z",
-     "link": "https://www.racefans.net/2026/11/22/2026-las-vegas-grand-prix-race-result-and-championship-points/",
-     "snippet": "Max Verstappen won the Las Vegas Grand Prix for Red Bull and closed to within 100 points of champion Andrea Kimi Antonelli."
-    },
-    {
-     "title": "Max Verstappen survives Mercedes onslaught in spectacular Las Vegas Grand Prix thriller",
-     "source": "PlanetF1",
-     "date": "2026-11-22T05:38:58Z",
-     "link": "https://www.planetf1.com/news/2026-las-vegas-grand-prix-race-report",
-     "snippet": "Mercedes threw everything at Max Verstappen in Las Vegas, but the Red Bull driver had the answer every time."
-    },
-    {
-     "title": "F1 2026 Las Vegas Grand Prix race result with post-race penalties",
-     "source": "The Race",
-     "date": "2026-11-22T05:39:05Z",
-     "link": "https://www.the-race.com/formula-1/f1-2026-las-vegas-grand-prix-race-result/",
-     "snippet": "The complete race result from the 50-lap F1 2026 Las Vegas GP"
-    },
-    {
-     "title": "Verstappen wins wild Las Vegas GP as Ferraris collide again",
-     "source": "Sky Sports",
-     "date": "2026-11-22T05:40:00Z",
-     "link": "https://www.skysports.com/f1/news/12433/13615083/las-vegas-gp-max-verstappen-wins-wild-race-as-ferraris-lewis-hamilton-and-charles-leclerc-collide-again",
-     "snippet": "Max Verstappen produced a remarkable drive to win a wild Las Vegas Grand Prix that saw him withstand extreme pressure from George Russell and Kimi Antonelli before a late Mercedes collapse."
-    },
-    {
-     "title": "F1 Las Vegas Grand Prix: Updated race results after post-race penalties",
-     "source": "Crash.net",
-     "date": "2026-11-22T05:43:00Z",
-     "link": "https://www.crash.net/f1/results/1110729/1/formula-1-las-vegas-grand-prix-full-race-results",
-     "snippet": "Full race results from the 2026 Formula 1 Las Vegas Grand Prix"
-    },
-    {
-     "title": "F1 Las Vegas GP: Max Verstappen wins thriller as Ferraris come to blows",
-     "source": "Motorsport.com",
-     "date": "2026-11-22T05:44:11Z",
-     "link": "https://www.motorsport.com/f1/news/f1-las-vegas-gp-report/10876675/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "snippet": "Max Verstappen won an eventful Las Vegas Grand Prix, holding off both Mercedes as Formula 1’s novel ‘yo-yo’ racing returned – with no Silver Arrow on the eventual podium. With qualifying pacesetter…"
-    },
-    {
-     "title": "Max Verstappen wins pulsating Las Vegas GP as Ferraris collide",
-     "source": "Crash.net",
-     "date": "2026-11-22T05:44:35Z",
-     "link": "https://www.crash.net/f1/race-report/1110730/1/max-verstappen-wins-pulsating-las-vegas-gp-ferraris-collide",
-     "snippet": "Max Verstappen takes the 75th win of his F1 career in Las Vegas."
-    },
-    {
-     "title": "F1 Las Vegas GP: Verstappen wins thriller as Russell hits the wall late on",
-     "source": "Autosport",
-     "date": "2026-11-22T05:45:47Z",
-     "link": "https://www.autosport.com/f1/news/f1-las-vegas-gp-report/10876677/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-     "snippet": "Max Verstappen won a wild Las Vegas Grand Prix, holding off both Mercedes drivers as Formula 1’s ‘yo-yo’ racing returned – with no Silver Arrow on the eventual podium. With qualifying pacesetter…"
-    },
-    {
-     "title": "F1 Results Today: Las Vegas Grand Prix 2026 times and positions",
-     "source": "GPFans",
-     "date": "2026-11-22T05:53:00Z",
-     "link": "https://www.gpfans.com/en/f1-news/1093213/f1-results-today-las-vegas-grand-prix-2026-times-and-positions/",
-     "snippet": "Max Verstappen won a wild 2026 Las Vegas Grand Prix on Saturday night as the Strip delivered a dramatic spectacle befitting the occasion."
-    },
-    {
-     "title": "Verstappen leads parade of position-swapping to win in Las Vegas | 2026 Las Vegas Grand Prix report",
-     "source": "RaceFans",
-     "date": "2026-11-22T05:54:06Z",
-     "link": "https://www.racefans.net/2026/11/22/verstappen-leads-parade-of-position-swapping-to-win-in-las-vegas/",
-     "snippet": "Max Verstappen scored his third grand prix victory of the season in a Las Vegas Grand Prix which was dominated by 'yo-yo' position swaps."
-    },
-    {
-     "title": "Las Vegas Grand Prix 2026 – F1 race results (Las Vegas Strip circuit)",
-     "source": "PlanetF1",
-     "date": "2026-11-22T05:55:06Z",
-     "link": "https://www.planetf1.com/news/f1-results-las-vegas-grand-prix-2026-race",
-     "snippet": "A complete rundown of F1 results from the 2026 Las Vegas Grand Prix in the USA."
-    },
-    {
-     "title": "Verstappen wins breathless Las Vegas GP as Ferraris collide",
-     "source": "The Race",
-     "date": "2026-11-22T05:58:27Z",
-     "link": "https://www.the-race.com/formula-1/f1-las-vegas-gp-max-verstappen-wins-ferrari-drivers-collide/",
-     "snippet": "Max Verstappen delivered a masterclass to win a peloton-style Las Vegas GP, while George Russell crashed and the Ferrari drivers collided"
-    },
-    {
-     "title": "New F1 championship standings after the Las Vegas Grand Prix",
-     "source": "Crash.net",
-     "date": "2026-11-22T06:11:14Z",
-     "link": "https://www.crash.net/f1/results/1110733/1/new-f1-championship-standings-after-las-vegas-grand-prix",
-     "snippet": "Updated F1 championship results after the Las Vegas Grand Prix in the United States."
-    },
-    {
-     "title": "F1 – Verstappen wins action-packed Las Vegas Grand Prix as late Mercedes drama delivers McLaren double podium",
-     "source": "FIA",
-     "date": "2026-11-22T07:36:00Z",
-     "link": "https://www.fia.com/news/f1-verstappen-wins-action-packed-las-vegas-grand-prix-late-mercedes-drama-delivers-mclaren",
-     "snippet": "Max Verstappen claimed a dramatic third victory at the Las Vegas Grand Prix, holding off a race-long challenge from Mercedes before late drama dropped George Russell out of contention and…"
-    },
-    {
-     "title": "F1 Las Vegas LIVE: Verstappen leads, Hamilton out of the points after penalty",
-     "source": "PlanetF1",
-     "date": "2026-11-22T03:09:58Z",
-     "link": "https://www.planetf1.com/news/f1-las-vegas-gp-live-2026-race-updates",
-     "snippet": "Live race updates from the F1 2026 Las Vegas Grand Prix, Round 21 of the season, held at the Las Vegas Strip Circuit."
-    }
-   ],
-   "merge_reasons": [
-    {
-     "time": "2026-11-22T13:59:15Z",
-     "added": [
-      "https://www.racefans.net/2026/11/22/2026-las-vegas-grand-prix-race-result-and-championship-points/",
-      "https://www.planetf1.com/news/2026-las-vegas-grand-prix-race-report",
-      "https://www.the-race.com/formula-1/f1-2026-las-vegas-grand-prix-race-result/",
-      "https://www.skysports.com/f1/news/12433/13615083/las-vegas-gp-max-verstappen-wins-wild-race-as-ferraris-lewis-hamilton-and-charles-leclerc-collide-again",
-      "https://www.crash.net/f1/results/1110729/1/formula-1-las-vegas-grand-prix-full-race-results",
-      "https://www.motorsport.com/f1/news/f1-las-vegas-gp-report/10876675/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-      "https://www.crash.net/f1/race-report/1110730/1/max-verstappen-wins-pulsating-las-vegas-gp-ferraris-collide",
-      "https://www.autosport.com/f1/news/f1-las-vegas-gp-report/10876677/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "https://www.gpfans.com/en/f1-news/1093213/f1-results-today-las-vegas-grand-prix-2026-times-and-positions/",
-      "https://www.racefans.net/2026/11/22/verstappen-leads-parade-of-position-swapping-to-win-in-las-vegas/",
-      "https://www.planetf1.com/news/f1-results-las-vegas-grand-prix-2026-race",
-      "https://www.the-race.com/formula-1/f1-las-vegas-gp-max-verstappen-wins-ferrari-drivers-collide/",
-      "https://www.crash.net/f1/results/1110733/1/new-f1-championship-standings-after-las-vegas-grand-prix",
-      "https://www.fia.com/news/f1-verstappen-wins-action-packed-las-vegas-grand-prix-late-mercedes-drama-delivers-mclaren",
-      "https://www.planetf1.com/news/f1-las-vegas-gp-live-2026-race-updates"
-     ],
-     "joined_existing": false,
-     "reason": "All of these report the result, live coverage or standings of the same 2026 Las Vegas Grand Prix race won by Verstappen."
-    }
-   ],
-   "title": "Verstappen wins chaotic Las Vegas GP ahead of Mercedes and McLaren",
-   "summary": "Max Verstappen won the Las Vegas Grand Prix after holding off a race-long challenge from the Mercedes drivers in a race of constant position swaps. Results and standings show him closing to within 100 points of champion Kimi Antonelli.",
-   "disagreement": "The FIA report calls it Verstappen's third Las Vegas Grand Prix victory, while RaceFans calls it his third win of the season.",
-   "label": "Confirmed",
-   "updated": "2026-11-22T13:59:15Z"
-  },
-  {
-   "id": "ce371d9be",
-   "created": "2026-11-22T13:59:15Z",
-   "stories": [
-    {
-     "title": "“I thought I was doing something right”: Why power loss ended Antonelli’s win hopes | Formula 1",
-     "source": "RaceFans",
-     "date": "2026-11-22T07:06:44Z",
-     "link": "https://www.racefans.net/2026/11/22/i-thought-i-was-doing-something-right-why-power-loss-ended-antonellis-win-hopes/",
-     "snippet": "Andrea Kimi Antonelli explained the sudden loss of power which ended his chances of fighting for victory in the Las Vegas Grand Prix."
-    },
-    {
-     "title": "Kimi Antonelli explains mistake that left him “smoked by the two McLarens” in Vegas",
-     "source": "Motorsport.com",
-     "date": "2026-11-22T07:11:39Z",
-     "link": "https://www.motorsport.com/f1/news/antonelli-explains-the-mistake-that-left-him-smoked-by-the-two-mclarens-in-las-vegas/10876732/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "snippet": "Kimi Antonelli looked primed to cap a charge from sixth on the grid with a dramatic last-lap victory at the 2026 Las Vegas Grand Prix. Instead, one split-second pedal adjustment drained his battery…"
-    },
-    {
-     "title": "“My mistake was to lift” – Why Kimi Antonelli lost power in Las Vegas F1 victory battle",
-     "source": "Motorsport.com",
-     "date": "2026-11-22T07:21:34Z",
-     "link": "https://www.motorsport.com/f1/news/my-mistake-was-to-lift-why-kimi-antonelli-lost-power-in-las-vegas-f1-victory-battle/10876764/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "snippet": "Kimi Antonelli has explained the quirky “mistake” that cost him a shot at Formula 1 victory in the Las Vegas Grand Prix. The fastest driver in qualifying, Antonelli was sixth on the grid owing to a…"
-    },
-    {
-     "title": "“My mistake was to lift” – Why Antonelli lost power in Las Vegas GP victory battle",
-     "source": "Autosport",
-     "date": "2026-11-22T07:27:37Z",
-     "link": "https://www.autosport.com/f1/news/my-mistake-was-to-lift-why-antonelli-lost-power-in-las-vegas-gp-victory-battle/10876786/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-     "snippet": "Kimi Antonelli has explained the quirky “mistake” that cost him a shot at Formula 1 victory in the Las Vegas Grand Prix. The fastest driver in qualifying, Antonelli was sixth on the grid owing to a…"
-    }
-   ],
-   "merge_reasons": [
-    {
-     "time": "2026-11-22T13:59:15Z",
-     "added": [
-      "https://www.racefans.net/2026/11/22/i-thought-i-was-doing-something-right-why-power-loss-ended-antonellis-win-hopes/",
-      "https://www.motorsport.com/f1/news/antonelli-explains-the-mistake-that-left-him-smoked-by-the-two-mclarens-in-las-vegas/10876732/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-      "https://www.motorsport.com/f1/news/my-mistake-was-to-lift-why-kimi-antonelli-lost-power-in-las-vegas-f1-victory-battle/10876764/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-      "https://www.autosport.com/f1/news/my-mistake-was-to-lift-why-antonelli-lost-power-in-las-vegas-gp-victory-battle/10876786/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk"
-     ],
-     "joined_existing": false,
-     "reason": "Each story reports Antonelli's explanation of the same sudden power loss that ended his Las Vegas victory bid."
-    }
-   ],
-   "title": "Antonelli blames a lift for losing power in Vegas",
-   "summary": "Kimi Antonelli said a split-second lift on the pedal drained his battery and cost him a shot at victory in Las Vegas. He described it as his mistake.",
-   "disagreement": "",
-   "label": "Reported",
-   "updated": "2026-11-22T13:59:15Z"
-  },
-  {
-   "id": "c258988c7",
-   "created": "2026-11-22T13:59:15Z",
-   "stories": [
-    {
-     "title": "Max Verstappen brutally laughs at George Russell's Las Vegas crash over team radio",
-     "source": "Crash.net",
-     "date": "2026-11-22T06:30:47Z",
-     "link": "https://www.crash.net/f1/news/1110737/1/max-verstappen-brutally-laughs-george-russells-las-vegas-crash-over-team-radio",
-     "snippet": "Max Verstappen had the last laugh in Las Vegas."
-    },
-    {
-     "title": "George Russell explains late-race crash in Las Vegas F1 victory bid",
-     "source": "Motorsport.com",
-     "date": "2026-11-22T06:37:21Z",
-     "link": "https://www.motorsport.com/f1/news/george-russell-explains-late-race-crash-in-las-vegas-f1-victory-bid/10876718/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "snippet": "George Russell has admitted to making “a high-risk move” after crashing with three laps remaining in Formula 1’s Las Vegas Grand Prix in an attempt to clinch victory. As ‘yo-yo’ racing returned to…"
-    },
-    {
-     "title": "George Russell: “I don’t regret it” after crashing out of second at Las Vegas GP",
-     "source": "Motorsport.com",
-     "date": "2026-11-22T06:46:08Z",
-     "link": "https://www.motorsport.com/f1/news/russell-i-dont-regret-it-after-hitting-las-vegas-wall-in-late-lunge-for-second/10876720/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "snippet": "George Russell could have played it safe and walked away from the 2026 Las Vegas Grand Prix with a podium. Instead, the Mercedes driver gambled on a late lunge for second - and watched both his shot…"
-    },
-    {
-     "title": "Max Verstappen pokes fun at George Russell in Las Vegas GP team radio",
-     "source": "PlanetF1",
-     "date": "2026-11-22T07:10:56Z",
-     "link": "https://www.planetf1.com/news/max-verstappen-george-russell-las-vegas-gp-radio",
-     "snippet": "George Russell was Max Verstappen's main challenger, and then he wasn't..."
-    }
-   ],
-   "merge_reasons": [
-    {
-     "time": "2026-11-22T13:59:15Z",
-     "added": [
-      "https://www.crash.net/f1/news/1110737/1/max-verstappen-brutally-laughs-george-russells-las-vegas-crash-over-team-radio",
-      "https://www.motorsport.com/f1/news/george-russell-explains-late-race-crash-in-las-vegas-f1-victory-bid/10876718/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-      "https://www.motorsport.com/f1/news/russell-i-dont-regret-it-after-hitting-las-vegas-wall-in-late-lunge-for-second/10876720/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-      "https://www.planetf1.com/news/max-verstappen-george-russell-las-vegas-gp-radio"
-     ],
-     "joined_existing": false,
-     "reason": "These stories all describe the same late-race crash by Russell at the Las Vegas Grand Prix and the reactions to it."
-    }
-   ],
-   "title": "Russell crashes out chasing Las Vegas win, Verstappen mocks it",
-   "summary": "George Russell crashed with three laps remaining while attempting a late move for victory in Las Vegas. Russell said it was a high-risk move he does not regret, and Verstappen laughed at the crash over team radio.",
-   "disagreement": "",
-   "label": "Reported",
    "updated": "2026-11-22T13:59:15Z"
   },
   {
@@ -15171,6 +15702,166 @@
     }
    ],
    "reason": "The RaceFans race rating poll and driver of the weekend vote are separate calls to action."
+  },
+  {
+   "time": "2026-11-22T20:38:42Z",
+   "items": [
+    {
+     "title": "Max Verstappen is your Las Vegas GP Driver of the Day",
+     "source": "Formula1.com",
+     "link": "https://www.formula1.com/en/latest/article/driver-of-the-day-race-winner-verstappen-gets-your-las-vegas-vote.5QesGibVmO4x9ftqrpghbk"
+    },
+    {
+     "card": "c249adc2b",
+     "title": "RaceFans opens vote for Las Vegas Driver of the Weekend"
+    }
+   ],
+   "reason": "The Driver of the Day vote result is different from the earlier article that only opened the Driver of the Weekend vote."
+  },
+  {
+   "time": "2026-11-22T20:38:42Z",
+   "items": [
+    {
+     "title": "\"I actually liked it\" – McLaren boss defends Piastri's four-letter outburst in Las Vegas GP",
+     "source": "Motorsport.com",
+     "link": "https://www.motorsport.com/f1/news/i-actually-liked-it-mclaren-boss-defends-piastris-four-letter-outburst-in-las-vegas-gp/10876928/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www"
+    },
+    {
+     "card": "ca8f4fbd3",
+     "title": "Piastri rejects McLaren warning and defends angry radio reply"
+    }
+   ],
+   "reason": "The McLaren boss's comments are a different person's view from Piastri's own remarks on the same radio outburst."
+  },
+  {
+   "time": "2026-11-22T20:38:42Z",
+   "items": [
+    {
+     "title": "'No-one believes they have cleared the air' - Ferrari duo collide again",
+     "source": "BBC Sport",
+     "link": "https://www.bbc.co.uk/sport/formula1/videos/c9772n2kg5d1o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "card": "c03886e43",
+     "title": "Leclerc and Hamilton collide again; Ferrari summons Leclerc"
+    }
+   ],
+   "reason": "The BBC podcast panel's opinion is different from the news reports of the Leclerc and Hamilton collision itself."
+  },
+  {
+   "time": "2026-11-22T20:38:42Z",
+   "items": [
+    {
+     "title": "Max Verstappen, George Russell's latest war of words unlikely to stay in Vegas",
+     "source": "ESPN",
+     "link": "https://www.espn.com/racing/f1/story/_/id/50562576/verstappen-russell-feud-f1-las-vegas"
+    },
+    {
+     "title": "Verstappen mocks 'complete joke' Russell at Las Vegas GP as feud intensifies",
+     "source": "ESPN",
+     "link": "https://www.espn.com/f1/story/_/id/50472110/max-verstappen-george-russell-las-vegas-grand-prix-formula-1"
+    },
+    {
+     "card": "c364c0fff",
+     "title": "Verstappen says Russell is 'so far below my level' after win"
+    }
+   ],
+   "reason": "The feud analysis and the 'complete joke' remark are different from the earlier 'so far below my level' comments."
+  },
+  {
+   "time": "2026-11-22T20:38:42Z",
+   "items": [
+    {
+     "title": "Max Verstappen delivers middle finger gesture to F1 rival who is warned by world champion",
+     "source": "GPFans",
+     "link": "https://www.gpfans.com/en/f1-news/1093197/f1-max-verstappen-george-russell-jacques-villeneuve-middle-finger-las-vegas-grand-prix/"
+    },
+    {
+     "card": "cca1fae1b",
+     "title": "Verstappen warned for Russell clash, cleared over Colapinto incident"
+    }
+   ],
+   "reason": "Villeneuve's warning is a separate comment from the stewards' decision on Verstappen's practice incident."
+  },
+  {
+   "time": "2026-11-22T20:38:42Z",
+   "items": [
+    {
+     "title": "F1 set to reduce customer teams as key 2030 details emerge",
+     "source": "Motorsport.com",
+     "link": "https://www.motorsport.com/f1/news/f1-set-to-reduce-customer-teams-as-key-2030-details-emerge/10877055/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www"
+    },
+    {
+     "title": "F1 plans two-team engine supply limit under 2030 V8 rules",
+     "source": "Autosport",
+     "link": "https://www.autosport.com/f1/news/f1-set-to-reduce-customer-teams-as-key-2030-details-emerge/10877058/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk"
+    },
+    {
+     "card": "c9520248d",
+     "title": "F1 teams agree in principle to return to V8 engines in 2030"
+    }
+   ],
+   "reason": "The planned two-supplier engine limit is a separate detail from the agreed V8 return framework."
+  },
+  {
+   "time": "2026-11-22T20:38:42Z",
+   "items": [
+    {
+     "title": "All the key moments from the Las Vegas Grand Prix",
+     "source": "Formula1.com",
+     "link": "https://www.formula1.com/en/latest/article/las-vegas-lowdown-all-the-key-moments-as-verstappen-wins-remarkable-race-and-ferraris-drivers-collide-again.62D9SeuQXSboAspMm7N0pN"
+    },
+    {
+     "card": "ca6a31dae",
+     "title": "Verstappen wins chaotic Las Vegas GP as post-race penalties change results"
+    }
+   ],
+   "reason": "The key moments recap is a feature rather than the race result and penalty news on the existing card."
+  },
+  {
+   "time": "2026-11-22T20:38:42Z",
+   "items": [
+    {
+     "title": "Racing Bulls drivers assess 'massive lost opportunity' in Vegas",
+     "source": "Formula1.com",
+     "link": "https://www.formula1.com/en/latest/article/massive-lost-opportunity-racing-bulls-drivers-reflect-on-no-points-in-las-vegas-gp.1iWZ2ywDpgkLb1FyxW9mcX"
+    },
+    {
+     "card": "c53e54ac7",
+     "title": "Lindblad calls Vegas qualifying 'such a mess' despite P5 start"
+    }
+   ],
+   "reason": "The Racing Bulls race reaction is a different event from Lindblad's comments on qualifying."
+  },
+  {
+   "time": "2026-11-22T20:38:42Z",
+   "items": [
+    {
+     "title": "Norris reflects on 'chaotic' Las Vegas GP recovery",
+     "source": "Formula1.com",
+     "link": "https://www.formula1.com/en/latest/article/the-most-chaotic-race-ever-norris-reflects-on-remarkable-recovery-to-p2-in-las-vegas.Nl1w9QpG0Wy5pHzttLCHw"
+    },
+    {
+     "card": "c00f785b4",
+     "title": "Norris blames McLaren's straight-line speed deficit for Vegas qualifying"
+    }
+   ],
+   "reason": "Norris's reflection on his race recovery is a different event from his comments on qualifying."
+  },
+  {
+   "time": "2026-11-22T20:38:42Z",
+   "items": [
+    {
+     "title": "Wolff explains how Mercedes challenge fell apart in Vegas",
+     "source": "Formula1.com",
+     "link": "https://www.formula1.com/en/latest/article/wolff-explains-how-the-mercedes-challenge-fell-apart-in-the-closing-laps-in-las-vegas.4Zf0W1yuHxigFi72cspCj"
+    },
+    {
+     "card": "c7937efaa",
+     "title": "Wolff says Russell had perfect position despite missing Vegas pole"
+    }
+   ],
+   "reason": "Wolff's race strategy explanation is a different topic from his comments on Russell's qualifying position."
   }
  ],
  "processed": [
@@ -15197,12 +15888,14 @@
   "https://www.autosport.com/f1/news/f1-las-vegas-gp-russell-fastest-in-final-practice-after-verstappen-collision/10876189/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
   "https://www.autosport.com/f1/news/f1-retains-brazilian-gp-until-2035-with-fresh-sao-paulo-deal/10872539/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
   "https://www.autosport.com/f1/news/f1-set-for-v8-return-from-2030/10875119/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+  "https://www.autosport.com/f1/news/f1-set-to-reduce-customer-teams-as-key-2030-details-emerge/10877058/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
   "https://www.autosport.com/f1/news/ferrari-set-for-crunch-meeting-as-hamilton-and-leclerc-tension-reaches-brazil/10872030/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
   "https://www.autosport.com/f1/news/fia-reveals-aduo-results-in-final-review-of-2026-f1-season/10873566/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
   "https://www.autosport.com/f1/news/fia-to-introduce-full-time-f1-stewards-from-2027-to-improve-consistency/10875719/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
   "https://www.autosport.com/f1/news/floor-damage-deployment-down-to-lewis-hamiltons-las-vegas-q2-exit/10876316/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
   "https://www.autosport.com/f1/news/gasly-and-colapinto-penalised-post-race-hirakawa-scores-on-f1-debut-at-mexico-gp/10870863/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
   "https://www.autosport.com/f1/news/george-russell-slams-max-verstappen-after-las-vegas-clash-he-walks-around-like-hes-bigger-and-bette/10876309/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+  "https://www.autosport.com/f1/news/haas-keeps-rafael-camara-in-f1-ending-his-2026-f2-title-bid/10877044/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
   "https://www.autosport.com/f1/news/haas-sticks-with-rafael-camara-for-las-vegas-ryo-hirakawa-in-for-fp1/10874781/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
   "https://www.autosport.com/f1/news/hamilton-set-for-new-penalty-will-start-f1-brazilian-gp-from-back-of-grid/10872645/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
   "https://www.autosport.com/f1/news/hamilton-slams-leclerc-for-do-or-die-attitude-after-mexico-gp-clash/10871033/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
@@ -15310,12 +16003,15 @@
   "https://www.bbc.co.uk/sport/formula1/articles/cvj6l7nk611jo?at_medium=RSS&at_campaign=rss",
   "https://www.bbc.co.uk/sport/formula1/articles/cw24epe29566o?at_medium=RSS&at_campaign=rss",
   "https://www.bbc.co.uk/sport/formula1/articles/cw80zzd8jk1go?at_medium=RSS&at_campaign=rss",
+  "https://www.bbc.co.uk/sport/formula1/articles/cwe9k29y7z44o?at_medium=RSS&at_campaign=rss",
   "https://www.bbc.co.uk/sport/formula1/articles/cwg7l0l313rno?at_medium=RSS&at_campaign=rss",
   "https://www.bbc.co.uk/sport/formula1/articles/cx0544g2n1jdo?at_medium=RSS&at_campaign=rss",
   "https://www.bbc.co.uk/sport/formula1/articles/cx4gnlr603mqo?at_medium=RSS&at_campaign=rss",
+  "https://www.bbc.co.uk/sport/formula1/videos/c9772n2kg5d1o?at_medium=RSS&at_campaign=rss",
   "https://www.bbc.co.uk/sport/formula1/videos/cm17k1gxlze2o?at_medium=RSS&at_campaign=rss",
   "https://www.bbc.co.uk/sport/formula1/videos/cqly02nlknjno?at_medium=RSS&at_campaign=rss",
   "https://www.bbc.co.uk/sport/formula1/videos/cqn73ny0j130o?at_medium=RSS&at_campaign=rss",
+  "https://www.bbc.co.uk/sport/formula1/videos/cr2klvl8zz8jo?at_medium=RSS&at_campaign=rss",
   "https://www.bbc.co.uk/sport/formula1/videos/cr5yn1n99lqno?at_medium=RSS&at_campaign=rss",
   "https://www.bbc.co.uk/sport/motorsport/articles/crp3e1783xq3o?at_medium=RSS&at_campaign=rss",
   "https://www.bbc.co.uk/sport/videos/c6kgl9mgdvl2o?at_medium=RSS&at_campaign=rss",
@@ -15468,11 +16164,15 @@
   "https://www.espn.com/f1/story/_/id/50472097/v8-engine-confirmed-formula-1",
   "https://www.espn.com/f1/story/_/id/50472101/george-russell-max-verstappen-las-vegas-grand-prix-formula-1",
   "https://www.espn.com/f1/story/_/id/50472103/qatar-grand-prix-pirelli-formula-1",
+  "https://www.espn.com/f1/story/_/id/50472110/max-verstappen-george-russell-las-vegas-grand-prix-formula-1",
+  "https://www.espn.com/f1/story/_/id/50472136/max-verstappen-mario-kart-las-vegas-grand-prix-formula-1",
   "https://www.espn.com/f1/story/_/id/50509240/fernando-alonso-dakar-rally-aston-martin",
   "https://www.espn.com/f1/story/_/id/50539850/f1-las-vegas-grand-prix-gta-vi",
   "https://www.espn.com/f1/story/_/id/50545696/george-russell-max-verstappen-contact-las-vegas-practice",
+  "https://www.espn.com/f1/story/_/id/50563772/formula-1-haas-rafa-camara-esteban-ocon",
   "https://www.espn.com/nfl/story/_/id/29553205/dwyane-wade-tom-brady-lebron-james-athletes-team-owners",
   "https://www.espn.com/racing/f1/story/_/id/50427335/wet-weather-mastery-lando-norris-max-verstappen-make-sao-paulo-brazil-f1-see-race",
+  "https://www.espn.com/racing/f1/story/_/id/50562576/verstappen-russell-feud-f1-las-vegas",
   "https://www.fia.com/news/f1-2026-las-vegas-gp-schedule-press-conferences",
   "https://www.fia.com/news/f1-2026-las-vegas-grand-prix-post-qualifying-press-conference-transcript",
   "https://www.fia.com/news/f1-2026-las-vegas-grand-prix-preview",
@@ -15490,6 +16190,7 @@
   "https://www.fia.com/news/fia-introduce-full-time-stewards-fia-formula-one-world-championship-2027",
   "https://www.fia.com/news/international-court-appeal-hearing-november-25-2026",
   "https://www.fia.com/news/v8-future-unanimous-agreement-reached-fias-2030-formula-1-power-unit-framework",
+  "https://www.formula1.com/en/latest/article/5-key-betting-lessons-after-max-verstappen-wins-the-las-vegas-grand-prix.5B4tZcliWQwS63az2nHNab",
   "https://www.formula1.com/en/latest/article/a-couple-of-good-findings-hamilton-reflects-on-ferraris-wet-practice-running-in-las-vegas.4lQStkjoi1h32oQJng6ZMm",
   "https://www.formula1.com/en/latest/article/a-very-poor-qualifying-leclerc-and-hamilton-lament-ferraris-performance-in-las-vegas.5NIhyjb93o9jPrK39GLuRe",
   "https://www.formula1.com/en/latest/article/all-the-stories-that-got-the-las-vegas-paddock-talking.4DclxlWGaLDwKgzLpfAvuz",
@@ -15501,6 +16202,7 @@
   "https://www.formula1.com/en/latest/article/analysis-why-cadillac-have-stuck-with-bottas-for-2027.7vPHYNkm1aup0szRFaVYyd",
   "https://www.formula1.com/en/latest/article/analysis-why-the-f1-driver-market-might-produce-one-last-twist-for-2027.6t7AwtqfHWkDqSgQZ3ElQ3",
   "https://www.formula1.com/en/latest/article/antonelli-bearman-and-stroll-set-for-grid-penalties-at-las-vegas-grand-prix.37Vixk6Mt1gvZlVXDsO8S",
+  "https://www.formula1.com/en/latest/article/antonelli-explains-annoying-last-lap-issue-in-las-vegas-as-he-admits-having-a-lot-to-learn-in-these-conditions.1i0fzBGmJSWZAK4wNaYMO9",
   "https://www.formula1.com/en/latest/article/antonelli-identifies-which-driver-poses-the-biggest-threat-to-his-title-defence-in-2027.6qjcpNnf8IerbXck8NpB05",
   "https://www.formula1.com/en/latest/article/aron-leaves-alpine-as-vesti-doubles-up-in-reserve-role-for-enstone-squad.78ZKSJQKTokE51DkFvRY2B",
   "https://www.formula1.com/en/latest/article/audi-announce-emma-felbermayr-for-third-f1-academy-season-in-2027.3numbjpdYoNe5Bp0NCeSUz",
@@ -15510,6 +16212,7 @@
   "https://www.formula1.com/en/latest/article/cadillac-confirm-bottas-will-remain-with-the-team-in-2027.2FzTQfliXlMixOPFUMpPB4",
   "https://www.formula1.com/en/latest/article/camara-looks-ahead-to-second-f1-outing-and-offers-update-on-plans-for-final-races.75aokJ7GXrP44nJ1p7NZbv",
   "https://www.formula1.com/en/latest/article/circuit-guide-everything-you-need-to-know-about-the-las-vegas-strip-circuit.1W9ULMy0aEkvfsJ9tRzItg",
+  "https://www.formula1.com/en/latest/article/driver-of-the-day-race-winner-verstappen-gets-your-las-vegas-vote.5QesGibVmO4x9ftqrpghbk",
   "https://www.formula1.com/en/latest/article/exclusive-button-explains-what-will-keep-alonso-going-as-spaniard-prepares-for-another-year-with-aston-martin.7bxjUs5DZSH18UP0SEqFWD",
   "https://www.formula1.com/en/latest/article/exclusive-piastri-on-taming-the-mcl40-redefining-success-and-why-a-tough-2026-could-make-him-stronger.qz9mVgFRNxNey7waRfq83",
   "https://www.formula1.com/en/latest/article/exclusive-sainz-reflects-on-the-journey-to-his-250th-grand-prix-and-preparing-for-williams-most-important-year.4q4YmHp7ZpfnUTMjNNPXc9",
@@ -15527,6 +16230,7 @@
   "https://www.formula1.com/en/latest/article/gallery-aston-martin-showcase-bespoke-livery-for-las-vegas-grand-prix.7f71lWPYrxvriroCo30iaY",
   "https://www.formula1.com/en/latest/article/gallery-cadillac-reveal-special-livery-for-las-vegas-grand-prix.1b7NXQe83gP2LzjiCQf2ES",
   "https://www.formula1.com/en/latest/article/haas-confirm-camara-to-race-for-the-team-in-las-vegas-as-hirakawa-returns-for-fp1-appearance.2as7TuSF4UHgXczZlu4245",
+  "https://www.formula1.com/en/latest/article/haas-confirm-camara-will-drive-for-the-team-in-final-races-of-2026.2wYY9ymhyqr7rXcuK6S7bj",
   "https://www.formula1.com/en/latest/article/hamilton-identifies-main-focus-ahead-of-las-vegas-as-ferrari-eye-big-changes-for-2027.7nMnDgPqgxIf8GVZxywkzR",
   "https://www.formula1.com/en/latest/article/how-the-sphere-became-the-heart-of-the-las-vegas-grand-prix.1xiIUVGfOPf8kGx8oHY7V9",
   "https://www.formula1.com/en/latest/article/how-to-stream-the-formula-1-2026-las-vegas-grand-prix-on-f1-tv-premium.5YZztaEts0uPxfdx2UwaQE",
@@ -15541,11 +16245,13 @@
   "https://www.formula1.com/en/latest/article/its-race-week-5-storylines-were-excited-about-ahead-of-the-2026-las-vegas-grand-prix.3fjavheTbHD8fjZI0i7BWd",
   "https://www.formula1.com/en/latest/article/komatsu-insists-there-is-no-doubt-over-bearmans-2027-haas-seat-after-britons-frustrations.1lCOdGv5mDv2FcqDshxnYB",
   "https://www.formula1.com/en/latest/article/las-vegas-grand-prix-race-betting-guide-and-what-the-markets-expect-to-happen.5sEja0aYqYkyfdSZ9sTibF",
+  "https://www.formula1.com/en/latest/article/las-vegas-lowdown-all-the-key-moments-as-verstappen-wins-remarkable-race-and-ferraris-drivers-collide-again.62D9SeuQXSboAspMm7N0pN",
   "https://www.formula1.com/en/latest/article/live-coverage-first-practice-in-las-vegas-2026.6znaP19Dx0zBrPVStcB2BP",
   "https://www.formula1.com/en/latest/article/live-coverage-formula-1-heineken-las-vegas-grand-prix-2026.5lbMAk1JxHBbBVelEl2kyc",
   "https://www.formula1.com/en/latest/article/live-coverage-second-practice-in-las-vegas-2026.4jTMaRKyeJ2CONkCrsDQV1",
   "https://www.formula1.com/en/latest/article/live-coverage-third-practice-in-las-vegas-2026.50OIQwa2hcjUWGKsiu3h5L",
   "https://www.formula1.com/en/latest/article/live-coverage-wednesday-build-up-in-las-vegas-2026.MqDte4ggZDt3kjYNJ0CvS",
+  "https://www.formula1.com/en/latest/article/massive-lost-opportunity-racing-bulls-drivers-reflect-on-no-points-in-las-vegas-gp.1iWZ2ywDpgkLb1FyxW9mcX",
   "https://www.formula1.com/en/latest/article/mercedes-incredible-success-through-formula-1-history.7yLliKc36ZI9pd7xzNYFwq",
   "https://www.formula1.com/en/latest/article/need-to-know-the-most-important-facts-stats-and-trivia-ahead-of-the-2026-las-vegas-grand-prix.6ynxQ4e9Z7F1o2Uijhh1FK",
   "https://www.formula1.com/en/latest/article/official-grid-who-starts-where-in-las-vegas-after-multiple-penalties.1PRdR9E7qYRjHoRh1NlDR4",
@@ -15562,6 +16268,7 @@
   "https://www.formula1.com/en/latest/article/the-5-drivers-who-are-most-likely-to-qualify-fastest-in-las-vegas.4bdBCuhbBNlUkHaoVfsopF",
   "https://www.formula1.com/en/latest/article/the-extra-gear-liam-lawsons-top-six-hopes-examined-after-securing-new-racing-bulls-deal.4FuO5PyKE8vCtfqm1OyxrJ",
   "https://www.formula1.com/en/latest/article/the-f1-braking-system-innovation-that-could-soon-be-revealed.5BLbJmoFNGwhbllIHNGHOG",
+  "https://www.formula1.com/en/latest/article/the-most-chaotic-race-ever-norris-reflects-on-remarkable-recovery-to-p2-in-las-vegas.Nl1w9QpG0Wy5pHzttLCHw",
   "https://www.formula1.com/en/latest/article/the-risk-perspective-how-f1-drivers-engineers-and-strategists-tackle-the-las-vegas-grand-prix.7yJLDDlVCuKALLnoYrpgrb",
   "https://www.formula1.com/en/latest/article/theres-no-excuses-for-that-bearman-frustrated-by-delay-in-confirming-haas-future.3B6g2yqgJgf3g8UNtsYU5L",
   "https://www.formula1.com/en/latest/article/this-is-another-level-alonso-opens-up-on-daunting-dakar-rally-challenge-as-he-prepares-for-return.6bm7UWyTcLVjB2T1gVLRPL",
@@ -15585,6 +16292,7 @@
   "https://www.formula1.com/en/latest/article/williams-retain-jade-jacquet-for-2027-f1-academy-campaign.5BcvOHlUPr9OJXYXq30dnE",
   "https://www.formula1.com/en/latest/article/williams-unveil-special-one-off-livery-for-las-vegas-grand-prix.01klQqq0PYu7wjugCtr98K",
   "https://www.formula1.com/en/latest/article/winner-of-the-f1-heineken-2027-season-ticket-revealed.2U39RF3ALLzSqmSRRGRVQ7",
+  "https://www.formula1.com/en/latest/article/wolff-explains-how-the-mercedes-challenge-fell-apart-in-the-closing-laps-in-las-vegas.4Zf0W1yuHxigFi72cspCj",
   "https://www.gpfans.com/en/f1-news/1092908/f1-aston-martin-honda-lawrence-stroll-concerns-martin-brundle/",
   "https://www.gpfans.com/en/f1-news/1092910/f1-oscar-piastri-lando-norris-joke-birthday-secret/",
   "https://www.gpfans.com/en/f1-news/1092913/f1-title-race-2026-mercedes-compression-ratio-ruling/",
@@ -15684,11 +16392,16 @@
   "https://www.gpfans.com/en/f1-news/1093156/kim-kardashian-2026-f1-las-vegas-grand-prix-lewis-hamilton/",
   "https://www.gpfans.com/en/f1-news/1093167/f1-2026-las-vegas-grand-prix-grid-positions-fia-penalties-applied/",
   "https://www.gpfans.com/en/f1-news/1093170/george-russell-max-verstappen-2026-f1-las-vegas-grand-prix-investigation/",
+  "https://www.gpfans.com/en/f1-news/1093197/f1-max-verstappen-george-russell-jacques-villeneuve-middle-finger-las-vegas-grand-prix/",
   "https://www.gpfans.com/en/f1-news/1093201/f1-news-today-charles-leclerc-ferrari-crash-las-vegas-grand-prix-barcelona-f2004/",
   "https://www.gpfans.com/en/f1-news/1093209/lewis-hamilton-penalty-fia-f1-las-vegas-grand-prix-2026/",
   "https://www.gpfans.com/en/f1-news/1093210/fia-charles-leclerc-penalty-verdict-lewis-hamilton-clash-f1-las-vegas-grand-prix-2026/",
   "https://www.gpfans.com/en/f1-news/1093213/f1-results-today-las-vegas-grand-prix-2026-times-and-positions/",
   "https://www.gpfans.com/en/f1-news/1093223/ferrari-lewis-hamilton-charles-leclerc-las-vegas-grand-prix-2026-collision/",
+  "https://www.gpfans.com/en/f1-news/1093250/f1-las-vegas-grand-prix-2026-results-final-classification-all-penalties-applied/",
+  "https://www.gpfans.com/en/f1-news/1093254/f1-fernando-alonso-aston-martin-las-vegas-grand-prix-retirement-last-lap/",
+  "https://www.gpfans.com/en/f1-news/1093262/f1-lewis-hamilton-charles-leclerc-ferrari-2011-las-vegas-grand-prix-driver-decision/",
+  "https://www.gpfans.com/en/f1-news/1093264/f1-haas-rafael-camara-confirmed-2026-pulled-out-f2-championship/",
   "https://www.motorsport.com/dakar/news/fernando-alonso-returns-to-dakar-why-his-first-rally-raid-experience-was-a-shock-to-the-system/10875881/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/dakar/news/fernando-alonso-to-return-to-dakar-rally-with-aston-martin-in-2027/10874907/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/2026-f1-las-vegas-grand-prix-starting-grid/10876250/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
@@ -15721,6 +16434,7 @@
   "https://www.motorsport.com/f1/news/f1-las-vegas-gp-report/10876675/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/f1-mexico-gp-fallout-was-taken-out-of-proportion-charles-leclerc/10875534/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/f1-set-for-v8-turbo-move-by-2030-season/10875113/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+  "https://www.motorsport.com/f1/news/f1-set-to-reduce-customer-teams-as-key-2030-details-emerge/10877055/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/f1-to-showcase-driver-health-data-as-it-partners-with-whoop/10875341/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/fernando-alonso-rules-out-staying-in-f1-for-v8-return-16-years-of-pure-racing-lost/10875410/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/fia-to-introduce-full-time-f1-stewards-from-2027-in-bid-to-improve-consistency/10875716/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
@@ -15751,6 +16465,7 @@
   "https://www.motorsport.com/f1/news/horner-reveals-verstappens-management-intervened-when-the-2022-red-bull-favored-perez/10874617/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/horribly-painful-williams-2026-car-upgrades-benefit-2027/10874290/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/how-the-f1-2026-regulations-neutered-oscar-piastris-real-strength/10875907/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+  "https://www.motorsport.com/f1/news/i-actually-liked-it-mclaren-boss-defends-piastris-four-letter-outburst-in-las-vegas-gp/10876928/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/i-never-had-responsibility-horner-blames-fractured-red-bull-leadership-for-missing-f1s-future-stars/10874624/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/i-was-getting-beat-up-how-daniel-ricciardo-burned-out-on-humiliating-f1-return/10874248/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/im-41-years-old-and-i-love-pokemon-lewis-hamilton-on-his-card-collection/10875423/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
@@ -15827,6 +16542,7 @@
   "https://www.motorsport.com/f1/news/oscar-piastri-youve-got-to-manhandle-mclarens-f1-car-to-find-its-potential/10874559/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/pirelli-introduces-stint-limit-for-f1-qatar-gp-but-increases-total-from-2025/10875950/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/rafael-camara-could-finish-the-2026-season-in-both-f1-and-f2/10875556/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+  "https://www.motorsport.com/f1/news/rafael-camara-gives-up-f2-title-chance-to-finish-2026-f1-season-with-haas/10877028/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/ralf-schumacher-questions-lewis-hamiltons-leadership-as-he-issues-max-verstappen-warning/10874111/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/red-bull-f1-car-takes-on-motogp-bike-rally-car-and-snowmobile-in-extreme-ice-race/10874304/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/red-bull-f1-e-bike-in-max-verstappens-suzuka-livery-hits-the-las-vegas-strip/10875470/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
@@ -15934,6 +16650,7 @@
   "https://www.planetf1.com/news/george-kurtz-mercedes-f1-quiet-owner-billionaire",
   "https://www.planetf1.com/news/george-russell-explains-f1-2026-caution",
   "https://www.planetf1.com/news/george-russell-explains-mercedes-las-vegas-upgrade-decision",
+  "https://www.planetf1.com/news/george-russell-f1-2026-las-vegas-grand-prix-crash",
   "https://www.planetf1.com/news/george-russell-lewis-hamilton-recovery-f1-2027",
   "https://www.planetf1.com/news/george-russell-marco-antonelli-bad-luck",
   "https://www.planetf1.com/news/george-russell-mercedes-future-kimi-antonelli-title-defeat",
@@ -15948,6 +16665,7 @@
   "https://www.planetf1.com/news/kimi-antonelli-meets-italian-president-after-award",
   "https://www.planetf1.com/news/kimi-antonelli-mercedes-salary-george-russell",
   "https://www.planetf1.com/news/kimi-antonelli-reveals-driver-who-might-cause-the-most-problems-in-f1-2027-title-defence",
+  "https://www.planetf1.com/news/kimi-antonelli-reveals-las-vegas-power-issue-cause",
   "https://www.planetf1.com/news/kimi-antonelli-salary-las-vegas-grand-prix",
   "https://www.planetf1.com/news/kimi-antonelli-salary-toto-wolff-mercedes-world-champion-reward",
   "https://www.planetf1.com/news/lance-stroll-honda-power-deficit-las-vegas-warning",
@@ -15960,6 +16678,7 @@
   "https://www.planetf1.com/news/las-vegas-grand-prix-live-2026-fp2-updates",
   "https://www.planetf1.com/news/lewis-hamilton-causing-ferrari-saga-formula-1-sale",
   "https://www.planetf1.com/news/lewis-hamilton-causing-ferrari-tension-ralf-schumacher",
+  "https://www.planetf1.com/news/lewis-hamilton-charles-leclerc-crash-max-verstappen-george-russell-las-vegas-grand-prix",
   "https://www.planetf1.com/news/lewis-hamilton-charles-leclerc-record-straight",
   "https://www.planetf1.com/news/lewis-hamilton-charles-leclerc-sportspro-2026-ranking",
   "https://www.planetf1.com/news/lewis-hamilton-delivers-ferrari-contract-update",
@@ -15976,6 +16695,7 @@
   "https://www.planetf1.com/news/liam-lawson-next-max-verstappen-juan-pablo-montoya",
   "https://www.planetf1.com/news/liam-lawson-points-verdict-arvid-lindblad",
   "https://www.planetf1.com/news/liam-lawson-racing-bulls-f1-2027-contract-delay",
+  "https://www.planetf1.com/news/liam-lawson-safety-car-unlapping-delay-las-vegas-gp",
   "https://www.planetf1.com/news/martin-brundle-toto-wolff-text-christian-horner-comparison",
   "https://www.planetf1.com/news/max-verstappen-fia-george-russell-las-vegas-grand-prix-2026-fp3",
   "https://www.planetf1.com/news/max-verstappen-george-russell-far-below-my-level",
@@ -16007,6 +16727,7 @@
   "https://www.planetf1.com/news/oscar-piastri-fia-las-vegas-grand-prix-2026-penalty",
   "https://www.planetf1.com/news/oscar-piastri-mark-webber-split-reaction",
   "https://www.planetf1.com/news/oscar-piastri-mclaren-2025-f1-title-collapse-mistakes",
+  "https://www.planetf1.com/news/oscar-piastri-mclaren-radio-f1-2026-las-vegas-grand-prix",
   "https://www.planetf1.com/news/red-bull-f1-2026-turnaround-revealed",
   "https://www.planetf1.com/news/sergio-perez-valtteri-bottas-cadillac-f1-2027",
   "https://www.planetf1.com/news/the-las-vegas-grand-prix-will-be-streamed-free-in-major-broadcast-change",
@@ -16127,6 +16848,7 @@
   "https://www.skysports.com/f1/news/12433/13615083/las-vegas-gp-max-verstappen-wins-wild-race-as-ferraris-lewis-hamilton-and-charles-leclerc-collide-again",
   "https://www.skysports.com/f1/news/12433/13615084/max-verstappen-says-george-russell-so-far-below-his-level-after-poking-fun-at-rival-for-major-error-during-las-vegas-gp",
   "https://www.skysports.com/f1/news/12433/13615085/ferrari-boss-frederic-vasseur-blames-charles-leclerc-for-unacceptable-collision-with-lewis-hamilton-in-las-vegas-gp",
+  "https://www.skysports.com/f1/news/12433/13615376/rafael-camara-haas-confirm-brazilian-will-race-in-final-two-rounds-of-f1-season-rather-than-chase-f2-championship",
   "https://www.skysports.com/football/news/12433/13611406/the-fast-and-the-curious-an-f1-podcast-with-greg-james-betty-glover-and-christian-hewgill",
   "https://www.the-race.com/business/formula-1-team-values-jump-47-in-2026-as-they-near-10bn/",
   "https://www.the-race.com/business/how-madrid-f1-races-economic-impact-compares-to-barcelonas/",
@@ -16140,6 +16862,7 @@
   "https://www.the-race.com/formula-1/aduo-for-teams-to-be-discussed-by-f1/",
   "https://www.the-race.com/formula-1/audi-appeal-f1-italian-gp-yuki-tsunoda/",
   "https://www.the-race.com/formula-1/cadillac-keeps-bottas-in-f1-for-2027-despite-herta-rumours/",
+  "https://www.the-race.com/formula-1/camara-to-complete-f1-season-with-haas-sacrificing-f2-title-shot/",
   "https://www.the-race.com/formula-1/everything-we-learned-from-day-one-at-f1s-las-vegas-gp/",
   "https://www.the-race.com/formula-1/ex-red-bull-hire-cadillac-stole-from-alpine-finally-joins/",
   "https://www.the-race.com/formula-1/f1-2026-las-vegas-gp-at-least-five-drivers-carrying-grid-penalties/",
@@ -16174,6 +16897,7 @@
   "https://www.the-race.com/formula-1/russell-and-verstappen-make-contact-in-final-vegas-f1-practice/",
   "https://www.the-race.com/formula-1/russell-wont-accept-being-screwed-over-by-verstappen/",
   "https://www.the-race.com/formula-1/the-cadillac-weakness-still-frustrating-perez/",
+  "https://www.the-race.com/formula-1/this-is-not-f1-verstappen-criticises-las-vegas-overtaking-frenzy/",
   "https://www.the-race.com/formula-1/tsolov-gets-twin-f1-2027-reserve-role-to-prepare-him-for-race-seat/",
   "https://www.the-race.com/formula-1/vegas-gives-camara-chance-to-put-messy-debut-behind-him/",
   "https://www.the-race.com/formula-1/what-f1-looking-to-change-about-stupid-speed-limit-rule/",

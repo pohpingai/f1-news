@@ -1,7 +1,45 @@
 {
- "updated": "2026-11-22T14:05:05Z",
+ "updated": "2026-11-22T20:41:49Z",
  "model": "anthropic/claude-haiku-5.5",
  "rumours": [
+  {
+   "id": "r90231289",
+   "claim": "F1 reportedly plans to limit each manufacturer to two power unit suppliers under the 2030 rules, which could reduce the number of customer teams, including Mercedes' three current customers.",
+   "people": [
+    "Mercedes"
+   ],
+   "status": "Active",
+   "trend": "rising",
+   "first_seen": "2026-11-22T20:26:49Z",
+   "last_seen": "2026-11-22T20:32:03Z",
+   "sources": [
+    {
+     "title": "F1 set to reduce customer teams as key 2030 details emerge",
+     "source": "Motorsport.com",
+     "date": "2026-11-22T20:26:49Z",
+     "link": "https://www.motorsport.com/f1/news/f1-set-to-reduce-customer-teams-as-key-2030-details-emerge/10877055/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www"
+    },
+    {
+     "title": "F1 plans two-team engine supply limit under 2030 V8 rules",
+     "source": "Autosport",
+     "date": "2026-11-22T20:32:03Z",
+     "link": "https://www.autosport.com/f1/news/f1-set-to-reduce-customer-teams-as-key-2030-details-emerge/10877058/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk"
+    }
+   ],
+   "cards": [
+    "c320dcec0"
+   ],
+   "proof": null,
+   "history": [
+    {
+     "time": "2026-11-22T20:41:49Z",
+     "event": "created",
+     "detail": "First seen: Motorsport.com (2026-11-22); Autosport (2026-11-22)",
+     "reason": "This is a specific detail about supplier limits under the 2030 engine rules, which is a different claim from the known rumour about the V8 engine return and the manufacturers backing new regulations.",
+     "card": "F1 plans two power unit suppliers per manufacturer under 2030 rules"
+    }
+   ]
+  },
   {
    "id": "rfcccb08c",
    "claim": "Stellantis reportedly will cancel its Peugeot WEC and Citroen Formula E programmes.",
@@ -435,7 +473,7 @@
     "manufacturers"
    ],
    "status": "Confirmed",
-   "trend": "rising",
+   "trend": "steady",
    "first_seen": "2026-11-16T07:11:53Z",
    "last_seen": "2026-11-21T08:39:32Z",
    "sources": [
@@ -999,14 +1037,26 @@
   "c433471f5": "2|Reported",
   "ca5a5787a": "1|Reported",
   "c0f36d98d": "1|Reported",
-  "ca6a31dae": "15|Confirmed",
+  "ca6a31dae": "16|Confirmed",
   "c03886e43": "13|Reported",
-  "c258988c7": "4|Reported",
-  "ce371d9be": "4|Reported",
+  "c258988c7": "5|Reported",
+  "ce371d9be": "6|Reported",
   "c364c0fff": "8|Reported",
   "ce97d7c6c": "1|Confirmed",
-  "ca8f4fbd3": "1|Reported",
+  "ca8f4fbd3": "2|Reported",
   "ca29fe316": "1|Reported",
-  "c55740f86": "1|Confirmed"
+  "c55740f86": "1|Confirmed",
+  "c320dcec0": "2|Rumour",
+  "cdde0e92e": "1|Confirmed",
+  "c7a46eb03": "1|Reported",
+  "c94922007": "1|Reported",
+  "c02a8785b": "1|Reported",
+  "c91ffb4f5": "1|Reported",
+  "c977d0be7": "1|Reported",
+  "c1f537eb6": "1|Reported",
+  "ceb2fcbd8": "8|Confirmed",
+  "c81f39483": "1|Reported",
+  "c1b33e548": "1|Reported",
+  "c80ed89a9": "1|Reported"
  }
 }

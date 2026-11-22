@@ -172,9 +172,29 @@
     "tokens_in": 40745,
     "tokens_out": 2553
    }
+  },
+  "2026-11-23": {
+   "AI grouping + labels": {
+    "cost": 0.030558,
+    "requests": 3,
+    "tokens_in": 87027,
+    "tokens_out": 43711
+   },
+   "Headline of the day": {
+    "cost": 0.000223,
+    "requests": 1,
+    "tokens_in": 1971,
+    "tokens_out": 52
+   },
+   "Rumour tracker": {
+    "cost": 0.00112,
+    "requests": 1,
+    "tokens_in": 7903,
+    "tokens_out": 659
+   }
   }
  },
- "total_cost": 0.480638,
- "updated": "2026-11-22T14:05:18Z",
+ "total_cost": 0.512539,
+ "updated": "2026-11-22T20:41:53Z",
  "model": "anthropic/claude-haiku-5.5"
 }
