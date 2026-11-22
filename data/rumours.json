@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T22:48:28Z",
+ "updated": "2026-11-22T04:59:20Z",
  "model": "anthropic/claude-haiku-5.5",
  "rumours": [
   {
@@ -722,7 +722,7 @@
   "cca1fae1b": "1|Reported",
   "cc1b972c7": "3|Reported",
   "ccb040470": "4|Reported",
-  "c6dafad24": "4|Confirmed",
+  "c6dafad24": "5|Confirmed",
   "c00f785b4": "5|Reported",
   "c70300322": "2|Reported",
   "c13d90fcd": "4|Reported",
@@ -735,6 +735,9 @@
   "c53e54ac7": "1|Reported",
   "cf350d1b8": "1|Reported",
   "cbeab7344": "1|Reported",
-  "cbecc9607": "1|Confirmed"
+  "cbecc9607": "1|Confirmed",
+  "ce141cbe9": "2|Confirmed",
+  "c1917b7f5": "1|Reported",
+  "c31f47490": "1|Confirmed"
  }
 }

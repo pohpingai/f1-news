@@ -1,12 +1,172 @@
 {
- "updated": "2026-11-21T09:10:11Z",
+ "updated": "2026-11-22T04:54:41Z",
  "model": "anthropic/claude-haiku-5.5",
  "headline_of_the_day": {
-  "date": "2026-11-21",
-  "text": "Verstappen takes pole in Las Vegas after Antonelli's penalty, while F1 confirms a return to V8 engines in 2030 after a unanimous agreement.",
-  "written": "2026-11-21T09:10:11Z"
+  "date": "2026-11-22",
+  "text": "Verstappen starts the Las Vegas Grand Prix from pole after a five-place penalty for Antonelli, while Hamilton received a 10-second time penalty.",
+  "written": "2026-11-22T04:54:41Z"
  },
  "cards": [
+  {
+   "id": "c6dafad24",
+   "created": "2026-11-21T09:10:11Z",
+   "stories": [
+    {
+     "title": "F1 – Antonelli fastest in Las Vegas Qualifying but Verstappen inherits pole position",
+     "source": "FIA",
+     "date": "2026-11-21T07:03:00Z",
+     "link": "https://www.fia.com/news/f1-antonelli-fastest-las-vegas-qualifying-verstappen-inherits-pole-position",
+     "snippet": "Kimi Antonelli set the fastest time in Qualifying for the 2026 FIA Formula 1 Las Vegas Grand Prix, but a five-place grid penalty means Max Verstappen will start Saturday's race from pole…"
+    },
+    {
+     "title": "Amended F1 2026 Las Vegas Grand Prix starting grid with all FIA penalties applied",
+     "source": "GPFans",
+     "date": "2026-11-21T07:30:00Z",
+     "link": "https://www.gpfans.com/en/f1-news/1093167/f1-2026-las-vegas-grand-prix-grid-positions-fia-penalties-applied/",
+     "snippet": "Max Verstappen will begin Saturday night's Las Vegas Grand Prix from pole position thanks to a grid penalty for fastest qualifier Kimi Antonelli."
+    },
+    {
+     "title": "F1 2026 Las Vegas GP starting grid after five penalties",
+     "source": "The Race",
+     "date": "2026-11-21T07:52:05Z",
+     "link": "https://www.the-race.com/formula-1/f1-2026-las-vegas-gp-starting-grid-after-five-penalties/",
+     "snippet": "The starting grid for Formula 1's 2026 Las Vegas Grand Prix is a very different picture from the qualifying result thanks to multiple grid penalties"
+    },
+    {
+     "title": "Antonelli on Las Vegas pole but starts sixth with penalty, Verstappen promoted",
+     "source": "ESPN",
+     "date": "2026-11-21T07:56:49Z",
+     "link": "https://www.espn.com/f1/story/_/id/50472094/kimi-antonelli-max-verstappen-las-vegas-grand-prix-formula-1",
+     "snippet": "New world champion Kimi Antonelli edged out Max Verstappen to take pole position for the Las Vegas Grand Prix."
+    },
+    {
+     "title": "OFFICIAL GRID: Who starts where for the Las Vegas Grand Prix",
+     "source": "Formula1.com",
+     "date": "2026-11-22T04:54:37Z",
+     "link": "https://www.formula1.com/en/latest/article/official-grid-who-starts-where-in-las-vegas-after-multiple-penalties.1PRdR9E7qYRjHoRh1NlDR4",
+     "snippet": "The full official starting order for the 2026 Las Vegas Grand Prix."
+    }
+   ],
+   "merge_reasons": [
+    {
+     "time": "2026-11-21T09:10:11Z",
+     "added": [
+      "https://www.fia.com/news/f1-antonelli-fastest-las-vegas-qualifying-verstappen-inherits-pole-position",
+      "https://www.gpfans.com/en/f1-news/1093167/f1-2026-las-vegas-grand-prix-grid-positions-fia-penalties-applied/",
+      "https://www.the-race.com/formula-1/f1-2026-las-vegas-gp-starting-grid-after-five-penalties/",
+      "https://www.espn.com/f1/story/_/id/50472094/kimi-antonelli-max-verstappen-las-vegas-grand-prix-formula-1"
+     ],
+     "joined_existing": false,
+     "reason": "The FIA, GPFans, The Race and ESPN all report the same qualifying result and the grid penalty that moved Verstappen to pole."
+    },
+    {
+     "time": "2026-11-22T04:54:41Z",
+     "added": [
+      "https://www.formula1.com/en/latest/article/official-grid-who-starts-where-in-las-vegas-after-multiple-penalties.1PRdR9E7qYRjHoRh1NlDR4"
+     ],
+     "joined_existing": true,
+     "reason": "The official grid is the published starting order that reflects the same penalties and pole change covered in the existing card."
+    }
+   ],
+   "title": "Verstappen starts Las Vegas GP from pole after Antonelli's penalty",
+   "summary": "Antonelli set the fastest qualifying time, but a five-place grid penalty promotes Verstappen to pole. The official starting grid for the Las Vegas Grand Prix has now been published with all penalties applied.",
+   "disagreement": "",
+   "label": "Confirmed",
+   "updated": "2026-11-22T04:54:41Z"
+  },
+  {
+   "id": "c1917b7f5",
+   "created": "2026-11-22T04:54:41Z",
+   "stories": [
+    {
+     "title": "LIVE COVERAGE: Thrilling battle for lead in Las Vegas GP",
+     "source": "Formula1.com",
+     "date": "2026-11-22T04:54:37Z",
+     "link": "https://www.formula1.com/en/latest/article/live-coverage-formula-1-heineken-las-vegas-grand-prix-2026.5lbMAk1JxHBbBVelEl2kyc",
+     "snippet": "Live coverage of Saturday's Formula 1 Heineken Las Vegas Grand Prix 2026."
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Live coverage of the Las Vegas Grand Prix race",
+   "summary": "Formula 1.com is running live coverage of Saturday's Las Vegas Grand Prix. The coverage highlights a battle for the lead.",
+   "disagreement": "",
+   "label": "Reported",
+   "updated": "2026-11-22T04:54:41Z"
+  },
+  {
+   "id": "c31f47490",
+   "created": "2026-11-22T04:54:41Z",
+   "stories": [
+    {
+     "title": "Palmowski fends off Larsen for victory in Las Vegas",
+     "source": "Formula1.com",
+     "date": "2026-11-22T04:54:37Z",
+     "link": "https://www.formula1.com/en/latest/article/f1-academy-palmowski-fends-off-larsen-for-victory-as-campos-racing-claim-teams-title-in-las-vegas.6Fw8vZsWjOFWzvtWp4diBW",
+     "snippet": "Alisha Palmowski came out on top in a back-and-forth battle with Alba Larsen to secure her sixth victory of the season in Las Vegas."
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Palmowski beats Larsen to win F1 Academy Las Vegas Feature Race",
+   "summary": "Alisha Palmowski came out on top in a back-and-forth battle with Alba Larsen. The win is her sixth of the season.",
+   "disagreement": "",
+   "label": "Confirmed",
+   "updated": "2026-11-22T04:54:41Z"
+  },
+  {
+   "id": "ce141cbe9",
+   "created": "2026-11-22T04:54:41Z",
+   "stories": [
+    {
+     "title": "FIA announce Lewis Hamilton penalty verdict at Las Vegas Grand Prix",
+     "source": "GPFans",
+     "date": "2026-11-22T04:49:13Z",
+     "link": "https://www.gpfans.com/en/f1-news/1093209/lewis-hamilton-penalty-fia-f1-las-vegas-grand-prix-2026/",
+     "snippet": "A furious Lewis Hamilton was handed a 10-second time penalty after an incident early in the Las Vegas Grand Prix on Saturday night."
+    },
+    {
+     "title": "Lewis Hamilton fumes at 10-second penalty at Las Vegas Grand Prix",
+     "source": "Crash.net",
+     "date": "2026-11-22T04:52:38Z",
+     "link": "https://www.crash.net/f1/news/1110692/1/lewis-hamilton-fumes-10-second-penalty-las-vegas-grand-prix",
+     "snippet": "Lewis Hamilton has questioned the 10-second penalty he received in Las Vegas."
+    }
+   ],
+   "merge_reasons": [
+    {
+     "time": "2026-11-22T04:54:41Z",
+     "added": [
+      "https://www.gpfans.com/en/f1-news/1093209/lewis-hamilton-penalty-fia-f1-las-vegas-grand-prix-2026/",
+      "https://www.crash.net/f1/news/1110692/1/lewis-hamilton-fumes-10-second-penalty-las-vegas-grand-prix"
+     ],
+     "joined_existing": false,
+     "reason": "The FIA announcement and the Crash.net report both cover the same 10-second penalty given to Hamilton for an early-race incident in Las Vegas."
+    }
+   ],
+   "title": "Hamilton receives 10-second penalty at Las Vegas Grand Prix",
+   "summary": "The FIA handed Lewis Hamilton a 10-second time penalty after an incident early in Saturday's Las Vegas Grand Prix. Hamilton has questioned the penalty.",
+   "disagreement": "",
+   "label": "Confirmed",
+   "updated": "2026-11-22T04:54:41Z"
+  },
+  {
+   "id": "cf0c769d4",
+   "created": "2026-11-22T04:54:41Z",
+   "stories": [
+    {
+     "title": "F1 schedule: When is the next race and where is it being held?",
+     "source": "PlanetF1",
+     "date": "2026-11-22T03:29:33Z",
+     "link": "https://www.planetf1.com/news/f1-schedule-next-race-calendar",
+     "snippet": "A closer look at the next race on the F1 schedule."
+    }
+   ],
+   "merge_reasons": [],
+   "title": "When and where is the next F1 race?",
+   "summary": "A PlanetF1 explainer looks at the next race on the F1 schedule. It focuses on when and where that race is being held.",
+   "disagreement": "",
+   "label": "Opinion",
+   "updated": "2026-11-22T04:54:41Z"
+  },
   {
    "id": "cf12b6436",
    "created": "2026-11-21T09:10:11Z",
@@ -593,58 +753,6 @@
    "summary": "Toto Wolff said George Russell was in the perfect position for pole and dismissed suggestions Mercedes should have done more. He insisted the track position was ideal despite questions over the team's qualifying strategy.",
    "disagreement": "",
    "label": "Reported",
-   "updated": "2026-11-21T09:10:11Z"
-  },
-  {
-   "id": "c6dafad24",
-   "created": "2026-11-21T09:10:11Z",
-   "stories": [
-    {
-     "title": "F1 – Antonelli fastest in Las Vegas Qualifying but Verstappen inherits pole position",
-     "source": "FIA",
-     "date": "2026-11-21T07:03:00Z",
-     "link": "https://www.fia.com/news/f1-antonelli-fastest-las-vegas-qualifying-verstappen-inherits-pole-position",
-     "snippet": "Kimi Antonelli set the fastest time in Qualifying for the 2026 FIA Formula 1 Las Vegas Grand Prix, but a five-place grid penalty means Max Verstappen will start Saturday's race from pole…"
-    },
-    {
-     "title": "Amended F1 2026 Las Vegas Grand Prix starting grid with all FIA penalties applied",
-     "source": "GPFans",
-     "date": "2026-11-21T07:30:00Z",
-     "link": "https://www.gpfans.com/en/f1-news/1093167/f1-2026-las-vegas-grand-prix-grid-positions-fia-penalties-applied/",
-     "snippet": "Max Verstappen will begin Saturday night's Las Vegas Grand Prix from pole position thanks to a grid penalty for fastest qualifier Kimi Antonelli."
-    },
-    {
-     "title": "F1 2026 Las Vegas GP starting grid after five penalties",
-     "source": "The Race",
-     "date": "2026-11-21T07:52:05Z",
-     "link": "https://www.the-race.com/formula-1/f1-2026-las-vegas-gp-starting-grid-after-five-penalties/",
-     "snippet": "The starting grid for Formula 1's 2026 Las Vegas Grand Prix is a very different picture from the qualifying result thanks to multiple grid penalties"
-    },
-    {
-     "title": "Antonelli on Las Vegas pole but starts sixth with penalty, Verstappen promoted",
-     "source": "ESPN",
-     "date": "2026-11-21T07:56:49Z",
-     "link": "https://www.espn.com/f1/story/_/id/50472094/kimi-antonelli-max-verstappen-las-vegas-grand-prix-formula-1",
-     "snippet": "New world champion Kimi Antonelli edged out Max Verstappen to take pole position for the Las Vegas Grand Prix."
-    }
-   ],
-   "merge_reasons": [
-    {
-     "time": "2026-11-21T09:10:11Z",
-     "added": [
-      "https://www.fia.com/news/f1-antonelli-fastest-las-vegas-qualifying-verstappen-inherits-pole-position",
-      "https://www.gpfans.com/en/f1-news/1093167/f1-2026-las-vegas-grand-prix-grid-positions-fia-penalties-applied/",
-      "https://www.the-race.com/formula-1/f1-2026-las-vegas-gp-starting-grid-after-five-penalties/",
-      "https://www.espn.com/f1/story/_/id/50472094/kimi-antonelli-max-verstappen-las-vegas-grand-prix-formula-1"
-     ],
-     "joined_existing": false,
-     "reason": "The FIA, GPFans, The Race and ESPN all report the same qualifying result and the grid penalty that moved Verstappen to pole."
-    }
-   ],
-   "title": "Antonelli fastest in Vegas qualifying, but Verstappen starts from pole",
-   "summary": "Kimi Antonelli set the fastest time in Las Vegas qualifying, but a five-place grid penalty drops him to sixth. Max Verstappen is promoted to pole position for Saturday's race.",
-   "disagreement": "",
-   "label": "Confirmed",
    "updated": "2026-11-21T09:10:11Z"
   },
   {
@@ -11460,6 +11568,51 @@
     }
    ],
    "reason": "The PlanetF1 report on the cause of the Ferrari exit and Leclerc's quotes on the Q2 exit come from different people, so they stay separate."
+  },
+  {
+   "time": "2026-11-22T04:54:41Z",
+   "items": [
+    {
+     "title": "Palmowski fends off Larsen for victory in Las Vegas",
+     "source": "Formula1.com",
+     "link": "https://www.formula1.com/en/latest/article/f1-academy-palmowski-fends-off-larsen-for-victory-as-campos-racing-claim-teams-title-in-las-vegas.6Fw8vZsWjOFWzvtWp4diBW"
+    },
+    {
+     "card": "c11e4c7fd",
+     "title": "Palmowski takes pole for F1 Academy Las Vegas Feature Race"
+    }
+   ],
+   "reason": "The existing card covers the Feature Race pole, while the Palmowski story reports the result of the Feature Race itself, so they are different events."
+  },
+  {
+   "time": "2026-11-22T04:54:41Z",
+   "items": [
+    {
+     "title": "LIVE COVERAGE: Thrilling battle for lead in Las Vegas GP",
+     "source": "Formula1.com",
+     "link": "https://www.formula1.com/en/latest/article/live-coverage-formula-1-heineken-las-vegas-grand-prix-2026.5lbMAk1JxHBbBVelEl2kyc"
+    },
+    {
+     "card": "c079b9f09",
+     "title": "Live coverage of Las Vegas final practice and qualifying"
+    }
+   ],
+   "reason": "The existing card covers Friday practice and qualifying live coverage, while this story covers the Saturday race, which is a different session."
+  },
+  {
+   "time": "2026-11-22T04:54:41Z",
+   "items": [
+    {
+     "title": "Palmowski fends off Larsen for victory in Las Vegas",
+     "source": "Formula1.com",
+     "link": "https://www.formula1.com/en/latest/article/f1-academy-palmowski-fends-off-larsen-for-victory-as-campos-racing-claim-teams-title-in-las-vegas.6Fw8vZsWjOFWzvtWp4diBW"
+    },
+    {
+     "card": "cbecc9607",
+     "title": "Larsen wins F1 Academy Las Vegas Reverse Grid Race from ninth"
+    }
+   ],
+   "reason": "The existing card reports Larsen's win in the Reverse Grid Race, while this story reports Palmowski's win in the Feature Race, which is a separate race."
   }
  ],
  "processed": [
@@ -11671,6 +11824,7 @@
   "https://www.crash.net/f1/news/1110520/1/jacques-villeneuve-slams-mercedes-and-nasty-kimi-antonelli-over-las-vegas",
   "https://www.crash.net/f1/news/1110521/1/max-verstappen-gives-frosty-two-word-response-george-russell-las-vegas-clash",
   "https://www.crash.net/f1/news/1110522/1/charles-leclerc-very-angry-ferraris-biggest-weakness-exposed-worst-qualifying-f1",
+  "https://www.crash.net/f1/news/1110692/1/lewis-hamilton-fumes-10-second-penalty-las-vegas-grand-prix",
   "https://www.crash.net/f1/results/1110009/1/f1-brazil-grand-prix-full-race-results",
   "https://www.crash.net/motogp/news/1110106/1/watch-dani-pedrosa-race-ktm-motogp-bike-against-red-bull-f1-car-ice",
   "https://www.crash.net/motogp/news/1110108/1/buenos-aires-motogp-circuit-transformation-gathers-pace-f1-dream",
@@ -11735,6 +11889,7 @@
   "https://www.formula1.com/en/latest/article/exclusive-sainz-reflects-on-the-journey-to-his-250th-grand-prix-and-preparing-for-williams-most-important-year.4q4YmHp7ZpfnUTMjNNPXc9",
   "https://www.formula1.com/en/latest/article/f1-academy-champion-alisha-palmowski-graduates-to-formula-regional-with-fully-funded-seat.39A1mu7n4LQ3ljJdTyFlhW",
   "https://www.formula1.com/en/latest/article/f1-academy-larsen-storms-from-ninth-to-victory-in-las-vegas-reverse-grid-race.6jbNyvDSifesMfng2Dpet0",
+  "https://www.formula1.com/en/latest/article/f1-academy-palmowski-fends-off-larsen-for-victory-as-campos-racing-claim-teams-title-in-las-vegas.6Fw8vZsWjOFWzvtWp4diBW",
   "https://www.formula1.com/en/latest/article/f1-academy-palmowski-makes-history-as-she-secures-her-final-pole-position-around-las-vegas.1n8CvOtY14APLOTC3pzBrL",
   "https://www.formula1.com/en/latest/article/f1-fantasy-strategist-preview-the-williams-mini-league-and-what-you-need-to-know-for-las-vegas-and-qatar.6hHYy6ckLb4oqMNCVPbRul",
   "https://www.formula1.com/en/latest/article/fia-confirms-unanimous-agreement-on-framework-for-2030-power-units.AZ7EFvWPyGPH0xG1JS8Ud",
@@ -11761,11 +11916,13 @@
   "https://www.formula1.com/en/latest/article/komatsu-insists-there-is-no-doubt-over-bearmans-2027-haas-seat-after-britons-frustrations.1lCOdGv5mDv2FcqDshxnYB",
   "https://www.formula1.com/en/latest/article/las-vegas-grand-prix-race-betting-guide-and-what-the-markets-expect-to-happen.5sEja0aYqYkyfdSZ9sTibF",
   "https://www.formula1.com/en/latest/article/live-coverage-first-practice-in-las-vegas-2026.6znaP19Dx0zBrPVStcB2BP",
+  "https://www.formula1.com/en/latest/article/live-coverage-formula-1-heineken-las-vegas-grand-prix-2026.5lbMAk1JxHBbBVelEl2kyc",
   "https://www.formula1.com/en/latest/article/live-coverage-second-practice-in-las-vegas-2026.4jTMaRKyeJ2CONkCrsDQV1",
   "https://www.formula1.com/en/latest/article/live-coverage-third-practice-in-las-vegas-2026.50OIQwa2hcjUWGKsiu3h5L",
   "https://www.formula1.com/en/latest/article/live-coverage-wednesday-build-up-in-las-vegas-2026.MqDte4ggZDt3kjYNJ0CvS",
   "https://www.formula1.com/en/latest/article/mercedes-incredible-success-through-formula-1-history.7yLliKc36ZI9pd7xzNYFwq",
   "https://www.formula1.com/en/latest/article/need-to-know-the-most-important-facts-stats-and-trivia-ahead-of-the-2026-las-vegas-grand-prix.6ynxQ4e9Z7F1o2Uijhh1FK",
+  "https://www.formula1.com/en/latest/article/official-grid-who-starts-where-in-las-vegas-after-multiple-penalties.1PRdR9E7qYRjHoRh1NlDR4",
   "https://www.formula1.com/en/latest/article/one-of-the-best-experiences-of-my-life-mark-sutton-on-photographing-antonellis-f1-title.2oqpziZe3WQ5B2xFvPWsnU",
   "https://www.formula1.com/en/latest/article/our-early-bet-builder-selections-for-the-las-vegas-grand-prix.3CN1v7zsYxJIfD3azv9vjj",
   "https://www.formula1.com/en/latest/article/our-writers-on-antonellis-title-success-and-what-it-means.2FAfHA49byUlrrTfVgWKWc",
@@ -11888,6 +12045,7 @@
   "https://www.gpfans.com/en/f1-news/1093147/formula-e-car-catches-fire-explodes-pre-season-test-madrid/",
   "https://www.gpfans.com/en/f1-news/1093167/f1-2026-las-vegas-grand-prix-grid-positions-fia-penalties-applied/",
   "https://www.gpfans.com/en/f1-news/1093170/george-russell-max-verstappen-2026-f1-las-vegas-grand-prix-investigation/",
+  "https://www.gpfans.com/en/f1-news/1093209/lewis-hamilton-penalty-fia-f1-las-vegas-grand-prix-2026/",
   "https://www.motorsport.com/dakar/news/fernando-alonso-returns-to-dakar-why-his-first-rally-raid-experience-was-a-shock-to-the-system/10875881/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/dakar/news/fernando-alonso-to-return-to-dakar-rally-with-aston-martin-in-2027/10874907/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/alan-permane-liam-lawson-has-been-a-revelation-as-he-earned-2027-racing-bulls-f1-deal/10875104/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
@@ -12026,6 +12184,7 @@
   "https://www.planetf1.com/news/f1-las-vegas-weather-2026-rain-risk",
   "https://www.planetf1.com/news/f1-makes-major-announcement-over-v8-engine-return",
   "https://www.planetf1.com/news/f1-nike-deal",
+  "https://www.planetf1.com/news/f1-schedule-next-race-calendar",
   "https://www.planetf1.com/news/f1-tipped-for-imminent-sale-by-former-liberty-media-boss",
   "https://www.planetf1.com/news/felipe-massa-ferrari-not-right",
   "https://www.planetf1.com/news/fernando-alonso-aston-martin-dakar-rally",
