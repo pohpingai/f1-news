@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T04:59:20Z",
+ "updated": "2026-11-22T14:05:05Z",
  "model": "anthropic/claude-haiku-5.5",
  "rumours": [
   {
@@ -111,7 +111,7 @@
     "Lewis Hamilton"
    ],
    "status": "Active",
-   "trend": "steady",
+   "trend": "fading",
    "first_seen": "2026-11-17T12:34:58Z",
    "last_seen": "2026-11-17T12:34:58Z",
    "sources": [
@@ -144,7 +144,7 @@
     "Kim Kardashian"
    ],
    "status": "Active",
-   "trend": "steady",
+   "trend": "fading",
    "first_seen": "2026-11-16T15:08:51Z",
    "last_seen": "2026-11-17T11:28:21Z",
    "sources": [
@@ -191,7 +191,7 @@
     "Charles Leclerc"
    ],
    "status": "Active",
-   "trend": "steady",
+   "trend": "fading",
    "first_seen": "2026-11-16T07:59:00Z",
    "last_seen": "2026-11-17T06:30:00Z",
    "sources": [
@@ -332,54 +332,6 @@
    ]
   },
   {
-   "id": "r4bccd5f1",
-   "claim": "F1's plan to move to V8 engines could reportedly take a major step forward on Monday, with manufacturers poised to back new regulations.",
-   "people": [
-    "manufacturers"
-   ],
-   "status": "Active",
-   "trend": "fading",
-   "first_seen": "2026-11-16T07:11:53Z",
-   "last_seen": "2026-11-16T07:11:53Z",
-   "sources": [
-    {
-     "title": "F1 poised to take crucial step towards V8 engines' return",
-     "source": "The Race",
-     "date": "2026-11-16T07:11:53Z",
-     "link": "https://www.the-race.com/formula-1/f1-poised-to-take-crucial-step-towards-v8-engines-return/"
-    }
-   ],
-   "cards": [
-    "ca01456fa"
-   ],
-   "proof": null,
-   "history": [
-    {
-     "time": "2026-11-16T14:41:36Z",
-     "event": "created",
-     "detail": "First seen: The Race (2026-11-16)",
-     "reason": "This is a specific regulatory claim about the V8 engine plan, which is different from the known rumour about cost cap changes at the Commission meeting.",
-     "card": "F1 set for major step towards V8 engine return"
-    },
-    {
-     "time": "2026-11-21T01:07:05Z",
-     "event": "blocked",
-     "detail": "The AI suggested 'Confirmed' but it was NOT applied: the evidence words were not found in the proof card's headlines or snippets.",
-     "reason": "The official FIA announcement says the 2030 V8 power unit framework was agreed unanimously, which matches the rumoured step forward with manufacturers backing the new regulations.",
-     "card": "F1 confirms V8 engine return from 2030 after unanimous agreement",
-     "evidence": "FIA – The V8 Future: Unanimous Agreement Reached on FIA’s 2030 Formula 1 Power Unit Framework"
-    },
-    {
-     "time": "2026-11-21T09:14:34Z",
-     "event": "blocked",
-     "detail": "The AI suggested 'Confirmed' but it was NOT applied: the evidence words were not found in the proof card's headlines or snippets.",
-     "reason": "The official FIA card confirms that F1, the FIA and the power unit parties reached a unanimous agreement on the V8 framework, which is the step the rumour said manufacturers were poised to back.",
-     "card": "F1 confirms V8 engine return from 2030 after unanimous agreement",
-     "evidence": "F1 confirms V8 engine return from 2030 after unanimous agreement"
-    }
-   ]
-  },
-  {
    "id": "r6b021c8e",
    "claim": "Formula 1 as a whole could reportedly be sold imminently, according to a former Liberty Media boss.",
    "people": [
@@ -473,6 +425,250 @@
      "detail": "First seen: The Race (2026-11-14)",
      "reason": "No known rumours are on the list yet, so this cost cap proposal is recorded as a new rumour.",
      "card": "'ADUO for teams' cost cap plan to be discussed by F1"
+    }
+   ]
+  },
+  {
+   "id": "r4bccd5f1",
+   "claim": "F1's plan to move to V8 engines could reportedly take a major step forward on Monday, with manufacturers poised to back new regulations.",
+   "people": [
+    "manufacturers"
+   ],
+   "status": "Confirmed",
+   "trend": "rising",
+   "first_seen": "2026-11-16T07:11:53Z",
+   "last_seen": "2026-11-21T08:39:32Z",
+   "sources": [
+    {
+     "title": "F1 poised to take crucial step towards V8 engines' return",
+     "source": "The Race",
+     "date": "2026-11-16T07:11:53Z",
+     "link": "https://www.the-race.com/formula-1/f1-poised-to-take-crucial-step-towards-v8-engines-return/"
+    },
+    {
+     "title": "Zak Brown confirms “agreement in principle” on F1’s V8 return after deleted FIA posts",
+     "source": "Motorsport.com",
+     "date": "2026-11-20T04:37:14Z",
+     "link": "https://www.motorsport.com/f1/news/zak-brown-confirms-agreement-in-principle-on-f1s-v8-return-after-deleted-fia-posts/10875816/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www"
+    },
+    {
+     "title": "F1 teams confirm “agreement in principle” on V8 return after deleted FIA posts cause confusion",
+     "source": "Crash.net",
+     "date": "2026-11-20T06:05:18Z",
+     "link": "https://www.crash.net/f1/news/1110269/1/f1-teams-confirm-agreement-principle-v8-return-after-deleted-fia-posts-cause"
+    },
+    {
+     "title": "F1 has “agreement in principle” to ditch 2026 engines after just four seasons | Formula 1",
+     "source": "RaceFans",
+     "date": "2026-11-20T06:29:22Z",
+     "link": "https://www.racefans.net/2026/11/20/f1-has-agreement-in-principle-to-ditch-2026-engines-after-just-four-seasons/"
+    },
+    {
+     "title": "F1 bosses close to V8 engines deal from 2030",
+     "source": "BBC Sport",
+     "date": "2026-11-20T06:35:38Z",
+     "link": "https://www.bbc.co.uk/sport/formula1/articles/cvj6l7nk611jo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "title": "Popular and noisy V8 engine return close to being confirmed, says F1 bosses",
+     "source": "ESPN",
+     "date": "2026-11-20T10:29:51Z",
+     "link": "https://www.espn.com/f1/story/_/id/50472081/v8-return-las-vegas-grand-prix-formula-1"
+    },
+    {
+     "title": "The V8 Future: Unanimous Agreement Reached on FIA’s 2030 Formula 1 Power Unit Framework",
+     "source": "FIA",
+     "date": "2026-11-20T17:30:00Z",
+     "link": "https://www.fia.com/news/v8-future-unanimous-agreement-reached-fias-2030-formula-1-power-unit-framework"
+    },
+    {
+     "title": "Formula 1 set for V8 turbo return in 2030",
+     "source": "Motorsport.com",
+     "date": "2026-11-20T18:55:35Z",
+     "link": "https://www.motorsport.com/f1/news/f1-set-for-v8-turbo-move-by-2030-season/10875113/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www"
+    },
+    {
+     "title": "Unanimous agreement for F1 V8 engine return plan reached",
+     "source": "Crash.net",
+     "date": "2026-11-20T18:57:15Z",
+     "link": "https://www.crash.net/f1/news/1110159/1/key-agreement-reached-f1s-poised-return-v8-engines"
+    },
+    {
+     "title": "F1 makes major announcement over V8 engine return",
+     "source": "PlanetF1",
+     "date": "2026-11-20T18:59:02Z",
+     "link": "https://www.planetf1.com/news/f1-makes-major-announcement-over-v8-engine-return"
+    },
+    {
+     "title": "FIA, F1 and teams unanimously agree to drop current power units after 2029 | Formula 1",
+     "source": "RaceFans",
+     "date": "2026-11-20T18:59:56Z",
+     "link": "https://www.racefans.net/2026/11/20/fia-f1-and-teams-unanimously-agree-to-drop-current-power-units-after-2029/"
+    },
+    {
+     "title": "F1 set for V8 return from 2030",
+     "source": "Autosport",
+     "date": "2026-11-20T19:02:00Z",
+     "link": "https://www.autosport.com/f1/news/f1-set-for-v8-return-from-2030/10875119/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk"
+    },
+    {
+     "title": "F1's new V8 engine agreed – five things you need to know",
+     "source": "The Race",
+     "date": "2026-11-20T20:08:47Z",
+     "link": "https://www.the-race.com/formula-1/f1s-new-v8-engine-agreed-five-things-you-need-to-know/"
+    },
+    {
+     "title": "V8 engines return confirmed in bid to 'reconnect with DNA' of F1",
+     "source": "Sky Sports",
+     "date": "2026-11-20T20:10:00Z",
+     "link": "https://www.skysports.com/f1/news/12433/13614482/v8-engines-returning-to-formula-1-in-2030-as-fia-president-mohammed-ben-sulayem-describes-move-to-reconnect-with-dna-of-the-sport"
+    },
+    {
+     "title": "FIA confirms unanimous agreement on 2030 PU framework",
+     "source": "Formula1.com",
+     "date": "2026-11-21T01:04:00Z",
+     "link": "https://www.formula1.com/en/latest/article/fia-confirms-unanimous-agreement-on-framework-for-2030-power-units.AZ7EFvWPyGPH0xG1JS8Ud"
+    },
+    {
+     "title": "V8 engines will return to F1 in 2030, FIA confirm",
+     "source": "ESPN",
+     "date": "2026-11-21T08:39:32Z",
+     "link": "https://www.espn.com/f1/story/_/id/50472097/v8-engine-confirmed-formula-1"
+    }
+   ],
+   "cards": [
+    "ca01456fa",
+    "c9520248d"
+   ],
+   "proof": {
+    "status": "Confirmed",
+    "card": "F1 teams agree in principle to return to V8 engines in 2030",
+    "evidence": "Unanimous Agreement Reached on FIA’s 2030 Formula 1 Power Unit Framework",
+    "reason": "The official FIA announcement says the key parties, including the teams, unanimously agreed the V8 power unit framework, which matches the rumoured manufacturer backing for the new V8 regulations, although the announcement did not specify Monday.",
+    "time": "2026-11-22T14:05:05Z",
+    "links": [
+     {
+      "title": "The V8 Future: Unanimous Agreement Reached on FIA’s 2030 Formula 1 Power Unit Framework",
+      "source": "FIA",
+      "date": "2026-11-20T17:30:00Z",
+      "link": "https://www.fia.com/news/v8-future-unanimous-agreement-reached-fias-2030-formula-1-power-unit-framework"
+     },
+     {
+      "title": "Formula 1 set for V8 turbo return in 2030",
+      "source": "Motorsport.com",
+      "date": "2026-11-20T18:55:35Z",
+      "link": "https://www.motorsport.com/f1/news/f1-set-for-v8-turbo-move-by-2030-season/10875113/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www"
+     },
+     {
+      "title": "Unanimous agreement for F1 V8 engine return plan reached",
+      "source": "Crash.net",
+      "date": "2026-11-20T18:57:15Z",
+      "link": "https://www.crash.net/f1/news/1110159/1/key-agreement-reached-f1s-poised-return-v8-engines"
+     },
+     {
+      "title": "F1 makes major announcement over V8 engine return",
+      "source": "PlanetF1",
+      "date": "2026-11-20T18:59:02Z",
+      "link": "https://www.planetf1.com/news/f1-makes-major-announcement-over-v8-engine-return"
+     },
+     {
+      "title": "FIA, F1 and teams unanimously agree to drop current power units after 2029 | Formula 1",
+      "source": "RaceFans",
+      "date": "2026-11-20T18:59:56Z",
+      "link": "https://www.racefans.net/2026/11/20/fia-f1-and-teams-unanimously-agree-to-drop-current-power-units-after-2029/"
+     },
+     {
+      "title": "F1 set for V8 return from 2030",
+      "source": "Autosport",
+      "date": "2026-11-20T19:02:00Z",
+      "link": "https://www.autosport.com/f1/news/f1-set-for-v8-return-from-2030/10875119/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk"
+     },
+     {
+      "title": "F1's new V8 engine agreed – five things you need to know",
+      "source": "The Race",
+      "date": "2026-11-20T20:08:47Z",
+      "link": "https://www.the-race.com/formula-1/f1s-new-v8-engine-agreed-five-things-you-need-to-know/"
+     },
+     {
+      "title": "V8 engines return confirmed in bid to 'reconnect with DNA' of F1",
+      "source": "Sky Sports",
+      "date": "2026-11-20T20:10:00Z",
+      "link": "https://www.skysports.com/f1/news/12433/13614482/v8-engines-returning-to-formula-1-in-2030-as-fia-president-mohammed-ben-sulayem-describes-move-to-reconnect-with-dna-of-the-sport"
+     },
+     {
+      "title": "FIA confirms unanimous agreement on 2030 PU framework",
+      "source": "Formula1.com",
+      "date": "2026-11-21T01:04:00Z",
+      "link": "https://www.formula1.com/en/latest/article/fia-confirms-unanimous-agreement-on-framework-for-2030-power-units.AZ7EFvWPyGPH0xG1JS8Ud"
+     },
+     {
+      "title": "V8 engines will return to F1 in 2030, FIA confirm",
+      "source": "ESPN",
+      "date": "2026-11-21T08:39:32Z",
+      "link": "https://www.espn.com/f1/story/_/id/50472097/v8-engine-confirmed-formula-1"
+     },
+     {
+      "title": "Zak Brown confirms “agreement in principle” on F1’s V8 return after deleted FIA posts",
+      "source": "Motorsport.com",
+      "date": "2026-11-20T04:37:14Z",
+      "link": "https://www.motorsport.com/f1/news/zak-brown-confirms-agreement-in-principle-on-f1s-v8-return-after-deleted-fia-posts/10875816/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www"
+     },
+     {
+      "title": "F1 teams confirm “agreement in principle” on V8 return after deleted FIA posts cause confusion",
+      "source": "Crash.net",
+      "date": "2026-11-20T06:05:18Z",
+      "link": "https://www.crash.net/f1/news/1110269/1/f1-teams-confirm-agreement-principle-v8-return-after-deleted-fia-posts-cause"
+     },
+     {
+      "title": "F1 has “agreement in principle” to ditch 2026 engines after just four seasons | Formula 1",
+      "source": "RaceFans",
+      "date": "2026-11-20T06:29:22Z",
+      "link": "https://www.racefans.net/2026/11/20/f1-has-agreement-in-principle-to-ditch-2026-engines-after-just-four-seasons/"
+     },
+     {
+      "title": "F1 bosses close to V8 engines deal from 2030",
+      "source": "BBC Sport",
+      "date": "2026-11-20T06:35:38Z",
+      "link": "https://www.bbc.co.uk/sport/formula1/articles/cvj6l7nk611jo?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "title": "Popular and noisy V8 engine return close to being confirmed, says F1 bosses",
+      "source": "ESPN",
+      "date": "2026-11-20T10:29:51Z",
+      "link": "https://www.espn.com/f1/story/_/id/50472081/v8-return-las-vegas-grand-prix-formula-1"
+     }
+    ]
+   },
+   "history": [
+    {
+     "time": "2026-11-16T14:41:36Z",
+     "event": "created",
+     "detail": "First seen: The Race (2026-11-16)",
+     "reason": "This is a specific regulatory claim about the V8 engine plan, which is different from the known rumour about cost cap changes at the Commission meeting.",
+     "card": "F1 set for major step towards V8 engine return"
+    },
+    {
+     "time": "2026-11-21T01:07:05Z",
+     "event": "blocked",
+     "detail": "The AI suggested 'Confirmed' but it was NOT applied: the evidence words were not found in the proof card's headlines or snippets.",
+     "reason": "The official FIA announcement says the 2030 V8 power unit framework was agreed unanimously, which matches the rumoured step forward with manufacturers backing the new regulations.",
+     "card": "F1 confirms V8 engine return from 2030 after unanimous agreement",
+     "evidence": "FIA – The V8 Future: Unanimous Agreement Reached on FIA’s 2030 Formula 1 Power Unit Framework"
+    },
+    {
+     "time": "2026-11-21T09:14:34Z",
+     "event": "blocked",
+     "detail": "The AI suggested 'Confirmed' but it was NOT applied: the evidence words were not found in the proof card's headlines or snippets.",
+     "reason": "The official FIA card confirms that F1, the FIA and the power unit parties reached a unanimous agreement on the V8 framework, which is the step the rumour said manufacturers were poised to back.",
+     "card": "F1 confirms V8 engine return from 2030 after unanimous agreement",
+     "evidence": "F1 confirms V8 engine return from 2030 after unanimous agreement"
+    },
+    {
+     "time": "2026-11-22T14:05:05Z",
+     "event": "confirmed",
+     "detail": "Proof: \"Unanimous Agreement Reached on FIA’s 2030 Formula 1 Power Unit Framework\" (FIA (2026-11-20); Motorsport.com (2026-11-20); Crash.net (2026-11-20); PlanetF1 (2026-11-20); RaceFans (2026-11-20); Autosport (2026-11-20); The Race (2026-11-20); Sky Sports (2026-11-20); Formula1.com (2026-11-21); ESPN (2026-11-21); Motorsport.com (2026-11-20); Crash.net (2026-11-20); RaceFans (2026-11-20); BBC Sport (2026-11-20); ESPN (2026-11-20))",
+     "reason": "The official FIA announcement says the key parties, including the teams, unanimously agreed the V8 power unit framework, which matches the rumoured manufacturer backing for the new V8 regulations, although the announcement did not specify Monday.",
+     "card": "F1 teams agree in principle to return to V8 engines in 2030"
     }
    ]
   }
@@ -590,7 +786,6 @@
   "c0a13a578": "1|Reported",
   "cd25c59c2": "3|Reported",
   "c03ec9289": "1|Reported",
-  "cf958e6ed": "1|Confirmed",
   "c5e4ebf59": "1|Reported",
   "cce033974": "1|Confirmed",
   "c336f1e34": "1|Reported",
@@ -647,7 +842,7 @@
   "c8cd47a26": "1|Confirmed",
   "c4987cfb6": "1|Rumour",
   "cdf80d09e": "1|Reported",
-  "c698ce129": "18|Confirmed",
+  "c698ce129": "20|Confirmed",
   "cea70c766": "1|Reported",
   "c655ed527": "1|Reported",
   "c66509511": "1|Reported",
@@ -659,7 +854,7 @@
   "cbadb0d54": "1|Reported",
   "ca5d0e533": "1|Reported",
   "c030f1444": "3|Reported",
-  "c74ed3342": "2|Reported",
+  "c74ed3342": "4|Reported",
   "c53047ae6": "1|Reported",
   "c3a81c5e5": "1|Reported",
   "ccb547894": "2|Reported",
@@ -683,7 +878,7 @@
   "cba0cb9fb": "1|Reported",
   "cf08c5237": "1|Reported",
   "c74d804e1": "1|Reported",
-  "c079b9f09": "3|Reported",
+  "c079b9f09": "4|Reported",
   "cdebe6a30": "5|Confirmed",
   "c28ae87f1": "6|Confirmed",
   "c033d0083": "1|Confirmed",
@@ -707,37 +902,111 @@
   "cebbffb39": "1|Reported",
   "c33006cc5": "2|Reported",
   "c4e085191": "1|Reported",
-  "cf5f90d2a": "1|Reported",
+  "cf5f90d2a": "4|Reported",
   "ca6523011": "1|Reported",
   "c4566f06d": "1|Reported",
   "c0561402c": "1|Reported",
   "c117be4a8": "2|Reported",
   "c0105474b": "1|Reported",
   "c57643093": "1|Reported",
-  "c9520248d": "10|Confirmed",
+  "c9520248d": "15|Confirmed",
   "c8ccec610": "1|Reported",
   "c49d96e56": "1|Reported",
   "cdbfe8ec5": "1|Reported",
   "c287477e6": "1|Confirmed",
-  "cca1fae1b": "1|Reported",
+  "cca1fae1b": "6|Confirmed",
   "cc1b972c7": "3|Reported",
-  "ccb040470": "4|Reported",
-  "c6dafad24": "5|Confirmed",
+  "ccb040470": "10|Reported",
+  "c6dafad24": "30|Confirmed",
   "c00f785b4": "5|Reported",
-  "c70300322": "2|Reported",
-  "c13d90fcd": "4|Reported",
-  "c7937efaa": "2|Reported",
+  "c70300322": "6|Reported",
+  "c13d90fcd": "5|Reported",
+  "c7937efaa": "4|Reported",
   "cce773ff7": "1|Confirmed",
   "cab41427e": "2|Reported",
-  "c7b4c68f5": "1|Confirmed",
+  "c7b4c68f5": "4|Confirmed",
   "cf12b6436": "1|Reported",
   "c7c58386c": "1|Reported",
   "c53e54ac7": "1|Reported",
   "cf350d1b8": "1|Reported",
   "cbeab7344": "1|Reported",
   "cbecc9607": "1|Confirmed",
-  "ce141cbe9": "2|Confirmed",
+  "ce141cbe9": "6|Confirmed",
   "c1917b7f5": "1|Reported",
-  "c31f47490": "1|Confirmed"
+  "c31f47490": "1|Confirmed",
+  "ca4a6373e": "4|Reported",
+  "c891fd077": "1|Reported",
+  "c712ec92b": "1|Confirmed",
+  "c70f2813a": "1|Reported",
+  "c943111bf": "2|Reported",
+  "c22e835e4": "1|Reported",
+  "ca727ef8d": "1|Confirmed",
+  "c8b1978f5": "1|Reported",
+  "ca2c2fe6b": "3|Reported",
+  "c84593e39": "1|Reported",
+  "c8af35fc4": "2|Reported",
+  "c6c479ba2": "1|Reported",
+  "cca046e30": "2|Confirmed",
+  "c85a22c50": "1|Reported",
+  "cfc59a178": "1|Reported",
+  "cc59dbcda": "3|Reported",
+  "c3465e855": "1|Reported",
+  "c3ec8cacc": "4|Reported",
+  "c4fe24e9f": "1|Confirmed",
+  "c8998357e": "2|Reported",
+  "ca289c4d2": "1|Reported",
+  "c45ec56e4": "1|Reported",
+  "c394fd2b8": "1|Reported",
+  "c991479f6": "1|Reported",
+  "c21d6607f": "1|Reported",
+  "cd6643857": "1|Reported",
+  "cef33f88c": "2|Reported",
+  "c2e47863e": "1|Reported",
+  "cdc92a425": "1|Reported",
+  "c0942304e": "2|Reported",
+  "ce30e7d6e": "1|Reported",
+  "cbedd3ce0": "1|Confirmed",
+  "c35860a0b": "1|Reported",
+  "c37523080": "1|Reported",
+  "c6e8d70dd": "1|Reported",
+  "c905b82da": "1|Reported",
+  "cef37e632": "1|Reported",
+  "cb365cb29": "1|Reported",
+  "cf0f76e1e": "1|Reported",
+  "c56cfb557": "6|Confirmed",
+  "c6fd0e06a": "10|Confirmed",
+  "c1919e8f1": "1|Confirmed",
+  "cbe810715": "2|Confirmed",
+  "c599f9185": "2|Reported",
+  "c9dca3461": "1|Reported",
+  "c0c20cefe": "2|Reported",
+  "caba6cf96": "3|Confirmed",
+  "c332eb5b7": "1|Reported",
+  "c04349eb4": "1|Reported",
+  "cb1ea6767": "1|Reported",
+  "c97b8653e": "1|Confirmed",
+  "c3e21244f": "1|Reported",
+  "c49d66493": "1|Confirmed",
+  "c6ca2fab5": "1|Reported",
+  "c09f160f3": "1|Confirmed",
+  "cf4ed624d": "1|Reported",
+  "c0337d029": "2|Reported",
+  "ceca0e267": "1|Reported",
+  "c9f5d863f": "1|Reported",
+  "c46d7d1bf": "10|Confirmed",
+  "c51661158": "1|Reported",
+  "caeca6b3e": "1|Reported",
+  "c433471f5": "2|Reported",
+  "ca5a5787a": "1|Reported",
+  "c0f36d98d": "1|Reported",
+  "ca6a31dae": "15|Confirmed",
+  "c03886e43": "13|Reported",
+  "c258988c7": "4|Reported",
+  "ce371d9be": "4|Reported",
+  "c364c0fff": "8|Reported",
+  "ce97d7c6c": "1|Confirmed",
+  "ca8f4fbd3": "1|Reported",
+  "ca29fe316": "1|Reported",
+  "c55740f86": "1|Confirmed"
  }
 }
