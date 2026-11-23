@@ -175,10 +175,10 @@
   },
   "2026-11-23": {
    "AI grouping + labels": {
-    "cost": 0.057529,
-    "requests": 6,
-    "tokens_in": 175243,
-    "tokens_out": 80008
+    "cost": 0.087866,
+    "requests": 9,
+    "tokens_in": 238619,
+    "tokens_out": 128008
    },
    "Headline of the day": {
     "cost": 0.000488,
@@ -194,7 +194,7 @@
    }
   }
  },
- "total_cost": 0.540356,
- "updated": "2026-11-23T02:15:12Z",
+ "total_cost": 0.570693,
+ "updated": "2026-11-23T14:02:34Z",
  "model": "anthropic/claude-haiku-5.5"
 }
