@@ -1,6 +1,38 @@
 {
- "updated": "2026-11-22T20:38:39Z",
+ "updated": "2026-11-23T02:12:25Z",
  "stories": [
+  {
+   "title": "Battle for second place tightens as finish line nears",
+   "source": "Formula1.com",
+   "date": "2026-11-23T02:12:25Z",
+   "date_is_seen_time": true,
+   "link": "https://www.formula1.com/en/latest/article/battle-for-second-place-tightens-as-2026-world-championship-finish-line-nears.5Rqr6EDZZLiPtFbnomVdfb",
+   "snippet": "Max Verstappen made it four wins in six races but challengers for second place are queueing up."
+  },
+  {
+   "title": "Max Verstappen compares Vegas mayhem to Mario Kart",
+   "source": "PlanetF1",
+   "date": "2026-11-23T00:01:40Z",
+   "date_is_seen_time": false,
+   "link": "https://www.planetf1.com/news/max-verstappen-compares-vegas-mayhem-to-mario-kart",
+   "snippet": "Does Verstappen have a point?"
+  },
+  {
+   "title": "Kelly Piquet and Grandma Verstappen share emotional moment after Max wins Las Vegas GP",
+   "source": "GPFans",
+   "date": "2026-11-22T21:27:00Z",
+   "date_is_seen_time": false,
+   "link": "https://www.gpfans.com/en/f1-news/1093242/kelly-piquet-grandma-verstappen-f1-las-vegas-grand-prix-f1/",
+   "snippet": "It was a beautiful moment to witness in the Red Bull garage as Max Verstappen claimed a peerless victory in the 2026 F1 Las Vegas Grand Prix on Saturday night."
+  },
+  {
+   "title": "Toto Wolff wants different Mercedes role as F1 team principal duties to be assessed",
+   "source": "GPFans",
+   "date": "2026-11-22T20:45:00Z",
+   "date_is_seen_time": false,
+   "link": "https://www.gpfans.com/en/f1-news/1093066/f1-toto-wolff-mercedes-team-principal-bradley-lord-plans/",
+   "snippet": "Toto Wolff has no plans to leave Mercedes anytime soon, but claims he is looking to change his role in the team."
+  },
   {
    "title": "All the key moments from the Las Vegas Grand Prix",
    "source": "Formula1.com",
@@ -146,6 +178,14 @@
    "snippet": "BBC Sport's Harry Benjamin, Rebecca Clancy and Abbi Pulling discuss the clash between George Russell and Max Verstappen as their rivalry heats up both on and off the track."
   },
   {
+   "title": "Camara confirmed at Haas for final two Formula 1 races of 2026 | Formula 1",
+   "source": "RaceFans",
+   "date": "2026-11-22T18:05:03Z",
+   "date_is_seen_time": false,
+   "link": "https://www.racefans.net/2026/11/22/camara-confirmed-at-haas-for-final-two-formula-1-races-of-2026/",
+   "snippet": "Rafael Camara will contest the final two rounds of the season for Haas, the team has confirmed."
+  },
+  {
    "title": "'No-one believes they have cleared the air' - Ferrari duo collide again",
    "source": "BBC Sport",
    "date": "2026-11-22T18:02:42Z",
@@ -218,6 +258,14 @@
    "snippet": "One of the great things about the Las Vegas Grand Prix was it acted as an equaliser."
   },
   {
+   "title": "Featured Comment: How F1’s power units dictated when drivers overtook in Las Vegas | Brief",
+   "source": "RaceFans",
+   "date": "2026-11-22T16:24:32Z",
+   "date_is_seen_time": false,
+   "link": "https://www.racefans.net/2026/11/22/featured-comment-how-f1s-power-units-dictated-when-drivers-overtook-in-las-vegas/",
+   "snippet": "How F1 engineers spot passes coming with power unit data"
+  },
+  {
    "title": "Kimi Antonelli reveals cause of Mercedes power glitch at Las Vegas GP",
    "source": "PlanetF1",
    "date": "2026-11-22T15:16:39Z",
@@ -232,6 +280,14 @@
    "date_is_seen_time": false,
    "link": "https://www.gpfans.com/en/f1-news/1093250/f1-las-vegas-grand-prix-2026-results-final-classification-all-penalties-applied/",
    "snippet": "One of the most unusual races in recent years took place but there was no unusual winner as Max Verstappen showed supreme class to take victory at the Las Vegas Grand Prix."
+  },
+  {
+   "title": "2026 Las Vegas Grand Prix interactive data: lap charts, times and tyres | 2026 Las Vegas Grand Prix interactive data",
+   "source": "RaceFans",
+   "date": "2026-11-22T14:45:58Z",
+   "date_is_seen_time": false,
+   "link": "https://www.racefans.net/2026/11/22/2026-las-vegas-grand-prix-interactive-data-lap-charts-times-and-tyres/",
+   "snippet": "The Las Vegas Grand Prix appeared to create the perfect conditions for 'yo-yo racing'. with drivers swapping places twice or more per lap."
   },
   {
    "title": "George Russell explains Las Vegas GP crash as Max Verstappen declares ‘karma’",
@@ -8544,6 +8600,14 @@
    "date_is_seen_time": false,
    "link": "https://www.autosport.com/f1/news/how-the-racing-bulls-pendulum-is-swinging-back-towards-lawson/10873320/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
    "snippet": "When job security is in short supply, there's one solution for an Formula 1 driver. Be so good they can't ignore you. That's easier said than done, but it certainly seems to be what Liam Lawson has…"
+  },
+  {
+   "title": "F1 2026 team-mate head-to-heads after Las Vegas GP",
+   "source": "Sky Sports",
+   "date": "2026-11-09T11:20:00Z",
+   "date_is_seen_time": false,
+   "link": "https://www.skysports.com/f1/news/12433/13516662/f1-team-mate-2026-head-to-head-qualifying-race-sprint-latest-scores-results-from-formula-1-season",
+   "snippet": "The 2026 Formula 1 head-to-heads with all of the latest Qualifying, Sprint and Grand Prix scores in each of the 11 teams."
   },
   {
    "title": "Piastri splits from manager Webber",
