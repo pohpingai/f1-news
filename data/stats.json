@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-22T19:55:23+00:00",
+ "updated_at": "2026-11-24T00:13:50+00:00",
  "source": "Jolpica F1 API (api.jolpi.ca), Ergast-compatible",
  "note": "Standings points include sprint races. 'races' lists Grand Prix results only (no sprints, no qualifying), so adding up race points can be less than the standings.",
  "season": "2026",
@@ -7272,14 +7272,14 @@
  ],
  "next_race": {
   "season": "2026",
-  "round": 21,
-  "race": "Las Vegas Grand Prix",
-  "date": "2026-11-22",
-  "qualifying_date": "2026-11-21",
-  "circuit_id": "vegas",
-  "circuit": "Las Vegas Strip Street Circuit",
-  "locality": "Las Vegas",
-  "country": "USA"
+  "round": 22,
+  "race": "Qatar Grand Prix",
+  "date": "2026-11-29",
+  "qualifying_date": "2026-11-28",
+  "circuit_id": "losail",
+  "circuit": "Lusail International Circuit",
+  "locality": "Lusail",
+  "country": "Qatar"
  },
  "game_poles": {
   "vegas": {
