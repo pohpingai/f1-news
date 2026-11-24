@@ -1,7 +1,40 @@
 {
- "updated": "2026-11-24T01:40:00Z",
+ "updated": "2026-11-24T12:02:04Z",
  "model": "anthropic/claude-haiku-5.5",
  "rumours": [
+  {
+   "id": "rf4fa9f80",
+   "claim": "Ollie Bearman's future at Ferrari is reportedly unclear while his contract remains delayed.",
+   "people": [
+    "Ollie Bearman",
+    "Ferrari"
+   ],
+   "status": "Active",
+   "trend": "steady",
+   "first_seen": "2026-11-24T07:14:00Z",
+   "last_seen": "2026-11-24T07:14:00Z",
+   "sources": [
+    {
+     "title": "F1 star's contract delay exposes major problem at Ferrari",
+     "source": "GPFans",
+     "date": "2026-11-24T07:14:00Z",
+     "link": "https://www.gpfans.com/en/f1-news/1093296/f1-star-ollie-bearman-contract-delay-exposes-major-problem-ferrari/"
+    }
+   ],
+   "cards": [
+    "cb6e5c6f0"
+   ],
+   "proof": null,
+   "history": [
+    {
+     "time": "2026-11-24T12:02:04Z",
+     "event": "created",
+     "detail": "First seen: GPFans (2026-11-24)",
+     "reason": "No known rumour covers Bearman's contract or future; the closest, the Ferrari 2027 line-up deadlock, is a different claim about seats and the favourite's mood.",
+     "card": "Ollie Bearman's future unclear as contract delay continues"
+    }
+   ]
+  },
   {
    "id": "r848d9a17",
    "claim": "Ugo Ugochukwu could reportedly make his F2 debut at the Qatar Grand Prix.",
@@ -1098,7 +1131,7 @@
   "ca5a5787a": "1|Reported",
   "c0f36d98d": "1|Reported",
   "ca6a31dae": "16|Confirmed",
-  "c03886e43": "14|Reported",
+  "c03886e43": "16|Confirmed",
   "c258988c7": "6|Reported",
   "ce371d9be": "6|Reported",
   "c364c0fff": "8|Reported",
@@ -1112,11 +1145,11 @@
   "c94922007": "1|Reported",
   "c02a8785b": "2|Reported",
   "c91ffb4f5": "1|Reported",
-  "c977d0be7": "2|Reported",
+  "c977d0be7": "3|Reported",
   "c1f537eb6": "1|Reported",
   "ceb2fcbd8": "9|Confirmed",
   "c81f39483": "1|Reported",
-  "c1b33e548": "2|Reported",
+  "c1b33e548": "3|Reported",
   "c80ed89a9": "2|Reported",
   "cacc711c2": "1|Reported",
   "c83db1b02": "1|Reported",
@@ -1130,9 +1163,21 @@
   "c3afe7aa5": "1|Reported",
   "c36f15cdb": "1|Reported",
   "ceba1351a": "1|Reported",
-  "c477e9181": "1|Reported",
+  "c477e9181": "2|Reported",
   "c6e98a7f8": "1|Reported",
   "c9cf94a08": "1|Reported",
-  "c6bd02919": "1|Reported"
+  "c6bd02919": "1|Reported",
+  "cb6e5c6f0": "1|Rumour",
+  "cf2417cfc": "1|Reported",
+  "cff942b8c": "1|Reported",
+  "c6ea4d522": "1|Reported",
+  "c3a3e55af": "1|Confirmed",
+  "c6407b702": "1|Reported",
+  "cc34a4b94": "1|Reported",
+  "cf9b9fc03": "1|Reported",
+  "c76416436": "1|Reported",
+  "c4a37ffb3": "1|Reported",
+  "ce7d1aca0": "1|Confirmed",
+  "c640a429e": "1|Reported"
  }
 }

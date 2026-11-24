@@ -1,12 +1,746 @@
 {
- "updated": "2026-11-24T01:35:30Z",
+ "updated": "2026-11-24T11:57:55Z",
  "model": "anthropic/claude-haiku-5.5",
  "headline_of_the_day": {
   "date": "2026-11-24",
-  "text": "Ferrari's Leclerc and Hamilton collided again in Las Vegas, earning Leclerc a 10-second penalty and a sharp rebuke from team principal Frederic Vasseur.",
-  "written": "2026-11-24T01:35:30Z"
+  "text": "Leclerc and Hamilton collided again in Las Vegas, and Leclerc received a 10-second penalty as Vasseur called the clash unacceptable.",
+  "written": "2026-11-24T11:57:55Z"
  },
  "cards": [
+  {
+   "id": "ce7d1aca0",
+   "created": "2026-11-24T11:57:55Z",
+   "stories": [
+    {
+     "title": "Audi-backed Slater to take over Camara’s F2 seat",
+     "source": "Formula1.com",
+     "date": "2026-11-24T11:57:52Z",
+     "link": "https://www.formula1.com/en/latest/article/audi-backed-slater-to-take-over-camaras-f2-seat-for-final-two-rounds-in-qatar-and-abu-dhabi.3F0sq83OoErm2IjBqsncqu",
+     "snippet": "Audi Driver Development Programme member Freddie Slater will make his F2 debut at the Qatar Grand Prix weekend, joining Invicta Racing for the final two rounds of the 2026 season, ahead of his…"
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Audi-backed Slater to take over Camara's F2 seat",
+   "summary": "Freddie Slater will make his F2 debut at the Qatar Grand Prix weekend, joining Invicta Racing for the final two rounds. He takes over the seat vacated by Rafael Camara.",
+   "disagreement": "",
+   "label": "Confirmed",
+   "updated": "2026-11-24T11:57:55Z"
+  },
+  {
+   "id": "ce73e6980",
+   "created": "2026-11-24T11:57:55Z",
+   "stories": [
+    {
+     "title": "PALMER: Where do Ferrari go from here after Las Vegas clash?",
+     "source": "Formula1.com",
+     "date": "2026-11-24T11:57:52Z",
+     "link": "https://www.formula1.com/en/latest/article/where-do-ferrari-go-from-here-after-the-latest-hamilton-leclerc-clash.PSFxRaC5vfQVri3YZxBiu",
+     "snippet": "F1 TV analyst and former Renault F1 driver Jolyon Palmer picks the bones out of the Ferrari team mate's clash in Las Vegas, and what the team can do to move on..."
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Palmer: where Ferrari go from here after Vegas clash",
+   "summary": "Jolyon Palmer analyses the Ferrari team-mate clash in Las Vegas. He sets out what the team can do to move on.",
+   "disagreement": "",
+   "label": "Opinion",
+   "updated": "2026-11-24T11:57:55Z"
+  },
+  {
+   "id": "ce9394242",
+   "created": "2026-11-24T11:57:55Z",
+   "stories": [
+    {
+     "title": "The 5 drivers most likely to win in Qatar",
+     "source": "Formula1.com",
+     "date": "2026-11-24T11:57:52Z",
+     "link": "https://www.formula1.com/en/latest/article/the-5-drivers-most-likely-to-win-the-qatar-grand-prix-according-to-the-betting-markets.3BzTGI3GGJZHfB5FxGTeN8",
+     "snippet": "We look at the betting odds and analyse the chances of the five drivers most likely to win at the Lusail International Circuit."
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Five drivers most likely to win the Qatar Grand Prix",
+   "summary": "Formula1.com looks at betting odds for the five drivers most likely to win at Lusail. It analyses their chances ahead of the race.",
+   "disagreement": "",
+   "label": "Opinion",
+   "updated": "2026-11-24T11:57:55Z"
+  },
+  {
+   "id": "c640a429e",
+   "created": "2026-11-24T11:57:55Z",
+   "stories": [
+    {
+     "title": "Who is Tom Hart? Meet Max Verstappen’s new race engineer",
+     "source": "Formula1.com",
+     "date": "2026-11-24T11:57:52Z",
+     "link": "https://www.formula1.com/en/latest/article/who-is-tom-hart-meet-the-man-set-to-replace-gp-as-max-verstappens-race-engineer-at-red-bull.4U1Zq3JUB2gujP5OoTMW1Z",
+     "snippet": "Tom Hart has been stepping into the role of Max Verstappen's race engineer during the closing stages of the 2026 season, ahead of Gianpiero Lambiase's departure to McLaren."
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Tom Hart steps in as Verstappen's race engineer",
+   "summary": "Tom Hart has stepped into the role of Max Verstappen's race engineer for the closing stages of 2026. The move comes ahead of Gianpiero Lambiase's departure to McLaren.",
+   "disagreement": "",
+   "label": "Reported",
+   "updated": "2026-11-24T11:57:55Z"
+  },
+  {
+   "id": "c3994248e",
+   "created": "2026-11-24T11:57:55Z",
+   "stories": [
+    {
+     "title": "George Russell urged to 'shut up' in brutal Max Verstappen warning",
+     "source": "Crash.net",
+     "date": "2026-11-24T11:30:00Z",
+     "link": "https://www.crash.net/f1/news/1110861/1/george-russell-urged-shut-brutal-max-verstappen-warning",
+     "snippet": "George Russell has been warned against engaging in a psychological battle with Max Verstappen following their latest dispute"
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Russell urged to 'shut up' in Verstappen psychological battle",
+   "summary": "George Russell has been warned against engaging in a psychological battle with Max Verstappen. The warning follows their latest dispute.",
+   "disagreement": "",
+   "label": "Opinion",
+   "updated": "2026-11-24T11:57:55Z"
+  },
+  {
+   "id": "cdde363a4",
+   "created": "2026-11-24T11:57:55Z",
+   "stories": [
+    {
+     "title": "Lewis Hamilton vs Charles Leclerc: Their bitter F1 rivalry explained",
+     "source": "GPFans",
+     "date": "2026-11-24T11:27:00Z",
+     "link": "https://www.gpfans.com/en/f1-news/1093314/lewis-hamilton-vs-charles-leclerc-f1-rivalry-explained/",
+     "snippet": "Lewis Hamilton and Charles Leclerc were supposed to be the dream pairing for Ferrari. Two of F1's biggest names, two hugely competitive drivers and a partnership capable of bringing the sport's most…"
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Hamilton and Leclerc's bitter Ferrari rivalry explained",
+   "summary": "Hamilton and Leclerc were billed as a dream Ferrari pairing, but their rivalry has become bitter. The piece explains how the relationship has developed.",
+   "disagreement": "",
+   "label": "Opinion",
+   "updated": "2026-11-24T11:57:55Z"
+  },
+  {
+   "id": "c1b33e548",
+   "created": "2026-11-22T20:38:42Z",
+   "stories": [
+    {
+     "title": "Racing Bulls drivers assess 'massive lost opportunity' in Vegas",
+     "source": "Formula1.com",
+     "date": "2026-11-22T20:38:39Z",
+     "link": "https://www.formula1.com/en/latest/article/massive-lost-opportunity-racing-bulls-drivers-reflect-on-no-points-in-las-vegas-gp.1iWZ2ywDpgkLb1FyxW9mcX",
+     "snippet": "Arvid Lindblad admits that Racing Bulls failing to score a single point in the Las Vegas Grand Prix was \"a massive lost opportunity\", with the Formula 1 rookie spinning out of the race behind the…"
+    },
+    {
+     "title": "Arvid Lindblad perplexed by ‘strange’ race-ending Las Vegas GP spin",
+     "source": "PlanetF1",
+     "date": "2026-11-23T17:42:29Z",
+     "link": "https://www.planetf1.com/news/arvid-lindblad-strange-las-vegas-gp-spin-reaction",
+     "snippet": "Arvid Lindblad saw a strong result in Las Vegas go begging."
+    },
+    {
+     "title": "‘Maybe I’m delusional but I genuinely feel like a podium was possible’ – Lindblad | Formula 1",
+     "source": "RaceFans",
+     "date": "2026-11-24T11:10:46Z",
+     "link": "https://www.racefans.net/2026/11/24/maybe-im-delusional-but-i-genuinely-feel-like-a-podium-was-possible-lindblad/",
+     "snippet": "Arvid Lindblad says he and Racing Bulls still don't understand the \"very abnormal\" cause of the spin which put him out of the Las Vegas Grand Prix."
+    }
+   ],
+   "merge_reasons": [
+    {
+     "time": "2026-11-24T01:35:30Z",
+     "added": [
+      "https://www.planetf1.com/news/arvid-lindblad-strange-las-vegas-gp-spin-reaction"
+     ],
+     "joined_existing": true,
+     "reason": "The PlanetF1 report covers the same race-ending Las Vegas spin by Lindblad that the existing card discusses."
+    },
+    {
+     "time": "2026-11-24T11:57:55Z",
+     "added": [
+      "https://www.racefans.net/2026/11/24/maybe-im-delusional-but-i-genuinely-feel-like-a-podium-was-possible-lindblad/"
+     ],
+     "joined_existing": true,
+     "reason": "Lindblad's comments concern the same race-ending spin in Las Vegas covered by the existing card."
+    }
+   ],
+   "title": "Racing Bulls drivers call Las Vegas points miss a lost opportunity",
+   "summary": "Arvid Lindblad called the lost points a massive lost opportunity after spinning out of the race. He says he still doesn't understand the \"very abnormal\" cause of the spin.",
+   "disagreement": "",
+   "label": "Reported",
+   "updated": "2026-11-24T11:57:55Z"
+  },
+  {
+   "id": "c4a37ffb3",
+   "created": "2026-11-24T11:57:55Z",
+   "stories": [
+    {
+     "title": "‘Typical Fernando Alonso’ – Aston Martin boss reacts to Dakar Rally confirmation",
+     "source": "PlanetF1",
+     "date": "2026-11-24T11:07:15Z",
+     "link": "https://www.planetf1.com/home-page/typical-fernando-alonso-aston-martin-boss-reacts-dakar-rally-confirmation",
+     "snippet": "Dakar calls for Alonso."
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Aston Martin boss reacts to Alonso's Dakar Rally confirmation",
+   "summary": "Aston Martin's boss has reacted to the confirmation that Fernando Alonso will take part in the Dakar Rally. The reaction is described as typical of Alonso.",
+   "disagreement": "",
+   "label": "Reported",
+   "updated": "2026-11-24T11:57:55Z"
+  },
+  {
+   "id": "c977d0be7",
+   "created": "2026-11-22T20:38:42Z",
+   "stories": [
+    {
+     "title": "\"I actually liked it\" – McLaren boss defends Piastri's four-letter outburst in Las Vegas GP",
+     "source": "Motorsport.com",
+     "date": "2026-11-22T18:01:18Z",
+     "link": "https://www.motorsport.com/f1/news/i-actually-liked-it-mclaren-boss-defends-piastris-four-letter-outburst-in-las-vegas-gp/10876928/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "snippet": "Completing the podium behind a victorious Max Verstappen in Las Vegas probably wasn't on McLaren's bingo card after a troubled qualifying session for Lando Norris and Oscar Piastri. Finishing third…"
+    },
+    {
+     "title": "McLaren responds to sweary Oscar Piastri Las Vegas GP radio",
+     "source": "PlanetF1",
+     "date": "2026-11-23T19:08:08Z",
+     "link": "https://www.planetf1.com/news/oscar-piastri-team-radio-las-vegas-gp-mclaren-response",
+     "snippet": "Oscar Piastri told McLaren \"stop telling me to ****ing be careful\" when racing with Lando Norris."
+    },
+    {
+     "title": "McLaren reveal surprising stance on Oscar Piastri’s foul-mouthed radio message",
+     "source": "Crash.net",
+     "date": "2026-11-24T10:45:00Z",
+     "link": "https://www.crash.net/f1/news/1110858/1/mclaren-reveal-surprising-stance-oscar-piastris-foul-mouthed-radio-message",
+     "snippet": "McLaren team principal Andrea Stella has addressed Oscar Piastri's frustrated response to a reminder of the team's rules of engagement"
+    }
+   ],
+   "merge_reasons": [
+    {
+     "time": "2026-11-24T01:35:30Z",
+     "added": [
+      "https://www.planetf1.com/news/oscar-piastri-team-radio-las-vegas-gp-mclaren-response"
+     ],
+     "joined_existing": true,
+     "reason": "The PlanetF1 report covers McLaren's response to the same Piastri radio exchange as the existing card."
+    },
+    {
+     "time": "2026-11-24T11:57:55Z",
+     "added": [
+      "https://www.crash.net/f1/news/1110858/1/mclaren-reveal-surprising-stance-oscar-piastris-foul-mouthed-radio-message"
+     ],
+     "joined_existing": true,
+     "reason": "Stella's response to Piastri's radio message is the same McLaren reaction to the same Las Vegas radio incident in the existing card."
+    }
+   ],
+   "title": "McLaren boss defends Piastri's radio outburst at Las Vegas GP",
+   "summary": "McLaren team principal Andrea Stella addressed Oscar Piastri's angry reply to team instructions on how to race Lando Norris. Stella's stance on the radio message was reported as surprising.",
+   "disagreement": "",
+   "label": "Reported",
+   "updated": "2026-11-24T11:57:55Z"
+  },
+  {
+   "id": "cb7a62fcd",
+   "created": "2026-11-24T11:57:55Z",
+   "stories": [
+    {
+     "title": "F1's just had a warning about a push-to-pass future",
+     "source": "The Race",
+     "date": "2026-11-24T10:42:56Z",
+     "link": "https://www.the-race.com/formula-1/f1-push-to-pass-overtaking-warning-macau-gp/",
+     "snippet": "F1 is weighing up a push-to-pass overtaking assist for its 2030 engine rules. The world's best junior race has just shown why that's not a fix-all solution"
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Push-to-pass assist under consideration for F1's 2030 engines",
+   "summary": "F1 is weighing up a push-to-pass overtaking assist for its 2030 engine rules. The piece argues that the junior series shows this is not a complete fix.",
+   "disagreement": "",
+   "label": "Opinion",
+   "updated": "2026-11-24T11:57:55Z"
+  },
+  {
+   "id": "ccbafb8ef",
+   "created": "2026-11-24T11:57:55Z",
+   "stories": [
+    {
+     "title": "George Russell accused of being 'all mouth and no trousers' amid Max Verstappen feud",
+     "source": "Crash.net",
+     "date": "2026-11-24T10:15:00Z",
+     "link": "https://www.crash.net/f1/news/1110857/1/george-russell-accused-being-all-mouth-and-no-trousers-amid-max-verstappen-feud",
+     "snippet": "George Russell has been urged to back up his criticism of Max Verstappen with his performances on track following their latest clash"
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Russell urged to back up Verstappen criticism with results",
+   "summary": "George Russell has been told to back up his criticism of Max Verstappen with performances on track. The call follows their latest clash.",
+   "disagreement": "",
+   "label": "Opinion",
+   "updated": "2026-11-24T11:57:55Z"
+  },
+  {
+   "id": "c76416436",
+   "created": "2026-11-24T11:57:55Z",
+   "stories": [
+    {
+     "title": "‘I’d rather blow up the f***ing engine’: Gasly’s fury over cooling problems | Formula 1",
+     "source": "RaceFans",
+     "date": "2026-11-24T10:13:49Z",
+     "link": "https://www.racefans.net/2026/11/24/video-id-rather-blow-up-the-fing-engine-gaslys-fury-over-cooling-problems/",
+     "snippet": "Alpine's overheating problems made Pierre Gasly lose his cool after dozens of radio messages telling him to manage rising power unit temperatures."
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Gasly's cooling fury: 'I'd rather blow up the engine'",
+   "summary": "Pierre Gasly lost his temper over Alpine's overheating problems after many radio messages asked him to manage rising power unit temperatures. His frustration was captured on the radio.",
+   "disagreement": "",
+   "label": "Reported",
+   "updated": "2026-11-24T11:57:55Z"
+  },
+  {
+   "id": "cf9b9fc03",
+   "created": "2026-11-24T11:57:55Z",
+   "stories": [
+    {
+     "title": "Isack Hadjar frustrated – What really happened on Red Bull's team radio in Las Vegas",
+     "source": "Motorsport.com",
+     "date": "2026-11-24T10:04:17Z",
+     "link": "https://www.motorsport.com/f1/news/isack-hadjar-frustrated-what-really-happened-on-red-bulls-team-radio-in-las-vegas/10877375/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "snippet": "Isack Hadjar started Formula 1’s Las Vegas Grand Prix from fourth on the grid, and by lap four he had already found himself running second, right behind Red Bull team-mate Max Verstappen. And given…"
+    }
+   ],
+   "merge_reasons": [],
+   "title": "What really happened on Hadjar's Red Bull team radio in Vegas",
+   "summary": "Isack Hadjar started the Las Vegas Grand Prix fourth and was running second behind Max Verstappen by lap four. The article explains what was said on his team radio.",
+   "disagreement": "",
+   "label": "Reported",
+   "updated": "2026-11-24T11:57:55Z"
+  },
+  {
+   "id": "c9b3b8149",
+   "created": "2026-11-24T11:57:55Z",
+   "stories": [
+    {
+     "title": "McLaren and Red Bull F1 2026 gains under Sainz scrutiny",
+     "source": "PlanetF1",
+     "date": "2026-11-24T10:01:14Z",
+     "link": "https://www.planetf1.com/news/mclaren-red-bull-f1-2026-gains-under-scrutiny-sainz",
+     "snippet": "McLaren and Red Bull's respective late-season surges in F1 2026 have drawn curious glances from rival teams."
+    }
+   ],
+   "merge_reasons": [],
+   "title": "McLaren and Red Bull's late-season surges draw rivals' scrutiny",
+   "summary": "The late-season form of McLaren and Red Bull in F1 2026 has drawn curious glances from rival teams. The piece examines the gains both teams have made.",
+   "disagreement": "",
+   "label": "Opinion",
+   "updated": "2026-11-24T11:57:55Z"
+  },
+  {
+   "id": "cc34a4b94",
+   "created": "2026-11-24T11:57:55Z",
+   "stories": [
+    {
+     "title": "Max Verstappen outsmarted George Russell with genius trick at Las Vegas GP",
+     "source": "GPFans",
+     "date": "2026-11-24T09:57:00Z",
+     "link": "https://www.gpfans.com/en/f1-news/1093288/max-verstappen-outsmarted-george-russell-genius-trick-las-vegas-gp-laurent-mekies/",
+     "snippet": "Red Bull boss Laurent Mekies claimed that Max Verstappen 'outsmarted' George Russell and his other competitors at the Las Vegas Grand Prix by purposely allowing them to overtake him at different…"
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Mekies says Verstappen outsmarted Russell with a genius Vegas trick",
+   "summary": "Red Bull boss Laurent Mekies says Max Verstappen outsmarted George Russell and other rivals in Las Vegas. He claims Verstappen let them pass him at different points on purpose.",
+   "disagreement": "",
+   "label": "Reported",
+   "updated": "2026-11-24T11:57:55Z"
+  },
+  {
+   "id": "c6407b702",
+   "created": "2026-11-24T11:57:55Z",
+   "stories": [
+    {
+     "title": "Guenther Steiner calls for radical Charles Leclerc demotion threat after Ferrari clashes",
+     "source": "Crash.net",
+     "date": "2026-11-24T09:45:00Z",
+     "link": "https://www.crash.net/f1/news/1110855/1/guenther-steiner-calls-radical-charles-leclerc-demotion-threat-after-ferrari",
+     "snippet": "Guenther Steiner has proposed a radical solution to Ferrari's growing rivalry between Lewis Hamilton and Charles Leclerc"
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Steiner suggests radical Leclerc demotion threat after Ferrari clashes",
+   "summary": "Guenther Steiner has proposed a radical solution to the growing Hamilton-Leclerc rivalry at Ferrari. The proposal centres on a demotion threat for Leclerc.",
+   "disagreement": "",
+   "label": "Reported",
+   "updated": "2026-11-24T11:57:55Z"
+  },
+  {
+   "id": "c12650a33",
+   "created": "2026-11-24T11:57:55Z",
+   "stories": [
+    {
+     "title": "Featured Comment: Herta deserves credit for trying to make the switch from IndyCar | Brief",
+     "source": "RaceFans",
+     "date": "2026-11-24T09:25:55Z",
+     "link": "https://www.racefans.net/2026/11/24/featured-comment-herta-deserves-credit-for-trying-to-make-the-switch-from-indycar/",
+     "snippet": "Herta's brave F1 gamble was a risk worth taking"
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Fans say Herta deserves credit for attempting IndyCar-to-F1 switch",
+   "summary": "A featured comment argues that Colton Herta's F1 gamble was a risk worth taking. The view is that his attempt to switch from IndyCar deserves credit.",
+   "disagreement": "",
+   "label": "Opinion",
+   "updated": "2026-11-24T11:57:55Z"
+  },
+  {
+   "id": "c3a3e55af",
+   "created": "2026-11-24T11:57:55Z",
+   "stories": [
+    {
+     "title": "FIA announces penalty verdict as F1 star punished eight days before next race",
+     "source": "GPFans",
+     "date": "2026-11-24T08:45:00Z",
+     "link": "https://www.gpfans.com/en/f1-news/1093293/f1-fia-penalty-verdict-grid-drop-sergio-perez-las-vegas-qatar-grand-prix/",
+     "snippet": "Cadillac star Sergio Perez will take a grid penalty for next Sunday's F1 Qatar Grand Prix, due to an incident on Saturday night in Las Vegas."
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Perez to take grid penalty for Qatar after Las Vegas incident",
+   "summary": "The FIA has announced that Cadillac's Sergio Perez will take a grid penalty for the Qatar Grand Prix. The penalty relates to an incident on Saturday night in Las Vegas.",
+   "disagreement": "",
+   "label": "Confirmed",
+   "updated": "2026-11-24T11:57:55Z"
+  },
+  {
+   "id": "cce020953",
+   "created": "2026-11-24T11:57:55Z",
+   "stories": [
+    {
+     "title": "Charles Leclerc to Haas? Bizarre theory emerges after new Ferrari clash",
+     "source": "PlanetF1",
+     "date": "2026-11-24T08:42:47Z",
+     "link": "https://www.planetf1.com/news/charles-leclerc-ferrari-to-haas-guenther-steiner",
+     "snippet": "\"Let’s put Charles in the Haas. That’s a solution.\""
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Theory suggests Leclerc could move to Haas after Ferrari clash",
+   "summary": "A theory has emerged that Charles Leclerc could be moved to Haas after another clash with Ferrari team-mate Lewis Hamilton. The idea is presented as a possible solution.",
+   "disagreement": "",
+   "label": "Opinion",
+   "updated": "2026-11-24T11:57:55Z"
+  },
+  {
+   "id": "c7568eb1c",
+   "created": "2026-11-24T11:57:55Z",
+   "stories": [
+    {
+     "title": "Is Hamilton and Leclerc's Ferrari partnership sustainable? F1 Q&A",
+     "source": "BBC Sport",
+     "date": "2026-11-24T08:10:15Z",
+     "link": "https://www.bbc.co.uk/sport/formula1/articles/cw30gq2633ljo?at_medium=RSS&at_campaign=rss",
+     "snippet": "BBC F1 correspondent Andrew Benson answers your latest questions after the Las Vegas Grand Prix."
+    }
+   ],
+   "merge_reasons": [],
+   "title": "BBC answers questions on Hamilton and Leclerc's Ferrari partnership",
+   "summary": "BBC correspondent Andrew Benson answers reader questions on whether the Hamilton and Leclerc partnership is sustainable. The Q&A follows the Las Vegas Grand Prix.",
+   "disagreement": "",
+   "label": "Opinion",
+   "updated": "2026-11-24T11:57:55Z"
+  },
+  {
+   "id": "ccd5b12ae",
+   "created": "2026-11-24T11:57:55Z",
+   "stories": [
+    {
+     "title": "Max Verstappen vs George Russell: The biggest moments in heated F1 rivalry",
+     "source": "PlanetF1",
+     "date": "2026-11-24T08:03:04Z",
+     "link": "https://www.planetf1.com/features/max-verstappen-george-russell-f1-rivalry-timeline",
+     "snippet": "Max Verstappen and George Russell have raced against each other since karting, but a rivalry has formed in Formula 1."
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Verstappen and Russell: the biggest moments of their rivalry",
+   "summary": "Verstappen and Russell have raced each other since karting, and a rivalry has formed in Formula 1. The piece looks back at their biggest clashes.",
+   "disagreement": "",
+   "label": "Opinion",
+   "updated": "2026-11-24T11:57:55Z"
+  },
+  {
+   "id": "c6ea4d522",
+   "created": "2026-11-24T11:57:55Z",
+   "stories": [
+    {
+     "title": "Lewis Hamilton makes stunning claim after Ferrari No. 1 snub",
+     "source": "GPFans",
+     "date": "2026-11-24T07:57:00Z",
+     "link": "https://www.gpfans.com/en/f1-news/1093308/f1-lewis-hamilton-ferrari-claim-championship-kimi-antonelli/",
+     "snippet": "Lewis Hamilton has claimed that he could have beaten Kimi Antonelli to the 2026 F1 title if he'd been better supported at different points of the season."
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Hamilton claims he could have beaten Antonelli to 2026 title",
+   "summary": "Lewis Hamilton says he could have beaten Kimi Antonelli to the 2026 title with better support at different points of the season. He made the claim after being left out of Ferrari's No. 1 debate.",
+   "disagreement": "",
+   "label": "Reported",
+   "updated": "2026-11-24T11:57:55Z"
+  },
+  {
+   "id": "c477e9181",
+   "created": "2026-11-24T01:35:30Z",
+   "stories": [
+    {
+     "title": "Laurent Mekies: Keeping his emotions in check is giving Isack Hadjar “lap time”",
+     "source": "Motorsport.com",
+     "date": "2026-11-23T19:30:02Z",
+     "link": "https://www.motorsport.com/f1/news/laurent-mekies-keeping-his-emotions-in-check-is-giving-isack-hadjar-lap-time/10877211/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "snippet": "Isack Hadjar left the 2026 Las Vegas Grand Prix empty-handed after a Lap 26 front wing failure and a post-race 10-second safety car penalty relegated him to 15th, yet Red Bull team principal Laurent…"
+    },
+    {
+     "title": "Was Hadjar helping himself or Verstappen when he collected a penalty in the pits? | Formula 1",
+     "source": "RaceFans",
+     "date": "2026-11-24T07:15:03Z",
+     "link": "https://www.racefans.net/2026/11/24/was-hadjar-helping-himself-or-verstappen-when-he-collected-a-penalty-in-the-pits/",
+     "snippet": "The stewards penalised Isack Hadjar for driving \"slowly for tactical reasons\" behind the Safety Car. What was Red Bull trying to achieve?"
+    }
+   ],
+   "merge_reasons": [
+    {
+     "time": "2026-11-24T11:57:55Z",
+     "added": [
+      "https://www.racefans.net/2026/11/24/was-hadjar-helping-himself-or-verstappen-when-he-collected-a-penalty-in-the-pits/"
+     ],
+     "joined_existing": true,
+     "reason": "The stewards' penalty for Hadjar's slow driving behind the Safety Car is the same penalty that dropped him to 15th in the existing card."
+    }
+   ],
+   "title": "Hadjar penalised for slow driving; Mekies praises his composure",
+   "summary": "Stewards penalised Isack Hadjar for driving slowly for tactical reasons behind the Safety Car, dropping him to 15th. Laurent Mekies says Hadjar's calm approach is giving him \"lap time\".",
+   "disagreement": "",
+   "label": "Reported",
+   "updated": "2026-11-24T11:57:55Z"
+  },
+  {
+   "id": "cb6e5c6f0",
+   "created": "2026-11-24T11:57:55Z",
+   "stories": [
+    {
+     "title": "F1 star's contract delay exposes major problem at Ferrari",
+     "source": "GPFans",
+     "date": "2026-11-24T07:14:00Z",
+     "link": "https://www.gpfans.com/en/f1-news/1093296/f1-star-ollie-bearman-contract-delay-exposes-major-problem-ferrari/",
+     "snippet": "There are now just two F1 races remaining in 2026, but the future of young British star Ollie Bearman remains unclear."
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Ollie Bearman's future unclear as contract delay continues",
+   "summary": "With two F1 races left in 2026, Ollie Bearman's future remains unclear. The delay is presented as a problem for Ferrari.",
+   "disagreement": "",
+   "label": "Rumour",
+   "updated": "2026-11-24T11:57:55Z"
+  },
+  {
+   "id": "cff942b8c",
+   "created": "2026-11-24T11:57:55Z",
+   "stories": [
+    {
+     "title": "Lance Stroll submits eye-opening Honda request after Las Vegas GP",
+     "source": "PlanetF1",
+     "date": "2026-11-24T07:07:10Z",
+     "link": "https://www.planetf1.com/news/lance-stroll-honda-deficit-f1-2026-las-vegas-grand-prix",
+     "snippet": "Aston Martin suffered with the lack of straight-line power in Las Vegas."
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Stroll makes Honda request after Aston Martin's Vegas struggles",
+   "summary": "Aston Martin lacked straight-line power in Las Vegas. Lance Stroll has submitted a Honda request after the race.",
+   "disagreement": "",
+   "label": "Reported",
+   "updated": "2026-11-24T11:57:55Z"
+  },
+  {
+   "id": "c03886e43",
+   "created": "2026-11-22T13:59:15Z",
+   "stories": [
+    {
+     "title": "FIA announce Charles Leclerc penalty verdict for Lewis Hamilton clash at Las Vegas Grand Prix",
+     "source": "GPFans",
+     "date": "2026-11-22T05:26:00Z",
+     "link": "https://www.gpfans.com/en/f1-news/1093210/fia-charles-leclerc-penalty-verdict-lewis-hamilton-clash-f1-las-vegas-grand-prix-2026/",
+     "snippet": "The entente cordiale at Ferrari lasted precisely one race as Lewis Hamilton and Charles Leclerc clashed again with disastrous consequences at the F1 Las Vegas Grand Prix on Saturday night."
+    },
+    {
+     "title": "Stewards explain Leclerc’s penalty for hitting Hamilton | Formula 1",
+     "source": "RaceFans",
+     "date": "2026-11-22T06:19:29Z",
+     "link": "https://www.racefans.net/2026/11/22/stewards-explains-leclercs-penalty-for-hitting-hamilton/",
+     "snippet": "The stewards have explained why they penalised Charles Leclerc for colliding with Lewis Hamilton."
+    },
+    {
+     "title": "Hamilton vs Leclerc boils over AGAIN as Ferrari collision causes bizarre crash - F1 News Today",
+     "source": "GPFans",
+     "date": "2026-11-22T06:45:00Z",
+     "link": "https://www.gpfans.com/en/f1-news/1093201/f1-news-today-charles-leclerc-ferrari-crash-las-vegas-grand-prix-barcelona-f2004/",
+     "snippet": "The entente cordiale at Ferrari lasted precisely one race as Lewis Hamilton and Charles Leclerc clashed again with disastrous consequences at the F1 Las Vegas Grand Prix on Saturday night."
+    },
+    {
+     "title": "“This cannot continue”: Vasseur calls latest Leclerc-Hamilton collision “unacceptable” | Formula 1",
+     "source": "RaceFans",
+     "date": "2026-11-22T06:50:28Z",
+     "link": "https://www.racefans.net/2026/11/22/cannot-continue-vasseur-calls-latest-leclerc-hamilton-collision-unacceptable/",
+     "snippet": "Ferrari team principal Frederic Vasseur is deeply unhappy about the collision between his two drivers in the Las Vegas Grand Prix."
+    },
+    {
+     "title": "Lewis Hamilton dodges Charles Leclerc clash questions: “For Ferrari to decide”",
+     "source": "Crash.net",
+     "date": "2026-11-22T06:55:00Z",
+     "link": "https://www.crash.net/f1/news/1110738/1/lewis-hamilton-dodges-charles-leclerc-clash-questions-ferrari-decide",
+     "snippet": "Lewis Hamilton refused to be drawn into questions about his Ferrari teammate following their clash at the Las Vegas Grand Prix."
+    },
+    {
+     "title": "Ferrari summons Charles Leclerc after ‘unacceptable’ Lewis Hamilton Las Vegas clash",
+     "source": "PlanetF1",
+     "date": "2026-11-22T06:55:51Z",
+     "link": "https://www.planetf1.com/news/charles-leclerc-hamilton-ferrari-las-vegas-clash-unacceptable",
+     "snippet": "Charles Leclerc has described his clash with Lewis Hamilton in Las Vegas as 'unacceptable' after Ferrari's latest intra-team flashpoint..."
+    },
+    {
+     "title": "‘I want to see you after the race’ - Ferrari boss summons Charles Leclerc after Lewis Hamilton crash",
+     "source": "Crash.net",
+     "date": "2026-11-22T07:03:34Z",
+     "link": "https://www.crash.net/f1/news/1110739/1/i-want-see-you-after-race-ferrari-boss-summons-charles-leclerc-after-lewis",
+     "snippet": "Ferrari boss Fred Vasseur was fuming after Charles Leclerc and Lewis Hamilton collided in Las Vegas."
+    },
+    {
+     "title": "Fred Vasseur \"more than upset\" with \"unacceptable\" Lewis Hamilton-Charles Leclerc Las Vegas clash",
+     "source": "Motorsport.com",
+     "date": "2026-11-22T07:10:43Z",
+     "link": "https://www.motorsport.com/f1/news/fred-vasseur-more-than-upset-with-unacceptable-lewis-hamilton-charles-leclerc-las-vegas-clash/10876760/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "snippet": "Ferrari Formula 1 team principal Fred Vasseur said that Charles Leclerc's clash with Lewis Hamilton at the Las Vegas Grand Prix was \"completely unacceptable\", and added he was \"more than upset\" that…"
+    },
+    {
+     "title": "Charles Leclerc left “embarrassed” after Lewis Hamilton collision at Las Vegas GP",
+     "source": "Crash.net",
+     "date": "2026-11-22T07:30:00Z",
+     "link": "https://www.crash.net/f1/news/1110742/1/charles-leclerc-left-embarrassed-after-lewis-hamilton-collision-las-vegas-gp",
+     "snippet": "Charles Leclerc admitted he was left embarrassed following his incident with Ferrari teammate Lewis Hamilton at the Las Vegas Grand Prix"
+    },
+    {
+     "title": "Ferrari launch Lewis Hamilton vs Charles Leclerc investigation after Las Vegas GP collision",
+     "source": "GPFans",
+     "date": "2026-11-22T07:30:00Z",
+     "link": "https://www.gpfans.com/en/f1-news/1093223/ferrari-lewis-hamilton-charles-leclerc-las-vegas-grand-prix-2026-collision/",
+     "snippet": "Ferrari have launched another inquest after another Lewis Hamilton-Charles Leclerc meltdown - this time at the Las Vegas Grand Prix."
+    },
+    {
+     "title": "Charles Leclerc “embarrassed for the team” after costly Las Vegas clash with Lewis Hamilton",
+     "source": "Motorsport.com",
+     "date": "2026-11-22T07:32:07Z",
+     "link": "https://www.motorsport.com/f1/news/charles-leclerc-admits-feeling-embarrassed-for-the-team-after-costly-las-vegas-clash-with-hamilton/10876758/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "snippet": "Ferrari left the 2026 Las Vegas Grand Prix with seven points, two 10-second time penalties, and a fresh intra-team mess to untangle. Starting 10th and 11th after a painful double Q2 elimination…"
+    },
+    {
+     "title": "Charles Leclerc: Ferrari must find fix to 'unacceptable' feud after Lewis Hamilton clash",
+     "source": "Motorsport.com",
+     "date": "2026-11-22T07:42:01Z",
+     "link": "https://www.motorsport.com/f1/news/charles-leclerc-ferrari-must-find-fix-to-unacceptable-feud-after-lewis-hamilton-clash/10876782/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "snippet": "Charles Leclerc ended the Las Vegas with a 10-second penalty for an avoidable collision with Ferrari team-mate Lewis Hamilton – and a telling-off from team boss Frederic Vasseur ringing in his ears…"
+    },
+    {
+     "title": "'Completely unacceptable! - Vasseur rebukes Leclerc for Hamilton collision",
+     "source": "Sky Sports",
+     "date": "2026-11-22T07:50:00Z",
+     "link": "https://www.skysports.com/f1/news/12433/13615085/ferrari-boss-frederic-vasseur-blames-charles-leclerc-for-unacceptable-collision-with-lewis-hamilton-in-las-vegas-gp",
+     "snippet": "Ferrari team principal Frederic Vasseur blamed Charles Leclerc for the \"completely unacceptable\" collision with team-mate Lewis Hamilton in the Las Vegas Grand Prix."
+    },
+    {
+     "title": "Stewards right to blame Leclerc for collision with Hamilton, says Vasseur | Formula 1",
+     "source": "RaceFans",
+     "date": "2026-11-23T16:20:11Z",
+     "link": "https://www.racefans.net/2026/11/23/stewards-right-to-blame-leclerc-for-collision-with-hamilton-says-vasseur/",
+     "snippet": "Ferrari team principal Frederic Vasseur said they gave Charles Leclerc a message five corners before his collision with Lewis Hamilton."
+    },
+    {
+     "title": "Lewis Hamilton reignites Charles Leclerc criticism after Las Vegas clash",
+     "source": "PlanetF1",
+     "date": "2026-11-24T06:01:27Z",
+     "link": "https://www.planetf1.com/news/lewis-hamilton-charles-leclerc-las-vegas-clash",
+     "snippet": "Lewis Hamilton appeared to take issue with Charles Leclerc again after their collision in Las Vegas."
+    },
+    {
+     "title": "Leclerc and Vasseur in firing line as Hamilton makes stunning Ferrari claim - F1 News Today",
+     "source": "GPFans",
+     "date": "2026-11-24T06:27:00Z",
+     "link": "https://www.gpfans.com/en/f1-news/1093309/f1-news-today-wolff-reveals-verstappen-russell-exchange-ferrari-radio-message-questions/",
+     "snippet": "Ferrari team principal Fred Vasseur has revealed that Charles Leclerc was warned five corners before his collision with Lewis Hamilton at the Las Vegas Grand Prix, putting both the Monegasque driver…"
+    }
+   ],
+   "merge_reasons": [
+    {
+     "time": "2026-11-22T13:59:15Z",
+     "added": [
+      "https://www.gpfans.com/en/f1-news/1093210/fia-charles-leclerc-penalty-verdict-lewis-hamilton-clash-f1-las-vegas-grand-prix-2026/",
+      "https://www.racefans.net/2026/11/22/stewards-explains-leclercs-penalty-for-hitting-hamilton/",
+      "https://www.gpfans.com/en/f1-news/1093201/f1-news-today-charles-leclerc-ferrari-crash-las-vegas-grand-prix-barcelona-f2004/",
+      "https://www.racefans.net/2026/11/22/cannot-continue-vasseur-calls-latest-leclerc-hamilton-collision-unacceptable/",
+      "https://www.crash.net/f1/news/1110738/1/lewis-hamilton-dodges-charles-leclerc-clash-questions-ferrari-decide",
+      "https://www.planetf1.com/news/charles-leclerc-hamilton-ferrari-las-vegas-clash-unacceptable",
+      "https://www.crash.net/f1/news/1110739/1/i-want-see-you-after-race-ferrari-boss-summons-charles-leclerc-after-lewis",
+      "https://www.motorsport.com/f1/news/fred-vasseur-more-than-upset-with-unacceptable-lewis-hamilton-charles-leclerc-las-vegas-clash/10876760/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+      "https://www.crash.net/f1/news/1110742/1/charles-leclerc-left-embarrassed-after-lewis-hamilton-collision-las-vegas-gp",
+      "https://www.gpfans.com/en/f1-news/1093223/ferrari-lewis-hamilton-charles-leclerc-las-vegas-grand-prix-2026-collision/",
+      "https://www.motorsport.com/f1/news/charles-leclerc-admits-feeling-embarrassed-for-the-team-after-costly-las-vegas-clash-with-hamilton/10876758/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+      "https://www.motorsport.com/f1/news/charles-leclerc-ferrari-must-find-fix-to-unacceptable-feud-after-lewis-hamilton-clash/10876782/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+      "https://www.skysports.com/f1/news/12433/13615085/ferrari-boss-frederic-vasseur-blames-charles-leclerc-for-unacceptable-collision-with-lewis-hamilton-in-las-vegas-gp"
+     ],
+     "joined_existing": false,
+     "reason": "All of these cover the same collision between the two Ferrari drivers at the Las Vegas Grand Prix, the stewards' penalty and the team's response."
+    },
+    {
+     "time": "2026-11-24T01:35:30Z",
+     "added": [
+      "https://www.racefans.net/2026/11/23/stewards-right-to-blame-leclerc-for-collision-with-hamilton-says-vasseur/"
+     ],
+     "joined_existing": true,
+     "reason": "The RaceFans report covers Vasseur's comments on the same Las Vegas collision as the existing card."
+    },
+    {
+     "time": "2026-11-24T11:57:55Z",
+     "added": [
+      "https://www.planetf1.com/news/lewis-hamilton-charles-leclerc-las-vegas-clash",
+      "https://www.gpfans.com/en/f1-news/1093309/f1-news-today-wolff-reveals-verstappen-russell-exchange-ferrari-radio-message-questions/"
+     ],
+     "joined_existing": true,
+     "reason": "The Hamilton comments and the Vasseur warning claim both concern the same Las Vegas Grand Prix collision between Leclerc and Hamilton, as covered in the existing card."
+    }
+   ],
+   "title": "Leclerc and Hamilton collide again; Vasseur calls it unacceptable",
+   "summary": "Hamilton appeared to take issue with Leclerc again after their Las Vegas collision. Vasseur said Leclerc was warned five corners before the contact, and the stewards gave Leclerc a 10-second penalty.",
+   "disagreement": "",
+   "label": "Confirmed",
+   "updated": "2026-11-24T11:57:55Z"
+  },
+  {
+   "id": "cf2417cfc",
+   "created": "2026-11-24T11:57:55Z",
+   "stories": [
+    {
+     "title": "Kimi Antonelli to Ferrari? Toto Wolff makes feelings clear",
+     "source": "PlanetF1",
+     "date": "2026-11-24T04:00:31Z",
+     "link": "https://www.planetf1.com/news/kimi-antonelli-ferrari-toto-wolff",
+     "snippet": "Kimi Antonelli racing for Ferrari? Toto Wolff has made his feelings clear."
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Toto Wolff makes feelings clear on Antonelli racing for Ferrari",
+   "summary": "Toto Wolff has been asked about Kimi Antonelli racing for Ferrari. He has made his feelings on the matter clear.",
+   "disagreement": "",
+   "label": "Reported",
+   "updated": "2026-11-24T11:57:55Z"
+  },
   {
    "id": "c2983d298",
    "created": "2026-11-24T01:35:30Z",
@@ -249,60 +983,6 @@
    "updated": "2026-11-24T01:35:30Z"
   },
   {
-   "id": "c477e9181",
-   "created": "2026-11-24T01:35:30Z",
-   "stories": [
-    {
-     "title": "Laurent Mekies: Keeping his emotions in check is giving Isack Hadjar “lap time”",
-     "source": "Motorsport.com",
-     "date": "2026-11-23T19:30:02Z",
-     "link": "https://www.motorsport.com/f1/news/laurent-mekies-keeping-his-emotions-in-check-is-giving-isack-hadjar-lap-time/10877211/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "snippet": "Isack Hadjar left the 2026 Las Vegas Grand Prix empty-handed after a Lap 26 front wing failure and a post-race 10-second safety car penalty relegated him to 15th, yet Red Bull team principal Laurent…"
-    }
-   ],
-   "merge_reasons": [],
-   "title": "Mekies says calm approach is giving Hadjar 'lap time'",
-   "summary": "Red Bull team principal Laurent Mekies said keeping Isack Hadjar's emotions in check is giving him lap time. Hadjar finished 15th after a lap 26 front wing failure and a 10-second penalty.",
-   "disagreement": "",
-   "label": "Reported",
-   "updated": "2026-11-24T01:35:30Z"
-  },
-  {
-   "id": "c977d0be7",
-   "created": "2026-11-22T20:38:42Z",
-   "stories": [
-    {
-     "title": "\"I actually liked it\" – McLaren boss defends Piastri's four-letter outburst in Las Vegas GP",
-     "source": "Motorsport.com",
-     "date": "2026-11-22T18:01:18Z",
-     "link": "https://www.motorsport.com/f1/news/i-actually-liked-it-mclaren-boss-defends-piastris-four-letter-outburst-in-las-vegas-gp/10876928/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "snippet": "Completing the podium behind a victorious Max Verstappen in Las Vegas probably wasn't on McLaren's bingo card after a troubled qualifying session for Lando Norris and Oscar Piastri. Finishing third…"
-    },
-    {
-     "title": "McLaren responds to sweary Oscar Piastri Las Vegas GP radio",
-     "source": "PlanetF1",
-     "date": "2026-11-23T19:08:08Z",
-     "link": "https://www.planetf1.com/news/oscar-piastri-team-radio-las-vegas-gp-mclaren-response",
-     "snippet": "Oscar Piastri told McLaren \"stop telling me to ****ing be careful\" when racing with Lando Norris."
-    }
-   ],
-   "merge_reasons": [
-    {
-     "time": "2026-11-24T01:35:30Z",
-     "added": [
-      "https://www.planetf1.com/news/oscar-piastri-team-radio-las-vegas-gp-mclaren-response"
-     ],
-     "joined_existing": true,
-     "reason": "The PlanetF1 report covers McLaren's response to the same Piastri radio exchange as the existing card."
-    }
-   ],
-   "title": "McLaren boss defends Piastri's radio outburst at Las Vegas GP",
-   "summary": "McLaren's boss said he liked Oscar Piastri's four-letter radio outburst in Las Vegas, where the team finished on the podium. McLaren responded to the sweary radio, in which Piastri told the team to stop telling him to be careful with Lando Norris.",
-   "disagreement": "",
-   "label": "Reported",
-   "updated": "2026-11-24T01:35:30Z"
-  },
-  {
    "id": "c6c544408",
    "created": "2026-11-24T01:35:30Z",
    "stories": [
@@ -453,41 +1133,6 @@
    "updated": "2026-11-24T01:35:30Z"
   },
   {
-   "id": "c1b33e548",
-   "created": "2026-11-22T20:38:42Z",
-   "stories": [
-    {
-     "title": "Racing Bulls drivers assess 'massive lost opportunity' in Vegas",
-     "source": "Formula1.com",
-     "date": "2026-11-22T20:38:39Z",
-     "link": "https://www.formula1.com/en/latest/article/massive-lost-opportunity-racing-bulls-drivers-reflect-on-no-points-in-las-vegas-gp.1iWZ2ywDpgkLb1FyxW9mcX",
-     "snippet": "Arvid Lindblad admits that Racing Bulls failing to score a single point in the Las Vegas Grand Prix was \"a massive lost opportunity\", with the Formula 1 rookie spinning out of the race behind the…"
-    },
-    {
-     "title": "Arvid Lindblad perplexed by ‘strange’ race-ending Las Vegas GP spin",
-     "source": "PlanetF1",
-     "date": "2026-11-23T17:42:29Z",
-     "link": "https://www.planetf1.com/news/arvid-lindblad-strange-las-vegas-gp-spin-reaction",
-     "snippet": "Arvid Lindblad saw a strong result in Las Vegas go begging."
-    }
-   ],
-   "merge_reasons": [
-    {
-     "time": "2026-11-24T01:35:30Z",
-     "added": [
-      "https://www.planetf1.com/news/arvid-lindblad-strange-las-vegas-gp-spin-reaction"
-     ],
-     "joined_existing": true,
-     "reason": "The PlanetF1 report covers the same race-ending Las Vegas spin by Lindblad that the existing card discusses."
-    }
-   ],
-   "title": "Racing Bulls drivers call Las Vegas points miss a lost opportunity",
-   "summary": "Arvid Lindblad called the Racing Bulls' failure to score in Las Vegas 'a massive lost opportunity' after spinning out. PlanetF1 reports he was perplexed by the strange race-ending spin that ended a strong result.",
-   "disagreement": "",
-   "label": "Reported",
-   "updated": "2026-11-24T01:35:30Z"
-  },
-  {
    "id": "c3f5a468f",
    "created": "2026-11-24T01:35:30Z",
    "stories": [
@@ -594,145 +1239,6 @@
    "merge_reasons": [],
    "title": "Cadillac CEO casts doubt on Colton Herta's F1 future",
    "summary": "Cadillac F1 CEO Dan Towriss said he was disappointed and cast doubt on Colton Herta's future in the sport. His comments follow a major personnel decision at the team this week.",
-   "disagreement": "",
-   "label": "Reported",
-   "updated": "2026-11-24T01:35:30Z"
-  },
-  {
-   "id": "c03886e43",
-   "created": "2026-11-22T13:59:15Z",
-   "stories": [
-    {
-     "title": "FIA announce Charles Leclerc penalty verdict for Lewis Hamilton clash at Las Vegas Grand Prix",
-     "source": "GPFans",
-     "date": "2026-11-22T05:26:00Z",
-     "link": "https://www.gpfans.com/en/f1-news/1093210/fia-charles-leclerc-penalty-verdict-lewis-hamilton-clash-f1-las-vegas-grand-prix-2026/",
-     "snippet": "The entente cordiale at Ferrari lasted precisely one race as Lewis Hamilton and Charles Leclerc clashed again with disastrous consequences at the F1 Las Vegas Grand Prix on Saturday night."
-    },
-    {
-     "title": "Stewards explain Leclerc’s penalty for hitting Hamilton | Formula 1",
-     "source": "RaceFans",
-     "date": "2026-11-22T06:19:29Z",
-     "link": "https://www.racefans.net/2026/11/22/stewards-explains-leclercs-penalty-for-hitting-hamilton/",
-     "snippet": "The stewards have explained why they penalised Charles Leclerc for colliding with Lewis Hamilton."
-    },
-    {
-     "title": "Hamilton vs Leclerc boils over AGAIN as Ferrari collision causes bizarre crash - F1 News Today",
-     "source": "GPFans",
-     "date": "2026-11-22T06:45:00Z",
-     "link": "https://www.gpfans.com/en/f1-news/1093201/f1-news-today-charles-leclerc-ferrari-crash-las-vegas-grand-prix-barcelona-f2004/",
-     "snippet": "The entente cordiale at Ferrari lasted precisely one race as Lewis Hamilton and Charles Leclerc clashed again with disastrous consequences at the F1 Las Vegas Grand Prix on Saturday night."
-    },
-    {
-     "title": "“This cannot continue”: Vasseur calls latest Leclerc-Hamilton collision “unacceptable” | Formula 1",
-     "source": "RaceFans",
-     "date": "2026-11-22T06:50:28Z",
-     "link": "https://www.racefans.net/2026/11/22/cannot-continue-vasseur-calls-latest-leclerc-hamilton-collision-unacceptable/",
-     "snippet": "Ferrari team principal Frederic Vasseur is deeply unhappy about the collision between his two drivers in the Las Vegas Grand Prix."
-    },
-    {
-     "title": "Lewis Hamilton dodges Charles Leclerc clash questions: “For Ferrari to decide”",
-     "source": "Crash.net",
-     "date": "2026-11-22T06:55:00Z",
-     "link": "https://www.crash.net/f1/news/1110738/1/lewis-hamilton-dodges-charles-leclerc-clash-questions-ferrari-decide",
-     "snippet": "Lewis Hamilton refused to be drawn into questions about his Ferrari teammate following their clash at the Las Vegas Grand Prix."
-    },
-    {
-     "title": "Ferrari summons Charles Leclerc after ‘unacceptable’ Lewis Hamilton Las Vegas clash",
-     "source": "PlanetF1",
-     "date": "2026-11-22T06:55:51Z",
-     "link": "https://www.planetf1.com/news/charles-leclerc-hamilton-ferrari-las-vegas-clash-unacceptable",
-     "snippet": "Charles Leclerc has described his clash with Lewis Hamilton in Las Vegas as 'unacceptable' after Ferrari's latest intra-team flashpoint..."
-    },
-    {
-     "title": "‘I want to see you after the race’ - Ferrari boss summons Charles Leclerc after Lewis Hamilton crash",
-     "source": "Crash.net",
-     "date": "2026-11-22T07:03:34Z",
-     "link": "https://www.crash.net/f1/news/1110739/1/i-want-see-you-after-race-ferrari-boss-summons-charles-leclerc-after-lewis",
-     "snippet": "Ferrari boss Fred Vasseur was fuming after Charles Leclerc and Lewis Hamilton collided in Las Vegas."
-    },
-    {
-     "title": "Fred Vasseur \"more than upset\" with \"unacceptable\" Lewis Hamilton-Charles Leclerc Las Vegas clash",
-     "source": "Motorsport.com",
-     "date": "2026-11-22T07:10:43Z",
-     "link": "https://www.motorsport.com/f1/news/fred-vasseur-more-than-upset-with-unacceptable-lewis-hamilton-charles-leclerc-las-vegas-clash/10876760/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "snippet": "Ferrari Formula 1 team principal Fred Vasseur said that Charles Leclerc's clash with Lewis Hamilton at the Las Vegas Grand Prix was \"completely unacceptable\", and added he was \"more than upset\" that…"
-    },
-    {
-     "title": "Charles Leclerc left “embarrassed” after Lewis Hamilton collision at Las Vegas GP",
-     "source": "Crash.net",
-     "date": "2026-11-22T07:30:00Z",
-     "link": "https://www.crash.net/f1/news/1110742/1/charles-leclerc-left-embarrassed-after-lewis-hamilton-collision-las-vegas-gp",
-     "snippet": "Charles Leclerc admitted he was left embarrassed following his incident with Ferrari teammate Lewis Hamilton at the Las Vegas Grand Prix"
-    },
-    {
-     "title": "Ferrari launch Lewis Hamilton vs Charles Leclerc investigation after Las Vegas GP collision",
-     "source": "GPFans",
-     "date": "2026-11-22T07:30:00Z",
-     "link": "https://www.gpfans.com/en/f1-news/1093223/ferrari-lewis-hamilton-charles-leclerc-las-vegas-grand-prix-2026-collision/",
-     "snippet": "Ferrari have launched another inquest after another Lewis Hamilton-Charles Leclerc meltdown - this time at the Las Vegas Grand Prix."
-    },
-    {
-     "title": "Charles Leclerc “embarrassed for the team” after costly Las Vegas clash with Lewis Hamilton",
-     "source": "Motorsport.com",
-     "date": "2026-11-22T07:32:07Z",
-     "link": "https://www.motorsport.com/f1/news/charles-leclerc-admits-feeling-embarrassed-for-the-team-after-costly-las-vegas-clash-with-hamilton/10876758/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "snippet": "Ferrari left the 2026 Las Vegas Grand Prix with seven points, two 10-second time penalties, and a fresh intra-team mess to untangle. Starting 10th and 11th after a painful double Q2 elimination…"
-    },
-    {
-     "title": "Charles Leclerc: Ferrari must find fix to 'unacceptable' feud after Lewis Hamilton clash",
-     "source": "Motorsport.com",
-     "date": "2026-11-22T07:42:01Z",
-     "link": "https://www.motorsport.com/f1/news/charles-leclerc-ferrari-must-find-fix-to-unacceptable-feud-after-lewis-hamilton-clash/10876782/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "snippet": "Charles Leclerc ended the Las Vegas with a 10-second penalty for an avoidable collision with Ferrari team-mate Lewis Hamilton – and a telling-off from team boss Frederic Vasseur ringing in his ears…"
-    },
-    {
-     "title": "'Completely unacceptable! - Vasseur rebukes Leclerc for Hamilton collision",
-     "source": "Sky Sports",
-     "date": "2026-11-22T07:50:00Z",
-     "link": "https://www.skysports.com/f1/news/12433/13615085/ferrari-boss-frederic-vasseur-blames-charles-leclerc-for-unacceptable-collision-with-lewis-hamilton-in-las-vegas-gp",
-     "snippet": "Ferrari team principal Frederic Vasseur blamed Charles Leclerc for the \"completely unacceptable\" collision with team-mate Lewis Hamilton in the Las Vegas Grand Prix."
-    },
-    {
-     "title": "Stewards right to blame Leclerc for collision with Hamilton, says Vasseur | Formula 1",
-     "source": "RaceFans",
-     "date": "2026-11-23T16:20:11Z",
-     "link": "https://www.racefans.net/2026/11/23/stewards-right-to-blame-leclerc-for-collision-with-hamilton-says-vasseur/",
-     "snippet": "Ferrari team principal Frederic Vasseur said they gave Charles Leclerc a message five corners before his collision with Lewis Hamilton."
-    }
-   ],
-   "merge_reasons": [
-    {
-     "time": "2026-11-22T13:59:15Z",
-     "added": [
-      "https://www.gpfans.com/en/f1-news/1093210/fia-charles-leclerc-penalty-verdict-lewis-hamilton-clash-f1-las-vegas-grand-prix-2026/",
-      "https://www.racefans.net/2026/11/22/stewards-explains-leclercs-penalty-for-hitting-hamilton/",
-      "https://www.gpfans.com/en/f1-news/1093201/f1-news-today-charles-leclerc-ferrari-crash-las-vegas-grand-prix-barcelona-f2004/",
-      "https://www.racefans.net/2026/11/22/cannot-continue-vasseur-calls-latest-leclerc-hamilton-collision-unacceptable/",
-      "https://www.crash.net/f1/news/1110738/1/lewis-hamilton-dodges-charles-leclerc-clash-questions-ferrari-decide",
-      "https://www.planetf1.com/news/charles-leclerc-hamilton-ferrari-las-vegas-clash-unacceptable",
-      "https://www.crash.net/f1/news/1110739/1/i-want-see-you-after-race-ferrari-boss-summons-charles-leclerc-after-lewis",
-      "https://www.motorsport.com/f1/news/fred-vasseur-more-than-upset-with-unacceptable-lewis-hamilton-charles-leclerc-las-vegas-clash/10876760/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-      "https://www.crash.net/f1/news/1110742/1/charles-leclerc-left-embarrassed-after-lewis-hamilton-collision-las-vegas-gp",
-      "https://www.gpfans.com/en/f1-news/1093223/ferrari-lewis-hamilton-charles-leclerc-las-vegas-grand-prix-2026-collision/",
-      "https://www.motorsport.com/f1/news/charles-leclerc-admits-feeling-embarrassed-for-the-team-after-costly-las-vegas-clash-with-hamilton/10876758/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-      "https://www.motorsport.com/f1/news/charles-leclerc-ferrari-must-find-fix-to-unacceptable-feud-after-lewis-hamilton-clash/10876782/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-      "https://www.skysports.com/f1/news/12433/13615085/ferrari-boss-frederic-vasseur-blames-charles-leclerc-for-unacceptable-collision-with-lewis-hamilton-in-las-vegas-gp"
-     ],
-     "joined_existing": false,
-     "reason": "All of these cover the same collision between the two Ferrari drivers at the Las Vegas Grand Prix, the stewards' penalty and the team's response."
-    },
-    {
-     "time": "2026-11-24T01:35:30Z",
-     "added": [
-      "https://www.racefans.net/2026/11/23/stewards-right-to-blame-leclerc-for-collision-with-hamilton-says-vasseur/"
-     ],
-     "joined_existing": true,
-     "reason": "The RaceFans report covers Vasseur's comments on the same Las Vegas collision as the existing card."
-    }
-   ],
-   "title": "Ferrari's Leclerc and Hamilton collide again in Las Vegas",
-   "summary": "Ferrari team principal Frederic Vasseur called the Leclerc-Hamilton collision in Las Vegas 'completely unacceptable', and Leclerc received a 10-second penalty. RaceFans reports that Vasseur said the stewards were right to blame Leclerc and that the team had sent him a message five corners before the contact.",
    "disagreement": "",
    "label": "Reported",
    "updated": "2026-11-24T01:35:30Z"
@@ -16799,6 +17305,111 @@
     }
    ],
    "reason": "Stella's commentary on the 2030 framework is opinion, while the existing card reports on supplier numbers."
+  },
+  {
+   "time": "2026-11-24T11:57:55Z",
+   "items": [
+    {
+     "title": "Guenther Steiner calls for radical Charles Leclerc demotion threat after Ferrari clashes",
+     "source": "Crash.net",
+     "link": "https://www.crash.net/f1/news/1110855/1/guenther-steiner-calls-radical-charles-leclerc-demotion-threat-after-ferrari"
+    },
+    {
+     "card": "c6c544408",
+     "title": "Steiner expects Ferrari board to react to Hamilton-Leclerc clash"
+    }
+   ],
+   "reason": "Steiner's call for a radical Leclerc demotion is a different comment from his existing remarks about the Ferrari board reacting."
+  },
+  {
+   "time": "2026-11-24T11:57:55Z",
+   "items": [
+    {
+     "title": "Max Verstappen vs George Russell: The biggest moments in heated F1 rivalry",
+     "source": "PlanetF1",
+     "link": "https://www.planetf1.com/features/max-verstappen-george-russell-f1-rivalry-timeline"
+    },
+    {
+     "card": "c2983d298",
+     "title": "Timeline charts Verstappen and Russell's long-running rivalry"
+    }
+   ],
+   "reason": "The biggest-moments feature and the F1.com timeline both cover the rivalry in general rather than one shared event, so they stay separate."
+  },
+  {
+   "time": "2026-11-24T11:57:55Z",
+   "items": [
+    {
+     "title": "Is Hamilton and Leclerc's Ferrari partnership sustainable? F1 Q&A",
+     "source": "BBC Sport",
+     "link": "https://www.bbc.co.uk/sport/formula1/articles/cw30gq2633ljo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "card": "cf77d9d59",
+     "title": "BBC podcast doubts Hamilton and Leclerc have cleared the air"
+    }
+   ],
+   "reason": "The BBC Q&A and the BBC podcast are different pieces with different contributors, so the views do not match."
+  },
+  {
+   "time": "2026-11-24T11:57:55Z",
+   "items": [
+    {
+     "title": "Audi-backed Slater to take over Camara’s F2 seat",
+     "source": "Formula1.com",
+     "link": "https://www.formula1.com/en/latest/article/audi-backed-slater-to-take-over-camaras-f2-seat-for-final-two-rounds-in-qatar-and-abu-dhabi.3F0sq83OoErm2IjBqsncqu"
+    },
+    {
+     "card": "ceb2fcbd8",
+     "title": "Haas confirms Camara will race final two rounds, ending F2 title bid"
+    }
+   ],
+   "reason": "The Slater F2 seat announcement is a separate consequence of Camara's Haas decision, not the same announcement."
+  },
+  {
+   "time": "2026-11-24T11:57:55Z",
+   "items": [
+    {
+     "title": "F1's just had a warning about a push-to-pass future",
+     "source": "The Race",
+     "link": "https://www.the-race.com/formula-1/f1-push-to-pass-overtaking-warning-macau-gp/"
+    },
+    {
+     "card": "c34f32ad7",
+     "title": "Andrea Stella urges caution as Las Vegas shapes 2030 engine debate"
+    }
+   ],
+   "reason": "The push-to-pass analysis is about an overtaking aid, while the existing card covers the wider 2030 engine framework."
+  },
+  {
+   "time": "2026-11-24T11:57:55Z",
+   "items": [
+    {
+     "title": "The 5 drivers most likely to win in Qatar",
+     "source": "Formula1.com",
+     "link": "https://www.formula1.com/en/latest/article/the-5-drivers-most-likely-to-win-the-qatar-grand-prix-according-to-the-betting-markets.3BzTGI3GGJZHfB5FxGTeN8"
+    },
+    {
+     "card": "c96a3aab6",
+     "title": "Qatar Grand Prix betting guide and latest odds"
+    }
+   ],
+   "reason": "Both are betting pieces, but one ranks likely winners and the other is a general betting guide, so they are different stories."
+  },
+  {
+   "time": "2026-11-24T11:57:55Z",
+   "items": [
+    {
+     "title": "Featured Comment: Herta deserves credit for trying to make the switch from IndyCar | Brief",
+     "source": "RaceFans",
+     "link": "https://www.racefans.net/2026/11/24/featured-comment-herta-deserves-credit-for-trying-to-make-the-switch-from-indycar/"
+    },
+    {
+     "card": "c74b0701c",
+     "title": "Cadillac CEO casts doubt on Colton Herta's F1 future"
+    }
+   ],
+   "reason": "The fan comment praising Herta's attempt is not the same as the Cadillac CEO's doubts about his future."
   }
  ],
  "processed": [
@@ -16941,6 +17552,7 @@
   "https://www.bbc.co.uk/sport/formula1/articles/cv62pxxkz8wxo?at_medium=RSS&at_campaign=rss",
   "https://www.bbc.co.uk/sport/formula1/articles/cvj6l7nk611jo?at_medium=RSS&at_campaign=rss",
   "https://www.bbc.co.uk/sport/formula1/articles/cw24epe29566o?at_medium=RSS&at_campaign=rss",
+  "https://www.bbc.co.uk/sport/formula1/articles/cw30gq2633ljo?at_medium=RSS&at_campaign=rss",
   "https://www.bbc.co.uk/sport/formula1/articles/cw80zzd8jk1go?at_medium=RSS&at_campaign=rss",
   "https://www.bbc.co.uk/sport/formula1/articles/cwe9k29y7z44o?at_medium=RSS&at_campaign=rss",
   "https://www.bbc.co.uk/sport/formula1/articles/cwg7l0l313rno?at_medium=RSS&at_campaign=rss",
@@ -17069,6 +17681,10 @@
   "https://www.crash.net/f1/news/1110741/1/max-verstappen-savages-george-russell-f1-rivalry-blows-hes-so-far-below-my-level",
   "https://www.crash.net/f1/news/1110742/1/charles-leclerc-left-embarrassed-after-lewis-hamilton-collision-las-vegas-gp",
   "https://www.crash.net/f1/news/1110849/1/lewis-hamilton-endorsed-mercedes-junior-wins-f4-world-cup-macau",
+  "https://www.crash.net/f1/news/1110855/1/guenther-steiner-calls-radical-charles-leclerc-demotion-threat-after-ferrari",
+  "https://www.crash.net/f1/news/1110857/1/george-russell-accused-being-all-mouth-and-no-trousers-amid-max-verstappen-feud",
+  "https://www.crash.net/f1/news/1110858/1/mclaren-reveal-surprising-stance-oscar-piastris-foul-mouthed-radio-message",
+  "https://www.crash.net/f1/news/1110861/1/george-russell-urged-shut-brutal-max-verstappen-warning",
   "https://www.crash.net/f1/race-report/1110730/1/max-verstappen-wins-pulsating-las-vegas-gp-ferraris-collide",
   "https://www.crash.net/f1/results/1110009/1/f1-brazil-grand-prix-full-race-results",
   "https://www.crash.net/f1/results/1110235/1/2026-f1-las-vegas-grand-prix-friday-practice-results",
@@ -17147,6 +17763,7 @@
   "https://www.formula1.com/en/latest/article/antonelli-identifies-which-driver-poses-the-biggest-threat-to-his-title-defence-in-2027.6qjcpNnf8IerbXck8NpB05",
   "https://www.formula1.com/en/latest/article/aron-leaves-alpine-as-vesti-doubles-up-in-reserve-role-for-enstone-squad.78ZKSJQKTokE51DkFvRY2B",
   "https://www.formula1.com/en/latest/article/audi-announce-emma-felbermayr-for-third-f1-academy-season-in-2027.3numbjpdYoNe5Bp0NCeSUz",
+  "https://www.formula1.com/en/latest/article/audi-backed-slater-to-take-over-camaras-f2-seat-for-final-two-rounds-in-qatar-and-abu-dhabi.3F0sq83OoErm2IjBqsncqu",
   "https://www.formula1.com/en/latest/article/battle-for-second-place-tightens-as-2026-world-championship-finish-line-nears.5Rqr6EDZZLiPtFbnomVdfb",
   "https://www.formula1.com/en/latest/article/best-qualifying-bets-available-before-the-las-vegas-grand-prix.4Qbussswr7sBnmo1wEl7QR",
   "https://www.formula1.com/en/latest/article/best-value-early-bets-to-consider-for-the-las-vegas-grand-prix.G1YHN2K36iO2K2PxC7zjh",
@@ -17210,6 +17827,7 @@
   "https://www.formula1.com/en/latest/article/sainz-handed-grid-penalty-for-las-vegas-grand-prix-after-turbo-change.hKQ2ZkbOHVlu58FKLxMca",
   "https://www.formula1.com/en/latest/article/save-the-date-f1-unlocked-season-finale-watch-party.22ZXTQut4A8OosqH0ldCTM",
   "https://www.formula1.com/en/latest/article/the-5-drivers-most-likely-to-win-the-las-vegas-grand-prix-according-to-the-betting-markets.35XTVOVdU16UJWGZJj3ctb",
+  "https://www.formula1.com/en/latest/article/the-5-drivers-most-likely-to-win-the-qatar-grand-prix-according-to-the-betting-markets.3BzTGI3GGJZHfB5FxGTeN8",
   "https://www.formula1.com/en/latest/article/the-5-drivers-who-are-most-likely-to-qualify-fastest-in-las-vegas.4bdBCuhbBNlUkHaoVfsopF",
   "https://www.formula1.com/en/latest/article/the-extra-gear-liam-lawsons-top-six-hopes-examined-after-securing-new-racing-bulls-deal.4FuO5PyKE8vCtfqm1OyxrJ",
   "https://www.formula1.com/en/latest/article/the-f1-braking-system-innovation-that-could-soon-be-revealed.5BLbJmoFNGwhbllIHNGHOG",
@@ -17233,6 +17851,8 @@
   "https://www.formula1.com/en/latest/article/what-the-teams-said-thursday-in-las-vegas-2026.4jnMZFzCSpX9y63f0rmnQW",
   "https://www.formula1.com/en/latest/article/what-time-is-the-formula-1-2026-las-vegas-grand-prix-and-how-can-i-watch-it.5klYngWOQMjROxZ3nEp5Pr",
   "https://www.formula1.com/en/latest/article/what-to-watch-for-in-the-las-vegas-grand-prix.3k1glJW46dgLm2gZkIsSYo",
+  "https://www.formula1.com/en/latest/article/where-do-ferrari-go-from-here-after-the-latest-hamilton-leclerc-clash.PSFxRaC5vfQVri3YZxBiu",
+  "https://www.formula1.com/en/latest/article/who-is-tom-hart-meet-the-man-set-to-replace-gp-as-max-verstappens-race-engineer-at-red-bull.4U1Zq3JUB2gujP5OoTMW1Z",
   "https://www.formula1.com/en/latest/article/why-f1-drivers-love-padel-as-aston-martin-become-the-latest-to-embrace-the-sport.2n2jOtb63TbalovQuHIIUi",
   "https://www.formula1.com/en/latest/article/why-russell-wont-run-mercedes-upgraded-turbocharger-in-las-vegas.2ZwhMHFGbRFb6pApmMiEgY",
   "https://www.formula1.com/en/latest/article/williams-retain-jade-jacquet-for-2027-f1-academy-campaign.5BcvOHlUPr9OJXYXq30dnE",
@@ -17354,8 +17974,14 @@
   "https://www.gpfans.com/en/f1-news/1093264/f1-haas-rafael-camara-confirmed-2026-pulled-out-f2-championship/",
   "https://www.gpfans.com/en/f1-news/1093282/f1-ferrari-charles-leclerc-lewis-hamilton-warning-italian-journalist-las-vegas/",
   "https://www.gpfans.com/en/f1-news/1093283/oscar-piastri-explodes-mclaren-censored-las-vegas-grand-prix-team-radio/",
+  "https://www.gpfans.com/en/f1-news/1093288/max-verstappen-outsmarted-george-russell-genius-trick-las-vegas-gp-laurent-mekies/",
+  "https://www.gpfans.com/en/f1-news/1093293/f1-fia-penalty-verdict-grid-drop-sergio-perez-las-vegas-qatar-grand-prix/",
+  "https://www.gpfans.com/en/f1-news/1093296/f1-star-ollie-bearman-contract-delay-exposes-major-problem-ferrari/",
   "https://www.gpfans.com/en/f1-news/1093301/kim-kardashian-f1-academy-visit-susie-wolff-las-vegas/",
   "https://www.gpfans.com/en/f1-news/1093306/f1-2026-las-vegas-grand-prix-tiktok-generation-overtakes/",
+  "https://www.gpfans.com/en/f1-news/1093308/f1-lewis-hamilton-ferrari-claim-championship-kimi-antonelli/",
+  "https://www.gpfans.com/en/f1-news/1093309/f1-news-today-wolff-reveals-verstappen-russell-exchange-ferrari-radio-message-questions/",
+  "https://www.gpfans.com/en/f1-news/1093314/lewis-hamilton-vs-charles-leclerc-f1-rivalry-explained/",
   "https://www.motorsport.com/dakar/news/fernando-alonso-returns-to-dakar-why-his-first-rally-raid-experience-was-a-shock-to-the-system/10875881/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/dakar/news/fernando-alonso-to-return-to-dakar-rally-with-aston-martin-in-2027/10874907/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/2026-f1-las-vegas-grand-prix-starting-grid/10876250/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
@@ -17428,6 +18054,7 @@
   "https://www.motorsport.com/f1/news/i-was-getting-beat-up-how-daniel-ricciardo-burned-out-on-humiliating-f1-return/10874248/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/im-41-years-old-and-i-love-pokemon-lewis-hamilton-on-his-card-collection/10875423/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/inside-turkeys-revamp-for-the-return-of-a-modern-f1-classic/10874598/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+  "https://www.motorsport.com/f1/news/isack-hadjar-frustrated-what-really-happened-on-red-bulls-team-radio-in-las-vegas/10877375/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/isack-hadjar-i-realised-why-max-is-a-four-time-world-champion/10875884/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/isack-hadjar-red-bull-looked-a-bit-stupid-in-vegas-qualifying-tow-game/10876319/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/isack-hadjar-reveals-why-he-cannot-follow-max-verstappen-into-racing-outside-f1/10875493/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
@@ -17547,8 +18174,10 @@
   "https://www.planetf1.com/f1-data/mclaren-las-vegas-gp-2026-fp2-findings",
   "https://www.planetf1.com/features/highest-f1-race-wins-totals",
   "https://www.planetf1.com/features/las-vegas-grand-prix-2026-predictions",
+  "https://www.planetf1.com/features/max-verstappen-george-russell-f1-rivalry-timeline",
   "https://www.planetf1.com/features/top-10-highest-f1-win-percentages",
   "https://www.planetf1.com/home-page/opinion-liam-lawson-to-mercedes",
+  "https://www.planetf1.com/home-page/typical-fernando-alonso-aston-martin-boss-reacts-dakar-rally-confirmation",
   "https://www.planetf1.com/las-vegas-grand-prix/f1-starting-grid-2026-las-vegas-grand-prix",
   "https://www.planetf1.com/news/2026-las-vegas-grand-prix-fp1-report",
   "https://www.planetf1.com/news/2026-las-vegas-grand-prix-fp2-report",
@@ -17564,6 +18193,7 @@
   "https://www.planetf1.com/news/cadillac-f1-engine-plans-gm-2030-v8",
   "https://www.planetf1.com/news/cadillac-las-vegas-grand-prix-2026-livery",
   "https://www.planetf1.com/news/charles-leclerc-ferrari-las-vegas-prospects-revealed",
+  "https://www.planetf1.com/news/charles-leclerc-ferrari-to-haas-guenther-steiner",
   "https://www.planetf1.com/news/charles-leclerc-fia-penalty-liam-lawson-f1-2026-brazilian-grand-prix",
   "https://www.planetf1.com/news/charles-leclerc-hamilton-ferrari-las-vegas-clash-unacceptable",
   "https://www.planetf1.com/news/charles-leclerc-journalist-banned",
@@ -17627,6 +18257,7 @@
   "https://www.planetf1.com/news/jenson-button-fernando-alonso-aston-martin-contract",
   "https://www.planetf1.com/news/jolyon-palmer-damon-hill-ferrari-plan-lewis-hamilton-charles-leclerc",
   "https://www.planetf1.com/news/jonathan-mcevoy-fia-ban-ferrari",
+  "https://www.planetf1.com/news/kimi-antonelli-ferrari-toto-wolff",
   "https://www.planetf1.com/news/kimi-antonelli-in-awe-after-international-football-fans-chant-his-name",
   "https://www.planetf1.com/news/kimi-antonelli-meets-italian-president-after-award",
   "https://www.planetf1.com/news/kimi-antonelli-mercedes-salary-george-russell",
@@ -17634,6 +18265,7 @@
   "https://www.planetf1.com/news/kimi-antonelli-reveals-las-vegas-power-issue-cause",
   "https://www.planetf1.com/news/kimi-antonelli-salary-las-vegas-grand-prix",
   "https://www.planetf1.com/news/kimi-antonelli-salary-toto-wolff-mercedes-world-champion-reward",
+  "https://www.planetf1.com/news/lance-stroll-honda-deficit-f1-2026-las-vegas-grand-prix",
   "https://www.planetf1.com/news/lance-stroll-honda-power-deficit-las-vegas-warning",
   "https://www.planetf1.com/news/lando-norris-f2-team-2027-driver",
   "https://www.planetf1.com/news/lando-norris-las-vegas-gp-rain-warning-pirelli-tyres",
@@ -17646,6 +18278,7 @@
   "https://www.planetf1.com/news/lewis-hamilton-causing-ferrari-saga-formula-1-sale",
   "https://www.planetf1.com/news/lewis-hamilton-causing-ferrari-tension-ralf-schumacher",
   "https://www.planetf1.com/news/lewis-hamilton-charles-leclerc-crash-max-verstappen-george-russell-las-vegas-grand-prix",
+  "https://www.planetf1.com/news/lewis-hamilton-charles-leclerc-las-vegas-clash",
   "https://www.planetf1.com/news/lewis-hamilton-charles-leclerc-record-straight",
   "https://www.planetf1.com/news/lewis-hamilton-charles-leclerc-sportspro-2026-ranking",
   "https://www.planetf1.com/news/lewis-hamilton-delivers-ferrari-contract-update",
@@ -17679,6 +18312,7 @@
   "https://www.planetf1.com/news/mclaren-f1-2027-mercedes-power-unit",
   "https://www.planetf1.com/news/mclaren-highlights-key-lando-norris-trait",
   "https://www.planetf1.com/news/mclaren-las-vegas-upgrades-foundations-2027-f1-car",
+  "https://www.planetf1.com/news/mclaren-red-bull-f1-2026-gains-under-scrutiny-sainz",
   "https://www.planetf1.com/news/mercedes-aduo-upgrade-las-vegas-kimi-antonelli",
   "https://www.planetf1.com/news/mercedes-ferrari-rubbish-race",
   "https://www.planetf1.com/news/mercedes-george-russell-role-kimi-antonelli-f1-success",
@@ -17785,7 +18419,11 @@
   "https://www.racefans.net/2026/11/23/peugeot-wec-team-axed-citroen-and-opel-formula-e-squads-to-close-after-2027/",
   "https://www.racefans.net/2026/11/23/russell-says-hed-worked-out-how-to-beat-verstappen-to-the-finishing-line/",
   "https://www.racefans.net/2026/11/23/stewards-right-to-blame-leclerc-for-collision-with-hamilton-says-vasseur/",
+  "https://www.racefans.net/2026/11/24/featured-comment-herta-deserves-credit-for-trying-to-make-the-switch-from-indycar/",
+  "https://www.racefans.net/2026/11/24/maybe-im-delusional-but-i-genuinely-feel-like-a-podium-was-possible-lindblad/",
   "https://www.racefans.net/2026/11/24/on-this-day-hamilton-joins-mclaren/",
+  "https://www.racefans.net/2026/11/24/video-id-rather-blow-up-the-fing-engine-gaslys-fury-over-cooling-problems/",
+  "https://www.racefans.net/2026/11/24/was-hadjar-helping-himself-or-verstappen-when-he-collected-a-penalty-in-the-pits/",
   "https://www.skysports.com/f1/live-blog/12433/12466779/f1-news-rumours-and-gossip-formula-1-latest-updates-on-teams-driver-transfer-market-and-contracts",
   "https://www.skysports.com/f1/live-blog/12433/13518208/f1-academy-2026-reports-calendar-news-results-standings-and-highlights-for-races-this-season",
   "https://www.skysports.com/f1/live-blog/12433/13613211/f1-las-vegas-gp-live-friday-practice-updates-results-stream-highlights-from-formula-1-race-weekend-in-the-usa",
@@ -17856,6 +18494,7 @@
   "https://www.the-race.com/formula-1/f1-las-vegas-gp-352-overtakes-chaos-explained/",
   "https://www.the-race.com/formula-1/f1-las-vegas-gp-max-verstappen-wins-ferrari-drivers-collide/",
   "https://www.the-race.com/formula-1/f1-poised-to-take-crucial-step-towards-v8-engines-return/",
+  "https://www.the-race.com/formula-1/f1-push-to-pass-overtaking-warning-macau-gp/",
   "https://www.the-race.com/formula-1/f1-to-use-full-time-stewards-from-2027/",
   "https://www.the-race.com/formula-1/f1s-new-v8-engine-agreed-five-things-you-need-to-know/",
   "https://www.the-race.com/formula-1/fernando-alonso-2027-dakar-rally-new-aston-martin-project/",
