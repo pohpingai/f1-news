@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T12:02:04Z",
+ "updated": "2026-11-24T22:11:39Z",
  "model": "anthropic/claude-haiku-5.5",
  "rumours": [
   {
@@ -74,7 +74,7 @@
     "Mercedes"
    ],
    "status": "Active",
-   "trend": "rising",
+   "trend": "steady",
    "first_seen": "2026-11-22T20:26:49Z",
    "last_seen": "2026-11-22T20:32:03Z",
    "sources": [
