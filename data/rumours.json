@@ -1,7 +1,39 @@
 {
- "updated": "2026-11-23T02:15:10Z",
+ "updated": "2026-11-24T01:40:00Z",
  "model": "anthropic/claude-haiku-5.5",
  "rumours": [
+  {
+   "id": "r848d9a17",
+   "claim": "Ugo Ugochukwu could reportedly make his F2 debut at the Qatar Grand Prix.",
+   "people": [
+    "Ugo Ugochukwu"
+   ],
+   "status": "Active",
+   "trend": "steady",
+   "first_seen": "2026-11-23T16:18:56Z",
+   "last_seen": "2026-11-23T16:18:56Z",
+   "sources": [
+    {
+     "title": "Ugo Ugochukwu set for imminent F2 debut in Qatar GP announcement",
+     "source": "PlanetF1",
+     "date": "2026-11-23T16:18:56Z",
+     "link": "https://www.planetf1.com/news/ugo-ugochukwu-f2-announcement-qatar"
+    }
+   ],
+   "cards": [
+    "c78148ae9"
+   ],
+   "proof": null,
+   "history": [
+    {
+     "time": "2026-11-24T01:40:00Z",
+     "event": "created",
+     "detail": "First seen: PlanetF1 (2026-11-23)",
+     "reason": "This is a new claim about a future F2 debut and does not match any known rumour.",
+     "card": "Ugo Ugochukwu set for imminent F2 debut at Qatar GP"
+    }
+   ]
+  },
   {
    "id": "r90231289",
    "claim": "F1 reportedly plans to limit each manufacturer to two power unit suppliers under the 2030 rules, which could reduce the number of customer teams, including Mercedes' three current customers.",
@@ -37,40 +69,6 @@
      "detail": "First seen: Motorsport.com (2026-11-22); Autosport (2026-11-22)",
      "reason": "This is a specific detail about supplier limits under the 2030 engine rules, which is a different claim from the known rumour about the V8 engine return and the manufacturers backing new regulations.",
      "card": "F1 plans two power unit suppliers per manufacturer under 2030 rules"
-    }
-   ]
-  },
-  {
-   "id": "rfcccb08c",
-   "claim": "Stellantis reportedly will cancel its Peugeot WEC and Citroen Formula E programmes.",
-   "people": [
-    "Stellantis",
-    "Peugeot",
-    "Citroen"
-   ],
-   "status": "Active",
-   "trend": "steady",
-   "first_seen": "2026-11-20T10:51:51Z",
-   "last_seen": "2026-11-20T10:51:51Z",
-   "sources": [
-    {
-     "title": "Spotlight: Report claims Stellantis will cancel its Peugeot WEC and Citroen Formula E programmes | Brief",
-     "source": "RaceFans",
-     "date": "2026-11-20T10:51:51Z",
-     "link": "https://www.racefans.net/2026/11/20/spotlight-report-claims-stellantis-will-cancel-its-peugeot-wec-and-citroen-formula-e-programmes/"
-    }
-   ],
-   "cards": [
-    "c8fd883b7"
-   ],
-   "proof": null,
-   "history": [
-    {
-     "time": "2026-11-20T18:19:38Z",
-     "event": "created",
-     "detail": "First seen: RaceFans (2026-11-20)",
-     "reason": "No known rumour covers the cancellation of Stellantis's Peugeot WEC or Citroen Formula E programmes.",
-     "card": "Report claims Stellantis will cancel Peugeot WEC and Citroen Formula E programmes"
     }
    ]
   },
@@ -116,7 +114,7 @@
     "McLaren"
    ],
    "status": "Active",
-   "trend": "steady",
+   "trend": "fading",
    "first_seen": "2026-11-18T19:57:00Z",
    "last_seen": "2026-11-18T19:57:00Z",
    "sources": [
@@ -463,6 +461,68 @@
      "detail": "First seen: The Race (2026-11-14)",
      "reason": "No known rumours are on the list yet, so this cost cap proposal is recorded as a new rumour.",
      "card": "'ADUO for teams' cost cap plan to be discussed by F1"
+    }
+   ]
+  },
+  {
+   "id": "rfcccb08c",
+   "claim": "Stellantis reportedly will cancel its Peugeot WEC and Citroen Formula E programmes.",
+   "people": [
+    "Stellantis",
+    "Peugeot",
+    "Citroen"
+   ],
+   "status": "Confirmed",
+   "trend": "steady",
+   "first_seen": "2026-11-20T10:51:51Z",
+   "last_seen": "2026-11-23T15:51:02Z",
+   "sources": [
+    {
+     "title": "Spotlight: Report claims Stellantis will cancel its Peugeot WEC and Citroen Formula E programmes | Brief",
+     "source": "RaceFans",
+     "date": "2026-11-20T10:51:51Z",
+     "link": "https://www.racefans.net/2026/11/20/spotlight-report-claims-stellantis-will-cancel-its-peugeot-wec-and-citroen-formula-e-programmes/"
+    },
+    {
+     "title": "Peugeot WEC team axed, Citroen and Opel Formula E squads to close after 2027 | WEC",
+     "source": "RaceFans",
+     "date": "2026-11-23T15:51:02Z",
+     "link": "https://www.racefans.net/2026/11/23/peugeot-wec-team-axed-citroen-and-opel-formula-e-squads-to-close-after-2027/"
+    }
+   ],
+   "cards": [
+    "c8fd883b7",
+    "c448409d9"
+   ],
+   "proof": {
+    "status": "Confirmed",
+    "card": "Stellantis axes Peugeot WEC team, closes Citroen and Opel Formula E squads",
+    "evidence": "Stellantis has confirmed it will pull its teams out of the World Endurance Championship and Formula E.",
+    "reason": "The official Stellantis confirmation that it is pulling its teams out of the WEC and Formula E matches the known rumour that its Peugeot WEC and Citroen Formula E programmes would be cancelled.",
+    "time": "2026-11-24T01:40:00Z",
+    "links": [
+     {
+      "title": "Peugeot WEC team axed, Citroen and Opel Formula E squads to close after 2027 | WEC",
+      "source": "RaceFans",
+      "date": "2026-11-23T15:51:02Z",
+      "link": "https://www.racefans.net/2026/11/23/peugeot-wec-team-axed-citroen-and-opel-formula-e-squads-to-close-after-2027/"
+     }
+    ]
+   },
+   "history": [
+    {
+     "time": "2026-11-20T18:19:38Z",
+     "event": "created",
+     "detail": "First seen: RaceFans (2026-11-20)",
+     "reason": "No known rumour covers the cancellation of Stellantis's Peugeot WEC or Citroen Formula E programmes.",
+     "card": "Report claims Stellantis will cancel Peugeot WEC and Citroen Formula E programmes"
+    },
+    {
+     "time": "2026-11-24T01:40:00Z",
+     "event": "confirmed",
+     "detail": "Proof: \"Stellantis has confirmed it will pull its teams out of the World Endurance Championship and Formula E.\" (RaceFans (2026-11-23))",
+     "reason": "The official Stellantis confirmation that it is pulling its teams out of the WEC and Formula E matches the known rumour that its Peugeot WEC and Citroen Formula E programmes would be cancelled.",
+     "card": "Stellantis axes Peugeot WEC team, closes Citroen and Opel Formula E squads"
     }
    ]
   },
@@ -1038,12 +1098,12 @@
   "ca5a5787a": "1|Reported",
   "c0f36d98d": "1|Reported",
   "ca6a31dae": "16|Confirmed",
-  "c03886e43": "13|Reported",
+  "c03886e43": "14|Reported",
   "c258988c7": "6|Reported",
   "ce371d9be": "6|Reported",
   "c364c0fff": "8|Reported",
   "ce97d7c6c": "1|Confirmed",
-  "ca8f4fbd3": "2|Reported",
+  "ca8f4fbd3": "3|Reported",
   "ca29fe316": "1|Reported",
   "c55740f86": "1|Confirmed",
   "c320dcec0": "2|Rumour",
@@ -1052,14 +1112,27 @@
   "c94922007": "1|Reported",
   "c02a8785b": "2|Reported",
   "c91ffb4f5": "1|Reported",
-  "c977d0be7": "1|Reported",
+  "c977d0be7": "2|Reported",
   "c1f537eb6": "1|Reported",
   "ceb2fcbd8": "9|Confirmed",
   "c81f39483": "1|Reported",
-  "c1b33e548": "1|Reported",
-  "c80ed89a9": "1|Reported",
+  "c1b33e548": "2|Reported",
+  "c80ed89a9": "2|Reported",
   "cacc711c2": "1|Reported",
   "c83db1b02": "1|Reported",
-  "c8e02b189": "1|Confirmed"
+  "c8e02b189": "1|Confirmed",
+  "c78148ae9": "1|Rumour",
+  "c448409d9": "1|Confirmed",
+  "c167d6323": "1|Confirmed",
+  "c74b0701c": "1|Reported",
+  "c5bbd3d31": "1|Reported",
+  "c59ebd3b6": "2|Reported",
+  "c3afe7aa5": "1|Reported",
+  "c36f15cdb": "1|Reported",
+  "ceba1351a": "1|Reported",
+  "c477e9181": "1|Reported",
+  "c6e98a7f8": "1|Reported",
+  "c9cf94a08": "1|Reported",
+  "c6bd02919": "1|Reported"
  }
 }
