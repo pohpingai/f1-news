@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T22:11:39Z",
+ "updated": "2026-11-25T18:29:45Z",
  "model": "anthropic/claude-haiku-5.5",
  "rumours": [
   {
@@ -113,7 +113,7 @@
     "Lewis Hamilton"
    ],
    "status": "Active",
-   "trend": "steady",
+   "trend": "fading",
    "first_seen": "2026-11-20T09:56:00Z",
    "last_seen": "2026-11-20T09:56:00Z",
    "sources": [
@@ -1131,7 +1131,7 @@
   "ca5a5787a": "1|Reported",
   "c0f36d98d": "1|Reported",
   "ca6a31dae": "16|Confirmed",
-  "c03886e43": "16|Confirmed",
+  "c03886e43": "17|Confirmed",
   "c258988c7": "6|Reported",
   "ce371d9be": "6|Reported",
   "c364c0fff": "8|Reported",
@@ -1177,7 +1177,23 @@
   "cf9b9fc03": "1|Reported",
   "c76416436": "1|Reported",
   "c4a37ffb3": "1|Reported",
-  "ce7d1aca0": "1|Confirmed",
-  "c640a429e": "1|Reported"
+  "ce7d1aca0": "2|Confirmed",
+  "c640a429e": "1|Reported",
+  "cf2012325": "1|Reported",
+  "c54de5dba": "1|Reported",
+  "cb99ae29f": "1|Confirmed",
+  "c5c726138": "1|Reported",
+  "cb1c7b6b8": "1|Confirmed",
+  "c348e484e": "1|Reported",
+  "c4882c359": "1|Reported",
+  "c2c88022a": "1|Reported",
+  "cbbdf3965": "1|Confirmed",
+  "ca25c402d": "1|Reported",
+  "c9190bd9a": "2|Reported",
+  "c859620aa": "1|Reported",
+  "c43117d14": "3|Confirmed",
+  "c4c8ea7b4": "13|Confirmed",
+  "c0eb48551": "1|Confirmed",
+  "c4e1de3d1": "1|Reported"
  }
 }
