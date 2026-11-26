@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T02:42:46Z",
+ "updated": "2026-11-26T13:35:41Z",
  "model": "anthropic/claude-haiku-5.5",
  "rumours": [
   {
@@ -64,6 +64,40 @@
      "detail": "First seen: PlanetF1 (2026-11-23)",
      "reason": "This is a new claim about a future F2 debut and does not match any known rumour.",
      "card": "Ugo Ugochukwu set for imminent F2 debut at Qatar GP"
+    }
+   ]
+  },
+  {
+   "id": "r2ea081b5",
+   "claim": "Ollie Bearman could reportedly be in talks with a rival F1 team to race for them in 2027.",
+   "people": [
+    "Ollie Bearman",
+    "Ferrari",
+    "Haas"
+   ],
+   "status": "Active",
+   "trend": "steady",
+   "first_seen": "2026-11-23T08:44:00Z",
+   "last_seen": "2026-11-23T08:44:00Z",
+   "sources": [
+    {
+     "title": "Ollie Bearman 'in talks' with rival F1 team to race NEXT year as Ferrari and Haas saga rumbles on",
+     "source": "GPFans",
+     "date": "2026-11-23T08:44:00Z",
+     "link": "https://www.gpfans.com/en/f1-news/1093206/f1-ollie-bearman-haas-ferrari-alpine-contract-2027-grid-flavio-briatore-talks/"
+    }
+   ],
+   "cards": [
+    "c184f8b4c"
+   ],
+   "proof": null,
+   "history": [
+    {
+     "time": "2026-11-26T13:35:41Z",
+     "event": "created",
+     "detail": "First seen: GPFans (2026-11-23)",
+     "reason": "The known rumour about Bearman concerns his Ferrari future while his contract is delayed, whereas this card describes talks with a rival team for 2027, which is a different claim.",
+     "card": "Ollie Bearman reportedly in talks with rival team for 2027"
     }
    ]
   },
@@ -566,7 +600,7 @@
     "manufacturers"
    ],
    "status": "Confirmed",
-   "trend": "steady",
+   "trend": "fading",
    "first_seen": "2026-11-16T07:11:53Z",
    "last_seen": "2026-11-21T08:39:32Z",
    "sources": [
@@ -1131,7 +1165,7 @@
   "ca5a5787a": "1|Reported",
   "c0f36d98d": "1|Reported",
   "ca6a31dae": "16|Confirmed",
-  "c03886e43": "18|Confirmed",
+  "c03886e43": "23|Confirmed",
   "c258988c7": "6|Reported",
   "ce371d9be": "6|Reported",
   "c364c0fff": "8|Reported",
@@ -1182,22 +1216,63 @@
   "cf2012325": "1|Reported",
   "c54de5dba": "1|Reported",
   "cb99ae29f": "1|Confirmed",
-  "c5c726138": "1|Reported",
+  "c5c726138": "2|Reported",
   "cb1c7b6b8": "1|Confirmed",
-  "c348e484e": "1|Reported",
-  "c4882c359": "1|Reported",
+  "c348e484e": "3|Reported",
+  "c4882c359": "2|Reported",
   "c2c88022a": "1|Reported",
-  "cbbdf3965": "2|Confirmed",
+  "cbbdf3965": "6|Confirmed",
   "ca25c402d": "1|Reported",
   "c9190bd9a": "2|Reported",
   "c859620aa": "1|Reported",
-  "c43117d14": "3|Confirmed",
+  "c43117d14": "4|Confirmed",
   "c4c8ea7b4": "13|Confirmed",
   "c0eb48551": "1|Confirmed",
   "c4e1de3d1": "1|Reported",
   "c945ed6af": "1|Reported",
   "ca5be8d48": "1|Reported",
-  "c4e5e0228": "1|Reported",
-  "c825da304": "1|Reported"
+  "c4e5e0228": "2|Reported",
+  "c825da304": "1|Reported",
+  "c184f8b4c": "1|Rumour",
+  "ce2853e95": "3|Confirmed",
+  "cb3e5d5ba": "1|Reported",
+  "cbb9e6679": "1|Reported",
+  "c3dab8cae": "1|Reported",
+  "ce25e0001": "1|Reported",
+  "c8a0f3e8d": "2|Reported",
+  "cebf7e82e": "1|Reported",
+  "cec88c815": "6|Confirmed",
+  "c7215473d": "1|Reported",
+  "c62bd3c39": "1|Reported",
+  "c36664912": "2|Confirmed",
+  "c76ca5ef5": "2|Reported",
+  "c33442a79": "1|Reported",
+  "cd4dffd73": "1|Reported",
+  "cf70ac729": "2|Reported",
+  "ca457196e": "1|Reported",
+  "c4cffbfaa": "1|Reported",
+  "cc148cac5": "1|Reported",
+  "ca8bd4c91": "1|Reported",
+  "c8a17ec9a": "1|Reported",
+  "c06ed4b39": "1|Reported",
+  "cf922bd51": "1|Reported",
+  "cd6dcc7f9": "1|Reported",
+  "c470120c2": "1|Reported",
+  "c805ec571": "1|Reported",
+  "c9ca24d21": "1|Reported",
+  "c7dc491f7": "1|Confirmed",
+  "cf63d5e8b": "1|Confirmed",
+  "ccd7aa288": "1|Confirmed",
+  "c9bd07da5": "1|Reported",
+  "c48bb3db2": "1|Reported",
+  "cb8d7320f": "11|Confirmed",
+  "c9fd10a11": "1|Reported",
+  "cd7af29ce": "2|Reported",
+  "cb9d013d7": "1|Confirmed",
+  "c2c74dbe4": "1|Reported",
+  "c13853f5e": "1|Reported",
+  "c1c9b1f79": "1|Reported",
+  "cd5811143": "1|Reported",
+  "c53bfc778": "1|Reported"
  }
 }
