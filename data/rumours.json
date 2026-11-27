@@ -1,7 +1,41 @@
 {
- "updated": "2026-11-26T22:51:41Z",
+ "updated": "2026-11-27T06:37:31Z",
  "model": "anthropic/claude-haiku-5.5",
  "rumours": [
+  {
+   "id": "r76d52674",
+   "claim": "Lewis Hamilton reportedly is gaining increased influence at Ferrari as his rivalry with Charles Leclerc intensifies.",
+   "people": [
+    "Lewis Hamilton",
+    "Charles Leclerc",
+    "Ferrari"
+   ],
+   "status": "Active",
+   "trend": "steady",
+   "first_seen": "2026-11-27T06:15:00Z",
+   "last_seen": "2026-11-27T06:15:00Z",
+   "sources": [
+    {
+     "title": "Lewis Hamilton's Ferrari power shift as FIA court reviews grand prix result - F1 News Today",
+     "source": "GPFans",
+     "date": "2026-11-27T06:15:00Z",
+     "link": "https://www.gpfans.com/en/f1-news/1093421/f1-news-today-lewis-hamilton-ferrari-italian-grand-prix-fia-result-change/"
+    }
+   ],
+   "cards": [
+    "cea5567bc"
+   ],
+   "proof": null,
+   "history": [
+    {
+     "time": "2026-11-27T06:37:31Z",
+     "event": "created",
+     "detail": "First seen: GPFans (2026-11-27)",
+     "reason": "This describes a shift in Hamilton's influence at Ferrari, which differs from the known rumours about Ferrari choosing a lead driver (R11) and the deadlocked 2027 line-up (R7).",
+     "card": "Hamilton reportedly gaining influence at Ferrari amid Leclerc rivalry"
+    }
+   ]
+  },
   {
    "id": "rf4fa9f80",
    "claim": "Ollie Bearman's future at Ferrari is reportedly unclear while his contract remains delayed.",
@@ -1295,6 +1329,11 @@
   "ce905dcf6": "1|Reported",
   "cca7f34fb": "1|Reported",
   "c85707dcd": "1|Reported",
-  "cd85caad1": "1|Reported"
+  "cd85caad1": "1|Reported",
+  "cea5567bc": "1|Rumour",
+  "c8deed846": "2|Reported",
+  "c2be954b8": "1|Reported",
+  "cb44d9266": "1|Reported",
+  "c7c485108": "1|Reported"
  }
 }
