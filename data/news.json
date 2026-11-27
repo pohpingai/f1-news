@@ -1,6 +1,534 @@
 {
- "updated": "2026-11-27T06:33:48Z",
+ "updated": "2026-11-27T17:49:16Z",
  "stories": [
+  {
+   "title": "F3 champion Ugochukwu takes pole on F2 debut in Qatar",
+   "source": "Formula1.com",
+   "date": "2026-11-27T17:49:16Z",
+   "date_is_seen_time": true,
+   "link": "https://www.formula1.com/en/latest/article/f2-formula-3-champion-ugochukwu-takes-pole-position-on-series-debut-in-qatar.1JCyMKDD3cZcIEGj2c9Zfp",
+   "snippet": "Ugo Ugochukwu put in a stunning performance to take pole position on his Formula 2 debut in Qatar."
+  },
+  {
+   "title": "LIVE COVERAGE: FP2 resumes in Qatar after red flag",
+   "source": "Formula1.com",
+   "date": "2026-11-27T17:49:16Z",
+   "date_is_seen_time": true,
+   "link": "https://www.formula1.com/en/latest/article/live-coverage-second-practice-in-qatar-2026.73fYckKHdfedONjDTaSgeH",
+   "snippet": "Live coverage of Friday's second practice session at the 2026 Qatar Grand Prix."
+  },
+  {
+   "title": "Antonelli leads Russell in Qatar as Mercedes control FP1",
+   "source": "Formula1.com",
+   "date": "2026-11-27T17:49:16Z",
+   "date_is_seen_time": true,
+   "link": "https://www.formula1.com/en/latest/article/fp1-antonelli-leads-russell-in-qatar-as-mercedes-control-opening-practice.3v7t8Oja9vAGkic9TxN7FR",
+   "snippet": "Kimi Antonelli finished fastest in Free Practice 1 ahead of the Qatar Grand Prix, the Mercedes driver beating team mate George Russell and Isack Hadjar's Red Bull."
+  },
+  {
+   "title": "AS IT HAPPENED: First practice for the Qatar GP",
+   "source": "Formula1.com",
+   "date": "2026-11-27T17:49:16Z",
+   "date_is_seen_time": true,
+   "link": "https://www.formula1.com/en/latest/article/live-coverage-first-practice-in-qatar-2026.4b9OJ86R4u41lS38JHHCuO",
+   "snippet": "Live coverage of Friday's first practice session for the 2026 Qatar Grand Prix."
+  },
+  {
+   "title": "FIA confirms final decision as Audi F1 team loses Yuki Tsunoda appeal",
+   "source": "PlanetF1",
+   "date": "2026-11-27T17:42:42Z",
+   "date_is_seen_time": false,
+   "link": "https://www.planetf1.com/news/fia-audi-yuki-tsunoda-appeal",
+   "snippet": "Audi has lost its appeal."
+  },
+  {
+   "title": "George Russell takes aim at journalist after Max Verstappen row - ‘They spin the truth’",
+   "source": "GPFans",
+   "date": "2026-11-27T17:33:00Z",
+   "date_is_seen_time": false,
+   "link": "https://www.gpfans.com/en/f1-news/1093454/george-russell-max-verstappen-f1-row-will-buxton-reaction/",
+   "snippet": "While the F1 focus this week has been very much on the relationship between George Russell and Max Verstappen, the Mercedes star also has an axe to grind with some media members."
+  },
+  {
+   "title": "FIA confirms F1 engine freeze and imposes testing restrictions ahead of V8 return",
+   "source": "Motorsport.com",
+   "date": "2026-11-27T17:15:13Z",
+   "date_is_seen_time": false,
+   "link": "https://www.motorsport.com/f1/news/fia-confirms-f1-engine-freeze-and-imposes-testing-restrictions-ahead-of-v8-return/10878333/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+   "snippet": "Formula 1 manufacturers will no longer be allowed to work on the current generation of power units from mid-2028, the FIA's single-seater director Nikolas Tombazis has revealed in an exclusive…"
+  },
+  {
+   "title": "FIA details F1 engine freeze and imposes testing restrictions ahead of V8 return",
+   "source": "Autosport",
+   "date": "2026-11-27T17:14:37Z",
+   "date_is_seen_time": false,
+   "link": "https://www.autosport.com/f1/news/fia-details-f1-engine-freeze-and-imposes-testing-restrictions-ahead-of-v8-return/10878336/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+   "snippet": "Formula 1 manufacturers will no longer be allowed to work on the current generation of power units from mid-2028, the FIA's single-seater director Nikolas Tombazis has revealed in an exclusive…"
+  },
+  {
+   "title": "Court of Appeal rejects Audi’s call for Tsunoda penalty in Italian Grand Prix | Formula 1",
+   "source": "RaceFans",
+   "date": "2026-11-27T17:09:21Z",
+   "date_is_seen_time": false,
+   "link": "https://www.racefans.net/2026/11/27/court-of-appeal-rejects-audis-call-for-tsunoda-penalty-in-italian-grand-prix/",
+   "snippet": "The International Court of Appeal has rejected Audi's attempt to have a penalty applied to Yuki Tsunoda in the Italian Grand Prix."
+  },
+  {
+   "title": "50-year-old structure led Williams to F1 cost cap breach",
+   "source": "The Race",
+   "date": "2026-11-27T16:58:22Z",
+   "date_is_seen_time": false,
+   "link": "https://www.the-race.com/business/50-year-old-structure-led-williams-to-f1-cost-cap-breach/",
+   "snippet": "Williams team principal James Vowles has explained how the team breached the 2025 F1 cost cap rules."
+  },
+  {
+   "title": "Williams explains how it broke the F1 cost cap in 2025",
+   "source": "Crash.net",
+   "date": "2026-11-27T16:47:33Z",
+   "date_is_seen_time": false,
+   "link": "https://www.crash.net/f1/news/1111087/1/williams-explains-how-it-broke-f1-cost-cap-2025",
+   "snippet": "Williams offers explanation for its 2025 F1 cost cap breach."
+  },
+  {
+   "title": "Qatar GP: Another red flag as Gasly spins out in disrupted second practice LIVE!",
+   "source": "Sky Sports",
+   "date": "2026-11-27T16:37:00Z",
+   "date_is_seen_time": false,
+   "link": "https://www.skysports.com/f1/live-blog/12433/13617151/f1-qatar-gp-live-friday-practice-updates-results-stream-highlights-from-formula-1-race-weekend-at-lusail-international-circuit",
+   "snippet": ""
+  },
+  {
+   "title": "F1 Qatar GP LIVE: FP2 updates from Lusail as it unfolds",
+   "source": "PlanetF1",
+   "date": "2026-11-27T16:32:25Z",
+   "date_is_seen_time": false,
+   "link": "https://www.planetf1.com/news/f1-qatar-gp-live-2026-fp2-updates",
+   "snippet": "Live updates from FP2 at the F1 2026 Qatar Grand Prix at the Lusail International Circuit."
+  },
+  {
+   "title": "Ferrari F1 boss issues clear Lewis Hamilton and Charles Leclerc demand ahead of Qatar GP",
+   "source": "GPFans",
+   "date": "2026-11-27T16:28:00Z",
+   "date_is_seen_time": false,
+   "link": "https://www.gpfans.com/en/f1-news/1093364/ferrari-fred-vasseur-lewis-hamilton-charles-leclerc-demand-qatar-grand-prix/",
+   "snippet": "Ferrari boss Fred Vasseur has made his demands very clear on what he expects from Lewis Hamilton and Charles Leclerc ahead of this weekend's Qatar Grand Prix."
+  },
+  {
+   "title": "F1 - 2026 Qatar Grand Prix - Friday Press Conference Transcript",
+   "source": "FIA",
+   "date": "2026-11-27T16:24:00Z",
+   "date_is_seen_time": false,
+   "link": "https://www.fia.com/news/f1-2026-qatar-grand-prix-friday-press-conference-transcript",
+   "snippet": "TEAM REPRESENTATIVES - Laurent MEKIES (Red Bull), Ayao KOMATSU (Haas), James VOWLES (Williams) Q: Why don’t we start with the man in the middle? Ayao, please. You’ve announced Ollie for…"
+  },
+  {
+   "title": "Fernando Alonso shares heartfelt tribute after Marc Marquez’s surprise retirement",
+   "source": "Crash.net",
+   "date": "2026-11-27T16:03:12Z",
+   "date_is_seen_time": false,
+   "link": "https://www.crash.net/f1/news/1111079/1/fernando-alonso-shares-heartfelt-tribute-after-marc-marquezs-surprise-retirement",
+   "snippet": "Fernando Alonso has shared an emotional tribute to Marc Marquez following his shock MotoGP retirement."
+  },
+  {
+   "title": "F1 Qatar Grand Prix LIVE: Updates from Friday practice",
+   "source": "Crash.net",
+   "date": "2026-11-27T16:00:00Z",
+   "date_is_seen_time": false,
+   "link": "https://www.crash.net/f1/live/1044272/f1-qatar-grand-prix-live-updates-friday-practice",
+   "snippet": "Follow all the action from Friday practice at the 2026 F1 Qatar Grand Prix."
+  },
+  {
+   "title": "George Russell reveals ‘risk dial’ trigger behind Las Vegas crash",
+   "source": "PlanetF1",
+   "date": "2026-11-27T15:43:56Z",
+   "date_is_seen_time": false,
+   "link": "https://www.planetf1.com/news/george-russell-2026-las-vegas-grand-prix-crash-risk",
+   "snippet": "George Russell admitted that he is looking for \"highlights\" before F1 2026 ends."
+  },
+  {
+   "title": "ICA decision-2026-14 dated 27 11 26 (operative part) – Audi Revolut F1 Team - 2026 FIA Formula One World Championship",
+   "source": "FIA",
+   "date": "2026-11-27T15:43:00Z",
+   "date_is_seen_time": false,
+   "link": "https://www.fia.com/news/ica-decision-2026-14-dated-27-11-26-operative-part-audi-revolut-f1-team-2026-fia-formula-one",
+   "snippet": "The following hearing of the International Court of Appeal took place on 25 November 2026 in Paris: Hearing A Case ICA-2016-14: Appeal lodged by Audi Revolut F1 Team against Decision No…"
+  },
+  {
+   "title": "Max Verstappen and Lewis Hamilton are both “ruthless” but George Russell highlights key difference",
+   "source": "Crash.net",
+   "date": "2026-11-27T15:28:51Z",
+   "date_is_seen_time": false,
+   "link": "https://www.crash.net/f1/news/1111073/1/max-verstappen-and-lewis-hamilton-are-both-ruthless-george-russell-highlights-key",
+   "snippet": "George Russell makes pointed comparison between Lewis Hamilton and Max Verstappen."
+  },
+  {
+   "title": "Spotlight: Some F1 broadcasters choose not to attend Qatar Grand Prix | Brief",
+   "source": "RaceFans",
+   "date": "2026-11-27T15:27:27Z",
+   "date_is_seen_time": false,
+   "link": "https://www.racefans.net/2026/11/27/spotlight-some-f1-broadcasters-choose-not-to-attend-qatar-grand-prix/",
+   "snippet": "Some F1 broadcasters have not sent teams to Qatar"
+  },
+  {
+   "title": "FIA launches Isack Hadjar investigation after Qatar Grand Prix incident",
+   "source": "PlanetF1",
+   "date": "2026-11-27T15:05:12Z",
+   "date_is_seen_time": false,
+   "link": "https://www.planetf1.com/news/fia-isack-hadjar-qatar-grand-prix-2026-investigation",
+   "snippet": "The stewards have taken note."
+  },
+  {
+   "title": "F1 – Antonelli leads Mercedes one-two in Qatar opening practice",
+   "source": "FIA",
+   "date": "2026-11-27T15:03:00Z",
+   "date_is_seen_time": false,
+   "link": "https://www.fia.com/news/f1-antonelli-leads-mercedes-one-two-qatar-opening-practice",
+   "snippet": "Kimi Antonelli set the pace in Free Practice 1 for the 2026 FIA Formula 1 Qatar Grand Prix, beating Mercedes team-mate George Russell by half a second despite setting his best time on…"
+  },
+  {
+   "title": "Martin Brundle says Lewis Hamilton and Charles Leclerc “jockeying for dominance” at Ferrari",
+   "source": "Crash.net",
+   "date": "2026-11-27T15:00:00Z",
+   "date_is_seen_time": false,
+   "link": "https://www.crash.net/f1/news/1111014/1/martin-brundle-says-lewis-hamilton-and-charles-leclerc-jockeying-dominance",
+   "snippet": "Martin Brundle weighs in on the fallout between Lewis Hamilton and Charles Leclerc."
+  },
+  {
+   "title": "Martin Brundle compares Russell-Verstappen rivalry to Senna fight",
+   "source": "PlanetF1",
+   "date": "2026-11-27T14:47:59Z",
+   "date_is_seen_time": false,
+   "link": "https://www.planetf1.com/news/george-russell-max-verstappen-rivalry-senna-martin-brundle",
+   "snippet": "Brundle has given his verdict."
+  },
+  {
+   "title": "Antonelli leads Russell in Qatar first practice",
+   "source": "BBC Sport",
+   "date": "2026-11-27T14:42:31Z",
+   "date_is_seen_time": false,
+   "link": "https://www.bbc.co.uk/sport/formula1/articles/cqpv903y40jko?at_medium=RSS&at_campaign=rss",
+   "snippet": "World champion Kimi Antonelli heads Mercedes team-mate George Russell in first practice at the penultimate race of the season in Qatar."
+  },
+  {
+   "title": "F1 Qatar GP: Kimi Antonelli leads Mercedes 1-2 in tricky FP1",
+   "source": "Motorsport.com",
+   "date": "2026-11-27T14:40:58Z",
+   "date_is_seen_time": false,
+   "link": "https://www.motorsport.com/f1/news/f1-qatar-gp-fp1-report-10878251/10878251/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+   "snippet": "2026 Formula 1 world champion Kimi Antonelli has comfortably topped first free practice at the Qatar Grand Prix, holding off Mercedes team-mate George Russell as drivers grappled with the tricky…"
+  },
+  {
+   "title": "Antonelli quickest by half a second on medium tyre compound in first practice | Formula 1",
+   "source": "RaceFans",
+   "date": "2026-11-27T14:40:22Z",
+   "date_is_seen_time": false,
+   "link": "https://www.racefans.net/2026/11/27/antonelli-quickest-by-half-a-second-on-medium-tyre-compound-in-first-practice/",
+   "snippet": "Andrea Kimi Antonelli was emphatically quickest in the opening practice session for the Qatar Grand Prix."
+  },
+  {
+   "title": "F1 Qatar GP: Antonelli leads Russell in opening practice",
+   "source": "Autosport",
+   "date": "2026-11-27T14:39:27Z",
+   "date_is_seen_time": false,
+   "link": "https://www.autosport.com/f1/news/f1-qatar-gp-fp1-report-10878259/10878259/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+   "snippet": "Newly crowned world champion Kimi Antonelli has comfortably topped first practice at Formula 1's Qatar Grand Prix, holding off Mercedes team-mate George Russell as drivers grappled with the tricky…"
+  },
+  {
+   "title": "2026 F1 Qatar Grand Prix: Friday practice results",
+   "source": "Crash.net",
+   "date": "2026-11-27T14:38:00Z",
+   "date_is_seen_time": false,
+   "link": "https://www.crash.net/f1/results/1111050/1/2026-f1-qatar-grand-prix-friday-practice-results",
+   "snippet": "Full results from Friday’s practice sessions at the 2026 F1 Qatar Grand Prix."
+  },
+  {
+   "title": "What happened in 2026 F1 Qatar GP first practice",
+   "source": "The Race",
+   "date": "2026-11-27T14:37:28Z",
+   "date_is_seen_time": false,
+   "link": "https://www.the-race.com/formula-1/what-happened-in-2026-f1-qatar-gp-first-practice/",
+   "snippet": "New F1 world champion Kimi Antonelli comfortably set the pace in first practice in Qatar, despite failing to complete a clean quick lap on the softest tyre compound"
+  },
+  {
+   "title": "Kimi Antonelli delivers a Qatar statement as George Russell falls half a second behind",
+   "source": "PlanetF1",
+   "date": "2026-11-27T14:35:11Z",
+   "date_is_seen_time": false,
+   "link": "https://www.planetf1.com/news/2026-qatar-grand-prix-fp1-report",
+   "snippet": "Antonelli was the fastest driver, but he was also only one who didn't improve on the soft Pirelli tyres."
+  },
+  {
+   "title": "F1 results: Qatar Grand Prix 2026 – FP1 (Lusail)",
+   "source": "PlanetF1",
+   "date": "2026-11-27T14:34:19Z",
+   "date_is_seen_time": false,
+   "link": "https://www.planetf1.com/news/f1-results-qatar-grand-prix-2026-fp1",
+   "snippet": "A complete rundown of the F1 results from FP1 at the 2026 Qatar Grand Prix at Lusail."
+  },
+  {
+   "title": "F1 Results Today: Qatar Grand Prix practice times and positions from Lusail",
+   "source": "GPFans",
+   "date": "2026-11-27T14:34:00Z",
+   "date_is_seen_time": false,
+   "link": "https://www.gpfans.com/en/f1-news/1093456/f1-results-today-qatar-grand-prix-2026-practice-fp1-fp2-times/",
+   "snippet": "The penultimate race weekend of the 2026 F1 season kicked off in Qatar on Friday, under the lights at the Lusail International Circuit."
+  },
+  {
+   "title": "F1 2026 Qatar Grand Prix practice results",
+   "source": "The Race",
+   "date": "2026-11-27T14:33:27Z",
+   "date_is_seen_time": false,
+   "link": "https://www.the-race.com/formula-1/f1-2026-qatar-grand-prix-practice-results/",
+   "snippet": "All the practice session results from Formula 1's 2026 Qatar Grand Prix will appear here."
+  },
+  {
+   "title": "Kimi Antonelli dominates unusual first Qatar Grand Prix practice to head Mercedes 1-2",
+   "source": "Crash.net",
+   "date": "2026-11-27T14:32:53Z",
+   "date_is_seen_time": false,
+   "link": "https://www.crash.net/f1/news/1111048/1/kimi-antonelli-dominates-unusual-first-qatar-grand-prix-practice-head-mercedes-1",
+   "snippet": "Kimi Antonelli set the pace in an unconventional opening practice in Qatar."
+  },
+  {
+   "title": "Antonelli dominates Qatar first practice",
+   "source": "Sky Sports",
+   "date": "2026-11-27T14:30:00Z",
+   "date_is_seen_time": false,
+   "link": "https://www.skysports.com/f1/news/12433/13617130/qatar-gp-kimi-antonelli-dominates-first-practice-from-george-russell-at-lusail-international-circuit",
+   "snippet": "Kimi Antonelli dominated first practice for the Qatar Grand Prix as he led team-mate George Russell in a Mercedes one-two."
+  },
+  {
+   "title": "Martin Brundle reminded of Ayrton Senna rivalry with Max Verstappen-George Russell “bad blood”",
+   "source": "Crash.net",
+   "date": "2026-11-27T13:35:35Z",
+   "date_is_seen_time": false,
+   "link": "https://www.crash.net/f1/news/1110992/1/martin-brundle-reminded-ayrton-senna-rivalry-max-verstappen-george-russell-bad",
+   "snippet": "Martin Brundle casts his verdict on the rivalry between Max Verstappen and George Russell."
+  },
+  {
+   "title": "F1 Qatar GP LIVE: FP1 as it happened in Lusail",
+   "source": "PlanetF1",
+   "date": "2026-11-27T13:09:04Z",
+   "date_is_seen_time": false,
+   "link": "https://www.planetf1.com/news/f1-qatar-gp-live-2026-fp1-updates",
+   "snippet": "Live updates from FP1 at the F1 2026 Qatar Grand Prix."
+  },
+  {
+   "title": "Hamilton vs Leclerc exposes Ferrari boss as painful Toto Wolff comparison made",
+   "source": "GPFans",
+   "date": "2026-11-27T12:57:00Z",
+   "date_is_seen_time": false,
+   "link": "https://www.gpfans.com/en/f1-news/1093345/lewis-hamilton-charles-leclerc-ferrari-fred-vasseur-exposed-toto-wolff-comparison/",
+   "snippet": "You just knew when Charles Leclerc and Lewis Hamilton collided in Las Vegas that the media in Italy would have a lot to say about it, and unfortunately for Fred Vasseur, he's once again under…"
+  },
+  {
+   "title": "F1 drivers played game of Kahoot! during crunch FIA rules and penalty meeting",
+   "source": "Crash.net",
+   "date": "2026-11-27T12:33:25Z",
+   "date_is_seen_time": false,
+   "link": "https://www.crash.net/f1/news/1110966/1/f1-drivers-played-game-during-crunch-fia-rules-and-penalty-meeting",
+   "snippet": "The FIA got F1 drivers to play a game of Kahoot! during the annual rules summit in Qatar."
+  },
+  {
+   "title": "Russell: Hamilton ruthless like Verstappen but has grace and values",
+   "source": "Sky Sports",
+   "date": "2026-11-27T12:30:00Z",
+   "date_is_seen_time": false,
+   "link": "https://www.skysports.com/f1/news/12433/13616912/george-russell-says-lewis-hamilton-is-a-ruthless-competitor-like-max-verstappen-but-has-incredible-grace-and-values",
+   "snippet": "George Russell says Lewis Hamilton is an equally \"ruthless competitor\" to Max Verstappen but that his former team-mate has \"incredible values, grace and dignity\"."
+  },
+  {
+   "title": "Spotlight: Why the best thing about Las Vegas for Antonelli is its F1 track | Brief",
+   "source": "RaceFans",
+   "date": "2026-11-27T12:09:47Z",
+   "date_is_seen_time": false,
+   "link": "https://www.racefans.net/2026/11/27/spotlight-why-the-best-thing-about-las-vegas-for-antonelli-is-its-f1-track/",
+   "snippet": "'I'm not old enough to do anything other than drive' in Las Vegas"
+  },
+  {
+   "title": "Sainz proposes intriguing DRS solution for F1 2030",
+   "source": "Autosport",
+   "date": "2026-11-27T11:48:18Z",
+   "date_is_seen_time": false,
+   "link": "https://www.autosport.com/f1/news/carlos-sainz-explains-his-intriguing-drs-proposal-for-f1-2030/10878170/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+   "snippet": "With F1 close to signing off on the overarching tenets of its 2030 return to V8 power units, some of its leading drivers have fleshed out ideas of how to make those into a compelling product. F1 is…"
+  },
+  {
+   "title": "Carlos Sainz explains his intriguing DRS proposal for F1 2030",
+   "source": "Motorsport.com",
+   "date": "2026-11-27T11:47:59Z",
+   "date_is_seen_time": false,
+   "link": "https://www.motorsport.com/f1/news/carlos-sainz-explains-his-intriguing-drs-proposal-for-f1-2030/10878146/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+   "snippet": "With F1 close to signing off on the overarching tenets of its 2030 return to V8 power units, some of its leading drivers have fleshed out ideas of how to make those into a compelling product. F1 is…"
+  },
+  {
+   "title": "Audi goes it alone with F1 upgrade as 10 rivals bring nothing to Qatar",
+   "source": "PlanetF1",
+   "date": "2026-11-27T11:35:32Z",
+   "date_is_seen_time": false,
+   "link": "https://www.planetf1.com/news/fia-upgrades-2026-qatar-grand-prix",
+   "snippet": "While the other 10 teams arrive in Qatar without updates, Audi has made one change to its R26."
+  },
+  {
+   "title": "Max Verstappen reveals scary crash that has put him off racing at the Indy 500",
+   "source": "Crash.net",
+   "date": "2026-11-27T11:33:26Z",
+   "date_is_seen_time": false,
+   "link": "https://www.crash.net/f1/news/1110960/1/max-verstappen-reveals-scary-crash-has-put-him-racing-indy-500",
+   "snippet": "Max Verstappen has revealed why he has been put off racing at the Indy 500."
+  },
+  {
+   "title": "Charles Leclerc refuses to answer key Ferrari questions amid Lewis Hamilton tensions",
+   "source": "GPFans",
+   "date": "2026-11-27T11:28:00Z",
+   "date_is_seen_time": false,
+   "link": "https://www.gpfans.com/en/f1-news/1093412/charles-leclerc-f1-qatar-gp-press-conference-lewis-hamilton-ferrari/",
+   "snippet": "Charles Leclerc faced the media on Thursday for the first time since his latest clash with Ferrari team-mate Lewis Hamilton - but he was tight-lipped when it really mattered."
+  },
+  {
+   "title": "Honda can't find an issue after Fernando Alonso's intriguing \"broken engine\" radio message",
+   "source": "Autosport",
+   "date": "2026-11-27T11:03:47Z",
+   "date_is_seen_time": false,
+   "link": "https://www.autosport.com/f1/news/why-fernando-alonso-reported-a-broken-engine-in-las-vegas-but-honda-cant-find-an-issue/10878121/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+   "snippet": "On his final lap of the Formula 1 Las Vegas Grand Prix, Fernando Alonso called it a day. The two-time world champion locked up at the end of the long straight before telling the team over the radio…"
+  },
+  {
+   "title": "Why Fernando Alonso reported a \"broken engine\" in Las Vegas – but Honda can’t find an issue",
+   "source": "Motorsport.com",
+   "date": "2026-11-27T11:03:25Z",
+   "date_is_seen_time": false,
+   "link": "https://www.motorsport.com/f1/news/why-fernando-alonso-reported-a-broken-engine-in-las-vegas-but-honda-cant-find-an-issue/10878119/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+   "snippet": "On his final lap of the Formula 1 Las Vegas Grand Prix, Fernando Alonso called it a day. The two-time world champion locked up at the end of the long straight before telling the team over the radio…"
+  },
+  {
+   "title": "Charles Leclerc tight-lipped on Ferrari response to Lewis Hamilton clashes",
+   "source": "PlanetF1",
+   "date": "2026-11-27T10:45:25Z",
+   "date_is_seen_time": false,
+   "link": "https://www.planetf1.com/news/charles-leclerc-tight-lipped-ferrari-response-lewis-hamilton-clashes",
+   "snippet": "Charles Leclerc and Lewis Hamilton have clashed on several occasions in F1 2026."
+  },
+  {
+   "title": "F1 drivers go through quizzical exercise in stewarding debate",
+   "source": "Autosport",
+   "date": "2026-11-27T10:30:13Z",
+   "date_is_seen_time": false,
+   "link": "https://www.autosport.com/f1/news/f1-drivers-go-through-quizzical-exercise-in-stewarding-debate/10878073/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+   "snippet": "Few matters of day-to-day business in a Formula 1 weekend divide opinion as deeply as stewarding decisions, particularly their consistency. A vocal minority of drivers tend to dominate this debate…"
+  },
+  {
+   "title": "Isack Hadjar reveals Red Bull ‘investigation’ after RB22 front wing ‘exploded’",
+   "source": "PlanetF1",
+   "date": "2026-11-27T10:04:56Z",
+   "date_is_seen_time": false,
+   "link": "https://www.planetf1.com/news/isack-hadjar-red-bull-front-wing-investigation-las-vegas-gp",
+   "snippet": "\"I just think everything aligned so it would explode at that time...\""
+  },
+  {
+   "title": "FIA summon F1 driver for being late ahead of serving Qatar Grand Prix grid penalty",
+   "source": "GPFans",
+   "date": "2026-11-27T09:59:00Z",
+   "date_is_seen_time": false,
+   "link": "https://www.gpfans.com/en/f1-news/1093425/f1-sergio-perez-qatar-grand-prix-penalty-late-press-conference-cadillac/",
+   "snippet": "Sergio Perez showed up significantly late for the mandatory press conference on Thursday afternoon ahead of the Qatar Grand Prix."
+  },
+  {
+   "title": "How Rosberg beat Hamilton – and his demons – to clinch F1 world title",
+   "source": "Autosport",
+   "date": "2026-11-27T09:35:50Z",
+   "date_is_seen_time": false,
+   "link": "https://www.autosport.com/f1/news/how-nico-rosberg-beat-lewis-hamilton-and-his-demon-to-clinch-f1-world-title/10878126/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+   "snippet": "“My superpower was preparation.” This may not make for a fascinating storyline but perfectly encapsulates how Nico Rosberg surpassed Lewis Hamilton on his way the 2016 Formula 1 world title. You…"
+  },
+  {
+   "title": "How Nico Rosberg beat Lewis Hamilton – and his demons – to clinch F1 world title",
+   "source": "Motorsport.com",
+   "date": "2026-11-27T09:34:17Z",
+   "date_is_seen_time": false,
+   "link": "https://www.motorsport.com/f1/news/how-nico-rosberg-beat-lewis-hamilton-and-his-demon-to-clinch-f1-world-title/10877499/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+   "snippet": "“My superpower was preparation.” This may not make for a fascinating storyline but perfectly encapsulates how Nico Rosberg surpassed Lewis Hamilton on his way the 2016 Formula 1 world title. You…"
+  },
+  {
+   "title": "Drivers divided on how F1's 2030 overtaking aid should work",
+   "source": "The Race",
+   "date": "2026-11-27T09:20:19Z",
+   "date_is_seen_time": false,
+   "link": "https://www.the-race.com/formula-1/drivers-divided-on-how-f1s-2030-overtaking-aid-should-work/",
+   "snippet": "The Las Vegas GP put overtaking in F1 into a fresh spotlight, but the drivers aren't aligned on how the 2030 V8 overtaking aid should be defined"
+  },
+  {
+   "title": "The uncomfortable truth behind George Russell’s latest Max Verstappen outburst",
+   "source": "PlanetF1",
+   "date": "2026-11-27T09:02:54Z",
+   "date_is_seen_time": false,
+   "link": "https://www.planetf1.com/features/george-russell-max-verstappen-punchbag",
+   "snippet": "What's really going on with George Russell?"
+  },
+  {
+   "title": "Red Bull to reinforce F1 car design after freak front wing explosion failure",
+   "source": "Crash.net",
+   "date": "2026-11-27T09:00:00Z",
+   "date_is_seen_time": false,
+   "link": "https://www.crash.net/f1/news/1110926/1/red-bull-reinforce-f1-car-design-after-freak-front-wing-explosion-failure",
+   "snippet": "Red Bull is working to reinforce the design of its front wing after Isack Hadjar suffered a freak failure in Las Vegas."
+  },
+  {
+   "title": "F1 Practice Today: 2026 Qatar Grand Prix schedule, start times and TV channel",
+   "source": "GPFans",
+   "date": "2026-11-27T08:50:00Z",
+   "date_is_seen_time": false,
+   "link": "https://www.gpfans.com/en/f1-news/1093394/f1-practice-today-2026-qatar-grand-prix-schedule-start-times-and-tv-channel/",
+   "snippet": "F1 gets back to 'normal' after a wild weekend in Las Vegas with the schedule once again beginning on a Friday for the 2026 Qatar Grand Prix."
+  },
+  {
+   "title": "‘Spin the truth’ – Russell disputes Ted Kravitz, Buxton accounts over Verstappen interview claim",
+   "source": "PlanetF1",
+   "date": "2026-11-27T08:24:56Z",
+   "date_is_seen_time": false,
+   "link": "https://www.planetf1.com/news/ted-kravitz-george-russell-max-verstappen-interview",
+   "snippet": "\"That's a little bit cheeky.\""
+  },
+  {
+   "title": "Ollie Bearman opens up about \"unnerving\" Haas renewal and Ferrari F1 'dream'",
+   "source": "Crash.net",
+   "date": "2026-11-27T08:00:00Z",
+   "date_is_seen_time": false,
+   "link": "https://www.crash.net/f1/news/1110925/1/ollie-bearman-opens-about-unnerving-haas-renewal-and-ferrari-f1-dream",
+   "snippet": "Ollie Bearman has opened up about his \"unnerving\" drawn-out F1 renewal with Haas."
+  },
+  {
+   "title": "Charles Leclerc linked with shock Aston Martin move with '€70m a year on the table'",
+   "source": "GPFans",
+   "date": "2026-11-27T07:58:00Z",
+   "date_is_seen_time": false,
+   "link": "https://www.gpfans.com/en/f1-news/1093401/f1-charles-leclerc-aston-martin-ferrari-lewis-hamilton-70m-year-adrian-newey/",
+   "snippet": "The Lewis Hamilton and Charles Leclerc F1 rivalry could be about to get its biggest twist with a spectacular driver move."
+  },
+  {
+   "title": "Lewis Hamilton reveals plan to ‘shoot the s**t’ with Leclerc over Ferrari differences",
+   "source": "PlanetF1",
+   "date": "2026-11-27T07:51:10Z",
+   "date_is_seen_time": false,
+   "link": "https://www.planetf1.com/news/lewis-hamilton-reveals-charles-leclerc-ferrari-differences-plan",
+   "snippet": "Lewis Hamilton has elaborated on how he plans to go about resolving tensions with Ferrari teammate Charles Leclerc."
+  },
+  {
+   "title": "Russell says he’s learned some in media will be “cheeky” with his quotes | Formula 1",
+   "source": "RaceFans",
+   "date": "2026-11-27T07:15:07Z",
+   "date_is_seen_time": false,
+   "link": "https://www.racefans.net/2026/11/27/russell-says-hes-learned-some-in-media-will-be-cheeky-with-his-quotes/",
+   "snippet": "George Russell claimed two F1 television reporters had been \"a little bit cheeky\" in representing their discussions with him."
+  },
+  {
+   "title": "F1 takes unprecedented action ahead of Qatar Grand Prix",
+   "source": "PlanetF1",
+   "date": "2026-11-27T07:03:45Z",
+   "date_is_seen_time": false,
+   "link": "https://www.planetf1.com/news/fia-qatar-grand-prix-2026-pirelli-tyres",
+   "snippet": "Further measures have been put in place."
+  },
   {
    "title": "All the stories that got the Qatar paddock talking",
    "source": "Formula1.com",
@@ -24,6 +552,14 @@
    "date_is_seen_time": false,
    "link": "https://www.planetf1.com/news/nico-rosberg-george-russell-2027-title-prediction",
    "snippet": "Russell was supposed to be the title favourite. Now, Rosberg isn't even convinced he'll challenge next year."
+  },
+  {
+   "title": "10 years on: How Nico Rosberg embraced marginal gains to finally defeat Lewis Hamilton",
+   "source": "PlanetF1",
+   "date": "2026-11-27T05:03:09Z",
+   "date_is_seen_time": false,
+   "link": "https://www.planetf1.com/features/nico-rosberg-lewis-hamilton-f1-2016-marginal-gains",
+   "snippet": "This season marks 10 years since Nico Rosberg won the title and walked away. Here's how he did it."
   },
   {
    "title": "Max Verstappen gives emphatic response to George Russell Las Vegas drama",
@@ -2888,6 +3424,14 @@
    "date_is_seen_time": true,
    "link": "https://www.formula1.com/en/latest/article/battle-for-second-place-tightens-as-2026-world-championship-finish-line-nears.5Rqr6EDZZLiPtFbnomVdfb",
    "snippet": "Max Verstappen made it four wins in six races but challengers for second place are queueing up."
+  },
+  {
+   "title": "A festive classic, now available on BBC iPlayer",
+   "source": "BBC Sport",
+   "date": "2026-11-23T01:30:27Z",
+   "date_is_seen_time": false,
+   "link": "https://www.bbc.co.uk/iplayer/episode/m002mdy1?at_mid=im8zSWI2AV&at_campaign=The_Holiday&at_medium=display_ad&at_campaign_type=owned&at_nation=NET&at_audience_id=SS&at_product=iplayer&at_brand=m002mdy1&at_ptr_name=bbc&at_ptr_type=media&at_format=image&at_objective=consumption&at_link_title=The_Holiday&at_bbc_team=BBC&at_creation=Film",
+   "snippet": "Kate Winslet stars. Sometimes the heart needs a holiday to find where it truly belongs"
   },
   {
    "title": "Max Verstappen compares Vegas mayhem to Mario Kart",

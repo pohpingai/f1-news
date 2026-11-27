@@ -1,12 +1,160 @@
 {
- "updated": "2026-11-27T06:33:52Z",
+ "updated": "2026-11-27T17:49:20Z",
  "model": "anthropic/claude-haiku-5.5",
  "headline_of_the_day": {
-  "date": "2026-11-27",
-  "text": "Leclerc and Hamilton collide again in Las Vegas, earning a 10-second penalty and Ferrari's \"unacceptable\" verdict, while Bearman stays at Haas for 2027.",
-  "written": "2026-11-27T06:33:52Z"
+  "date": "2026-11-28",
+  "text": "The FIA confirmed engine freeze and testing limits ahead of the V8 return, while the Qatar weekend opened with Antonelli fastest in FP1 and Ugochukwu on pole for his F2 debut. Wait, Ugochukwu's pole is in F2, not the F1 session, so that's fine as a weekend highlight. Note the sentence is within 30 words.",
+  "written": "2026-11-27T17:49:20Z"
  },
  "cards": [
+  {
+   "id": "c10fe2ea9",
+   "created": "2026-11-27T17:49:20Z",
+   "stories": [
+    {
+     "title": "F3 champion Ugochukwu takes pole on F2 debut in Qatar",
+     "source": "Formula1.com",
+     "date": "2026-11-27T17:49:16Z",
+     "link": "https://www.formula1.com/en/latest/article/f2-formula-3-champion-ugochukwu-takes-pole-position-on-series-debut-in-qatar.1JCyMKDD3cZcIEGj2c9Zfp",
+     "snippet": "Ugo Ugochukwu put in a stunning performance to take pole position on his Formula 2 debut in Qatar."
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Ugochukwu takes pole on F2 debut in Qatar",
+   "summary": "F3 champion Ugo Ugochukwu took pole position on his Formula 2 debut at the Qatar Grand Prix weekend. The performance was described as stunning.",
+   "disagreement": "",
+   "label": "Confirmed",
+   "updated": "2026-11-27T17:49:20Z"
+  },
+  {
+   "id": "c73e40055",
+   "created": "2026-11-27T17:49:20Z",
+   "stories": [
+    {
+     "title": "LIVE COVERAGE: FP2 resumes in Qatar after red flag",
+     "source": "Formula1.com",
+     "date": "2026-11-27T17:49:16Z",
+     "link": "https://www.formula1.com/en/latest/article/live-coverage-second-practice-in-qatar-2026.73fYckKHdfedONjDTaSgeH",
+     "snippet": "Live coverage of Friday's second practice session at the 2026 Qatar Grand Prix."
+    }
+   ],
+   "merge_reasons": [],
+   "title": "FP2 resumes in Qatar after red flag",
+   "summary": "Live coverage followed Friday's second practice session at the Qatar Grand Prix after a red flag. Running resumed after the stoppage.",
+   "disagreement": "",
+   "label": "Reported",
+   "updated": "2026-11-27T17:49:20Z"
+  },
+  {
+   "id": "ceb9c2e92",
+   "created": "2026-11-27T17:49:20Z",
+   "stories": [
+    {
+     "title": "Antonelli leads Russell in Qatar as Mercedes control FP1",
+     "source": "Formula1.com",
+     "date": "2026-11-27T17:49:16Z",
+     "link": "https://www.formula1.com/en/latest/article/fp1-antonelli-leads-russell-in-qatar-as-mercedes-control-opening-practice.3v7t8Oja9vAGkic9TxN7FR",
+     "snippet": "Kimi Antonelli finished fastest in Free Practice 1 ahead of the Qatar Grand Prix, the Mercedes driver beating team mate George Russell and Isack Hadjar's Red Bull."
+    },
+    {
+     "title": "AS IT HAPPENED: First practice for the Qatar GP",
+     "source": "Formula1.com",
+     "date": "2026-11-27T17:49:16Z",
+     "link": "https://www.formula1.com/en/latest/article/live-coverage-first-practice-in-qatar-2026.4b9OJ86R4u41lS38JHHCuO",
+     "snippet": "Live coverage of Friday's first practice session for the 2026 Qatar Grand Prix."
+    }
+   ],
+   "merge_reasons": [
+    {
+     "time": "2026-11-27T17:49:20Z",
+     "added": [
+      "https://www.formula1.com/en/latest/article/fp1-antonelli-leads-russell-in-qatar-as-mercedes-control-opening-practice.3v7t8Oja9vAGkic9TxN7FR",
+      "https://www.formula1.com/en/latest/article/live-coverage-first-practice-in-qatar-2026.4b9OJ86R4u41lS38JHHCuO"
+     ],
+     "joined_existing": false,
+     "reason": "Both the results report and the live coverage concern the same Qatar Grand Prix first practice session."
+    }
+   ],
+   "title": "Antonelli fastest in Qatar FP1, Mercedes lead the session",
+   "summary": "Kimi Antonelli finished fastest in Qatar's first practice, ahead of teammate George Russell and Isack Hadjar. Live coverage of the same first practice session was also published.",
+   "disagreement": "",
+   "label": "Confirmed",
+   "updated": "2026-11-27T17:49:20Z"
+  },
+  {
+   "id": "cb12f047c",
+   "created": "2026-11-27T17:49:20Z",
+   "stories": [
+    {
+     "title": "FIA confirms final decision as Audi F1 team loses Yuki Tsunoda appeal",
+     "source": "PlanetF1",
+     "date": "2026-11-27T17:42:42Z",
+     "link": "https://www.planetf1.com/news/fia-audi-yuki-tsunoda-appeal",
+     "snippet": "Audi has lost its appeal."
+    }
+   ],
+   "merge_reasons": [],
+   "title": "FIA's final decision: Audi loses appeal over Tsunoda",
+   "summary": "The FIA has confirmed its final decision, and Audi has lost its appeal relating to Yuki Tsunoda. The report does not give further details of the appeal.",
+   "disagreement": "",
+   "label": "Confirmed",
+   "updated": "2026-11-27T17:49:20Z"
+  },
+  {
+   "id": "c3b4ccbe8",
+   "created": "2026-11-27T17:49:20Z",
+   "stories": [
+    {
+     "title": "George Russell takes aim at journalist after Max Verstappen row - ‘They spin the truth’",
+     "source": "GPFans",
+     "date": "2026-11-27T17:33:00Z",
+     "link": "https://www.gpfans.com/en/f1-news/1093454/george-russell-max-verstappen-f1-row-will-buxton-reaction/",
+     "snippet": "While the F1 focus this week has been very much on the relationship between George Russell and Max Verstappen, the Mercedes star also has an axe to grind with some media members."
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Russell takes aim at media after Verstappen row",
+   "summary": "George Russell has criticised some journalists, saying they \"spin the truth\". His comments come as the Verstappen row has dominated the F1 focus this week.",
+   "disagreement": "",
+   "label": "Reported",
+   "updated": "2026-11-27T17:49:20Z"
+  },
+  {
+   "id": "c2cbf76e7",
+   "created": "2026-11-27T17:49:20Z",
+   "stories": [
+    {
+     "title": "FIA details F1 engine freeze and imposes testing restrictions ahead of V8 return",
+     "source": "Autosport",
+     "date": "2026-11-27T17:14:37Z",
+     "link": "https://www.autosport.com/f1/news/fia-details-f1-engine-freeze-and-imposes-testing-restrictions-ahead-of-v8-return/10878336/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+     "snippet": "Formula 1 manufacturers will no longer be allowed to work on the current generation of power units from mid-2028, the FIA's single-seater director Nikolas Tombazis has revealed in an exclusive…"
+    },
+    {
+     "title": "FIA confirms F1 engine freeze and imposes testing restrictions ahead of V8 return",
+     "source": "Motorsport.com",
+     "date": "2026-11-27T17:15:13Z",
+     "link": "https://www.motorsport.com/f1/news/fia-confirms-f1-engine-freeze-and-imposes-testing-restrictions-ahead-of-v8-return/10878333/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "snippet": "Formula 1 manufacturers will no longer be allowed to work on the current generation of power units from mid-2028, the FIA's single-seater director Nikolas Tombazis has revealed in an exclusive…"
+    }
+   ],
+   "merge_reasons": [
+    {
+     "time": "2026-11-27T17:49:20Z",
+     "added": [
+      "https://www.autosport.com/f1/news/fia-details-f1-engine-freeze-and-imposes-testing-restrictions-ahead-of-v8-return/10878336/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "https://www.motorsport.com/f1/news/fia-confirms-f1-engine-freeze-and-imposes-testing-restrictions-ahead-of-v8-return/10878333/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www"
+     ],
+     "joined_existing": false,
+     "reason": "The Autosport and Motorsport.com reports both relay the same announcement by Nikolas Tombazis on the engine freeze and testing restrictions."
+    }
+   ],
+   "title": "FIA confirms F1 engine freeze and testing limits before V8 return",
+   "summary": "From mid-2028, manufacturers will no longer be allowed to work on the current generation of power units, according to FIA single-seater director Nikolas Tombazis. The FIA also imposed testing restrictions ahead of the V8 engine return.",
+   "disagreement": "",
+   "label": "Confirmed",
+   "updated": "2026-11-27T17:49:20Z"
+  },
   {
    "id": "cbd7d6203",
    "created": "2026-11-27T06:33:52Z",
@@ -21761,6 +21909,37 @@
     }
    ],
    "reason": "The new story covers reports on Hamilton's growing influence at Ferrari and an FIA court review, which is not the same event as the Las Vegas clash itself."
+  },
+  {
+   "time": "2026-11-27T17:49:20Z",
+   "items": [
+    {
+     "title": "George Russell takes aim at journalist after Max Verstappen row - ‘They spin the truth’",
+     "source": "GPFans",
+     "link": "https://www.gpfans.com/en/f1-news/1093454/george-russell-max-verstappen-f1-row-will-buxton-reaction/"
+    },
+    {
+     "card": "ce905dcf6",
+     "title": "Russell reacts to Verstappen's Las Vegas comments"
+    }
+   ],
+   "reason": "The Formula1.com piece covers Russell's view of his Verstappen tensions, while the new story is Russell criticising journalists, a different statement."
+  },
+  {
+   "time": "2026-11-27T17:49:20Z",
+   "items": [
+    {
+     "title": "LIVE COVERAGE: FP2 resumes in Qatar after red flag",
+     "source": "Formula1.com",
+     "link": "https://www.formula1.com/en/latest/article/live-coverage-second-practice-in-qatar-2026.73fYckKHdfedONjDTaSgeH"
+    },
+    {
+     "title": "Antonelli leads Russell in Qatar as Mercedes control FP1",
+     "source": "Formula1.com",
+     "link": "https://www.formula1.com/en/latest/article/fp1-antonelli-leads-russell-in-qatar-as-mercedes-control-opening-practice.3v7t8Oja9vAGkic9TxN7FR"
+    }
+   ],
+   "reason": "The FP2 live coverage concerns a different practice session from the FP1 results, so they are not the same event."
   }
  ],
  "processed": [
@@ -21791,6 +21970,7 @@
   "https://www.autosport.com/f1/news/f1-set-for-v8-return-from-2030/10875119/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
   "https://www.autosport.com/f1/news/f1-set-to-reduce-customer-teams-as-key-2030-details-emerge/10877058/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
   "https://www.autosport.com/f1/news/ferrari-set-for-crunch-meeting-as-hamilton-and-leclerc-tension-reaches-brazil/10872030/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+  "https://www.autosport.com/f1/news/fia-details-f1-engine-freeze-and-imposes-testing-restrictions-ahead-of-v8-return/10878336/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
   "https://www.autosport.com/f1/news/fia-reveals-aduo-results-in-final-review-of-2026-f1-season/10873566/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
   "https://www.autosport.com/f1/news/fia-to-introduce-full-time-f1-stewards-from-2027-to-improve-consistency/10875719/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
   "https://www.autosport.com/f1/news/floor-damage-deployment-down-to-lewis-hamiltons-las-vegas-q2-exit/10876316/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
@@ -22189,12 +22369,14 @@
   "https://www.formula1.com/en/latest/article/f1-academy-palmowski-fends-off-larsen-for-victory-as-campos-racing-claim-teams-title-in-las-vegas.6Fw8vZsWjOFWzvtWp4diBW",
   "https://www.formula1.com/en/latest/article/f1-academy-palmowski-makes-history-as-she-secures-her-final-pole-position-around-las-vegas.1n8CvOtY14APLOTC3pzBrL",
   "https://www.formula1.com/en/latest/article/f1-fantasy-strategist-preview-the-williams-mini-league-and-what-you-need-to-know-for-las-vegas-and-qatar.6hHYy6ckLb4oqMNCVPbRul",
+  "https://www.formula1.com/en/latest/article/f2-formula-3-champion-ugochukwu-takes-pole-position-on-series-debut-in-qatar.1JCyMKDD3cZcIEGj2c9Zfp",
   "https://www.formula1.com/en/latest/article/fia-confirm-williams-minor-overspend-breach-in-2025-cost-cap-review.12rGorQ1pzc6aH0LX2WdLZ",
   "https://www.formula1.com/en/latest/article/fia-confirms-unanimous-agreement-on-framework-for-2030-power-units.AZ7EFvWPyGPH0xG1JS8Ud",
   "https://www.formula1.com/en/latest/article/fia-to-introduce-full-time-stewards-in-f1-from-2027.tbSC1HZmNj46TbAjzEPGj",
   "https://www.formula1.com/en/latest/article/first-time-where-we-can-almost-stop-playing-catch-up-norris-assesses-mclarens-turnaround-ahead-of-las-vegas-gp.5AFaPtFnGnni7aXVlu3UiC",
   "https://www.formula1.com/en/latest/article/formula-1-and-nike-join-forces-to-shape-the-future-of-sport-and-culture.W36MoCI5DL9I0evuX1xtd",
   "https://www.formula1.com/en/latest/article/formula-1-and-whoop-announce-landmark-partnership-to-bring-fans-closer-to-the-human-side-of-racing.1YTsprVRx7MPlaDJnniexm",
+  "https://www.formula1.com/en/latest/article/fp1-antonelli-leads-russell-in-qatar-as-mercedes-control-opening-practice.3v7t8Oja9vAGkic9TxN7FR",
   "https://www.formula1.com/en/latest/article/fp2-russell-beats-gasly-and-leclerc-to-top-spot-in-wet-las-vegas-gp-practice.62NwXdkf1krQs0esgViJtc",
   "https://www.formula1.com/en/latest/article/from-monza-mayhem-to-suzuka-showdowns-10-dramatic-rivalry-flashpoints-in-f1-history.3tetZNSgL2jM1F3THX3k1M",
   "https://www.formula1.com/en/latest/article/gallery-aston-martin-showcase-bespoke-livery-for-las-vegas-grand-prix.7f71lWPYrxvriroCo30iaY",
@@ -22229,8 +22411,10 @@
   "https://www.formula1.com/en/latest/article/las-vegas-lowdown-all-the-key-moments-as-verstappen-wins-remarkable-race-and-ferraris-drivers-collide-again.62D9SeuQXSboAspMm7N0pN",
   "https://www.formula1.com/en/latest/article/lindblad-left-trying-to-hold-back-tears-after-las-vegas-spin-as-he-reflects-on-emotional-social-media-post.6eGFigwGZhsbeR31PHHf4j",
   "https://www.formula1.com/en/latest/article/live-coverage-first-practice-in-las-vegas-2026.6znaP19Dx0zBrPVStcB2BP",
+  "https://www.formula1.com/en/latest/article/live-coverage-first-practice-in-qatar-2026.4b9OJ86R4u41lS38JHHCuO",
   "https://www.formula1.com/en/latest/article/live-coverage-formula-1-heineken-las-vegas-grand-prix-2026.5lbMAk1JxHBbBVelEl2kyc",
   "https://www.formula1.com/en/latest/article/live-coverage-second-practice-in-las-vegas-2026.4jTMaRKyeJ2CONkCrsDQV1",
+  "https://www.formula1.com/en/latest/article/live-coverage-second-practice-in-qatar-2026.73fYckKHdfedONjDTaSgeH",
   "https://www.formula1.com/en/latest/article/live-coverage-third-practice-in-las-vegas-2026.50OIQwa2hcjUWGKsiu3h5L",
   "https://www.formula1.com/en/latest/article/live-coverage-thursday-build-up-in-qatar-2026.4WEmmZr6fKX8XU6mHM6lN9",
   "https://www.formula1.com/en/latest/article/live-coverage-wednesday-build-up-in-las-vegas-2026.MqDte4ggZDt3kjYNJ0CvS",
@@ -22456,6 +22640,7 @@
   "https://www.gpfans.com/en/f1-news/1093386/red-bull-junior-driver-programme-signing-theophile-nael/",
   "https://www.gpfans.com/en/f1-news/1093392/f1-aston-martin-fernando-alonso-absence-illness-qatar-grand-prix-2026/",
   "https://www.gpfans.com/en/f1-news/1093421/f1-news-today-lewis-hamilton-ferrari-italian-grand-prix-fia-result-change/",
+  "https://www.gpfans.com/en/f1-news/1093454/george-russell-max-verstappen-f1-row-will-buxton-reaction/",
   "https://www.motorsport.com/dakar/news/fernando-alonso-returns-to-dakar-why-his-first-rally-raid-experience-was-a-shock-to-the-system/10875881/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/dakar/news/fernando-alonso-to-return-to-dakar-rally-with-aston-martin-in-2027/10874907/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/2026-f1-las-vegas-grand-prix-starting-grid/10876250/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
@@ -22496,6 +22681,7 @@
   "https://www.motorsport.com/f1/news/fernando-alonso-i-will-quit-f1-when-i-feel-slow-not-at-a-specific-age/10877599/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/fernando-alonso-rules-out-staying-in-f1-for-v8-return-16-years-of-pure-racing-lost/10875410/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/fernando-alonso-to-miss-qatar-f1-media-day-with-viral-illness/10877849/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+  "https://www.motorsport.com/f1/news/fia-confirms-f1-engine-freeze-and-imposes-testing-restrictions-ahead-of-v8-return/10878333/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/fia-filings-reveal-the-lone-rb22-aero-update-behind-max-verstappens-las-vegas-gp-win/10877619/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/fia-to-introduce-full-time-f1-stewards-from-2027-in-bid-to-improve-consistency/10875716/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/final-mercedes-benz-slr-mclaren-stirling-moss-heads-to-auction-for-over-6million/10873978/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
@@ -22750,6 +22936,7 @@
   "https://www.planetf1.com/news/ferrari-f1-2026-mercedes-title-loss-concession",
   "https://www.planetf1.com/news/ferrari-hamilton-leclerc-las-vegas-clash-unacceptable",
   "https://www.planetf1.com/news/ferrari-lewis-hamilton-charles-leclerc-catastrophic-f1-2027-warning",
+  "https://www.planetf1.com/news/fia-audi-yuki-tsunoda-appeal",
   "https://www.planetf1.com/news/fia-carlos-sainz-las-vegas-grand-prix-2026-penalty",
   "https://www.planetf1.com/news/fia-cost-cap-breaches-williams-alpine-statements",
   "https://www.planetf1.com/news/fia-f1-2027-permanent-stewards",

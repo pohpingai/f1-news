@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T06:37:31Z",
+ "updated": "2026-11-27T17:54:01Z",
  "model": "anthropic/claude-haiku-5.5",
  "rumours": [
   {
@@ -66,38 +66,6 @@
      "detail": "First seen: GPFans (2026-11-24)",
      "reason": "No known rumour covers Bearman's contract or future; the closest, the Ferrari 2027 line-up deadlock, is a different claim about seats and the favourite's mood.",
      "card": "Ollie Bearman's future unclear as contract delay continues"
-    }
-   ]
-  },
-  {
-   "id": "r848d9a17",
-   "claim": "Ugo Ugochukwu could reportedly make his F2 debut at the Qatar Grand Prix.",
-   "people": [
-    "Ugo Ugochukwu"
-   ],
-   "status": "Active",
-   "trend": "steady",
-   "first_seen": "2026-11-23T16:18:56Z",
-   "last_seen": "2026-11-23T16:18:56Z",
-   "sources": [
-    {
-     "title": "Ugo Ugochukwu set for imminent F2 debut in Qatar GP announcement",
-     "source": "PlanetF1",
-     "date": "2026-11-23T16:18:56Z",
-     "link": "https://www.planetf1.com/news/ugo-ugochukwu-f2-announcement-qatar"
-    }
-   ],
-   "cards": [
-    "c78148ae9"
-   ],
-   "proof": null,
-   "history": [
-    {
-     "time": "2026-11-24T01:40:00Z",
-     "event": "created",
-     "detail": "First seen: PlanetF1 (2026-11-23)",
-     "reason": "This is a new claim about a future F2 debut and does not match any known rumour.",
-     "card": "Ugo Ugochukwu set for imminent F2 debut at Qatar GP"
     }
    ]
   },
@@ -562,6 +530,66 @@
      "detail": "First seen: The Race (2026-11-14)",
      "reason": "No known rumours are on the list yet, so this cost cap proposal is recorded as a new rumour.",
      "card": "'ADUO for teams' cost cap plan to be discussed by F1"
+    }
+   ]
+  },
+  {
+   "id": "r848d9a17",
+   "claim": "Ugo Ugochukwu could reportedly make his F2 debut at the Qatar Grand Prix.",
+   "people": [
+    "Ugo Ugochukwu"
+   ],
+   "status": "Confirmed",
+   "trend": "steady",
+   "first_seen": "2026-11-23T16:18:56Z",
+   "last_seen": "2026-11-27T17:49:16Z",
+   "sources": [
+    {
+     "title": "Ugo Ugochukwu set for imminent F2 debut in Qatar GP announcement",
+     "source": "PlanetF1",
+     "date": "2026-11-23T16:18:56Z",
+     "link": "https://www.planetf1.com/news/ugo-ugochukwu-f2-announcement-qatar"
+    },
+    {
+     "title": "F3 champion Ugochukwu takes pole on F2 debut in Qatar",
+     "source": "Formula1.com",
+     "date": "2026-11-27T17:49:16Z",
+     "link": "https://www.formula1.com/en/latest/article/f2-formula-3-champion-ugochukwu-takes-pole-position-on-series-debut-in-qatar.1JCyMKDD3cZcIEGj2c9Zfp"
+    }
+   ],
+   "cards": [
+    "c78148ae9",
+    "c10fe2ea9"
+   ],
+   "proof": {
+    "status": "Confirmed",
+    "card": "Ugochukwu takes pole on F2 debut in Qatar",
+    "evidence": "F3 champion Ugochukwu takes pole on F2 debut in Qatar",
+    "reason": "The official Formula1.com report confirms that Ugo Ugochukwu is making his Formula 2 debut in Qatar, which matches the rumour that he could make his F2 debut at the Qatar Grand Prix.",
+    "time": "2026-11-27T17:54:01Z",
+    "links": [
+     {
+      "title": "F3 champion Ugochukwu takes pole on F2 debut in Qatar",
+      "source": "Formula1.com",
+      "date": "2026-11-27T17:49:16Z",
+      "link": "https://www.formula1.com/en/latest/article/f2-formula-3-champion-ugochukwu-takes-pole-position-on-series-debut-in-qatar.1JCyMKDD3cZcIEGj2c9Zfp"
+     }
+    ]
+   },
+   "history": [
+    {
+     "time": "2026-11-24T01:40:00Z",
+     "event": "created",
+     "detail": "First seen: PlanetF1 (2026-11-23)",
+     "reason": "This is a new claim about a future F2 debut and does not match any known rumour.",
+     "card": "Ugo Ugochukwu set for imminent F2 debut at Qatar GP"
+    },
+    {
+     "time": "2026-11-27T17:54:01Z",
+     "event": "confirmed",
+     "detail": "Proof: \"F3 champion Ugochukwu takes pole on F2 debut in Qatar\" (Formula1.com (2026-11-27))",
+     "reason": "The official Formula1.com report confirms that Ugo Ugochukwu is making his Formula 2 debut in Qatar, which matches the rumour that he could make his F2 debut at the Qatar Grand Prix.",
+     "card": "Ugochukwu takes pole on F2 debut in Qatar"
     }
    ]
   },
@@ -1334,6 +1362,12 @@
   "c8deed846": "2|Reported",
   "c2be954b8": "1|Reported",
   "cb44d9266": "1|Reported",
-  "c7c485108": "1|Reported"
+  "c7c485108": "1|Reported",
+  "c2cbf76e7": "2|Confirmed",
+  "c3b4ccbe8": "1|Reported",
+  "cb12f047c": "1|Confirmed",
+  "c10fe2ea9": "1|Confirmed",
+  "c73e40055": "1|Reported",
+  "ceb9c2e92": "2|Confirmed"
  }
 }
