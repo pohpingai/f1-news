@@ -1,7 +1,51 @@
 {
- "updated": "2026-11-28T01:07:30Z",
+ "updated": "2026-11-28T09:49:14Z",
  "model": "anthropic/claude-haiku-5.5",
  "rumours": [
+  {
+   "id": "rfede93e8",
+   "claim": "Hankook reportedly is preparing a bid to become Formula 1's official tyre supplier from 2029.",
+   "people": [
+    "Hankook"
+   ],
+   "status": "Active",
+   "trend": "rising",
+   "first_seen": "2026-11-28T08:00:03Z",
+   "last_seen": "2026-11-28T08:00:44Z",
+   "sources": [
+    {
+     "title": "Hankook poised to enter race for F1 tyre supply contract",
+     "source": "Autosport",
+     "date": "2026-11-28T08:00:03Z",
+     "link": "https://www.autosport.com/f1/news/hankook-poised-to-enter-race-for-f1-tyre-supply-contract/10878399/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk"
+    },
+    {
+     "title": "Hankook tipped to enter race for F1 tyre supply contract",
+     "source": "Motorsport.com",
+     "date": "2026-11-28T08:00:03Z",
+     "link": "https://www.motorsport.com/f1/news/hankook-tipped-to-enter-race-for-f1-tyre-supply-contract/10878383/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www"
+    },
+    {
+     "title": "Hankook's bid for F1 tyre supply - what you need to know",
+     "source": "The Race",
+     "date": "2026-11-28T08:00:44Z",
+     "link": "https://www.the-race.com/formula-1/hankook-emerges-with-serious-f1-tyre-supply-push/"
+    }
+   ],
+   "cards": [
+    "cc23acab9"
+   ],
+   "proof": null,
+   "history": [
+    {
+     "time": "2026-11-28T09:49:14Z",
+     "event": "created",
+     "detail": "First seen: Autosport (2026-11-28); Motorsport.com (2026-11-28); The Race (2026-11-28)",
+     "reason": "No known rumour covers a Hankook bid for the F1 tyre supply contract, so this is a new rumour.",
+     "card": "Hankook reportedly preparing bid for F1 tyre supply contract"
+    }
+   ]
+  },
   {
    "id": "r76d52674",
    "claim": "Lewis Hamilton reportedly is gaining increased influence at Ferrari as his rivalry with Charles Leclerc intensifies.",
@@ -124,7 +168,7 @@
     "Haas"
    ],
    "status": "Active",
-   "trend": "steady",
+   "trend": "fading",
    "first_seen": "2026-11-23T08:44:00Z",
    "last_seen": "2026-11-23T08:44:00Z",
    "sources": [
@@ -548,38 +592,6 @@
    ]
   },
   {
-   "id": "rd12a64b8",
-   "claim": "Sweeping changes to cost cap rules could be discussed at a Formula 1 Commission meeting on Monday, where an 'ADUO for teams' proposal reportedly will be debated.",
-   "people": [
-    "Formula 1 Commission"
-   ],
-   "status": "Active",
-   "trend": "fading",
-   "first_seen": "2026-11-14T08:47:00Z",
-   "last_seen": "2026-11-14T08:47:00Z",
-   "sources": [
-    {
-     "title": "'ADUO for teams' plan to be discussed by F1",
-     "source": "The Race",
-     "date": "2026-11-14T08:47:00Z",
-     "link": "https://www.the-race.com/formula-1/aduo-for-teams-to-be-discussed-by-f1/"
-    }
-   ],
-   "cards": [
-    "c19cd8def"
-   ],
-   "proof": null,
-   "history": [
-    {
-     "time": "2026-11-15T07:57:32Z",
-     "event": "created",
-     "detail": "First seen: The Race (2026-11-14)",
-     "reason": "No known rumours are on the list yet, so this cost cap proposal is recorded as a new rumour.",
-     "card": "'ADUO for teams' cost cap plan to be discussed by F1"
-    }
-   ]
-  },
-  {
    "id": "r848d9a17",
    "claim": "Ugo Ugochukwu could reportedly make his F2 debut at the Qatar Grand Prix.",
    "people": [
@@ -942,6 +954,44 @@
      "detail": "Proof: \"Unanimous Agreement Reached on FIA’s 2030 Formula 1 Power Unit Framework\" (FIA (2026-11-20); Motorsport.com (2026-11-20); Crash.net (2026-11-20); PlanetF1 (2026-11-20); RaceFans (2026-11-20); Autosport (2026-11-20); The Race (2026-11-20); Sky Sports (2026-11-20); Formula1.com (2026-11-21); ESPN (2026-11-21); Motorsport.com (2026-11-20); Crash.net (2026-11-20); RaceFans (2026-11-20); BBC Sport (2026-11-20); ESPN (2026-11-20))",
      "reason": "The official FIA announcement says the key parties, including the teams, unanimously agreed the V8 power unit framework, which matches the rumoured manufacturer backing for the new V8 regulations, although the announcement did not specify Monday.",
      "card": "F1 teams agree in principle to return to V8 engines in 2030"
+    }
+   ]
+  },
+  {
+   "id": "rd12a64b8",
+   "claim": "Sweeping changes to cost cap rules could be discussed at a Formula 1 Commission meeting on Monday, where an 'ADUO for teams' proposal reportedly will be debated.",
+   "people": [
+    "Formula 1 Commission"
+   ],
+   "status": "Faded",
+   "trend": "fading",
+   "first_seen": "2026-11-14T08:47:00Z",
+   "last_seen": "2026-11-14T08:47:00Z",
+   "sources": [
+    {
+     "title": "'ADUO for teams' plan to be discussed by F1",
+     "source": "The Race",
+     "date": "2026-11-14T08:47:00Z",
+     "link": "https://www.the-race.com/formula-1/aduo-for-teams-to-be-discussed-by-f1/"
+    }
+   ],
+   "cards": [
+    "c19cd8def"
+   ],
+   "proof": null,
+   "history": [
+    {
+     "time": "2026-11-15T07:57:32Z",
+     "event": "created",
+     "detail": "First seen: The Race (2026-11-14)",
+     "reason": "No known rumours are on the list yet, so this cost cap proposal is recorded as a new rumour.",
+     "card": "'ADUO for teams' cost cap plan to be discussed by F1"
+    },
+    {
+     "time": "2026-11-28T09:49:14Z",
+     "event": "faded",
+     "detail": "Nothing new for 14 days.",
+     "reason": ""
     }
    ]
   }
@@ -1409,7 +1459,7 @@
   "c2be954b8": "1|Reported",
   "cb44d9266": "1|Reported",
   "c7c485108": "1|Reported",
-  "c2cbf76e7": "4|Confirmed",
+  "c2cbf76e7": "5|Confirmed",
   "c3b4ccbe8": "3|Reported",
   "cb12f047c": "6|Confirmed",
   "c10fe2ea9": "1|Confirmed",
@@ -1435,11 +1485,11 @@
   "c5233bfb0": "1|Confirmed",
   "c63346790": "1|Reported",
   "c33f9469d": "1|Reported",
-  "c5d8b48fd": "2|Reported",
-  "c6a686219": "1|Reported",
+  "c5d8b48fd": "3|Reported",
+  "c6a686219": "2|Reported",
   "c6c8fa886": "1|Reported",
   "c886ec313": "2|Confirmed",
-  "c6b1ebb23": "1|Confirmed",
+  "c6b1ebb23": "2|Confirmed",
   "ca5421596": "1|Reported",
   "ca4862afa": "3|Reported",
   "c24b2e41a": "1|Reported",
@@ -1449,10 +1499,15 @@
   "c0a52dd06": "1|Reported",
   "c853cd40a": "1|Reported",
   "c7925357e": "1|Reported",
-  "c4deafcbf": "1|Reported",
+  "c4deafcbf": "3|Reported",
   "c2d52a83e": "1|Reported",
   "ce7b2140f": "1|Reported",
   "c325ca965": "1|Confirmed",
-  "c61eec9b9": "1|Reported"
+  "c61eec9b9": "1|Reported",
+  "cc23acab9": "3|Rumour",
+  "c57113947": "1|Reported",
+  "cf69232fc": "1|Reported",
+  "caf5e84c1": "1|Reported",
+  "ce68ed84d": "1|Reported"
  }
 }

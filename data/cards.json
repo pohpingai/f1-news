@@ -1,12 +1,399 @@
 {
- "updated": "2026-11-28T01:02:09Z",
+ "updated": "2026-11-28T09:45:20Z",
  "model": "anthropic/claude-haiku-5.5",
  "headline_of_the_day": {
   "date": "2026-11-28",
-  "text": "Mercedes dominated Friday practice in Qatar, with Kimi Antonelli fastest in both sessions ahead of George Russell, while the FIA confirmed Tsunoda's Italian GP result and set engine freeze limits.",
-  "written": "2026-11-28T01:02:09Z"
+  "text": "Antonelli topped both Qatar practice sessions for a dominant Mercedes, while Qatar tyre wear hit 100% in 15 laps and Pirelli reviews its precautions.",
+  "written": "2026-11-28T09:45:20Z"
  },
  "cards": [
+  {
+   "id": "c4deafcbf",
+   "created": "2026-11-28T01:02:09Z",
+   "stories": [
+    {
+     "title": "100% wear in 15 laps - Qatar tyre issue has got even worse",
+     "source": "The Race",
+     "date": "2026-11-27T22:01:09Z",
+     "link": "https://www.the-race.com/formula-1/100-wear-in-15-laps-qatar-tyre-issue-has-got-even-worse/",
+     "snippet": "Pirelli is evaluating if further precautions are needed for the Qatar Grand Prix after Friday practice."
+    },
+    {
+     "title": "100% wear in 15 laps – F1’s tyre challenges in Qatar far more extreme than Pirelli expected",
+     "source": "Motorsport.com",
+     "date": "2026-11-28T08:45:03Z",
+     "link": "https://www.motorsport.com/f1/news/100-wear-in-15-laps-f1s-tyre-challenges-in-qatar-more-extreme-than-pirelli-expected/10878479/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "snippet": "Every year, the Lusail International Circuit represents the biggest challenge on the Formula 1 calendar for its sole tyre supplier, Pirelli. It is precisely for that reason that a maximum stint…"
+    },
+    {
+     "title": "100% wear in 15 laps – F1’s tyre challenges in Qatar far more extreme than Pirelli expected",
+     "source": "Autosport",
+     "date": "2026-11-28T09:11:29Z",
+     "link": "https://www.autosport.com/f1/news/100-wear-in-15-laps-f1s-tyre-challenges-in-qatar-far-more-extreme-than-pirelli-expected/10878519/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+     "snippet": "Every year, the Lusail International Circuit represents the biggest challenge on the Formula 1 calendar for its sole tyre supplier, Pirelli. It is precisely for that reason that a maximum stint…"
+    }
+   ],
+   "merge_reasons": [
+    {
+     "time": "2026-11-28T09:45:20Z",
+     "added": [
+      "https://www.motorsport.com/f1/news/100-wear-in-15-laps-f1s-tyre-challenges-in-qatar-more-extreme-than-pirelli-expected/10878479/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+      "https://www.autosport.com/f1/news/100-wear-in-15-laps-f1s-tyre-challenges-in-qatar-far-more-extreme-than-pirelli-expected/10878519/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk"
+     ],
+     "joined_existing": true,
+     "reason": "The Motorsport.com and Autosport reports describe the same extreme tyre wear at Lusail as the existing The Race story."
+    }
+   ],
+   "title": "Qatar tyre wear reaches 100% in 15 laps; Pirelli reviews precautions",
+   "summary": "Tyres in Qatar reached 100% wear within 15 laps, with coverage describing the challenge as more extreme than Pirelli expected. Pirelli is evaluating whether further precautions are needed for the Grand Prix.",
+   "disagreement": "",
+   "label": "Reported",
+   "updated": "2026-11-28T09:45:20Z"
+  },
+  {
+   "id": "c1bb688f9",
+   "created": "2026-11-28T09:45:20Z",
+   "stories": [
+    {
+     "title": "'I lost all respect' - The Qatar Grand Prix moment which broke Verstappen and Russell's relationship",
+     "source": "GPFans",
+     "date": "2026-11-28T08:59:00Z",
+     "link": "https://www.gpfans.com/en/f1-news/1093461/f1-max-verstappen-george-russell-feud-qatar-grand-prix-2024/",
+     "snippet": "Alright, set the Wayback Machine for the 30th of November, 2024."
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Look-back: the Qatar 2024 moment that broke Verstappen-Russell ties",
+   "summary": "A look back at events of 30 November 2024 that the article says broke the relationship between Max Verstappen and George Russell. It is a history piece rather than current news.",
+   "disagreement": "",
+   "label": "Opinion",
+   "updated": "2026-11-28T09:45:20Z"
+  },
+  {
+   "id": "c6b1ebb23",
+   "created": "2026-11-28T01:02:09Z",
+   "stories": [
+    {
+     "title": "Red Bull fined by FIA after Isack Hadjar incident triggers Qatar GP investigation",
+     "source": "PlanetF1",
+     "date": "2026-11-27T18:32:59Z",
+     "link": "https://www.planetf1.com/news/isack-hadjar-fia-qatar-grand-prix-2026-verdict",
+     "snippet": "The stewards have reached a decision."
+    },
+    {
+     "title": "Red Bull explains Isack Hadjar pit lane incident that led to FIA punishment",
+     "source": "PlanetF1",
+     "date": "2026-11-28T08:53:21Z",
+     "link": "https://www.planetf1.com/news/red-bull-isack-hadjar-pit-lane-incident-fia-punishment-qatar-gp",
+     "snippet": "Isack Hadjar's Red Bull pit lane mishap explained after €30,000 FIA fine..."
+    }
+   ],
+   "merge_reasons": [
+    {
+     "time": "2026-11-28T09:45:20Z",
+     "added": [
+      "https://www.planetf1.com/news/red-bull-isack-hadjar-pit-lane-incident-fia-punishment-qatar-gp"
+     ],
+     "joined_existing": true,
+     "reason": "The PlanetF1 explainer covers the same Hadjar pit lane incident and FIA fine as the existing story."
+    }
+   ],
+   "title": "Red Bull fined by FIA over Hadjar pit lane incident in Qatar",
+   "summary": "The FIA fined Red Bull after an incident involving Isack Hadjar in the pit lane triggered a Qatar Grand Prix investigation. Red Bull has since explained the pit lane mishap that led to the punishment.",
+   "disagreement": "",
+   "label": "Confirmed",
+   "updated": "2026-11-28T09:45:20Z"
+  },
+  {
+   "id": "c6a686219",
+   "created": "2026-11-28T01:02:09Z",
+   "stories": [
+    {
+     "title": "F1 drivers just played Kahoot! on real stewards' decisions",
+     "source": "The Race",
+     "date": "2026-11-26T21:14:24Z",
+     "link": "https://www.the-race.com/formula-1/fia-used-a-game-to-get-f1-drivers-feedback-on-2026-incidents/",
+     "snippet": "F1's annual drivers and stewards' meeting in Qatar took an unusual twist this year"
+    },
+    {
+     "title": "F1 drivers vote on Hamilton vs Leclerc penalties in FIA meeting",
+     "source": "GPFans",
+     "date": "2026-11-28T08:15:00Z",
+     "link": "https://www.gpfans.com/en/f1-news/1093465/f1-drivers-vote-charles-leclerc-lewis-hamilton-ferrari-penalty/",
+     "snippet": "Ever done one of those dreadful forced 'fun' work Zoom quizzes, where you get sent a link to something called 'Kahoot!' and have to tap in your answers to a mobile website that usually works?"
+    }
+   ],
+   "merge_reasons": [
+    {
+     "time": "2026-11-28T09:45:20Z",
+     "added": [
+      "https://www.gpfans.com/en/f1-news/1093465/f1-drivers-vote-charles-leclerc-lewis-hamilton-ferrari-penalty/"
+     ],
+     "joined_existing": true,
+     "reason": "The GPFans report covers the same drivers' and stewards' meeting Kahoot quiz as the existing story."
+    }
+   ],
+   "title": "F1 drivers play Kahoot quiz on real stewards' decisions in Qatar",
+   "summary": "Drivers took part in a Kahoot quiz on real stewards' decisions at the annual drivers and stewards' meeting in Qatar. The GPFans report says the drivers also voted on the Hamilton and Leclerc penalties.",
+   "disagreement": "",
+   "label": "Reported",
+   "updated": "2026-11-28T09:45:20Z"
+  },
+  {
+   "id": "cc23acab9",
+   "created": "2026-11-28T09:45:20Z",
+   "stories": [
+    {
+     "title": "Hankook poised to enter race for F1 tyre supply contract",
+     "source": "Autosport",
+     "date": "2026-11-28T08:00:03Z",
+     "link": "https://www.autosport.com/f1/news/hankook-poised-to-enter-race-for-f1-tyre-supply-contract/10878399/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+     "snippet": "It's another vivid demonstration of Formula 1's ever-growing global reach and popularity that another serious contender has emerged to bid for its exclusive tyre-supply contract. Pirelli took over…"
+    },
+    {
+     "title": "Hankook tipped to enter race for F1 tyre supply contract",
+     "source": "Motorsport.com",
+     "date": "2026-11-28T08:00:03Z",
+     "link": "https://www.motorsport.com/f1/news/hankook-tipped-to-enter-race-for-f1-tyre-supply-contract/10878383/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "snippet": "It's another vivid demonstration of Formula 1's ever-growing global reach and popularity that another serious contender has emerged to bid for its exclusive tyre-supply contract. Pirelli took over…"
+    },
+    {
+     "title": "Hankook's bid for F1 tyre supply - what you need to know",
+     "source": "The Race",
+     "date": "2026-11-28T08:00:44Z",
+     "link": "https://www.the-race.com/formula-1/hankook-emerges-with-serious-f1-tyre-supply-push/",
+     "snippet": "Hankook is preparing a bid to become F1’s official tyre supplier from 2029, The Race has learned. We've got more details on the already advanced programme"
+    }
+   ],
+   "merge_reasons": [
+    {
+     "time": "2026-11-28T09:45:20Z",
+     "added": [
+      "https://www.autosport.com/f1/news/hankook-poised-to-enter-race-for-f1-tyre-supply-contract/10878399/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "https://www.motorsport.com/f1/news/hankook-tipped-to-enter-race-for-f1-tyre-supply-contract/10878383/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+      "https://www.the-race.com/formula-1/hankook-emerges-with-serious-f1-tyre-supply-push/"
+     ],
+     "joined_existing": false,
+     "reason": "Three reports describe the same Hankook bid to become F1's tyre supplier."
+    }
+   ],
+   "title": "Hankook reportedly preparing bid for F1 tyre supply contract",
+   "summary": "Hankook is reportedly preparing a bid to become Formula 1's official tyre supplier from 2029. The reports say it is poised to enter the race for the exclusive contract currently held by Pirelli.",
+   "disagreement": "",
+   "label": "Rumour",
+   "updated": "2026-11-28T09:45:20Z"
+  },
+  {
+   "id": "ce68ed84d",
+   "created": "2026-11-28T09:45:20Z",
+   "stories": [
+    {
+     "title": "Lance Stroll reveals cause of back injury suffered in Qatar practice",
+     "source": "PlanetF1",
+     "date": "2026-11-28T07:38:24Z",
+     "link": "https://www.planetf1.com/news/lance-stroll-lower-back-injury-qatar-grand-prix-practice",
+     "snippet": "\"I'm going to try and work on it and do what I can tonight, but it was bothering me a lot.\""
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Lance Stroll explains back injury suffered in Qatar practice",
+   "summary": "Lance Stroll says his back was bothering him a lot during Qatar practice. He said he would try to work on it that evening.",
+   "disagreement": "",
+   "label": "Reported",
+   "updated": "2026-11-28T09:45:20Z"
+  },
+  {
+   "id": "c2cbf76e7",
+   "created": "2026-11-27T17:49:20Z",
+   "stories": [
+    {
+     "title": "FIA details F1 engine freeze and imposes testing restrictions ahead of V8 return",
+     "source": "Autosport",
+     "date": "2026-11-27T17:14:37Z",
+     "link": "https://www.autosport.com/f1/news/fia-details-f1-engine-freeze-and-imposes-testing-restrictions-ahead-of-v8-return/10878336/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+     "snippet": "Formula 1 manufacturers will no longer be allowed to work on the current generation of power units from mid-2028, the FIA's single-seater director Nikolas Tombazis has revealed in an exclusive…"
+    },
+    {
+     "title": "FIA confirms F1 engine freeze and imposes testing restrictions ahead of V8 return",
+     "source": "Motorsport.com",
+     "date": "2026-11-27T17:15:13Z",
+     "link": "https://www.motorsport.com/f1/news/fia-confirms-f1-engine-freeze-and-imposes-testing-restrictions-ahead-of-v8-return/10878333/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "snippet": "Formula 1 manufacturers will no longer be allowed to work on the current generation of power units from mid-2028, the FIA's single-seater director Nikolas Tombazis has revealed in an exclusive…"
+    },
+    {
+     "title": "F1 engine freeze confirmed as V8 transition plans revealed",
+     "source": "PlanetF1",
+     "date": "2026-11-27T18:25:30Z",
+     "link": "https://www.planetf1.com/news/f1-v8-engines-2028-engine-freeze-laurent-mekies",
+     "snippet": "F1 has agreed when manufacturers must stop developing their current engines, paving the way for the sport's 2030 V8 revolution..."
+    },
+    {
+     "title": "Details of F1 engine freeze ahead of V8 return emerge",
+     "source": "Crash.net",
+     "date": "2026-11-27T19:20:00Z",
+     "link": "https://www.crash.net/f1/news/1111145/1/details-f1-engine-freeze-ahead-v8-return-emerge",
+     "snippet": "The FIA has revealed its plans to restrict power unit development ahead of F1's proposed return to V8 engines in 2030."
+    },
+    {
+     "title": "Formula 1 planning new engine development freeze before 2030 rules change | Formula 1",
+     "source": "RaceFans",
+     "date": "2026-11-28T07:15:08Z",
+     "link": "https://www.racefans.net/2026/11/28/formula-1-planning-new-engine-development-freeze-before-2030-rules-change/",
+     "snippet": "Formula 1 intends to freeze power unit development again before introducing its new engine regulations in 2030."
+    }
+   ],
+   "merge_reasons": [
+    {
+     "time": "2026-11-27T17:49:20Z",
+     "added": [
+      "https://www.autosport.com/f1/news/fia-details-f1-engine-freeze-and-imposes-testing-restrictions-ahead-of-v8-return/10878336/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "https://www.motorsport.com/f1/news/fia-confirms-f1-engine-freeze-and-imposes-testing-restrictions-ahead-of-v8-return/10878333/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www"
+     ],
+     "joined_existing": false,
+     "reason": "The Autosport and Motorsport.com reports both relay the same announcement by Nikolas Tombazis on the engine freeze and testing restrictions."
+    },
+    {
+     "time": "2026-11-28T01:02:09Z",
+     "added": [
+      "https://www.planetf1.com/news/f1-v8-engines-2028-engine-freeze-laurent-mekies",
+      "https://www.crash.net/f1/news/1111145/1/details-f1-engine-freeze-ahead-v8-return-emerge"
+     ],
+     "joined_existing": true,
+     "reason": "Both stories report the same FIA engine freeze and testing restrictions ahead of the V8 engine return."
+    },
+    {
+     "time": "2026-11-28T09:45:20Z",
+     "added": [
+      "https://www.racefans.net/2026/11/28/formula-1-planning-new-engine-development-freeze-before-2030-rules-change/"
+     ],
+     "joined_existing": true,
+     "reason": "The RaceFans report describes the same planned engine development freeze before the 2030 rules change as the existing FIA-related stories."
+    }
+   ],
+   "title": "FIA sets F1 engine freeze and testing limits before V8 return",
+   "summary": "Manufacturers will stop developing the current power units from mid-2028, the FIA's Nikolas Tombazis revealed. Testing restrictions are also being imposed ahead of the 2030 V8 engine regulations.",
+   "disagreement": "",
+   "label": "Confirmed",
+   "updated": "2026-11-28T09:45:20Z"
+  },
+  {
+   "id": "c5d8b48fd",
+   "created": "2026-11-28T01:02:09Z",
+   "stories": [
+    {
+     "title": "Kimi Antonelli teases Nordschleife race with Max Verstappen, but there is one condition",
+     "source": "Motorsport.com",
+     "date": "2026-11-26T20:56:51Z",
+     "link": "https://www.motorsport.com/f1/news/kimi-antonelli-teases-nordschleife-race-with-max-verstappen-but-there-is-one-condition/10878047/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "snippet": "2026 Formula 1 champion Kimi Antonelli says he would love to race alongside four-time champion Max Verstappen at the Nordschleife, but admits he would first have to win the support of Mercedes team…"
+    },
+    {
+     "title": "Kimi Antonelli wants Verstappen as a teammate and asks Mercedes for permission.",
+     "source": "GPFans",
+     "date": "2026-11-27T20:44:00Z",
+     "link": "https://www.gpfans.com/en/f1-news/1093443/f1-news-kimi-antonelli-max-verstappen-team-mate-mercedes/",
+     "snippet": "Newly-crowned F1 champion Kimi Antonelli is open to teaming up with his great rival Max Verstappen for an endurance race at the Nürburgring's Nordschleife circuit."
+    },
+    {
+     "title": "Antonelli makes Verstappen team-mate request as F1 star left furious at Qatar Grand Prix - F1 News Today",
+     "source": "GPFans",
+     "date": "2026-11-28T06:44:00Z",
+     "link": "https://www.gpfans.com/en/f1-news/1093483/f1-news-today-max-verstappen-red-bull-kimi-antonelli-lance-stroll-qatar-grand-prix/",
+     "snippet": "Newly-crowned F1 champion Kimi Antonelli is open to teaming up with his great rival Max Verstappen for an endurance race at the Nürburgring's Nordschleife circuit."
+    }
+   ],
+   "merge_reasons": [
+    {
+     "time": "2026-11-28T09:45:20Z",
+     "added": [
+      "https://www.gpfans.com/en/f1-news/1093483/f1-news-today-max-verstappen-red-bull-kimi-antonelli-lance-stroll-qatar-grand-prix/"
+     ],
+     "joined_existing": true,
+     "reason": "The GPFans report covers the same Antonelli comments about racing Verstappen at the Nordschleife as the existing Motorsport.com story."
+    }
+   ],
+   "title": "Antonelli open to Nordschleife race with Verstappen, if Mercedes agrees",
+   "summary": "Kimi Antonelli says he would love to race alongside Max Verstappen at the Nordschleife. He would first need Mercedes' permission, according to the reports.",
+   "disagreement": "",
+   "label": "Reported",
+   "updated": "2026-11-28T09:45:20Z"
+  },
+  {
+   "id": "caf5e84c1",
+   "created": "2026-11-28T09:45:20Z",
+   "stories": [
+    {
+     "title": "Carlos Sainz calls on FIA to rewrite F1 penalty rules after Qatar driver talks",
+     "source": "PlanetF1",
+     "date": "2026-11-28T06:38:07Z",
+     "link": "https://www.planetf1.com/news/carlos-sainz-fia-rethink-f1-penalty-rules-hamilton",
+     "snippet": "\"Sometimes the penalty is right, other times it is a bit too harsh for the incident.\""
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Sainz calls on FIA to rewrite F1 penalty rules",
+   "summary": "Carlos Sainz says some penalties are right but others are too harsh for the incident. He called on the FIA to rewrite the rules after driver talks in Qatar.",
+   "disagreement": "",
+   "label": "Reported",
+   "updated": "2026-11-28T09:45:20Z"
+  },
+  {
+   "id": "cf69232fc",
+   "created": "2026-11-28T09:45:20Z",
+   "stories": [
+    {
+     "title": "Lewis Hamilton ‘grace and dignity’ as Russell makes new Verstappen claim",
+     "source": "PlanetF1",
+     "date": "2026-11-28T06:01:06Z",
+     "link": "https://www.planetf1.com/news/lewis-hamilton-max-verstappen-attitude-comparison-george-russell",
+     "snippet": "George Russell has brought Lewis Hamilton into it..."
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Russell brings Hamilton into new Verstappen claim",
+   "summary": "George Russell has made a new claim about Max Verstappen that involves Lewis Hamilton. The headline describes Hamilton's response as showing 'grace and dignity'.",
+   "disagreement": "",
+   "label": "Reported",
+   "updated": "2026-11-28T09:45:20Z"
+  },
+  {
+   "id": "c75faf874",
+   "created": "2026-11-28T09:45:20Z",
+   "stories": [
+    {
+     "title": "Mercedes chief threat emerges in telemetry data; Ferrari Qatar GP blow",
+     "source": "PlanetF1",
+     "date": "2026-11-28T04:00:12Z",
+     "link": "https://www.planetf1.com/f1-data/mercedes-red-bull-ferrari-friday-data-f1-2026-qatar-grand-prix",
+     "snippet": "Mercedes will take some stopping in Qatar, but the team most likely to do it is becoming clearer..."
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Telemetry data reveals likely main threat to Mercedes in Qatar",
+   "summary": "Analysis of telemetry data points to which team is most likely to challenge Mercedes at the Qatar Grand Prix. The piece also reports a blow for Ferrari ahead of the race.",
+   "disagreement": "",
+   "label": "Opinion",
+   "updated": "2026-11-28T09:45:20Z"
+  },
+  {
+   "id": "c57113947",
+   "created": "2026-11-28T09:45:20Z",
+   "stories": [
+    {
+     "title": "George Russell drops cryptic hint over where Toto Wolff “stands off the record” on Max Verstappen",
+     "source": "Motorsport.com",
+     "date": "2026-11-28T02:38:16Z",
+     "link": "https://www.motorsport.com/f1/news/george-russell-drops-cryptic-hint-over-where-toto-wolff-stands-off-the-record-on-max-verstappen/10878290/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+     "snippet": "Toto Wolff has spent the past week sounding remarkably unfazed by Formula 1’s fiercest driver feud. George Russell, however, just hinted that Mercedes’ team principal sounds rather different once the…"
+    }
+   ],
+   "merge_reasons": [],
+   "title": "Russell hints Wolff's off-record views on Verstappen differ",
+   "summary": "George Russell hinted that Toto Wolff sounds different off the record about Max Verstappen's feud. Wolff has otherwise appeared unfazed by the rivalry over the past week.",
+   "disagreement": "",
+   "label": "Reported",
+   "updated": "2026-11-28T09:45:20Z"
+  },
   {
    "id": "cb12f047c",
    "created": "2026-11-27T17:49:20Z",
@@ -334,25 +721,6 @@
    "updated": "2026-11-28T01:02:09Z"
   },
   {
-   "id": "c4deafcbf",
-   "created": "2026-11-28T01:02:09Z",
-   "stories": [
-    {
-     "title": "100% wear in 15 laps - Qatar tyre issue has got even worse",
-     "source": "The Race",
-     "date": "2026-11-27T22:01:09Z",
-     "link": "https://www.the-race.com/formula-1/100-wear-in-15-laps-qatar-tyre-issue-has-got-even-worse/",
-     "snippet": "Pirelli is evaluating if further precautions are needed for the Qatar Grand Prix after Friday practice."
-    }
-   ],
-   "merge_reasons": [],
-   "title": "Qatar tyre wear worsens; Pirelli evaluates further precautions",
-   "summary": "Tyre wear in Qatar has got even worse, with 100% wear reported after 15 laps. Pirelli is evaluating whether further precautions are needed after Friday practice.",
-   "disagreement": "",
-   "label": "Reported",
-   "updated": "2026-11-28T01:02:09Z"
-  },
-  {
    "id": "c52b62dd3",
    "created": "2026-11-28T01:02:09Z",
    "stories": [
@@ -467,32 +835,6 @@
    "updated": "2026-11-28T01:02:09Z"
   },
   {
-   "id": "c5d8b48fd",
-   "created": "2026-11-28T01:02:09Z",
-   "stories": [
-    {
-     "title": "Kimi Antonelli teases Nordschleife race with Max Verstappen, but there is one condition",
-     "source": "Motorsport.com",
-     "date": "2026-11-26T20:56:51Z",
-     "link": "https://www.motorsport.com/f1/news/kimi-antonelli-teases-nordschleife-race-with-max-verstappen-but-there-is-one-condition/10878047/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "snippet": "2026 Formula 1 champion Kimi Antonelli says he would love to race alongside four-time champion Max Verstappen at the Nordschleife, but admits he would first have to win the support of Mercedes team…"
-    },
-    {
-     "title": "Kimi Antonelli wants Verstappen as a teammate and asks Mercedes for permission.",
-     "source": "GPFans",
-     "date": "2026-11-27T20:44:00Z",
-     "link": "https://www.gpfans.com/en/f1-news/1093443/f1-news-kimi-antonelli-max-verstappen-team-mate-mercedes/",
-     "snippet": "Newly-crowned F1 champion Kimi Antonelli is open to teaming up with his great rival Max Verstappen for an endurance race at the Nürburgring's Nordschleife circuit."
-    }
-   ],
-   "merge_reasons": [],
-   "title": "Antonelli open to Nordschleife race with Verstappen if Mercedes agrees",
-   "summary": "Kimi Antonelli said he would like to race alongside Max Verstappen at the Nordschleife. He would first need Mercedes team approval.",
-   "disagreement": "",
-   "label": "Reported",
-   "updated": "2026-11-28T01:02:09Z"
-  },
-  {
    "id": "cb04c6fc7",
    "created": "2026-11-28T01:02:09Z",
    "stories": [
@@ -590,65 +932,6 @@
    "merge_reasons": [],
    "title": "FIA reaches decision on Perez over Qatar press conference breach",
    "summary": "The FIA opened an investigation into Sergio Perez over a breach at the Qatar press conference. The stewards have now reached a decision, and Perez's explanation has come to light.",
-   "disagreement": "",
-   "label": "Confirmed",
-   "updated": "2026-11-28T01:02:09Z"
-  },
-  {
-   "id": "c2cbf76e7",
-   "created": "2026-11-27T17:49:20Z",
-   "stories": [
-    {
-     "title": "FIA details F1 engine freeze and imposes testing restrictions ahead of V8 return",
-     "source": "Autosport",
-     "date": "2026-11-27T17:14:37Z",
-     "link": "https://www.autosport.com/f1/news/fia-details-f1-engine-freeze-and-imposes-testing-restrictions-ahead-of-v8-return/10878336/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-     "snippet": "Formula 1 manufacturers will no longer be allowed to work on the current generation of power units from mid-2028, the FIA's single-seater director Nikolas Tombazis has revealed in an exclusive…"
-    },
-    {
-     "title": "FIA confirms F1 engine freeze and imposes testing restrictions ahead of V8 return",
-     "source": "Motorsport.com",
-     "date": "2026-11-27T17:15:13Z",
-     "link": "https://www.motorsport.com/f1/news/fia-confirms-f1-engine-freeze-and-imposes-testing-restrictions-ahead-of-v8-return/10878333/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-     "snippet": "Formula 1 manufacturers will no longer be allowed to work on the current generation of power units from mid-2028, the FIA's single-seater director Nikolas Tombazis has revealed in an exclusive…"
-    },
-    {
-     "title": "F1 engine freeze confirmed as V8 transition plans revealed",
-     "source": "PlanetF1",
-     "date": "2026-11-27T18:25:30Z",
-     "link": "https://www.planetf1.com/news/f1-v8-engines-2028-engine-freeze-laurent-mekies",
-     "snippet": "F1 has agreed when manufacturers must stop developing their current engines, paving the way for the sport's 2030 V8 revolution..."
-    },
-    {
-     "title": "Details of F1 engine freeze ahead of V8 return emerge",
-     "source": "Crash.net",
-     "date": "2026-11-27T19:20:00Z",
-     "link": "https://www.crash.net/f1/news/1111145/1/details-f1-engine-freeze-ahead-v8-return-emerge",
-     "snippet": "The FIA has revealed its plans to restrict power unit development ahead of F1's proposed return to V8 engines in 2030."
-    }
-   ],
-   "merge_reasons": [
-    {
-     "time": "2026-11-27T17:49:20Z",
-     "added": [
-      "https://www.autosport.com/f1/news/fia-details-f1-engine-freeze-and-imposes-testing-restrictions-ahead-of-v8-return/10878336/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "https://www.motorsport.com/f1/news/fia-confirms-f1-engine-freeze-and-imposes-testing-restrictions-ahead-of-v8-return/10878333/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www"
-     ],
-     "joined_existing": false,
-     "reason": "The Autosport and Motorsport.com reports both relay the same announcement by Nikolas Tombazis on the engine freeze and testing restrictions."
-    },
-    {
-     "time": "2026-11-28T01:02:09Z",
-     "added": [
-      "https://www.planetf1.com/news/f1-v8-engines-2028-engine-freeze-laurent-mekies",
-      "https://www.crash.net/f1/news/1111145/1/details-f1-engine-freeze-ahead-v8-return-emerge"
-     ],
-     "joined_existing": true,
-     "reason": "Both stories report the same FIA engine freeze and testing restrictions ahead of the V8 engine return."
-    }
-   ],
-   "title": "FIA sets engine freeze and testing limits ahead of V8 return",
-   "summary": "Manufacturers will no longer be allowed to develop the current power units from mid-2028, according to the FIA's single-seater director Nikolas Tombazis. The FIA has also imposed testing restrictions ahead of the planned return to V8 engines around 2030.",
    "disagreement": "",
    "label": "Confirmed",
    "updated": "2026-11-28T01:02:09Z"
@@ -787,25 +1070,6 @@
    ],
    "title": "Antonelli tops Qatar FP2 after two red flag interruptions",
    "summary": "Kimi Antonelli led the second practice session in Qatar, which was interrupted by two red flags, ahead of George Russell. The FP2 results were published across several outlets.",
-   "disagreement": "",
-   "label": "Confirmed",
-   "updated": "2026-11-28T01:02:09Z"
-  },
-  {
-   "id": "c6b1ebb23",
-   "created": "2026-11-28T01:02:09Z",
-   "stories": [
-    {
-     "title": "Red Bull fined by FIA after Isack Hadjar incident triggers Qatar GP investigation",
-     "source": "PlanetF1",
-     "date": "2026-11-27T18:32:59Z",
-     "link": "https://www.planetf1.com/news/isack-hadjar-fia-qatar-grand-prix-2026-verdict",
-     "snippet": "The stewards have reached a decision."
-    }
-   ],
-   "merge_reasons": [],
-   "title": "Red Bull fined by FIA after Hadjar incident in Qatar",
-   "summary": "The FIA stewards have reached a decision on an incident involving Isack Hadjar that triggered a Qatar Grand Prix investigation. Red Bull has been fined as a result.",
    "disagreement": "",
    "label": "Confirmed",
    "updated": "2026-11-28T01:02:09Z"
@@ -1923,25 +2187,6 @@
    "title": "Leclerc denies having a No 1 clause in his Ferrari contract",
    "summary": "Charles Leclerc has denied suggestions that his Ferrari contract includes a No 1 driver clause. He says he normally does not disclose his contract but wanted to address it.",
    "disagreement": "A report claimed Leclerc has a number one clause in his Ferrari contract, while Leclerc denies it.",
-   "label": "Reported",
-   "updated": "2026-11-28T01:02:09Z"
-  },
-  {
-   "id": "c6a686219",
-   "created": "2026-11-28T01:02:09Z",
-   "stories": [
-    {
-     "title": "F1 drivers just played Kahoot! on real stewards' decisions",
-     "source": "The Race",
-     "date": "2026-11-26T21:14:24Z",
-     "link": "https://www.the-race.com/formula-1/fia-used-a-game-to-get-f1-drivers-feedback-on-2026-incidents/",
-     "snippet": "F1's annual drivers and stewards' meeting in Qatar took an unusual twist this year"
-    }
-   ],
-   "merge_reasons": [],
-   "title": "F1 drivers play Kahoot quiz on real stewards' decisions in Qatar",
-   "summary": "At the annual drivers and stewards' meeting in Qatar, the drivers played a Kahoot quiz on real stewards' decisions. The session took an unusual twist this year.",
-   "disagreement": "",
    "label": "Reported",
    "updated": "2026-11-28T01:02:09Z"
   },
@@ -23792,10 +24037,71 @@
     }
    ],
    "reason": "These are Leclerc's different comments on different aspects of Friday practice, so they were not merged."
+  },
+  {
+   "time": "2026-11-28T09:45:20Z",
+   "items": [
+    {
+     "title": "'I lost all respect' - The Qatar Grand Prix moment which broke Verstappen and Russell's relationship",
+     "source": "GPFans",
+     "link": "https://www.gpfans.com/en/f1-news/1093461/f1-max-verstappen-george-russell-feud-qatar-grand-prix-2024/"
+    },
+    {
+     "card": "ce905dcf6",
+     "title": "Russell stands by his Verstappen criticism, calling remarks amusing"
+    }
+   ],
+   "reason": "The GPFans piece is a history look-back to 2024, while the Russell response is about the recent Las Vegas row."
+  },
+  {
+   "time": "2026-11-28T09:45:20Z",
+   "items": [
+    {
+     "title": "Lewis Hamilton ‘grace and dignity’ as Russell makes new Verstappen claim",
+     "source": "PlanetF1",
+     "link": "https://www.planetf1.com/news/lewis-hamilton-max-verstappen-attitude-comparison-george-russell"
+    },
+    {
+     "card": "ce905dcf6",
+     "title": "Russell stands by his Verstappen criticism, calling remarks amusing"
+    }
+   ],
+   "reason": "Russell's new claim involving Hamilton is a different remark from his earlier response to Verstappen's Las Vegas comments."
+  },
+  {
+   "time": "2026-11-28T09:45:20Z",
+   "items": [
+    {
+     "title": "Lance Stroll reveals cause of back injury suffered in Qatar practice",
+     "source": "PlanetF1",
+     "link": "https://www.planetf1.com/news/lance-stroll-lower-back-injury-qatar-grand-prix-practice"
+    },
+    {
+     "card": "ca5421596",
+     "title": "Lance Stroll vents in untelevised Aston Martin radio at Qatar"
+    }
+   ],
+   "reason": "Stroll's explanation of his back injury is a different story from the untelevised radio outburst in the same practice."
+  },
+  {
+   "time": "2026-11-28T09:45:20Z",
+   "items": [
+    {
+     "title": "Mercedes chief threat emerges in telemetry data; Ferrari Qatar GP blow",
+     "source": "PlanetF1",
+     "link": "https://www.planetf1.com/f1-data/mercedes-red-bull-ferrari-friday-data-f1-2026-qatar-grand-prix"
+    },
+    {
+     "card": "c01286558",
+     "title": "Why Mercedes' early Qatar advantage looks even scarier"
+    }
+   ],
+   "reason": "The PlanetF1 telemetry analysis of the threat to Mercedes is a separate analysis piece from The Race's Mercedes advantage article."
   }
  ],
  "processed": [
   "https://www.autosport.com/dakar/news/alonso-loeb-join-aston-martin-for-2027-dakar-rally/10875003/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+  "https://www.autosport.com/f1/news/100-wear-in-15-laps-f1s-tyre-challenges-in-qatar-far-more-extreme-than-pirelli-expected/10878519/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
   "https://www.autosport.com/f1/news/1980-f1-world-champion-alan-jones-dies-aged-80/10871644/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
   "https://www.autosport.com/f1/news/alonso-to-not-let-age-determine-f1-retirement/10877846/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
   "https://www.autosport.com/f1/news/alonso-wont-stay-for-v8-return-f1-has-lost-16-years-of-pure-racing/10875426/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
@@ -23837,6 +24143,7 @@
   "https://www.autosport.com/f1/news/hamilton-convinced-ferrari-will-figure-it-out/10877979/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
   "https://www.autosport.com/f1/news/hamilton-set-for-new-penalty-will-start-f1-brazilian-gp-from-back-of-grid/10872645/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
   "https://www.autosport.com/f1/news/hamilton-slams-leclerc-for-do-or-die-attitude-after-mexico-gp-clash/10871033/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+  "https://www.autosport.com/f1/news/hankook-poised-to-enter-race-for-f1-tyre-supply-contract/10878399/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
   "https://www.autosport.com/f1/news/herta-qualifies-for-f1-superlicence-as-bottas-remains-bullish-on-2027-seat/10872179/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
   "https://www.autosport.com/f1/news/herta-to-contest-fp1-in-brazil/10871438/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
   "https://www.autosport.com/f1/news/honda-reveals-key-f1-power-unit-change-for-2027/10875538/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
@@ -24534,11 +24841,15 @@
   "https://www.gpfans.com/en/f1-news/1093421/f1-news-today-lewis-hamilton-ferrari-italian-grand-prix-fia-result-change/",
   "https://www.gpfans.com/en/f1-news/1093443/f1-news-kimi-antonelli-max-verstappen-team-mate-mercedes/",
   "https://www.gpfans.com/en/f1-news/1093454/george-russell-max-verstappen-f1-row-will-buxton-reaction/",
+  "https://www.gpfans.com/en/f1-news/1093461/f1-max-verstappen-george-russell-feud-qatar-grand-prix-2024/",
+  "https://www.gpfans.com/en/f1-news/1093465/f1-drivers-vote-charles-leclerc-lewis-hamilton-ferrari-penalty/",
   "https://www.gpfans.com/en/f1-news/1093469/f1-lewis-hamilton-mercedes-nico-rosberg-abu-dhabi-2026-marc-marquez/",
   "https://www.gpfans.com/en/f1-news/1093474/fia-f1-italian-grand-prix-result-protest-audi-announce-final-yuki-tsunoda-appeal/",
   "https://www.gpfans.com/en/f1-news/1093475/lance-stroll-f1-qatar-grand-prix-aston-martin-team-radio-fp1/",
+  "https://www.gpfans.com/en/f1-news/1093483/f1-news-today-max-verstappen-red-bull-kimi-antonelli-lance-stroll-qatar-grand-prix/",
   "https://www.motorsport.com/dakar/news/fernando-alonso-returns-to-dakar-why-his-first-rally-raid-experience-was-a-shock-to-the-system/10875881/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/dakar/news/fernando-alonso-to-return-to-dakar-rally-with-aston-martin-in-2027/10874907/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+  "https://www.motorsport.com/f1/news/100-wear-in-15-laps-f1s-tyre-challenges-in-qatar-more-extreme-than-pirelli-expected/10878479/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/2026-f1-las-vegas-grand-prix-starting-grid/10876250/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/alan-permane-liam-lawson-has-been-a-revelation-as-he-earned-2027-racing-bulls-f1-deal/10875104/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/andrea-stella-wants-mclaren-to-finally-make-peace-with-las-vegas/10873819/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
@@ -24599,6 +24910,7 @@
   "https://www.motorsport.com/f1/news/fred-vasseur-refuses-to-shield-leclerc-over-hamilton-collision-the-decision-of-the-fia-was-quite-cl/10877483/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/future-imperfect-whats-behind-the-abortive-2030-f1-rules-announcement/10875283/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/george-russell-credits-toto-wolffs-loyalty-for-mercedes-f1-title-return-nobody-was-hired-or-fired/10873975/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+  "https://www.motorsport.com/f1/news/george-russell-drops-cryptic-hint-over-where-toto-wolff-stands-off-the-record-on-max-verstappen/10878290/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/george-russell-explains-late-race-crash-in-las-vegas-f1-victory-bid/10876718/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/george-russell-gets-under-max-verstappens-skin-more-than-any-other-driver-says-f1-pundit/10877980/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/george-russell-impressed-by-exceptionally-fast-mclaren-as-rain-delays-lando-norris-floor-test/10875966/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
@@ -24617,6 +24929,7 @@
   "https://www.motorsport.com/f1/news/guether-steiner-warns-oscar-piastris-mclaren-future-could-be-at-risk-after-2027/10874189/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/haas-sticks-with-camara-for-las-vegas-hirakawa-in-for-fp1/10874778/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/hamilton-questions-stewards-consistency-over-unaired-las-vegas-radio-after-10-second-penalty/10876678/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+  "https://www.motorsport.com/f1/news/hankook-tipped-to-enter-race-for-f1-tyre-supply-contract/10878383/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/honda-reveals-key-f1-power-unit-change-for-2027/10875520/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/horner-admits-red-bull-broken-pierre-gasly-and-promoted-drivers-too-soon/10874627/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
   "https://www.motorsport.com/f1/news/horner-explains-why-max-verstappens-abnormal-driving-style-destroys-his-teammates/10874636/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
@@ -24779,6 +25092,7 @@
   "https://www.planetf1.com/alpine/franco-colapinto-alpine-upgrades",
   "https://www.planetf1.com/f1-data/max-verstappen-deployment-f1-2026-las-vegas-grand-prix",
   "https://www.planetf1.com/f1-data/mclaren-las-vegas-gp-2026-fp2-findings",
+  "https://www.planetf1.com/f1-data/mercedes-red-bull-ferrari-friday-data-f1-2026-qatar-grand-prix",
   "https://www.planetf1.com/f1-data/telemetry-ferrari-las-vegas-hamilton-leclerc-clash",
   "https://www.planetf1.com/features/2026-qatar-grand-prix-predictions",
   "https://www.planetf1.com/features/highest-f1-race-wins-totals",
@@ -24807,6 +25121,7 @@
   "https://www.planetf1.com/news/aston-martin-qatar-grand-prix-lance-stroll-honda",
   "https://www.planetf1.com/news/cadillac-f1-engine-plans-gm-2030-v8",
   "https://www.planetf1.com/news/cadillac-las-vegas-grand-prix-2026-livery",
+  "https://www.planetf1.com/news/carlos-sainz-fia-rethink-f1-penalty-rules-hamilton",
   "https://www.planetf1.com/news/carlos-sainz-williams-deficit-f1-2026",
   "https://www.planetf1.com/news/charles-leclerc-ferrari-las-vegas-prospects-revealed",
   "https://www.planetf1.com/news/charles-leclerc-ferrari-number-one-contract-clause",
@@ -24915,6 +25230,7 @@
   "https://www.planetf1.com/news/kimi-antonelli-salary-toto-wolff-mercedes-world-champion-reward",
   "https://www.planetf1.com/news/lance-stroll-honda-deficit-f1-2026-las-vegas-grand-prix",
   "https://www.planetf1.com/news/lance-stroll-honda-power-deficit-las-vegas-warning",
+  "https://www.planetf1.com/news/lance-stroll-lower-back-injury-qatar-grand-prix-practice",
   "https://www.planetf1.com/news/lando-norris-details-mclaren-las-vegas-issue",
   "https://www.planetf1.com/news/lando-norris-f2-team-2027-driver",
   "https://www.planetf1.com/news/lando-norris-las-vegas-gp-rain-warning-pirelli-tyres",
@@ -24947,6 +25263,7 @@
   "https://www.planetf1.com/news/lewis-hamilton-fia-las-vegas-grand-prix-2026-fp1",
   "https://www.planetf1.com/news/lewis-hamilton-las-vegas-gp-penalty-charles-leclerc",
   "https://www.planetf1.com/news/lewis-hamilton-leadership-questioned-max-verstappen-ferrari-solution",
+  "https://www.planetf1.com/news/lewis-hamilton-max-verstappen-attitude-comparison-george-russell",
   "https://www.planetf1.com/news/lews-hamilton-leclerc-ferrari-rules-engagement-debate",
   "https://www.planetf1.com/news/liam-lawson-f1-2028-natural-progression-racing-bulls",
   "https://www.planetf1.com/news/liam-lawson-helmut-marko-nikola-tsolov-racing-bulls",
@@ -25005,6 +25322,7 @@
   "https://www.planetf1.com/news/oscar-piastri-team-radio-las-vegas-gp-mclaren-response",
   "https://www.planetf1.com/news/rafael-camara-haas-qatar-abu-dhabi-f1-2026",
   "https://www.planetf1.com/news/red-bull-f1-2026-turnaround-revealed",
+  "https://www.planetf1.com/news/red-bull-isack-hadjar-pit-lane-incident-fia-punishment-qatar-gp",
   "https://www.planetf1.com/news/red-bull-las-vegas-isack-hadjar-failure-admission",
   "https://www.planetf1.com/news/sergio-perez-valtteri-bottas-cadillac-f1-2027",
   "https://www.planetf1.com/news/the-las-vegas-grand-prix-will-be-streamed-free-in-major-broadcast-change",
@@ -25124,6 +25442,7 @@
   "https://www.racefans.net/2026/11/27/on-this-day-abu-dhabi-grand-prix/",
   "https://www.racefans.net/2026/11/27/social-media-alonso-pays-tribute-to-retiring-moto-gp-champion-marquez/",
   "https://www.racefans.net/2026/11/27/vowles-explains-why-williams-exceeded-f1s-cost-cap-by-627000/",
+  "https://www.racefans.net/2026/11/28/formula-1-planning-new-engine-development-freeze-before-2030-rules-change/",
   "https://www.skysports.com/f1/live-blog/12433/12466779/f1-news-rumours-and-gossip-formula-1-latest-updates-on-teams-driver-transfer-market-and-contracts",
   "https://www.skysports.com/f1/live-blog/12433/13518208/f1-academy-2026-reports-calendar-news-results-standings-and-highlights-for-races-this-season",
   "https://www.skysports.com/f1/live-blog/12433/13613211/f1-las-vegas-gp-live-friday-practice-updates-results-stream-highlights-from-formula-1-race-weekend-in-the-usa",
@@ -25226,6 +25545,7 @@
   "https://www.the-race.com/formula-1/fia-used-a-game-to-get-f1-drivers-feedback-on-2026-incidents/",
   "https://www.the-race.com/formula-1/ford-real-role-in-building-f1-best-engine/",
   "https://www.the-race.com/formula-1/george-russell-denies-pierre-gasly-wet-las-vegas-gp-fp2/",
+  "https://www.the-race.com/formula-1/hankook-emerges-with-serious-f1-tyre-supply-push/",
   "https://www.the-race.com/formula-1/herta-ends-difficult-f2-season-early/",
   "https://www.the-race.com/formula-1/honda-cant-find-alonsos-broken-engine-issue-again/",
   "https://www.the-race.com/formula-1/honda-f1-new-reliability-problem-might-not-cure-before-2026-end/",
