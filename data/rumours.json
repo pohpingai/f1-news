@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T17:54:01Z",
+ "updated": "2026-11-28T01:07:30Z",
  "model": "anthropic/claude-haiku-5.5",
  "rumours": [
   {
@@ -11,10 +11,16 @@
     "Ferrari"
    ],
    "status": "Active",
-   "trend": "steady",
-   "first_seen": "2026-11-27T06:15:00Z",
+   "trend": "rising",
+   "first_seen": "2026-11-26T19:59:00Z",
    "last_seen": "2026-11-27T06:15:00Z",
    "sources": [
+    {
+     "title": "Lewis Hamilton's Ferrari power shift leaves Leclerc facing uncomfortable reality",
+     "source": "GPFans",
+     "date": "2026-11-26T19:59:00Z",
+     "link": "https://www.gpfans.com/en/f1-news/1093389/lewis-hamilton-ferrari-f1-power-shift-charles-leclerc-uncomfortable-reality/"
+    },
     {
      "title": "Lewis Hamilton's Ferrari power shift as FIA court reviews grand prix result - F1 News Today",
      "source": "GPFans",
@@ -33,6 +39,46 @@
      "detail": "First seen: GPFans (2026-11-27)",
      "reason": "This describes a shift in Hamilton's influence at Ferrari, which differs from the known rumours about Ferrari choosing a lead driver (R11) and the deadlocked 2027 line-up (R7).",
      "card": "Hamilton reportedly gaining influence at Ferrari amid Leclerc rivalry"
+    },
+    {
+     "time": "2026-11-28T01:07:30Z",
+     "event": "new sources",
+     "detail": "1 new source(s): GPFans (2026-11-26)",
+     "reason": "This card repeats the known rumour that Lewis Hamilton is gaining increased influence at Ferrari as his rivalry with Charles Leclerc intensifies.",
+     "card": "Hamilton reportedly gaining influence at Ferrari amid Leclerc rivalry"
+    }
+   ]
+  },
+  {
+   "id": "r490dcc8f",
+   "claim": "Ferrari could reportedly have agreed a deal extending Ollie Bearman's contract beyond 2027.",
+   "people": [
+    "Ollie Bearman",
+    "Ferrari"
+   ],
+   "status": "Active",
+   "trend": "steady",
+   "first_seen": "2026-11-26T20:45:00Z",
+   "last_seen": "2026-11-26T20:45:00Z",
+   "sources": [
+    {
+     "title": "Ferrari 'strike up Ollie Bearman deal' after F1 seat confirmed",
+     "source": "GPFans",
+     "date": "2026-11-26T20:45:00Z",
+     "link": "https://www.gpfans.com/en/f1-news/1093407/f1-ollie-bearman-ferrari-new-deal-2028-lewis-hamilton-charles-leclerc-haas/"
+    }
+   ],
+   "cards": [
+    "ca2a23529"
+   ],
+   "proof": null,
+   "history": [
+    {
+     "time": "2026-11-28T01:07:30Z",
+     "event": "created",
+     "detail": "First seen: GPFans (2026-11-26)",
+     "reason": "The known rumour about Bearman's Ferrari future says his contract is delayed and his future unclear, whereas this card claims an agreed extension beyond 2027, which is a different claim.",
+     "card": "Ferrari reportedly agree deal extending Bearman's contract beyond 2027"
     }
    ]
   },
@@ -110,7 +156,7 @@
     "Mercedes"
    ],
    "status": "Active",
-   "trend": "steady",
+   "trend": "fading",
    "first_seen": "2026-11-22T20:26:49Z",
    "last_seen": "2026-11-22T20:32:03Z",
    "sources": [
@@ -1281,7 +1327,7 @@
   "c5c726138": "2|Reported",
   "cb1c7b6b8": "1|Confirmed",
   "c348e484e": "3|Reported",
-  "c4882c359": "2|Reported",
+  "c4882c359": "4|Reported",
   "c2c88022a": "1|Reported",
   "cbbdf3965": "6|Confirmed",
   "ca25c402d": "2|Reported",
@@ -1354,20 +1400,59 @@
   "c2214f844": "1|Reported",
   "c54067b5f": "1|Reported",
   "cbc57a26e": "1|Reported",
-  "ce905dcf6": "1|Reported",
+  "ce905dcf6": "10|Reported",
   "cca7f34fb": "1|Reported",
   "c85707dcd": "1|Reported",
   "cd85caad1": "1|Reported",
-  "cea5567bc": "1|Rumour",
-  "c8deed846": "2|Reported",
+  "cea5567bc": "2|Rumour",
+  "c8deed846": "3|Reported",
   "c2be954b8": "1|Reported",
   "cb44d9266": "1|Reported",
   "c7c485108": "1|Reported",
-  "c2cbf76e7": "2|Confirmed",
-  "c3b4ccbe8": "1|Reported",
-  "cb12f047c": "1|Confirmed",
+  "c2cbf76e7": "4|Confirmed",
+  "c3b4ccbe8": "3|Reported",
+  "cb12f047c": "6|Confirmed",
   "c10fe2ea9": "1|Confirmed",
-  "c73e40055": "1|Reported",
-  "ceb9c2e92": "2|Confirmed"
+  "c73e40055": "8|Confirmed",
+  "ceb9c2e92": "3|Confirmed",
+  "ca2a23529": "1|Rumour",
+  "cfc0f9cca": "1|Reported",
+  "ca8559bde": "2|Reported",
+  "c96ffa2cb": "2|Reported",
+  "cd24b67b0": "1|Reported",
+  "c10b48be5": "4|Confirmed",
+  "c83eae480": "1|Reported",
+  "c8168e7f0": "1|Reported",
+  "c573304b5": "4|Reported",
+  "cf9b42161": "3|Reported",
+  "c6c1faaa7": "4|Reported",
+  "cb70f62e8": "1|Confirmed",
+  "ce80b4860": "1|Reported",
+  "cad3e7c80": "4|Reported",
+  "c05ce06a1": "2|Confirmed",
+  "c6f8e32b1": "1|Reported",
+  "cffccc427": "1|Reported",
+  "c5233bfb0": "1|Confirmed",
+  "c63346790": "1|Reported",
+  "c33f9469d": "1|Reported",
+  "c5d8b48fd": "2|Reported",
+  "c6a686219": "1|Reported",
+  "c6c8fa886": "1|Reported",
+  "c886ec313": "2|Confirmed",
+  "c6b1ebb23": "1|Confirmed",
+  "ca5421596": "1|Reported",
+  "ca4862afa": "3|Reported",
+  "c24b2e41a": "1|Reported",
+  "c45d6dd25": "3|Reported",
+  "c1dabcc8e": "1|Reported",
+  "cb04c6fc7": "1|Reported",
+  "c0a52dd06": "1|Reported",
+  "c853cd40a": "1|Reported",
+  "c7925357e": "1|Reported",
+  "c4deafcbf": "1|Reported",
+  "c2d52a83e": "1|Reported",
+  "ce7b2140f": "1|Reported",
+  "c325ca965": "1|Confirmed",
+  "c61eec9b9": "1|Reported"
  }
 }
